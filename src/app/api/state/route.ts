@@ -7,6 +7,7 @@ import type { SkillScores } from "@/lib/exercise";
 import { z } from "zod";
 
 export const runtime = "nodejs";
+const cloudflarePreview = process.env.CF_PREVIEW === "1";
 
 const updateSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("progress"), lessonId: z.string(), status: z.string(), position: z.string(), percent: z.number().min(0).max(100) }),
@@ -15,12 +16,19 @@ const updateSchema = z.discriminatedUnion("type", [
 ]);
 
 export async function GET() {
+  if (cloudflarePreview) {
+    return NextResponse.json({
+      progress: [],
+      preferences: { englishLevel: "A1", koreanLevel: "beginner", dailyMinutes: 20, vietnameseSupport: false, assistMode: "on-demand", explanationMode: "both", accent: "US" },
+    });
+  }
   return NextResponse.json({ progress: await db.select().from(lessonProgress), preferences: (await db.select().from(userPreferences))[0] });
 }
 
 export async function POST(request: Request) {
   const parsed = updateSchema.safeParse(await request.json());
   if (!parsed.success) return NextResponse.json({ error: "Dữ liệu gửi lên chưa hợp lệ." }, { status: 400 });
+  if (cloudflarePreview) return NextResponse.json({ ok: true, preview: true });
   const value = parsed.data;
   if (value.type === "progress") {
     await db.insert(lessonProgress).values({ lessonId: value.lessonId, status: value.status, position: value.position, percent: value.percent, updatedAt: new Date() })

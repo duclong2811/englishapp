@@ -4,6 +4,7 @@ import { db } from "@/lib/db";
 import { branchingProgress, listeningAttempts, recordingMetadata, shadowingAttempts, voicePreferences } from "@/lib/db/schema";
 
 export const runtime = "nodejs";
+const cloudflarePreview = process.env.CF_PREVIEW === "1";
 
 const payload = z.discriminatedUnion("type", [
   z.object({ type: z.literal("voice-preferences"), usVoiceUri: z.string().nullable(), ukVoiceUri: z.string().nullable(), koVoiceUri: z.string().nullable(), rate: z.number().min(0.5).max(1.25) }),
@@ -16,6 +17,7 @@ const payload = z.discriminatedUnion("type", [
 export async function POST(request: Request) {
   const parsed = payload.safeParse(await request.json());
   if (!parsed.success) return NextResponse.json({ error: "Vui lòng kiểm tra nội dung đã gửi." }, { status: 400 });
+  if (cloudflarePreview) return NextResponse.json({ ok: true, preview: true });
   const value = parsed.data;
   const now = new Date();
   if (value.type === "voice-preferences") await db.insert(voicePreferences).values({ id: 1, ...value }).onConflictDoUpdate({ target: voicePreferences.id, set: value });
