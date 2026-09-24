@@ -1,0 +1,2 @@
+import{describe,expect,it}from"vitest";import{mappedError,RecordingStoreError}from"./indexed-store";
+describe("recording storage errors",()=>{it("maps quota errors",()=>{expect(mappedError(new DOMException("full","QuotaExceededError"))).toMatchObject({code:"quota"})});it("preserves unavailable and blocked errors",()=>{expect(mappedError(new RecordingStoreError("unavailable","no db")).code).toBe("unavailable");expect(mappedError(new RecordingStoreError("blocked","busy")).code).toBe("blocked")})});

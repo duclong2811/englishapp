@@ -1,0 +1,7 @@
+export type DialogueChoice={id:string;text:string;natural:boolean;feedbackKo:string;feedbackVi?:string;nextId?:string;outcome?:string};
+export type DialogueNode={id:string;speaker:string;line:string;promptVi:string;promptKo?:string;choices:DialogueChoice[];requireAttempt?:"written"|"recorded"};
+export type BranchingScenario={id:string;title:string;titleVi:string;startId:string;nodes:DialogueNode[]};
+export type BranchState={nodeId:string;history:Array<{nodeId:string;choiceId:string;natural:boolean}>;outcome?:string;attempt?:string};
+export function startScenario(scenario:BranchingScenario):BranchState{return{nodeId:scenario.startId,history:[]}}
+export function chooseBranch(scenario:BranchingScenario,state:BranchState,choiceId:string):BranchState{const node=scenario.nodes.find(n=>n.id===state.nodeId);if(!node)throw new Error("Dialogue node not found");if(node.requireAttempt&&!state.attempt)throw new Error("Attempt required");const choice=node.choices.find(c=>c.id===choiceId);if(!choice)throw new Error("Dialogue choice not found");return{...state,nodeId:choice.nextId??state.nodeId,history:[...state.history,{nodeId:node.id,choiceId,natural:choice.natural}],outcome:choice.outcome,attempt:undefined}}
+export function retryWeakBranch(scenario:BranchingScenario,state:BranchState){const weak=[...state.history].reverse().find(item=>!item.natural);return weak?{...state,nodeId:weak.nodeId,outcome:undefined,history:state.history.slice(0,state.history.indexOf(weak))}:startScenario(scenario)}

@@ -1,0 +1,6 @@
+import{z}from"zod";
+const lessonMapSchema=z.object({id:z.string(),titleVi:z.string().min(1),titleKo:z.string().min(1),communicativeGoals:z.array(z.string()).min(1),grammar:z.array(z.string()),vocabularyThemes:z.array(z.string()).min(1),pronunciationGoals:z.array(z.string()).min(1),listeningGoals:z.array(z.string()).min(1),speakingGoals:z.array(z.string()).min(1),readingGoals:z.array(z.string()).min(1),writingGoals:z.array(z.string()).min(1),prerequisites:z.array(z.string()),spiralReview:z.array(z.string()),videoSlot:z.object({suggested:z.boolean(),purpose:z.string(),accent:z.enum(["US","UK","mixed"])}),canDo:z.array(z.string()).min(1)});
+const unitMapSchema=z.object({id:z.string(),titleVi:z.string(),titleKo:z.string(),lessons:z.array(lessonMapSchema).min(4).max(6),reviewCheckpoint:z.string(),unitAssessment:z.object({listening:z.string(),speaking:z.string(),writing:z.string(),mastery:z.string()})});
+export const levelMapSchema=z.object({id:z.enum(["A2","B1","B2"]),prerequisiteLevel:z.enum(["A1","A2","B1"]),units:z.array(unitMapSchema),outcome:z.string(),canDo:z.array(z.string()).min(3)});
+export const curriculumMapSchema=z.array(levelMapSchema).length(3);
+export type CurriculumMap=z.infer<typeof curriculumMapSchema>;export type CurriculumMapLesson=z.infer<typeof lessonMapSchema>;

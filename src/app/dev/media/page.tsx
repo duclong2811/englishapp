@@ -1,0 +1,2 @@
+import{notFound}from"next/navigation";import{MediaDiagnostics}from"@/components/MediaDiagnostics";
+export default function MediaDiagnosticsPage(){if(process.env.NODE_ENV!=="development")notFound();return <div className="page"><header className="page-head"><div><span className="eyebrow">DEVELOPMENT ONLY</span><h1>Media diagnostics</h1><p>Kiểm tra capability tại thiết bị hiện tại, không thu thập dữ liệu.</p></div></header><MediaDiagnostics/></div>}

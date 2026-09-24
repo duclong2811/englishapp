@@ -1,0 +1,3 @@
+export type AudioSource={id:string;kind:"local-human"|"wikimedia"|"browser-synthesis";url?:string;speaker?:string;locale:"en-US"|"en-GB"|"ko-KR";license:{name:string;url?:string;attribution?:string};verified:boolean};
+// Curated files can be added only after license and speaker/locale review. Browser synthesis is the current fallback.
+export const audioSources:AudioSource[]=[{id:"browser-en-us",kind:"browser-synthesis",locale:"en-US",license:{name:"Browser-provided synthesized voice"},verified:true},{id:"browser-en-gb",kind:"browser-synthesis",locale:"en-GB",license:{name:"Browser-provided synthesized voice"},verified:true},{id:"browser-ko-kr",kind:"browser-synthesis",locale:"ko-KR",license:{name:"Browser-provided synthesized voice"},verified:true}];

@@ -1,0 +1,1 @@
+import{describe,expect,it}from"vitest";import{viUi}from"./vi";const hangul=/[\uac00-\ud7af]/;describe("registry giao diện tiếng Việt",()=>{it("không chứa Hangul",()=>expect(hangul.test(JSON.stringify(viUi))).toBe(false))});
