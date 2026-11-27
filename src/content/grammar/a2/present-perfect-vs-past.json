@@ -1,0 +1,367 @@
+{
+  "id": "present-perfect-vs-past",
+  "level": "A2",
+  "title": "Hiện tại hoàn thành hay quá khứ đơn?",
+  "summary": "Chọn đúng thì: có thời điểm cụ thể thì dùng quá khứ đơn; trải nghiệm, kết quả đến nay thì dùng hiện tại hoàn thành.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Have]] you ever [[been]] to Hoi An?",
+      "vi": "Bạn đã bao giờ đến Hội An chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, I [[have]]. I [[went]] there last summer.",
+      "vi": "Rồi. Mình đi hè năm ngoái."
+    },
+    {
+      "who": "A",
+      "en": "What [[did]] you [[do]] there?",
+      "vi": "Bạn làm gì ở đó?"
+    },
+    {
+      "who": "B",
+      "en": "I [[made]] lanterns and [[ate]] cao lau.",
+      "vi": "Mình làm đèn lồng và ăn cao lầu."
+    },
+    {
+      "who": "A",
+      "en": "[[I've]] never [[tried]] cao lau.",
+      "vi": "Mình chưa ăn cao lầu bao giờ."
+    },
+    {
+      "who": "B",
+      "en": "You must try it. I [[had]] it every day!",
+      "vi": "Bạn phải thử. Mình ăn hằng ngày luôn!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Thời điểm",
+      "heading": "Có thời điểm cụ thể → quá khứ đơn",
+      "rule": "Câu có **thời điểm đã kết thúc** (yesterday, last week, in 2020, ago, when I was…) → **quá khứ đơn**.",
+      "signals": [
+        "yesterday",
+        "last night",
+        "two days ago",
+        "in 2020",
+        "when I was a child"
+      ],
+      "body": [
+        "Hiện tại hoàn thành **không bao giờ** đi với một thời điểm đã qua. Nếu nói *khi nào*, dùng quá khứ đơn."
+      ],
+      "examples": [
+        {
+          "en": "I [[saw]] her yesterday.",
+          "vi": "Hôm qua tôi gặp cô ấy.",
+          "why": "Yesterday là thời điểm đã qua → quá khứ đơn."
+        },
+        {
+          "en": "We [[moved]] here two years ago.",
+          "vi": "Chúng tôi chuyển đến đây hai năm trước.",
+          "why": "Ago chỉ thời điểm → quá khứ đơn."
+        },
+        {
+          "en": "When [[did]] you [[buy]] that car?",
+          "vi": "Bạn mua chiếc xe đó khi nào?",
+          "why": "Hỏi khi nào → quá khứ đơn, không dùng have."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ my keys last night.",
+        "options": [
+          "lost",
+          "have lost"
+        ],
+        "answer": 0,
+        "explain": "Last night là thời điểm đã qua → lost."
+      }
+    },
+    {
+      "part": "Không nói khi nào",
+      "heading": "Trải nghiệm, kết quả, kéo dài đến nay → hiện tại hoàn thành",
+      "rule": "Không nêu khi nào, quan tâm **kết quả bây giờ** hoặc **trải nghiệm đến nay** → **hiện tại hoàn thành**.",
+      "signals": [
+        "ever",
+        "never",
+        "just",
+        "already",
+        "yet",
+        "for",
+        "since"
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I've lost]] my keys. I can't get in.",
+          "vi": "Tôi làm mất chìa khóa rồi. Tôi không vào nhà được.",
+          "why": "Quan tâm kết quả hiện tại: bây giờ không có chìa."
+        },
+        {
+          "en": "[[She's visited]] Japan three times.",
+          "vi": "Cô ấy đã đến Nhật ba lần.",
+          "why": "Trải nghiệm đến nay, không nói khi nào."
+        },
+        {
+          "en": "[[I've worked]] here since 2020.",
+          "vi": "Tôi làm ở đây từ năm 2020.",
+          "why": "Since: vẫn còn làm đến nay."
+        }
+      ],
+      "check": {
+        "prompt": "Oh no! I ___ my wallet.",
+        "options": [
+          "have lost",
+          "lost"
+        ],
+        "answer": 0,
+        "explain": "Phát hiện kết quả bây giờ, không nói khi nào → have lost."
+      }
+    },
+    {
+      "part": "Hỏi rồi kể",
+      "heading": "Mở đầu bằng hiện tại hoàn thành, kể chi tiết bằng quá khứ đơn",
+      "rule": "Hỏi, nói về trải nghiệm → **hiện tại hoàn thành**; khi kể **chi tiết** (khi nào, ở đâu, thế nào) → chuyển sang **quá khứ đơn**.",
+      "body": [
+        "Đây là cách người bản xứ nói chuyện: *Have you ever…? Yes, I have. I went there in…*"
+      ],
+      "examples": [
+        {
+          "en": "[[I've been]] to Korea. I [[went]] in 2019.",
+          "vi": "Tôi từng đến Hàn Quốc. Tôi đi năm 2019.",
+          "why": "Câu đầu: trải nghiệm. Câu sau có thời điểm → quá khứ đơn."
+        },
+        {
+          "en": "Have you ever broken a bone? Yes, I [[broke]] my arm at school.",
+          "vi": "Bạn đã bao giờ gãy xương chưa? Có, tôi gãy tay hồi đi học.",
+          "why": "Kể chi tiết (at school) → broke."
+        }
+      ],
+      "check": {
+        "prompt": "Have you seen the new film? Yes, I ___ it on Sunday.",
+        "options": [
+          "saw",
+          "have seen"
+        ],
+        "answer": 0,
+        "explain": "Có thời điểm (on Sunday) → saw."
+      }
+    },
+    {
+      "part": "Thời gian chưa hết",
+      "heading": "Today, this week: hai thì đều có thể đúng",
+      "rule": "**today, this week, this year** (chưa hết) → thường dùng **hiện tại hoàn thành**. Khoảng thời gian **đã hết** → **quá khứ đơn**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I've had]] three coffees today.",
+          "vi": "Hôm nay tôi uống ba cốc cà phê rồi.",
+          "why": "Hôm nay chưa hết, có thể uống thêm."
+        },
+        {
+          "en": "I [[had]] three coffees yesterday.",
+          "vi": "Hôm qua tôi uống ba cốc cà phê.",
+          "why": "Hôm qua đã hết → quá khứ đơn."
+        }
+      ],
+      "check": {
+        "prompt": "It's only Wednesday, but I ___ two tests this week.",
+        "options": [
+          "have had",
+          "had"
+        ],
+        "answer": 0,
+        "explain": "Tuần này chưa hết → have had."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I have seen him yesterday.",
+      "right": "I saw him yesterday.",
+      "why": "Yesterday là thời điểm đã qua → quá khứ đơn."
+    },
+    {
+      "wrong": "When have you arrived?",
+      "right": "When did you arrive?",
+      "why": "Hỏi khi nào → quá khứ đơn."
+    },
+    {
+      "wrong": "I have been to Hue in 2021.",
+      "right": "I went to Hue in 2021.",
+      "why": "In 2021 là thời điểm cụ thể → quá khứ đơn."
+    },
+    {
+      "wrong": "Did you ever eat durian?",
+      "right": "Have you ever eaten durian?",
+      "why": "Hỏi trải nghiệm trong đời → Have you ever + V3."
+    },
+    {
+      "wrong": "I have finished university two years ago.",
+      "right": "I finished university two years ago.",
+      "why": "Ago → quá khứ đơn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ to Vung Tau last weekend.",
+      "options": [
+        "went",
+        "have gone",
+        "have been"
+      ],
+      "answer": 0,
+      "explain": "Last weekend là thời điểm đã qua → went."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you ever tried bun cha?",
+      "options": [
+        "Have",
+        "Did",
+        "Do"
+      ],
+      "answer": 0,
+      "explain": "Câu hỏi trải nghiệm với ever → Have."
+    },
+    {
+      "type": "choice",
+      "prompt": "She ___ her leg when she was ten.",
+      "options": [
+        "broke",
+        "has broken"
+      ],
+      "answer": 0,
+      "explain": "When she was ten là thời điểm đã qua → broke."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I've lived here since 2019.",
+        "I've lived here in 2019.",
+        "I live here since 2019."
+      ],
+      "answer": 0,
+      "explain": "Since + mốc → have lived."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ this film. Let's watch something else.",
+      "hint": "see",
+      "answers": [
+        "have seen",
+        "'ve seen"
+      ],
+      "explain": "Kết quả hiện tại: đã xem rồi, không nói khi nào."
+    },
+    {
+      "type": "fill",
+      "prompt": "What time ___ you get up this morning?",
+      "hint": "trợ động từ",
+      "answers": [
+        "did"
+      ],
+      "explain": "Buổi sáng đã qua, hỏi giờ cụ thể → did."
+    },
+    {
+      "type": "fill",
+      "prompt": "My grandparents ___ in 1965.",
+      "hint": "marry",
+      "answers": [
+        "married",
+        "got married"
+      ],
+      "explain": "In 1965 là thời điểm → quá khứ đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ a horse.",
+      "hint": "never ride",
+      "answers": [
+        "have never ridden",
+        "'ve never ridden"
+      ],
+      "explain": "Trải nghiệm trong đời → have never ridden."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ his phone two days ago.",
+      "hint": "lose",
+      "answers": [
+        "lost"
+      ],
+      "explain": "Ago → quá khứ đơn."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn đến Hội An khi nào?",
+      "words": [
+        "When",
+        "did",
+        "you",
+        "go",
+        "to",
+        "Hoi",
+        "An?"
+      ],
+      "explain": "Hỏi khi nào → did."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đã đọc cuốn sách này hai lần.",
+      "words": [
+        "I",
+        "have",
+        "read",
+        "this",
+        "book",
+        "twice."
+      ],
+      "explain": "Trải nghiệm, có số lần → have read."
+    },
+    {
+      "type": "fix",
+      "sentence": "I have met her last Monday.",
+      "answers": [
+        "I met her last Monday."
+      ],
+      "explain": "Last Monday là thời điểm → quá khứ đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "When have you started this job?",
+      "answers": [
+        "When did you start this job?"
+      ],
+      "explain": "Hỏi khi nào → did + nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "Did you ever see a whale?",
+      "answers": [
+        "Have you ever seen a whale?"
+      ],
+      "explain": "Hỏi trải nghiệm → Have you ever + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi gặp anh ấy hai tuần trước.",
+      "answers": [
+        "I met him two weeks ago.",
+        "I saw him two weeks ago."
+      ],
+      "explain": "Ago → quá khứ đơn."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn đã bao giờ đến Huế chưa?",
+      "answers": [
+        "Have you ever been to Hue?",
+        "Have you ever visited Hue?"
+      ],
+      "explain": "Trải nghiệm → Have you ever + V3."
+    }
+  ]
+}
