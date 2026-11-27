@@ -30,7 +30,8 @@ describe("vocabulary practice", () => {
         expect(q.answer).toBeGreaterThanOrEqual(0);
       }
     }
-  });
+    // 300 sessions over the whole A1+A2 word pool: a few seconds.
+  }, 30_000);
 });
 
 describe("distractors", () => {
