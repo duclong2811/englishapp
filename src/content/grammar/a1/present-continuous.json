@@ -1,0 +1,402 @@
+{
+  "id": "present-continuous",
+  "level": "A1",
+  "title": "Thì hiện tại tiếp diễn: I am working",
+  "summary": "Nói việc đang diễn ra lúc này hoặc trong giai đoạn này: am, is, are + V-ing.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Hi! What [[are]] you [[doing]]?",
+      "vi": "Alo! Bạn đang làm gì đấy?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'm cooking]] dinner. My husband [[is watching]] TV.",
+      "vi": "Mình đang nấu bữa tối. Chồng mình đang xem TV."
+    },
+    {
+      "who": "A",
+      "en": "And the kids?",
+      "vi": "Còn bọn trẻ?"
+    },
+    {
+      "who": "B",
+      "en": "[[They're doing]] their homework. Why?",
+      "vi": "Bọn nó đang làm bài tập. Sao thế?"
+    },
+    {
+      "who": "A",
+      "en": "[[It's raining]] here, and [[I'm waiting]] for a bus. Can you pick me up?",
+      "vi": "Ở đây đang mưa, mình đang chờ xe buýt. Bạn đến đón mình được không?"
+    },
+    {
+      "who": "B",
+      "en": "Sure. [[I'm coming]]!",
+      "vi": "Được. Mình đến ngay!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "am, is, are + V-ing",
+      "rule": "Hiện tại tiếp diễn = **am / is / are + động từ thêm -ing**.",
+      "formula": [
+        {
+          "text": "I + [am] + [V-ing]"
+        },
+        {
+          "text": "He / She / It + [is] + [V-ing]"
+        },
+        {
+          "text": "You / We / They + [are] + [V-ing]"
+        }
+      ],
+      "body": [
+        "Tiếng Việt chỉ thêm “đang”: “tôi **đang** ăn”. Tiếng Anh cần **cả hai phần**: be **và** V-ing. Thiếu một phần là sai: không nói “I eating” hay “I am eat”."
+      ],
+      "examples": [
+        {
+          "en": "I [[am reading]] a book.",
+          "vi": "Tôi đang đọc sách.",
+          "why": "I → am + reading."
+        },
+        {
+          "en": "She [[is talking]] on the phone.",
+          "vi": "Cô ấy đang nói chuyện điện thoại.",
+          "why": "She → is + talking."
+        },
+        {
+          "en": "They [[are playing]] football.",
+          "vi": "Họ đang đá bóng.",
+          "why": "They → are + playing."
+        }
+      ],
+      "check": {
+        "prompt": "We ___ dinner now.",
+        "options": [
+          "eating",
+          "are eating",
+          "are eat"
+        ],
+        "answer": 1,
+        "explain": "Cần đủ be + V-ing: are eating."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Khi nào dùng?",
+      "rule": "Việc **đang diễn ra ngay lúc nói**, hoặc **tạm thời** trong giai đoạn này.",
+      "signals": [
+        "now",
+        "right now",
+        "at the moment",
+        "Look!",
+        "Listen!",
+        "today",
+        "this week"
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "Look! It [[is snowing]]!",
+          "vi": "Nhìn kìa! Tuyết đang rơi!",
+          "why": "Look! → đang xảy ra trước mắt."
+        },
+        {
+          "en": "I [[am learning]] English this year.",
+          "vi": "Năm nay tôi đang học tiếng Anh.",
+          "why": "Việc đang diễn ra trong giai đoạn này."
+        },
+        {
+          "en": "Be quiet! The baby [[is sleeping]].",
+          "vi": "Trật tự! Em bé đang ngủ.",
+          "why": "Đang diễn ra lúc nói."
+        }
+      ],
+      "check": {
+        "prompt": "Listen! Someone ___ the piano.",
+        "options": [
+          "plays",
+          "is playing"
+        ],
+        "answer": 1,
+        "explain": "Listen! → đang diễn ra → is playing."
+      }
+    },
+    {
+      "part": "Phủ định, câu hỏi",
+      "heading": "Phủ định và câu hỏi",
+      "rule": "Phủ định: thêm **not** sau be. Câu hỏi: đưa **be lên đầu**.",
+      "formula": [
+        {
+          "label": "Phủ định",
+          "text": "Chủ ngữ + be + [not] + V-ing"
+        },
+        {
+          "label": "Câu hỏi",
+          "text": "[Am / Is / Are] + chủ ngữ + V-ing?"
+        },
+        {
+          "label": "Có từ để hỏi",
+          "text": "Wh- + [be] + chủ ngữ + V-ing?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I'm [[not working]] today.",
+          "vi": "Hôm nay tôi không làm việc.",
+          "why": "Not đứng sau be."
+        },
+        {
+          "en": "[[Is]] it [[raining]]?",
+          "vi": "Trời có đang mưa không?",
+          "why": "Is lên đầu câu."
+        },
+        {
+          "en": "What [[are]] you [[doing]]?",
+          "vi": "Bạn đang làm gì?",
+          "why": "Wh- + are + you + doing."
+        }
+      ],
+      "check": {
+        "prompt": "___ you listening to me?",
+        "options": [
+          "Do",
+          "Are",
+          "Is"
+        ],
+        "answer": 1,
+        "explain": "Câu hỏi tiếp diễn: Are + you + V-ing."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Một số động từ không dùng -ing",
+      "rule": "Động từ chỉ **cảm xúc, suy nghĩ, sở hữu** (like, love, want, know, need, understand, have = có) thường **không** dùng ở thì tiếp diễn.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[want]] some water now.",
+          "vi": "Bây giờ tôi muốn uống nước.",
+          "why": "Có now nhưng want vẫn dùng hiện tại đơn."
+        },
+        {
+          "en": "Do you [[understand]]?",
+          "vi": "Bạn có hiểu không?",
+          "why": "Understand không dùng -ing."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ the answer.",
+        "options": [
+          "know",
+          "am knowing"
+        ],
+        "answer": 0,
+        "explain": "Know chỉ suy nghĩ → không dùng -ing."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I eating now.",
+      "right": "I am eating now.",
+      "why": "Thiếu be."
+    },
+    {
+      "wrong": "She is cook dinner.",
+      "right": "She is cooking dinner.",
+      "why": "Thiếu -ing."
+    },
+    {
+      "wrong": "Are you understand?",
+      "right": "Do you understand?",
+      "why": "Understand không dùng tiếp diễn → hỏi bằng do."
+    },
+    {
+      "wrong": "They is playing.",
+      "right": "They are playing.",
+      "why": "They → are."
+    },
+    {
+      "wrong": "I am wanting a coffee.",
+      "right": "I want a coffee.",
+      "why": "Want không dùng -ing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Look! The bus ___.",
+      "options": [
+        "comes",
+        "is coming"
+      ],
+      "answer": 1,
+      "explain": "Look! → đang xảy ra → is coming."
+    },
+    {
+      "type": "choice",
+      "prompt": "My parents ___ TV right now.",
+      "options": [
+        "watch",
+        "are watching",
+        "is watching"
+      ],
+      "answer": 1,
+      "explain": "Right now; my parents = they → are watching."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ she sleeping?",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "answer": 2,
+      "explain": "Câu hỏi tiếp diễn: Is + she + sleeping."
+    },
+    {
+      "type": "choice",
+      "prompt": "I ___ you.",
+      "options": [
+        "am understanding",
+        "understand"
+      ],
+      "answer": 1,
+      "explain": "Understand không dùng -ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ a book now.",
+      "hint": "read",
+      "answers": [
+        "am reading",
+        "'m reading"
+      ],
+      "explain": "I → am + reading."
+    },
+    {
+      "type": "fill",
+      "prompt": "It ___ at the moment.",
+      "hint": "rain",
+      "answers": [
+        "is raining",
+        "'s raining"
+      ],
+      "explain": "It → is + raining."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ today.",
+      "hint": "not work",
+      "answers": [
+        "are not working",
+        "aren't working",
+        "'re not working"
+      ],
+      "explain": "Phủ định: are not + working."
+    },
+    {
+      "type": "fill",
+      "prompt": "What ___ you doing?",
+      "hint": "be",
+      "answers": [
+        "are"
+      ],
+      "explain": "You → are."
+    },
+    {
+      "type": "fill",
+      "prompt": "She is ___ in the garden.",
+      "hint": "sit",
+      "answers": [
+        "sitting"
+      ],
+      "explain": "Sit → sitting (gấp đôi t)."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn đang làm gì vậy?",
+      "words": [
+        "What",
+        "are",
+        "you",
+        "doing?"
+      ],
+      "explain": "Wh- + are + you + doing."
+    },
+    {
+      "type": "order",
+      "vi": "Bọn trẻ đang chơi trong công viên.",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "in",
+        "the",
+        "park."
+      ],
+      "explain": "The children = they → are playing."
+    },
+    {
+      "type": "fix",
+      "sentence": "He watching TV now.",
+      "answers": [
+        "He is watching TV now.",
+        "He's watching TV now."
+      ],
+      "explain": "Thiếu be: he → is."
+    },
+    {
+      "type": "fix",
+      "sentence": "I am cook dinner.",
+      "answers": [
+        "I am cooking dinner.",
+        "I'm cooking dinner."
+      ],
+      "explain": "Thiếu -ing: cooking."
+    },
+    {
+      "type": "fix",
+      "sentence": "Are you know him?",
+      "answers": [
+        "Do you know him?"
+      ],
+      "explain": "Know không dùng tiếp diễn → Do you know…?"
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi đang nấu ăn.",
+      "answers": [
+        "I am cooking.",
+        "I'm cooking."
+      ],
+      "explain": "I → am + cooking."
+    },
+    {
+      "type": "translate",
+      "vi": "Trời đang mưa.",
+      "answers": [
+        "It is raining.",
+        "It's raining."
+      ],
+      "explain": "It → is + raining."
+    },
+    {
+      "type": "translate",
+      "vi": "Bây giờ họ đang ăn tối.",
+      "answers": [
+        "They are having dinner now.",
+        "They're having dinner now.",
+        "They are eating dinner now.",
+        "They're eating dinner now.",
+        "Now they are having dinner."
+      ],
+      "explain": "They → are + V-ing. “Ăn tối” = have dinner."
+    }
+  ]
+}

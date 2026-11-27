@@ -1,0 +1,351 @@
+{
+  "id": "was-were",
+  "level": "A1",
+  "title": "Was, were: quá khứ của be",
+  "summary": "Nói về trạng thái, nơi chốn trong quá khứ với was, were; phủ định, câu hỏi và cách nói ngày sinh.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Where [[were]] you yesterday? I called you.",
+      "vi": "Hôm qua bạn ở đâu? Mình gọi cho bạn mà."
+    },
+    {
+      "who": "B",
+      "en": "Sorry, I [[was]] at my grandma's house.",
+      "vi": "Xin lỗi, mình ở nhà bà."
+    },
+    {
+      "who": "A",
+      "en": "[[Was]] she OK?",
+      "vi": "Bà có khỏe không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, she [[was]] fine. But the bus [[was]] late, and the roads [[were]] very busy.",
+      "vi": "Bà khỏe. Nhưng xe buýt đến muộn, đường thì rất đông."
+    },
+    {
+      "who": "A",
+      "en": "Oh no. [[Were]] you tired?",
+      "vi": "Ôi. Bạn có mệt không?"
+    },
+    {
+      "who": "B",
+      "en": "A little. But it [[wasn't]] a bad day.",
+      "vi": "Hơi mệt. Nhưng không phải một ngày tồi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Was, were",
+      "heading": "Quá khứ của am, is, are",
+      "rule": "**am, is → was**. **are → were**.",
+      "formula": [
+        {
+          "text": "I / He / She / It + [was]"
+        },
+        {
+          "text": "You / We / They + [were]"
+        }
+      ],
+      "signals": [
+        "yesterday",
+        "last night",
+        "last week",
+        "last year",
+        "two days ago",
+        "in 2020"
+      ],
+      "body": [
+        "Tiếng Việt thêm “đã”, “hôm qua” để nói quá khứ, động từ không đổi. Tiếng Anh **đổi dạng động từ**: *I am tired* (bây giờ) → *I was tired* (lúc trước)."
+      ],
+      "examples": [
+        {
+          "en": "I [[was]] at home last night.",
+          "vi": "Tối qua tôi ở nhà.",
+          "why": "I → was; last night → quá khứ."
+        },
+        {
+          "en": "The film [[was]] great.",
+          "vi": "Bộ phim hay lắm.",
+          "why": "The film = it → was."
+        },
+        {
+          "en": "My parents [[were]] teachers.",
+          "vi": "Bố mẹ tôi từng là giáo viên.",
+          "why": "My parents = they → were."
+        }
+      ],
+      "check": {
+        "prompt": "We ___ in Da Lat last week.",
+        "options": [
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explain": "We → were."
+      }
+    },
+    {
+      "part": "Phủ định, câu hỏi",
+      "heading": "Phủ định và câu hỏi",
+      "rule": "Phủ định: **wasn't, weren't**. Câu hỏi: đưa **was / were lên đầu**.",
+      "formula": [
+        {
+          "label": "Phủ định",
+          "text": "Chủ ngữ + [wasn't / weren't]"
+        },
+        {
+          "label": "Câu hỏi",
+          "text": "[Was / Were] + chủ ngữ + …?"
+        },
+        {
+          "label": "Có từ để hỏi",
+          "text": "Wh- + [was / were] + chủ ngữ?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "It [[wasn't]] expensive.",
+          "vi": "Nó không đắt.",
+          "why": "Phủ định → wasn't."
+        },
+        {
+          "en": "[[Were]] you at work yesterday? No, I [[wasn't]].",
+          "vi": "Hôm qua bạn có đi làm không? Không.",
+          "why": "You → Were; trả lời I wasn't."
+        },
+        {
+          "en": "Where [[was]] your phone?",
+          "vi": "Điện thoại của bạn ở đâu?",
+          "why": "Wh- + was + chủ ngữ."
+        }
+      ],
+      "check": {
+        "prompt": "___ the shops open on Sunday?",
+        "options": [
+          "Was",
+          "Were"
+        ],
+        "answer": 1,
+        "explain": "The shops = they → Were."
+      }
+    },
+    {
+      "part": "Was born",
+      "heading": "Ngày sinh: I was born…",
+      "rule": "Nói ngày sinh, nơi sinh luôn dùng **was / were born**: *I was born in 1990.*",
+      "body": [
+        "Người Việt hay nói “I born in…” hoặc “I am born…”, đều sai. Sinh ra là chuyện đã xảy ra → *was born*."
+      ],
+      "examples": [
+        {
+          "en": "I [[was born]] in Hue.",
+          "vi": "Tôi sinh ra ở Huế.",
+          "why": "Luôn là was born."
+        },
+        {
+          "en": "When [[were]] you [[born]]?",
+          "vi": "Bạn sinh năm nào?",
+          "why": "Câu hỏi: When were you born?"
+        }
+      ],
+      "check": {
+        "prompt": "My son ___ in 2019.",
+        "options": [
+          "born",
+          "was born",
+          "is born"
+        ],
+        "answer": 1,
+        "explain": "Sinh ra → was born."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I am tired yesterday.",
+      "right": "I was tired yesterday.",
+      "why": "Yesterday → quá khứ → was."
+    },
+    {
+      "wrong": "They was at home.",
+      "right": "They were at home.",
+      "why": "They → were."
+    },
+    {
+      "wrong": "I born in 1995.",
+      "right": "I was born in 1995.",
+      "why": "Ngày sinh → was born."
+    },
+    {
+      "wrong": "You were at school?",
+      "right": "Were you at school?",
+      "why": "Câu hỏi đảo were lên đầu."
+    },
+    {
+      "wrong": "She weren't happy.",
+      "right": "She wasn't happy.",
+      "why": "She → wasn't."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ sick last week.",
+      "options": [
+        "am",
+        "was",
+        "were"
+      ],
+      "answer": 1,
+      "explain": "Last week → quá khứ; I → was."
+    },
+    {
+      "type": "choice",
+      "prompt": "My friends ___ at the party.",
+      "options": [
+        "was",
+        "were"
+      ],
+      "answer": 1,
+      "explain": "My friends = they → were."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ it cold yesterday?",
+      "options": [
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explain": "It → Was."
+    },
+    {
+      "type": "choice",
+      "prompt": "Where ___ you born?",
+      "options": [
+        "was",
+        "were"
+      ],
+      "answer": 1,
+      "explain": "You → were."
+    },
+    {
+      "type": "fill",
+      "prompt": "The weather ___ beautiful yesterday.",
+      "hint": "be",
+      "answers": [
+        "was"
+      ],
+      "explain": "The weather = it → was."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ late for class this morning.",
+      "hint": "be",
+      "answers": [
+        "were"
+      ],
+      "explain": "We → were."
+    },
+    {
+      "type": "fill",
+      "prompt": "The hotel ___ cheap. It was very expensive.",
+      "hint": "be, phủ định",
+      "answers": [
+        "wasn't",
+        "was not"
+      ],
+      "explain": "Phủ định, số ít → wasn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "Were your parents at home? No, they ___.",
+      "hint": "trả lời ngắn",
+      "answers": [
+        "weren't",
+        "were not"
+      ],
+      "explain": "They → weren't."
+    },
+    {
+      "type": "fill",
+      "prompt": "My grandfather ___ born in 1950.",
+      "hint": "be",
+      "answers": [
+        "was"
+      ],
+      "explain": "Sinh ra → was born."
+    },
+    {
+      "type": "order",
+      "vi": "Hôm qua bạn ở đâu?",
+      "words": [
+        "Where",
+        "were",
+        "you",
+        "yesterday?"
+      ],
+      "explain": "Wh- + were + you."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi sinh ra ở Hà Nội.",
+      "words": [
+        "I",
+        "was",
+        "born",
+        "in",
+        "Hanoi."
+      ],
+      "explain": "Nơi sinh → was born."
+    },
+    {
+      "type": "fix",
+      "sentence": "They was very happy.",
+      "answers": [
+        "They were very happy."
+      ],
+      "explain": "They → were."
+    },
+    {
+      "type": "fix",
+      "sentence": "I am at home last night.",
+      "answers": [
+        "I was at home last night."
+      ],
+      "explain": "Last night → quá khứ → was."
+    },
+    {
+      "type": "fix",
+      "sentence": "She born in May.",
+      "answers": [
+        "She was born in May."
+      ],
+      "explain": "Sinh ra → was born."
+    },
+    {
+      "type": "translate",
+      "vi": "Hôm qua trời rất nóng.",
+      "answers": [
+        "It was very hot yesterday.",
+        "Yesterday it was very hot.",
+        "Yesterday was very hot."
+      ],
+      "explain": "It → was; yesterday → quá khứ."
+    },
+    {
+      "type": "translate",
+      "vi": "Hôm qua tôi không ở nhà.",
+      "answers": [
+        "I wasn't at home yesterday.",
+        "I was not at home yesterday.",
+        "Yesterday I wasn't at home.",
+        "I wasn't home yesterday."
+      ],
+      "explain": "Quá khứ, phủ định → wasn't."
+    }
+  ]
+}

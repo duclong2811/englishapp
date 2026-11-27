@@ -1,0 +1,379 @@
+{
+  "id": "like-ing",
+  "level": "A1",
+  "title": "Like, love, hate + V-ing",
+  "summary": "Nói thích, ghét làm gì: like, love, enjoy, hate + V-ing, và cách thêm -ing.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What do you [[like doing]] in your free time?",
+      "vi": "Lúc rảnh bạn thích làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "I [[love cooking]]. And I [[enjoy reading]] before bed.",
+      "vi": "Mình mê nấu ăn. Mình cũng thích đọc sách trước khi ngủ."
+    },
+    {
+      "who": "A",
+      "en": "Do you [[like swimming]]?",
+      "vi": "Bạn có thích bơi không?"
+    },
+    {
+      "who": "B",
+      "en": "Not really. I [[hate getting]] up early for the pool.",
+      "vi": "Không lắm. Mình ghét dậy sớm đi bể bơi."
+    },
+    {
+      "who": "A",
+      "en": "Me too! I [[don't mind walking]], but I [[hate running]].",
+      "vi": "Mình cũng thế! Đi bộ thì được, nhưng mình ghét chạy."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Like + V-ing",
+      "heading": "Like, love, enjoy, hate + V-ing",
+      "rule": "Sau **like, love, enjoy, hate, don't mind**, động từ phía sau thêm **-ing**.",
+      "formula": [
+        {
+          "text": "like / love / enjoy / hate + [V-ing]"
+        }
+      ],
+      "body": [
+        "Tiếng Việt nói “tôi thích nấu ăn”, hai động từ đứng cạnh nhau không đổi. Tiếng Anh thì động từ thứ hai phải đổi dạng: *I like cooking*."
+      ],
+      "table": {
+        "head": [
+          "Động từ",
+          "Nghĩa",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "love",
+            "rất thích",
+            "I love dancing."
+          ],
+          [
+            "like",
+            "thích",
+            "I like cooking."
+          ],
+          [
+            "enjoy",
+            "thích thú",
+            "She enjoys reading."
+          ],
+          [
+            "don't mind",
+            "không phiền, cũng được",
+            "I don't mind waiting."
+          ],
+          [
+            "don't like",
+            "không thích",
+            "I don't like running."
+          ],
+          [
+            "hate",
+            "ghét",
+            "He hates shopping."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[like listening]] to music.",
+          "vi": "Tôi thích nghe nhạc.",
+          "why": "Like + listening."
+        },
+        {
+          "en": "My son [[hates doing]] homework.",
+          "vi": "Con trai tôi ghét làm bài tập.",
+          "why": "My son = he → hates; do → doing."
+        },
+        {
+          "en": "We [[enjoy traveling]].",
+          "vi": "Chúng tôi thích đi du lịch.",
+          "why": "Enjoy luôn đi với V-ing, không dùng to."
+        }
+      ],
+      "check": {
+        "prompt": "She enjoys ___ films.",
+        "options": [
+          "watch",
+          "watching",
+          "to watch"
+        ],
+        "answer": 1,
+        "explain": "Enjoy + V-ing."
+      }
+    },
+    {
+      "part": "Thêm -ing",
+      "heading": "Cách thêm -ing",
+      "rule": "Thường **+ing**. Tận cùng **-e** → bỏ e (make → making). Một nguyên âm + một phụ âm cuối → **gấp đôi** phụ âm (swim → swimming).",
+      "body": [],
+      "table": {
+        "head": [
+          "Quy tắc",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Thường: thêm -ing",
+            "read → reading, cook → cooking, play → playing"
+          ],
+          [
+            "Tận cùng -e: bỏ e rồi thêm -ing",
+            "make → making, dance → dancing, write → writing"
+          ],
+          [
+            "Một nguyên âm + một phụ âm cuối: gấp đôi phụ âm",
+            "swim → swimming, run → running, sit → sitting, shop → shopping"
+          ],
+          [
+            "Tận cùng -ie: đổi thành -ying",
+            "lie → lying, die → dying"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I love [[swimming]] in the sea.",
+          "vi": "Tôi thích bơi ở biển.",
+          "why": "Swim: một nguyên âm i + một phụ âm m → gấp đôi m."
+        },
+        {
+          "en": "She likes [[dancing]].",
+          "vi": "Cô ấy thích nhảy.",
+          "why": "Dance tận cùng e → bỏ e."
+        }
+      ],
+      "check": {
+        "prompt": "I love ___ in the sea.",
+        "options": [
+          "swiming",
+          "swimming"
+        ],
+        "answer": 1,
+        "explain": "Swim → gấp đôi m: swimming."
+      }
+    },
+    {
+      "part": "Like hay would like",
+      "heading": "Like doing khác would like to do",
+      "rule": "*I like swimming* = sở thích nói chung. *I'd like to swim* = muốn làm **bây giờ hoặc sắp tới** (học ở bài would like).",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[like dancing]].",
+          "vi": "Tôi thích nhảy.",
+          "why": "Sở thích chung → like + V-ing."
+        },
+        {
+          "en": "I'd [[like to]] dance now.",
+          "vi": "Bây giờ tôi muốn nhảy.",
+          "why": "Mong muốn lúc này → would like + to V."
+        }
+      ],
+      "check": {
+        "prompt": "Câu nào nói về sở thích chung?",
+        "options": [
+          "I like reading.",
+          "I'd like to read now."
+        ],
+        "answer": 0,
+        "explain": "Sở thích chung → like + V-ing."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I like cook.",
+      "right": "I like cooking.",
+      "why": "Sau like dùng V-ing."
+    },
+    {
+      "wrong": "She enjoys to read.",
+      "right": "She enjoys reading.",
+      "why": "Enjoy chỉ đi với V-ing."
+    },
+    {
+      "wrong": "I love swiming.",
+      "right": "I love swimming.",
+      "why": "Swim → gấp đôi m: swimming."
+    },
+    {
+      "wrong": "He likes makeing cakes.",
+      "right": "He likes making cakes.",
+      "why": "Make tận cùng e → bỏ e: making."
+    },
+    {
+      "wrong": "My mother like gardening.",
+      "right": "My mother likes gardening.",
+      "why": "My mother = she → likes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I love ___ to music.",
+      "options": [
+        "listen",
+        "listening"
+      ],
+      "answer": 1,
+      "explain": "Love + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "My dad hates ___ the dishes.",
+      "options": [
+        "do",
+        "doing",
+        "does"
+      ],
+      "answer": 1,
+      "explain": "Hate + V-ing: doing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Do you enjoy ___?",
+      "options": [
+        "travel",
+        "traveling"
+      ],
+      "answer": 1,
+      "explain": "Enjoy + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Cách viết nào đúng?",
+      "options": [
+        "runing",
+        "running",
+        "runeing"
+      ],
+      "answer": 1,
+      "explain": "Run: một nguyên âm + một phụ âm → gấp đôi n: running."
+    },
+    {
+      "type": "fill",
+      "prompt": "She likes ___ pictures.",
+      "hint": "draw",
+      "answers": [
+        "drawing"
+      ],
+      "explain": "Like + V-ing: draw → drawing."
+    },
+    {
+      "type": "fill",
+      "prompt": "We enjoy ___ in the rain.",
+      "hint": "dance",
+      "answers": [
+        "dancing"
+      ],
+      "explain": "Dance tận cùng e → bỏ e: dancing."
+    },
+    {
+      "type": "fill",
+      "prompt": "I don't mind ___ for you.",
+      "hint": "wait",
+      "answers": [
+        "waiting"
+      ],
+      "explain": "Don't mind + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "They love ___ in the sea.",
+      "hint": "swim",
+      "answers": [
+        "swimming"
+      ],
+      "explain": "Swim → swimming (gấp đôi m)."
+    },
+    {
+      "type": "fill",
+      "prompt": "My brother ___ playing video games.",
+      "hint": "love",
+      "answers": [
+        "loves"
+      ],
+      "explain": "My brother = he → loves."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thích nấu ăn cho gia đình.",
+      "words": [
+        "I",
+        "like",
+        "cooking",
+        "for",
+        "my",
+        "family."
+      ],
+      "explain": "Like + cooking."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy ghét dậy sớm.",
+      "words": [
+        "She",
+        "hates",
+        "getting",
+        "up",
+        "early."
+      ],
+      "explain": "Hate + V-ing: getting (gấp đôi t)."
+    },
+    {
+      "type": "fix",
+      "sentence": "I like read books.",
+      "answers": [
+        "I like reading books."
+      ],
+      "explain": "Sau like → V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "He enjoys to play tennis.",
+      "answers": [
+        "He enjoys playing tennis."
+      ],
+      "explain": "Enjoy + V-ing, không dùng to."
+    },
+    {
+      "type": "fix",
+      "sentence": "We love writeing stories.",
+      "answers": [
+        "We love writing stories."
+      ],
+      "explain": "Write tận cùng e → bỏ e: writing."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi thích đi mua sắm.",
+      "answers": [
+        "I like shopping.",
+        "I like going shopping.",
+        "I love shopping.",
+        "I love going shopping."
+      ],
+      "explain": "Like + V-ing; shop → shopping."
+    },
+    {
+      "type": "translate",
+      "vi": "Bố tôi thích xem bóng đá.",
+      "answers": [
+        "My father likes watching football.",
+        "My dad likes watching football.",
+        "My father likes watching soccer.",
+        "My dad likes watching soccer."
+      ],
+      "explain": "My father = he → likes + watching."
+    }
+  ]
+}

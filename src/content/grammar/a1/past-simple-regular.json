@@ -1,0 +1,380 @@
+{
+  "id": "past-simple-regular",
+  "level": "A1",
+  "title": "Quá khứ đơn: động từ có quy tắc",
+  "summary": "Kể việc đã xảy ra và kết thúc: thêm -ed, quy tắc chính tả và cách đọc đuôi -ed.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was your weekend?",
+      "vi": "Cuối tuần của bạn thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "Great! I [[visited]] my parents in Nam Dinh.",
+      "vi": "Tuyệt lắm! Mình về thăm bố mẹ ở Nam Định."
+    },
+    {
+      "who": "A",
+      "en": "Nice! What did you do there?",
+      "vi": "Hay quá! Ở đó bạn làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "I [[cooked]] lunch with my mom, and we [[watched]] an old movie.",
+      "vi": "Mình nấu bữa trưa với mẹ, rồi cả nhà xem một bộ phim cũ."
+    },
+    {
+      "who": "A",
+      "en": "Sounds lovely.",
+      "vi": "Nghe thích quá."
+    },
+    {
+      "who": "B",
+      "en": "Yes. My dad [[played]] the guitar, and we all [[danced]]!",
+      "vi": "Ừ. Bố mình chơi ghi-ta, cả nhà cùng nhảy!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cách dùng",
+      "heading": "Quá khứ đơn dùng khi nào?",
+      "rule": "Việc **đã xảy ra và đã kết thúc** ở một thời điểm trong quá khứ.",
+      "signals": [
+        "yesterday",
+        "last night",
+        "last weekend",
+        "last year",
+        "two days ago",
+        "in 2019",
+        "when I was a child"
+      ],
+      "body": [
+        "Tiếng Việt dùng “đã”, “hôm qua”, còn động từ giữ nguyên. Tiếng Anh **đổi động từ**: *I work* → *I worked*. Có từ chỉ quá khứ như *yesterday* thì động từ **phải** ở quá khứ."
+      ],
+      "examples": [
+        {
+          "en": "I [[worked]] late yesterday.",
+          "vi": "Hôm qua tôi làm việc muộn.",
+          "why": "Yesterday → quá khứ → worked."
+        },
+        {
+          "en": "We [[moved]] to Hanoi in 2019.",
+          "vi": "Chúng tôi chuyển ra Hà Nội năm 2019.",
+          "why": "Năm trong quá khứ → moved."
+        }
+      ],
+      "check": {
+        "prompt": "Last night I ___ TV.",
+        "options": [
+          "watch",
+          "watched"
+        ],
+        "answer": 1,
+        "explain": "Last night → quá khứ → watched."
+      }
+    },
+    {
+      "part": "Thêm -ed",
+      "heading": "Thêm -ed, giống nhau với mọi chủ ngữ",
+      "rule": "Động từ có quy tắc: thêm **-ed**. **Mọi chủ ngữ** dùng cùng một dạng, không có -s.",
+      "formula": [
+        {
+          "text": "I / You / He / She / We / They + [V-ed]"
+        }
+      ],
+      "body": [],
+      "table": {
+        "head": [
+          "Quy tắc",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Thường: thêm -ed",
+            "work → worked, play → played, watch → watched"
+          ],
+          [
+            "Tận cùng -e: chỉ thêm -d",
+            "live → lived, dance → danced, like → liked"
+          ],
+          [
+            "Phụ âm + y: đổi y thành -ied",
+            "study → studied, cry → cried, try → tried"
+          ],
+          [
+            "Nguyên âm + y: thêm -ed",
+            "play → played, stay → stayed"
+          ],
+          [
+            "Một nguyên âm + một phụ âm cuối: gấp đôi",
+            "stop → stopped, plan → planned"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "She [[studied]] English last year.",
+          "vi": "Năm ngoái cô ấy học tiếng Anh.",
+          "why": "Study: phụ âm d + y → studied."
+        },
+        {
+          "en": "The bus [[stopped]] near my house.",
+          "vi": "Xe buýt dừng gần nhà tôi.",
+          "why": "Stop → gấp đôi p: stopped."
+        },
+        {
+          "en": "He [[lived]] in Japan.",
+          "vi": "Anh ấy từng sống ở Nhật.",
+          "why": "Live tận cùng e → chỉ thêm d. Không có -s dù chủ ngữ là he."
+        }
+      ],
+      "check": {
+        "prompt": "My brother ___ in a bank last year.",
+        "options": [
+          "worked",
+          "workeds",
+          "works"
+        ],
+        "answer": 0,
+        "explain": "Quá khứ: mọi chủ ngữ cùng dạng worked."
+      }
+    },
+    {
+      "part": "Đọc -ed",
+      "heading": "Đọc đuôi -ed: /t/, /d/, /ɪd/",
+      "rule": "Đọc **/ɪd/** sau âm t, d (wanted, needed); **/t/** sau âm p, k, s, sh, ch, f (stopped, worked, watched); **/d/** với các âm còn lại (played, lived).",
+      "body": [
+        "Người Việt hay đọc mọi đuôi -ed thành “ét”, hoặc bỏ hẳn. Hãy nhớ: chỉ sau âm t, d mới thêm một âm tiết /ɪd/."
+      ],
+      "table": {
+        "head": [
+          "Cách đọc",
+          "Khi nào",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "/ɪd/",
+            "sau âm t, d",
+            "wanted, needed, visited"
+          ],
+          [
+            "/t/",
+            "sau âm p, k, s, sh, ch, f",
+            "stopped, worked, washed, watched"
+          ],
+          [
+            "/d/",
+            "các âm còn lại",
+            "played, lived, cleaned"
+          ]
+        ]
+      },
+      "examples": [],
+      "check": {
+        "prompt": "Từ nào đọc đuôi /ɪd/?",
+        "options": [
+          "worked",
+          "played",
+          "wanted"
+        ],
+        "answer": 2,
+        "explain": "Want tận cùng âm t → wanted đọc /ɪd/."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Yesterday I work late.",
+      "right": "Yesterday I worked late.",
+      "why": "Yesterday → động từ quá khứ."
+    },
+    {
+      "wrong": "She studyed hard.",
+      "right": "She studied hard.",
+      "why": "Phụ âm + y → ied."
+    },
+    {
+      "wrong": "He stoped the car.",
+      "right": "He stopped the car.",
+      "why": "Stop → gấp đôi p."
+    },
+    {
+      "wrong": "We was watched TV.",
+      "right": "We watched TV.",
+      "why": "Quá khứ đơn của động từ thường không cần was."
+    },
+    {
+      "wrong": "I liveed in Hue.",
+      "right": "I lived in Hue.",
+      "why": "Tận cùng e → chỉ thêm d."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "We ___ football yesterday.",
+      "options": [
+        "play",
+        "played",
+        "plays"
+      ],
+      "answer": 1,
+      "explain": "Yesterday → quá khứ → played."
+    },
+    {
+      "type": "choice",
+      "prompt": "She ___ for the test all night.",
+      "options": [
+        "studyed",
+        "studied"
+      ],
+      "answer": 1,
+      "explain": "Study: phụ âm + y → studied."
+    },
+    {
+      "type": "choice",
+      "prompt": "The taxi ___ in front of the hotel.",
+      "options": [
+        "stoped",
+        "stopped"
+      ],
+      "answer": 1,
+      "explain": "Stop → gấp đôi p: stopped."
+    },
+    {
+      "type": "choice",
+      "prompt": "Từ nào đọc đuôi /t/?",
+      "options": [
+        "lived",
+        "washed",
+        "needed"
+      ],
+      "answer": 1,
+      "explain": "Wash tận cùng âm sh → đọc /t/."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ my grandma last Sunday.",
+      "hint": "visit",
+      "answers": [
+        "visited"
+      ],
+      "explain": "Last Sunday → quá khứ → visited."
+    },
+    {
+      "type": "fill",
+      "prompt": "They ___ in Da Nang for five years.",
+      "hint": "live",
+      "answers": [
+        "lived"
+      ],
+      "explain": "Live tận cùng e → thêm d."
+    },
+    {
+      "type": "fill",
+      "prompt": "The baby ___ all night.",
+      "hint": "cry",
+      "answers": [
+        "cried"
+      ],
+      "explain": "Cry: phụ âm + y → cried."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ a trip to Hue last month.",
+      "hint": "plan",
+      "answers": [
+        "planned"
+      ],
+      "explain": "Plan → gấp đôi n: planned."
+    },
+    {
+      "type": "fill",
+      "prompt": "My dad ___ the car yesterday.",
+      "hint": "wash",
+      "answers": [
+        "washed"
+      ],
+      "explain": "Yesterday → washed."
+    },
+    {
+      "type": "order",
+      "vi": "Hôm qua tôi dọn phòng.",
+      "words": [
+        "I",
+        "cleaned",
+        "my",
+        "room",
+        "yesterday."
+      ],
+      "alternatives": [
+        "Yesterday I cleaned my room."
+      ],
+      "explain": "Yesterday → cleaned."
+    },
+    {
+      "type": "order",
+      "vi": "Tối qua cô ấy gọi cho tôi.",
+      "words": [
+        "She",
+        "called",
+        "me",
+        "last",
+        "night."
+      ],
+      "alternatives": [
+        "Last night she called me."
+      ],
+      "explain": "Last night → called."
+    },
+    {
+      "type": "fix",
+      "sentence": "Last year I study in Japan.",
+      "answers": [
+        "Last year I studied in Japan.",
+        "I studied in Japan last year."
+      ],
+      "explain": "Last year → studied."
+    },
+    {
+      "type": "fix",
+      "sentence": "He watchs TV last night.",
+      "answers": [
+        "He watched TV last night."
+      ],
+      "explain": "Last night → watched (quá khứ không có -s)."
+    },
+    {
+      "type": "fix",
+      "sentence": "We was danced at the party.",
+      "answers": [
+        "We danced at the party."
+      ],
+      "explain": "Bỏ was: quá khứ đơn chỉ cần danced."
+    },
+    {
+      "type": "translate",
+      "vi": "Tối qua chúng tôi xem một bộ phim.",
+      "answers": [
+        "We watched a movie last night.",
+        "We watched a film last night.",
+        "Last night we watched a movie.",
+        "Last night we watched a film."
+      ],
+      "explain": "Last night → watched."
+    },
+    {
+      "type": "translate",
+      "vi": "Năm 2020 anh ấy làm việc ở ngân hàng.",
+      "answers": [
+        "He worked in a bank in 2020.",
+        "He worked at a bank in 2020.",
+        "In 2020 he worked in a bank.",
+        "In 2020 he worked at a bank."
+      ],
+      "explain": "Năm trong quá khứ → worked."
+    }
+  ]
+}

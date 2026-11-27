@@ -1,0 +1,434 @@
+{
+  "id": "past-simple-irregular",
+  "level": "A1",
+  "title": "Quá khứ đơn: động từ bất quy tắc",
+  "summary": "Những động từ quá khứ không thêm -ed (go → went, have → had…), học theo nhóm cho dễ nhớ, và cách kể chuyện.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was your holiday?",
+      "vi": "Kỳ nghỉ của bạn thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "Great! We [[went]] to Phu Quoc.",
+      "vi": "Tuyệt lắm! Bọn mình đi Phú Quốc."
+    },
+    {
+      "who": "A",
+      "en": "Lucky you! What did you do there?",
+      "vi": "Sướng thế! Ở đó bạn làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "We [[swam]] every day, and we [[ate]] a lot of seafood.",
+      "vi": "Ngày nào cũng bơi, ăn rất nhiều hải sản."
+    },
+    {
+      "who": "A",
+      "en": "Did you take photos?",
+      "vi": "Có chụp ảnh không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, I [[took]] hundreds! And I [[bought]] a gift for you.",
+      "vi": "Có, mình chụp cả trăm tấm! Mình còn mua quà cho bạn nữa."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Bất quy tắc",
+      "heading": "Động từ bất quy tắc",
+      "rule": "Nhiều động từ thông dụng **không thêm -ed** mà có dạng quá khứ riêng. Phải **học thuộc**, nhưng khoảng 30 từ là đủ cho phần lớn câu nói hằng ngày.",
+      "body": [
+        "Giống động từ có quy tắc, **mọi chủ ngữ** dùng cùng một dạng: *I went, she went, they went*."
+      ],
+      "table": {
+        "head": [
+          "Nguyên mẫu",
+          "Quá khứ",
+          "Nghĩa"
+        ],
+        "rows": [
+          [
+            "go",
+            "went",
+            "đi"
+          ],
+          [
+            "have",
+            "had",
+            "có, ăn"
+          ],
+          [
+            "do",
+            "did",
+            "làm"
+          ],
+          [
+            "make",
+            "made",
+            "làm, chế tạo"
+          ],
+          [
+            "get",
+            "got",
+            "nhận, đến"
+          ],
+          [
+            "see",
+            "saw",
+            "thấy"
+          ],
+          [
+            "come",
+            "came",
+            "đến"
+          ],
+          [
+            "take",
+            "took",
+            "lấy, mang"
+          ],
+          [
+            "eat",
+            "ate",
+            "ăn"
+          ],
+          [
+            "buy",
+            "bought",
+            "mua"
+          ],
+          [
+            "say",
+            "said",
+            "nói"
+          ],
+          [
+            "give",
+            "gave",
+            "cho"
+          ],
+          [
+            "find",
+            "found",
+            "tìm thấy"
+          ],
+          [
+            "meet",
+            "met",
+            "gặp"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[went]] to school by bike.",
+          "vi": "Tôi đi học bằng xe đạp.",
+          "why": "Go → went, không phải goed."
+        },
+        {
+          "en": "She [[had]] a cold last week.",
+          "vi": "Tuần trước cô ấy bị cảm.",
+          "why": "Have → had."
+        },
+        {
+          "en": "We [[saw]] a great film.",
+          "vi": "Chúng tôi đã xem một bộ phim hay.",
+          "why": "See → saw."
+        }
+      ],
+      "check": {
+        "prompt": "Last summer we ___ to Nha Trang.",
+        "options": [
+          "goed",
+          "went"
+        ],
+        "answer": 1,
+        "explain": "Go là bất quy tắc: go → went."
+      }
+    },
+    {
+      "part": "Nhóm dễ nhớ",
+      "heading": "Học theo nhóm cho dễ nhớ",
+      "rule": "Học theo **nhóm có âm giống nhau** nhớ nhanh hơn học từng từ lẻ.",
+      "body": [],
+      "table": {
+        "head": [
+          "Nhóm",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Đổi i thành a",
+            "drink → drank, swim → swam, sing → sang, begin → began"
+          ],
+          [
+            "Kết thúc -ought, -aught",
+            "buy → bought, bring → brought, think → thought, teach → taught"
+          ],
+          [
+            "Đổi thành o",
+            "write → wrote, ride → rode, drive → drove"
+          ],
+          [
+            "Giữ nguyên",
+            "put → put, cut → cut, read → read (đọc như “red”)"
+          ],
+          [
+            "Hoàn toàn khác",
+            "go → went, be → was / were, eat → ate"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "She [[sang]] a beautiful song.",
+          "vi": "Cô ấy hát một bài rất hay.",
+          "why": "Sing → sang (đổi i thành a)."
+        },
+        {
+          "en": "My dad [[taught]] me to swim.",
+          "vi": "Bố dạy tôi bơi.",
+          "why": "Teach → taught."
+        },
+        {
+          "en": "He [[drove]] to Hue.",
+          "vi": "Anh ấy lái xe ra Huế.",
+          "why": "Drive → drove."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ a letter to my friend.",
+        "options": [
+          "writed",
+          "wrote"
+        ],
+        "answer": 1,
+        "explain": "Write → wrote."
+      }
+    },
+    {
+      "part": "Kể chuyện",
+      "heading": "Kể lại chuyện đã xảy ra",
+      "rule": "Kể chuyện: **mọi** hành động đều ở quá khứ, nối bằng *and, then, after that*.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[got]] up at six, [[had]] breakfast, then [[went]] to work.",
+          "vi": "Tôi dậy lúc sáu giờ, ăn sáng, rồi đi làm.",
+          "why": "Ba hành động trong quá khứ → cả ba động từ đều ở quá khứ."
+        },
+        {
+          "en": "We [[met]] at a cafe and [[talked]] for hours.",
+          "vi": "Chúng tôi gặp nhau ở quán cà phê và nói chuyện hàng giờ.",
+          "why": "Meet → met (bất quy tắc); talk → talked (có quy tắc)."
+        }
+      ],
+      "check": {
+        "prompt": "Yesterday I got up and ___ a shower.",
+        "options": [
+          "take",
+          "took"
+        ],
+        "answer": 1,
+        "explain": "Kể chuyện quá khứ → mọi động từ đều quá khứ: took."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I goed to the market.",
+      "right": "I went to the market.",
+      "why": "Go → went."
+    },
+    {
+      "wrong": "She buyed a dress.",
+      "right": "She bought a dress.",
+      "why": "Buy → bought."
+    },
+    {
+      "wrong": "We eated pizza.",
+      "right": "We ate pizza.",
+      "why": "Eat → ate."
+    },
+    {
+      "wrong": "Yesterday I see a movie.",
+      "right": "Yesterday I saw a movie.",
+      "why": "Yesterday → see → saw."
+    },
+    {
+      "wrong": "He haved a car.",
+      "right": "He had a car.",
+      "why": "Have → had."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ a new phone last week.",
+      "options": [
+        "buyed",
+        "bought"
+      ],
+      "answer": 1,
+      "explain": "Buy → bought."
+    },
+    {
+      "type": "choice",
+      "prompt": "We ___ dinner at a nice restaurant.",
+      "options": [
+        "had",
+        "haved",
+        "have"
+      ],
+      "answer": 0,
+      "explain": "Have → had."
+    },
+    {
+      "type": "choice",
+      "prompt": "She ___ me a gift for my birthday.",
+      "options": [
+        "gave",
+        "gived"
+      ],
+      "answer": 0,
+      "explain": "Give → gave."
+    },
+    {
+      "type": "choice",
+      "prompt": "They ___ home late last night.",
+      "options": [
+        "come",
+        "came"
+      ],
+      "answer": 1,
+      "explain": "Last night → come → came."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ my keys under the sofa.",
+      "hint": "find",
+      "answers": [
+        "found"
+      ],
+      "explain": "Find → found."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ a lot of photos in Da Lat.",
+      "hint": "take",
+      "answers": [
+        "took"
+      ],
+      "explain": "Take → took."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ two glasses of milk.",
+      "hint": "drink",
+      "answers": [
+        "drank"
+      ],
+      "explain": "Drink → drank (đổi i thành a)."
+    },
+    {
+      "type": "fill",
+      "prompt": "My mother ___ me how to cook.",
+      "hint": "teach",
+      "answers": [
+        "taught"
+      ],
+      "explain": "Teach → taught."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ him at the station yesterday.",
+      "hint": "see",
+      "answers": [
+        "saw"
+      ],
+      "explain": "See → saw."
+    },
+    {
+      "type": "order",
+      "vi": "Mùa hè năm ngoái chúng tôi đi biển.",
+      "words": [
+        "We",
+        "went",
+        "to",
+        "the",
+        "beach",
+        "last",
+        "summer."
+      ],
+      "alternatives": [
+        "Last summer we went to the beach."
+      ],
+      "explain": "Go → went."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy làm một chiếc bánh cho tôi.",
+      "words": [
+        "She",
+        "made",
+        "a",
+        "cake",
+        "for",
+        "me."
+      ],
+      "explain": "Make → made."
+    },
+    {
+      "type": "fix",
+      "sentence": "I eated too much last night.",
+      "answers": [
+        "I ate too much last night."
+      ],
+      "explain": "Eat → ate."
+    },
+    {
+      "type": "fix",
+      "sentence": "He goed to work by taxi.",
+      "answers": [
+        "He went to work by taxi."
+      ],
+      "explain": "Go → went."
+    },
+    {
+      "type": "fix",
+      "sentence": "Yesterday she buy some fruit.",
+      "answers": [
+        "Yesterday she bought some fruit.",
+        "She bought some fruit yesterday."
+      ],
+      "explain": "Yesterday → buy → bought."
+    },
+    {
+      "type": "translate",
+      "vi": "Hôm qua tôi gặp cô ấy.",
+      "answers": [
+        "I met her yesterday.",
+        "I saw her yesterday.",
+        "Yesterday I met her.",
+        "Yesterday I saw her."
+      ],
+      "explain": "Meet → met; see → saw."
+    },
+    {
+      "type": "translate",
+      "vi": "Sáng nay chúng tôi đã ăn phở.",
+      "answers": [
+        "We ate pho this morning.",
+        "We had pho this morning.",
+        "This morning we ate pho.",
+        "This morning we had pho.",
+        "We had pho for breakfast this morning.",
+        "We ate pho for breakfast this morning."
+      ],
+      "explain": "Việc đã xong (sáng nay, đã ăn) → quá khứ: eat → ate, hoặc have → had."
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "id": "simple-vs-continuous",
+  "level": "A1",
+  "title": "Hiện tại đơn hay hiện tại tiếp diễn?",
+  "summary": "Phân biệt việc thường làm (I work) với việc đang làm lúc này (I am working), việc lâu dài với việc tạm thời.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What do you [[do]], Hoa?",
+      "vi": "Hoa làm nghề gì vậy?"
+    },
+    {
+      "who": "B",
+      "en": "I [[teach]] English at a high school.",
+      "vi": "Mình dạy tiếng Anh ở một trường cấp ba."
+    },
+    {
+      "who": "A",
+      "en": "And what [[are]] you [[doing]] now?",
+      "vi": "Còn bây giờ bạn đang làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'm marking]] tests. I usually [[mark]] them on Sundays.",
+      "vi": "Mình đang chấm bài kiểm tra. Mình thường chấm vào Chủ nhật."
+    },
+    {
+      "who": "A",
+      "en": "Do you [[work]] on weekends?",
+      "vi": "Bạn có làm vào cuối tuần không?"
+    },
+    {
+      "who": "B",
+      "en": "Not usually, but this month [[I'm working]] every Saturday.",
+      "vi": "Thường thì không, nhưng tháng này mình làm mỗi thứ Bảy."
+    }
+  ],
+  "sections": [
+    {
+      "part": "So sánh",
+      "heading": "Thường làm hay đang làm?",
+      "rule": "**Hiện tại đơn**: thói quen, sự thật, việc lâu dài. **Hiện tại tiếp diễn**: việc **đang** diễn ra lúc nói, hoặc tạm thời.",
+      "body": [],
+      "table": {
+        "head": [
+          "Hiện tại đơn",
+          "Hiện tại tiếp diễn"
+        ],
+        "rows": [
+          [
+            "I work in a bank.",
+            "I am working now."
+          ],
+          [
+            "She usually drinks tea.",
+            "She is drinking coffee today."
+          ],
+          [
+            "He lives in Hue.",
+            "He is staying with friends this week."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[drink]] coffee every morning.",
+          "vi": "Sáng nào tôi cũng uống cà phê.",
+          "why": "Thói quen hằng ngày → hiện tại đơn."
+        },
+        {
+          "en": "[[I'm drinking]] tea right now.",
+          "vi": "Bây giờ tôi đang uống trà.",
+          "why": "Đang diễn ra lúc nói → tiếp diễn."
+        }
+      ],
+      "check": {
+        "prompt": "She usually ___ to work by bus.",
+        "options": [
+          "goes",
+          "is going"
+        ],
+        "answer": 0,
+        "explain": "Usually → thói quen → hiện tại đơn."
+      }
+    },
+    {
+      "part": "Lâu dài, tạm thời",
+      "heading": "Lâu dài hay tạm thời?",
+      "rule": "Việc **lâu dài** → hiện tại đơn (*I live in Hanoi*). Việc **tạm thời** trong giai đoạn này → tiếp diễn (*I'm staying with my aunt this month*).",
+      "body": [],
+      "examples": [
+        {
+          "en": "My brother [[lives]] in Da Nang.",
+          "vi": "Anh tôi sống ở Đà Nẵng.",
+          "why": "Nơi ở lâu dài → hiện tại đơn."
+        },
+        {
+          "en": "He [[is staying]] in a hotel this week.",
+          "vi": "Tuần này anh ấy ở khách sạn.",
+          "why": "Chỉ tạm thời trong tuần này → tiếp diễn."
+        }
+      ],
+      "check": {
+        "prompt": "This month I ___ at night. (chỉ tháng này thôi)",
+        "options": [
+          "work",
+          "am working"
+        ],
+        "answer": 1,
+        "explain": "Tạm thời (this month) → tiếp diễn."
+      }
+    },
+    {
+      "part": "Dấu hiệu",
+      "heading": "Nhìn dấu hiệu để chọn",
+      "rule": "*every day, usually, often, always, never* → hiện tại đơn. *now, at the moment, Look!, Listen!, today, this week* → tiếp diễn.",
+      "body": [
+        "Nhớ thêm: *like, love, want, know, need, understand* gần như luôn dùng hiện tại đơn, kể cả khi có *now*."
+      ],
+      "table": {
+        "head": [
+          "Hiện tại đơn",
+          "Hiện tại tiếp diễn"
+        ],
+        "rows": [
+          [
+            "every day",
+            "now, right now"
+          ],
+          [
+            "usually, often",
+            "at the moment"
+          ],
+          [
+            "always, never",
+            "Look! Listen!"
+          ],
+          [
+            "on Mondays",
+            "today, this week"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Listen! The baby [[is crying]].",
+          "vi": "Nghe kìa! Em bé đang khóc.",
+          "why": "Listen! → tiếp diễn."
+        },
+        {
+          "en": "Babies often [[cry]] at night.",
+          "vi": "Trẻ sơ sinh hay khóc đêm.",
+          "why": "Often → hiện tại đơn."
+        },
+        {
+          "en": "I [[need]] help now!",
+          "vi": "Tôi cần giúp đỡ ngay!",
+          "why": "Need không dùng -ing, dù có now."
+        }
+      ],
+      "check": {
+        "prompt": "Look! The children ___ in the rain.",
+        "options": [
+          "play",
+          "are playing"
+        ],
+        "answer": 1,
+        "explain": "Look! → tiếp diễn."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I am usually going to work at seven.",
+      "right": "I usually go to work at seven.",
+      "why": "Usually → thói quen → hiện tại đơn."
+    },
+    {
+      "wrong": "Look! It snows!",
+      "right": "Look! It's snowing!",
+      "why": "Look! → đang xảy ra → tiếp diễn."
+    },
+    {
+      "wrong": "She is liking chocolate.",
+      "right": "She likes chocolate.",
+      "why": "Like không dùng -ing."
+    },
+    {
+      "wrong": "What do you do now? (hỏi việc đang làm)",
+      "right": "What are you doing now?",
+      "why": "Hỏi việc đang làm → tiếp diễn. What do you do? là hỏi nghề."
+    },
+    {
+      "wrong": "Water is boiling at 100 degrees. (nói sự thật)",
+      "right": "Water boils at 100 degrees.",
+      "why": "Sự thật luôn đúng → hiện tại đơn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ to the gym every Monday.",
+      "options": [
+        "go",
+        "am going"
+      ],
+      "answer": 0,
+      "explain": "Every Monday → thói quen → hiện tại đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "Shh! The baby ___.",
+      "options": [
+        "sleeps",
+        "is sleeping"
+      ],
+      "answer": 1,
+      "explain": "Shh! → đang ngủ lúc này → tiếp diễn."
+    },
+    {
+      "type": "choice",
+      "prompt": "My dad ___ in a hospital. He's a doctor.",
+      "options": [
+        "works",
+        "is working"
+      ],
+      "answer": 0,
+      "explain": "Nghề nghiệp lâu dài → hiện tại đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's Mai? She ___ a shower.",
+      "options": [
+        "has",
+        "is having"
+      ],
+      "answer": 1,
+      "explain": "Đang làm lúc này → tiếp diễn."
+    },
+    {
+      "type": "choice",
+      "prompt": "I ___ what you mean.",
+      "options": [
+        "know",
+        "am knowing"
+      ],
+      "answer": 0,
+      "explain": "Know không dùng -ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "What ___ you do? I'm a nurse.",
+      "options": [
+        "do",
+        "are"
+      ],
+      "answer": 0,
+      "explain": "Hỏi nghề → What do you do?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Water ___ at 100 degrees.",
+      "hint": "boil",
+      "answers": [
+        "boils"
+      ],
+      "explain": "Sự thật → hiện tại đơn; water = it → boils."
+    },
+    {
+      "type": "fill",
+      "prompt": "Look! Those people ___.",
+      "hint": "dance",
+      "answers": [
+        "are dancing",
+        "'re dancing"
+      ],
+      "explain": "Look! → tiếp diễn; those people = they → are dancing."
+    },
+    {
+      "type": "fill",
+      "prompt": "She usually ___ tea, but today she is drinking coffee.",
+      "hint": "drink",
+      "answers": [
+        "drinks"
+      ],
+      "explain": "Usually → hiện tại đơn; she → drinks."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ in a hotel this week.",
+      "hint": "stay",
+      "answers": [
+        "are staying",
+        "'re staying"
+      ],
+      "explain": "Tạm thời (this week) → tiếp diễn."
+    },
+    {
+      "type": "order",
+      "vi": "Bây giờ tôi đang học tiếng Anh.",
+      "words": [
+        "I",
+        "am",
+        "studying",
+        "English",
+        "now."
+      ],
+      "alternatives": [
+        "Now I am studying English."
+      ],
+      "explain": "Now → tiếp diễn."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thường đi ngủ lúc mười giờ.",
+      "words": [
+        "I",
+        "usually",
+        "go",
+        "to",
+        "bed",
+        "at",
+        "ten."
+      ],
+      "explain": "Usually → hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "I am usually walking to work.",
+      "answers": [
+        "I usually walk to work."
+      ],
+      "explain": "Usually → thói quen → hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "Listen! Somebody sings.",
+      "answers": [
+        "Listen! Somebody is singing.",
+        "Listen! Somebody's singing."
+      ],
+      "explain": "Listen! → đang xảy ra → tiếp diễn."
+    },
+    {
+      "type": "fix",
+      "sentence": "He is wanting a new phone.",
+      "answers": [
+        "He wants a new phone."
+      ],
+      "explain": "Want không dùng -ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Mẹ tôi làm y tá.",
+      "answers": [
+        "My mother is a nurse.",
+        "My mother works as a nurse.",
+        "My mom is a nurse.",
+        "My mum is a nurse.",
+        "My mom works as a nurse."
+      ],
+      "explain": "Nghề lâu dài → hiện tại đơn."
+    },
+    {
+      "type": "translate",
+      "vi": "Mẹ tôi đang nấu ăn trong bếp.",
+      "answers": [
+        "My mother is cooking in the kitchen.",
+        "My mom is cooking in the kitchen.",
+        "My mum is cooking in the kitchen."
+      ],
+      "explain": "Đang diễn ra → tiếp diễn."
+    }
+  ]
+}
