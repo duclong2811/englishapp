@@ -1,0 +1,362 @@
+{
+  "id": "object-pronouns",
+  "level": "A1",
+  "title": "Me, him, her, us, them",
+  "summary": "I hay me, he hay him? Đại từ đứng sau động từ và giới từ, và câu trả lời ngắn “Me too”.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Do you know Minh and Lan?",
+      "vi": "Bạn có biết Minh và Lan không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, I know [[them]]. Minh works with [[me]].",
+      "vi": "Có, mình biết họ. Minh làm cùng mình."
+    },
+    {
+      "who": "A",
+      "en": "Can you give [[him]] this book? It's from [[us]].",
+      "vi": "Bạn đưa cuốn sách này cho anh ấy được không? Quà của bọn mình."
+    },
+    {
+      "who": "B",
+      "en": "Sure. And Lan?",
+      "vi": "Được. Còn Lan?"
+    },
+    {
+      "who": "A",
+      "en": "I call [[her]] every week. I miss [[her]]!",
+      "vi": "Tuần nào mình cũng gọi cho cô ấy. Nhớ cô ấy lắm!"
+    },
+    {
+      "who": "B",
+      "en": "Let's visit [[them]] together on Sunday.",
+      "vi": "Chủ nhật mình cùng đến thăm họ nhé."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Chủ ngữ, tân ngữ",
+      "heading": "I hay me? He hay him?",
+      "rule": "Đứng **trước** động từ (chủ ngữ) → I, he, she… Đứng **sau** động từ hoặc giới từ (tân ngữ) → **me, him, her, us, them**.",
+      "body": [
+        "Tiếng Việt dùng một từ cho cả hai chỗ: “**Tôi** thích cô ấy” và “Cô ấy thích **tôi**”. Tiếng Anh đổi dạng theo vị trí: *I like her* / *She likes me*."
+      ],
+      "table": {
+        "head": [
+          "Chủ ngữ",
+          "Tân ngữ",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "I",
+            "me",
+            "She loves me."
+          ],
+          [
+            "you",
+            "you",
+            "I miss you."
+          ],
+          [
+            "he",
+            "him",
+            "Call him."
+          ],
+          [
+            "she",
+            "her",
+            "I know her."
+          ],
+          [
+            "it",
+            "it",
+            "I like it."
+          ],
+          [
+            "we",
+            "us",
+            "Help us!"
+          ],
+          [
+            "they",
+            "them",
+            "Look at them."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[She]] loves [[him]].",
+          "vi": "Cô ấy yêu anh ấy.",
+          "why": "She đứng trước động từ (chủ ngữ); him đứng sau động từ (tân ngữ)."
+        },
+        {
+          "en": "[[He]] loves [[her]].",
+          "vi": "Anh ấy yêu cô ấy.",
+          "why": "Đổi chỗ thì đổi dạng: he làm chủ ngữ, her làm tân ngữ."
+        },
+        {
+          "en": "Can you help [[us]]?",
+          "vi": "Bạn giúp chúng tôi được không?",
+          "why": "Sau động từ help → us, không phải we."
+        }
+      ],
+      "check": {
+        "prompt": "My parents love ___.",
+        "options": [
+          "I",
+          "me",
+          "my"
+        ],
+        "answer": 1,
+        "explain": "Sau động từ love → tân ngữ me."
+      }
+    },
+    {
+      "part": "Sau giới từ",
+      "heading": "Sau giới từ cũng dùng me, him…",
+      "rule": "Sau **with, for, to, at, about, from…** luôn dùng tân ngữ: *with me, for her, to them*.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Come with [[me]]!",
+          "vi": "Đi với tôi!",
+          "why": "Sau with → me."
+        },
+        {
+          "en": "This gift is for [[you]].",
+          "vi": "Món quà này là cho bạn.",
+          "why": "Sau for → you."
+        },
+        {
+          "en": "Look at [[them]]!",
+          "vi": "Nhìn họ kìa!",
+          "why": "Sau at → them."
+        }
+      ],
+      "check": {
+        "prompt": "Do you want to come with ___?",
+        "options": [
+          "we",
+          "us",
+          "our"
+        ],
+        "answer": 1,
+        "explain": "Sau giới từ with → us."
+      }
+    },
+    {
+      "part": "Me too",
+      "heading": "Trả lời ngắn: Me too!",
+      "rule": "Trả lời chỉ bằng một từ, người bản xứ dùng tân ngữ: *Who wants tea? Me!* / *I'm hungry. Me too!*",
+      "body": [],
+      "examples": [
+        {
+          "en": "Who's there? It's [[me]].",
+          "vi": "Ai đấy? Tôi đây.",
+          "why": "Trả lời ngắn → me."
+        },
+        {
+          "en": "I love pho. [[Me]] too!",
+          "vi": "Mình thích phở. Mình cũng thế!",
+          "why": "Me too = tôi cũng vậy."
+        }
+      ],
+      "check": {
+        "prompt": "I'm tired. ___ too!",
+        "options": [
+          "I",
+          "Me"
+        ],
+        "answer": 1,
+        "explain": "Câu trả lời ngắn → Me too."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She loves I.",
+      "right": "She loves me.",
+      "why": "Sau động từ → me."
+    },
+    {
+      "wrong": "Me am a student.",
+      "right": "I am a student.",
+      "why": "Chủ ngữ → I."
+    },
+    {
+      "wrong": "I call she every day.",
+      "right": "I call her every day.",
+      "why": "Sau động từ call → her."
+    },
+    {
+      "wrong": "Come with we!",
+      "right": "Come with us!",
+      "why": "Sau giới từ with → us."
+    },
+    {
+      "wrong": "I know they.",
+      "right": "I know them.",
+      "why": "Sau động từ → them."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Can you help ___?",
+      "options": [
+        "I",
+        "me",
+        "my"
+      ],
+      "answer": 1,
+      "explain": "Sau động từ help → me."
+    },
+    {
+      "type": "choice",
+      "prompt": "I like Mai. I often talk to ___.",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "answer": 1,
+      "explain": "Sau giới từ to → her."
+    },
+    {
+      "type": "choice",
+      "prompt": "Where are my keys? I can't find ___.",
+      "options": [
+        "it",
+        "them",
+        "they"
+      ],
+      "answer": 1,
+      "explain": "Keys là số nhiều → them."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ live in Hue.",
+      "options": [
+        "We",
+        "Us"
+      ],
+      "answer": 0,
+      "explain": "Đứng đầu câu làm chủ ngữ → We."
+    },
+    {
+      "type": "choice",
+      "prompt": "This is Tom. Do you know ___?",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "answer": 1,
+      "explain": "Sau động từ know → him."
+    },
+    {
+      "type": "fill",
+      "prompt": "My grandparents are kind. I visit ___ every Sunday.",
+      "hint": "họ",
+      "answers": [
+        "them"
+      ],
+      "explain": "Sau động từ visit → them."
+    },
+    {
+      "type": "fill",
+      "prompt": "This phone is new. I love ___!",
+      "hint": "nó",
+      "answers": [
+        "it"
+      ],
+      "explain": "Sau động từ love → it."
+    },
+    {
+      "type": "fill",
+      "prompt": "Please call ___ tomorrow.",
+      "hint": "tôi",
+      "answers": [
+        "me"
+      ],
+      "explain": "Sau động từ call → me."
+    },
+    {
+      "type": "fill",
+      "prompt": "We have a gift for ___.",
+      "hint": "bạn",
+      "answers": [
+        "you"
+      ],
+      "explain": "Sau giới từ for → you."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy gọi cho tôi mỗi ngày.",
+      "words": [
+        "She",
+        "calls",
+        "me",
+        "every",
+        "day."
+      ],
+      "explain": "She làm chủ ngữ; me làm tân ngữ sau calls."
+    },
+    {
+      "type": "order",
+      "vi": "Chúng tôi nhớ họ.",
+      "words": [
+        "We",
+        "miss",
+        "them."
+      ],
+      "explain": "We làm chủ ngữ; them đứng sau động từ miss."
+    },
+    {
+      "type": "fix",
+      "sentence": "My teacher helps I with homework.",
+      "answers": [
+        "My teacher helps me with homework.",
+        "My teacher helps me with my homework."
+      ],
+      "explain": "Sau động từ helps → me."
+    },
+    {
+      "type": "fix",
+      "sentence": "Him is my brother.",
+      "answers": [
+        "He is my brother.",
+        "He's my brother."
+      ],
+      "explain": "Đứng đầu làm chủ ngữ → He."
+    },
+    {
+      "type": "fix",
+      "sentence": "Can you come with we?",
+      "answers": [
+        "Can you come with us?"
+      ],
+      "explain": "Sau giới từ with → us."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi yêu cô ấy.",
+      "answers": [
+        "I love her."
+      ],
+      "explain": "Her là tân ngữ sau love."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn có biết anh ấy không?",
+      "answers": [
+        "Do you know him?"
+      ],
+      "explain": "Sau động từ know → him."
+    }
+  ]
+}

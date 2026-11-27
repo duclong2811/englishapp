@@ -1,0 +1,402 @@
+{
+  "id": "prepositions-place",
+  "level": "A1",
+  "title": "Giới từ chỉ nơi chốn: in, on, under…",
+  "summary": "Nói đồ vật, con người ở đâu: in, on, under, next to, between, in front of, behind; và in, on, at với địa điểm.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Where are my keys? I can't find them.",
+      "vi": "Chìa khóa của em đâu rồi? Em không tìm thấy."
+    },
+    {
+      "who": "B",
+      "en": "Are they [[on]] the table?",
+      "vi": "Có phải ở trên bàn không?"
+    },
+    {
+      "who": "A",
+      "en": "No. They aren't [[in]] my bag either.",
+      "vi": "Không. Cũng không có trong túi em."
+    },
+    {
+      "who": "B",
+      "en": "Look [[under]] the sofa. The cat likes to play with keys.",
+      "vi": "Nhìn dưới gầm sofa xem. Con mèo thích nghịch chìa khóa."
+    },
+    {
+      "who": "A",
+      "en": "Not there. Oh wait, they're [[next to]] the TV!",
+      "vi": "Không có. Ơ khoan, nó ở cạnh cái TV!"
+    },
+    {
+      "who": "B",
+      "en": "Good. And your phone is [[behind]] the lamp.",
+      "vi": "Tốt. Còn điện thoại của em ở sau cái đèn đấy."
+    }
+  ],
+  "sections": [
+    {
+      "part": "In, on, under",
+      "heading": "In, on, under",
+      "rule": "**in** = ở trong; **on** = ở trên, chạm vào bề mặt; **under** = ở dưới.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The milk is [[in]] the fridge.",
+          "vi": "Sữa ở trong tủ lạnh.",
+          "why": "Bên trong một không gian → in."
+        },
+        {
+          "en": "Your phone is [[on]] the table.",
+          "vi": "Điện thoại của bạn ở trên bàn.",
+          "why": "Nằm trên mặt bàn → on."
+        },
+        {
+          "en": "The cat is [[under]] the bed.",
+          "vi": "Con mèo ở dưới gầm giường.",
+          "why": "Bên dưới → under."
+        },
+        {
+          "en": "There's a picture [[on]] the wall.",
+          "vi": "Trên tường có một bức tranh.",
+          "why": "Treo trên bề mặt tường → on, không phải in."
+        }
+      ],
+      "check": {
+        "prompt": "The keys are ___ my pocket.",
+        "options": [
+          "in",
+          "on",
+          "under"
+        ],
+        "answer": 0,
+        "explain": "Trong túi quần (một không gian) → in."
+      }
+    },
+    {
+      "part": "Vị trí khác",
+      "heading": "Next to, between, behind, in front of",
+      "rule": "**next to** = bên cạnh; **between** = ở giữa hai thứ; **behind** = phía sau; **in front of** = phía trước; **opposite** = đối diện; **near** = gần.",
+      "body": [],
+      "table": {
+        "head": [
+          "Giới từ",
+          "Nghĩa",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "next to",
+            "bên cạnh",
+            "next to the bank"
+          ],
+          [
+            "between",
+            "ở giữa",
+            "between the bank and the cafe"
+          ],
+          [
+            "behind",
+            "phía sau",
+            "behind the door"
+          ],
+          [
+            "in front of",
+            "phía trước",
+            "in front of the school"
+          ],
+          [
+            "opposite",
+            "đối diện",
+            "opposite the park"
+          ],
+          [
+            "near",
+            "gần",
+            "near my house"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The pharmacy is [[next to]] the bank.",
+          "vi": "Hiệu thuốc ở cạnh ngân hàng.",
+          "why": "Sát bên → next to."
+        },
+        {
+          "en": "My house is [[between]] a school and a park.",
+          "vi": "Nhà tôi ở giữa một trường học và một công viên.",
+          "why": "Giữa hai thứ → between … and …"
+        },
+        {
+          "en": "There's a tree [[in front of]] my house.",
+          "vi": "Trước nhà tôi có một cái cây.",
+          "why": "Phía trước → in front of."
+        }
+      ],
+      "check": {
+        "prompt": "The cafe is ___ the bank and the hotel.",
+        "options": [
+          "next to",
+          "between",
+          "behind"
+        ],
+        "answer": 1,
+        "explain": "Giữa hai thứ (the bank and the hotel) → between."
+      }
+    },
+    {
+      "part": "Địa điểm",
+      "heading": "In, on, at với địa điểm",
+      "rule": "**in** + thành phố, đất nước, phòng; **on** + tên đường, tầng; **at** + một điểm cụ thể (at home, at work, at school, at the station).",
+      "body": [
+        "Ba cụm cần thuộc lòng vì **không có the**: *at home*, *at work*, *at school*."
+      ],
+      "table": {
+        "head": [
+          "Giới từ",
+          "Dùng với",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "in",
+            "thành phố, đất nước, phòng",
+            "in Hanoi, in Vietnam, in the kitchen"
+          ],
+          [
+            "on",
+            "tên đường, tầng",
+            "on Le Loi Street, on the second floor"
+          ],
+          [
+            "at",
+            "một điểm, nơi làm, nơi học",
+            "at home, at work, at the bus stop"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I live [[in]] Da Nang.",
+          "vi": "Tôi sống ở Đà Nẵng.",
+          "why": "Thành phố → in."
+        },
+        {
+          "en": "Our office is [[on]] the fifth floor.",
+          "vi": "Văn phòng chúng tôi ở tầng năm.",
+          "why": "Tầng → on."
+        },
+        {
+          "en": "She is [[at]] work now.",
+          "vi": "Bây giờ cô ấy đang ở chỗ làm.",
+          "why": "At work, không có the."
+        }
+      ],
+      "check": {
+        "prompt": "My parents are ___ home.",
+        "options": [
+          "in",
+          "on",
+          "at"
+        ],
+        "answer": 2,
+        "explain": "At home, không có the."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The picture is in the wall.",
+      "right": "The picture is on the wall.",
+      "why": "Treo trên bề mặt tường → on."
+    },
+    {
+      "wrong": "I live at Hanoi.",
+      "right": "I live in Hanoi.",
+      "why": "Thành phố → in."
+    },
+    {
+      "wrong": "She is at the home.",
+      "right": "She is at home.",
+      "why": "At home không có the."
+    },
+    {
+      "wrong": "The bank is between the school.",
+      "right": "The bank is between the school and the park.",
+      "why": "Between cần hai thứ: between A and B."
+    },
+    {
+      "wrong": "The car is in front the house.",
+      "right": "The car is in front of the house.",
+      "why": "In front of phải có of."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The cat is sleeping ___ the sofa.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "Nằm trên mặt ghế → on."
+    },
+    {
+      "type": "choice",
+      "prompt": "Put the milk ___ the fridge, please.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "Bên trong tủ lạnh → in."
+    },
+    {
+      "type": "choice",
+      "prompt": "My sister lives ___ Canada.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "Đất nước → in."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'm ___ the bus stop. Where are you?",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": 2,
+      "explain": "Một điểm cụ thể → at the bus stop."
+    },
+    {
+      "type": "choice",
+      "prompt": "The shoes are ___ the bed. (dưới gầm giường)",
+      "options": [
+        "on",
+        "under",
+        "behind"
+      ],
+      "answer": 1,
+      "explain": "Dưới gầm → under."
+    },
+    {
+      "type": "fill",
+      "prompt": "The bakery is ___ the pharmacy.",
+      "hint": "bên cạnh",
+      "answers": [
+        "next to"
+      ],
+      "explain": "Bên cạnh → next to."
+    },
+    {
+      "type": "fill",
+      "prompt": "There's a big tree ___ my school.",
+      "hint": "phía trước",
+      "answers": [
+        "in front of"
+      ],
+      "explain": "Phía trước → in front of."
+    },
+    {
+      "type": "fill",
+      "prompt": "Our flat is ___ the third floor.",
+      "hint": "tầng",
+      "answers": [
+        "on"
+      ],
+      "explain": "Tầng → on."
+    },
+    {
+      "type": "fill",
+      "prompt": "The park is ___ the hospital.",
+      "hint": "đối diện",
+      "answers": [
+        "opposite"
+      ],
+      "explain": "Đối diện → opposite."
+    },
+    {
+      "type": "order",
+      "vi": "Điện thoại của bạn ở dưới cuốn sách.",
+      "words": [
+        "Your",
+        "phone",
+        "is",
+        "under",
+        "the",
+        "book."
+      ],
+      "explain": "Dưới → under."
+    },
+    {
+      "type": "order",
+      "vi": "Nhà tôi ở giữa ngân hàng và chợ.",
+      "words": [
+        "My",
+        "house",
+        "is",
+        "between",
+        "the",
+        "bank",
+        "and",
+        "the",
+        "market."
+      ],
+      "explain": "Ở giữa hai nơi → between … and …"
+    },
+    {
+      "type": "fix",
+      "sentence": "I am at the home now.",
+      "answers": [
+        "I am at home now.",
+        "I'm at home now."
+      ],
+      "explain": "At home không có the."
+    },
+    {
+      "type": "fix",
+      "sentence": "We live on Ho Chi Minh City.",
+      "answers": [
+        "We live in Ho Chi Minh City."
+      ],
+      "explain": "Thành phố → in."
+    },
+    {
+      "type": "fix",
+      "sentence": "The poster is in the wall.",
+      "answers": [
+        "The poster is on the wall."
+      ],
+      "explain": "Trên bề mặt tường → on."
+    },
+    {
+      "type": "translate",
+      "vi": "Mẹ tôi đang ở trong bếp.",
+      "answers": [
+        "My mother is in the kitchen.",
+        "My mom is in the kitchen.",
+        "My mum is in the kitchen."
+      ],
+      "explain": "Trong một phòng → in."
+    },
+    {
+      "type": "translate",
+      "vi": "Quán cà phê ở cạnh khách sạn.",
+      "answers": [
+        "The cafe is next to the hotel.",
+        "The coffee shop is next to the hotel."
+      ],
+      "explain": "Bên cạnh → next to."
+    }
+  ]
+}

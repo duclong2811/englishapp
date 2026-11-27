@@ -3,10 +3,16 @@ import articlesPlurals from "./articles-plurals.json";
 import bePresent from "./be-present.json";
 import can from "./can.json";
 import frequencyAdverbs from "./frequency-adverbs.json";
+import howMuchMany from "./how-much-many.json";
+import imperatives from "./imperatives.json";
+import objectPronouns from "./object-pronouns.json";
 import possessives from "./possessives.json";
+import prepositionsPlace from "./prepositions-place.json";
+import prepositionsTime from "./prepositions-time.json";
 import presentSimple from "./present-simple.json";
 import presentSimpleQuestions from "./present-simple-questions.json";
+import someAny from "./some-any.json";
 import thereIsAre from "./there-is-are.json";
 import thisThat from "./this-that.json";
 
-export const grammarFiles: unknown[] = [bePresent, articlesPlurals, thisThat, possessives, thereIsAre, presentSimple, presentSimpleQuestions, frequencyAdverbs, can];
+export const grammarFiles: unknown[] = [bePresent, articlesPlurals, thisThat, possessives, thereIsAre, presentSimple, presentSimpleQuestions, frequencyAdverbs, can, imperatives, prepositionsPlace, prepositionsTime, objectPronouns, someAny, howMuchMany];

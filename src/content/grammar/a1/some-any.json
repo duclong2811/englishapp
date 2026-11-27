@@ -1,0 +1,360 @@
+{
+  "id": "some-any",
+  "level": "A1",
+  "title": "Đếm được, không đếm được, some, any",
+  "summary": "Danh từ nào đếm được, danh từ nào không; dùng some, any; và cách đếm nước, gạo, tiền.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Do we have [[any]] eggs?",
+      "vi": "Nhà mình còn trứng không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, there are [[some]] eggs in the fridge.",
+      "vi": "Còn, trong tủ lạnh có mấy quả."
+    },
+    {
+      "who": "A",
+      "en": "Good. Is there [[any]] rice?",
+      "vi": "Tốt. Còn gạo không?"
+    },
+    {
+      "who": "B",
+      "en": "No, there isn't [[any]] rice. Let's buy [[some]].",
+      "vi": "Hết gạo rồi. Mình mua ít đi."
+    },
+    {
+      "who": "A",
+      "en": "We need [[some]] milk and [[some]] bananas too.",
+      "vi": "Mình cũng cần ít sữa và mấy quả chuối."
+    },
+    {
+      "who": "B",
+      "en": "OK. Would you like [[some]] coffee before we go?",
+      "vi": "Được. Bạn uống chút cà phê trước khi đi không?"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Đếm được",
+      "heading": "Đếm được và không đếm được",
+      "rule": "**Đếm được**: có số nhiều (*an egg, two eggs*). **Không đếm được**: không có số nhiều, không dùng a/an (*water, rice, milk, money*).",
+      "body": [
+        "Tiếng Việt không phân biệt hai loại này. Mẹo: hỏi “có đếm 1, 2, 3 được không?”. Chất lỏng, chất bột, khái niệm chung (nước, gạo, tiền, thông tin, lời khuyên) thường **không đếm được**.",
+        "Muốn đếm thì dùng đơn vị: *a glass of water*, *two kilos of rice*, *a cup of coffee*."
+      ],
+      "table": {
+        "head": [
+          "Đếm được",
+          "Không đếm được"
+        ],
+        "rows": [
+          [
+            "an apple, two apples",
+            "water"
+          ],
+          [
+            "a banana, bananas",
+            "rice"
+          ],
+          [
+            "a cup, three cups",
+            "milk, coffee, tea"
+          ],
+          [
+            "a dollar, five dollars",
+            "money"
+          ],
+          [
+            "a job, jobs",
+            "work, information"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'd like [[a glass of]] water.",
+          "vi": "Cho tôi một cốc nước.",
+          "why": "Water không đếm được → đếm bằng a glass of."
+        },
+        {
+          "en": "We need [[three]] eggs.",
+          "vi": "Chúng ta cần ba quả trứng.",
+          "why": "Egg đếm được → three eggs."
+        }
+      ],
+      "check": {
+        "prompt": "Từ nào không đếm được?",
+        "options": [
+          "apple",
+          "money",
+          "dollar"
+        ],
+        "answer": 1,
+        "explain": "Money (tiền nói chung) không đếm được; dollar thì đếm được."
+      }
+    },
+    {
+      "part": "Some, any",
+      "heading": "Some: khẳng định. Any: phủ định và câu hỏi",
+      "rule": "**some** dùng trong câu khẳng định; **any** dùng trong câu phủ định và câu hỏi. Cả hai đi với danh từ **số nhiều** hoặc **không đếm được**.",
+      "formula": [
+        {
+          "label": "Khẳng định",
+          "text": "There are + [some] + eggs"
+        },
+        {
+          "label": "Phủ định",
+          "text": "There isn't + [any] + rice"
+        },
+        {
+          "label": "Câu hỏi",
+          "text": "Are there + [any] + eggs?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I have [[some]] friends in Hanoi.",
+          "vi": "Tôi có vài người bạn ở Hà Nội.",
+          "why": "Khẳng định → some."
+        },
+        {
+          "en": "I don't have [[any]] money.",
+          "vi": "Tôi không có đồng nào.",
+          "why": "Phủ định → any."
+        },
+        {
+          "en": "Do you have [[any]] brothers?",
+          "vi": "Bạn có anh em trai không?",
+          "why": "Câu hỏi → any."
+        }
+      ],
+      "check": {
+        "prompt": "There aren't ___ chairs in the room.",
+        "options": [
+          "some",
+          "any"
+        ],
+        "answer": 1,
+        "explain": "Câu phủ định → any."
+      }
+    },
+    {
+      "part": "Mời, xin",
+      "heading": "Ngoại lệ: mời và xin dùng some",
+      "rule": "Khi **mời** hoặc **xin**, câu hỏi vẫn dùng **some**: *Would you like some tea? Can I have some water?*",
+      "body": [
+        "Vì người nói chờ câu trả lời “có”."
+      ],
+      "examples": [
+        {
+          "en": "Would you like [[some]] cake?",
+          "vi": "Bạn ăn chút bánh không?",
+          "why": "Mời → some, dù là câu hỏi."
+        },
+        {
+          "en": "Can I have [[some]] water, please?",
+          "vi": "Cho tôi xin ít nước.",
+          "why": "Xin → some."
+        }
+      ],
+      "check": {
+        "prompt": "Would you like ___ coffee?",
+        "options": [
+          "some",
+          "any"
+        ],
+        "answer": 0,
+        "explain": "Lời mời → some."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I need a rice.",
+      "right": "I need some rice.",
+      "why": "Rice không đếm được → some, không dùng a."
+    },
+    {
+      "wrong": "I have a lot of homeworks.",
+      "right": "I have a lot of homework.",
+      "why": "Homework không đếm được → không thêm -s."
+    },
+    {
+      "wrong": "I don't have some money.",
+      "right": "I don't have any money.",
+      "why": "Phủ định → any."
+    },
+    {
+      "wrong": "Are there some shops here?",
+      "right": "Are there any shops here?",
+      "why": "Câu hỏi thông thường → any."
+    },
+    {
+      "wrong": "Can you give me an information?",
+      "right": "Can you give me some information?",
+      "why": "Information không đếm được."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "There are ___ apples on the table.",
+      "options": [
+        "some",
+        "any"
+      ],
+      "answer": 0,
+      "explain": "Câu khẳng định → some."
+    },
+    {
+      "type": "choice",
+      "prompt": "I don't have ___ brothers.",
+      "options": [
+        "some",
+        "any"
+      ],
+      "answer": 1,
+      "explain": "Câu phủ định → any."
+    },
+    {
+      "type": "choice",
+      "prompt": "Is there ___ milk in the fridge?",
+      "options": [
+        "some",
+        "any"
+      ],
+      "answer": 1,
+      "explain": "Câu hỏi thông thường → any."
+    },
+    {
+      "type": "choice",
+      "prompt": "Would you like ___ tea?",
+      "options": [
+        "some",
+        "any"
+      ],
+      "answer": 0,
+      "explain": "Lời mời → some."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I need a water.",
+        "I need some water.",
+        "I need waters."
+      ],
+      "answer": 1,
+      "explain": "Water không đếm được → some water."
+    },
+    {
+      "type": "fill",
+      "prompt": "We need ___ eggs for the cake.",
+      "hint": "some hay any",
+      "answers": [
+        "some"
+      ],
+      "explain": "Câu khẳng định → some."
+    },
+    {
+      "type": "fill",
+      "prompt": "Sorry, there isn't ___ coffee left.",
+      "hint": "some hay any",
+      "answers": [
+        "any"
+      ],
+      "explain": "Câu phủ định → any."
+    },
+    {
+      "type": "fill",
+      "prompt": "Can I have ___ bread, please?",
+      "hint": "some hay any",
+      "answers": [
+        "some"
+      ],
+      "explain": "Xin → some."
+    },
+    {
+      "type": "fill",
+      "prompt": "Do you have ___ questions?",
+      "hint": "some hay any",
+      "answers": [
+        "any"
+      ],
+      "explain": "Câu hỏi thông thường → any."
+    },
+    {
+      "type": "order",
+      "vi": "Cho tôi xin một cốc nước.",
+      "words": [
+        "Can",
+        "I",
+        "have",
+        "a",
+        "glass",
+        "of",
+        "water?"
+      ],
+      "explain": "Water không đếm được → a glass of water."
+    },
+    {
+      "type": "order",
+      "vi": "Trong tủ lạnh không có sữa.",
+      "words": [
+        "There",
+        "isn't",
+        "any",
+        "milk",
+        "in",
+        "the",
+        "fridge."
+      ],
+      "explain": "Phủ định, danh từ không đếm được → isn't any."
+    },
+    {
+      "type": "fix",
+      "sentence": "I have a lot of homeworks.",
+      "answers": [
+        "I have a lot of homework."
+      ],
+      "explain": "Homework không đếm được → không thêm -s."
+    },
+    {
+      "type": "fix",
+      "sentence": "Are there some banks near here?",
+      "answers": [
+        "Are there any banks near here?"
+      ],
+      "explain": "Câu hỏi thông thường → any."
+    },
+    {
+      "type": "fix",
+      "sentence": "I don't have some money.",
+      "answers": [
+        "I don't have any money."
+      ],
+      "explain": "Phủ định → any."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi cần ít tiền.",
+      "answers": [
+        "I need some money."
+      ],
+      "explain": "Khẳng định, money không đếm được → some money."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn có câu hỏi nào không?",
+      "answers": [
+        "Do you have any questions?",
+        "Have you got any questions?",
+        "Any questions?"
+      ],
+      "explain": "Câu hỏi → any."
+    }
+  ]
+}

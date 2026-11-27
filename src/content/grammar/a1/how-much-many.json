@@ -1,0 +1,361 @@
+{
+  "id": "how-much-many",
+  "level": "A1",
+  "title": "How much, how many",
+  "summary": "Hỏi số lượng với how many và how much, hỏi giá, và trả lời bằng a lot of, many, much.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Good morning! What do you need today?",
+      "vi": "Chào buổi sáng! Hôm nay chị cần gì?"
+    },
+    {
+      "who": "B",
+      "en": "I need some eggs. [[How much]] are they?",
+      "vi": "Tôi cần ít trứng. Trứng bao nhiêu tiền?"
+    },
+    {
+      "who": "A",
+      "en": "Three thousand each. [[How many]] do you want?",
+      "vi": "Ba nghìn một quả. Chị lấy mấy quả?"
+    },
+    {
+      "who": "B",
+      "en": "Ten, please. And some rice for eight people.",
+      "vi": "Mười quả. Thêm ít gạo cho tám người."
+    },
+    {
+      "who": "A",
+      "en": "[[How much]] rice? One kilo is enough.",
+      "vi": "Bao nhiêu gạo? Một cân là đủ."
+    },
+    {
+      "who": "B",
+      "en": "OK, one kilo. [[How much]] is it all together?",
+      "vi": "Được, một cân. Tất cả bao nhiêu tiền?"
+    },
+    {
+      "who": "A",
+      "en": "Fifty thousand, please.",
+      "vi": "Năm mươi nghìn ạ."
+    }
+  ],
+  "sections": [
+    {
+      "part": "How many",
+      "heading": "How many + danh từ đếm được số nhiều",
+      "rule": "**How many** + danh từ **số nhiều** đếm được = bao nhiêu (cái, người…).",
+      "formula": [
+        {
+          "text": "[How many] + danh từ số nhiều + …?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[How many]] students are in your class?",
+          "vi": "Lớp bạn có bao nhiêu học sinh?",
+          "why": "Students đếm được → how many."
+        },
+        {
+          "en": "[[How many]] brothers do you have?",
+          "vi": "Bạn có mấy anh em trai?",
+          "why": "Brothers số nhiều → how many."
+        }
+      ],
+      "check": {
+        "prompt": "How many ___ do you have?",
+        "options": [
+          "child",
+          "children"
+        ],
+        "answer": 1,
+        "explain": "Sau how many → danh từ số nhiều: children."
+      }
+    },
+    {
+      "part": "How much",
+      "heading": "How much + danh từ không đếm được",
+      "rule": "**How much** + danh từ **không đếm được** = bao nhiêu (nước, gạo, thời gian…).",
+      "formula": [
+        {
+          "text": "[How much] + danh từ không đếm được + …?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[How much]] water do you drink a day?",
+          "vi": "Mỗi ngày bạn uống bao nhiêu nước?",
+          "why": "Water không đếm được → how much."
+        },
+        {
+          "en": "[[How much]] time do we have?",
+          "vi": "Chúng ta còn bao nhiêu thời gian?",
+          "why": "Time (thời gian) không đếm được → how much."
+        }
+      ],
+      "check": {
+        "prompt": "How ___ sugar do you want?",
+        "options": [
+          "many",
+          "much"
+        ],
+        "answer": 1,
+        "explain": "Sugar không đếm được → how much."
+      }
+    },
+    {
+      "part": "Hỏi giá",
+      "heading": "Hỏi giá: How much is / are…?",
+      "rule": "Hỏi giá: **How much is** + một thứ? **How much are** + nhiều thứ? Hoặc *How much does it cost?*",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[How much is]] this shirt?",
+          "vi": "Cái áo này bao nhiêu tiền?",
+          "why": "Một cái áo → is."
+        },
+        {
+          "en": "[[How much are]] these shoes?",
+          "vi": "Đôi giày này bao nhiêu tiền?",
+          "why": "Shoes số nhiều → are."
+        },
+        {
+          "en": "[[How much does]] it cost?",
+          "vi": "Cái này giá bao nhiêu?",
+          "why": "Cách hỏi khác: How much does it cost?"
+        }
+      ],
+      "check": {
+        "prompt": "How much ___ these apples?",
+        "options": [
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explain": "Apples số nhiều → are."
+      }
+    },
+    {
+      "part": "A lot of",
+      "heading": "Trả lời: a lot of, many, much",
+      "rule": "**a lot of** dùng cho cả hai loại. Câu phủ định: **not many** (đếm được), **not much** (không đếm được).",
+      "body": [],
+      "examples": [
+        {
+          "en": "I have [[a lot of]] friends.",
+          "vi": "Tôi có nhiều bạn.",
+          "why": "Câu khẳng định → a lot of."
+        },
+        {
+          "en": "We don't have [[much]] time.",
+          "vi": "Chúng ta không có nhiều thời gian.",
+          "why": "Phủ định, time không đếm được → not much."
+        },
+        {
+          "en": "There aren't [[many]] people here.",
+          "vi": "Ở đây không có nhiều người.",
+          "why": "Phủ định, people đếm được → not many."
+        }
+      ],
+      "check": {
+        "prompt": "I don't drink ___ coffee.",
+        "options": [
+          "many",
+          "much"
+        ],
+        "answer": 1,
+        "explain": "Phủ định, coffee không đếm được → much."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "How many money do you have?",
+      "right": "How much money do you have?",
+      "why": "Money không đếm được → how much."
+    },
+    {
+      "wrong": "How much people are there?",
+      "right": "How many people are there?",
+      "why": "People đếm được → how many."
+    },
+    {
+      "wrong": "How many child do you have?",
+      "right": "How many children do you have?",
+      "why": "Sau how many → danh từ số nhiều."
+    },
+    {
+      "wrong": "How much is these shoes?",
+      "right": "How much are these shoes?",
+      "why": "Shoes số nhiều → are."
+    },
+    {
+      "wrong": "I have much friends.",
+      "right": "I have a lot of friends.",
+      "why": "Câu khẳng định thường dùng a lot of."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "How ___ eggs do we need?",
+      "options": [
+        "many",
+        "much"
+      ],
+      "answer": 0,
+      "explain": "Eggs đếm được → how many."
+    },
+    {
+      "type": "choice",
+      "prompt": "How ___ milk is in the fridge?",
+      "options": [
+        "many",
+        "much"
+      ],
+      "answer": 1,
+      "explain": "Milk không đếm được → how much."
+    },
+    {
+      "type": "choice",
+      "prompt": "How much ___ this bag?",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explain": "Một cái túi → is."
+    },
+    {
+      "type": "choice",
+      "prompt": "How many ___ are in your family?",
+      "options": [
+        "person",
+        "people"
+      ],
+      "answer": 1,
+      "explain": "Sau how many → số nhiều: people."
+    },
+    {
+      "type": "choice",
+      "prompt": "We don't have ___ time. Hurry!",
+      "options": [
+        "many",
+        "much"
+      ],
+      "answer": 1,
+      "explain": "Time không đếm được, câu phủ định → much."
+    },
+    {
+      "type": "fill",
+      "prompt": "How ___ does this phone cost?",
+      "hint": "many hay much",
+      "answers": [
+        "much"
+      ],
+      "explain": "Hỏi giá → how much."
+    },
+    {
+      "type": "fill",
+      "prompt": "How ___ languages can you speak?",
+      "hint": "many hay much",
+      "answers": [
+        "many"
+      ],
+      "explain": "Languages đếm được → how many."
+    },
+    {
+      "type": "fill",
+      "prompt": "There aren't ___ cars on the street today.",
+      "hint": "many hay much",
+      "answers": [
+        "many"
+      ],
+      "explain": "Cars đếm được, phủ định → not many."
+    },
+    {
+      "type": "fill",
+      "prompt": "How much ___ these oranges?",
+      "hint": "be",
+      "answers": [
+        "are"
+      ],
+      "explain": "Oranges số nhiều → are."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn có bao nhiêu anh chị em?",
+      "words": [
+        "How",
+        "many",
+        "brothers",
+        "and",
+        "sisters",
+        "do",
+        "you",
+        "have?"
+      ],
+      "explain": "Đếm được → how many."
+    },
+    {
+      "type": "order",
+      "vi": "Cái áo này bao nhiêu tiền?",
+      "words": [
+        "How",
+        "much",
+        "is",
+        "this",
+        "shirt?"
+      ],
+      "explain": "Hỏi giá một thứ → How much is…?"
+    },
+    {
+      "type": "fix",
+      "sentence": "How many money do you need?",
+      "answers": [
+        "How much money do you need?"
+      ],
+      "explain": "Money không đếm được → how much."
+    },
+    {
+      "type": "fix",
+      "sentence": "How much students are in the class?",
+      "answers": [
+        "How many students are in the class?",
+        "How many students are there in the class?"
+      ],
+      "explain": "Students đếm được → how many."
+    },
+    {
+      "type": "fix",
+      "sentence": "How much is these bananas?",
+      "answers": [
+        "How much are these bananas?"
+      ],
+      "explain": "Bananas số nhiều → are."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn uống bao nhiêu cà phê mỗi ngày?",
+      "answers": [
+        "How much coffee do you drink a day?",
+        "How much coffee do you drink every day?",
+        "How much coffee do you drink each day?",
+        "How much coffee do you drink per day?"
+      ],
+      "explain": "Coffee không đếm được → how much."
+    },
+    {
+      "type": "translate",
+      "vi": "Lớp bạn có bao nhiêu học sinh?",
+      "answers": [
+        "How many students are there in your class?",
+        "How many students are in your class?",
+        "How many students does your class have?"
+      ],
+      "explain": "Students đếm được → how many."
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "prepositions-time",
+  "level": "A1",
+  "title": "Giới từ chỉ thời gian: in, on, at",
+  "summary": "At + giờ, on + ngày, in + tháng, năm, mùa; các cụm cố định và khi nào không dùng giới từ.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "When is your birthday?",
+      "vi": "Sinh nhật bạn khi nào?"
+    },
+    {
+      "who": "B",
+      "en": "It's [[in]] June, [[on]] June the twelfth.",
+      "vi": "Vào tháng Sáu, ngày mười hai."
+    },
+    {
+      "who": "A",
+      "en": "That's a Saturday this year! Let's have a party [[on]] Saturday evening.",
+      "vi": "Năm nay rơi vào thứ Bảy! Mình tổ chức tiệc tối thứ Bảy nhé."
+    },
+    {
+      "who": "B",
+      "en": "Great. What time?",
+      "vi": "Hay quá. Mấy giờ?"
+    },
+    {
+      "who": "A",
+      "en": "[[At]] seven o'clock.",
+      "vi": "Lúc bảy giờ."
+    },
+    {
+      "who": "B",
+      "en": "Perfect. I usually finish work [[at]] six [[on]] Saturdays.",
+      "vi": "Tuyệt. Thứ Bảy mình thường xong việc lúc sáu giờ."
+    }
+  ],
+  "sections": [
+    {
+      "part": "At, on, in",
+      "heading": "At + giờ, on + ngày, in + tháng, năm",
+      "rule": "**at** + giờ; **on** + thứ, ngày tháng; **in** + tháng, năm, mùa, buổi.",
+      "body": [
+        "Mẹo nhớ: khoảng thời gian **dài** (tháng, năm, mùa) → **in**; **một ngày** → **on**; **một điểm giờ** → **at**."
+      ],
+      "table": {
+        "head": [
+          "Giới từ",
+          "Dùng với",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "at",
+            "giờ, thời điểm",
+            "at 7 o'clock, at noon, at night"
+          ],
+          [
+            "on",
+            "thứ, ngày, ngày tháng",
+            "on Monday, on May 5th, on my birthday"
+          ],
+          [
+            "in",
+            "tháng, năm, mùa, buổi",
+            "in July, in 2025, in summer, in the morning"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The class starts [[at]] 8 a.m.",
+          "vi": "Lớp học bắt đầu lúc 8 giờ sáng.",
+          "why": "Giờ → at."
+        },
+        {
+          "en": "I have English [[on]] Tuesdays.",
+          "vi": "Tôi học tiếng Anh vào các ngày thứ Ba.",
+          "why": "Thứ trong tuần → on."
+        },
+        {
+          "en": "My son was born [[in]] 2018.",
+          "vi": "Con trai tôi sinh năm 2018.",
+          "why": "Năm → in."
+        },
+        {
+          "en": "It's hot here [[in]] summer.",
+          "vi": "Ở đây mùa hè nóng.",
+          "why": "Mùa → in."
+        }
+      ],
+      "check": {
+        "prompt": "My birthday is ___ March.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "answer": 2,
+        "explain": "Tháng → in."
+      }
+    },
+    {
+      "part": "Cụm cố định",
+      "heading": "Buổi trong ngày và các cụm cố định",
+      "rule": "*in the morning, in the afternoon, in the evening* nhưng **at night**. Có thứ cụ thể thì dùng **on**: *on Monday morning*.",
+      "body": [],
+      "table": {
+        "head": [
+          "Cách nói",
+          "Lý do"
+        ],
+        "rows": [
+          [
+            "in the morning",
+            "buổi trong ngày → in"
+          ],
+          [
+            "at night",
+            "cụm cố định"
+          ],
+          [
+            "on Sunday morning",
+            "có thứ cụ thể → on"
+          ],
+          [
+            "at the weekend / on the weekend",
+            "Anh dùng at, Mỹ dùng on"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I study [[in]] the evening.",
+          "vi": "Tôi học vào buổi tối.",
+          "why": "Buổi → in the evening."
+        },
+        {
+          "en": "I can't sleep [[at]] night.",
+          "vi": "Tôi không ngủ được vào ban đêm.",
+          "why": "At night là cụm cố định."
+        },
+        {
+          "en": "See you [[on]] Friday afternoon.",
+          "vi": "Hẹn gặp chiều thứ Sáu.",
+          "why": "Có thứ cụ thể → on."
+        }
+      ],
+      "check": {
+        "prompt": "We meet ___ Monday morning.",
+        "options": [
+          "in",
+          "on",
+          "at"
+        ],
+        "answer": 1,
+        "explain": "Có thứ cụ thể → on."
+      }
+    },
+    {
+      "part": "Không giới từ",
+      "heading": "Khi nào không dùng giới từ?",
+      "rule": "Trước **today, tomorrow, yesterday, every…, next…, last…, this…** thì **không dùng** in, on, at.",
+      "body": [],
+      "examples": [
+        {
+          "en": "See you [[tomorrow]].",
+          "vi": "Hẹn gặp ngày mai.",
+          "why": "Không nói “on tomorrow”."
+        },
+        {
+          "en": "I go swimming [[every]] Sunday.",
+          "vi": "Chủ nhật nào tôi cũng đi bơi.",
+          "why": "Có every → không có on."
+        },
+        {
+          "en": "We have a test [[next]] week.",
+          "vi": "Tuần sau chúng tôi có bài kiểm tra.",
+          "why": "Có next → không có in."
+        }
+      ],
+      "check": {
+        "prompt": "I visit my grandma ___ weekend.",
+        "options": [
+          "every",
+          "on every",
+          "in every"
+        ],
+        "answer": 0,
+        "explain": "Có every → bỏ giới từ."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "on 7 o'clock",
+      "right": "at 7 o'clock",
+      "why": "Giờ → at."
+    },
+    {
+      "wrong": "in Monday",
+      "right": "on Monday",
+      "why": "Thứ → on."
+    },
+    {
+      "wrong": "on July",
+      "right": "in July",
+      "why": "Tháng → in."
+    },
+    {
+      "wrong": "in the night",
+      "right": "at night",
+      "why": "Cụm cố định: at night."
+    },
+    {
+      "wrong": "on next week",
+      "right": "next week",
+      "why": "Có next → không dùng giới từ."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The meeting is ___ 10 a.m.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": 0,
+      "explain": "Giờ → at."
+    },
+    {
+      "type": "choice",
+      "prompt": "We go to the beach ___ summer.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": 2,
+      "explain": "Mùa → in."
+    },
+    {
+      "type": "choice",
+      "prompt": "I was born ___ 1995.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": 2,
+      "explain": "Năm → in."
+    },
+    {
+      "type": "choice",
+      "prompt": "The shop is closed ___ Sundays.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": 1,
+      "explain": "Thứ → on."
+    },
+    {
+      "type": "choice",
+      "prompt": "See you ___.",
+      "options": [
+        "tomorrow",
+        "on tomorrow",
+        "in tomorrow"
+      ],
+      "answer": 0,
+      "explain": "Tomorrow không đi với giới từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "I drink coffee ___ the morning.",
+      "hint": "giới từ",
+      "answers": [
+        "in"
+      ],
+      "explain": "Buổi sáng → in the morning."
+    },
+    {
+      "type": "fill",
+      "prompt": "The party is ___ Saturday evening.",
+      "hint": "giới từ",
+      "answers": [
+        "on"
+      ],
+      "explain": "Có thứ cụ thể → on."
+    },
+    {
+      "type": "fill",
+      "prompt": "My dad works ___ night.",
+      "hint": "giới từ",
+      "answers": [
+        "at"
+      ],
+      "explain": "At night là cụm cố định."
+    },
+    {
+      "type": "fill",
+      "prompt": "Christmas is ___ December 25th.",
+      "hint": "giới từ",
+      "answers": [
+        "on"
+      ],
+      "explain": "Ngày tháng cụ thể → on."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thức dậy lúc sáu giờ.",
+      "words": [
+        "I",
+        "get",
+        "up",
+        "at",
+        "six",
+        "o'clock."
+      ],
+      "explain": "Giờ → at."
+    },
+    {
+      "type": "order",
+      "vi": "Chúng tôi học vào thứ Hai và thứ Năm.",
+      "words": [
+        "We",
+        "have",
+        "class",
+        "on",
+        "Mondays",
+        "and",
+        "Thursdays."
+      ],
+      "explain": "Thứ → on."
+    },
+    {
+      "type": "fix",
+      "sentence": "I have a meeting on 3 p.m.",
+      "answers": [
+        "I have a meeting at 3 p.m."
+      ],
+      "explain": "Giờ → at."
+    },
+    {
+      "type": "fix",
+      "sentence": "We go to Da Lat on December.",
+      "answers": [
+        "We go to Da Lat in December."
+      ],
+      "explain": "Tháng → in."
+    },
+    {
+      "type": "fix",
+      "sentence": "I will call you on next Monday.",
+      "answers": [
+        "I will call you next Monday."
+      ],
+      "explain": "Có next → bỏ on."
+    },
+    {
+      "type": "translate",
+      "vi": "Lớp học bắt đầu lúc bảy giờ tối.",
+      "answers": [
+        "The class starts at seven p.m.",
+        "The class starts at seven in the evening.",
+        "The class starts at seven o'clock in the evening.",
+        "Class starts at seven p.m.",
+        "The lesson starts at seven p.m."
+      ],
+      "explain": "Giờ → at."
+    },
+    {
+      "type": "translate",
+      "vi": "Sinh nhật tôi vào tháng Mười.",
+      "answers": [
+        "My birthday is in October."
+      ],
+      "explain": "Tháng → in."
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "id": "imperatives",
+  "level": "A1",
+  "title": "Câu mệnh lệnh: Sit down, Don't…, Let's…",
+  "summary": "Hướng dẫn, nhờ, khuyên và mời bằng động từ nguyên mẫu đứng đầu câu; cấm bằng Don't; rủ nhau bằng Let's.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Come]] in and [[sit]] down!",
+      "vi": "Vào đi, ngồi xuống!"
+    },
+    {
+      "who": "B",
+      "en": "Thanks. Can you show me how to make egg coffee?",
+      "vi": "Cảm ơn. Bạn chỉ mình cách làm cà phê trứng được không?"
+    },
+    {
+      "who": "A",
+      "en": "Sure. First, [[put]] two egg yolks in a bowl.",
+      "vi": "Được chứ. Đầu tiên, cho hai lòng đỏ trứng vào bát."
+    },
+    {
+      "who": "B",
+      "en": "OK. Now what?",
+      "vi": "Rồi. Giờ làm gì?"
+    },
+    {
+      "who": "A",
+      "en": "[[Add]] some sugar and [[mix]] it well. [[Don't]] stop!",
+      "vi": "Cho ít đường vào rồi đánh thật đều. Đừng dừng lại!"
+    },
+    {
+      "who": "B",
+      "en": "My arm is tired!",
+      "vi": "Tay mình mỏi quá!"
+    },
+    {
+      "who": "A",
+      "en": "Ha ha. [[Let's]] take turns. And [[be]] careful, the coffee is hot.",
+      "vi": "Ha ha. Mình thay phiên nhé. Cẩn thận, cà phê nóng đấy."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Mệnh lệnh",
+      "heading": "Động từ nguyên mẫu đứng đầu câu",
+      "rule": "Câu mệnh lệnh **không có chủ ngữ**: bắt đầu luôn bằng **động từ nguyên mẫu**.",
+      "formula": [
+        {
+          "text": "[V] + …"
+        },
+        {
+          "text": "Please + [V] + …"
+        }
+      ],
+      "body": [
+        "Dùng để hướng dẫn (nấu ăn, chỉ đường), ra lệnh, khuyên, mời. Tiếng Việt cũng vậy: “Ngồi xuống!”, “Rẽ trái”.",
+        "Thêm *please* ở đầu hoặc cuối câu cho lịch sự: *Please sit down. / Sit down, please.* Với tính từ, dùng *be*: *Be quiet. Be careful.*"
+      ],
+      "examples": [
+        {
+          "en": "[[Open]] your books.",
+          "vi": "Mở sách ra.",
+          "why": "Giáo viên ra lệnh → open đứng đầu."
+        },
+        {
+          "en": "[[Turn]] left at the bank.",
+          "vi": "Rẽ trái ở ngân hàng.",
+          "why": "Chỉ đường → turn đứng đầu."
+        },
+        {
+          "en": "Please [[come]] in.",
+          "vi": "Mời vào.",
+          "why": "Lời mời lịch sự → please + come."
+        },
+        {
+          "en": "[[Be]] quiet, please.",
+          "vi": "Làm ơn trật tự.",
+          "why": "Quiet là tính từ → Be quiet."
+        }
+      ],
+      "check": {
+        "prompt": "Câu nào là lời mời ngồi lịch sự?",
+        "options": [
+          "Please sit down.",
+          "You sit down.",
+          "Sitting down, please."
+        ],
+        "answer": 0,
+        "explain": "Động từ nguyên mẫu đứng đầu, thêm please cho lịch sự."
+      }
+    },
+    {
+      "part": "Don't",
+      "heading": "Cấm, khuyên đừng: Don't…",
+      "rule": "Phủ định: **Don't + động từ nguyên mẫu**, dùng với mọi người nghe.",
+      "formula": [
+        {
+          "text": "[Don't] + V + …"
+        },
+        {
+          "text": "[Don't be] + tính từ"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Don't]] touch that! It's hot.",
+          "vi": "Đừng chạm vào cái đó! Nóng đấy.",
+          "why": "Cấm → Don't + touch."
+        },
+        {
+          "en": "[[Don't]] be late.",
+          "vi": "Đừng đến muộn.",
+          "why": "Late là tính từ → Don't be."
+        },
+        {
+          "en": "[[Don't]] worry.",
+          "vi": "Đừng lo.",
+          "why": "Khuyên → Don't + worry."
+        }
+      ],
+      "check": {
+        "prompt": "___ smoke here.",
+        "options": [
+          "Not",
+          "Don't",
+          "No"
+        ],
+        "answer": 1,
+        "explain": "Cấm làm gì → Don't + động từ."
+      }
+    },
+    {
+      "part": "Let's",
+      "heading": "Rủ nhau: Let's…",
+      "rule": "**Let's + động từ nguyên mẫu** = Chúng ta hãy… (rủ cả mình lẫn người nghe).",
+      "formula": [
+        {
+          "text": "[Let's] + V"
+        }
+      ],
+      "body": [
+        "Đồng ý: *OK. / Good idea! / Sure.* Từ chối nhẹ nhàng: *Sorry, I can't.*"
+      ],
+      "examples": [
+        {
+          "en": "[[Let's]] go to the beach!",
+          "vi": "Mình đi biển đi!",
+          "why": "Rủ cả hai cùng đi → Let's + go."
+        },
+        {
+          "en": "[[Let's]] eat out tonight.",
+          "vi": "Tối nay mình ăn ngoài nhé.",
+          "why": "Let's + eat."
+        }
+      ],
+      "check": {
+        "prompt": "Rủ bạn đi xem phim:",
+        "options": [
+          "Let's watch a movie.",
+          "Let's to watch a movie.",
+          "Let's watching a movie."
+        ],
+        "answer": 0,
+        "explain": "Sau Let's là động từ nguyên mẫu, không có to."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "You sit down, please.",
+      "right": "Please sit down.",
+      "why": "Câu mệnh lệnh không cần you."
+    },
+    {
+      "wrong": "Don't to worry.",
+      "right": "Don't worry.",
+      "why": "Sau Don't là động từ nguyên mẫu, không có to."
+    },
+    {
+      "wrong": "Not touch!",
+      "right": "Don't touch!",
+      "why": "Cấm dùng Don't, không dùng Not."
+    },
+    {
+      "wrong": "Don't late!",
+      "right": "Don't be late!",
+      "why": "Late là tính từ → cần be."
+    },
+    {
+      "wrong": "Let's going home.",
+      "right": "Let's go home.",
+      "why": "Sau Let's là động từ nguyên mẫu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ your hands before dinner.",
+      "options": [
+        "Wash",
+        "Washing",
+        "You wash"
+      ],
+      "answer": 0,
+      "explain": "Câu mệnh lệnh → động từ nguyên mẫu đứng đầu."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ open the window. It's cold.",
+      "options": [
+        "Don't",
+        "Not",
+        "No"
+      ],
+      "answer": 0,
+      "explain": "Bảo đừng làm → Don't + open."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ careful! The floor is wet.",
+      "options": [
+        "Do",
+        "Be",
+        "Are"
+      ],
+      "answer": 1,
+      "explain": "Careful là tính từ → Be careful."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ go for a walk. It's sunny!",
+      "options": [
+        "Let's",
+        "Let",
+        "Lets to"
+      ],
+      "answer": 0,
+      "explain": "Rủ nhau → Let's + go."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ straight, then turn right.",
+      "hint": "đi",
+      "answers": [
+        "Go"
+      ],
+      "explain": "Chỉ đường → động từ nguyên mẫu đứng đầu: Go straight."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ worry. Everything is OK.",
+      "hint": "đừng",
+      "answers": [
+        "Don't",
+        "Do not"
+      ],
+      "explain": "Đừng → Don't + worry."
+    },
+    {
+      "type": "fill",
+      "prompt": "Don't ___ late for class.",
+      "hint": "be",
+      "answers": [
+        "be"
+      ],
+      "explain": "Late là tính từ → Don't be late."
+    },
+    {
+      "type": "fill",
+      "prompt": "Let's ___ a taxi. It's raining.",
+      "hint": "take",
+      "answers": [
+        "take"
+      ],
+      "explain": "Sau Let's → động từ nguyên mẫu: take."
+    },
+    {
+      "type": "order",
+      "vi": "Làm ơn nói chậm hơn.",
+      "words": [
+        "Please",
+        "speak",
+        "more",
+        "slowly."
+      ],
+      "alternatives": [
+        "Speak more slowly please."
+      ],
+      "explain": "Lời nhờ lịch sự: Please + động từ nguyên mẫu."
+    },
+    {
+      "type": "order",
+      "vi": "Đừng nói chuyện trong thư viện.",
+      "words": [
+        "Don't",
+        "talk",
+        "in",
+        "the",
+        "library."
+      ],
+      "explain": "Cấm → Don't + talk."
+    },
+    {
+      "type": "order",
+      "vi": "Mình ăn trưa cùng nhau nhé.",
+      "words": [
+        "Let's",
+        "have",
+        "lunch",
+        "together."
+      ],
+      "explain": "Rủ → Let's + have."
+    },
+    {
+      "type": "fix",
+      "sentence": "You open the door, please.",
+      "answers": [
+        "Open the door, please.",
+        "Please open the door."
+      ],
+      "explain": "Câu mệnh lệnh không có chủ ngữ you."
+    },
+    {
+      "type": "fix",
+      "sentence": "Don't to touch the dog.",
+      "answers": [
+        "Don't touch the dog."
+      ],
+      "explain": "Sau Don't không có to."
+    },
+    {
+      "type": "fix",
+      "sentence": "Don't angry.",
+      "answers": [
+        "Don't be angry."
+      ],
+      "explain": "Angry là tính từ → Don't be angry."
+    },
+    {
+      "type": "translate",
+      "vi": "Mở cửa sổ giúp tôi.",
+      "answers": [
+        "Open the window, please.",
+        "Please open the window.",
+        "Can you open the window, please?",
+        "Can you open the window?"
+      ],
+      "explain": "Nhờ → động từ nguyên mẫu + please."
+    },
+    {
+      "type": "translate",
+      "vi": "Đừng lo lắng.",
+      "answers": [
+        "Don't worry.",
+        "Do not worry."
+      ],
+      "explain": "Khuyên đừng → Don't + worry."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng ta đi thôi!",
+      "answers": [
+        "Let's go!",
+        "Let us go!"
+      ],
+      "explain": "Rủ cùng đi → Let's go."
+    }
+  ]
+}
