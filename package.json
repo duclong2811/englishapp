@@ -12,7 +12,8 @@
     "vocab:build": "python3 -I tools/vocab/build.py",
     "cf:build": "opennextjs-cloudflare build",
     "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+    "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "vocab:next": "node tools/vocab/next-batch.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.14.0",

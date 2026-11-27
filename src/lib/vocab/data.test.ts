@@ -15,7 +15,7 @@ describe("vocabulary content", () => {
   it("has every A1 word and each study word has a meaning, IPA and two examples", () => {
     expect(study.filter((w) => w.level === "A1")).toHaveLength(1059);
     for (const w of study) {
-      expect(["A1", "A2"], w.id).toContain(w.level);
+      expect(["A1", "A2", "B1"], w.id).toContain(w.level);
       expect(w.ipa, w.id).toBeTruthy();
       expect(w.examples.length, w.id).toBeGreaterThanOrEqual(2);
       for (const m of w.meanings) expect(m.vi.trim().length, w.id).toBeGreaterThan(0);

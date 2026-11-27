@@ -4,6 +4,7 @@ import wordsJson from "@/content/vocab/words.json";
 import { viFiles } from "@/content/vocab/vi";
 import topicsJson from "@/content/vocab/topics.json";
 import topicsA2Json from "@/content/vocab/topics-a2.json";
+import topicsB1Json from "@/content/vocab/topics-b1.json";
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 export type Level = (typeof LEVELS)[number];
@@ -171,6 +172,7 @@ let topicCache: Topic[] | null = null;
 const TOPIC_FILES: [Level, unknown][] = [
   ["A1", topicsJson],
   ["A2", topicsA2Json],
+  ["B1", topicsB1Json],
 ];
 
 /** All topics in study order, or only those of one level. */
