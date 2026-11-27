@@ -1,13 +1,12 @@
 import "server-only";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
+import { getCloudflareContext } from "@opennextjs/cloudflare";
 import { z } from "zod";
-import wordsJson from "@/content/vocab/words.json";
-import { viFiles } from "@/content/vocab/vi";
-import topicsJson from "@/content/vocab/topics.json";
-import topicsA2Json from "@/content/vocab/topics-a2.json";
-import topicsB1Json from "@/content/vocab/topics-b1.json";
 
-export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
-export type Level = (typeof LEVELS)[number];
+import { LEVELS, type Level } from "@/lib/levels";
+
+export { LEVELS, type Level };
 
 const example = z.object({
   en: z.string().min(1),
@@ -75,65 +74,6 @@ export const POS_VI: Record<string, string> = {
   "infinitive-to": "to (trước động từ nguyên mẫu)",
 };
 
-let cache: { words: BaseWord[]; byId: Map<string, BaseWord>; study: StudyWord[] } | null = null;
-
-function load() {
-  if (cache) return cache;
-  const words = z.array(baseWord).parse(wordsJson);
-  const byId = new Map(words.map((w) => [w.id, w]));
-  const study: StudyWord[] = [];
-  for (const file of viFiles) {
-    const parsed = viFile.parse(file);
-    for (const entry of parsed.entries) {
-      const base = byId.get(entry.id);
-      if (!base) throw new Error(`Vietnamese entry "${entry.id}" has no matching word in words.json`);
-      study.push({
-        ...base,
-        ipa: entry.ipa ?? base.ipa,
-        forms: entry.forms ?? base.forms,
-        meanings: entry.meanings,
-        note: entry.note,
-        examples: entry.examples,
-        status: parsed.status,
-      });
-    }
-  }
-  cache = { words, byId, study };
-  return cache;
-}
-
-export function getStudyWords(): StudyWord[] {
-  return load().study;
-}
-
-export function getStudyWord(id: string): StudyWord | undefined {
-  return load().study.find((w) => w.id === id);
-}
-
-export function getWordsByLevel(level: Level): BaseWord[] {
-  return load().words.filter((w) => w.level === level);
-}
-
-export function getLevelCounts(): Record<Level, { total: number; withMeaning: number }> {
-  const { words, study } = load();
-  const studyIds = new Set(study.map((w) => w.id));
-  const counts = Object.fromEntries(LEVELS.map((l) => [l, { total: 0, withMeaning: 0 }])) as Record<
-    Level,
-    { total: number; withMeaning: number }
-  >;
-  for (const w of words) {
-    counts[w.level].total++;
-    if (studyIds.has(w.id)) counts[w.level].withMeaning++;
-  }
-  return counts;
-}
-
-export function getMeaningMap(): Map<string, string> {
-  return new Map(load().study.map((w) => [w.id, w.meanings.map((m) => m.vi).join("; ")]));
-}
-
-// ---------------------------------------------------------------- topics
-
 const topicsFile = z.object({
   about: z.string(),
   topics: z.array(
@@ -166,46 +106,103 @@ export function splitIntoSets(ids: string[], size = SET_SIZE): string[][] {
   );
 }
 
-let topicCache: Topic[] | null = null;
+const dataset = z.object({ words: z.array(baseWord), vi: z.array(viFile) });
+const assetPath = "/data/vocab/";
 
-/** Topic files per level; topic ids are unique across levels. */
-const TOPIC_FILES: [Level, unknown][] = [
-  ["A1", topicsJson],
-  ["A2", topicsA2Json],
-  ["B1", topicsB1Json],
-];
-
-/** All topics in study order, or only those of one level. */
-export function getTopics(level?: Level): Topic[] {
-  if (!topicCache) {
-    const studyIds = new Set(getStudyWords().map((w) => w.id));
-    const seen = new Set<string>();
-    const seenTopics = new Set<string>();
-    topicCache = TOPIC_FILES.flatMap(([lvl, json]) =>
-      topicsFile.parse(json).topics.map((t) => {
-        if (seenTopics.has(t.id)) throw new Error(`Duplicate topic id "${t.id}"`);
-        seenTopics.add(t.id);
-        for (const id of t.words) {
-          if (!studyIds.has(id)) throw new Error(`Topic "${t.id}" lists unknown word "${id}"`);
-          if (seen.has(id)) throw new Error(`Word "${id}" is in more than one topic`);
-          seen.add(id);
-        }
-        return { ...t, level: lvl, sets: splitIntoSets(t.words) };
-      }),
-    );
+function getAssets() {
+  try {
+    return getCloudflareContext().env.ASSETS;
+  } catch {
+    // The Cloudflare request context is absent during prerendering and in local Next.js.
+    return undefined;
   }
-  return level ? topicCache.filter((t) => t.level === level) : topicCache;
 }
 
-export function getTopic(id: string): Topic | undefined {
-  return getTopics().find((t) => t.id === id);
+async function loadVocabData(assets: ReturnType<typeof getAssets>) {
+  async function readAsset(file: string): Promise<unknown> {
+    if (assets) {
+      const response = await assets.fetch(`https://vocab.internal${assetPath}${file}`);
+      if (!response.ok) throw new Error(`Vocabulary asset ${file} returned HTTP ${response.status}`);
+      return response.json();
+    }
+    return JSON.parse(await readFile(join(process.cwd(), "public", assetPath, file), "utf8"));
+  }
+
+  const [levels, topicFiles] = await Promise.all([
+    Promise.all(LEVELS.map(async (level) => dataset.parse(await readAsset(`${level.toLowerCase()}.json`)))),
+    readAsset("topics.json").then((json) => z.tuple([topicsFile, topicsFile, topicsFile]).parse(json)),
+  ]);
+  const words = levels.flatMap((level) => level.words);
+  const byId = new Map(words.map((word) => [word.id, word]));
+  const study = levels.flatMap((level) =>
+    level.vi.flatMap(({ entries, status }) => entries.map((entry): StudyWord => {
+      const base = byId.get(entry.id);
+      if (!base) throw new Error(`Vietnamese entry "${entry.id}" has no matching word in words.json`);
+      return {
+        ...base,
+        ipa: entry.ipa ?? base.ipa,
+        forms: entry.forms ?? base.forms,
+        meanings: entry.meanings,
+        note: entry.note,
+        examples: entry.examples,
+        status,
+      };
+    })),
+  );
+
+  const studyById = new Map(study.map((word) => [word.id, word]));
+  const counts = Object.fromEntries(LEVELS.map((level) => [level, { total: 0, withMeaning: 0 }])) as Record<
+    Level,
+    { total: number; withMeaning: number }
+  >;
+  for (const word of words) {
+    counts[word.level].total++;
+    if (studyById.has(word.id)) counts[word.level].withMeaning++;
+  }
+
+  const seenWords = new Set<string>();
+  const seenTopics = new Set<string>();
+  const topicLevels = ["A1", "A2", "B1"] as const;
+  const topics: Topic[] = topicFiles.flatMap((file, index) =>
+    file.topics.map((topic) => {
+      if (seenTopics.has(topic.id)) throw new Error(`Duplicate topic id "${topic.id}"`);
+      seenTopics.add(topic.id);
+      for (const id of topic.words) {
+        if (!studyById.has(id)) throw new Error(`Topic "${topic.id}" lists unknown word "${id}"`);
+        if (seenWords.has(id)) throw new Error(`Word "${id}" is in more than one topic`);
+        seenWords.add(id);
+      }
+      return { ...topic, level: topicLevels[index], sets: splitIntoSets(topic.words) };
+    }),
+  );
+
+  const meanings = new Map(study.map((word) => [word.id, word.meanings.map((meaning) => meaning.vi).join("; ")]));
+  const topicsById = new Map(topics.map((topic) => [topic.id, topic]));
+  return {
+    getStudyWords: () => study,
+    getStudyWord: (id: string) => studyById.get(id),
+    getWordsByLevel: (level: Level) => levels[LEVELS.indexOf(level)].words,
+    getLevelCounts: () => counts,
+    getMeaningMap: () => meanings,
+    getTopics: (level?: Level) => level ? topics.filter((topic) => topic.level === level) : topics,
+    getTopic: (id: string) => topicsById.get(id),
+  };
 }
 
-/** Compact outline for client components: topic id, title and set word ids. */
-export type TopicOutline = { id: string; title: string; sets: string[][] };
+export type VocabData = Awaited<ReturnType<typeof loadVocabData>>;
 
-export function getTopicOutline(level?: Level): TopicOutline[] {
-  return getTopics(level).map(({ id, title, sets }) => ({ id, title, sets }));
+let built: Promise<VocabData> | undefined;
+let workerData: VocabData | undefined;
+
+/** Cache parsed data. An in-flight Workers fetch must stay inside its own request. */
+export async function getVocabData(): Promise<VocabData> {
+  const assets = getAssets();
+  if (assets) return workerData ??= await loadVocabData(assets);
+  built ??= loadVocabData(undefined).catch((error: unknown) => {
+    built = undefined;
+    throw error;
+  });
+  return built;
 }
 
 /** Shape used by the quiz components (client). */

@@ -1,15 +1,17 @@
 import { vi } from "vitest";
 vi.mock("server-only", () => ({}));
 import { describe, expect, it } from "vitest";
-import { getTopics } from "@/lib/vocab/data";
+import { getVocabData } from "@/lib/vocab/data";
 import { lessonCoverage, MIN_COVERAGE } from "./coverage";
 import { getLessons } from "./lessons";
+
+const vocab = await getVocabData();
 
 describe("speaking lessons", () => {
   const lessons = getLessons();
 
   it("belong to real topics, one each", () => {
-    const topicIds = new Set(getTopics().map((t) => t.id));
+    const topicIds = new Set(vocab.getTopics().map((t) => t.id));
     const seen = new Set<string>();
     for (const l of lessons) {
       expect(topicIds.has(l.topic), l.topic).toBe(true);
@@ -28,7 +30,7 @@ describe("speaking lessons", () => {
   });
 
   it.each(lessons.map((l) => [l.topic, l] as const))("%s covers enough of its topic words", (_, l) => {
-    const c = lessonCoverage(l);
+    const c = lessonCoverage(l, vocab);
     if (process.env.COVERAGE_REPORT) {
       console.log(`${l.topic}: ${c.covered.length}/${c.covered.length + c.missing.length} missing: ${c.missing.join(" ")}`);
     }

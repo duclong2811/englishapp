@@ -1,20 +1,23 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LearnSet, type LearnWord } from "@/components/vocab/learn-set";
-import { getStudyWord, getTopic, getTopics, POS_VI, toPracticeWord } from "@/lib/vocab/data";
+import { getVocabData, POS_VI, toPracticeWord } from "@/lib/vocab/data";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { getTopics } = await getVocabData();
   return getTopics().flatMap((t) => t.sets.map((_, i) => ({ id: t.id, set: String(i + 1) })));
 }
 
 export async function generateMetadata({ params }: PageProps<"/vocabulary/topic/[id]/[set]">): Promise<Metadata> {
   const { id, set } = await params;
+  const { getTopic } = await getVocabData();
   const topic = getTopic(id);
   return { title: topic ? `${topic.title}, bộ ${set}` : "Học từ" };
 }
 
 export default async function LearnSetPage({ params }: PageProps<"/vocabulary/topic/[id]/[set]">) {
   const { id, set } = await params;
+  const { getStudyWord, getTopics } = await getVocabData();
   const topics = getTopics();
   const t = topics.findIndex((x) => x.id === id);
   const topic = topics[t];

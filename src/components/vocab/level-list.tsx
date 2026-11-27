@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LevelBadge } from "@/components/vocab/word-parts";
-import { getMeaningMap, getWordsByLevel, LEVELS, POS_VI, type Level } from "@/lib/vocab/data";
+import { getVocabData, LEVELS, POS_VI, type Level } from "@/lib/vocab/data";
 
 export const PAGE_SIZE = 100;
 
@@ -9,15 +9,16 @@ export function toLevel(param: string): Level | undefined {
   return LEVELS.find((l) => l.toLowerCase() === param);
 }
 
-export function pageCount(level: Level) {
-  return Math.ceil(getWordsByLevel(level).length / PAGE_SIZE);
+export function pageCount(wordCount: number) {
+  return Math.ceil(wordCount / PAGE_SIZE);
 }
 
-export function LevelList({ levelParam, page }: { levelParam: string; page: number }) {
+export async function LevelList({ levelParam, page }: { levelParam: string; page: number }) {
   const level = toLevel(levelParam);
   if (!level) notFound();
+  const { getMeaningMap, getWordsByLevel } = await getVocabData();
   const all = getWordsByLevel(level);
-  const pages = Math.ceil(all.length / PAGE_SIZE);
+  const pages = pageCount(all.length);
   if (!Number.isInteger(page) || page < 1 || page > pages) notFound();
   const words = all.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const meanings = getMeaningMap();

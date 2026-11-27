@@ -2,7 +2,8 @@ import { describe, expect, it, vi } from "vitest";
 
 vi.mock("server-only", () => ({}));
 
-const { getStudyWords, getLevelCounts, getTopics, splitIntoSets, LEVELS } = await import("./data");
+const { getVocabData, splitIntoSets, LEVELS } = await import("./data");
+const { getStudyWords, getLevelCounts, getTopics } = await getVocabData();
 
 describe("vocabulary content", () => {
   const study = getStudyWords();

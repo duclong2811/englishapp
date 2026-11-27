@@ -2,10 +2,10 @@ import { describe, expect, it, vi } from "vitest";
 
 vi.mock("server-only", () => ({}));
 
-const { getStudyWords } = await import("@/lib/vocab/data");
+const { getVocabData } = await import("@/lib/vocab/data");
 const { buildSession, makeCloze } = await import("./practice");
 
-const words = getStudyWords().map((w) => ({
+const words = (await getVocabData()).getStudyWords().map((w) => ({
   id: w.id,
   headword: w.headword,
   ipa: w.ipa,

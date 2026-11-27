@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Review, type ReviewCard } from "@/components/vocab/review";
-import { getStudyWords, POS_VI } from "@/lib/vocab/data";
+import { getVocabData, POS_VI } from "@/lib/vocab/data";
 
 export const metadata: Metadata = { title: "Ôn từ vựng" };
 
-export default function ReviewPage() {
+export default async function ReviewPage() {
+  const { getStudyWords } = await getVocabData();
   const cards: ReviewCard[] = getStudyWords().map((w) => ({
     id: w.id,
     headword: w.headword,
