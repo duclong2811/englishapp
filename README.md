@@ -27,7 +27,7 @@ Mọi thay đổi giao diện theo skill `.claude/skills/englishapp-ux/SKILL.md`
 
 1. Khung app và hệ thống thiết kế (xong).
 2. Kho từ vựng (đang làm): khoảng 8.600 từ A1–C2 từ dữ liệu mở. Toàn bộ 1.059 từ A1 đã có nghĩa tiếng Việt, chia thành 33 chủ đề (`src/content/vocab/topics.json`), mỗi chủ đề gồm các bộ khoảng 10 từ: học từng từ, làm bài kiểm tra cả bộ, kết quả đưa vào lịch ôn FSRS. Xem `src/content/vocab/SOURCES.md`.
-3. Bài học ngữ pháp: soạn từ sách nguồn đặt trong `sources/` (thư mục này không đưa lên git). Làm 3 bài thử trước khi nhân rộng.
+3. Bài học ngữ pháp (đang làm): lộ trình 25 bài A1 trong `src/content/grammar/syllabus.ts`; bài viết sẵn nằm ở `src/content/grammar/a1/`. Mỗi bài có hội thoại mẫu, giải thích bằng tiếng Việt, lỗi người Việt hay mắc và khoảng 15–18 bài tập (chọn, điền, sắp xếp, sửa lỗi, dịch bằng cách gõ hoặc nói). 3 bài thử đã xong: to be, a/an và số nhiều, hiện tại đơn.
 4. Luyện nói (đã có): mỗi chủ đề từ vựng có một bài nói trong `src/content/speaking/lessons/` (33 bài). Bước 1 là hội thoại soạn sẵn: AI đọc lời của mình, người học đọc câu gợi ý và app chấm từng từ (Workers AI Whisper, không tốn phí Claude). Bước 2 là nhập vai tự do với Claude theo chủ đề đó, cuối buổi có nhận xét. Ngoài ra có "Nói tự do" không kịch bản. Test bắt buộc mỗi bài dùng ít nhất 80% từ của chủ đề (hiện 88–100%).
 
 ## Đưa lên Cloudflare

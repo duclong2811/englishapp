@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
-import { EmptyState, PageHeading } from "@/components/empty-state";
+import { PageHeading } from "@/components/empty-state";
+import { SyllabusList } from "@/components/grammar/syllabus-list";
+import { getSyllabus } from "@/lib/grammar/lessons";
 
 export const metadata: Metadata = { title: "Bài học" };
 
 export default function LessonsPage() {
+  const syllabus = getSyllabus();
   return (
     <>
       <PageHeading
         title="Bài học"
-        intro="Mỗi bài gồm một đoạn hội thoại ngắn, điểm ngữ pháp giải thích bằng tiếng Việt, lỗi người Việt hay mắc và bài tập."
+        intro="Ngữ pháp A1 theo thứ tự: mỗi bài có hội thoại mẫu, giải thích bằng tiếng Việt, lỗi người Việt hay mắc và bài tập có chấm điểm."
       />
-      <EmptyState title="Chưa có bài học">
-        Bài học đang được soạn theo lộ trình A1 → B2. Khi bài đầu tiên sẵn sàng, bạn sẽ thấy nó ở đây cùng tiến độ của mình.
-      </EmptyState>
+      <SyllabusList items={syllabus} />
     </>
   );
 }

@@ -1,0 +1,97 @@
+{
+  "id": "articles-plurals",
+  "level": "A1",
+  "title": "A, an và danh từ số nhiều",
+  "summary": "Khi nào cần a hoặc an, chọn a hay an, và cách thêm -s, -es cho danh từ số nhiều.",
+  "dialogue": [
+    { "who": "A", "en": "What's in your bag?", "vi": "Trong túi bạn có gì thế?" },
+    { "who": "B", "en": "[[A]] book, [[an]] apple, and two [[pens]].", "vi": "Một quyển sách, một quả táo và hai cái bút." },
+    { "who": "A", "en": "Do you have [[an]] umbrella? It's raining.", "vi": "Bạn có ô không? Trời đang mưa." },
+    { "who": "B", "en": "No, but I have [[a]] hat.", "vi": "Không, nhưng mình có mũ." },
+    { "who": "A", "en": "I have three [[umbrellas]] at home. Take this one!", "vi": "Ở nhà mình có ba cái ô. Cầm cái này đi!" },
+    { "who": "B", "en": "Thanks! You're [[a]] good friend.", "vi": "Cảm ơn! Bạn đúng là bạn tốt." }
+  ],
+  "sections": [
+    {
+      "heading": "Danh từ số ít cần a hoặc an",
+      "body": [
+        "Tiếng Việt nói “Tôi là giáo viên”, “Tôi có xe máy”, không cần chữ “một”. Tiếng Anh thì **danh từ đếm được số ít không đứng một mình**: phía trước phải có *a/an*, *the*, *my*, *this*… Khi nói về một thứ bất kỳ hoặc lần đầu nhắc đến, dùng **a** hoặc **an**.",
+        "Nhớ nhất là với nghề nghiệp: *I am a teacher*, *She is an engineer*."
+      ],
+      "examples": [
+        { "en": "I am [[a]] nurse.", "vi": "Tôi là y tá." },
+        { "en": "He has [[a]] motorbike.", "vi": "Anh ấy có xe máy." },
+        { "en": "It's [[an]] old house.", "vi": "Đó là một ngôi nhà cũ." }
+      ]
+    },
+    {
+      "heading": "A hay an? Nghe âm đầu, không nhìn chữ cái",
+      "body": [
+        "Dùng **an** khi từ tiếp theo **bắt đầu bằng một nguyên âm khi đọc** (thường là a, e, i, o, u). Còn lại dùng **a**.",
+        "Có vài từ cần để ý: *hour* đọc âm h câm nên là *an hour*; *university*, *uniform* đọc như “diu-” nên là *a university*."
+      ],
+      "table": {
+        "head": ["a + âm phụ âm", "an + âm nguyên âm"],
+        "rows": [
+          ["a book, a dog, a car", "an apple, an egg, an orange"],
+          ["a big apple", "an old car"],
+          ["a university, a uniform", "an hour, an umbrella"]
+        ]
+      }
+    },
+    {
+      "heading": "Số nhiều: thêm -s hoặc -es",
+      "body": [
+        "Tiếng Việt nói “một quyển sách”, “hai quyển sách”, danh từ không đổi. Tiếng Anh thì **từ hai trở lên phải đổi sang số nhiều**, và số nhiều **không dùng a/an**."
+      ],
+      "table": {
+        "head": ["Quy tắc", "Ví dụ"],
+        "rows": [
+          ["Thường: thêm -s", "book → books, car → cars"],
+          ["Tận cùng -s, -ss, -sh, -ch, -x, -o: thêm -es", "bus → buses, class → classes, dish → dishes, watch → watches, box → boxes, potato → potatoes"],
+          ["Phụ âm + y: đổi y thành -ies", "baby → babies, city → cities"],
+          ["Nguyên âm + y: chỉ thêm -s", "boy → boys, day → days"],
+          ["Tận cùng -f, -fe: đổi thành -ves", "knife → knives, leaf → leaves"],
+          ["Bất quy tắc: phải học thuộc", "man → men, woman → women, child → children, person → people, foot → feet, tooth → teeth, mouse → mice"]
+        ]
+      }
+    },
+    {
+      "heading": "Một số danh từ không đếm được",
+      "body": [
+        "Những thứ như *water*, *rice*, *milk*, *bread*, *money*, *information* không đếm từng cái được. Chúng **không dùng a/an và không thêm -s**. Dùng *some* hoặc một đơn vị: *some water*, *a bottle of water*. Bài “some, any” sẽ học kỹ hơn."
+      ],
+      "examples": [
+        { "en": "Can I have [[some]] water?", "vi": "Cho tôi xin ít nước." },
+        { "en": "I need [[a bottle of]] milk.", "vi": "Tôi cần một chai sữa." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I am teacher.", "right": "I am a teacher.", "why": "Nghề nghiệp số ít cần a/an." },
+    { "wrong": "I have two book.", "right": "I have two books.", "why": "Từ hai trở lên phải thêm -s." },
+    { "wrong": "a apple", "right": "an apple", "why": "Apple bắt đầu bằng âm nguyên âm nên dùng an." },
+    { "wrong": "an university", "right": "a university", "why": "University đọc “diu-ni-…”, bắt đầu bằng âm phụ âm, nên dùng a." },
+    { "wrong": "three childs", "right": "three children", "why": "Child là danh từ bất quy tắc: số nhiều là children." },
+    { "wrong": "I want a water.", "right": "I want some water.", "why": "Water không đếm được, không dùng a." }
+  ],
+  "exercises": [
+    { "type": "choice", "prompt": "She has ___ orange.", "options": ["a", "an"], "answer": 1, "explain": "Orange bắt đầu bằng âm nguyên âm /ɒ/, nên dùng an." },
+    { "type": "choice", "prompt": "He is ___ doctor.", "options": ["a", "an", "(không cần gì)"], "answer": 0, "explain": "Nghề nghiệp số ít cần a/an; doctor bắt đầu bằng âm /d/ nên dùng a." },
+    { "type": "choice", "prompt": "The lesson takes ___ hour.", "options": ["a", "an"], "answer": 1, "explain": "Chữ h trong hour không đọc, từ này bắt đầu bằng âm nguyên âm, nên dùng an." },
+    { "type": "choice", "prompt": "I have two ___.", "options": ["dog", "dogs", "a dogs"], "answer": 1, "explain": "Từ hai trở lên dùng số nhiều, và số nhiều không có a." },
+    { "type": "choice", "prompt": "Five ___ are in the classroom.", "options": ["child", "childs", "children"], "answer": 2, "explain": "Child → children (bất quy tắc)." },
+    { "type": "choice", "prompt": "Câu nào đúng?", "options": ["I need a water.", "I need some water.", "I need waters."], "answer": 1, "explain": "Water không đếm được: dùng some, không dùng a, không thêm -s." },
+    { "type": "fill", "prompt": "one box, two ___", "answers": ["boxes"], "explain": "Tận cùng -x thêm -es." },
+    { "type": "fill", "prompt": "one city, three ___", "answers": ["cities"], "explain": "Phụ âm + y: đổi y thành -ies." },
+    { "type": "fill", "prompt": "one day, seven ___", "answers": ["days"], "explain": "Nguyên âm + y: chỉ thêm -s." },
+    { "type": "fill", "prompt": "one knife, two ___", "answers": ["knives"], "explain": "Tận cùng -fe đổi thành -ves." },
+    { "type": "fill", "prompt": "one woman, two ___", "answers": ["women"], "explain": "Woman → women (bất quy tắc)." },
+    { "type": "order", "vi": "Tôi có một con chó và hai con mèo.", "words": ["I", "have", "a", "dog", "and", "two", "cats."] },
+    { "type": "fix", "sentence": "My brother is engineer.", "answers": ["My brother is an engineer."], "explain": "Cần an trước nghề nghiệp bắt đầu bằng âm nguyên âm." },
+    { "type": "fix", "sentence": "I have three book and a umbrella.", "answers": ["I have three books and an umbrella."], "explain": "Three books (số nhiều) và an umbrella (âm nguyên âm)." },
+    { "type": "translate", "vi": "Cô ấy là y tá.", "answers": ["She is a nurse.", "She's a nurse."] },
+    { "type": "translate", "vi": "Tôi có ba đứa con.", "answers": ["I have three children.", "I have three kids."] },
+    { "type": "translate", "vi": "Tôi muốn một quả táo.", "answers": ["I want an apple.", "I would like an apple.", "I'd like an apple."] }
+  ]
+}

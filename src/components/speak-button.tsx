@@ -1,10 +1,11 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { speakNow } from "@/lib/speaking/speaker";
 
 const subscribe = () => () => {};
 
-/** Reads an English text aloud with the browser's built-in voice. */
+/** Reads an English text aloud with the chosen voice (natural AI voice, or the device voice as a fallback). */
 export function SpeakButton({
   text,
   label = "Nghe",
@@ -16,17 +17,12 @@ export function SpeakButton({
 }) {
   const supported = useSyncExternalStore(
     subscribe,
-    () => "speechSynthesis" in window,
+    () => "speechSynthesis" in window || "Audio" in window,
     () => false,
   );
 
   function speak() {
-    const synth = window.speechSynthesis;
-    synth.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = 0.9;
-    synth.speak(utterance);
+    speakNow(text);
   }
 
   return (

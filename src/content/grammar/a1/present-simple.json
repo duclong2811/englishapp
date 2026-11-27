@@ -1,0 +1,92 @@
+{
+  "id": "present-simple",
+  "level": "A1",
+  "title": "Thì hiện tại đơn: I work, she works",
+  "summary": "Nói về thói quen, công việc và sự thật. Khi nào động từ thêm -s và cách thêm -s, -es.",
+  "dialogue": [
+    { "who": "A", "en": "What do you do, Minh?", "vi": "Anh làm nghề gì vậy, Minh?" },
+    { "who": "B", "en": "I [[work]] in a bank. My wife [[teaches]] English.", "vi": "Tôi làm ở ngân hàng. Vợ tôi dạy tiếng Anh." },
+    { "who": "A", "en": "Nice! Where do you live?", "vi": "Hay quá! Anh sống ở đâu?" },
+    { "who": "B", "en": "We [[live]] in District 3. Every morning, my wife [[takes]] our son to school, and I [[go]] to work by bus.", "vi": "Chúng tôi sống ở Quận 3. Sáng nào vợ tôi cũng đưa con trai đi học, còn tôi đi làm bằng xe buýt." },
+    { "who": "A", "en": "And in the evening?", "vi": "Còn buổi tối?" },
+    { "who": "B", "en": "I [[cook]] dinner, and my son [[watches]] cartoons. He [[loves]] them!", "vi": "Tôi nấu bữa tối, còn con trai tôi xem phim hoạt hình. Nó mê lắm!" }
+  ],
+  "sections": [
+    {
+      "heading": "Khi nào dùng hiện tại đơn?",
+      "body": [
+        "**Thói quen, việc lặp lại**: *I get up at six every day.*",
+        "**Công việc, nơi ở, điều đúng lâu dài**: *She works in a hospital. They live in Hanoi.*",
+        "**Sự thật, điều luôn đúng**: *The sun rises in the east.*",
+        "**Lịch trình cố định**: *The bus leaves at seven.*"
+      ]
+    },
+    {
+      "heading": "He, she, it: động từ thêm -s",
+      "body": [
+        "Tiếng Việt nói “tôi làm”, “cô ấy làm”, động từ không bao giờ đổi. Tiếng Anh thì khi chủ ngữ là **he, she, it** hoặc **một người, một vật** (*my mother*, *Tom*, *the cat*), động từ phải **thêm -s**.",
+        "Đây là lỗi người Việt mắc nhiều nhất, kể cả người học lâu năm. Mỗi lần nói về một người khác, hãy tự hỏi: đã thêm -s chưa?"
+      ],
+      "table": {
+        "head": ["Chủ ngữ", "Động từ", "Ví dụ"],
+        "rows": [
+          ["I, you, we, they, danh từ số nhiều", "nguyên mẫu", "I work. My parents work."],
+          ["he, she, it, danh từ số ít", "thêm -s", "She works. My father works."]
+        ]
+      }
+    },
+    {
+      "heading": "Cách thêm -s",
+      "table": {
+        "head": ["Quy tắc", "Ví dụ"],
+        "rows": [
+          ["Thường: thêm -s", "work → works, play → plays, live → lives"],
+          ["Tận cùng -s, -ss, -sh, -ch, -x, -o: thêm -es", "go → goes, do → does, watch → watches, wash → washes, fix → fixes, miss → misses"],
+          ["Phụ âm + y: đổi y thành -ies", "study → studies, cry → cries, fly → flies"],
+          ["Nguyên âm + y: chỉ thêm -s", "play → plays, buy → buys"],
+          ["Bất quy tắc", "have → has"]
+        ]
+      },
+      "body": [
+        "Đuôi -s đọc ba cách: /s/ như *works*, *eats*; /z/ như *plays*, *lives*; /ɪz/ như *watches*, *washes*. Đừng bỏ âm cuối khi nói, vì người nghe dựa vào nó."
+      ]
+    },
+    {
+      "heading": "Không dùng be với động từ thường",
+      "body": [
+        "Người Việt hay nói “I am work”, “She is go” vì nghĩ be là “thì, là”. Ở thì hiện tại đơn, câu có động từ thường thì **không có be**: *I work*, *She goes*.",
+        "Từ chỉ thời gian thường đứng cuối câu: *every day*, *every morning*, *on Mondays*, *at the weekend*."
+      ],
+      "examples": [
+        { "en": "I [[go]] to the gym on Mondays.", "vi": "Tôi đi tập vào các ngày thứ Hai." },
+        { "en": "My dad [[reads]] the newspaper every morning.", "vi": "Sáng nào bố tôi cũng đọc báo." }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "She work in a bank.", "right": "She works in a bank.", "why": "She đi với động từ thêm -s." },
+    { "wrong": "My father go to work by bus.", "right": "My father goes to work by bus.", "why": "My father = he, và go thêm -es." },
+    { "wrong": "He haves a car.", "right": "He has a car.", "why": "Have là bất quy tắc: he has." },
+    { "wrong": "He studys English.", "right": "He studies English.", "why": "Phụ âm + y đổi thành -ies." },
+    { "wrong": "I works every day.", "right": "I work every day.", "why": "Chỉ he, she, it mới thêm -s." },
+    { "wrong": "She is work here.", "right": "She works here.", "why": "Không dùng be trước động từ thường ở thì hiện tại đơn." }
+  ],
+  "exercises": [
+    { "type": "choice", "prompt": "She ___ in a hospital.", "options": ["work", "works"], "answer": 1, "explain": "She đi với động từ thêm -s." },
+    { "type": "choice", "prompt": "My parents ___ in Da Nang.", "options": ["live", "lives"], "answer": 0, "explain": "My parents là số nhiều (= they), động từ giữ nguyên." },
+    { "type": "choice", "prompt": "Tom ___ coffee every morning.", "options": ["drink", "drinks", "is drink"], "answer": 1, "explain": "Tom = he: drinks. Không dùng is trước động từ thường." },
+    { "type": "choice", "prompt": "I ___ English on Tuesdays.", "options": ["study", "studies", "am study"], "answer": 0, "explain": "I đi với động từ nguyên mẫu." },
+    { "type": "fill", "prompt": "He ___ TV every evening.", "hint": "watch", "answers": ["watches"], "explain": "Tận cùng -ch thêm -es." },
+    { "type": "fill", "prompt": "My sister ___ to school by bike.", "hint": "go", "answers": ["goes"], "explain": "Go → goes (thêm -es)." },
+    { "type": "fill", "prompt": "The baby ___ at night.", "hint": "cry", "answers": ["cries"], "explain": "Phụ âm + y: cry → cries." },
+    { "type": "fill", "prompt": "She ___ two brothers.", "hint": "have", "answers": ["has"], "explain": "Have → has với he, she, it." },
+    { "type": "fill", "prompt": "We ___ football on Sundays.", "hint": "play", "answers": ["play"], "explain": "We đi với động từ nguyên mẫu." },
+    { "type": "fill", "prompt": "My dad ___ cars.", "hint": "fix", "answers": ["fixes"], "explain": "Tận cùng -x thêm -es." },
+    { "type": "order", "vi": "Anh ấy dậy lúc sáu giờ mỗi sáng.", "words": ["He", "gets", "up", "at", "six", "every", "morning."], "alternatives": ["Every morning he gets up at six."] },
+    { "type": "fix", "sentence": "My mother cook dinner every day.", "answers": ["My mother cooks dinner every day."], "explain": "My mother = she: cooks." },
+    { "type": "fix", "sentence": "He is work in an office.", "answers": ["He works in an office."], "explain": "Bỏ is, và work thêm -s." },
+    { "type": "translate", "vi": "Chị tôi dạy tiếng Anh.", "answers": ["My sister teaches English.", "My older sister teaches English.", "My big sister teaches English."] },
+    { "type": "translate", "vi": "Họ sống ở Hà Nội.", "answers": ["They live in Hanoi.", "They live in Ha Noi."] },
+    { "type": "translate", "vi": "Bố tôi đi làm bằng xe buýt.", "answers": ["My father goes to work by bus.", "My dad goes to work by bus."] }
+  ]
+}

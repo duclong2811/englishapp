@@ -204,3 +204,14 @@ export function createSpeaker(onIdle: () => void) {
 }
 
 export type Speaker = ReturnType<typeof createSpeaker>;
+
+let shared: Speaker | null = null;
+
+/** Reads one sentence aloud right away (for "listen" buttons). Call from a tap. */
+export function speakNow(text: string) {
+  unlockPlayback();
+  shared ??= createSpeaker(() => {});
+  shared.begin();
+  shared.speak(text);
+  shared.finish();
+}
