@@ -15,7 +15,6 @@
 
 # next.js
 /.next/
-/.open-next/
 /out/
 
 # production
@@ -23,9 +22,6 @@
 
 # misc
 .DS_Store
-data/*.db
-data/*.db-shm
-data/*.db-wal
 *.pem
 
 # debug
@@ -43,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Source books for lesson writing (copyrighted, never commit)
+/sources/

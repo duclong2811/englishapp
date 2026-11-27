@@ -1,18 +1,17 @@
 import type { NextConfig } from "next";
 
-const cloudflarePreview = process.env.CF_PREVIEW === "1";
-
 const nextConfig: NextConfig = {
-  ...(cloudflarePreview
-    ? {
-        env: { CF_PREVIEW: "1" },
-        turbopack: {
-          resolveAlias: {
-            "@/lib/db": "./src/lib/db/cloudflare-preview.ts",
-          },
-        },
-      }
-    : {}),
+  /* config options here */
+  cacheComponents: true,
+  partialPrefetching: true,
+  turbopack: {
+    rules: {
+      "*.css": {
+        loaders: ["@tailwindcss/turbopack"],
+        as: "*.css",
+      },
+    },
+  },
 };
 
 export default nextConfig;

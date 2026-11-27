@@ -1,2 +1,88 @@
-import Link from"next/link";import{ArrowRight,Clock3,TriangleAlert}from"lucide-react";
-export default function Dashboard(){return <div className="page"><section className="hero"><span className="eyebrow">HÔM NAY</span><h1>Xin chào.<br/>Hôm nay mình tiếp tục thêm một bước nhé?</h1><p>Học ngắn, học thường xuyên và dùng tiếng Anh trong tình huống thật.</p></section><section className="continue"><div><span className="eyebrow" style={{color:"#a9ceb7"}}>HỌC TIẾP · A1 UNIT 1</span><h2>Giới thiệu bản thân</h2><p>Bắt đầu với hội thoại và cụm từ cốt lõi · khoảng 22 phút</p><div className="progress"><i style={{width:"12%"}}/></div></div><Link href="/lesson/introducing-yourself">Bắt đầu học <ArrowRight size={15} style={{display:"inline",marginLeft:6}}/></Link></section><section className="stats"><div className="stat"><small>Ôn tập hôm nay</small><strong>4</strong><span>khoảng 6 phút</span></div><div className="stat"><small>Học trong tuần</small><strong>2</strong><span>ngày</span></div><div className="stat"><small>Khóa hiện tại</small><strong>A1</strong><span>Unit 1</span></div></section><div className="section-head"><h2>Tiến bộ theo kỹ năng</h2><Link href="/curriculum">Xem toàn bộ lộ trình</Link></div><section className="skill-grid">{[["Từ vựng",18],["Ngữ pháp",12],["Nghe",8],["Viết",5],["Nói",4]].map(([label,value])=><div className="skill" key={label}><span>{label}</span><strong>{value}%</strong><small>Đang xây nền tảng</small></div>)}</section><div className="section-head"><h2>Lỗi gần đây</h2><Link href="/errors">Mở Sổ lỗi</Link></div><section className="list"><div className="list-row"><div className="icon-box"><TriangleAlert size={18}/></div><div><strong>I interested in music.</strong><small>Thiếu động từ be → I’m interested in music.</small></div><span className="tag">Ngữ pháp</span></div><div className="list-row"><div className="icon-box"><Clock3 size={18}/></div><div><strong>Chưa có nhiều dữ liệu</strong><small>Các lỗi thường gặp sẽ được lưu khi bạn bắt đầu học.</small></div><span className="tag">Thông tin</span></div></section></div>}
+import Link from "next/link";
+import { SpeakButton } from "@/components/speak-button";
+
+const sentence = {
+  before: "I'm trying to ",
+  word: "get used to",
+  after: " waking up early.",
+  vi: "Mình đang cố làm quen với việc dậy sớm.",
+  note: "get used to + V‑ing: dần quen với một việc. Sau “to” ở đây là V‑ing, không phải động từ nguyên mẫu.",
+};
+
+const plan = [
+  {
+    href: "/vocabulary",
+    title: "Ôn từ vựng",
+    detail: "Thẻ đến hạn ôn sẽ hiện ở đây.",
+  },
+  {
+    href: "/lessons",
+    title: "Học bài tiếp theo",
+    detail: "Lộ trình A1 → B2 đang được soạn.",
+  },
+  {
+    href: "/speaking",
+    title: "Nói chuyện 5 phút với AI",
+    detail: "Dùng lại từ và ngữ pháp bạn vừa học.",
+  },
+];
+
+export default function TodayPage() {
+  const fullSentence = sentence.before + sentence.word + sentence.after;
+
+  return (
+    <div className="lg:grid lg:grid-cols-[minmax(0,40rem)_minmax(16rem,22rem)] lg:gap-12">
+      <div>
+        <h1 className="mb-6 text-3xl font-semibold tracking-tight sm:text-4xl">Hôm nay</h1>
+
+        <section aria-labelledby="sentence-heading" className="overflow-hidden rounded-2xl border border-line">
+          <div className="oli p-6 sm:p-8">
+          <h2 id="sentence-heading" className="text-sm font-medium text-ink-soft">
+            Câu của ngày
+          </h2>
+          <p lang="en" className="en mt-4 text-[1.75rem] leading-snug text-pretty sm:text-4xl">
+            {sentence.before}
+            <mark className="word">{sentence.word}</mark>
+            {sentence.after}
+          </p>
+          <p className="mt-4 text-lg text-ink-soft">{sentence.vi}</p>
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <SpeakButton text={fullSentence} />
+          </div>
+          </div>
+          <p className="border-t border-line bg-sheet px-6 py-4 text-ink text-pretty sm:px-8">
+            <span className="font-semibold">Ghi nhớ: </span>
+            {sentence.note}
+          </p>
+        </section>
+      </div>
+
+      <section aria-labelledby="plan-heading" className="mt-10 lg:mt-[3.75rem]">
+        <h2 id="plan-heading" className="text-lg font-semibold">
+          Việc nên làm hôm nay
+        </h2>
+        <ol className="mt-4 flex flex-col gap-3">
+          {plan.map((item, i) => (
+            <li key={item.href}>
+              <Link
+                href={item.href}
+                className="group flex min-h-16 items-start gap-4 rounded-xl border border-line bg-sheet p-4 transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+              >
+                <span
+                  aria-hidden="true"
+                  className="grid size-8 shrink-0 place-items-center rounded-full border border-line text-sm font-semibold tabular-nums text-ink-soft group-hover:border-accent group-hover:text-accent"
+                >
+                  {i + 1}
+                </span>
+                <span className="min-w-0">
+                  <span className="block font-semibold">{item.title}</span>
+                  <span className="block text-sm text-ink-soft">{item.detail}</span>
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ol>
+      </section>
+    </div>
+  );
+}
