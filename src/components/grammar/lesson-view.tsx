@@ -146,12 +146,6 @@ function Steps({
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  // Keep the current step visible in the scrollable row on phones.
-  const currentStep = useRef<HTMLButtonElement>(null);
-  useEffect(() => {
-    currentStep.current?.scrollIntoView({ block: "nearest", inline: "nearest" });
-  }, [groupIndex]);
-
   const nextPage = pages[page + 1];
   const nextLabel = nextPage
     ? nextPage.kind === "section"
@@ -159,54 +153,48 @@ function Steps({
       : nextPage.group
     : null;
 
+  const posInGroup = inGroup.findIndex(({ i }) => i === page);
+
   return (
-    <div className="lg:grid lg:grid-cols-[13rem_minmax(0,42rem)] lg:gap-10">
-      <nav aria-label="Các bước của bài" className="-mx-4 mb-5 overflow-x-auto px-4 lg:mx-0 lg:mb-0 lg:overflow-visible lg:px-0">
-        <ol className="flex gap-2 lg:sticky lg:top-8 lg:flex-col lg:gap-1">
+    <div className="max-w-[42rem]">
+      <nav aria-label="Các bước của bài" className="mb-6">
+        <ol className="grid gap-1.5" style={{ gridTemplateColumns: `repeat(${groups.length}, minmax(0, 1fr))` }}>
           {groups.map((g, k) => {
             const first = pages.findIndex((p) => p.group === g);
             const state = k < groupIndex ? "done" : k === groupIndex ? "current" : "todo";
+            // The current step fills up as you read its screens.
+            const fill = state === "done" ? 100 : state === "current" ? ((posInGroup + 1) / inGroup.length) * 100 : 0;
             return (
-              <li key={g} className="shrink-0">
+              <li key={g} className="min-w-0">
                 <button
                   type="button"
-                  ref={state === "current" ? currentStep : undefined}
                   onClick={() => onPage(first)}
                   aria-current={state === "current" ? "step" : undefined}
-                  className={`flex min-h-11 w-full items-center gap-2 whitespace-nowrap rounded-full px-3 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent lg:rounded-lg ${
-                    state === "current" ? "bg-accent text-accent-ink" : state === "done" ? "text-ink hover:bg-line/40" : "text-ink-soft hover:bg-line/40"
-                  }`}
+                  aria-label={`Bước ${k + 1}: ${g}`}
+                  className="group flex min-h-11 w-full flex-col gap-2 rounded-md pt-2 text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                 >
+                  <span className="block h-1.5 w-full overflow-hidden rounded-full bg-line">
+                    <span className="block h-full rounded-full bg-accent transition-[width] motion-reduce:transition-none" style={{ width: `${fill}%` }} />
+                  </span>
                   <span
-                    aria-hidden
-                    className={`grid size-6 shrink-0 place-items-center rounded-full text-xs tabular-nums ${
-                      state === "current" ? "bg-accent-ink/20" : state === "done" ? "bg-correct/15 text-correct" : "border border-line"
+                    className={`hidden truncate text-sm sm:block ${
+                      state === "current" ? "font-semibold text-accent" : state === "done" ? "text-ink" : "text-ink-soft group-hover:text-ink"
                     }`}
                   >
-                    {state === "done" ? "✓" : k + 1}
+                    {k + 1}. {g}
                   </span>
-                  {g}
                 </button>
               </li>
             );
           })}
         </ol>
+        <p className="mt-1 text-sm text-ink-soft sm:hidden">
+          Bước {groupIndex + 1}/{groups.length}: <span className="font-semibold text-accent">{current.group}</span>
+          {inGroup.length > 1 ? ` · ${posInGroup + 1}/${inGroup.length}` : ""}
+        </p>
       </nav>
 
-      <div className="min-w-0">
-        {inGroup.length > 1 ? (
-          <p className="mb-3 flex items-center gap-2 text-sm text-ink-soft tabular-nums">
-            <span>
-              {current.group} · {inGroup.findIndex(({ i }) => i === page) + 1}/{inGroup.length}
-            </span>
-            <span aria-hidden className="flex gap-1">
-              {inGroup.map(({ i }) => (
-                <span key={i} className={`h-1.5 w-4 rounded-full ${i <= page ? "bg-accent" : "bg-line"}`} />
-              ))}
-            </span>
-          </p>
-        ) : null}
-
+      <div>
         <div key={page} className="motion-safe:animate-[fadein_160ms_ease-out]">
           {current.kind === "dialogue" ? <Dialogue lesson={lesson} /> : null}
           {current.kind === "section" ? <SectionView section={lesson.sections[current.index]} /> : null}
