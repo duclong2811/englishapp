@@ -3,7 +3,7 @@ import { supportsFallbacks } from "@/lib/speaking/conversation";
 import { OPEN_TASKS } from "@/content/tests/open-tasks";
 import { findLessonTitle } from "@/lib/tests/lesson-titles";
 import { gradeSchema, openAnswerBody } from "@/lib/tests/grading";
-import { anthropic, DEFAULT_MODEL, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
+import { anthropic, CHECK_MODEL, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
 function system(level: string, mode: "write" | "speak", focus: string) {
   return [
@@ -32,7 +32,7 @@ export async function POST(request: Request) {
   const env = speakEnv();
   const client = anthropic(env);
   if (!client) return jsonError(501, "App chưa có khóa API nên chưa chấm được.");
-  const model = env.SPEAK_FEEDBACK_MODEL || DEFAULT_MODEL;
+  const model = env.CHECK_MODEL || CHECK_MODEL;
 
   try {
     const message = await client.beta.messages.parse({
