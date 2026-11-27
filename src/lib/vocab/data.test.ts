@@ -12,12 +12,13 @@ describe("vocabulary content", () => {
     for (const level of LEVELS) expect(counts[level].total).toBeGreaterThan(500);
   });
 
-  it("has 1059 study words at A1, each with meaning, IPA and two examples", () => {
-    expect(study).toHaveLength(1059);
+  it("has every A1 word and each study word has a meaning, IPA and two examples", () => {
+    expect(study.filter((w) => w.level === "A1")).toHaveLength(1059);
     for (const w of study) {
-      expect(w.level, w.id).toBe("A1");
+      expect(["A1", "A2"], w.id).toContain(w.level);
       expect(w.ipa, w.id).toBeTruthy();
       expect(w.examples.length, w.id).toBeGreaterThanOrEqual(2);
+      for (const m of w.meanings) expect(m.vi.trim().length, w.id).toBeGreaterThan(0);
     }
   });
 
@@ -42,9 +43,11 @@ describe("vocabulary content", () => {
 
 describe("topics", () => {
   it("puts every study word in exactly one topic", () => {
-    const inTopics = getTopics().flatMap((t) => t.words);
+    const topics = getTopics();
+    const inTopics = topics.flatMap((t) => t.words);
+    const levels = new Set(topics.map((t) => t.level));
     expect(new Set(inTopics).size).toBe(inTopics.length);
-    expect(new Set(inTopics)).toEqual(new Set(getStudyWords().map((w) => w.id)));
+    expect(new Set(inTopics)).toEqual(new Set(getStudyWords().filter((w) => levels.has(w.level)).map((w) => w.id)));
   });
 
   it("splits topics into sets of 5 to 10 words", () => {

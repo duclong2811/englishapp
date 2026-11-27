@@ -10,5 +10,8 @@ import a1Core8 from "./a1-core-8.json";
 import a1Core9 from "./a1-core-9.json";
 import a1Core10 from "./a1-core-10.json";
 import a1Core11 from "./a1-core-11.json";
+import a2Core1 from "./a2-core-1.json";
+import a2Core2 from "./a2-core-2.json";
+import a2Core3 from "./a2-core-3.json";
 
-export const viFiles: unknown[] = [a1Core, a1Core2, a1Core3, a1Core4, a1Core5, a1Core6, a1Core7, a1Core8, a1Core9, a1Core10, a1Core11];
+export const viFiles: unknown[] = [a1Core, a1Core2, a1Core3, a1Core4, a1Core5, a1Core6, a1Core7, a1Core8, a1Core9, a1Core10, a1Core11, a2Core1, a2Core2, a2Core3];
