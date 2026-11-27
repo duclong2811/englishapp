@@ -2,9 +2,10 @@ import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import { findScenario, supportsFallbacks } from "@/lib/speaking/conversation";
 import { feedbackPrompt } from "@/lib/speaking/prompt";
 import { conversationBody, feedbackSchema } from "@/lib/speaking/schema";
-import { anthropic, DEFAULT_MODEL, jsonError, speakEnv } from "@/lib/speaking/server";
+import { anthropic, DEFAULT_MODEL, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
 export async function POST(request: Request) {
+  if (fromOtherSite(request)) return jsonError(403, "Forbidden");
   const parsed = conversationBody.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return jsonError(400, "Dữ liệu hội thoại không hợp lệ.");
   const scenario = findScenario(parsed.data.scenarioId);

@@ -1,25 +1,28 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Conversation } from "@/components/speaking/conversation";
-import { getScenario, SCENARIOS } from "@/content/speaking/scenarios";
+import { LessonView } from "@/components/speaking/lesson-view";
+import { lessonVocab } from "@/lib/speaking/coverage";
+import { getLesson, getLessons, lessonScenario } from "@/lib/speaking/lessons";
+import { getTopic } from "@/lib/vocab/data";
 
 export function generateStaticParams() {
-  return SCENARIOS.map((s) => ({ id: s.id }));
+  return getLessons().map((l) => ({ id: l.topic }));
 }
 
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: PageProps<"/speaking/[id]">): Promise<Metadata> {
   const { id } = await params;
-  return { title: getScenario(id)?.title ?? "Luyện nói" };
+  return { title: getLesson(id)?.title ?? "Luyện nói" };
 }
 
-export default async function ScenarioPage({ params }: PageProps<"/speaking/[id]">) {
+export default async function LessonPage({ params }: PageProps<"/speaking/[id]">) {
   const { id } = await params;
-  const scenario = getScenario(id);
-  if (!scenario) notFound();
-  const { title, goal, opening, starters } = scenario;
+  const lesson = getLesson(id);
+  if (!lesson) notFound();
+  const topic = getTopic(id);
+  const { title, goal, opening, starters } = lessonScenario(lesson);
 
   return (
     <>
@@ -27,12 +30,16 @@ export default async function ScenarioPage({ params }: PageProps<"/speaking/[id]
         Luyện nói
       </Link>
       <header className="mb-6 mt-3 max-w-[42rem]">
-        <h1 className="text-3xl font-semibold tracking-tight text-balance">{title}</h1>
-        <p className="mt-2 text-ink-soft text-pretty">
-          <span className="font-medium text-ink">Mục tiêu:</span> {goal}
-        </p>
+        <p className="text-sm font-medium text-ink-soft">Chủ đề: {topic?.title}</p>
+        <h1 className="mt-1 text-3xl font-semibold tracking-tight text-balance">{lesson.title}</h1>
+        <p className="mt-2 text-ink-soft text-pretty">{lesson.summary}</p>
       </header>
-      <Conversation scenario={{ id, title, goal, opening, starters }} />
+      <LessonView
+        topic={id}
+        lines={lesson.lines}
+        vocab={lessonVocab(lesson)}
+        scenario={{ id, title, goal, opening, starters }}
+      />
     </>
   );
 }

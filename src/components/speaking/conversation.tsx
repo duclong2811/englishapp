@@ -3,8 +3,9 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { SpeakButton } from "@/components/speak-button";
+import { VoicePicker } from "@/components/speaking/voice-picker";
 import { startRecording, unlockAudio } from "@/lib/speaking/recorder";
-import { createSpeaker, type Speaker } from "@/lib/speaking/speaker";
+import { createSpeaker, unlockPlayback, type Speaker } from "@/lib/speaking/speaker";
 import { SentenceBuffer } from "@/lib/speaking/speech";
 import type { Feedback, Turn } from "@/lib/speaking/schema";
 
@@ -19,8 +20,8 @@ export type ConversationScenario = {
 type Phase = "ready" | "idle" | "listening" | "transcribing" | "thinking" | "speaking" | "ended";
 type Recording = Awaited<ReturnType<typeof startRecording>>;
 
-/** The API accepts 40 messages; stop well before that. */
-const MAX_LEARNER_TURNS = 15;
+/** The API accepts 40 messages, so at most 19 learner turns fit. */
+const DEFAULT_MAX_TURNS = 15;
 const MAX_CHARS = 600;
 
 const STATUS: Record<Phase, string> = {
@@ -38,7 +39,13 @@ const pill =
 const primary =
   "inline-flex min-h-12 items-center justify-center rounded-full bg-accent px-6 font-semibold text-accent-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-50";
 
-export function Conversation({ scenario }: { scenario: ConversationScenario }) {
+export function Conversation({
+  scenario,
+  maxTurns = DEFAULT_MAX_TURNS,
+}: {
+  scenario: ConversationScenario;
+  maxTurns?: number;
+}) {
   const [phase, setPhase] = useState<Phase>("ready");
   const [messages, setMessages] = useState<Turn[]>([]);
   const [notice, setNotice] = useState<string | null>(null);
@@ -59,9 +66,10 @@ export function Conversation({ scenario }: { scenario: ConversationScenario }) {
   const phaseRef = useRef<Phase>("ready");
   const handsFreeRef = useRef(true);
   const listenRef = useRef<() => void>(() => {});
+  const maxTurnsRef = useRef(maxTurns);
 
   const learnerTurns = messages.filter((m) => m.role === "user").length;
-  const atLimit = learnerTurns >= MAX_LEARNER_TURNS;
+  const atLimit = learnerTurns >= maxTurns;
 
   function updatePhase(p: Phase) {
     phaseRef.current = p;
@@ -95,7 +103,7 @@ export function Conversation({ scenario }: { scenario: ConversationScenario }) {
         if (phaseRef.current !== "speaking") return;
         updatePhase("idle");
         const turns = messagesRef.current.filter((m) => m.role === "user").length;
-        if (handsFreeRef.current && turns < MAX_LEARNER_TURNS) listenRef.current();
+        if (handsFreeRef.current && turns < maxTurnsRef.current) listenRef.current();
       });
     }
     return speaker.current;
@@ -105,6 +113,7 @@ export function Conversation({ scenario }: { scenario: ConversationScenario }) {
     // The first speech and audio must start inside a tap, or iOS keeps them muted.
     try {
       unlockAudio();
+      unlockPlayback();
     } catch {
       // no Web Audio; typing still works
     }
@@ -113,7 +122,6 @@ export function Conversation({ scenario }: { scenario: ConversationScenario }) {
     updatePhase("speaking");
     s.speak(scenario.opening);
     s.finish();
-    if (!s.supported) updatePhase("idle");
   }
 
   async function reply(text: string) {
@@ -163,7 +171,6 @@ export function Conversation({ scenario }: { scenario: ConversationScenario }) {
       updateMessages([...history, { role: "assistant", content: answer.trim().slice(0, MAX_CHARS) }]);
       if (phaseRef.current === "thinking") updatePhase("speaking");
       s.finish();
-      if (!s.supported) updatePhase("idle");
     } catch (err) {
       if (controller.signal.aborted) return;
       console.error(err);
@@ -294,16 +301,21 @@ export function Conversation({ scenario }: { scenario: ConversationScenario }) {
         </p>
       ) : null}
 
-      {phase !== "ready" && phase !== "ended" ? (
-        <label className="mb-3 inline-flex min-h-11 items-center gap-2 text-sm text-ink-soft">
-          <input
-            type="checkbox"
-            checked={handsFree}
-            onChange={(e) => setHandsFree(e.target.checked)}
-            className="size-5 accent-accent"
-          />
-          Tự bật micro sau khi AI nói xong
-        </label>
+      {phase !== "ended" ? (
+        <div className="mb-3 flex flex-wrap items-center gap-x-5 gap-y-1">
+          <VoicePicker />
+          {phase !== "ready" ? (
+            <label className="inline-flex min-h-11 items-center gap-2 text-sm text-ink-soft">
+              <input
+                type="checkbox"
+                checked={handsFree}
+                onChange={(e) => setHandsFree(e.target.checked)}
+                className="size-5 accent-accent"
+              />
+              Tự bật micro khi AI nói xong
+            </label>
+          ) : null}
+        </div>
       ) : null}
 
       <ol className="flex flex-col gap-3" aria-label="Hội thoại">

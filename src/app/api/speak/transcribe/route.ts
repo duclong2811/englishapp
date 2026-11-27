@@ -1,8 +1,9 @@
-import { jsonError, speakEnv, WHISPER_MODEL } from "@/lib/speaking/server";
+import { fromOtherSite, jsonError, speakEnv, WHISPER_MODEL } from "@/lib/speaking/server";
 
 const MAX_BYTES = 3 * 1024 * 1024; // about 90 s of 16 kHz mono WAV
 
 export async function POST(request: Request) {
+  if (fromOtherSite(request)) return jsonError(403, "Forbidden");
   const env = speakEnv();
   if (!env.AI) return jsonError(501, "Chuyển giọng nói thành chữ chỉ chạy trên Cloudflare (cần Workers AI).");
 

@@ -37,6 +37,16 @@ export function anthropic(env: SpeakEnv) {
 }
 
 export const WHISPER_MODEL = "@cf/openai/whisper-large-v3-turbo";
+export const TTS_MODEL = "@cf/deepgram/aura-2-en";
+
+/**
+ * Rejects calls made from other websites. The endpoints spend money per call,
+ * so only this app's own pages may use them. (Browsers always send this header.)
+ */
+export function fromOtherSite(request: Request): boolean {
+  const site = request.headers.get("sec-fetch-site");
+  return site !== null && site !== "same-origin" && site !== "none";
+}
 
 export function jsonError(status: number, error: string) {
   return Response.json({ error }, { status });

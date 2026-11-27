@@ -1,10 +1,11 @@
 import "server-only";
-import { getScenario, type Scenario } from "@/content/speaking/scenarios";
+import { getScenario } from "./lessons";
+import type { Scenario } from "./scenario";
 import topics from "@/content/vocab/topics.json";
 import type { Turn } from "./schema";
 
 /** Words from the scenario's topics, used to steer the AI's vocabulary. */
-export function targetWords(scenario: Scenario, limit = 30): string[] {
+export function targetWords(scenario: Scenario, limit = 60): string[] {
   const words: string[] = [];
   for (const id of scenario.topicIds) {
     // Only the topic list is imported here: the full dictionary would bloat the API worker.

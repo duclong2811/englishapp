@@ -1,11 +1,12 @@
 import { conversationPrompt } from "@/lib/speaking/prompt";
 import { findScenario, supportsFallbacks, targetWords, toApiMessages } from "@/lib/speaking/conversation";
 import { conversationBody } from "@/lib/speaking/schema";
-import { anthropic, DEFAULT_MODEL, jsonError, speakEnv } from "@/lib/speaking/server";
+import { anthropic, DEFAULT_MODEL, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
 const REFUSAL_LINE = "Sorry, let's talk about something else. What do you like to do?";
 
 export async function POST(request: Request) {
+  if (fromOtherSite(request)) return jsonError(403, "Forbidden");
   const parsed = conversationBody.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return jsonError(400, "Dữ liệu hội thoại không hợp lệ.");
   const scenario = findScenario(parsed.data.scenarioId);

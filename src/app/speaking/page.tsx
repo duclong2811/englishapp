@@ -1,34 +1,51 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeading } from "@/components/empty-state";
-import { SCENARIOS } from "@/content/speaking/scenarios";
+import { LessonList } from "@/components/speaking/lesson-list";
+import { getLesson } from "@/lib/speaking/lessons";
+import { getTopics } from "@/lib/vocab/data";
 
 export const metadata: Metadata = { title: "Luyện nói" };
 
 export default function SpeakingPage() {
+  const items = getTopics().map((t) => {
+    const lesson = getLesson(t.id);
+    return { topic: t.id, topicTitle: t.title, title: lesson?.title ?? null };
+  });
+
   return (
     <>
       <PageHeading
         title="Luyện nói"
-        intro="Chọn một tình huống rồi nói chuyện với AI bằng giọng nói. AI dùng lại từ vựng A1 bạn đang học và nhận xét khi kết thúc."
+        intro="Mỗi chủ đề từ vựng có một bài nói: luyện theo kịch bản dùng gần hết từ của chủ đề, rồi nhập vai với AI. Muốn nói gì thì vào Nói tự do."
       />
-      <ul className="grid max-w-[56rem] gap-3 sm:grid-cols-2">
-        {SCENARIOS.map((s) => (
-          <li key={s.id}>
-            <Link
-              href={`/speaking/${s.id}`}
-              className="flex h-full flex-col rounded-xl border border-line bg-sheet p-4 transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-            >
-              <span className="font-semibold text-balance">{s.title}</span>
-              <span className="mt-1 flex-1 text-sm text-ink-soft text-pretty">{s.description}</span>
-              <span className="en mt-3 text-sm text-pretty">“{s.opening}”</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
-      <p className="mt-6 max-w-[42rem] text-sm text-ink-soft text-pretty">
-        Mẹo: dùng tai nghe, nói câu ngắn và rõ. Nếu không tiện nói, bạn có thể gõ câu trả lời.
-      </p>
+      <div className="lg:grid lg:grid-cols-[minmax(0,40rem)_minmax(16rem,22rem)] lg:gap-12">
+        <div>
+          <Link
+            href="/speaking/free"
+            className="oli block rounded-2xl border border-line p-6 transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:p-8"
+          >
+            <span className="text-sm font-medium text-ink-soft">Không kịch bản</span>
+            <span className="mt-2 block text-3xl font-semibold tracking-tight">Nói tự do</span>
+            <span className="mt-2 block text-ink-soft text-pretty">
+              Trò chuyện với AI về bất cứ chủ đề nào, bằng giọng nói hoặc gõ chữ.
+            </span>
+            <span className="mt-5 inline-flex min-h-12 items-center rounded-full bg-accent px-6 font-semibold text-accent-ink">
+              Bắt đầu nói
+            </span>
+          </Link>
+          <LessonList items={items} />
+        </div>
+        <aside className="mt-10 lg:mt-0">
+          <h2 className="text-lg font-semibold">Cách học</h2>
+          <ol className="mt-3 list-decimal space-y-2 pl-5 text-ink-soft text-pretty">
+            <li>Học bộ từ vựng của chủ đề trước.</li>
+            <li>Bước 1: đọc theo kịch bản, app chấm từng từ.</li>
+            <li>Bước 2: nhập vai với AI, tự trả lời không cần kịch bản, cuối buổi có nhận xét.</li>
+          </ol>
+          <p className="mt-4 text-sm text-ink-soft text-pretty">Mẹo: dùng tai nghe, nói câu ngắn và rõ.</p>
+        </aside>
+      </div>
     </>
   );
 }
