@@ -158,6 +158,12 @@ function Learn({ lesson, onPractice }: { lesson: GrammarLesson; onPractice: () =
                       <Marked text={e.en} />
                     </p>
                     <p className="text-sm text-ink-soft text-pretty">{e.vi}</p>
+                    {e.why ? (
+                      <p className="mt-1.5 text-sm text-pretty">
+                        <span className="font-semibold text-accent">Vì sao: </span>
+                        {e.why}
+                      </p>
+                    ) : null}
                   </div>
                   <SpeakButton text={plain(e.en)} compact />
                 </li>

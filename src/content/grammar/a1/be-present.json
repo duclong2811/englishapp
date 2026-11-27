@@ -4,26 +4,90 @@
   "title": "Động từ to be: am, is, are",
   "summary": "Nói bạn là ai, ở đâu, cảm thấy thế nào. Cách dùng am, is, are, thể phủ định và câu hỏi.",
   "dialogue": [
-    { "who": "A", "en": "Hi! [[I'm]] Lan. [[Are]] you new here?", "vi": "Chào bạn! Mình là Lan. Bạn mới đến à?" },
-    { "who": "B", "en": "Yes, [[I am]]. My name [[is]] Nam.", "vi": "Ừ, đúng rồi. Mình tên là Nam." },
-    { "who": "A", "en": "Nice to meet you, Nam. Where [[are]] you from?", "vi": "Rất vui được gặp bạn, Nam. Bạn từ đâu đến?" },
-    { "who": "B", "en": "[[I'm]] from Hue. [[Are]] you a student?", "vi": "Mình đến từ Huế. Bạn là sinh viên à?" },
-    { "who": "A", "en": "No, [[I'm not]]. [[I'm]] a teacher. My classes [[are]] on Monday.", "vi": "Không, mình không phải. Mình là giáo viên. Các lớp của mình học vào thứ Hai." },
-    { "who": "B", "en": "Oh! [[Is]] your class difficult?", "vi": "Ồ! Lớp của bạn có khó không?" },
-    { "who": "A", "en": "No, it [[isn't]]. [[It's]] fun!", "vi": "Không khó đâu. Vui lắm!" }
+    {
+      "who": "A",
+      "en": "Hi! [[I'm]] Lan. [[Are]] you new here?",
+      "vi": "Chào bạn! Mình là Lan. Bạn mới đến à?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, [[I am]]. My name [[is]] Nam.",
+      "vi": "Ừ, đúng rồi. Mình tên là Nam."
+    },
+    {
+      "who": "A",
+      "en": "Nice to meet you, Nam. Where [[are]] you from?",
+      "vi": "Rất vui được gặp bạn, Nam. Bạn từ đâu đến?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'm]] from Hue. [[Are]] you a student?",
+      "vi": "Mình đến từ Huế. Bạn là sinh viên à?"
+    },
+    {
+      "who": "A",
+      "en": "No, [[I'm not]]. [[I'm]] a teacher. My classes [[are]] on Monday.",
+      "vi": "Không, mình không phải. Mình là giáo viên. Các lớp của mình học vào thứ Hai."
+    },
+    {
+      "who": "B",
+      "en": "Oh! [[Is]] your class difficult?",
+      "vi": "Ồ! Lớp của bạn có khó không?"
+    },
+    {
+      "who": "A",
+      "en": "No, it [[isn't]]. [[It's]] fun!",
+      "vi": "Không khó đâu. Vui lắm!"
+    }
   ],
   "sections": [
     {
       "heading": "Vì sao tiếng Anh cần be?",
       "body": [
         "Tiếng Việt nói “Tôi đói”, “Cô ấy đẹp”, “Họ ở nhà”, không cần thêm chữ nào giữa người và tính chất. Tiếng Anh thì **câu nào cũng phải có động từ**, nên khi không có hành động, ta dùng động từ **be**.",
-        "Be thường dịch là “là”, “thì”, “ở”, nhưng nhiều khi không dịch ra tiếng Việt: *I am hungry* = Tôi đói."
+        "Be thường dịch là “là”, “thì”, “ở”, nhưng nhiều khi không dịch ra tiếng Việt: *I am hungry* = Tôi đói. Be đi với bốn loại từ chính dưới đây."
       ],
       "examples": [
-        { "en": "I [[am]] a teacher.", "vi": "Tôi là giáo viên. (be + nghề nghiệp, tên)" },
-        { "en": "She [[is]] tired.", "vi": "Cô ấy mệt. (be + tính từ)" },
-        { "en": "They [[are]] at home.", "vi": "Họ ở nhà. (be + nơi chốn)" },
-        { "en": "I [[am]] 25 years old.", "vi": "Tôi 25 tuổi. (be + tuổi)" }
+        {
+          "en": "I [[am]] a teacher.",
+          "vi": "Tôi là giáo viên.",
+          "why": "Be + nghề nghiệp. Tiếng Việt có chữ “là” nên dễ nhớ."
+        },
+        {
+          "en": "My name [[is]] Nam.",
+          "vi": "Tên tôi là Nam.",
+          "why": "Be + tên. My name là một thứ (= it) → is."
+        },
+        {
+          "en": "She [[is]] tired.",
+          "vi": "Cô ấy mệt.",
+          "why": "Be + tính từ chỉ cảm giác. Tiếng Việt không có “là”, nhưng tiếng Anh vẫn phải có is."
+        },
+        {
+          "en": "The coffee [[is]] hot.",
+          "vi": "Cà phê nóng.",
+          "why": "Be + tính từ chỉ tính chất của đồ vật."
+        },
+        {
+          "en": "They [[are]] at home.",
+          "vi": "Họ ở nhà.",
+          "why": "Be + nơi chốn: be mang nghĩa “ở”."
+        },
+        {
+          "en": "The keys [[are]] on the table.",
+          "vi": "Chìa khóa ở trên bàn.",
+          "why": "Nơi chốn của đồ vật. The keys là số nhiều → are."
+        },
+        {
+          "en": "I [[am]] 25 years old.",
+          "vi": "Tôi 25 tuổi.",
+          "why": "Tuổi dùng be, không dùng have như tiếng Việt “có 25 tuổi”."
+        },
+        {
+          "en": "It [[is]] seven o'clock.",
+          "vi": "Bây giờ là bảy giờ.",
+          "why": "Giờ giấc và thời tiết dùng It is."
+        }
       ]
     },
     {
@@ -33,29 +97,92 @@
         "Danh từ số ít (*my mother*, *the book*, *Tom*) đi với **is**. Danh từ số nhiều (*my parents*, *the books*, *Tom and Anna*) đi với **are**."
       ],
       "table": {
-        "head": ["Chủ ngữ", "Be", "Viết tắt", "Ví dụ"],
+        "head": [
+          "Chủ ngữ",
+          "Be",
+          "Viết tắt",
+          "Ví dụ"
+        ],
         "rows": [
-          ["I", "am", "I'm", "I'm a student."],
-          ["he, she, it", "is", "he's, she's, it's", "She's my sister."],
-          ["you, we, they", "are", "you're, we're, they're", "We're at work."]
-        ]
-      }
-    },
-    {
-      "heading": "Phủ định: thêm not",
-      "body": ["Đặt **not** ngay sau be. Không có dạng viết tắt “amn't”: chỉ có *I'm not*."],
-      "table": {
-        "head": ["Đầy đủ", "Viết tắt"],
-        "rows": [
-          ["I am not", "I'm not"],
-          ["he / she / it is not", "isn't (hoặc he's not, she's not)"],
-          ["you / we / they are not", "aren't (hoặc you're not…)"]
+          [
+            "I",
+            "am",
+            "I'm",
+            "I'm a student."
+          ],
+          [
+            "he, she, it",
+            "is",
+            "he's, she's, it's",
+            "She's my sister."
+          ],
+          [
+            "you, we, they",
+            "are",
+            "you're, we're, they're",
+            "We're at work."
+          ]
         ]
       },
       "examples": [
-        { "en": "I'm [[not]] hungry.", "vi": "Tôi không đói." },
-        { "en": "It [[isn't]] expensive.", "vi": "Nó không đắt." },
-        { "en": "My parents [[aren't]] at home.", "vi": "Bố mẹ tôi không ở nhà." }
+        {
+          "en": "My mother [[is]] a nurse.",
+          "vi": "Mẹ tôi là y tá.",
+          "why": "My mother = she → is."
+        },
+        {
+          "en": "My parents [[are]] teachers.",
+          "vi": "Bố mẹ tôi là giáo viên.",
+          "why": "My parents = they (số nhiều) → are."
+        },
+        {
+          "en": "This book [[is]] interesting.",
+          "vi": "Quyển sách này hay.",
+          "why": "This book = it → is."
+        }
+      ]
+    },
+    {
+      "heading": "Phủ định: thêm not",
+      "body": [
+        "Đặt **not** ngay sau be. Không có dạng viết tắt “amn't”: chỉ có *I'm not*."
+      ],
+      "table": {
+        "head": [
+          "Đầy đủ",
+          "Viết tắt"
+        ],
+        "rows": [
+          [
+            "I am not",
+            "I'm not"
+          ],
+          [
+            "he / she / it is not",
+            "isn't (hoặc he's not, she's not)"
+          ],
+          [
+            "you / we / they are not",
+            "aren't (hoặc you're not…)"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm [[not]] hungry.",
+          "vi": "Tôi không đói.",
+          "why": "I am + not → I'm not."
+        },
+        {
+          "en": "It [[isn't]] expensive.",
+          "vi": "Nó không đắt.",
+          "why": "It is + not → it isn't."
+        },
+        {
+          "en": "My parents [[aren't]] at home.",
+          "vi": "Bố mẹ tôi không ở nhà.",
+          "why": "My parents = they → are + not → aren't."
+        }
       ]
     },
     {
@@ -66,38 +193,245 @@
         "Với từ để hỏi, từ để hỏi đứng đầu, rồi đến be: *Where are you from?*, *What is your name?*, *How old are you?*"
       ],
       "examples": [
-        { "en": "[[Are]] you a student? Yes, I [[am]].", "vi": "Bạn là sinh viên à? Đúng vậy." },
-        { "en": "[[Is]] he your brother? No, he [[isn't]].", "vi": "Anh ấy là anh trai bạn à? Không phải." },
-        { "en": "Where [[are]] they from?", "vi": "Họ từ đâu đến?" }
+        {
+          "en": "[[Are]] you a student? Yes, I [[am]].",
+          "vi": "Bạn là sinh viên à? Đúng vậy.",
+          "why": "You → are, đưa lên đầu câu. Trả lời ngắn: Yes, I am (không viết tắt)."
+        },
+        {
+          "en": "[[Is]] he your brother? No, he [[isn't]].",
+          "vi": "Anh ấy là anh trai bạn à? Không phải.",
+          "why": "He → is, đưa lên đầu câu. Trả lời phủ định có thể viết tắt: isn't."
+        },
+        {
+          "en": "Where [[are]] they from?",
+          "vi": "Họ từ đâu đến?",
+          "why": "Từ để hỏi where đứng đầu, sau đó là be rồi chủ ngữ."
+        },
+        {
+          "en": "How old [[is]] your son?",
+          "vi": "Con trai bạn bao nhiêu tuổi?",
+          "why": "Hỏi tuổi cũng dùng be: How old + be + chủ ngữ?"
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I hungry.", "right": "I am hungry.", "why": "Tiếng Anh cần be trước tính từ, dù tiếng Việt không có chữ “là”." },
-    { "wrong": "She teacher.", "right": "She is a teacher.", "why": "Thiếu is. Và trước nghề nghiệp số ít cần a/an (bài 2)." },
-    { "wrong": "I have 25 years old.", "right": "I am 25 years old.", "why": "Nói tuổi dùng be, không dùng have." },
-    { "wrong": "He are my brother.", "right": "He is my brother.", "why": "He, she, it đi với is." },
-    { "wrong": "You are a student?", "right": "Are you a student?", "why": "Câu hỏi phải đảo be lên đầu, không chỉ lên giọng ở cuối câu." },
-    { "wrong": "Yes, I'm.", "right": "Yes, I am.", "why": "Câu trả lời ngắn khẳng định không dùng dạng viết tắt." }
+    {
+      "wrong": "I hungry.",
+      "right": "I am hungry.",
+      "why": "Tiếng Anh cần be trước tính từ, dù tiếng Việt không có chữ “là”."
+    },
+    {
+      "wrong": "She teacher.",
+      "right": "She is a teacher.",
+      "why": "Thiếu is. Và trước nghề nghiệp số ít cần a/an (bài 2)."
+    },
+    {
+      "wrong": "I have 25 years old.",
+      "right": "I am 25 years old.",
+      "why": "Nói tuổi dùng be, không dùng have."
+    },
+    {
+      "wrong": "He are my brother.",
+      "right": "He is my brother.",
+      "why": "He, she, it đi với is."
+    },
+    {
+      "wrong": "You are a student?",
+      "right": "Are you a student?",
+      "why": "Câu hỏi phải đảo be lên đầu, không chỉ lên giọng ở cuối câu."
+    },
+    {
+      "wrong": "Yes, I'm.",
+      "right": "Yes, I am.",
+      "why": "Câu trả lời ngắn khẳng định không dùng dạng viết tắt."
+    }
   ],
   "exercises": [
-    { "type": "choice", "prompt": "I ___ a doctor.", "options": ["am", "is", "are"], "answer": 0, "explain": "I luôn đi với am." },
-    { "type": "choice", "prompt": "My sister ___ at school.", "options": ["am", "is", "are"], "answer": 1, "explain": "My sister là một người (= she), nên dùng is." },
-    { "type": "choice", "prompt": "Tom and Anna ___ my friends.", "options": ["am", "is", "are"], "answer": 2, "explain": "Tom and Anna là hai người (= they), nên dùng are." },
-    { "type": "choice", "prompt": "___ your parents at home?", "options": ["Am", "Is", "Are"], "answer": 2, "explain": "Your parents là số nhiều, và câu hỏi đưa are lên đầu." },
-    { "type": "choice", "prompt": "Câu nào đúng?", "options": ["I hungry.", "I am hungry.", "I is hungry."], "answer": 1, "explain": "Cần be giữa chủ ngữ và tính từ, và I đi với am." },
-    { "type": "fill", "prompt": "It ___ cold today.", "hint": "be", "answers": ["is", "'s"], "explain": "It đi với is." },
-    { "type": "fill", "prompt": "We ___ from Vietnam.", "hint": "be", "answers": ["are", "'re"], "explain": "We đi với are." },
-    { "type": "fill", "prompt": "He ___ a student. He is a teacher.", "hint": "be, phủ định", "answers": ["is not", "isn't"], "explain": "Phủ định của is là is not, viết tắt isn't." },
-    { "type": "fill", "prompt": "I ___ tired. I'm fine.", "hint": "be, phủ định", "answers": ["am not", "'m not"], "explain": "Phủ định của I am là I am not (I'm not). Không có “amn't”." },
-    { "type": "order", "vi": "Bạn có phải là sinh viên không?", "words": ["Are", "you", "a", "student?"], "explain": "Câu hỏi: be đứng trước chủ ngữ." },
-    { "type": "order", "vi": "Mẹ tôi không ở nhà.", "words": ["My", "mother", "is", "not", "at", "home."], "explain": "Not đứng ngay sau be." },
-    { "type": "fix", "sentence": "She teacher.", "answers": ["She is a teacher.", "She's a teacher."], "explain": "Thiếu is, và trước nghề nghiệp cần a." },
-    { "type": "fix", "sentence": "I have 30 years old.", "answers": ["I am 30 years old.", "I am 30.", "I'm 30 years old.", "I'm 30."], "explain": "Nói tuổi dùng be: I am 30 (years old)." },
-    { "type": "fix", "sentence": "You are from Japan?", "answers": ["Are you from Japan?"], "explain": "Câu hỏi đảo are lên trước you." },
-    { "type": "translate", "vi": "Tôi đói.", "answers": ["I am hungry.", "I'm hungry."] },
-    { "type": "translate", "vi": "Họ là bạn của tôi.", "answers": ["They are my friends.", "They're my friends."] },
-    { "type": "translate", "vi": "Anh ấy không mệt.", "answers": ["He is not tired.", "He isn't tired.", "He's not tired."] },
-    { "type": "translate", "vi": "Bạn từ đâu đến?", "answers": ["Where are you from?", "Where do you come from?"] }
+    {
+      "type": "choice",
+      "prompt": "I ___ a doctor.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explain": "Chủ ngữ là I → luôn dùng am (I am = I'm)."
+    },
+    {
+      "type": "choice",
+      "prompt": "My sister ___ at school.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": 1,
+      "explain": "My sister là một người → thay bằng she → ngôi thứ ba số ít → is."
+    },
+    {
+      "type": "choice",
+      "prompt": "Tom and Anna ___ my friends.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": 2,
+      "explain": "Tom and Anna là hai người → thay bằng they → số nhiều → are."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ your parents at home?",
+      "options": [
+        "Am",
+        "Is",
+        "Are"
+      ],
+      "answer": 2,
+      "explain": "Your parents = they (số nhiều) → are. Đây là câu hỏi nên are đứng đầu câu."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I hungry.",
+        "I am hungry.",
+        "I is hungry."
+      ],
+      "answer": 1,
+      "explain": "Tiếng Việt “Tôi đói” không có động từ, nhưng tiếng Anh bắt buộc có be giữa chủ ngữ và tính từ hungry. I → am."
+    },
+    {
+      "type": "fill",
+      "prompt": "It ___ cold today.",
+      "hint": "be",
+      "answers": [
+        "is",
+        "'s"
+      ],
+      "explain": "It (nói về trời, thời tiết) là ngôi thứ ba số ít → is. Thời tiết luôn nói It is: It is cold, It is hot."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ from Vietnam.",
+      "hint": "be",
+      "answers": [
+        "are",
+        "'re"
+      ],
+      "explain": "We = chúng tôi → số nhiều → are."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ a student. He is a teacher.",
+      "hint": "be, phủ định",
+      "answers": [
+        "is not",
+        "isn't"
+      ],
+      "explain": "He → is. Phủ định thêm not ngay sau be: is not, viết tắt isn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ tired. I'm fine.",
+      "hint": "be, phủ định",
+      "answers": [
+        "am not",
+        "'m not"
+      ],
+      "explain": "I → am. Phủ định: am not, viết tắt I'm not. Không có dạng “amn't”."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn có phải là sinh viên không?",
+      "words": [
+        "Are",
+        "you",
+        "a",
+        "student?"
+      ],
+      "explain": "Câu hỏi với be: đưa Are lên trước you. Student là danh từ số ít → cần a: a student."
+    },
+    {
+      "type": "order",
+      "vi": "Mẹ tôi không ở nhà.",
+      "words": [
+        "My",
+        "mother",
+        "is",
+        "not",
+        "at",
+        "home."
+      ],
+      "explain": "My mother = she → is. Not đứng ngay sau be. “Ở nhà” = at home."
+    },
+    {
+      "type": "fix",
+      "sentence": "She teacher.",
+      "answers": [
+        "She is a teacher.",
+        "She's a teacher."
+      ],
+      "explain": "Thiếu động từ: she → is. Teacher là danh từ số ít đếm được → cần a: She is a teacher."
+    },
+    {
+      "type": "fix",
+      "sentence": "I have 30 years old.",
+      "answers": [
+        "I am 30 years old.",
+        "I am 30.",
+        "I'm 30 years old.",
+        "I'm 30."
+      ],
+      "explain": "Tiếng Việt nói “có 30 tuổi” nhưng tiếng Anh dùng be, không dùng have: I am 30 (years old)."
+    },
+    {
+      "type": "fix",
+      "sentence": "You are from Japan?",
+      "answers": [
+        "Are you from Japan?"
+      ],
+      "explain": "Câu hỏi với be không chỉ lên giọng ở cuối: phải đảo are lên trước you."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi đói.",
+      "answers": [
+        "I am hungry.",
+        "I'm hungry."
+      ],
+      "explain": "Tiếng Việt không có chữ “là”, nhưng tiếng Anh cần be trước tính từ: I am hungry."
+    },
+    {
+      "type": "translate",
+      "vi": "Họ là bạn của tôi.",
+      "answers": [
+        "They are my friends.",
+        "They're my friends."
+      ],
+      "explain": "Họ = they → are. “Bạn của tôi” ở đây là nhiều người → my friends (có -s)."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy không mệt.",
+      "answers": [
+        "He is not tired.",
+        "He isn't tired.",
+        "He's not tired."
+      ],
+      "explain": "Anh ấy = he → is. Phủ định: is not (isn't) + tired."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn từ đâu đến?",
+      "answers": [
+        "Where are you from?",
+        "Where do you come from?"
+      ],
+      "explain": "Câu hỏi có từ để hỏi: Where + are + you + from?"
+    }
   ]
 }

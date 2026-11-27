@@ -7,7 +7,12 @@ import { z } from "zod";
  *   English typeface) and **…** is emphasis.
  */
 const line = z.object({ who: z.enum(["A", "B"]), en: z.string().min(1), vi: z.string().min(1) });
-const example = z.object({ en: z.string().min(1), vi: z.string().min(1) });
+const example = z.object({
+  en: z.string().min(1),
+  vi: z.string().min(1),
+  /** Why this form is used here (Vietnamese). */
+  why: z.string().optional(),
+});
 
 const section = z.object({
   heading: z.string().min(1),
@@ -23,7 +28,10 @@ const explain = z.string().min(1);
 const exercise = z.discriminatedUnion("type", [
   z.object({
     type: z.literal("choice"),
-    /** English with ___ for the gap, or a Vietnamese question. */
+    /**
+     * English with ___ for the gap (the learner types the answer, the options
+     * are shown as hints), or a Vietnamese question (the learner picks one).
+     */
     prompt: z.string(),
     options: z.array(z.string()).min(2).max(4),
     answer: z.number().int().min(0),

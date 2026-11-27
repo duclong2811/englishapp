@@ -37,6 +37,8 @@ describe("grammar lessons", () => {
       switch (ex.type) {
         case "choice":
           expect(ex.answer, where).toBeLessThan(ex.options.length);
+          // Gap questions are typed, so the answer must be something you can type.
+          if (ex.prompt.includes("___")) expect(ex.options[ex.answer], where).toMatch(/^[A-Za-z' ]+$/);
           expect(new Set(ex.options).size, where).toBe(ex.options.length);
           break;
         case "fill":

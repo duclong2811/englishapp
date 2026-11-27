@@ -96,6 +96,8 @@ function Card({
   const [picked, setPicked] = useState<number[]>([]);
   const nextRef = useRef<HTMLButtonElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
+  /** Gap questions are typed (writing the form helps it stick); the options are shown as hints. */
+  const typedGap = ex.type === "choice" && ex.prompt.includes("___");
 
   const pool = useMemo(() => {
     if (ex.type !== "order") return [];
@@ -116,19 +118,23 @@ function Card({
   }, [checked]);
 
   const given =
-    ex.type === "choice"
-      ? choice === null
-        ? ""
-        : ex.options[choice]
-      : ex.type === "order"
-        ? picked.map((i) => ex.words[i]).join(" ")
-        : text;
-  const ready =
-    ex.type === "choice" ? choice !== null : ex.type === "order" ? picked.length === ex.words.length : text.trim().length > 0;
+    typedGap
+      ? text
+      : ex.type === "choice"
+        ? choice === null
+          ? ""
+          : ex.options[choice]
+        : ex.type === "order"
+          ? picked.map((i) => ex.words[i]).join(" ")
+          : text;
+  const ready = typedGap
+    ? text.trim().length > 0
+    : ex.type === "choice"
+      ? choice !== null : ex.type === "order" ? picked.length === ex.words.length : text.trim().length > 0;
 
   function check() {
     if (!ready || checked) return;
-    const right = ex.type === "choice" ? choice === ex.answer : isRight(given, answersOf(ex));
+    const right = ex.type === "choice" && !typedGap ? choice === ex.answer : isRight(given, answersOf(ex));
     setChecked({ right, given });
     onChecked(right);
   }
@@ -147,7 +153,7 @@ function Card({
         e.preventDefault();
         if (k.checked) k.next();
         else k.check();
-      } else if (ex.type === "choice" && !k.checked && /^[1-4]$/.test(e.key) && !(e.target instanceof HTMLInputElement)) {
+      } else if (ex.type === "choice" && !ex.prompt.includes("___") && !k.checked && /^[1-4]$/.test(e.key) && !(e.target instanceof HTMLInputElement)) {
         const i = Number(e.key) - 1;
         if (i < ex.options.length) setChoice(i);
       }
@@ -156,7 +162,7 @@ function Card({
     return () => window.removeEventListener("keydown", onKey);
   }, [ex]);
 
-  const best = checked && !checked.right && ex.type !== "choice" ? closest(checked.given, answersOf(ex)) : null;
+  const best = checked && !checked.right && (ex.type !== "choice" || typedGap) ? closest(checked.given, answersOf(ex)) : null;
   const rightAnswer = ex.type === "choice" ? ex.options[ex.answer] : answersOf(ex)[0];
   const explain = "explain" in ex ? ex.explain : undefined;
 
@@ -180,12 +186,27 @@ function Card({
 
       <section className="oli mt-4 rounded-2xl border border-line p-5 sm:p-8">
         <h2 ref={titleRef} tabIndex={-1} className="text-sm font-medium text-ink-soft focus:outline-none">
-          {TITLE[ex.type]}
+          {typedGap ? TITLE.fill : TITLE[ex.type]}
         </h2>
 
-        {ex.type === "choice" ? (
+        {ex.type === "choice" && typedGap ? (
           <>
-            <p className={`mt-3 text-pretty ${/___/.test(ex.prompt) ? "en text-2xl" : "text-xl font-medium"}`}>{ex.prompt}</p>
+            <Gap prompt={ex.prompt} value={text} onChange={setText} disabled={!!checked} />
+            <p className="mt-4 text-sm text-ink-soft">
+              Gợi ý, chọn một trong:{" "}
+              {ex.options.map((o, i) => (
+                <span key={o}>
+                  {i > 0 ? " / " : ""}
+                  <span className="en text-base text-ink">{o}</span>
+                </span>
+              ))}
+            </p>
+          </>
+        ) : null}
+
+        {ex.type === "choice" && !typedGap ? (
+          <>
+            <p className="mt-3 text-xl font-medium text-pretty">{ex.prompt}</p>
             <ul className="mt-5 grid gap-2">
               {ex.options.map((o, i) => {
                 const state = checked ? (i === ex.answer ? "right" : i === choice ? "wrong" : "") : "";
@@ -219,26 +240,7 @@ function Card({
         ) : null}
 
         {ex.type === "fill" ? (
-          <p className="en mt-4 text-2xl leading-loose text-pretty">
-            {ex.prompt.split("___")[0]}
-            <label className="sr-only" htmlFor="gap">
-              Từ cần điền
-            </label>
-            <input
-              id="gap"
-              value={text}
-              onChange={(e) => setText(e.target.value)}
-              disabled={!!checked}
-              autoComplete="off"
-              autoCapitalize="none"
-              autoCorrect="off"
-              spellCheck={false}
-              enterKeyHint="done"
-              className="en mx-1 inline-block min-h-11 w-[8.5ch] rounded-lg border-b-2 border-accent bg-sheet px-2 text-center text-2xl focus-visible:outline-2 focus-visible:outline-accent"
-            />
-            {ex.prompt.split("___")[1]}
-            {ex.hint ? <span className="ml-2 font-sans text-base text-ink-soft">({ex.hint})</span> : null}
-          </p>
+          <Gap prompt={ex.prompt} hint={ex.hint} value={text} onChange={setText} disabled={!!checked} />
         ) : null}
 
         {ex.type === "order" ? (
@@ -349,6 +351,45 @@ function Card({
         )}
       </div>
     </div>
+  );
+}
+
+/** An English sentence with a typing box in the gap. */
+function Gap({
+  prompt,
+  hint,
+  value,
+  onChange,
+  disabled,
+}: {
+  prompt: string;
+  hint?: string;
+  value: string;
+  onChange: (v: string) => void;
+  disabled: boolean;
+}) {
+  const [before, after] = prompt.split("___");
+  return (
+    <p className="en mt-4 text-2xl leading-loose text-pretty">
+      {before}
+      <label className="sr-only" htmlFor="gap">
+        Từ cần điền
+      </label>
+      <input
+        id="gap"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        disabled={disabled}
+        autoComplete="off"
+        autoCapitalize="none"
+        autoCorrect="off"
+        spellCheck={false}
+        enterKeyHint="done"
+        className="en mx-1 inline-block min-h-11 w-[8.5ch] rounded-lg border-b-2 border-accent bg-sheet px-2 text-center text-2xl focus-visible:outline-2 focus-visible:outline-accent"
+      />
+      {after}
+      {hint ? <span className="ml-2 font-sans text-base text-ink-soft">({hint})</span> : null}
+    </p>
   );
 }
 
