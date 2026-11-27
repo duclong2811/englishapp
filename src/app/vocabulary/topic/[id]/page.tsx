@@ -3,18 +3,21 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Illustration } from "@/components/illustration";
 import { TopicSets } from "@/components/vocab/topic-sets";
-import { getStudyWord, getTopic, getTopics } from "@/lib/vocab/data";
+import { getVocabData } from "@/lib/vocab/data";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { getTopics } = await getVocabData();
   return getTopics().map((t) => ({ id: t.id }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/vocabulary/topic/[id]">): Promise<Metadata> {
+  const { getTopic } = await getVocabData();
   const topic = getTopic((await params).id);
   return { title: topic ? topic.title : "Chủ đề" };
 }
 
 export default async function TopicPage({ params }: PageProps<"/vocabulary/topic/[id]">) {
+  const { getStudyWord, getTopic } = await getVocabData();
   const topic = getTopic((await params).id);
   if (!topic) notFound();
   const sets = topic.sets.map((ids) =>

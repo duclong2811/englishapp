@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { PageHeading } from "@/components/empty-state";
 import { VocabOverview } from "@/components/vocab/vocab-overview";
-import { getLevelCounts, getTopics } from "@/lib/vocab/data";
+import { getVocabData } from "@/lib/vocab/data";
 
 export const metadata: Metadata = { title: "Từ vựng" };
 
-export default function VocabularyPage() {
+export default async function VocabularyPage() {
+  const { getLevelCounts, getTopics } = await getVocabData();
   const topics = getTopics().map(({ id, title, description, level, sets }) => ({ id, title, description, level, sets }));
 
   return (

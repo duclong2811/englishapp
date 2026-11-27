@@ -3,13 +3,15 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SpeakButton } from "@/components/speak-button";
 import { ExampleLine, Ipa, LevelBadge } from "@/components/vocab/word-parts";
-import { getStudyWord, getStudyWords, POS_VI } from "@/lib/vocab/data";
+import { getVocabData, POS_VI } from "@/lib/vocab/data";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { getStudyWords } = await getVocabData();
   return getStudyWords().map((w) => ({ id: w.id }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/vocabulary/word/[id]">): Promise<Metadata> {
+  const { getStudyWord } = await getVocabData();
   const word = getStudyWord((await params).id);
   return { title: word ? word.headword : "Từ vựng" };
 }
@@ -25,6 +27,7 @@ const FORM_VI: Record<string, string> = {
 };
 
 export default async function WordPage({ params }: PageProps<"/vocabulary/word/[id]">) {
+  const { getStudyWord } = await getVocabData();
   const word = getStudyWord((await params).id);
   if (!word) notFound();
   const order = Object.keys(FORM_VI);

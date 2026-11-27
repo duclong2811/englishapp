@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { LessonView } from "@/components/speaking/lesson-view";
 import { lessonVocab } from "@/lib/speaking/coverage";
 import { getLesson, getLessons, lessonScenario } from "@/lib/speaking/lessons";
-import { getTopic } from "@/lib/vocab/data";
+import { getVocabData } from "@/lib/vocab/data";
 
 export function generateStaticParams() {
   return getLessons().map((l) => ({ id: l.topic }));
@@ -21,7 +21,8 @@ export default async function LessonPage({ params }: PageProps<"/speaking/[id]">
   const { id } = await params;
   const lesson = getLesson(id);
   if (!lesson) notFound();
-  const topic = getTopic(id);
+  const vocab = await getVocabData();
+  const topic = vocab.getTopic(id);
   const { title, goal, opening, starters } = lessonScenario(lesson);
 
   return (
@@ -37,7 +38,7 @@ export default async function LessonPage({ params }: PageProps<"/speaking/[id]">
       <LessonView
         topic={id}
         lines={lesson.lines}
-        vocab={lessonVocab(lesson)}
+        vocab={lessonVocab(lesson, vocab)}
         scenario={{ id, title, goal, opening, starters }}
       />
     </>

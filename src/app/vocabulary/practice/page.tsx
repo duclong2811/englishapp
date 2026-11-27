@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Practice, type PracticeWord } from "@/components/vocab/practice";
-import { getStudyWords } from "@/lib/vocab/data";
+import { getVocabData } from "@/lib/vocab/data";
 
 export const metadata: Metadata = { title: "Luyện tập từ vựng" };
 
-export default function PracticePage() {
+export default async function PracticePage() {
+  const { getStudyWords } = await getVocabData();
   const words: PracticeWord[] = getStudyWords().map((w) => ({
     id: w.id,
     headword: w.headword,
