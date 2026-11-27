@@ -2,17 +2,21 @@
 
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
+import { LevelPicker, useLevelSelection } from "@/components/level-picker";
 import { grammarScores } from "@/lib/grammar/progress";
 
 type Item = { id: string; title: string; number: number; ready: boolean };
 
 export function SyllabusList({ items }: { items: Item[] }) {
+  const available = ["A1"] as const;
+  const { current, select } = useLevelSelection("lessons:level:v1", available, "A1");
   const scores = useSyncExternalStore(grammarScores.subscribe, grammarScores.getSnapshot, grammarScores.getServerSnapshot);
   const ready = items.filter((i) => i.ready);
   const next = ready.find((i) => !scores?.[i.id]) ?? null;
 
   return (
     <div className="max-w-[42rem]">
+      <LevelPicker current={current} available={available} onSelect={select} />
       {next ? (
         <Link
           href={`/lessons/${next.id}`}
