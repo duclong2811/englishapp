@@ -32,6 +32,8 @@ Mọi thay đổi giao diện theo skill `.claude/skills/englishapp-ux/SKILL.md`
 
 ## Đưa lên Cloudflare
 
+Bản đang chạy: https://english.longfx.trade (Worker `englishapp`, nhánh production `ccr-2f80a8be-hdts76`).
+
 App chạy trên Cloudflare Workers qua bộ chuyển đổi OpenNext (`@opennextjs/cloudflare`). Mọi trang được dựng sẵn lúc build và phục vụ từ kho file tĩnh của Worker, nên không cần R2 hay KV.
 
 - Chạy thử bản Cloudflare trên máy: `npm run cf:preview`
