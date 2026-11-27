@@ -1,0 +1,433 @@
+{
+  "id": "question-words",
+  "level": "A1",
+  "title": "Từ để hỏi: what, where, when, who…",
+  "summary": "Đặt câu hỏi lấy thông tin với what, where, when, who, why, how, which, whose, và trật tự từ trong câu hỏi.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Hi! [[What]] is your name?",
+      "vi": "Chào bạn! Bạn tên là gì?"
+    },
+    {
+      "who": "B",
+      "en": "I'm Duc. And you?",
+      "vi": "Mình là Đức. Còn bạn?"
+    },
+    {
+      "who": "A",
+      "en": "I'm Linh. [[Where]] are you from?",
+      "vi": "Mình là Linh. Bạn quê ở đâu?"
+    },
+    {
+      "who": "B",
+      "en": "From Nghe An. [[When]] did you start here?",
+      "vi": "Nghệ An. Bạn bắt đầu làm ở đây khi nào?"
+    },
+    {
+      "who": "A",
+      "en": "Last month. [[Who]] is your manager?",
+      "vi": "Tháng trước. Quản lý của bạn là ai?"
+    },
+    {
+      "who": "B",
+      "en": "Mr. Long. [[Why]] do you ask?",
+      "vi": "Anh Long. Sao bạn hỏi vậy?"
+    },
+    {
+      "who": "A",
+      "en": "He's my manager too! [[How]] do you get to work?",
+      "vi": "Anh ấy cũng là quản lý của mình! Bạn đi làm bằng gì?"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Từ để hỏi",
+      "heading": "Mỗi từ hỏi một loại thông tin",
+      "rule": "**what** cái gì, **where** ở đâu, **when** khi nào, **who** ai, **why** tại sao, **how** thế nào, bằng cách nào, **which** cái nào, **whose** của ai.",
+      "body": [],
+      "table": {
+        "head": [
+          "Từ",
+          "Hỏi về",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "what",
+            "cái gì, việc gì",
+            "What do you do?"
+          ],
+          [
+            "where",
+            "nơi chốn",
+            "Where do you live?"
+          ],
+          [
+            "when",
+            "thời gian",
+            "When is your birthday?"
+          ],
+          [
+            "who",
+            "người",
+            "Who is that man?"
+          ],
+          [
+            "why",
+            "lý do",
+            "Why are you sad?"
+          ],
+          [
+            "how",
+            "cách thức, tình trạng",
+            "How do you go to work?"
+          ],
+          [
+            "which",
+            "cái nào (trong số có sẵn)",
+            "Which bag is yours?"
+          ],
+          [
+            "whose",
+            "của ai",
+            "Whose phone is this?"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[Why]] are you late? Because the bus was late.",
+          "vi": "Sao bạn đến muộn? Vì xe buýt đến muộn.",
+          "why": "Hỏi lý do → why; trả lời bằng because."
+        },
+        {
+          "en": "[[Which]] color do you like, red or blue?",
+          "vi": "Bạn thích màu nào, đỏ hay xanh?",
+          "why": "Chọn trong các lựa chọn có sẵn → which."
+        },
+        {
+          "en": "[[Whose]] keys are these?",
+          "vi": "Chùm chìa khóa này của ai?",
+          "why": "Hỏi chủ sở hữu → whose."
+        }
+      ],
+      "check": {
+        "prompt": "___ is your birthday? In May.",
+        "options": [
+          "Where",
+          "When",
+          "Who"
+        ],
+        "answer": 1,
+        "explain": "Hỏi thời gian → when."
+      }
+    },
+    {
+      "part": "Trật tự từ",
+      "heading": "Trật tự từ trong câu hỏi",
+      "rule": "**Từ để hỏi + trợ động từ (be, do, does, did, can) + chủ ngữ + động từ**.",
+      "formula": [
+        {
+          "text": "Wh- + [be] + chủ ngữ + …?"
+        },
+        {
+          "text": "Wh- + [do / does / did] + chủ ngữ + V?"
+        },
+        {
+          "text": "Wh- + [can] + chủ ngữ + V?"
+        }
+      ],
+      "body": [
+        "Tiếng Việt để từ hỏi ở cuối và giữ nguyên trật tự: “Bạn sống **ở đâu**?”. Tiếng Anh đưa từ hỏi **lên đầu**, rồi **đảo** trợ động từ lên trước chủ ngữ: *Where do you live?*"
+      ],
+      "examples": [
+        {
+          "en": "Where [[do]] you work?",
+          "vi": "Bạn làm ở đâu?",
+          "why": "Wh- + do + you + work."
+        },
+        {
+          "en": "What time [[does]] the shop open?",
+          "vi": "Cửa hàng mở lúc mấy giờ?",
+          "why": "The shop = it → does."
+        },
+        {
+          "en": "How [[can]] I help you?",
+          "vi": "Tôi có thể giúp gì bạn?",
+          "why": "Wh- + can + I + help."
+        }
+      ],
+      "check": {
+        "prompt": "Câu hỏi nào đúng?",
+        "options": [
+          "Where you live?",
+          "Where do you live?",
+          "You live where?"
+        ],
+        "answer": 1,
+        "explain": "Wh- + do + you + live."
+      }
+    },
+    {
+      "part": "How + tính từ",
+      "heading": "How old, how long, how far…",
+      "rule": "**How + tính từ** để hỏi mức độ: *how old* (bao nhiêu tuổi), *how long* (bao lâu), *how far* (bao xa), *how often* (bao lâu một lần), *how much / how many* (bao nhiêu).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[How old]] is your son?",
+          "vi": "Con trai bạn bao nhiêu tuổi?",
+          "why": "Hỏi tuổi → how old."
+        },
+        {
+          "en": "[[How long]] does it take?",
+          "vi": "Mất bao lâu?",
+          "why": "Hỏi khoảng thời gian → how long."
+        },
+        {
+          "en": "[[How far]] is the airport?",
+          "vi": "Sân bay cách bao xa?",
+          "why": "Hỏi khoảng cách → how far."
+        }
+      ],
+      "check": {
+        "prompt": "___ is it from here to the station? About two kilometers.",
+        "options": [
+          "How far",
+          "How long",
+          "How much"
+        ],
+        "answer": 0,
+        "explain": "Hỏi khoảng cách → how far."
+      }
+    },
+    {
+      "part": "Who làm chủ ngữ",
+      "heading": "Who hỏi người làm: không cần do",
+      "rule": "Khi **who / what** là người, vật **làm** hành động (chủ ngữ), **không dùng do, does, did**: *Who called you?*",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Who]] lives here?",
+          "vi": "Ai sống ở đây?",
+          "why": "Who là người làm → không cần does; lives giữ -s."
+        },
+        {
+          "en": "[[Who]] did you call?",
+          "vi": "Bạn đã gọi cho ai?",
+          "why": "Who là người được gọi → cần did."
+        }
+      ],
+      "check": {
+        "prompt": "___ broke the window?",
+        "options": [
+          "Who",
+          "Who did"
+        ],
+        "answer": 0,
+        "explain": "Hỏi người làm hành động → Who broke…?, không có did."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Where you live?",
+      "right": "Where do you live?",
+      "why": "Cần do sau từ để hỏi."
+    },
+    {
+      "wrong": "What you are doing?",
+      "right": "What are you doing?",
+      "why": "Đảo are lên trước you."
+    },
+    {
+      "wrong": "Why you are sad?",
+      "right": "Why are you sad?",
+      "why": "Đảo are lên trước you."
+    },
+    {
+      "wrong": "Who did call you?",
+      "right": "Who called you?",
+      "why": "Who là người làm → không dùng did."
+    },
+    {
+      "wrong": "How many years old are you?",
+      "right": "How old are you?",
+      "why": "Hỏi tuổi → How old."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ do you live? In Hanoi.",
+      "options": [
+        "What",
+        "Where",
+        "Who"
+      ],
+      "answer": 1,
+      "explain": "Hỏi nơi chốn → where."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ is that woman? She's my aunt.",
+      "options": [
+        "Who",
+        "What",
+        "Whose"
+      ],
+      "answer": 0,
+      "explain": "Hỏi người → who."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ are you crying? Because I'm sad.",
+      "options": [
+        "Why",
+        "How",
+        "When"
+      ],
+      "answer": 0,
+      "explain": "Hỏi lý do → why."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ bag is this? It's Lan's.",
+      "options": [
+        "Who",
+        "Whose",
+        "Which"
+      ],
+      "answer": 1,
+      "explain": "Hỏi của ai → whose."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ do you go to work? By bus.",
+      "options": [
+        "How",
+        "What",
+        "Where"
+      ],
+      "answer": 0,
+      "explain": "Hỏi cách thức → how."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ old is your daughter?",
+      "hint": "từ để hỏi",
+      "answers": [
+        "How"
+      ],
+      "explain": "Hỏi tuổi → How old."
+    },
+    {
+      "type": "fill",
+      "prompt": "What time ___ the class start?",
+      "hint": "trợ động từ",
+      "answers": [
+        "does"
+      ],
+      "explain": "The class = it → does."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ do you prefer, tea or coffee?",
+      "hint": "cái nào",
+      "answers": [
+        "Which"
+      ],
+      "explain": "Chọn trong hai thứ → which."
+    },
+    {
+      "type": "fill",
+      "prompt": "Where ___ you yesterday?",
+      "hint": "be",
+      "answers": [
+        "were"
+      ],
+      "explain": "Hỏi nơi chốn trong quá khứ, you → were."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ long does the trip take?",
+      "hint": "từ để hỏi",
+      "answers": [
+        "How"
+      ],
+      "explain": "Hỏi bao lâu → How long."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn làm nghề gì?",
+      "words": [
+        "What",
+        "do",
+        "you",
+        "do?"
+      ],
+      "explain": "Wh- + do + you + do."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn đến Việt Nam khi nào?",
+      "words": [
+        "When",
+        "did",
+        "you",
+        "come",
+        "to",
+        "Vietnam?"
+      ],
+      "explain": "Wh- + did + you + come."
+    },
+    {
+      "type": "fix",
+      "sentence": "Where you are going?",
+      "answers": [
+        "Where are you going?"
+      ],
+      "explain": "Đảo are lên trước you."
+    },
+    {
+      "type": "fix",
+      "sentence": "What time you get up?",
+      "answers": [
+        "What time do you get up?"
+      ],
+      "explain": "Cần do sau từ để hỏi."
+    },
+    {
+      "type": "fix",
+      "sentence": "Who did eat my cake?",
+      "answers": [
+        "Who ate my cake?"
+      ],
+      "explain": "Who là người làm → không dùng did; eat → ate."
+    },
+    {
+      "type": "translate",
+      "vi": "Tại sao bạn học tiếng Anh?",
+      "answers": [
+        "Why do you learn English?",
+        "Why do you study English?",
+        "Why are you learning English?",
+        "Why are you studying English?"
+      ],
+      "explain": "Hỏi lý do → why + do + you + learn."
+    },
+    {
+      "type": "translate",
+      "vi": "Nhà vệ sinh ở đâu?",
+      "answers": [
+        "Where is the toilet?",
+        "Where's the toilet?",
+        "Where is the bathroom?",
+        "Where's the bathroom?",
+        "Where is the restroom?"
+      ],
+      "explain": "Wh- + is + the toilet."
+    }
+  ]
+}

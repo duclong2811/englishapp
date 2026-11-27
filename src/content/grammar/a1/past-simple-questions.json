@@ -1,0 +1,359 @@
+{
+  "id": "past-simple-questions",
+  "level": "A1",
+  "title": "Quá khứ đơn: phủ định và câu hỏi",
+  "summary": "Nói “đã không làm”, hỏi “có làm không” trong quá khứ với didn't, did; phân biệt với was, were.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Did]] you [[go]] to the party last night?",
+      "vi": "Tối qua bạn có đi tiệc không?"
+    },
+    {
+      "who": "B",
+      "en": "No, I [[didn't]]. I was too tired.",
+      "vi": "Không. Mình mệt quá."
+    },
+    {
+      "who": "A",
+      "en": "What [[did]] you [[do]] then?",
+      "vi": "Thế bạn làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "I stayed home. I [[didn't do]] anything special.",
+      "vi": "Mình ở nhà. Chẳng làm gì đặc biệt."
+    },
+    {
+      "who": "A",
+      "en": "Lan [[didn't come]] either.",
+      "vi": "Lan cũng không đến."
+    },
+    {
+      "who": "B",
+      "en": "Really? Where [[did]] she [[go]]?",
+      "vi": "Thật à? Thế cô ấy đi đâu?"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Phủ định",
+      "heading": "Phủ định: didn't + động từ nguyên mẫu",
+      "rule": "Phủ định quá khứ: **didn't + động từ nguyên mẫu**, dùng cho **mọi** chủ ngữ.",
+      "formula": [
+        {
+          "text": "Chủ ngữ + [didn't] + V"
+        }
+      ],
+      "body": [
+        "Giống doesn't ở hiện tại: đã có **didn't** thì động từ chính **quay về nguyên mẫu**, vì dấu hiệu quá khứ đã nằm ở did."
+      ],
+      "examples": [
+        {
+          "en": "I [[didn't]] see him.",
+          "vi": "Tôi không thấy anh ấy.",
+          "why": "Didn't + see, không phải saw."
+        },
+        {
+          "en": "She [[didn't]] like the food.",
+          "vi": "Cô ấy không thích đồ ăn.",
+          "why": "Didn't + like, không phải liked."
+        },
+        {
+          "en": "We [[didn't]] go out yesterday.",
+          "vi": "Hôm qua chúng tôi không đi đâu.",
+          "why": "Didn't + go."
+        }
+      ],
+      "check": {
+        "prompt": "He didn't ___ the test.",
+        "options": [
+          "pass",
+          "passed"
+        ],
+        "answer": 0,
+        "explain": "Sau didn't → nguyên mẫu: pass."
+      }
+    },
+    {
+      "part": "Câu hỏi",
+      "heading": "Câu hỏi: Did…?",
+      "rule": "Câu hỏi: **Did** + chủ ngữ + động từ **nguyên mẫu**? Trả lời: *Yes, I did. / No, I didn't.*",
+      "formula": [
+        {
+          "text": "[Did] + chủ ngữ + V…?"
+        },
+        {
+          "text": "Wh- + [did] + chủ ngữ + V…?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Did]] you sleep well? Yes, I [[did]].",
+          "vi": "Bạn ngủ có ngon không? Có.",
+          "why": "Did + you + sleep."
+        },
+        {
+          "en": "Where [[did]] you buy this bag?",
+          "vi": "Bạn mua cái túi này ở đâu?",
+          "why": "Wh- + did + you + buy, không phải bought."
+        },
+        {
+          "en": "What time [[did]] the film start?",
+          "vi": "Phim bắt đầu lúc mấy giờ?",
+          "why": "Did + the film + start."
+        }
+      ],
+      "check": {
+        "prompt": "What ___ you eat for lunch?",
+        "options": [
+          "did",
+          "do",
+          "were"
+        ],
+        "answer": 0,
+        "explain": "Hỏi về quá khứ → did."
+      }
+    },
+    {
+      "part": "Was hay did",
+      "heading": "Was, were hay did?",
+      "rule": "Câu có **be** (với tính từ, nơi chốn, danh từ) → **was / were**. Câu có **động từ thường** → **did**.",
+      "body": [
+        "Không dùng cả hai cùng lúc: không nói “Did you was tired?” hay “I wasn't go”."
+      ],
+      "table": {
+        "head": [
+          "Khẳng định",
+          "Phủ định",
+          "Câu hỏi"
+        ],
+        "rows": [
+          [
+            "I was tired.",
+            "I wasn't tired.",
+            "Were you tired?"
+          ],
+          [
+            "She was at home.",
+            "She wasn't at home.",
+            "Was she at home?"
+          ],
+          [
+            "I went home.",
+            "I didn't go home.",
+            "Did you go home?"
+          ],
+          [
+            "She liked it.",
+            "She didn't like it.",
+            "Did she like it?"
+          ]
+        ]
+      },
+      "examples": [],
+      "check": {
+        "prompt": "___ you at school yesterday?",
+        "options": [
+          "Did",
+          "Were"
+        ],
+        "answer": 1,
+        "explain": "At school là nơi chốn, câu không có động từ thường → Were."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I didn't went to work.",
+      "right": "I didn't go to work.",
+      "why": "Sau didn't → nguyên mẫu."
+    },
+    {
+      "wrong": "Did you saw the film?",
+      "right": "Did you see the film?",
+      "why": "Sau did → nguyên mẫu."
+    },
+    {
+      "wrong": "Where you went?",
+      "right": "Where did you go?",
+      "why": "Câu hỏi quá khứ cần did."
+    },
+    {
+      "wrong": "She didn't was happy.",
+      "right": "She wasn't happy.",
+      "why": "Câu có be → wasn't, không dùng didn't."
+    },
+    {
+      "wrong": "Did you tired?",
+      "right": "Were you tired?",
+      "why": "Tired là tính từ → Were you…?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ breakfast this morning. (không ăn)",
+      "options": [
+        "didn't have",
+        "didn't had",
+        "don't had"
+      ],
+      "answer": 0,
+      "explain": "Didn't + nguyên mẫu: have."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you call your mother yesterday?",
+      "options": [
+        "Do",
+        "Did",
+        "Were"
+      ],
+      "answer": 1,
+      "explain": "Yesterday + động từ thường call → Did."
+    },
+    {
+      "type": "choice",
+      "prompt": "Did she ___ the bus?",
+      "options": [
+        "miss",
+        "missed"
+      ],
+      "answer": 0,
+      "explain": "Sau did → nguyên mẫu."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ the hotel nice?",
+      "options": [
+        "Did",
+        "Was"
+      ],
+      "answer": 1,
+      "explain": "Nice là tính từ → Was."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ to the beach last weekend. It rained.",
+      "hint": "go, phủ định",
+      "answers": [
+        "didn't go",
+        "did not go"
+      ],
+      "explain": "Phủ định quá khứ → didn't + go."
+    },
+    {
+      "type": "fill",
+      "prompt": "Did you like the film? Yes, I ___.",
+      "hint": "trả lời ngắn",
+      "answers": [
+        "did"
+      ],
+      "explain": "Trả lời ngắn: Yes, I did."
+    },
+    {
+      "type": "fill",
+      "prompt": "Where ___ you buy that shirt?",
+      "hint": "trợ động từ",
+      "answers": [
+        "did"
+      ],
+      "explain": "Hỏi về quá khứ → did."
+    },
+    {
+      "type": "fill",
+      "prompt": "He didn't ___ my message.",
+      "hint": "read",
+      "answers": [
+        "read"
+      ],
+      "explain": "Sau didn't → nguyên mẫu: read."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ your parents at the wedding?",
+      "hint": "be",
+      "answers": [
+        "Were"
+      ],
+      "explain": "Câu có nơi chốn, không có động từ thường → Were."
+    },
+    {
+      "type": "order",
+      "vi": "Hôm qua bạn có đi làm không?",
+      "words": [
+        "Did",
+        "you",
+        "go",
+        "to",
+        "work",
+        "yesterday?"
+      ],
+      "explain": "Did + you + go (nguyên mẫu)."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi không hiểu câu hỏi.",
+      "words": [
+        "I",
+        "didn't",
+        "understand",
+        "the",
+        "question."
+      ],
+      "explain": "Didn't + understand."
+    },
+    {
+      "type": "fix",
+      "sentence": "I didn't saw her.",
+      "answers": [
+        "I didn't see her."
+      ],
+      "explain": "Sau didn't → nguyên mẫu: see."
+    },
+    {
+      "type": "fix",
+      "sentence": "Did you went to the party?",
+      "answers": [
+        "Did you go to the party?"
+      ],
+      "explain": "Sau did → nguyên mẫu: go."
+    },
+    {
+      "type": "fix",
+      "sentence": "What you did last weekend?",
+      "answers": [
+        "What did you do last weekend?"
+      ],
+      "explain": "Câu hỏi: What + did + you + do."
+    },
+    {
+      "type": "translate",
+      "vi": "Tối qua bạn làm gì?",
+      "answers": [
+        "What did you do last night?"
+      ],
+      "explain": "Wh- + did + you + do."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi không mua gì cả.",
+      "answers": [
+        "We didn't buy anything.",
+        "We did not buy anything.",
+        "We bought nothing."
+      ],
+      "explain": "Didn't + buy."
+    },
+    {
+      "type": "translate",
+      "vi": "Hôm qua bạn có mệt không?",
+      "answers": [
+        "Were you tired yesterday?"
+      ],
+      "explain": "Tired là tính từ → Were you…?"
+    }
+  ]
+}

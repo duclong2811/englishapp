@@ -1,0 +1,367 @@
+{
+  "id": "going-to",
+  "level": "A1",
+  "title": "Be going to: kế hoạch tương lai",
+  "summary": "Nói kế hoạch, dự định và điều sắp xảy ra: am, is, are + going to + động từ nguyên mẫu.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What [[are]] you [[going to do]] this weekend?",
+      "vi": "Cuối tuần này bạn định làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'm going to visit]] my grandparents in Hai Phong.",
+      "vi": "Mình định về thăm ông bà ở Hải Phòng."
+    },
+    {
+      "who": "A",
+      "en": "Nice! How [[are]] you [[going to]] get there?",
+      "vi": "Hay quá! Bạn định đi bằng gì?"
+    },
+    {
+      "who": "B",
+      "en": "[[We're going to take]] the train.",
+      "vi": "Cả nhà định đi tàu."
+    },
+    {
+      "who": "A",
+      "en": "Take an umbrella. [[It's going to rain]] this weekend.",
+      "vi": "Mang ô theo nhé. Cuối tuần này sẽ mưa đấy."
+    },
+    {
+      "who": "B",
+      "en": "Thanks! And you?",
+      "vi": "Cảm ơn! Còn bạn?"
+    },
+    {
+      "who": "A",
+      "en": "[[I'm going to sleep]] all day!",
+      "vi": "Mình sẽ ngủ cả ngày!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Kế hoạch",
+      "heading": "Kế hoạch, dự định đã quyết",
+      "rule": "**am / is / are + going to + động từ nguyên mẫu** = định, sẽ (đã có kế hoạch từ trước).",
+      "formula": [
+        {
+          "text": "I + [am going to] + V"
+        },
+        {
+          "text": "He / She / It + [is going to] + V"
+        },
+        {
+          "text": "You / We / They + [are going to] + V"
+        }
+      ],
+      "signals": [
+        "tomorrow",
+        "tonight",
+        "this weekend",
+        "next week",
+        "next month",
+        "next year",
+        "soon"
+      ],
+      "body": [
+        "Tiếng Việt dùng “định”, “sẽ”, “sắp”. Tiếng Anh cần **đủ ba phần**: be + going to + động từ nguyên mẫu."
+      ],
+      "examples": [
+        {
+          "en": "[[I'm going to]] buy a new phone.",
+          "vi": "Tôi định mua điện thoại mới.",
+          "why": "Kế hoạch đã quyết → I'm going to + buy."
+        },
+        {
+          "en": "She [[is going to]] study in Australia next year.",
+          "vi": "Năm sau cô ấy sẽ đi du học Úc.",
+          "why": "She → is going to; next year → tương lai."
+        },
+        {
+          "en": "We [[are going to]] get married in May.",
+          "vi": "Tháng Năm chúng tôi sẽ cưới.",
+          "why": "We → are going to."
+        }
+      ],
+      "check": {
+        "prompt": "They ___ visit Hue next month.",
+        "options": [
+          "going to",
+          "are going to",
+          "are go to"
+        ],
+        "answer": 1,
+        "explain": "Cần đủ be + going to + V: are going to."
+      }
+    },
+    {
+      "part": "Dự đoán",
+      "heading": "Dự đoán từ điều đang thấy",
+      "rule": "Thấy dấu hiệu rõ ràng ngay bây giờ → dùng **going to**: *Look at those clouds! It's going to rain.*",
+      "body": [],
+      "examples": [
+        {
+          "en": "Look at the sky. [[It's going to]] rain.",
+          "vi": "Nhìn trời kìa. Sắp mưa rồi.",
+          "why": "Thấy mây đen → dự đoán bằng going to."
+        },
+        {
+          "en": "Be careful! [[You're going to]] fall!",
+          "vi": "Cẩn thận! Bạn sắp ngã kìa!",
+          "why": "Thấy sắp ngã → going to."
+        }
+      ],
+      "check": {
+        "prompt": "Look at that car! It ___ hit the tree!",
+        "options": [
+          "is going to",
+          "goes to"
+        ],
+        "answer": 0,
+        "explain": "Thấy dấu hiệu ngay trước mắt → is going to."
+      }
+    },
+    {
+      "part": "Phủ định, câu hỏi",
+      "heading": "Phủ định và câu hỏi",
+      "rule": "Phủ định: thêm **not** sau be. Câu hỏi: đưa **be lên đầu**: *Are you going to…?*",
+      "formula": [
+        {
+          "label": "Phủ định",
+          "text": "Chủ ngữ + be + [not going to] + V"
+        },
+        {
+          "label": "Câu hỏi",
+          "text": "[Am / Is / Are] + chủ ngữ + going to + V?"
+        },
+        {
+          "label": "Có từ để hỏi",
+          "text": "Wh- + [be] + chủ ngữ + going to + V?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I'm not going to]] work this weekend.",
+          "vi": "Cuối tuần này tôi sẽ không làm việc.",
+          "why": "Not đứng sau am."
+        },
+        {
+          "en": "[[Are]] you [[going to]] watch the match?",
+          "vi": "Bạn có định xem trận đấu không?",
+          "why": "Are lên đầu."
+        },
+        {
+          "en": "What [[are]] you [[going to]] cook?",
+          "vi": "Bạn định nấu món gì?",
+          "why": "Wh- + are + you + going to + cook."
+        }
+      ],
+      "check": {
+        "prompt": "___ she going to come?",
+        "options": [
+          "Does",
+          "Is",
+          "Will"
+        ],
+        "answer": 1,
+        "explain": "Câu hỏi với going to → be lên đầu: Is she going to…?"
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I going to visit my aunt.",
+      "right": "I am going to visit my aunt.",
+      "why": "Thiếu be."
+    },
+    {
+      "wrong": "She is going to visits Hue.",
+      "right": "She is going to visit Hue.",
+      "why": "Sau going to → nguyên mẫu."
+    },
+    {
+      "wrong": "We are going visit them.",
+      "right": "We are going to visit them.",
+      "why": "Thiếu to."
+    },
+    {
+      "wrong": "Do you going to come?",
+      "right": "Are you going to come?",
+      "why": "Câu hỏi đưa be lên đầu, không dùng do."
+    },
+    {
+      "wrong": "He is going to studies abroad.",
+      "right": "He is going to study abroad.",
+      "why": "Sau going to → nguyên mẫu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ buy a car next year.",
+      "options": [
+        "going to",
+        "am going to",
+        "am going"
+      ],
+      "answer": 1,
+      "explain": "Đủ ba phần: am going to + buy."
+    },
+    {
+      "type": "choice",
+      "prompt": "She is going to ___ a doctor.",
+      "options": [
+        "become",
+        "becomes",
+        "becoming"
+      ],
+      "answer": 0,
+      "explain": "Sau going to → nguyên mẫu."
+    },
+    {
+      "type": "choice",
+      "prompt": "Look at those clouds! It ___ rain.",
+      "options": [
+        "is going to",
+        "going to"
+      ],
+      "answer": 0,
+      "explain": "Thấy dấu hiệu → is going to."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you going to call him?",
+      "options": [
+        "Do",
+        "Are"
+      ],
+      "answer": 1,
+      "explain": "Câu hỏi: Are + you + going to."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ going to have a party on Saturday.",
+      "hint": "be",
+      "answers": [
+        "are"
+      ],
+      "explain": "We → are going to."
+    },
+    {
+      "type": "fill",
+      "prompt": "My brother is going to ___ married next month.",
+      "hint": "get",
+      "answers": [
+        "get"
+      ],
+      "explain": "Sau going to → nguyên mẫu: get."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'm ___ to work tomorrow. It's a holiday.",
+      "hint": "phủ định",
+      "answers": [
+        "not going"
+      ],
+      "explain": "Phủ định: I'm not going to work."
+    },
+    {
+      "type": "fill",
+      "prompt": "What ___ you going to do tonight?",
+      "hint": "be",
+      "answers": [
+        "are"
+      ],
+      "explain": "You → are."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ going to stay at home.",
+      "hint": "be",
+      "answers": [
+        "is"
+      ],
+      "explain": "He → is going to."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi định học tiếng Nhật.",
+      "words": [
+        "I",
+        "am",
+        "going",
+        "to",
+        "learn",
+        "Japanese."
+      ],
+      "explain": "I → am going to + learn."
+    },
+    {
+      "type": "order",
+      "vi": "Cuối tuần này bạn định đi đâu?",
+      "words": [
+        "Where",
+        "are",
+        "you",
+        "going",
+        "to",
+        "go",
+        "this",
+        "weekend?"
+      ],
+      "explain": "Wh- + are + you + going to + go."
+    },
+    {
+      "type": "fix",
+      "sentence": "I going to see a movie tonight.",
+      "answers": [
+        "I am going to see a movie tonight.",
+        "I'm going to see a movie tonight.",
+        "I am going to see a film tonight.",
+        "I'm going to see a film tonight."
+      ],
+      "explain": "Thiếu be: I am going to."
+    },
+    {
+      "type": "fix",
+      "sentence": "They are going to buys a house.",
+      "answers": [
+        "They are going to buy a house."
+      ],
+      "explain": "Sau going to → nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "Do you going to come with us?",
+      "answers": [
+        "Are you going to come with us?"
+      ],
+      "explain": "Câu hỏi đưa are lên đầu."
+    },
+    {
+      "type": "translate",
+      "vi": "Ngày mai tôi sẽ đi khám bác sĩ.",
+      "answers": [
+        "I am going to see the doctor tomorrow.",
+        "I'm going to see the doctor tomorrow.",
+        "I am going to see a doctor tomorrow.",
+        "I'm going to see a doctor tomorrow.",
+        "Tomorrow I am going to see the doctor.",
+        "Tomorrow I'm going to see the doctor."
+      ],
+      "explain": "Kế hoạch → am going to + see."
+    },
+    {
+      "type": "translate",
+      "vi": "Sắp mưa rồi.",
+      "answers": [
+        "It is going to rain.",
+        "It's going to rain."
+      ],
+      "explain": "Dự đoán từ dấu hiệu → It's going to rain."
+    }
+  ]
+}

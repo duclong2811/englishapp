@@ -1,0 +1,356 @@
+{
+  "id": "would-like",
+  "level": "A1",
+  "title": "Would like: lời mời và yêu cầu lịch sự",
+  "summary": "Gọi món, mời, xin một cách lịch sự với I'd like…, Would you like…?; phân biệt với like và want.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Good morning! What [[would you like]]?",
+      "vi": "Chào buổi sáng! Bạn dùng gì ạ?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'd like]] an iced coffee, please.",
+      "vi": "Cho tôi một cà phê đá."
+    },
+    {
+      "who": "A",
+      "en": "Sure. [[Would you like]] something to eat?",
+      "vi": "Vâng. Bạn có muốn ăn gì không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, [[I'd like]] a croissant.",
+      "vi": "Có, cho tôi một bánh sừng bò."
+    },
+    {
+      "who": "A",
+      "en": "[[Would you like to]] sit inside or outside?",
+      "vi": "Bạn muốn ngồi trong hay ngoài?"
+    },
+    {
+      "who": "B",
+      "en": "Outside, please. [[I'd like to]] enjoy the sun.",
+      "vi": "Ngoài trời nhé. Tôi muốn tận hưởng chút nắng."
+    }
+  ],
+  "sections": [
+    {
+      "part": "I'd like",
+      "heading": "I'd like: muốn, xin một cách lịch sự",
+      "rule": "**would like** = muốn (lịch sự hơn *want*). Viết tắt: **I'd like**. Theo sau là **danh từ** hoặc **to + động từ**.",
+      "formula": [
+        {
+          "text": "I'd like + [a / an / some + danh từ]"
+        },
+        {
+          "text": "I'd like + [to + V]"
+        }
+      ],
+      "body": [
+        "*I want a coffee* nghe hơi thẳng. *I'd like a coffee, please* lịch sự hơn, dùng khi gọi món, mua hàng, nói với người lạ.",
+        "Would like giống nhau với mọi chủ ngữ: *she would like*, không thêm -s."
+      ],
+      "examples": [
+        {
+          "en": "[[I'd like]] a glass of water, please.",
+          "vi": "Cho tôi một cốc nước.",
+          "why": "Would like + danh từ."
+        },
+        {
+          "en": "[[I'd like to]] book a table for two.",
+          "vi": "Tôi muốn đặt bàn cho hai người.",
+          "why": "Would like + to + book."
+        },
+        {
+          "en": "She [[would like]] a quiet room.",
+          "vi": "Cô ấy muốn một phòng yên tĩnh.",
+          "why": "She → vẫn là would like."
+        }
+      ],
+      "check": {
+        "prompt": "I'd like ___ a taxi, please.",
+        "options": [
+          "call",
+          "to call",
+          "calling"
+        ],
+        "answer": 1,
+        "explain": "Would like + to + động từ."
+      }
+    },
+    {
+      "part": "Mời",
+      "heading": "Mời: Would you like…?",
+      "rule": "Mời ai cái gì: **Would you like + danh từ?** Mời làm gì: **Would you like + to + V?**",
+      "formula": [
+        {
+          "text": "[Would you like] + danh từ?"
+        },
+        {
+          "text": "[Would you like] + to + V?"
+        }
+      ],
+      "body": [
+        "Trả lời: *Yes, please. / No, thank you.* Nhận lời mời: *I'd love to!*"
+      ],
+      "examples": [
+        {
+          "en": "[[Would you like]] some tea? Yes, please.",
+          "vi": "Bạn dùng chút trà nhé? Vâng, cảm ơn.",
+          "why": "Mời đồ uống → Would you like + some tea."
+        },
+        {
+          "en": "[[Would you like to]] come to my party? I'd love to!",
+          "vi": "Bạn có muốn đến dự tiệc của mình không? Mình rất muốn!",
+          "why": "Mời làm gì → Would you like to + come."
+        }
+      ],
+      "check": {
+        "prompt": "Would you like ___ cake? Yes, please.",
+        "options": [
+          "some",
+          "to some",
+          "any"
+        ],
+        "answer": 0,
+        "explain": "Lời mời + danh từ → some cake."
+      }
+    },
+    {
+      "part": "Like hay would like",
+      "heading": "Like khác would like",
+      "rule": "**like** = thích (nói chung, lâu dài). **would like** = muốn (ngay bây giờ, hoặc một lần cụ thể).",
+      "body": [],
+      "table": {
+        "head": [
+          "Câu",
+          "Nghĩa"
+        ],
+        "rows": [
+          [
+            "Do you like coffee?",
+            "Bạn có thích cà phê không? (nói chung)"
+          ],
+          [
+            "Would you like a coffee?",
+            "Bạn có muốn uống một ly cà phê không? (mời lúc này)"
+          ],
+          [
+            "I like dancing.",
+            "Tôi thích nhảy. (sở thích)"
+          ],
+          [
+            "I'd like to dance.",
+            "Tôi muốn nhảy. (lúc này)"
+          ]
+        ]
+      },
+      "examples": [],
+      "check": {
+        "prompt": "Mời bạn uống nước ngay lúc này:",
+        "options": [
+          "Do you like some water?",
+          "Would you like some water?"
+        ],
+        "answer": 1,
+        "explain": "Mời lúc này → Would you like…?"
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I'd like go home.",
+      "right": "I'd like to go home.",
+      "why": "Would like + to + V."
+    },
+    {
+      "wrong": "She would likes a room.",
+      "right": "She would like a room.",
+      "why": "Would like không thêm -s."
+    },
+    {
+      "wrong": "Do you like a drink? (khi mời)",
+      "right": "Would you like a drink?",
+      "why": "Mời → Would you like…?"
+    },
+    {
+      "wrong": "I want coffee. (khi gọi món)",
+      "right": "I'd like a coffee, please.",
+      "why": "Gọi món lịch sự → I'd like…, please."
+    },
+    {
+      "wrong": "Would you like to some cake?",
+      "right": "Would you like some cake?",
+      "why": "Với danh từ thì không có to."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ a table for four, please.",
+      "options": [
+        "I'd like",
+        "I like",
+        "I'd liking"
+      ],
+      "answer": 0,
+      "explain": "Đặt bàn lịch sự → I'd like."
+    },
+    {
+      "type": "choice",
+      "prompt": "Would you like ___ to the cinema tonight?",
+      "options": [
+        "go",
+        "to go",
+        "going"
+      ],
+      "answer": 1,
+      "explain": "Would you like + to + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Would you like ___ water?",
+      "options": [
+        "some",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "Would you like + danh từ (some water), không có to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Mời bạn ngồi xuống:",
+      "options": [
+        "Would you like to sit down?",
+        "Do you like to sit down?"
+      ],
+      "answer": 0,
+      "explain": "Mời → Would you like to…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "I'd ___ the chicken soup, please.",
+      "hint": "like",
+      "answers": [
+        "like"
+      ],
+      "explain": "I'd like + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "She would like ___ a new phone.",
+      "hint": "buy",
+      "answers": [
+        "to buy"
+      ],
+      "explain": "Would like + to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you like some coffee?",
+      "hint": "mời",
+      "answers": [
+        "Would"
+      ],
+      "explain": "Mời → Would you like…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Would you like to come? Yes, I'd ___ to!",
+      "hint": "love",
+      "answers": [
+        "love"
+      ],
+      "explain": "Nhận lời mời: I'd love to!"
+    },
+    {
+      "type": "order",
+      "vi": "Cho tôi xin hóa đơn.",
+      "words": [
+        "I'd",
+        "like",
+        "the",
+        "bill,",
+        "please."
+      ],
+      "explain": "Gọi tính tiền lịch sự → I'd like…, please."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn có muốn đi dạo không?",
+      "words": [
+        "Would",
+        "you",
+        "like",
+        "to",
+        "go",
+        "for",
+        "a",
+        "walk?"
+      ],
+      "explain": "Mời làm gì → Would you like to + go."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'd like go to the beach.",
+      "answers": [
+        "I'd like to go to the beach.",
+        "I would like to go to the beach."
+      ],
+      "explain": "Would like + to + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "He would likes some tea.",
+      "answers": [
+        "He would like some tea."
+      ],
+      "explain": "Would like không thêm -s."
+    },
+    {
+      "type": "fix",
+      "sentence": "Would you like to a drink?",
+      "answers": [
+        "Would you like a drink?"
+      ],
+      "explain": "Với danh từ thì bỏ to."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi muốn đặt một phòng.",
+      "answers": [
+        "I'd like to book a room.",
+        "I would like to book a room.",
+        "I'd like a room.",
+        "I would like a room.",
+        "I'd like to reserve a room."
+      ],
+      "explain": "Lịch sự → I'd like to + book."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn có muốn uống gì không?",
+      "answers": [
+        "Would you like something to drink?",
+        "Would you like a drink?",
+        "Would you like anything to drink?"
+      ],
+      "explain": "Mời → Would you like…?"
+    },
+    {
+      "type": "translate",
+      "vi": "Cho tôi một cốc trà đá.",
+      "answers": [
+        "I'd like an iced tea, please.",
+        "I'd like an iced tea.",
+        "I would like an iced tea, please.",
+        "Can I have an iced tea, please?",
+        "Can I have an iced tea?",
+        "I'd like a glass of iced tea, please."
+      ],
+      "explain": "Gọi món lịch sự → I'd like…, please."
+    }
+  ]
+}
