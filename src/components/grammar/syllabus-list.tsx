@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
+import { Illustration } from "@/components/illustration";
 import { LevelPicker, useLevelSelection } from "@/components/level-picker";
 import { grammarScores } from "@/lib/grammar/progress";
 
@@ -40,11 +41,14 @@ export function SyllabusList({ units }: { units: Unit[] }) {
           <h2 id="lesson-next" className="text-sm font-medium text-ink-soft">Học tiếp</h2>
           {next ? (
             <>
-              <div className="mt-3">
-                <p className="text-sm font-medium text-accent">Bài {next.number} · Chương {next.unitNumber}</p>
-                <p className="mt-1 text-2xl font-semibold tracking-tight text-balance sm:text-3xl">{next.title}</p>
-                <p className="mt-2 line-clamp-1 text-ink-soft">{next.summary}</p>
+              <div className="mt-3 flex items-start gap-3 sm:gap-4">
+                <Illustration id={next.id} size={56} />
+                <div className="min-w-0">
+                  <p className="text-sm font-medium text-accent">Bài {next.number} · Chương {next.unitNumber}</p>
+                  <p className="mt-1 text-2xl font-semibold tracking-tight text-balance sm:text-3xl">{next.title}</p>
+                </div>
               </div>
+              <p className="mt-2 line-clamp-1 text-ink-soft">{next.summary}</p>
               <Link href={`/lessons/${next.id}`} className={`mt-5 ${primary}`}>Vào bài</Link>
             </>
           ) : lowest ? (
@@ -75,9 +79,14 @@ export function SyllabusList({ units }: { units: Unit[] }) {
                 const done = passed(item);
                 const content = (
                   <>
-                    <span className="text-sm font-medium text-ink-soft tabular-nums">Bài {item.number}</span>
-                    <span className="mt-1 font-semibold text-balance">{item.title}</span>
-                    {item.summary && <span className="mt-1 line-clamp-2 text-sm text-ink-soft">{item.summary}</span>}
+                    <span className="flex items-start gap-3">
+                      <Illustration id={item.id} size={48} />
+                      <span className="min-w-0">
+                        <span className="block text-sm font-medium text-ink-soft tabular-nums">Bài {item.number}</span>
+                        <span className="mt-1 block font-semibold text-balance">{item.title}</span>
+                        {item.summary && <span className="mt-1 line-clamp-2 text-sm text-ink-soft">{item.summary}</span>}
+                      </span>
+                    </span>
                     <span className={`mt-auto pt-3 text-sm font-medium tabular-nums ${done ? "text-correct" : "text-ink-soft"}`}>
                       {!item.ready ? "Sắp có" : best === undefined ? "Chưa học" : (
                         <>{done && <span aria-hidden="true">✓ </span>}Điểm cao nhất {best}%</>

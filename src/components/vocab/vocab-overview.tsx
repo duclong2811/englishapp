@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
+import { Illustration } from "@/components/illustration";
 import { LevelPicker, useLevelSelection } from "@/components/level-picker";
 import { LevelBadge } from "@/components/vocab/word-parts";
 import { LEVEL_LABELS, LEVELS, type Level } from "@/lib/levels";
@@ -58,11 +59,16 @@ export function VocabOverview({
             <p className="mt-3 text-ink-soft">Đang tải tiến độ…</p>
           ) : next ? (
             <>
-              <p className="mt-3 text-3xl font-semibold tracking-tight text-balance">{next.topic.title}</p>
-              <p className="mt-1 text-sm font-medium text-accent">Cấp độ {level}</p>
-              <p className="mt-2 text-ink-soft tabular-nums">
-                Bộ {next.setIndex + 1}/{next.topic.sets.length}, {next.topic.sets[next.setIndex].length} từ
-              </p>
+              <div className="mt-3 flex items-start gap-3 sm:gap-4">
+                <Illustration id={next.topic.id} size={56} />
+                <div className="min-w-0">
+                  <p className="text-2xl font-semibold tracking-tight text-balance sm:text-3xl">{next.topic.title}</p>
+                  <p className="mt-1 text-sm font-medium text-accent">Cấp độ {level}</p>
+                  <p className="mt-2 text-ink-soft tabular-nums">
+                    Bộ {next.setIndex + 1}/{next.topic.sets.length}, {next.topic.sets[next.setIndex].length} từ
+                  </p>
+                </div>
+              </div>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link href={`/vocabulary/topic/${next.topic.id}/${next.setIndex + 1}`} className={primary}>
                   Học bộ này
@@ -123,8 +129,13 @@ export function VocabOverview({
                     href={`/vocabulary/topic/${t.id}`}
                     className="flex h-full flex-col rounded-xl border border-line bg-sheet p-4 transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                   >
-                    <span className="font-semibold text-balance">{t.title}</span>
-                    <span className="mt-1 flex-1 text-sm text-ink-soft text-pretty">{t.description}</span>
+                    <span className="flex flex-1 items-start gap-3">
+                      <Illustration id={t.id} size={40} />
+                      <span className="min-w-0">
+                        <span className="block font-semibold text-balance">{t.title}</span>
+                        <span className="mt-1 block text-sm text-ink-soft text-pretty">{t.description}</span>
+                      </span>
+                    </span>
                     <span className="mt-3 flex items-center gap-3 text-sm text-ink-soft tabular-nums">
                       <span
                         className="h-1.5 flex-1 overflow-hidden rounded-full bg-line"
