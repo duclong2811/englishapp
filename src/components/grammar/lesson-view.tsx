@@ -478,6 +478,16 @@ function Summary({ lesson }: { lesson: GrammarLesson }) {
           </li>
         ))}
       </ol>
+      <Link
+        href={`/lessons/${lesson.id}/cards`}
+        className="mt-4 flex min-h-14 items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+      >
+        <span>
+          Tự kiểm tra bằng thẻ ghi nhớ
+          <span className="block text-sm font-normal text-ink-soft">Mỗi quy tắc và lỗi sai là một thẻ: nhớ lại rồi lật xem</span>
+        </span>
+        <span aria-hidden="true" className="text-accent">→</span>
+      </Link>
     </section>
   );
 }

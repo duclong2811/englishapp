@@ -119,12 +119,20 @@ export function SyllabusList({ levels }: { levels: LevelUnits[] }) {
                 );
               })}
             </ul>
-            <Link
-              href={`/tests/${current.toLowerCase()}/unit/${unit.id}`}
-              className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-full px-1 text-sm font-medium text-accent hover:underline focus-visible:outline-2 focus-visible:outline-accent"
-            >
-              Kiểm tra nhanh chương {index + 1} <span aria-hidden="true">→</span>
-            </Link>
+            <div className="mt-3 flex flex-wrap gap-x-5">
+              <Link
+                href={`/tests/${current.toLowerCase()}/unit/${unit.id}`}
+                className="inline-flex min-h-11 items-center gap-2 rounded-full px-1 text-sm font-medium text-accent hover:underline focus-visible:outline-2 focus-visible:outline-accent"
+              >
+                Kiểm tra nhanh chương {index + 1} <span aria-hidden="true">→</span>
+              </Link>
+              <Link
+                href={`/lessons/chapter/${unit.id}`}
+                className="inline-flex min-h-11 items-center gap-2 rounded-full px-1 text-sm font-medium text-accent hover:underline focus-visible:outline-2 focus-visible:outline-accent"
+              >
+                Thẻ ghi nhớ chương {index + 1} <span aria-hidden="true">→</span>
+              </Link>
+            </div>
           </section>
         ))}
         {pending > 0 && <p className="mt-5 text-sm text-ink-soft">Còn {pending} bài đang soạn.</p>}
