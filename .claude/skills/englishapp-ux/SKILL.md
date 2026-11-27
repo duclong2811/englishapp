@@ -78,3 +78,7 @@ This split is information: the learner can tell at a glance what is English to s
 3. Screenshot at 390×844 (iPhone) and 1440×900 (PC), light and dark, and look at them.
 4. Run `web-design-guidelines` on the changed files and fix the findings.
 5. `npm run lint && npm run build` must pass.
+
+## Illustrations
+
+Use Microsoft Fluent Emoji Flat from `public/illustrations/`. Show these decorative images on topic cards and topic headers, lesson cards and Học tiếp. Keep practice, flashcards and quizzes free of illustrations.

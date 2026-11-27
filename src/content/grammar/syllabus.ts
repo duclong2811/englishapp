@@ -26,3 +26,14 @@ export const A1_SYLLABUS: { id: string; title: string }[] = [
   { id: "question-words", title: "Từ để hỏi: what, where, when, who…" },
   { id: "would-like", title: "Would like: lời mời và yêu cầu lịch sự" },
 ];
+
+/** A1 chapters in teaching order. */
+export const A1_UNITS: { id: string; title: string; lessons: string[] }[] = [
+  { id: "foundations", title: "Nền tảng", lessons: ["be-present", "articles-plurals", "this-that", "possessives", "there-is-are"] },
+  { id: "present-simple", title: "Hiện tại đơn", lessons: ["present-simple", "present-simple-questions", "frequency-adverbs", "can", "imperatives"] },
+  { id: "place-time-pronouns", title: "Nơi chốn, thời gian và đại từ", lessons: ["prepositions-place", "prepositions-time", "object-pronouns"] },
+  { id: "quantity-preferences", title: "Số lượng và sở thích", lessons: ["some-any", "how-much-many", "like-ing"] },
+  { id: "present-continuous", title: "Hiện tại tiếp diễn", lessons: ["present-continuous", "simple-vs-continuous"] },
+  { id: "past", title: "Quá khứ", lessons: ["was-were", "past-simple-regular", "past-simple-irregular", "past-simple-questions"] },
+  { id: "future-communication", title: "Tương lai và giao tiếp", lessons: ["going-to", "question-words", "would-like"] },
+];
