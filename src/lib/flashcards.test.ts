@@ -17,7 +17,7 @@ it("gives every lesson rule cards with an example, and mistake cards", () => {
 });
 
 it("joins every meaning of a word", () => {
-  const card = wordCard({ id: "run", headword: "run", ipa: "rʌn", meanings: [{ vi: "chạy" }, { vi: "điều hành" }], examples: [] });
+  const card = wordCard({ id: "run", headword: "run", ipa: "rʌn", meanings: [{ vi: "chạy" }, { vi: "điều hành" }], note: "run a shop = điều hành cửa hàng.", examples: [] });
   expect(card.meaning).toBe("chạy; điều hành");
   expect(card.example).toBeNull();
 });

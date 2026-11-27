@@ -44,7 +44,7 @@ function Front({ card, direction }: { card: Flashcard; direction: Direction }) {
   if (card.kind === "rule") {
     return (
       <>
-        <p className="text-sm text-ink-soft">Nhớ lại quy tắc và nghĩ một ví dụ</p>
+        <p className="text-sm text-ink-soft">{card.part ? `${card.part} · ` : ""}Nhớ lại quy tắc và nghĩ một ví dụ</p>
         <p className="mt-3 text-2xl font-semibold tracking-tight text-balance">{card.cue}</p>
       </>
     );
@@ -131,6 +131,12 @@ function Back({ card }: { card: Flashcard }) {
               <SpeakButton text={plain(card.example.en)} compact />
             </p>
             <p className="text-ink-soft text-pretty">{card.example.vi}</p>
+            {card.example.why ? (
+              <p className="mt-1 text-sm text-pretty">
+                <span className="font-medium text-accent">Vì sao: </span>
+                <Explain text={card.example.why} />
+              </p>
+            ) : null}
           </div>
         ) : null}
       </>
@@ -163,6 +169,12 @@ function Back({ card }: { card: Flashcard }) {
         </p>
       ) : null}
       <p className="mt-2 text-xl font-medium text-pretty">{card.meaning}</p>
+      {card.note ? (
+        <div className="mt-3 rounded-xl bg-paper px-4 py-3">
+          <p className="text-sm font-medium text-accent">Cách dùng</p>
+          <p className="mt-0.5 text-pretty">{card.note}</p>
+        </div>
+      ) : null}
       {card.example ? (
         <div className="mt-4 border-l-2 border-accent pl-3">
           <p className="en text-lg text-pretty" lang="en">
@@ -348,7 +360,7 @@ export function Flashcards({
           {flipped ? (
             <>
               <p className="mb-3 text-sm text-ink-soft">
-                {current.kind === "rule" ? current.cue : current.kind === "mistake" ? "Câu đúng" : "Đáp án"}
+                {current.kind === "rule" ? (current.part ? `${current.part} · ${current.cue}` : current.cue) : current.kind === "mistake" ? "Câu đúng" : "Đáp án"}
               </p>
               <Back card={current} />
             </>

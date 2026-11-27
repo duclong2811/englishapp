@@ -9,6 +9,8 @@ export type RuleCard = {
   id: string;
   /** What to recall, e.g. "Been to hay gone to?". */
   cue: string;
+  /** Step of the lesson the rule comes from ("Cấu tạo", "Cách dùng"…). */
+  part: string | null;
   lesson: string;
   rule: string;
   formula: string[];
@@ -25,6 +27,8 @@ export type WordCard = {
   headword: string;
   ipa: string | null;
   meaning: string;
+  /** How the word is used: collocations, patterns, words it is confused with. */
+  note: string;
   example: { en: string; vi: string } | null;
 };
 
@@ -44,6 +48,7 @@ export function lessonCards(lesson: GrammarLesson): Flashcard[] {
             kind: "rule" as const,
             id: `${lesson.id}:r${i}`,
             cue: cue(s.heading),
+            part: s.part ?? null,
             lesson: lesson.id,
             rule: s.rule,
             formula: s.formula.filter((f) => !f.label).map((f) => f.text).slice(0, 2),
@@ -67,6 +72,7 @@ export function wordCard(w: {
   headword: string;
   ipa: string | null;
   meanings: { vi: string }[];
+  note: string;
   examples: { en: string; vi: string }[];
 }): WordCard {
   return {
@@ -75,6 +81,7 @@ export function wordCard(w: {
     headword: w.headword,
     ipa: w.ipa,
     meaning: w.meanings.map((m) => m.vi).join("; "),
+    note: w.note,
     example: w.examples[0] ? { en: w.examples[0].en, vi: w.examples[0].vi } : null,
   };
 }
