@@ -29,3 +29,13 @@ Mọi thay đổi giao diện theo skill `.claude/skills/englishapp-ux/SKILL.md`
 2. Kho từ vựng (đang làm): khoảng 8.600 từ A1–C2 từ dữ liệu mở, 50 từ A1 đã có nghĩa tiếng Việt, ôn thẻ bằng FSRS. Xem `src/content/vocab/SOURCES.md`.
 3. Bài học ngữ pháp: soạn từ sách nguồn đặt trong `sources/` (thư mục này không đưa lên git). Làm 3 bài thử trước khi nhân rộng.
 4. Luyện nói với AI theo kiểu xử lý cuốn chiếu (nghe, AI trả lời, đọc) để phản hồi nhanh.
+
+## Đưa lên Cloudflare
+
+App chạy trên Cloudflare Workers qua bộ chuyển đổi OpenNext (`@opennextjs/cloudflare`). Mọi trang được dựng sẵn lúc build và phục vụ từ kho file tĩnh của Worker, nên không cần R2 hay KV.
+
+- Chạy thử bản Cloudflare trên máy: `npm run cf:preview`
+- Tự deploy từ máy: `npx wrangler login` một lần, rồi `npm run cf:deploy`
+- Tự deploy khi đẩy code (Workers Builds): Cloudflare dashboard, Workers & Pages, Create application, Import a repository, chọn repo này. Build command: `npx opennextjs-cloudflare build`. Deploy command: `npx opennextjs-cloudflare deploy`. Tên Worker phải là `englishapp`, trùng với `wrangler.jsonc`.
+
+Cache Components của Next.js đang tắt vì OpenNext chưa hỗ trợ đầy đủ.

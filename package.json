@@ -9,9 +9,13 @@
     "lint": "eslint",
     "test": "vitest run",
     "vocab:fetch": "bash tools/vocab/fetch.sh",
-    "vocab:build": "python3 -I tools/vocab/build.py"
+    "vocab:build": "python3 -I tools/vocab/build.py",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.19",
     "next": "16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0",
@@ -28,6 +32,7 @@
     "eslint-config-next": "16.4.6",
     "tailwindcss": "4.3.3",
     "typescript": "^5",
-    "vitest": "^5.1.2"
+    "vitest": "^5.1.2",
+    "wrangler": "^4.168.0"
   }
 }
