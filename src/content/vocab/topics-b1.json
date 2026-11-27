@@ -1,4 +1,765 @@
 {
-  "about": "Chủ đề từ vựng B1. Mỗi từ thuộc đúng một chủ đề; thứ tự trong danh sách là thứ tự học. Điền sau khi đã có nghĩa cho toàn bộ từ B1 (xem docs/vocab-brief.md).",
-  "topics": []
+  "about": "Chủ đề từ vựng B1. Mỗi từ thuộc đúng một chủ đề; thứ tự trong danh sách là thứ tự học.",
+  "topics": [
+    {
+      "id": "b1-family",
+      "title": "Gia đình và họ hàng",
+      "description": "Thành viên gia đình, tuổi tác và các giai đoạn cuộc đời.",
+      "words": [
+        "adopt", "minor", "parental", "underage", "teen", "nephew", "niece", "babysit",
+        "babysitter", "newborn", "pregnant", "twin", "middle-aged", "gay", "lovingly", "runaway"
+      ]
+    },
+    {
+      "id": "b1-relationships",
+      "title": "Bạn bè và các mối quan hệ",
+      "description": "Tình bạn, sự tin tưởng và cách giữ liên lạc.",
+      "words": [
+        "port", "connect", "enemy", "closely", "broad", "eager", "attraction", "crush",
+        "hearty", "charm", "sparkle", "teammate", "companion", "loyalty", "gratitude", "friendliness",
+        "acquaintance", "mutual", "enjoyable", "lasting", "lifelong", "fond", "fondness", "affection",
+        "beloved", "passion", "unrelated", "relate", "relationship", "relation", "dating", "divorced",
+        "marriage", "bond", "jealous", "possessive", "possession", "joint", "handshake", "gentleman",
+        "mend", "fellow", "buddy", "dude", "reunification"
+      ]
+    },
+    {
+      "id": "b1-personality",
+      "title": "Tính cách và phẩm chất",
+      "description": "Phẩm chất, thói quen và cách cư xử của một người.",
+      "words": [
+        "orderly", "systematic", "stubborn", "faithful", "loyal", "aggressive", "attract", "cruel",
+        "adorable", "graceful", "courage", "courageous", "bravely", "helpless", "desperate", "liar",
+        "honest", "honesty", "trustworthy", "goodness", "fortunate", "generous", "gifted", "admiration",
+        "devotion", "hearted", "satisfaction", "satisfied", "proud", "easygoing", "unfriendly", "uninterested",
+        "eagerness", "hasty", "carelessness", "careless", "carelessly", "vain", "shallow", "blush",
+        "boldly", "politely", "earnest", "dull", "rough", "rarely"
+      ]
+    },
+    {
+      "id": "b1-emotions",
+      "title": "Cảm xúc và tâm trạng",
+      "description": "Cảm xúc thường gặp và những thay đổi trong tâm trạng.",
+      "words": [
+        "stun", "unafraid", "suffer", "daze", "stricken", "hopeless", "disappointment", "sadness",
+        "sorrow", "despair", "miserable", "misery", "depression", "depressed", "depressing", "mourn",
+        "guilt", "sigh", "terribly", "cheerful", "comfort", "emotionally", "emotional", "emotion",
+        "calmness", "calm", "frustration", "frustrated", "annoyed", "annoyance", "irritate", "enthusiasm",
+        "enthusiastic", "excitement", "excitedly", "delight", "chuckle", "giggle", "laughter", "embarrassment",
+        "awkward", "scary", "fright", "terrified", "scared", "scare", "horrify", "mental",
+        "boredom", "bore", "fascinate", "insane", "shocking", "shocked", "amazed", "thankful",
+        "supportive", "overjoyed", "uplifted", "disappoint"
+      ]
+    },
+    {
+      "id": "b1-communication",
+      "title": "Trò chuyện và phản hồi",
+      "description": "Cách đặt câu hỏi, trả lời và bày tỏ ý kiến.",
+      "words": [
+        "gee", "tick", "questionnaire", "interact", "dialog", "inquiry", "session", "oral",
+        "freely", "indirect", "misunderstanding", "summarize", "introduction", "briefly", "narrate", "convey",
+        "formally", "talkative", "face-to-face-adverb", "face-to-face-adjective", "greeting", "nod", "compliment", "remark",
+        "comment", "respond", "thump", "whisper", "loud", "yell", "swear", "caller",
+        "addressee", "acknowledgment"
+      ]
+    },
+    {
+      "id": "b1-disagreement",
+      "title": "Bất đồng và hòa giải",
+      "description": "Trao đổi khi có mâu thuẫn, góp ý hoặc phàn nàn.",
+      "words": [
+        "damage", "hatred", "violence", "rage", "anger", "temper", "bitter", "appeal",
+        "undo", "acknowledge", "correction", "embarrass", "embarrassed", "ashamed", "apology", "forgive",
+        "amusing", "offensive", "ignore", "deny", "refuse", "refusal", "insist", "neutral",
+        "fuss", "objection", "conflict", "disagreement", "agreement", "controversial", "counter"
+      ]
+    },
+    {
+      "id": "b1-celebrations",
+      "title": "Dịp lễ và gặp gỡ",
+      "description": "Những dịp đặc biệt, quà tặng và hoạt động gặp mặt.",
+      "words": [
+        "postcard", "cultural", "presentation", "feast", "festive", "firework", "candle", "priest",
+        "christian", "spiritual", "prayer", "reception", "ceremony", "groom", "invitation", "engaged",
+        "honeymoon", "farewell", "funeral", "graduation", "congratulate", "cherish", "occasion", "memorable",
+        "appreciation", "delighted", "delightful", "glorious", "terrific", "tremendous", "magnificent", "spectacular",
+        "outstanding", "blessing", "bless", "holy", "secretly"
+      ]
+    },
+    {
+      "id": "b1-homes",
+      "title": "Nhà cửa và hàng xóm",
+      "description": "Các loại nhà, các phòng và khu vực quanh nhà.",
+      "words": [
+        "ladder", "spiral", "haunt", "hut", "inhabitant", "indoors", "basement", "hostel",
+        "ground-floor", "first-floor-noun", "first-floor-adjective", "skyscraper", "household", "residential", "landlord"
+      ]
+    },
+    {
+      "id": "b1-furnishings",
+      "title": "Đồ đạc và việc nhà",
+      "description": "Đồ dùng gia đình, dọn dẹp và chăm sóc nhà cửa.",
+      "words": [
+        "central-heating", "air-conditioning", "storage", "chest-of-drawers", "toothpaste", "absorb", "sponge", "damp",
+        "scratch", "mess", "messy", "nasty", "untidy", "unwanted", "diaper", "carpet",
+        "cushion", "pillow", "duvet", "sheet", "dusty", "dustbin", "bin", "curtain",
+        "handkerchief", "attachment", "washbowl", "dishwasher", "housework", "iron", "ironing", "furnish",
+        "hairdryer", "shave", "trim"
+      ]
+    },
+    {
+      "id": "b1-tools",
+      "title": "Dụng cụ và sửa chữa",
+      "description": "Dụng cụ cầm tay, thao tác và cách sửa đồ.",
+      "words": [
+        "circular", "lift", "needle", "handy", "attach", "accessory", "hang", "stuck",
+        "opening", "tightly", "tighten", "bent", "fold", "wrapping", "wrap", "sticky",
+        "stick", "sticker", "wax", "wire", "razor", "sword", "weapon", "hammer",
+        "nail", "pin", "barrel", "brass", "fasten"
+      ]
+    },
+    {
+      "id": "b1-building",
+      "title": "Xây dựng và vật liệu",
+      "description": "Bộ phận công trình, vật liệu và các công việc xây lắp.",
+      "words": [
+        "diagram", "pipe", "mount", "brick", "tile", "marble", "mineral", "steel",
+        "rebuild", "engineering", "architect", "builder", "construction", "construct", "foundation", "giant"
+      ]
+    },
+    {
+      "id": "b1-clothing",
+      "title": "Quần áo và ngoại hình",
+      "description": "Trang phục, màu sắc, kiểu dáng và cách ăn mặc.",
+      "words": [
+        "sort", "pattern", "trend", "casual", "stripe", "shiny", "gorgeous", "navy-blue",
+        "well-dressed", "gown", "sweatshirt", "wardrobe", "stylish", "worn", "fashionable", "designer",
+        "cotton", "silk", "garment", "knit", "ivory", "pale", "bare", "naked",
+        "undress", "underpants", "pullover", "jumper", "tracksuit", "wristwatch", "bracelet", "necklace",
+        "sleeve", "layer", "remove", "fade", "heel"
+      ]
+    },
+    {
+      "id": "b1-body",
+      "title": "Cơ thể và giác quan",
+      "description": "Các bộ phận cơ thể, cử động và cảm nhận.",
+      "words": [
+        "depth", "stretch", "muscle", "curly", "beard", "bald", "forehead", "skin",
+        "tissue", "liver", "vein", "hip", "elbow", "wrist", "finger", "thumb",
+        "foot", "palm", "gesture", "blind", "eyesight", "stare", "glance", "glint",
+        "observe", "unheard", "silent", "deaf", "hearing", "earache", "lung", "breathless",
+        "breath", "inhale", "sneeze", "disgusting", "burning", "shiver", "sensation", "soothe"
+      ]
+    },
+    {
+      "id": "b1-symptoms",
+      "title": "Triệu chứng và chấn thương",
+      "description": "Dấu hiệu bệnh, cơn đau và các chấn thương thường gặp.",
+      "words": [
+        "feverishly", "paralyze", "impair", "allergic", "poison", "bleed", "choke", "remedy",
+        "cough", "symptom", "sickness", "flu", "infection", "injury", "wound", "swollen",
+        "sore", "ache", "pain", "painful", "discomfort", "backache", "heart-attack", "limp",
+        "faint", "gall", "deficiency", "syndrome", "hiv"
+      ]
+    },
+    {
+      "id": "b1-healthcare",
+      "title": "Chăm sóc và điều trị",
+      "description": "Khám bệnh, thuốc men và phục hồi sức khỏe.",
+      "words": [
+        "inject", "capsule", "aspirin", "prescription", "pharmacy", "ecstasy", "breast", "cancer",
+        "disease", "illness", "unwell", "recover", "recovery", "treatment", "healing", "heal",
+        "cure", "bandage", "vet", "doc", "clinic", "bedside", "ambulance", "specialist",
+        "surgeon", "surgery", "operation", "undergo", "confirm", "scan", "accessible", "counseling",
+        "psychological"
+      ]
+    },
+    {
+      "id": "b1-wellbeing",
+      "title": "Thể chất và tinh thần",
+      "description": "Sức khỏe, nghỉ ngơi và những thói quen có lợi.",
+      "words": [
+        "disability", "disabled", "useless", "practical", "nutrient", "hunger", "lean", "maintain",
+        "retain", "accustom", "tend", "routine", "aerobics", "fitness", "gym", "workout",
+        "jogging", "yoga", "meditate", "meditation", "mentally", "anxiety", "nervousness", "unfit",
+        "strain", "stressed", "stress", "stressful", "exhausted", "rest", "relaxing", "nap",
+        "doze", "smoker"
+      ]
+    },
+    {
+      "id": "b1-food",
+      "title": "Đồ ăn và nguyên liệu",
+      "description": "Thực phẩm và nguyên liệu dùng cho bữa ăn hằng ngày.",
+      "words": [
+        "ingredient", "nutrition", "appetite", "chewing-gum", "freezer", "canned", "lettuce", "mustard",
+        "peanut", "popcorn", "stuffed", "filling", "sour", "tasty", "nutritious", "flavor",
+        "taste", "tasteless", "spicy", "spice", "ginger", "juicy", "spinach", "pineapple",
+        "cucumber", "cabbage", "broccoli", "courgette", "grill", "shrimp", "tuna", "salmon",
+        "cod", "butcher", "lamb", "vegetarian", "pork", "bacon", "pie", "baker",
+        "bakery", "loaf", "mash", "gravy", "rotten"
+      ]
+    },
+    {
+      "id": "b1-cooking",
+      "title": "Nấu ăn và đồ bếp",
+      "description": "Dụng cụ, công thức và các thao tác nấu ăn.",
+      "words": [
+        "oily", "stir", "steam", "kettle", "pot", "tin", "powder", "saucer",
+        "saucepan", "frying-pan", "tempt", "spoil", "jug", "filter", "contain", "substitute",
+        "mixing-bowl", "combine", "blend", "dissolve", "melt", "compose"
+      ]
+    },
+    {
+      "id": "b1-dining",
+      "title": "Ăn uống bên ngoài",
+      "description": "Đồ uống, gọi món và phục vụ tại quán ăn.",
+      "words": [
+        "slogan", "barman", "alcoholic", "alcohol", "consumption", "consume", "refreshments", "canteen",
+        "pub", "establishment", "nightlife", "self-service", "service", "queue", "constitute", "formal",
+        "traditionally", "typical", "takeaway", "grab", "recall"
+      ]
+    },
+    {
+      "id": "b1-shopping",
+      "title": "Mua sắm và dịch vụ",
+      "description": "Chọn đồ, kiểm tra giá và đổi trả hàng.",
+      "words": [
+        "retrospect", "second-hand", "duty-free", "discount", "regulation", "warranty", "refund", "reputation",
+        "slot", "carton", "checkout", "confirmation", "supply", "goods", "parcel", "package",
+        "merchant", "shopper", "salesman", "buyer", "consumer", "retail", "advertise", "ad",
+        "available"
+      ]
+    },
+    {
+      "id": "b1-money",
+      "title": "Tiền bạc cá nhân",
+      "description": "Tiền tệ, tiết kiệm, chi tiêu và nợ.",
+      "words": [
+        "worth", "prosperous", "penniless", "penny", "purse", "pocket-money", "owing", "repay",
+        "owe", "debt", "fund", "financial", "afford", "expense", "allowance", "monthly",
+        "cashpoint", "deposit", "bank-account", "teller", "balance", "currency", "exchange-rate"
+      ]
+    },
+    {
+      "id": "b1-road",
+      "title": "Đường sá và xe cộ",
+      "description": "Lái xe, đi đường và xử lý tình huống giao thông.",
+      "words": [
+        "signpost", "turning", "crossroads", "crossing", "patrol", "traffic-jam", "roadside", "sidewalk",
+        "parking", "vehicle", "van", "lorry", "crash", "windscreen", "helmet", "motorcycle",
+        "mechanic", "mechanical", "rubber", "tire", "horn"
+      ]
+    },
+    {
+      "id": "b1-transit",
+      "title": "Đi lại bằng phương tiện công cộng",
+      "description": "Xe buýt, tàu, điểm dừng và lịch chạy.",
+      "words": [
+        "check-in-counter", "check-in-desk", "shift", "runway", "takeoff", "depart", "departure", "arrival",
+        "customs", "public-transport", "transportation", "transport", "carriage", "railroad", "railway", "rail",
+        "ferry", "transfer"
+      ]
+    },
+    {
+      "id": "b1-travel",
+      "title": "Du lịch và lưu trú",
+      "description": "Đặt vé, chuẩn bị hành lý và đi nghỉ.",
+      "words": [
+        "passport", "overnight", "spirit", "jade", "unpack", "packing", "baggage", "luggage",
+        "souvenir", "reservation", "booking", "cabin", "airline", "travel-agent", "paradise", "resort",
+        "tourism", "destination", "voyage", "luxury", "entry", "guide", "circus"
+      ]
+    },
+    {
+      "id": "b1-places",
+      "title": "Địa điểm và chỉ đường",
+      "description": "Địa điểm trong khu dân cư, vị trí và phương hướng.",
+      "words": [
+        "bound", "surround", "avenue", "district", "county", "geographical", "regional", "central",
+        "northwest", "southeast", "northeastern", "southwest", "northeast", "northern", "eastern", "nearby",
+        "location", "locate", "distant", "vast", "haven", "settlement", "innermost", "outer",
+        "exit"
+      ]
+    },
+    {
+      "id": "b1-school",
+      "title": "Trường lớp và việc học",
+      "description": "Trường học, môn học và bài tập trên lớp.",
+      "words": [
+        "pupil", "individual", "interaction", "engage", "sex", "cycle", "process", "distribute",
+        "workshop", "assignment", "outline", "transitional", "intermediate", "freshman", "sophomore", "secondary-school",
+        "primary-school", "preschool", "academy", "institute", "academic", "scholarship", "librarian", "instructor",
+        "lecture", "professor", "schoolteacher", "teaching", "schoolmate", "mathematics", "mathematician", "curriculum",
+        "educate"
+      ]
+    },
+    {
+      "id": "b1-assessment",
+      "title": "Thi cử và tiến bộ",
+      "description": "Bài kiểm tra, kỹ năng và đánh giá kết quả học tập.",
+      "words": [
+        "cv", "admission", "examine", "examination", "examiner", "requirement", "qualify", "qualified",
+        "experienced", "written", "distinction", "accuracy", "scope", "guidance", "instruction", "demonstration",
+        "demonstrate", "prove", "bullet", "category", "classify", "categorize", "score", "endless",
+        "flunk"
+      ]
+    },
+    {
+      "id": "b1-language",
+      "title": "Ngôn ngữ và chữ viết",
+      "description": "Từ ngữ, phát âm, dấu câu và cấu tạo từ.",
+      "words": [
+        "definition", "term", "antonym", "meaningful", "motto", "proverb", "idiom", "phrase",
+        "standard", "bold", "highlight", "emphasize", "emphasis", "full-stop", "loudspeaker", "aloud",
+        "recite", "retell", "imitate", "memorize", "usage", "spelling", "englishman", "accent",
+        "fluently", "fluent", "bilingual", "translate", "tongue", "alphabet", "vowel", "consonant",
+        "suffix", "prefix", "rewrite", "signature", "inscription", "inscribe", "comma", "question-mark",
+        "dot", "register"
+      ]
+    },
+    {
+      "id": "b1-jobs",
+      "title": "Nghề nghiệp và tuyển dụng",
+      "description": "Nghề nghiệp, tìm việc và điều kiện làm việc.",
+      "words": [
+        "postman", "impression", "interviewee", "vacancy", "hire", "working", "workplace", "employment",
+        "unemployed", "unemployment", "paid", "full-time", "part-time", "career", "profession", "hairdresser",
+        "associate", "specialize"
+      ]
+    },
+    {
+      "id": "b1-office",
+      "title": "Văn phòng và công việc nhóm",
+      "description": "Trao đổi, lập kế hoạch và xử lý công việc chung.",
+      "words": [
+        "mailbox", "delivery", "deliver", "department", "leading", "adviser", "agenda", "proposal",
+        "propose", "assign", "arrangement", "arrange", "rearrange", "preparation", "brainstorming", "teamwork",
+        "deadline", "up-to-date", "noticeboard", "document", "resource"
+      ]
+    },
+    {
+      "id": "b1-business",
+      "title": "Kinh doanh và quản lý",
+      "description": "Doanh nghiệp, hợp đồng và hoạt động thương mại.",
+      "words": [
+        "format", "application", "dealer", "promotion", "brand-new", "acquire", "invest", "industrial",
+        "industry", "firm", "management", "maintenance", "guarantee", "property"
+      ]
+    },
+    {
+      "id": "b1-economy",
+      "title": "Kinh tế và chi phí",
+      "description": "Giá cả, tăng trưởng và các hoạt động kinh tế.",
+      "words": [
+        "hidden", "gap", "hardship", "amount", "income", "tax", "accountant", "finance",
+        "poverty", "prosperity", "economy", "economic", "economics", "growth", "limited", "demand",
+        "shortage", "distribution"
+      ]
+    },
+    {
+      "id": "b1-technology",
+      "title": "Máy tính và thiết bị",
+      "description": "Phần cứng, phần mềm và thao tác trên thiết bị.",
+      "words": [
+        "enable", "disable", "password", "install", "press", "dial", "modem", "terminal",
+        "command", "plug", "monitor", "digital", "electronic", "device", "tablet", "keyboard",
+        "disk", "cd-rom", "webcam", "remote-control", "engine", "robot", "flash", "hand-held",
+        "virtual"
+      ]
+    },
+    {
+      "id": "b1-internet",
+      "title": "Internet và mạng xã hội",
+      "description": "Tìm kiếm, đăng bài và tương tác trên mạng.",
+      "words": [
+        "uninteresting", "pause", "clip", "video-clip", "fax", "message-board", "delete", "link",
+        "update", "upload", "status", "privacy", "access", "stumble", "safari", "platform",
+        "network", "social-networking", "blog", "blogger", "content", "server", "connection", "telecommunications",
+        "virus"
+      ]
+    },
+    {
+      "id": "b1-news",
+      "title": "Tin tức và truyền thông",
+      "description": "Báo chí, bản tin và cách đưa tin.",
+      "words": [
+        "bust", "telegram", "channel", "broadcast", "signal", "crisis", "critical", "urgent",
+        "edition", "publisher", "journal", "journalist", "columnist", "gossip", "publicly", "incident",
+        "headline", "bulletin", "announcement", "announce", "inform", "informative", "advert", "commercial",
+        "mislead"
+      ]
+    },
+    {
+      "id": "b1-screen",
+      "title": "Phim ảnh và truyền hình",
+      "description": "Các thể loại, nhân vật và chương trình trên màn ảnh.",
+      "words": [
+        "intermission", "jar", "wizard", "magician", "imaginary", "monster", "tragic", "tragedy",
+        "dramatic", "comedian", "comedy", "humorous", "humor", "entertain", "critic", "documentary",
+        "film-maker", "producer", "animation", "animated", "series", "chat-show", "soap-opera", "thriller",
+        "science-fiction", "fantasy", "astronomer", "actress", "celebrity", "survivor", "react"
+      ]
+    },
+    {
+      "id": "b1-music",
+      "title": "Âm nhạc và biểu diễn",
+      "description": "Nhạc cụ, giọng hát và các buổi biểu diễn.",
+      "words": [
+        "chaos", "beat", "applaud", "applause", "whistle", "disc-jockey", "guitarist", "dj",
+        "studio", "recording", "talented", "entertainer", "performer", "onstage", "idol", "choir",
+        "orchestra", "flute", "trumpet", "jazz", "accompany", "organ"
+      ]
+    },
+    {
+      "id": "b1-arts",
+      "title": "Nghệ thuật và sáng tác",
+      "description": "Tác phẩm, hình ảnh và hoạt động sáng tạo.",
+      "words": [
+        "drag", "photocopy", "bow", "tiring", "dazzle", "stunning", "jewel", "illuminate",
+        "vivid", "hanging", "riddle", "myth", "storyteller", "tale", "narrative", "biography",
+        "novelist", "literary", "literature", "poetry", "poet", "scholar", "pottery", "craft",
+        "composition", "abstract", "creator", "copyright", "artist", "sculpture", "artistic", "likeness",
+        "prominent", "logo", "graphics", "graphic", "visual", "visually", "vision", "handwriting",
+        "ink", "strip"
+      ]
+    },
+    {
+      "id": "b1-sports",
+      "title": "Thể thao và thi đấu",
+      "description": "Môn thể thao, luyện tập và luật thi đấu.",
+      "words": [
+        "interrupt", "bet", "opposition", "defense", "defender", "goalkeeper", "referee", "bronze",
+        "tournament", "champion", "victory", "battle", "sponsor", "compete", "competitor", "race",
+        "spectator", "participant", "diving", "snowboard", "ice-skating", "ice-hockey", "handball", "gymnastics",
+        "boxing", "athletic", "sports", "sportsmanship", "golfer", "pace"
+      ]
+    },
+    {
+      "id": "b1-outdoors",
+      "title": "Hoạt động ngoài trời",
+      "description": "Thư giãn, cắm trại và vận động ngoài trời.",
+      "words": [
+        "boot", "launch", "hatch", "pole", "sunbathe", "windsurfing", "jog", "jungle",
+        "trail", "scenic", "outdoor", "outdoors", "tent", "campsite", "backpack", "backpacking",
+        "backpacker", "climber", "harness", "equipment", "shelter", "warmth", "thirst", "enjoyment",
+        "exploration", "enthusiast", "lodge", "reserve", "parachute", "extreme-sports", "lifeguard"
+      ]
+    },
+    {
+      "id": "b1-land",
+      "title": "Địa hình và cảnh quan",
+      "description": "Núi, đất đai và các dạng địa hình.",
+      "words": [
+        "plain", "fragment", "rainforest", "moss", "sandal", "debris", "dirt", "mud",
+        "sand", "quake", "geology", "soil", "surface", "basin", "pit", "cave",
+        "ness", "cliff", "sunrise", "horizon", "summit", "mountaintop", "volcano", "steep",
+        "slope", "region", "southern", "northwestern", "isle"
+      ]
+    },
+    {
+      "id": "b1-water",
+      "title": "Sông hồ và biển",
+      "description": "Sông, hồ, biển và chuyển động của nước.",
+      "words": [
+        "swell", "liquid", "bubble", "seaweed", "seawater", "ocean", "marine", "reef",
+        "coastal", "tide", "harbor", "submarine", "diver", "dive", "drown", "paddle",
+        "canal", "vessel", "swimmer", "bathe", "wetland", "pond", "fountain", "waterfall",
+        "flow", "stream"
+      ]
+    },
+    {
+      "id": "b1-weather",
+      "title": "Thời tiết và mùa",
+      "description": "Nhiệt độ, mưa gió và dự báo thời tiết.",
+      "words": [
+        "setting", "sundial", "sunset", "stormy", "misty", "turbulence", "tornado", "snowstorm",
+        "lightning", "thunder", "thunderous", "hopefully", "prepared", "frost", "frozen", "freezing",
+        "rainfall", "humid", "moisture", "atmosphere", "climate", "tropical", "weather-forecast", "forecast",
+        "season"
+      ]
+    },
+    {
+      "id": "b1-animals",
+      "title": "Động vật và tập tính",
+      "description": "Động vật, đặc điểm và cách chúng sinh sống.",
+      "words": [
+        "tease", "rare", "extinct", "habitat", "wildlife", "beast", "turtle", "cage",
+        "parrot", "crow", "herd", "bull", "calf", "beaver", "dolphin", "whale",
+        "gorilla", "ape", "giraffe", "camel", "spider", "ant", "mosquito", "kitten",
+        "puppy", "swarm", "flock", "breeding", "fur", "collar", "bark", "hunt",
+        "chase", "trace", "arrow", "wing", "hop", "mule", "nickname", "poisonous"
+      ]
+    },
+    {
+      "id": "b1-plants",
+      "title": "Cây cối và trồng trọt",
+      "description": "Các bộ phận của cây và công việc chăm cây.",
+      "words": [
+        "breed", "reproduce", "resemble", "scatter", "daisy", "wagon", "straw", "stem",
+        "tobacco", "organic", "cultivate", "gardening", "crop", "farmland", "agricultural", "agriculture",
+        "farming", "cattle", "surrounding", "abundance", "nectar", "ripe", "strawberry", "raspberry",
+        "maple"
+      ]
+    },
+    {
+      "id": "b1-environment",
+      "title": "Môi trường và tài nguyên",
+      "description": "Tài nguyên, chất thải và cách bảo vệ môi trường.",
+      "words": [
+        "lighter", "tank", "fuel", "coal", "electricity", "electrical", "efficiency", "efficient",
+        "enrich", "enclose", "preserve", "reclaim", "recycling", "recycled", "waste", "wasteful",
+        "dump", "trash", "rubbish", "purify", "pollutant", "dioxide", "greenhouse", "eco",
+        "environmentalist", "environmental", "ecosystem", "ecology", "ecological", "conservation", "extinction", "destruction"
+      ]
+    },
+    {
+      "id": "b1-science",
+      "title": "Khoa học và nghiên cứu",
+      "description": "Thí nghiệm, quan sát và giải thích hiện tượng.",
+      "words": [
+        "origin", "genetically", "gene", "genetic", "genetics", "analysis", "analyze", "researcher",
+        "observation", "finding", "discovery", "breakthrough", "technological", "concentration", "experiment", "lab",
+        "laboratory", "chemist", "chemistry", "biochemistry", "biology", "encyclopedia", "molecule", "compound",
+        "element", "atomic", "electron", "radiation", "nuclear", "physics", "nucleus", "cell",
+        "organism", "oxygen", "universe", "sphere", "comet", "satellite", "phenomenon", "presence",
+        "shadowy", "darkness", "uncover", "expose", "essence"
+      ]
+    },
+    {
+      "id": "b1-measurement",
+      "title": "Số lượng và đo lường",
+      "description": "Con số, đơn vị, kích thước và tỷ lệ.",
+      "words": [
+        "registration", "relative", "anti", "minus", "remainder", "arithmetic", "calculator", "calculate",
+        "calculation", "formula", "quantity", "ration", "proportion", "percent", "limit", "maximum",
+        "minimum", "per", "total", "approximately", "considerable", "estimate", "log", "measurement",
+        "measure", "diameter", "length", "height", "distance", "mile", "narrow", "medium",
+        "tiny", "huge", "massive", "mass", "pound", "gallon", "volume", "capacity",
+        "countless", "dozen", "fifth", "graph"
+      ]
+    },
+    {
+      "id": "b1-physics",
+      "title": "Lực và chuyển động",
+      "description": "Tốc độ, lực, hướng và sự chuyển động.",
+      "words": [
+        "curve", "evenly", "pump", "uncontrollable", "motionless", "movement", "glide", "motor",
+        "orbit", "burst", "rapid", "rise", "arise", "fallen", "slip", "rolling",
+        "bump", "bounce", "leap", "stall", "angle", "tremble", "tension", "tumble",
+        "twist", "toss", "vague"
+      ]
+    },
+    {
+      "id": "b1-safety",
+      "title": "An toàn và ứng phó",
+      "description": "Nguy cơ, tai nạn và cách ứng phó khẩn cấp.",
+      "words": [
+        "insurance", "inspection", "concerned", "aware", "awareness", "discourage", "inconvenient", "forbidden",
+        "hazard", "deadly", "endanger", "survival", "ensure", "warn", "warning", "caution",
+        "cautious", "risk", "dangerously", "safety", "safely", "secure", "security", "safeguard",
+        "protection", "protect", "protective", "defend", "explosion", "bomb", "terrorism", "terror",
+        "threat", "threatening", "collapse", "severe", "destructive", "disaster", "accidental", "accidentally",
+        "heater", "fire-station", "firefighter", "rescue", "ward"
+      ]
+    },
+    {
+      "id": "b1-crime",
+      "title": "Luật pháp và an ninh",
+      "description": "Quy định, hành vi phạm pháp và xử lý trước tòa.",
+      "words": [
+        "proof", "seize", "notorious", "outlaw", "killing", "legal", "legally", "illegally",
+        "prohibition", "judgment", "justice", "accuse", "innocent", "guilty", "victim", "drunk",
+        "burglar", "suspect", "detective", "criminal", "murderer", "arrest", "theft", "prisoner",
+        "prison", "jail", "punishment", "punish", "investigation", "witness", "capture", "charge",
+        "mischief"
+      ]
+    },
+    {
+      "id": "b1-government",
+      "title": "Chính quyền và công dân",
+      "description": "Bộ máy nhà nước, bầu cử và đời sống công dân.",
+      "words": [
+        "moderate", "civil", "govern", "republic", "democracy", "democratic", "election", "politics",
+        "first-lady", "vice-president", "president", "representative", "governor", "politician", "mayor", "sheriff",
+        "administration", "leadership", "appoint", "authority", "council", "approval", "chief", "rank",
+        "air-force", "bureau", "policy", "declare", "officially"
+      ]
+    },
+    {
+      "id": "b1-community",
+      "title": "Cộng đồng và đời sống xã hội",
+      "description": "Các nhóm xã hội, hoạt động cộng đồng và hỗ trợ lẫn nhau.",
+      "words": [
+        "renew", "resident", "identity-card", "identity", "encounter", "newcomer", "religious", "conservative",
+        "majority", "minority", "racial", "oppression", "socially", "neighborhood", "folk", "facility",
+        "membership", "league", "union", "brotherhood", "unite", "unify", "protest", "supporter",
+        "contribution", "charity", "sympathy", "assist", "assistance", "aid", "grant", "involved",
+        "attend", "participate", "volunteer", "organization", "mission", "homeless", "suicide", "bunch",
+        "grouping", "scold"
+      ]
+    },
+    {
+      "id": "b1-history",
+      "title": "Lịch sử và di sản",
+      "description": "Thời xưa, truyền thống và dấu tích lịch sử.",
+      "words": [
+        "aborigine", "classical", "primitive", "preservation", "monument", "remembrance", "grave", "coffin",
+        "skeleton", "antique", "era", "dynasty", "historic", "historical", "historian", "settler",
+        "civilization", "slavery", "empire", "emperor", "chariot", "phoenix", "piety", "soul",
+        "eternal", "eternity", "magical", "divine", "heavenly", "heaven", "glory", "religion",
+        "sacred", "goddess", "warrior", "monk", "bishop"
+      ]
+    },
+    {
+      "id": "b1-international",
+      "title": "Quốc gia và quan hệ quốc tế",
+      "description": "Quốc gia, biên giới và quan hệ giữa các nước.",
+      "words": [
+        "reunify", "army", "invasion", "separation", "border", "immigrate", "immigration", "citizenship",
+        "visa", "independent", "nationalist", "liberation", "liberate", "declaration", "constitution", "possess",
+        "motherland", "mediterranean", "atlantic", "westward", "geography", "faraway", "internationally", "global",
+        "former"
+      ]
+    },
+    {
+      "id": "b1-ideas",
+      "title": "Suy nghĩ và lập luận",
+      "description": "Đưa ra ý kiến, lập luận và xem xét thông tin.",
+      "words": [
+        "lay", "determine", "recognize", "suppose", "assume", "convince", "definite", "insight",
+        "viewpoint", "objective", "conclude", "conclusion", "approach", "philosopher", "philosophy", "theory",
+        "rational", "persuasive", "logic", "common-sense", "notion", "concept", "reality", "belief",
+        "existence", "stupid", "foolish", "nonsense", "weird", "curious", "curiosity", "motive",
+        "suspicion", "unclear", "confusion", "puzzle", "reflection", "conscious", "subconscious", "phantom",
+        "superstition", "miracle", "uncertainty", "certainty", "probability", "reasonable", "realistic", "unbelievable",
+        "incredible", "comparison", "similarity"
+      ]
+    },
+    {
+      "id": "b1-choices",
+      "title": "Lựa chọn và quyết định",
+      "description": "Cân nhắc các phương án và đặt ưu tiên.",
+      "words": [
+        "ridiculous", "obtain", "fetch", "lottery", "intentionally", "intention", "intend", "desire",
+        "preference", "consideration", "decision", "acceptance", "reject", "approve", "aspect", "involve",
+        "commit", "settle", "compromise", "negotiation", "negotiate", "advance", "proceed", "general",
+        "strategic", "valuable", "potential", "favorable", "basis", "main", "switch", "option",
+        "alternative", "recommend", "exclusive", "select", "selection", "combination", "limitation", "possibility",
+        "resolve", "abandon", "eliminate", "rid", "minimize"
+      ]
+    },
+    {
+      "id": "b1-change",
+      "title": "Thay đổi và kết quả",
+      "description": "Sự thay đổi, diễn biến và hệ quả.",
+      "words": [
+        "cancel", "complicate", "simplify", "generate", "transformation", "transform", "adapt", "modify",
+        "extend", "expand", "gain", "derive", "vary", "increasingly", "downward", "decline",
+        "decrease", "reduction", "reduce", "lessen", "loss", "affect", "development", "revise",
+        "revision", "improvement", "progress", "effective", "benefit", "outweigh", "positive", "positively",
+        "promote", "absence", "significance", "continuous", "continual", "boom", "emerge", "unfold",
+        "disastrous", "devastating", "devastate", "regain", "restore"
+      ]
+    },
+    {
+      "id": "b1-qualities",
+      "title": "Đặc điểm và trạng thái",
+      "description": "Đặc điểm, mức độ hoàn chỉnh và tình trạng của sự vật.",
+      "words": [
+        "restrict", "permit", "awesome", "steady", "stable", "essential", "precious", "pure",
+        "sheer", "sharp", "abundant", "variety", "various", "diverse", "numerous", "incorrect",
+        "fake", "accurate", "reliable", "complex", "complicated", "confusing", "differ", "alike",
+        "unique", "distinguish", "absent", "entire", "exact", "obvious", "visible", "apparent",
+        "evident", "noticeable", "slight", "substantial", "thorough", "intensive", "intense", "extraordinary",
+        "improper", "absolute", "solid", "damaged", "marked", "serious", "extreme", "mild",
+        "abnormal", "peculiar", "ordinary", "horrible", "unfortunate", "unlikely", "worthwhile", "partial",
+        "brief", "superior", "characterize", "characteristic"
+      ]
+    },
+    {
+      "id": "b1-effort",
+      "title": "Nỗ lực và thành tựu",
+      "description": "Theo đuổi mục tiêu, vượt trở ngại và đạt kết quả.",
+      "words": [
+        "extent", "technique", "strengthen", "overwhelming", "overwhelm", "overwork", "patience", "struggle",
+        "challenging", "endure", "overcome", "conquer", "defeat", "weakness", "failure", "obstacle",
+        "resist", "competitive", "reward", "prize", "achievement", "triumph", "excellence", "confidence",
+        "attain", "determination", "willingness", "innovator", "diligent", "diligence", "ambitious", "hard-working",
+        "productive", "accomplish", "inspire", "praise", "encouragement", "encouraging", "motivation", "motivate",
+        "procrastination", "contribute", "aim", "hopeful", "impressive", "remarkable", "proclaim", "boast",
+        "capable", "able", "unable"
+      ]
+    },
+    {
+      "id": "b1-ethics",
+      "title": "Quyền lợi và trách nhiệm",
+      "description": "Trách nhiệm, giá trị và cách đánh giá đúng sai.",
+      "words": [
+        "oppress", "dare", "shame", "shameful", "unfairly", "principle", "equally", "equal",
+        "equality", "discrimination", "prejudice", "delicate", "burden", "deed", "behalf", "responsibility",
+        "responsible", "duty", "respect", "deserve", "worthy", "respectable", "kindness", "selfish",
+        "humanity", "moral", "dedicate", "behave", "regard", "treat", "lawful", "vice"
+      ]
+    },
+    {
+      "id": "b1-time",
+      "title": "Thời gian và trình tự",
+      "description": "Mốc thời gian, tần suất và thứ tự diễn ra.",
+      "words": [
+        "latecomer", "trigger", "deprive", "out-of-date", "old-fashioned", "occur", "inevitable", "unpredictable",
+        "unexpectedly", "unexpected", "irregular", "continuously", "continually", "constantly", "repeatedly", "frequent",
+        "occasional", "frequently", "occasionally", "sometimes", "lately", "sometime", "shortly", "eventually",
+        "timely", "immediate", "initially", "immediately", "afterwards", "afterward", "initial", "newly",
+        "previous", "currently", "temporary", "permanent", "permanently", "chronological", "sequence", "interval",
+        "fortnight", "frequency", "annually", "annual", "current"
+      ]
+    },
+    {
+      "id": "b1-degree",
+      "title": "Trạng từ chỉ mức độ và cách thức",
+      "description": "Bổ sung thông tin về mức độ, cách làm hoặc thái độ.",
+      "words": [
+        "simultaneously", "sufficient", "mere", "merely", "altogether", "entirely", "completely", "somehow",
+        "obviously", "surely", "totally", "definitely", "absolutely", "naturally", "supposedly", "normally",
+        "generally", "typically", "largely", "primarily", "particularly", "specially", "slightly", "barely",
+        "incredibly", "relatively", "surprisingly", "strangely", "curiously", "unusually", "suddenly", "pleasantly",
+        "personally", "honestly", "commonly", "widespread", "extensively", "wildly", "violently", "severely",
+        "rapidly", "steadily", "firmly", "lightly", "properly", "accurately", "highly", "amazing",
+        "beautifully", "vividly", "distinctly", "noisily", "involuntarily", "rudely", "indirectly", "directly",
+        "brightly", "anxiously", "warmly", "unlucky"
+      ]
+    },
+    {
+      "id": "b1-linking",
+      "title": "Liên kết và chuyển ý",
+      "description": "Nối ý, đối chiếu và làm rõ quan hệ giữa các câu.",
+      "words": [
+        "anyhow", "bang", "disturbance", "meanwhile", "nor", "contrary", "nevertheless", "nonetheless",
+        "despite", "whether", "unless", "otherwise", "provided", "moreover", "furthermore", "thus",
+        "consequently", "similarly", "instance", "wherever", "whenever"
+      ]
+    },
+    {
+      "id": "b1-reference",
+      "title": "Giới từ và từ để quy chiếu",
+      "description": "Giới từ, đại từ và từ hạn định để chỉ người, vật hoặc quan hệ.",
+      "words": [
+        "define", "pronoun", "oneself", "mankind", "whoever", "whichever", "none", "occupy",
+        "excess", "wither", "preposition", "aboard", "onto", "beneath", "underneath", "upward",
+        "upper", "nowhere", "someplace", "next-door-adverb", "next-door-adjective", "farther", "furthest", "farthest",
+        "because-of", "instead-of", "aside", "including", "regarding", "according-to", "throughout", "forth",
+        "via", "glimpse", "outward", "internal", "isolation", "conduct", "edge"
+      ]
+    },
+    {
+      "id": "b1-grammar",
+      "title": "Cấu trúc ngữ pháp và cách nói",
+      "description": "Trợ động từ, cấu trúc chỉ khả năng, lời khuyên và thói quen cũ.",
+      "words": [
+        "used-to", "active", "complement", "object", "auxiliary", "indefinite-article", "definite-article", "tense",
+        "passive", "participle", "adverbial", "adverb", "phrasal-verb", "modal-verb", "infinitive", "hurriedly",
+        "persuade", "urge", "hesitate", "ought-to", "tendency", "dependent", "rely", "require"
+      ]
+    }
+  ]
 }
