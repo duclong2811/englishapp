@@ -106,3 +106,73 @@ mark.word {
     animation-duration: 0.01ms !important;
   }
 }
+
+/* Long word lists: styles live here so each of the many rows stays small. */
+.word-list {
+  list-style: none;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--sheet);
+  overflow: hidden;
+}
+.word-list > li + li {
+  border-top: 1px solid var(--line);
+}
+.word-list a,
+.word-list div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  align-items: baseline;
+  min-height: 4rem;
+  padding: 0.5rem 1rem;
+}
+.word-list a {
+  transition: background-color 150ms;
+}
+.word-list a:hover {
+  background: color-mix(in srgb, var(--line) 40%, transparent);
+}
+.word-list a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+.word-list .en {
+  font-size: 1.125rem;
+}
+.word-list [translate="no"] {
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+.word-list small {
+  grid-column: 1 / -1;
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.word-list small.has-vi {
+  color: var(--ink);
+}
+
+.back-link,
+.pager-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: var(--ink-soft);
+  transition: color 150ms;
+}
+.pager-link {
+  color: var(--accent);
+  font-weight: 600;
+}
+.back-link:hover {
+  color: var(--accent);
+}
+.back-link:focus-visible,
+.pager-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

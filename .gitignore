@@ -42,3 +42,6 @@ next-env.d.ts
 
 # Source books for lesson writing (copyrighted, never commit)
 /sources/
+
+# Downloaded vocabulary sources (tools/vocab/fetch.sh)
+/data/raw/

@@ -11,7 +11,9 @@ npm install
 npm run dev
 ```
 
-Mở `http://localhost:3000`. Kiểm tra trước khi commit: `npm run lint && npm run build`.
+Mở `http://localhost:3000`. Kiểm tra trước khi commit: `npm run lint && npm test && npm run build`.
+
+Tiến độ ôn từ vựng hiện lưu trong trình duyệt của từng máy (localStorage), chưa đồng bộ giữa iPhone và PC.
 
 ## Thiết kế giao diện
 
@@ -24,6 +26,6 @@ Mọi thay đổi giao diện theo skill `.claude/skills/englishapp-ux/SKILL.md`
 ## Lộ trình
 
 1. Khung app và hệ thống thiết kế (xong).
-2. Kho từ vựng: gộp dữ liệu mở (CEFR-J, NGSL, ECDICT, câu Anh–Việt từ Tatoeba), thêm nghĩa tiếng Việt, lịch ôn tập FSRS.
+2. Kho từ vựng (đang làm): khoảng 8.600 từ A1–C2 từ dữ liệu mở, 50 từ A1 đã có nghĩa tiếng Việt, ôn thẻ bằng FSRS. Xem `src/content/vocab/SOURCES.md`.
 3. Bài học ngữ pháp: soạn từ sách nguồn đặt trong `sources/` (thư mục này không đưa lên git). Làm 3 bài thử trước khi nhân rộng.
 4. Luyện nói với AI theo kiểu xử lý cuốn chiếu (nghe, AI trả lời, đọc) để phản hồi nhanh.

@@ -1,0 +1,486 @@
+{
+  "status": "draft",
+  "about": "Nghĩa tiếng Việt, ghi chú và câu ví dụ đã chọn cho 50 từ A1 thông dụng nhất. Bản nháp do AI soạn, cần người duyệt. source=tatoeba: câu từ Tatoeba (CC BY 2.0 FR), edited=true nghĩa là bản dịch đã được sửa. source=editor: câu do người soạn viết.",
+  "entries": [
+    {
+      "id": "say",
+      "meanings": [{ "pos": "verb", "vi": "nói (ra lời), bảo" }],
+      "note": "say + điều được nói: say hello, say sorry. Muốn nói với ai thì dùng say something to someone. Không nói “say me”, phải dùng tell me.",
+      "examples": [
+        { "en": "All that you say is perfectly correct.", "vi": "Tất cả những điều anh nói đều đúng.", "source": "tatoeba" },
+        { "en": "I just don't know what to say.", "vi": "Tôi thật sự không biết nên nói gì.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "go",
+      "meanings": [{ "pos": "verb", "vi": "đi" }],
+      "note": "go to + nơi chốn: go to school, go to work. Riêng go home, go there không có to. Bất quy tắc: go – went – gone.",
+      "examples": [
+        { "en": "How far will we have to go?", "vi": "Chúng ta sẽ phải đi bao xa?", "source": "tatoeba" },
+        { "en": "Don't drink beer before going to bed.", "vi": "Đừng uống bia trước khi đi ngủ.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "get",
+      "meanings": [{ "pos": "verb", "vi": "nhận được, lấy; trở nên; đến (nơi)" }],
+      "note": "Từ rất nhiều nghĩa. Ba cách dùng hay gặp nhất: get + vật (nhận, lấy: get a visa), get + tính từ (trở nên: get sick, get lost), get to + nơi (đến: get to work).",
+      "examples": [
+        { "en": "Am I required to get a visa?", "vi": "Tôi có bắt buộc phải xin thị thực không?", "source": "tatoeba", "edited": true },
+        { "en": "Are you also afraid of getting sick?", "vi": "Bạn cũng sợ bị bệnh à?", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "make",
+      "meanings": [{ "pos": "verb", "vi": "làm ra, tạo ra; khiến cho" }],
+      "note": "make = làm ra một thứ (make a cake, make a mistake); do = làm một việc, hoạt động (do homework). make someone + động từ nguyên mẫu không có to: make him cry.",
+      "examples": [
+        { "en": "I didn't mean to make him cry.", "vi": "Tôi không cố ý làm cậu ấy khóc.", "source": "tatoeba", "edited": true },
+        { "en": "I'm really sorry to make you wait.", "vi": "Thật sự xin lỗi vì đã để bạn phải chờ.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "know",
+      "meanings": [{ "pos": "verb", "vi": "biết; quen (ai đó)" }],
+      "note": "Không dùng ở thì tiếp diễn: nói I know, không nói “I am knowing”. know someone = quen ai đó.",
+      "examples": [
+        { "en": "I don't know where my mother is.", "vi": "Tôi không biết mẹ tôi đang ở đâu.", "source": "tatoeba" },
+        { "en": "I know no one in this city.", "vi": "Tôi chẳng quen ai ở thành phố này.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "time",
+      "meanings": [{ "pos": "noun", "vi": "thời gian; lần" }],
+      "note": "Nghĩa “thời gian” không đếm được: I don't have time (không nói “a time”). Nghĩa “lần” thì đếm được: three times.",
+      "examples": [
+        { "en": "I don't have time to meet you.", "vi": "Tôi không có thời gian gặp anh.", "source": "tatoeba", "edited": true },
+        { "en": "I've been to Hanoi three times.", "vi": "Tôi đã đến Hà Nội ba lần.", "source": "editor" }
+      ]
+    },
+    {
+      "id": "year",
+      "meanings": [{ "pos": "noun", "vi": "năm" }],
+      "note": "Nói tuổi: I'm 20 years old, hoặc gọn hơn I'm 20. Năm ngoái, năm sau: last year, next year (không có the).",
+      "examples": [
+        { "en": "He came to Japan two years ago.", "vi": "Anh ấy sang Nhật hai năm trước.", "source": "tatoeba" },
+        { "en": "My father will travel abroad next year.", "vi": "Năm sau bố tôi sẽ đi du lịch nước ngoài.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "think",
+      "meanings": [{ "pos": "verb", "vi": "nghĩ; cho rằng" }],
+      "note": "think about = nghĩ về; think of = nghĩ ra, nghĩ đến. Khi phủ định một ý kiến, người bản xứ đặt not ở think: I don't think she can come, thay vì I think she can't come.",
+      "examples": [
+        { "en": "I don't think she can speak French.", "vi": "Tôi không nghĩ cô ấy nói được tiếng Pháp.", "source": "tatoeba", "edited": true },
+        { "en": "I think I did the right thing.", "vi": "Tôi nghĩ mình đã làm đúng.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "people",
+      "meanings": [{ "pos": "noun", "vi": "người (số nhiều), mọi người" }],
+      "note": "people là số nhiều của person nên động từ chia số nhiều: People are… Không thêm -s.",
+      "examples": [
+        { "en": "It is rude to point at people.", "vi": "Chỉ tay vào người khác là bất lịch sự.", "source": "tatoeba", "edited": true },
+        { "en": "Many people had no homes at all.", "vi": "Rất nhiều người không có nhà để ở.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "take",
+      "meanings": [{ "pos": "verb", "vi": "cầm, lấy; mang đi, đưa (ai); mất (thời gian)" }],
+      "note": "It takes + thời gian (+ to V): It takes ten minutes to walk there. Các cụm cố định: take a shower, take a photo. Bất quy tắc: take – took – taken.",
+      "examples": [
+        { "en": "This will only take a minute.", "vi": "Việc này chỉ mất một phút thôi.", "source": "tatoeba", "edited": true },
+        { "en": "I bent over to take the pen.", "vi": "Tôi cúi xuống để nhặt cây bút.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "see",
+      "meanings": [{ "pos": "verb", "vi": "thấy, nhìn thấy; gặp" }],
+      "note": "see = thấy (không cần chủ ý); look at = nhìn vào (có chủ ý); watch = xem, theo dõi một lúc lâu. I see = À, tôi hiểu rồi.",
+      "examples": [
+        { "en": "I can't see well without my glasses.", "vi": "Không có kính thì tôi không nhìn rõ.", "source": "tatoeba", "edited": true },
+        { "en": "A young person wants to see you.", "vi": "Có một người trẻ muốn gặp bạn.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "come",
+      "meanings": [{ "pos": "verb", "vi": "đến, tới" }],
+      "note": "come = đến chỗ người nói hoặc người nghe; go = đi khỏi chỗ đó. Khi ai gọi, trả lời “Tôi đến ngay” là I'm coming, không phải I'm going.",
+      "examples": [
+        { "en": "I came here three days ago, too.", "vi": "Tôi cũng đến đây ba ngày trước.", "source": "tatoeba" },
+        { "en": "I hope your wishes will come true.", "vi": "Mong những điều ước của bạn sẽ thành sự thật.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "want",
+      "meanings": [{ "pos": "verb", "vi": "muốn" }],
+      "note": "want to + V: want to go. want someone to + V: I want you to stay. Không nói “I want go”.",
+      "examples": [
+        { "en": "Does anyone want another piece of cake?", "vi": "Có ai muốn ăn thêm một miếng bánh nữa không?", "source": "tatoeba", "edited": true },
+        { "en": "Everybody wants to have a happy life.", "vi": "Ai cũng muốn có một cuộc sống hạnh phúc.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "way",
+      "meanings": [{ "pos": "noun", "vi": "đường đi; cách" }],
+      "note": "Hai nghĩa chính: đường đi (go that way) và cách (the way you did it). on my way = đang trên đường.",
+      "examples": [
+        { "en": "He says we should go that way.", "vi": "Anh ấy bảo chúng ta nên đi đường đó.", "source": "tatoeba", "edited": true },
+        { "en": "I liked the way you did that.", "vi": "Tôi thích cách bạn làm việc đó.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "look",
+      "meanings": [
+        { "pos": "verb", "vi": "nhìn; trông (có vẻ)" },
+        { "pos": "noun", "vi": "cái nhìn; vẻ ngoài" }
+      ],
+      "note": "look at + người/vật: nhìn vào. look + tính từ: trông có vẻ (You look tired). look like + danh từ: trông giống.",
+      "examples": [
+        { "en": "Everyone is looking at the beautiful girl.", "vi": "Mọi người đều đang nhìn cô gái xinh đẹp.", "source": "tatoeba" },
+        { "en": "I opened the box and looked inside.", "vi": "Tôi mở hộp và nhìn vào bên trong.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "first",
+      "meanings": [
+        { "pos": "adjective", "vi": "đầu tiên, thứ nhất" },
+        { "pos": "adverb", "vi": "lần đầu; trước tiên" }
+      ],
+      "note": "Thường đi với the: the first time. at first = lúc đầu (ngụ ý sau đó đã khác).",
+      "examples": [
+        { "en": "Do you remember when we first met?", "vi": "Bạn có nhớ lần đầu chúng ta gặp nhau không?", "source": "tatoeba", "edited": true },
+        { "en": "No one believed me at first.", "vi": "Lúc đầu không ai tin tôi.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "new",
+      "meanings": [{ "pos": "adjective", "vi": "mới" }],
+      "note": "Tính từ đứng trước danh từ, ngược với tiếng Việt: a new phone = một cái điện thoại mới.",
+      "examples": [
+        { "en": "I bought a new pair of gloves.", "vi": "Tôi đã mua một đôi găng tay mới.", "source": "tatoeba" },
+        { "en": "I need a new computer.", "vi": "Tôi cần một cái máy tính mới.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "day",
+      "meanings": [{ "pos": "noun", "vi": "ngày" }],
+      "note": "every day (hai từ) = mỗi ngày; everyday (viết liền) = thường ngày, là tính từ: everyday English. one day = một ngày nào đó.",
+      "examples": [
+        { "en": "She plays tennis after school every day.", "vi": "Ngày nào cô ấy cũng chơi quần vợt sau giờ học.", "source": "tatoeba", "edited": true },
+        { "en": "I want to go abroad one day.", "vi": "Tôi muốn một ngày nào đó được ra nước ngoài.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "use",
+      "meanings": [
+        { "pos": "verb", "vi": "dùng, sử dụng" },
+        { "pos": "noun", "vi": "việc sử dụng; công dụng" }
+      ],
+      "ipa": "juz",
+      "note": "Động từ đọc /juz/ (âm cuối như z), danh từ đọc /jus/. used to + V = đã từng (thói quen trong quá khứ).",
+      "examples": [
+        { "en": "Could I please use your phone?", "vi": "Tôi dùng điện thoại của bạn một chút được không?", "source": "tatoeba", "edited": true },
+        { "en": "I use my phone to learn English.", "vi": "Tôi dùng điện thoại để học tiếng Anh.", "source": "editor" }
+      ]
+    },
+    {
+      "id": "man",
+      "meanings": [{ "pos": "noun", "vi": "người đàn ông; con người" }],
+      "note": "Số nhiều bất quy tắc: men, không phải “mans”.",
+      "examples": [
+        { "en": "Who is that old man?", "vi": "Ông cụ kia là ai vậy?", "source": "tatoeba", "edited": true },
+        { "en": "Tom is the tallest man I know.", "vi": "Tom là người cao nhất mà tôi biết.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "find",
+      "meanings": [{ "pos": "verb", "vi": "tìm thấy; thấy (rằng)" }],
+      "note": "find = tìm thấy (có kết quả); look for = đang tìm (chưa thấy). find out = phát hiện ra. Bất quy tắc: find – found – found.",
+      "examples": [
+        { "en": "This is the book that I found.", "vi": "Đây là cuốn sách mà tôi đã tìm thấy.", "source": "tatoeba" },
+        { "en": "Tom couldn't find a place to park.", "vi": "Tom không tìm được chỗ đỗ xe.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "thing",
+      "meanings": [{ "pos": "noun", "vi": "đồ vật, thứ; việc, điều" }],
+      "note": "Dùng cho cả đồ vật lẫn sự việc: things to do = việc cần làm.",
+      "examples": [
+        { "en": "I have lots of things to do.", "vi": "Tôi có rất nhiều việc phải làm.", "source": "tatoeba", "edited": true },
+        { "en": "I need to explain a few things.", "vi": "Tôi cần giải thích một vài điều.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "give",
+      "meanings": [{ "pos": "verb", "vi": "đưa, cho, tặng" }],
+      "note": "Hai cách: give someone something (give me the book) hoặc give something to someone (give the book to me). give up = bỏ cuộc. Bất quy tắc: give – gave – given.",
+      "examples": [
+        { "en": "Can you give me your phone number?", "vi": "Bạn cho tôi số điện thoại được không?", "source": "editor" },
+        { "en": "Don't give up. Stick with the job.", "vi": "Đừng bỏ cuộc. Hãy bám trụ với công việc.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "tell",
+      "meanings": [{ "pos": "verb", "vi": "kể; nói cho (ai) biết; bảo" }],
+      "note": "tell + người, không có to: tell me, tell her. Khác say: say something (to someone). Các cụm: tell a story, tell a lie.",
+      "examples": [
+        { "en": "Can you tell me your name again?", "vi": "Bạn có thể nói lại tên của bạn cho tôi không?", "source": "tatoeba", "edited": true },
+        { "en": "I told Tom his answer was wrong.", "vi": "Tôi bảo Tom là câu trả lời của anh ấy sai.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "good",
+      "meanings": [{ "pos": "adjective", "vi": "tốt; giỏi; ngon" }],
+      "note": "good at + việc = giỏi về: good at English. So sánh bất quy tắc: better, best. Trạng từ là well: She sings well, không nói “sings good”.",
+      "examples": [
+        { "en": "He is short, but good at basketball.", "vi": "Cậu ấy thấp nhưng chơi bóng rổ rất giỏi.", "source": "tatoeba", "edited": true },
+        { "en": "My mother is a good woman.", "vi": "Mẹ tôi là một người phụ nữ tốt.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "woman",
+      "meanings": [{ "pos": "noun", "vi": "người phụ nữ" }],
+      "note": "Số nhiều women đọc là /ˈwɪmɪn/, khác hẳn woman /ˈwʊmən/.",
+      "examples": [
+        { "en": "Another woman is holding a bag.", "vi": "Một người phụ nữ khác đang cầm túi.", "source": "tatoeba", "edited": true },
+        { "en": "Statistics show that women live longer than men.", "vi": "Thống kê cho thấy phụ nữ sống lâu hơn nam giới.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "life",
+      "meanings": [{ "pos": "noun", "vi": "cuộc sống; cuộc đời; sự sống" }],
+      "note": "Số nhiều lives /laɪvz/: f đổi thành v.",
+      "examples": [
+        { "en": "He seems fairly content with his life.", "vi": "Anh ấy có vẻ khá hài lòng với cuộc sống của mình.", "source": "tatoeba" },
+        { "en": "He is the love of my life.", "vi": "Anh ấy là tình yêu của đời tôi.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "child",
+      "meanings": [{ "pos": "noun", "vi": "đứa trẻ; con (của ai)" }],
+      "note": "Số nhiều children, không phải “childs”. Nói về con mình: I have two children.",
+      "examples": [
+        { "en": "I am married and have two children.", "vi": "Tôi đã lập gia đình và có hai con.", "source": "tatoeba", "edited": true },
+        { "en": "Children need a lot of sleep.", "vi": "Trẻ em cần ngủ nhiều.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "work",
+      "meanings": [
+        { "pos": "verb", "vi": "làm việc; hoạt động (máy móc)" },
+        { "pos": "noun", "vi": "công việc; chỗ làm" }
+      ],
+      "note": "Danh từ work không đếm được: a lot of work, không nói “works” hay “a work”. Muốn đếm thì dùng job: a new job. go to work, at work không có the.",
+      "examples": [
+        { "en": "My father works in the food business.", "vi": "Bố tôi làm trong ngành kinh doanh thực phẩm.", "source": "tatoeba", "edited": true },
+        { "en": "I'll pick you up tomorrow after work.", "vi": "Mai tan làm tôi sẽ đón bạn.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "call",
+      "meanings": [
+        { "pos": "verb", "vi": "gọi (điện); gọi (tên)" },
+        { "pos": "noun", "vi": "cuộc gọi" }
+      ],
+      "note": "call + người, không có to: call me, call my mom. call someone + tên = gọi ai là: Call me Nam.",
+      "examples": [
+        { "en": "I would like to call my embassy.", "vi": "Tôi muốn gọi cho đại sứ quán nước tôi.", "source": "tatoeba", "edited": true },
+        { "en": "Hang on a minute. I'll call Jimmy.", "vi": "Chờ một phút. Tôi sẽ gọi Jimmy.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "world",
+      "meanings": [{ "pos": "noun", "vi": "thế giới" }],
+      "note": "Thường có the: in the world, around the world.",
+      "examples": [
+        { "en": "She wants to travel around the world.", "vi": "Cô ấy muốn đi du lịch vòng quanh thế giới.", "source": "tatoeba" },
+        { "en": "London is among the largest cities in the world.", "vi": "London là một trong những thành phố lớn nhất thế giới.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "school",
+      "meanings": [{ "pos": "noun", "vi": "trường học" }],
+      "note": "Nói việc đi học thì không có the: go to school, at school. Dùng the school khi nói về một tòa nhà, ngôi trường cụ thể.",
+      "examples": [
+        { "en": "I don't want to go to school.", "vi": "Tôi không muốn đi học.", "source": "tatoeba" },
+        { "en": "My house is close to the school.", "vi": "Nhà tôi ở gần trường.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "try",
+      "meanings": [
+        { "pos": "verb", "vi": "cố gắng; thử" },
+        { "pos": "noun", "vi": "lần thử" }
+      ],
+      "note": "try to + V = cố gắng làm; try + V-ing = thử làm xem sao. Quá khứ: tried.",
+      "examples": [
+        { "en": "You should try to get more exercise.", "vi": "Bạn nên cố tập thể dục nhiều hơn.", "source": "tatoeba", "edited": true },
+        { "en": "I don't want to try anything else.", "vi": "Tôi không muốn thử thứ gì khác nữa.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "ask",
+      "meanings": [{ "pos": "verb", "vi": "hỏi; nhờ, đề nghị" }],
+      "note": "ask + người, không có to: ask him. ask for something = xin, nhờ cái gì. ask someone to + V = nhờ ai làm gì.",
+      "examples": [
+        { "en": "She asked me a question about math.", "vi": "Cô ấy hỏi tôi một câu về môn toán.", "source": "tatoeba", "edited": true },
+        { "en": "He asked me to keep the secret.", "vi": "Anh ấy nhờ tôi giữ bí mật.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "feel",
+      "meanings": [{ "pos": "verb", "vi": "cảm thấy" }],
+      "note": "feel + tính từ: I feel tired, không nói “feel tiredly”. feel like + V-ing = muốn làm gì đó.",
+      "examples": [
+        { "en": "I feel clean after taking a bath.", "vi": "Tắm xong tôi thấy sạch sẽ hẳn.", "source": "tatoeba", "edited": true },
+        { "en": "How do you feel about his suggestion?", "vi": "Bạn thấy đề xuất của anh ấy thế nào?", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "become",
+      "meanings": [{ "pos": "verb", "vi": "trở thành; trở nên" }],
+      "note": "become + danh từ (become a doctor) hoặc + tính từ (become famous). Bất quy tắc: become – became – become.",
+      "examples": [
+        { "en": "I will become a doctor when I grow up.", "vi": "Lớn lên tôi sẽ trở thành bác sĩ.", "source": "tatoeba", "edited": true },
+        { "en": "Tom became famous very quickly.", "vi": "Tom trở nên nổi tiếng rất nhanh.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "family",
+      "meanings": [{ "pos": "noun", "vi": "gia đình" }],
+      "note": "Nói cả nhà như một khối thì động từ thường chia số ít: My family has dinner together.",
+      "examples": [
+        { "en": "Every evening, my family has dinner together.", "vi": "Mỗi tối, gia đình tôi ăn tối cùng nhau.", "source": "tatoeba" },
+        { "en": "My family goes skiing every winter.", "vi": "Mùa đông nào gia đình tôi cũng đi trượt tuyết.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "leave",
+      "meanings": [{ "pos": "verb", "vi": "rời đi; để lại; để quên" }],
+      "forms": { "past": "left", "pastParticiple": "left", "ing": "leaving", "thirdPerson": "leaves" },
+      "note": "leave + nơi, không có from: leave the house. leave for + nơi đến: leave for London = lên đường đi London. Bất quy tắc: leave – left – left.",
+      "examples": [
+        { "en": "He left the house at eight o'clock.", "vi": "Anh ấy ra khỏi nhà lúc 8 giờ.", "source": "tatoeba" },
+        { "en": "I left your umbrella on the bus.", "vi": "Tôi để quên ô của bạn trên xe buýt.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "put",
+      "meanings": [{ "pos": "verb", "vi": "đặt, để" }],
+      "note": "put giữ nguyên ở quá khứ: put – put – put. put on = mặc vào (quần áo).",
+      "examples": [
+        { "en": "He put the book on the shelf.", "vi": "Anh ấy đặt cuốn sách lên giá.", "source": "tatoeba", "edited": true },
+        { "en": "I haven't put on the jacket yet.", "vi": "Tôi chưa mặc áo khoác vào.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "old",
+      "meanings": [{ "pos": "adjective", "vi": "già; cũ; (bao nhiêu) tuổi" }],
+      "note": "Hỏi tuổi: How old are you? Trả lời: I'm 25 (years old). Đồ cũ cũng dùng old: an old phone.",
+      "examples": [
+        { "en": "I want to know how old he is.", "vi": "Tôi muốn biết anh ấy bao nhiêu tuổi.", "source": "tatoeba" },
+        { "en": "My grandmother is old but healthy.", "vi": "Bà tôi già nhưng khỏe mạnh.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "mean",
+      "meanings": [
+        { "pos": "verb", "vi": "có nghĩa là; ý muốn nói; cố ý" },
+        { "pos": "adjective", "vi": "xấu tính, ác (A2)" }
+      ],
+      "note": "Hỏi nghĩa của từ: What does this word mean? Không nói “What is this word mean?”. What do you mean? = Ý bạn là gì?",
+      "examples": [
+        { "en": "What does this word mean?", "vi": "Từ này nghĩa là gì?", "source": "editor" },
+        { "en": "I don't know what you mean.", "vi": "Tôi không hiểu ý bạn là gì.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "keep",
+      "meanings": [{ "pos": "verb", "vi": "giữ; tiếp tục" }],
+      "note": "keep + V-ing = cứ tiếp tục làm: keep practicing. keep a promise = giữ lời hứa. Bất quy tắc: keep – kept – kept.",
+      "examples": [
+        { "en": "I want you to keep your promise.", "vi": "Tôi muốn bạn giữ lời hứa.", "source": "tatoeba" },
+        { "en": "I hope you keep practicing Vietnamese.", "vi": "Tôi mong bạn tiếp tục luyện tiếng Việt.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "student",
+      "meanings": [{ "pos": "noun", "vi": "học sinh; sinh viên" }],
+      "note": "Tiếng Anh dùng student cho cả học sinh lẫn sinh viên.",
+      "examples": [
+        { "en": "The students go to school every morning.", "vi": "Các học sinh đi học mỗi sáng.", "source": "tatoeba", "edited": true },
+        { "en": "I met a student from America yesterday.", "vi": "Hôm qua tôi gặp một sinh viên đến từ Mỹ.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "great",
+      "meanings": [{ "pos": "adjective", "vi": "tuyệt vời; lớn, to lớn" }],
+      "note": "Trong giao tiếp, Great! = Tuyệt! Nghĩa “lớn” thường đi với danh từ trừu tượng: a great effort.",
+      "examples": [
+        { "en": "It was a great holiday, but too short.", "vi": "Đó là một kỳ nghỉ tuyệt vời, nhưng ngắn quá.", "source": "tatoeba", "edited": true },
+        { "en": "In my opinion, soccer is a great sport.", "vi": "Theo tôi, bóng đá là một môn thể thao tuyệt vời.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "big",
+      "meanings": [{ "pos": "adjective", "vi": "to, lớn" }],
+      "note": "So sánh nhân đôi chữ g: bigger, biggest.",
+      "examples": [
+        { "en": "She lives in a very big house.", "vi": "Cô ấy sống trong một ngôi nhà rất lớn.", "source": "tatoeba" },
+        { "en": "Tigers are bigger and stronger than cats.", "vi": "Hổ to hơn và khỏe hơn mèo.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "begin",
+      "meanings": [{ "pos": "verb", "vi": "bắt đầu" }],
+      "note": "Bất quy tắc: begin – began – begun; dạng -ing nhân đôi n: beginning. begin to + V và begin + V-ing đều được.",
+      "examples": [
+        { "en": "The meeting began at five in the afternoon.", "vi": "Cuộc họp bắt đầu lúc 5 giờ chiều.", "source": "tatoeba", "edited": true },
+        { "en": "She turned and began to cry.", "vi": "Cô ấy quay đi và bắt đầu khóc.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "help",
+      "meanings": [
+        { "pos": "verb", "vi": "giúp" },
+        { "pos": "noun", "vi": "sự giúp đỡ" }
+      ],
+      "forms": { "past": "helped", "pastParticiple": "helped", "ing": "helping", "thirdPerson": "helps" },
+      "note": "help someone (to) + V: help me (to) carry this. help someone with something: help me with my homework. Help! = Cứu với!",
+      "examples": [
+        { "en": "Can you help me with the washing up?", "vi": "Bạn giúp tôi rửa bát được không?", "source": "tatoeba", "edited": true },
+        { "en": "Can I help you with something?", "vi": "Tôi có thể giúp gì cho bạn không?", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "talk",
+      "meanings": [
+        { "pos": "verb", "vi": "nói chuyện" },
+        { "pos": "noun", "vi": "cuộc nói chuyện; bài nói" }
+      ],
+      "note": "talk to/with someone = nói chuyện với ai; talk about something = nói về. Khác speak: speak English (nói một ngôn ngữ).",
+      "examples": [
+        { "en": "We need to talk to you.", "vi": "Chúng tôi cần nói chuyện với bạn.", "source": "tatoeba" },
+        { "en": "I don't want to talk about it now.", "vi": "Tôi không muốn nói về chuyện đó lúc này.", "source": "tatoeba", "edited": true }
+      ]
+    },
+    {
+      "id": "problem",
+      "meanings": [{ "pos": "noun", "vi": "vấn đề; bài toán" }],
+      "note": "No problem! = Không sao đâu / Được thôi. solve a problem = giải quyết vấn đề.",
+      "examples": [
+        { "en": "Global warming is a big problem.", "vi": "Sự nóng lên toàn cầu là một vấn đề lớn.", "source": "tatoeba" },
+        { "en": "We solved that problem in a week.", "vi": "Chúng tôi đã giải quyết vấn đề đó trong một tuần.", "source": "tatoeba" }
+      ]
+    },
+    {
+      "id": "really",
+      "meanings": [{ "pos": "adverb", "vi": "thật sự; rất" }],
+      "note": "Đứng trước tính từ để nhấn mạnh: really good. Really? = Thật à?",
+      "examples": [
+        { "en": "This phở is really good.", "vi": "Phở này ngon thật.", "source": "editor" },
+        { "en": "I'm really worried about what might happen.", "vi": "Tôi thật sự lo về những gì có thể xảy ra.", "source": "tatoeba", "edited": true }
+      ]
+    }
+  ]
+}
