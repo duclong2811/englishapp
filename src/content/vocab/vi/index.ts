@@ -1,0 +1,7 @@
+// Every Vietnamese study file. Add new files here.
+import a1Core from "./a1-core.json";
+import a1Core2 from "./a1-core-2.json";
+import a1Core3 from "./a1-core-3.json";
+import a1Core4 from "./a1-core-4.json";
+
+export const viFiles: unknown[] = [a1Core, a1Core2, a1Core3, a1Core4];
