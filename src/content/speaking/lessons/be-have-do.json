@@ -1,0 +1,101 @@
+{
+  "topic": "be-have-do",
+  "title": "Sáng thứ Hai ở công ty",
+  "summary": "Bạn và một đồng nghiệp kể về cuối tuần và lên kế hoạch cho buổi sáng bận rộn.",
+  "aiRole": "Sam, a friendly coworker",
+  "learnerRole": "a coworker arriving at the office on Monday",
+  "setting": "the office on a Monday morning",
+  "roleplayOpening": "Good morning! Did you have a good weekend? What did you do?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hi! How was your weekend? Were you busy?",
+      "vi": "Chào bạn! Cuối tuần của bạn thế nào? Có bận không?"
+    },
+    {
+      "who": "you",
+      "en": "It was great, thanks. I was at my parents' house. We had a big lunch.",
+      "vi": "Tuyệt lắm, cảm ơn bạn. Mình về nhà bố mẹ. Cả nhà ăn một bữa trưa thịnh soạn."
+    },
+    {
+      "who": "ai",
+      "en": "That sounds nice. What did you do after lunch?",
+      "vi": "Nghe hay quá. Ăn trưa xong bạn làm gì?"
+    },
+    {
+      "who": "you",
+      "en": "I did the dishes, and then we played cards. What about you?",
+      "vi": "Mình rửa bát, rồi cả nhà chơi bài. Còn bạn thì sao?"
+    },
+    {
+      "who": "ai",
+      "en": "I was at home. My son has a cold, so I had to stay with him.",
+      "vi": "Mình ở nhà. Con trai mình bị cảm nên mình phải ở bên cháu."
+    },
+    {
+      "who": "you",
+      "en": "Oh no. Is he OK now? Does he have a fever?",
+      "vi": "Ôi. Giờ cháu ổn chưa? Cháu có sốt không?"
+    },
+    {
+      "who": "ai",
+      "en": "He is better, thanks. He doesn't have a fever now. What are you doing today?",
+      "vi": "Đỡ rồi, cảm ơn bạn. Giờ cháu hết sốt rồi. Hôm nay bạn làm gì?"
+    },
+    {
+      "who": "you",
+      "en": "I have a meeting at ten. I have to finish my report before that.",
+      "vi": "Mình có cuộc họp lúc mười giờ. Mình phải làm xong báo cáo trước đó."
+    },
+    {
+      "who": "ai",
+      "en": "Can I help you? I'm not very busy this morning.",
+      "vi": "Mình giúp bạn được không? Sáng nay mình không bận lắm."
+    },
+    {
+      "who": "you",
+      "en": "Yes, please. Could you check the numbers for me?",
+      "vi": "Có, nhờ bạn nhé. Bạn kiểm tra giúp mình các con số được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Sure, I will do it now. Should I send them to you by email?",
+      "vi": "Được, mình làm ngay đây. Mình có nên gửi cho bạn qua email không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, that would be great. I must send the report to the boss by ten.",
+      "vi": "Có, vậy thì tốt quá. Mình phải gửi báo cáo cho sếp trước mười giờ."
+    },
+    {
+      "who": "ai",
+      "en": "No problem. Are you free for lunch later?",
+      "vi": "Không sao. Lát nữa bạn có rảnh đi ăn trưa không?"
+    },
+    {
+      "who": "you",
+      "en": "Maybe. I may be in the meeting until twelve.",
+      "vi": "Có thể. Mình có lẽ họp đến mười hai giờ."
+    },
+    {
+      "who": "ai",
+      "en": "OK. Let's have lunch at half past twelve. Would you like noodles?",
+      "vi": "Được. Mình đi ăn lúc mười hai rưỡi nhé. Bạn có muốn ăn mì không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, I would. I'm hungry already! I didn't have breakfast.",
+      "vi": "Có chứ. Mình đói rồi đây! Mình chưa ăn sáng."
+    },
+    {
+      "who": "ai",
+      "en": "You should eat something now. Here, have a banana. What are you doing with that coffee? Drink it!",
+      "vi": "Bạn nên ăn gì đó ngay đi. Này, ăn quả chuối đi. Cốc cà phê kia bạn để làm gì thế? Uống đi chứ!"
+    },
+    {
+      "who": "you",
+      "en": "Thank you. I am lucky to be on your team.",
+      "vi": "Cảm ơn bạn. Mình thật may được làm cùng nhóm với bạn."
+    }
+  ]
+}

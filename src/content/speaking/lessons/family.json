@@ -1,0 +1,136 @@
+{
+  "topic": "family",
+  "title": "Xem ảnh gia đình",
+  "summary": "Bạn cho một người bạn nước ngoài xem ảnh gia đình và giới thiệu từng người.",
+  "aiRole": "Emma, a friend from England who is curious about the learner's family",
+  "learnerRole": "a friend showing a family photo on their phone",
+  "setting": "a coffee break with a friend",
+  "roleplayOpening": "Is that a photo of your family? Who are all these people?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Is this a photo of your family, my friend? It's lovely!",
+      "vi": "Đây là ảnh gia đình bạn à? Đẹp quá!"
+    },
+    {
+      "who": "you",
+      "en": "Yes, it is. This is my mother, and this is my father.",
+      "vi": "Đúng rồi. Đây là mẹ mình, còn đây là bố mình."
+    },
+    {
+      "who": "ai",
+      "en": "Your mom looks young! How old is she?",
+      "vi": "Mẹ bạn trông trẻ quá! Bác bao nhiêu tuổi rồi?"
+    },
+    {
+      "who": "you",
+      "en": "She is fifty, and my dad is fifty-five. They are good parents.",
+      "vi": "Mẹ mình năm mươi, bố mình năm mươi lăm. Bố mẹ mình rất tốt."
+    },
+    {
+      "who": "ai",
+      "en": "And who is the baby?",
+      "vi": "Thế em bé là ai vậy?"
+    },
+    {
+      "who": "you",
+      "en": "That's my sister's son. Her husband is the tall man next to her.",
+      "vi": "Đó là con trai của chị mình. Chồng chị ấy là người đàn ông cao đứng cạnh."
+    },
+    {
+      "who": "ai",
+      "en": "Oh, so you're an uncle! Do they have a daughter, too?",
+      "vi": "Ồ, vậy bạn là cậu rồi! Họ có con gái nữa không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. They have two children, a boy and a girl. The kid in red is the girl.",
+      "vi": "Có. Họ có hai con, một trai một gái. Đứa mặc đồ đỏ là bé gái."
+    },
+    {
+      "who": "ai",
+      "en": "So cute! And who are the old people at the back?",
+      "vi": "Dễ thương quá! Còn hai người lớn tuổi phía sau là ai?"
+    },
+    {
+      "who": "you",
+      "en": "They are my grandparents. My grandmother is eighty, and my grandfather is eighty-two.",
+      "vi": "Đó là ông bà mình. Bà mình tám mươi, ông mình tám mươi hai."
+    },
+    {
+      "who": "ai",
+      "en": "In England, I call my grandparents grandma and grandpa. I call my parents mum and dad. When I was small, I said mommy and daddy.",
+      "vi": "Ở Anh, mình gọi ông bà là grandma và grandpa. Mình gọi bố mẹ là mum và dad. Hồi nhỏ thì mình gọi là mommy và daddy."
+    },
+    {
+      "who": "you",
+      "en": "In my hometown, many families live with their grandparents.",
+      "vi": "Ở quê mình, nhiều gia đình sống cùng ông bà."
+    },
+    {
+      "who": "ai",
+      "en": "That's nice. Is your brother in the photo?",
+      "vi": "Hay quá. Anh trai bạn có trong ảnh không?"
+    },
+    {
+      "who": "you",
+      "en": "No, he isn't. He lives in Japan with his wife. She is from Japan.",
+      "vi": "Không có. Anh ấy sống ở Nhật với vợ. Chị ấy là người Nhật."
+    },
+    {
+      "who": "ai",
+      "en": "Is she a foreigner in your family, like me in Vietnam? And who is the woman with long hair?",
+      "vi": "Vậy chị ấy là người nước ngoài trong nhà bạn, giống mình ở Việt Nam nhỉ? Còn người phụ nữ tóc dài là ai?"
+    },
+    {
+      "who": "you",
+      "en": "That's my aunt. The guy next to her is my cousin.",
+      "vi": "Đó là cô mình. Anh chàng bên cạnh là anh họ mình."
+    },
+    {
+      "who": "ai",
+      "en": "Does your cousin have a girlfriend?",
+      "vi": "Anh họ bạn có bạn gái chưa?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. His girlfriend is my classmate. They met at my house!",
+      "vi": "Có rồi. Bạn gái anh ấy là bạn cùng lớp của mình. Họ gặp nhau ở nhà mình đấy!"
+    },
+    {
+      "who": "ai",
+      "en": "So he is your classmate's boyfriend. That's funny! Who is the person with the dog?",
+      "vi": "Vậy anh ấy là bạn trai của bạn cùng lớp bạn. Buồn cười ghê! Còn người dắt chó là ai?"
+    },
+    {
+      "who": "you",
+      "en": "That's our neighbor. He is the owner of a small cafe, and he is often a guest at our family dinners.",
+      "vi": "Đó là hàng xóm nhà mình. Bác ấy là chủ một quán cà phê nhỏ, và hay đến ăn tối cùng nhà mình."
+    },
+    {
+      "who": "ai",
+      "en": "What a big family! Why is everyone together in this photo?",
+      "vi": "Gia đình đông vui quá! Sao mọi người lại tụ họp trong bức ảnh này?"
+    },
+    {
+      "who": "you",
+      "en": "It's from a party after the birth of my sister's baby.",
+      "vi": "Ảnh chụp ở bữa tiệc sau khi em bé của chị mình chào đời."
+    },
+    {
+      "who": "ai",
+      "en": "How lovely! And you? Do you have a partner?",
+      "vi": "Dễ thương quá! Còn bạn? Bạn có người yêu chưa?"
+    },
+    {
+      "who": "you",
+      "en": "Not yet. But at my age, my mother asks me about it every day!",
+      "vi": "Chưa. Nhưng ở tuổi mình thì ngày nào mẹ cũng hỏi chuyện đó!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha! Mothers are the same everywhere.",
+      "vi": "Ha ha! Mẹ ở đâu cũng giống nhau cả."
+    }
+  ]
+}

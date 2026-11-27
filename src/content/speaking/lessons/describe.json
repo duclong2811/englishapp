@@ -1,0 +1,131 @@
+{
+  "topic": "describe",
+  "title": "Chuyến đi Đà Lạt",
+  "summary": "Bạn kể với một người bạn về chuyến đi Đà Lạt: thành phố, thời tiết, khách sạn và những người bạn gặp.",
+  "aiRole": "a friend who wants to hear about the learner's trip",
+  "learnerRole": "a traveler just back from Da Lat",
+  "setting": "a chat at work the day after the trip",
+  "roleplayOpening": "Welcome back! Tell me about Da Lat. What was it like?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Welcome back! How was your trip to Da Lat?",
+      "vi": "Chào mừng trở lại! Chuyến đi Đà Lạt thế nào?"
+    },
+    {
+      "who": "you",
+      "en": "It was super! Da Lat is a beautiful city in the mountains.",
+      "vi": "Tuyệt vời! Đà Lạt là một thành phố đẹp trên núi."
+    },
+    {
+      "who": "ai",
+      "en": "Is it big?",
+      "vi": "Có rộng không?"
+    },
+    {
+      "who": "you",
+      "en": "No, it's small and quiet. It's very different from Ho Chi Minh City.",
+      "vi": "Không, nhỏ và yên tĩnh. Rất khác Thành phố Hồ Chí Minh."
+    },
+    {
+      "who": "ai",
+      "en": "Was the weather hot?",
+      "vi": "Thời tiết có nóng không?"
+    },
+    {
+      "who": "you",
+      "en": "No, it was cool in the day and cold at night. The air is dry, and the mountains are high.",
+      "vi": "Không, ban ngày mát, ban đêm lạnh. Không khí khô, núi thì cao."
+    },
+    {
+      "who": "ai",
+      "en": "That sounds ideal! Where did you stay?",
+      "vi": "Nghe thật lý tưởng! Bạn ở đâu?"
+    },
+    {
+      "who": "you",
+      "en": "In an old hotel. My room was large, and the bed had a thick, warm blanket.",
+      "vi": "Ở một khách sạn cũ. Phòng mình rộng, giường có chăn dày và ấm."
+    },
+    {
+      "who": "ai",
+      "en": "Lovely. And the food?",
+      "vi": "Thích nhỉ. Còn đồ ăn?"
+    },
+    {
+      "who": "you",
+      "en": "Delicious. I was always full! My favorite thing was hot soy milk at the night market.",
+      "vi": "Ngon lắm. Lúc nào mình cũng no! Món mình thích nhất là sữa đậu nành nóng ở chợ đêm."
+    },
+    {
+      "who": "ai",
+      "en": "Did you meet any interesting people?",
+      "vi": "Bạn có gặp ai thú vị không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. A tall, handsome man had a strange shop. He sold old cameras.",
+      "vi": "Có. Một anh cao, đẹp trai có một cửa hàng kỳ lạ. Anh ấy bán máy ảnh cũ."
+    },
+    {
+      "who": "ai",
+      "en": "Strange! Was he famous?",
+      "vi": "Lạ thật! Anh ấy có nổi tiếng không?"
+    },
+    {
+      "who": "you",
+      "en": "A little. He was in a famous travel video. He isn't rich, but he is very kind.",
+      "vi": "Một chút. Anh ấy xuất hiện trong một video du lịch nổi tiếng. Anh ấy không giàu, nhưng rất tốt bụng."
+    },
+    {
+      "who": "ai",
+      "en": "Did you take a lot of photos?",
+      "vi": "Bạn có chụp nhiều ảnh không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, with my new phone. Look at this cute dog. It's fat and very slow!",
+      "vi": "Có, bằng điện thoại mới. Nhìn con chó dễ thương này này. Nó béo và rất chậm chạp!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha, so cute! And this pretty cat? It's so thin.",
+      "vi": "Ha ha, đáng yêu quá! Còn con mèo xinh này? Gầy quá."
+    },
+    {
+      "who": "you",
+      "en": "That's the hotel cat. The owner says it's ugly, but I think it's lovely.",
+      "vi": "Đó là mèo của khách sạn. Chủ khách sạn bảo nó xấu, nhưng mình thấy nó đáng yêu."
+    },
+    {
+      "who": "ai",
+      "en": "How long was the trip by bus?",
+      "vi": "Đi xe khách mất bao lâu?"
+    },
+    {
+      "who": "you",
+      "en": "Six hours. It was a long trip! A plane is fast, but the bus is cheap.",
+      "vi": "Sáu tiếng. Chuyến đi dài lắm! Máy bay thì nhanh, nhưng xe khách rẻ."
+    },
+    {
+      "who": "ai",
+      "en": "Did you carry a heavy bag?",
+      "vi": "Bạn có mang túi nặng không?"
+    },
+    {
+      "who": "you",
+      "en": "Not heavy. I'm strong, and I only took short trousers and a jacket. The flower park was free, so I didn't need much money.",
+      "vi": "Không nặng. Mình khỏe mà, mình chỉ mang quần ngắn và một áo khoác. Vườn hoa vào cửa miễn phí, nên mình không cần nhiều tiền."
+    },
+    {
+      "who": "ai",
+      "en": "Is it a special place for you?",
+      "vi": "Đó có phải nơi đặc biệt với bạn không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. It's my personal favorite. Some people there are poor, but life is real and simple, not like our everyday life in the city.",
+      "vi": "Có. Đó là nơi mình thích nhất. Có người ở đó còn nghèo, nhưng cuộc sống chân thật và giản dị, không giống cuộc sống thường ngày của chúng ta ở thành phố."
+    }
+  ]
+}

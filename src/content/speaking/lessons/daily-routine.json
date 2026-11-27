@@ -1,0 +1,141 @@
+{
+  "topic": "daily-routine",
+  "title": "Một ngày với bọn trẻ",
+  "summary": "Bạn kể với hàng xóm về một ngày thứ Bảy bận rộn: dậy sớm, cho con ăn, đưa con đi công viên, dọn dẹp.",
+  "aiRole": "a friendly neighbor who also has young children",
+  "learnerRole": "a parent of two young kids",
+  "setting": "a chat with a neighbor in front of the building on a Saturday evening",
+  "roleplayOpening": "You look tired! Did you have a busy day with the kids?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "You look tired! What time did you wake up today?",
+      "vi": "Trông bạn mệt quá! Hôm nay bạn dậy lúc mấy giờ?"
+    },
+    {
+      "who": "you",
+      "en": "At six. My kids always wake me up early.",
+      "vi": "Lúc sáu giờ. Bọn trẻ lúc nào cũng gọi mình dậy sớm."
+    },
+    {
+      "who": "ai",
+      "en": "What do you do after you wake up?",
+      "vi": "Dậy rồi bạn làm gì?"
+    },
+    {
+      "who": "you",
+      "en": "I wash my face, brush my teeth, and make breakfast. I cook eggs and rice.",
+      "vi": "Mình rửa mặt, đánh răng và làm bữa sáng. Mình nấu trứng với cơm."
+    },
+    {
+      "who": "ai",
+      "en": "Do your kids eat breakfast quickly?",
+      "vi": "Bọn trẻ có ăn sáng nhanh không?"
+    },
+    {
+      "who": "you",
+      "en": "No! They sit at the table and talk. Then they drink their milk very slowly.",
+      "vi": "Không! Chúng ngồi ở bàn và nói chuyện. Rồi uống sữa rất chậm."
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha. And then?",
+      "vi": "Ha ha. Rồi sao nữa?"
+    },
+    {
+      "who": "you",
+      "en": "I help them get ready and wear their clothes. Then we walk to the park.",
+      "vi": "Mình giúp chúng chuẩn bị và mặc quần áo. Rồi cả nhà đi bộ ra công viên."
+    },
+    {
+      "who": "ai",
+      "en": "What do they do at the park?",
+      "vi": "Ở công viên chúng làm gì?"
+    },
+    {
+      "who": "you",
+      "en": "They run, jump, and climb trees. They stand in a line for the slide. My son likes to kick a ball.",
+      "vi": "Chúng chạy, nhảy và trèo cây. Chúng xếp hàng chờ chơi cầu trượt. Con trai mình thích đá bóng."
+    },
+    {
+      "who": "ai",
+      "en": "And your daughter?",
+      "vi": "Còn con gái bạn?"
+    },
+    {
+      "who": "you",
+      "en": "She likes to throw the ball, and I catch it. She also likes to dig in the sand and build castles.",
+      "vi": "Con bé thích ném bóng, còn mình bắt. Nó cũng thích đào cát và xây lâu đài."
+    },
+    {
+      "who": "ai",
+      "en": "That sounds fun, but tiring!",
+      "vi": "Nghe vui đấy, nhưng mệt nhỉ!"
+    },
+    {
+      "who": "you",
+      "en": "Yes. I have to carry their bags and hold their hands across the street. Before we go, I always fill their water bottles.",
+      "vi": "Đúng thế. Mình phải xách túi cho chúng và nắm tay chúng qua đường. Trước khi đi, mình luôn đổ đầy bình nước cho chúng."
+    },
+    {
+      "who": "ai",
+      "en": "Do they come home dirty?",
+      "vi": "Về nhà chúng có bẩn không?"
+    },
+    {
+      "who": "you",
+      "en": "Very dirty! I put their clothes in the washing machine, and then I clean the floor.",
+      "vi": "Bẩn lắm! Mình cho quần áo vào máy giặt, rồi lau sàn nhà."
+    },
+    {
+      "who": "ai",
+      "en": "You are a busy parent! Do you ever sleep in the afternoon?",
+      "vi": "Bạn đúng là phụ huynh bận rộn! Buổi chiều bạn có ngủ không?"
+    },
+    {
+      "who": "you",
+      "en": "Sometimes I sleep on the sofa for ten minutes. I dream of a long holiday!",
+      "vi": "Thỉnh thoảng mình ngủ trên ghế sofa mười phút. Mình mơ về một kỳ nghỉ dài!"
+    },
+    {
+      "who": "ai",
+      "en": "My kids are the same. Yesterday my son pushed a chair and broke my favorite cup. Now it's broken.",
+      "vi": "Nhà mình cũng vậy. Hôm qua con trai mình đẩy ghế làm vỡ cái cốc yêu thích của mình. Giờ nó vỡ rồi."
+    },
+    {
+      "who": "you",
+      "en": "Oh no! Did he hide it?",
+      "vi": "Ôi không! Thằng bé có giấu đi không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, he tried to cover it with a towel! Do your kids have good habits?",
+      "vi": "Có, nó lấy khăn che đi! Bọn trẻ nhà bạn có thói quen tốt không?"
+    },
+    {
+      "who": "you",
+      "en": "Some. They pick up their toys and close the door. But they always drop food on the floor.",
+      "vi": "Có vài cái. Chúng nhặt đồ chơi và đóng cửa. Nhưng lúc nào cũng làm rơi đồ ăn xuống sàn."
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha, kids! Do you cut their hair at home?",
+      "vi": "Ha ha, trẻ con mà! Bạn có tự cắt tóc cho chúng ở nhà không?"
+    },
+    {
+      "who": "you",
+      "en": "No, they go for a haircut once a month. I want to save money, but I can't cut hair well.",
+      "vi": "Không, mỗi tháng chúng đi cắt tóc một lần. Mình muốn tiết kiệm tiền, nhưng mình cắt tóc không khéo."
+    },
+    {
+      "who": "ai",
+      "en": "Me neither. Is the shop open on Sundays?",
+      "vi": "Mình cũng thế. Tiệm có mở cửa Chủ nhật không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. It opens at nine, and it's closed on Mondays.",
+      "vi": "Có. Tiệm mở lúc chín giờ, thứ Hai thì đóng cửa."
+    }
+  ]
+}

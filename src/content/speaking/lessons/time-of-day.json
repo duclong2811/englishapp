@@ -1,0 +1,106 @@
+{
+  "topic": "time-of-day",
+  "title": "Đặt lịch cắt tóc",
+  "summary": "Bạn gọi điện cho tiệm tóc để đặt lịch, hỏi giờ mở cửa và chọn giờ phù hợp.",
+  "aiRole": "a receptionist at Lily's Hair Salon answering the phone",
+  "learnerRole": "a customer calling to book a haircut",
+  "setting": "a phone call to a hair salon",
+  "roleplayOpening": "Good morning, Lily's Hair Salon. How can I help you?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Good morning, Lily's Hair Salon. How can I help you?",
+      "vi": "Chào buổi sáng, tiệm tóc Lily xin nghe. Tôi giúp gì được cho bạn?"
+    },
+    {
+      "who": "you",
+      "en": "Hello. Can I make an appointment for a haircut today?",
+      "vi": "Chào chị. Tôi đặt lịch cắt tóc hôm nay được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Let me check. Sorry, we're busy today. What time is good for you tomorrow?",
+      "vi": "Để tôi xem. Xin lỗi, hôm nay kín lịch rồi. Ngày mai mấy giờ thì tiện cho bạn?"
+    },
+    {
+      "who": "you",
+      "en": "Is ten a.m. OK?",
+      "vi": "Mười giờ sáng được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Sorry, ten o'clock is taken. We have a quarter past eleven or two p.m.",
+      "vi": "Xin lỗi, mười giờ có người đặt rồi. Còn mười một giờ mười lăm hoặc hai giờ chiều."
+    },
+    {
+      "who": "you",
+      "en": "I work in the afternoon, so a quarter past eleven is better. How long does it take?",
+      "vi": "Buổi chiều tôi đi làm, nên mười một giờ mười lăm thì hơn. Cắt mất bao lâu?"
+    },
+    {
+      "who": "ai",
+      "en": "About one hour. Please come five minutes early.",
+      "vi": "Khoảng một tiếng. Bạn đến sớm năm phút nhé."
+    },
+    {
+      "who": "you",
+      "en": "OK. My hair is already too long! I called yesterday, but nobody answered.",
+      "vi": "Vâng. Tóc tôi dài quá rồi! Hôm qua tôi gọi mà không ai nghe máy."
+    },
+    {
+      "who": "ai",
+      "en": "Oh, I'm sorry. We were closed for a short period then. Now we are open every day until eight in the evening.",
+      "vi": "Ôi, xin lỗi bạn. Lúc đó tiệm nghỉ một thời gian ngắn. Giờ tiệm mở cửa hằng ngày đến tám giờ tối."
+    },
+    {
+      "who": "you",
+      "en": "Good to know. Do you open early in the morning?",
+      "vi": "Tốt quá. Tiệm có mở cửa sớm vào buổi sáng không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, at half past seven. Can I have your name, please?",
+      "vi": "Có, lúc bảy rưỡi. Cho tôi xin tên bạn nhé?"
+    },
+    {
+      "who": "you",
+      "en": "It's Minh. Can I change the time later if I'm late from work?",
+      "vi": "Tôi tên Minh. Nếu tan làm muộn thì lát nữa tôi đổi giờ được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Of course. Just call us before nine at night.",
+      "vi": "Tất nhiên. Chỉ cần gọi cho tiệm trước chín giờ tối."
+    },
+    {
+      "who": "you",
+      "en": "Thanks. Just a moment, please. Yes, a quarter past eleven is fine. I can come after my class.",
+      "vi": "Cảm ơn chị. Chờ tôi một chút. Vâng, mười một giờ mười lăm được. Tôi có thể đến sau giờ học."
+    },
+    {
+      "who": "ai",
+      "en": "Great. Did you book on our website yet?",
+      "vi": "Tốt quá. Bạn đã đặt trên trang web của tiệm chưa?"
+    },
+    {
+      "who": "you",
+      "en": "No, not yet. Is that a problem?",
+      "vi": "Chưa ạ. Có sao không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "No problem. Right now the website isn't working. In the future, you can book online.",
+      "vi": "Không sao. Hiện giờ trang web đang hỏng. Sau này bạn có thể đặt trên mạng."
+    },
+    {
+      "who": "you",
+      "en": "OK. See you tomorrow morning, then!",
+      "vi": "Vâng. Vậy hẹn chị sáng mai nhé!"
+    },
+    {
+      "who": "ai",
+      "en": "See you soon! I hope you have a nice evening tonight.",
+      "vi": "Hẹn sớm gặp lại! Chúc bạn tối nay vui vẻ."
+    }
+  ]
+}

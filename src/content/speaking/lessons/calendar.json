@@ -1,0 +1,96 @@
+{
+  "topic": "calendar",
+  "title": "Lên lịch đi du lịch",
+  "summary": "Bạn và một người bạn chọn tháng, ngày và mùa để cùng đi nghỉ.",
+  "aiRole": "a friend who wants to plan a holiday with the learner",
+  "learnerRole": "a friend planning a trip",
+  "setting": "two friends looking at a calendar",
+  "roleplayOpening": "Let's plan a trip together this year! Which month is good for you?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Let's go on a holiday together this year! When are you free?",
+      "vi": "Năm nay mình cùng đi nghỉ nhé! Khi nào bạn rảnh?"
+    },
+    {
+      "who": "you",
+      "en": "I'm busy in January and February. March or April is better.",
+      "vi": "Tháng Một và tháng Hai mình bận. Tháng Ba hoặc tháng Tư thì tốt hơn."
+    },
+    {
+      "who": "ai",
+      "en": "Spring is nice, but I want a summer vacation by the sea. What about June or July?",
+      "vi": "Mùa xuân cũng đẹp, nhưng mình muốn nghỉ hè ở biển. Tháng Sáu hay tháng Bảy thì sao?"
+    },
+    {
+      "who": "you",
+      "en": "July is OK. My birthday is in July!",
+      "vi": "Tháng Bảy được. Sinh nhật mình vào tháng Bảy!"
+    },
+    {
+      "who": "ai",
+      "en": "Great! Let's go for a week after your birthday. Which date is good?",
+      "vi": "Tuyệt! Đi một tuần sau sinh nhật bạn nhé. Ngày nào thì được?"
+    },
+    {
+      "who": "you",
+      "en": "From Monday the tenth to Sunday the sixteenth.",
+      "vi": "Từ thứ Hai ngày mười đến Chủ nhật ngày mười sáu."
+    },
+    {
+      "who": "ai",
+      "en": "Hmm, I work on Monday and Tuesday that week. Can we leave on Wednesday?",
+      "vi": "Hừm, tuần đó mình làm thứ Hai và thứ Ba. Mình đi vào thứ Tư được không?"
+    },
+    {
+      "who": "you",
+      "en": "Sure. The flight on Thursday is cheaper, but Wednesday is OK.",
+      "vi": "Được. Chuyến bay thứ Năm rẻ hơn, nhưng thứ Tư cũng được."
+    },
+    {
+      "who": "ai",
+      "en": "Then we can have Friday and Saturday at the beach, and the whole weekend.",
+      "vi": "Vậy mình sẽ có thứ Sáu, thứ Bảy ở biển, cả cuối tuần luôn."
+    },
+    {
+      "who": "you",
+      "en": "Perfect. In August it's very hot, and in September it rains a lot.",
+      "vi": "Tuyệt. Tháng Tám thì nóng lắm, còn tháng Chín mưa nhiều."
+    },
+    {
+      "who": "ai",
+      "en": "Yes. What's your favorite month?",
+      "vi": "Đúng vậy. Bạn thích tháng nào nhất?"
+    },
+    {
+      "who": "you",
+      "en": "I like October and November. The weather is cool, and the sky is blue.",
+      "vi": "Mình thích tháng Mười và tháng Mười Một. Trời mát, bầu trời xanh."
+    },
+    {
+      "who": "ai",
+      "en": "So you like autumn more than winter?",
+      "vi": "Vậy bạn thích mùa thu hơn mùa đông à?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. In December it's cold in Hanoi, and I don't like winter.",
+      "vi": "Đúng. Tháng Mười Hai ở Hà Nội lạnh, mà mình không thích mùa đông."
+    },
+    {
+      "who": "ai",
+      "en": "Me too. Every year I want a long vacation, but I only get one week.",
+      "vi": "Mình cũng vậy. Năm nào mình cũng muốn nghỉ dài, nhưng chỉ được một tuần."
+    },
+    {
+      "who": "you",
+      "en": "Me too. I only have one day off every month.",
+      "vi": "Mình cũng thế. Mỗi tháng mình chỉ được nghỉ một ngày."
+    },
+    {
+      "who": "ai",
+      "en": "Let's write the dates in our calendars now!",
+      "vi": "Ghi ngày vào lịch luôn đi!"
+    }
+  ]
+}

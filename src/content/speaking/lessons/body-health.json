@@ -1,0 +1,121 @@
+{
+  "topic": "body-health",
+  "title": "Đi khám bác sĩ",
+  "summary": "Bạn bị sốt và đau đầu, đến phòng khám kể triệu chứng và nghe bác sĩ dặn dò.",
+  "aiRole": "Doctor Hall, a kind family doctor",
+  "learnerRole": "a patient who feels sick",
+  "setting": "a small clinic in the morning",
+  "roleplayOpening": "Good morning. Please sit down. How are you feeling today?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Good morning. I'm Doctor Hall. What's the problem today?",
+      "vi": "Chào buổi sáng. Tôi là bác sĩ Hall. Hôm nay anh bị làm sao?"
+    },
+    {
+      "who": "you",
+      "en": "Good morning, Doctor. I feel sick. I have a headache and a fever.",
+      "vi": "Chào bác sĩ. Tôi thấy mệt. Tôi bị đau đầu và sốt."
+    },
+    {
+      "who": "ai",
+      "en": "I'm sorry to hear that. When did it start?",
+      "vi": "Tôi rất tiếc. Bắt đầu từ khi nào?"
+    },
+    {
+      "who": "you",
+      "en": "Two days ago. My head hurts, and my body feels very tired.",
+      "vi": "Hai ngày trước. Đầu tôi đau, người thì rất mệt."
+    },
+    {
+      "who": "ai",
+      "en": "Any other problems? With your eyes, ears, nose, or mouth?",
+      "vi": "Còn vấn đề gì khác không? Mắt, tai, mũi hay miệng?"
+    },
+    {
+      "who": "you",
+      "en": "My nose is red, and my mouth is dry. My neck hurts a little, too.",
+      "vi": "Mũi tôi đỏ, miệng thì khô. Cổ tôi cũng hơi đau."
+    },
+    {
+      "who": "ai",
+      "en": "Let me check. Please open your mouth. Your teeth look fine. Now breathe in, and breathe out.",
+      "vi": "Để tôi khám. Anh há miệng ra nào. Răng trông ổn. Giờ hít vào, rồi thở ra."
+    },
+    {
+      "who": "you",
+      "en": "Is my heart OK?",
+      "vi": "Tim tôi có sao không?"
+    },
+    {
+      "who": "ai",
+      "en": "Your heart is fine. Do you smoke?",
+      "vi": "Tim anh bình thường. Anh có hút thuốc không?"
+    },
+    {
+      "who": "you",
+      "en": "No, I don't. Smoking is bad for your health.",
+      "vi": "Không ạ. Hút thuốc có hại cho sức khỏe."
+    },
+    {
+      "who": "ai",
+      "en": "Good. Do you sleep well?",
+      "vi": "Tốt. Anh có ngủ ngon không?"
+    },
+    {
+      "who": "you",
+      "en": "Not really. I'm awake at night because my shoulder and my arm hurt.",
+      "vi": "Không lắm. Đêm tôi hay thức vì vai và cánh tay bị đau."
+    },
+    {
+      "who": "ai",
+      "en": "Do you use a computer all day?",
+      "vi": "Anh có dùng máy tính cả ngày không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, eight hours a day. I wear glasses because my eyes get tired.",
+      "vi": "Có, tám tiếng một ngày. Tôi đeo kính vì mắt hay mỏi."
+    },
+    {
+      "who": "ai",
+      "en": "That's why. Your shoulders and neck are tired. You need to exercise. Move your arms and legs every hour.",
+      "vi": "Vì thế đấy. Vai và cổ anh bị mỏi. Anh cần vận động. Mỗi tiếng hãy cử động tay chân."
+    },
+    {
+      "who": "you",
+      "en": "I see. My knee hurts sometimes, too. Is it a problem with my bones?",
+      "vi": "Tôi hiểu rồi. Đôi khi đầu gối tôi cũng đau. Có phải xương tôi có vấn đề không?"
+    },
+    {
+      "who": "ai",
+      "en": "I don't think so. It's not serious. Here is some medicine for the fever. Take it after meals.",
+      "vi": "Tôi nghĩ là không. Không nghiêm trọng đâu. Đây là thuốc hạ sốt. Uống sau bữa ăn nhé."
+    },
+    {
+      "who": "you",
+      "en": "Thank you. Do I need to go to the hospital?",
+      "vi": "Cảm ơn bác sĩ. Tôi có cần vào viện không?"
+    },
+    {
+      "who": "ai",
+      "en": "No. Just rest and drink a lot of water. The nurse can tell you more about the medicine.",
+      "vi": "Không cần. Chỉ cần nghỉ ngơi và uống nhiều nước. Y tá sẽ dặn thêm anh về thuốc."
+    },
+    {
+      "who": "you",
+      "en": "OK. Should I stay home from work?",
+      "vi": "Vâng. Tôi có nên nghỉ làm ở nhà không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, rest for two days. Your brain needs a rest, too! Wash your hands and face often, and don't wash your hair with cold water.",
+      "vi": "Có, nghỉ hai ngày nhé. Não anh cũng cần nghỉ ngơi! Rửa tay và rửa mặt thường xuyên, và đừng gội đầu bằng nước lạnh."
+    },
+    {
+      "who": "you",
+      "en": "Thank you, Doctor. I want to be healthy again soon.",
+      "vi": "Cảm ơn bác sĩ. Tôi mong sớm khỏe lại."
+    }
+  ]
+}

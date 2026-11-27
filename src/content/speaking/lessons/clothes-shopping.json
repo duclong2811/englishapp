@@ -1,0 +1,116 @@
+{
+  "topic": "clothes-shopping",
+  "title": "Mua quần áo đi làm",
+  "summary": "Bạn đi mua quần áo: hỏi giá, cỡ, thử đồ, chọn quà cho vợ và thanh toán bằng thẻ.",
+  "aiRole": "a helpful shop assistant in a clothes store",
+  "learnerRole": "a customer buying clothes for work",
+  "setting": "a clothes store on a rainy Saturday",
+  "roleplayOpening": "Hi there! Welcome to our store. Can I help you find something?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hi there! Welcome to our store. Are you looking for something?",
+      "vi": "Xin chào! Chào mừng bạn đến cửa hàng. Bạn đang tìm gì à?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. I need some new clothes for work. Do you sell shirts?",
+      "vi": "Vâng. Tôi cần ít quần áo mới để đi làm. Ở đây có bán áo sơ mi không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, shirts are over there. We also have T-shirts, jeans, and trousers on sale today.",
+      "vi": "Có, áo sơ mi ở đằng kia. Hôm nay áo phông, quần bò và quần âu cũng đang giảm giá."
+    },
+    {
+      "who": "you",
+      "en": "A sale? Great! How much is this blue shirt?",
+      "vi": "Giảm giá à? Tuyệt! Áo sơ mi xanh này bao nhiêu tiền?"
+    },
+    {
+      "who": "ai",
+      "en": "The price is twenty dollars. What size are you?",
+      "vi": "Giá hai mươi đô. Bạn mặc cỡ nào?"
+    },
+    {
+      "who": "you",
+      "en": "Medium, I think. Can I try it on?",
+      "vi": "Cỡ vừa, chắc vậy. Tôi mặc thử được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Of course. How is it?",
+      "vi": "Tất nhiên. Mặc thấy thế nào?"
+    },
+    {
+      "who": "you",
+      "en": "It's a bit tight. Do you have a large?",
+      "vi": "Hơi chật. Có cỡ lớn không?"
+    },
+    {
+      "who": "ai",
+      "en": "Here you are. Do you need pants, too? These black trousers have two pockets.",
+      "vi": "Của bạn đây. Bạn có cần quần không? Quần âu đen này có hai túi."
+    },
+    {
+      "who": "you",
+      "en": "Yes, I'll take them. And my wife wants a dress or a skirt.",
+      "vi": "Có, tôi lấy. Vợ tôi muốn một cái váy liền hoặc chân váy."
+    },
+    {
+      "who": "ai",
+      "en": "This red dress is very popular. It has a ribbon at the back, and the cloth is very soft.",
+      "vi": "Chiếc váy đỏ này bán chạy lắm. Phía sau có nơ, vải rất mềm."
+    },
+    {
+      "who": "you",
+      "en": "It's beautiful, but is it expensive?",
+      "vi": "Đẹp quá, nhưng có đắt không?"
+    },
+    {
+      "who": "ai",
+      "en": "It's forty dollars. We also have jewelry, hats, and caps.",
+      "vi": "Bốn mươi đô. Bên tôi còn có trang sức, mũ và mũ lưỡi trai."
+    },
+    {
+      "who": "you",
+      "en": "No hats today. I already have a cap. What about shoes?",
+      "vi": "Hôm nay không mua mũ. Tôi có mũ lưỡi trai rồi. Còn giày thì sao?"
+    },
+    {
+      "who": "ai",
+      "en": "Shoes are on the second floor. Oh, and it's raining. Do you want to buy an umbrella?",
+      "vi": "Giày ở tầng hai. À, trời đang mưa. Bạn có muốn mua ô không?"
+    },
+    {
+      "who": "you",
+      "en": "Can I borrow one? I don't want to spend more money!",
+      "vi": "Tôi mượn một cái được không? Tôi không muốn tiêu thêm tiền nữa!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha, sure. You can bring it back tomorrow. Do you want a coat or a jacket? It's cold this week.",
+      "vi": "Ha ha, được chứ. Mai bạn mang trả là được. Bạn có cần áo măng tô hay áo khoác không? Tuần này trời lạnh."
+    },
+    {
+      "who": "you",
+      "en": "No, thanks. Can I pay by credit card?",
+      "vi": "Thôi, cảm ơn. Tôi trả bằng thẻ tín dụng được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, of course. And with this shopping, you get a free movie ticket!",
+      "vi": "Được ạ. Mua sắm hôm nay bạn còn được tặng một vé xem phim!"
+    },
+    {
+      "who": "you",
+      "en": "Wow, thank you. Is there a supermarket near here? I need to buy food, too.",
+      "vi": "Ồ, cảm ơn. Gần đây có siêu thị không? Tôi cũng cần mua đồ ăn."
+    },
+    {
+      "who": "ai",
+      "en": "Yes, next to our shop, on the left. They sell everything there.",
+      "vi": "Có, ngay cạnh cửa hàng, bên tay trái. Ở đó bán đủ thứ."
+    }
+  ]
+}

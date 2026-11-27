@@ -1,0 +1,116 @@
+{
+  "topic": "opinions",
+  "title": "Bàn về bộ phim mới",
+  "summary": "Bạn và một người bạn nói về bộ phim vừa xem: hay hay dở, nhân vật, cái kết.",
+  "aiRole": "a friend who saw the same movie but did not like it much",
+  "learnerRole": "a friend who enjoyed the movie",
+  "setting": "a chat at lunch the next day",
+  "roleplayOpening": "So, you saw the new movie last night! What did you think?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Did you see the new movie last night? What did you think?",
+      "vi": "Tối qua bạn xem phim mới chưa? Bạn thấy thế nào?"
+    },
+    {
+      "who": "you",
+      "en": "It was great! The story was very interesting.",
+      "vi": "Hay lắm! Câu chuyện rất thú vị."
+    },
+    {
+      "who": "ai",
+      "en": "Really? I think it was boring. It was too long.",
+      "vi": "Thật à? Mình thấy chán. Dài quá."
+    },
+    {
+      "who": "you",
+      "en": "The start was a bit slow, but the end was exciting.",
+      "vi": "Đoạn đầu hơi chậm, nhưng đoạn cuối rất hấp dẫn."
+    },
+    {
+      "who": "ai",
+      "en": "Was it better than the first movie?",
+      "vi": "Có hay hơn phần một không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, I think it's the best one. The actors were excellent.",
+      "vi": "Có, mình nghĩ đây là phần hay nhất. Các diễn viên diễn xuất sắc."
+    },
+    {
+      "who": "ai",
+      "en": "The music was good, I agree. But some jokes were bad.",
+      "vi": "Nhạc hay, mình đồng ý. Nhưng vài câu đùa dở."
+    },
+    {
+      "who": "you",
+      "en": "I thought the jokes were funny! My sister laughed a lot.",
+      "vi": "Mình thấy mấy câu đùa buồn cười mà! Em gái mình cười suốt."
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha. Is it true that the movie is very successful?",
+      "vi": "Ha ha. Có đúng là bộ phim rất thành công không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, that's right. Many people watched it in the first week.",
+      "vi": "Đúng vậy. Rất nhiều người xem ngay tuần đầu."
+    },
+    {
+      "who": "ai",
+      "en": "Do you think the story is easy for children?",
+      "vi": "Bạn có nghĩ câu chuyện dễ hiểu với trẻ con không?"
+    },
+    {
+      "who": "you",
+      "en": "No, it's difficult for small kids. Some parts are hard to understand.",
+      "vi": "Không, khó với trẻ nhỏ. Có đoạn khó hiểu."
+    },
+    {
+      "who": "ai",
+      "en": "What's the most important thing in a movie for you?",
+      "vi": "Với bạn, điều gì quan trọng nhất ở một bộ phim?"
+    },
+    {
+      "who": "you",
+      "en": "A good story. The pictures are important too, but the story is number one.",
+      "vi": "Một câu chuyện hay. Hình ảnh cũng quan trọng, nhưng câu chuyện là số một."
+    },
+    {
+      "who": "ai",
+      "en": "Do you think it's fair that tickets cost so much now?",
+      "vi": "Bạn có thấy giá vé bây giờ đắt thế là hợp lý không?"
+    },
+    {
+      "who": "you",
+      "en": "No, it isn't fair. But the movie was wonderful, so it was OK.",
+      "vi": "Không, không hợp lý. Nhưng phim tuyệt vời nên cũng được."
+    },
+    {
+      "who": "ai",
+      "en": "Some people say a sad ending is wrong for a big movie.",
+      "vi": "Có người nói kết buồn là không hợp với phim bom tấn."
+    },
+    {
+      "who": "you",
+      "en": "I don't think it's wrong. Sad endings can be good, too.",
+      "vi": "Mình không nghĩ vậy là sai. Kết buồn cũng có thể hay."
+    },
+    {
+      "who": "ai",
+      "en": "You're correct. Last year I saw a terrible movie with a happy ending!",
+      "vi": "Bạn nói đúng. Năm ngoái mình xem một phim tệ kinh khủng mà kết có hậu!"
+    },
+    {
+      "who": "you",
+      "en": "Ha ha! Is that story true or false?",
+      "vi": "Ha ha! Chuyện đó thật hay đùa vậy?"
+    },
+    {
+      "who": "ai",
+      "en": "True! Let's watch the next movie together.",
+      "vi": "Thật đấy! Phim sau mình đi xem cùng nhau nhé."
+    }
+  ]
+}

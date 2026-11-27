@@ -1,0 +1,121 @@
+{
+  "topic": "food",
+  "title": "Ăn tối ở nhà hàng",
+  "summary": "Bạn gọi món ở nhà hàng: món chính, đồ uống, món tráng miệng, rồi hỏi thanh toán.",
+  "aiRole": "a friendly waiter at Green Garden Restaurant",
+  "learnerRole": "a hungry customer",
+  "setting": "a restaurant in the evening",
+  "roleplayOpening": "Good evening! Welcome to Green Garden Restaurant. Are you ready to order?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Good evening! Welcome to Green Garden Restaurant. Are you hungry?",
+      "vi": "Chào buổi tối! Chào mừng đến nhà hàng Green Garden. Bạn có đói không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, very hungry! I didn't have lunch today. Can I see the menu?",
+      "vi": "Có, đói lắm! Hôm nay tôi chưa ăn trưa. Cho tôi xem thực đơn được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Here you are. Tonight we have chicken soup, beef burgers, fish, and pizza.",
+      "vi": "Của bạn đây. Tối nay có súp gà, bánh burger bò, cá và pizza."
+    },
+    {
+      "who": "you",
+      "en": "What's in the chicken soup?",
+      "vi": "Súp gà có những gì?"
+    },
+    {
+      "who": "ai",
+      "en": "Chicken, potatoes, corn, beans, and tomatoes. It's delicious!",
+      "vi": "Gà, khoai tây, ngô, đậu và cà chua. Ngon lắm!"
+    },
+    {
+      "who": "you",
+      "en": "Great. I'd like the soup and a salad, please. Is there cheese in the salad?",
+      "vi": "Tuyệt. Cho tôi súp và một đĩa salad. Salad có phô mai không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, there is. Would you like bread and butter, too?",
+      "vi": "Có. Bạn có muốn ăn kèm bánh mì và bơ không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, please. And no meat in the salad, please, just vegetables.",
+      "vi": "Có, cảm ơn. Và salad đừng cho thịt nhé, chỉ rau thôi."
+    },
+    {
+      "who": "ai",
+      "en": "Of course. And to drink? We have water, coke, orange juice, tea, and coffee.",
+      "vi": "Vâng. Còn đồ uống? Có nước lọc, coca, nước cam, trà và cà phê."
+    },
+    {
+      "who": "you",
+      "en": "Can I have tea with milk, no sugar?",
+      "vi": "Cho tôi trà sữa, không đường nhé."
+    },
+    {
+      "who": "ai",
+      "en": "Sure. Our hamburger is famous, and at lunch we have sandwiches, too.",
+      "vi": "Vâng. Bánh hamburger của chúng tôi nổi tiếng lắm, buổi trưa còn có bánh sandwich nữa."
+    },
+    {
+      "who": "you",
+      "en": "Maybe next time. I had a sandwich and an egg for breakfast.",
+      "vi": "Để lần sau nhé. Bữa sáng tôi ăn bánh sandwich với trứng rồi."
+    },
+    {
+      "who": "ai",
+      "en": "How is your food?",
+      "vi": "Đồ ăn thế nào ạ?"
+    },
+    {
+      "who": "you",
+      "en": "It's delicious, thank you. Do you have rice? In Vietnam we eat rice with every meal.",
+      "vi": "Ngon lắm, cảm ơn bạn. Có cơm không? Ở Việt Nam bữa nào chúng tôi cũng ăn cơm."
+    },
+    {
+      "who": "ai",
+      "en": "Yes, we do. I'll bring a small bowl of rice. Would you like dessert? We have chocolate cake, ice cream, and fruit.",
+      "vi": "Có ạ. Tôi sẽ mang một bát cơm nhỏ. Bạn có muốn ăn tráng miệng không? Có bánh sô-cô-la, kem và hoa quả."
+    },
+    {
+      "who": "you",
+      "en": "What fruit do you have?",
+      "vi": "Có những loại quả gì?"
+    },
+    {
+      "who": "ai",
+      "en": "Apples, bananas, and grapes. We also have yogurt with cream.",
+      "vi": "Táo, chuối và nho. Còn có sữa chua với kem tươi."
+    },
+    {
+      "who": "you",
+      "en": "I'll have the ice cream, please. I love sweet food.",
+      "vi": "Cho tôi kem nhé. Tôi thích đồ ngọt."
+    },
+    {
+      "who": "ai",
+      "en": "Good choice. And here is a free cookie. In England, some people call it a biscuit.",
+      "vi": "Chọn hay lắm. Đây là một chiếc bánh quy tặng bạn. Ở Anh, có người gọi nó là biscuit."
+    },
+    {
+      "who": "you",
+      "en": "Thank you! Is there a cafe near here? I want a coffee later.",
+      "vi": "Cảm ơn bạn! Gần đây có quán cà phê không? Lát nữa tôi muốn uống cà phê."
+    },
+    {
+      "who": "ai",
+      "en": "Yes, Sunny Cafe is next door. It's a nice place after dinner.",
+      "vi": "Có, quán Sunny Cafe ngay bên cạnh. Chỗ đó rất hợp để ngồi sau bữa tối."
+    },
+    {
+      "who": "you",
+      "en": "Thanks. This is a great restaurant. Can I have the bill, please?",
+      "vi": "Cảm ơn. Nhà hàng tuyệt lắm. Cho tôi thanh toán nhé."
+    }
+  ]
+}

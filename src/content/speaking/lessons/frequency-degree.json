@@ -1,0 +1,101 @@
+{
+  "topic": "frequency-degree",
+  "title": "Thói quen tập thể dục",
+  "summary": "Một người bạn hỏi bạn tập thể dục thường xuyên thế nào và muốn tập cùng.",
+  "aiRole": "a friend who wants to get fit but feels lazy",
+  "learnerRole": "a friend who runs regularly",
+  "setting": "a chat after work",
+  "roleplayOpening": "You look so fit! How often do you exercise?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "You look very fit! Do you exercise often?",
+      "vi": "Trông bạn khỏe khoắn quá! Bạn có hay tập thể dục không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, I usually run in the park. I go almost every morning.",
+      "vi": "Có, mình thường chạy bộ trong công viên. Gần như sáng nào mình cũng đi."
+    },
+    {
+      "who": "ai",
+      "en": "Really? I never run. I always feel tired.",
+      "vi": "Thật à? Mình chẳng bao giờ chạy. Mình lúc nào cũng thấy mệt."
+    },
+    {
+      "who": "you",
+      "en": "Maybe you can start slowly. Just walk once a week at first.",
+      "vi": "Có lẽ bạn nên bắt đầu từ từ. Lúc đầu chỉ cần đi bộ mỗi tuần một lần."
+    },
+    {
+      "who": "ai",
+      "en": "Do you run alone or with friends?",
+      "vi": "Bạn chạy một mình hay với bạn bè?"
+    },
+    {
+      "who": "you",
+      "en": "Sometimes alone, but I often run together with my sister.",
+      "vi": "Đôi khi một mình, nhưng mình hay chạy cùng em gái."
+    },
+    {
+      "who": "ai",
+      "en": "Is she fast?",
+      "vi": "Em bạn chạy nhanh không?"
+    },
+    {
+      "who": "you",
+      "en": "She runs very quickly! I'm too slow for her.",
+      "vi": "Em ấy chạy nhanh lắm! Mình chậm quá so với em ấy."
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha. Do you also go to the gym?",
+      "vi": "Ha ha. Bạn có đi tập gym nữa không?"
+    },
+    {
+      "who": "you",
+      "en": "No, I don't. I don't like swimming either. I just run.",
+      "vi": "Không. Mình cũng không thích bơi. Mình chỉ chạy thôi."
+    },
+    {
+      "who": "ai",
+      "en": "Running is good, but you have to do it carefully. My knee still hurts from an old accident.",
+      "vi": "Chạy bộ tốt, nhưng phải cẩn thận. Đầu gối mình vẫn còn đau vì một tai nạn cũ."
+    },
+    {
+      "who": "you",
+      "en": "Oh no. Then walking is good for you, and you can swim as well.",
+      "vi": "Ôi. Vậy đi bộ hợp với bạn, và bạn cũng có thể bơi nữa."
+    },
+    {
+      "who": "ai",
+      "en": "OK, I can try. What else do you do to stay healthy?",
+      "vi": "Được, mình sẽ thử. Bạn còn làm gì khác để khỏe mạnh?"
+    },
+    {
+      "who": "you",
+      "en": "I eat well, and I always go to bed early.",
+      "vi": "Mình ăn uống điều độ và luôn đi ngủ sớm."
+    },
+    {
+      "who": "ai",
+      "en": "Can I really go walking with you one day?",
+      "vi": "Mình có thể đi bộ cùng bạn một hôm được không?"
+    },
+    {
+      "who": "you",
+      "en": "Of course! Let's meet again on Saturday.",
+      "vi": "Tất nhiên rồi! Thứ Bảy mình gặp lại nhé."
+    },
+    {
+      "who": "ai",
+      "en": "Are you sure? I'm really slow.",
+      "vi": "Bạn chắc chứ? Mình chậm lắm đấy."
+    },
+    {
+      "who": "you",
+      "en": "I'm sure. We can walk and talk.",
+      "vi": "Chắc chắn. Mình vừa đi vừa nói chuyện."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "topic": "questions-linking",
+  "title": "Căn hộ mới",
+  "summary": "Một người bạn hỏi bạn về căn hộ mới: ở đâu, vì sao chuyển, sống với ai, đi làm thế nào.",
+  "aiRole": "a curious friend who heard the learner moved",
+  "learnerRole": "a friend who just moved to a new apartment",
+  "setting": "a phone call between friends",
+  "roleplayOpening": "I heard you moved to a new place! Tell me about it. Where is it?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "I heard you moved! Where is your new apartment?",
+      "vi": "Nghe nói bạn chuyển nhà rồi! Căn hộ mới ở đâu thế?"
+    },
+    {
+      "who": "you",
+      "en": "It's near the river, about ten minutes from my office.",
+      "vi": "Gần bờ sông, cách văn phòng mình khoảng mười phút."
+    },
+    {
+      "who": "ai",
+      "en": "When did you move?",
+      "vi": "Bạn chuyển khi nào?"
+    },
+    {
+      "who": "you",
+      "en": "Last month. I moved because my old place was too small.",
+      "vi": "Tháng trước. Mình chuyển vì chỗ cũ chật quá."
+    },
+    {
+      "who": "ai",
+      "en": "Is the new one bigger than the old one?",
+      "vi": "Chỗ mới có rộng hơn chỗ cũ không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, it is. And it's cheaper, so I'm very happy.",
+      "vi": "Rộng hơn. Lại rẻ hơn nữa, nên mình vui lắm."
+    },
+    {
+      "who": "ai",
+      "en": "Who do you live with?",
+      "vi": "Bạn sống với ai?"
+    },
+    {
+      "who": "you",
+      "en": "I live with my cousin. She works as a nurse.",
+      "vi": "Mình sống với em họ. Em ấy làm y tá."
+    },
+    {
+      "who": "ai",
+      "en": "Which room is yours, the big one or the small one?",
+      "vi": "Phòng nào là của bạn, phòng to hay phòng nhỏ?"
+    },
+    {
+      "who": "you",
+      "en": "The small one, but it has a balcony with a view of the river.",
+      "vi": "Phòng nhỏ, nhưng có ban công nhìn ra sông."
+    },
+    {
+      "who": "ai",
+      "en": "Lovely! How do you go to work now? By bus?",
+      "vi": "Thích quá! Giờ bạn đi làm bằng gì? Xe buýt à?"
+    },
+    {
+      "who": "you",
+      "en": "I go by bike. If it rains, I take a taxi.",
+      "vi": "Mình đi xe đạp. Nếu trời mưa thì mình đi taxi."
+    },
+    {
+      "who": "ai",
+      "en": "Why don't you buy a car?",
+      "vi": "Sao bạn không mua ô tô?"
+    },
+    {
+      "who": "you",
+      "en": "Cars are expensive, and the streets are busy. A bike is like a free gym!",
+      "vi": "Ô tô đắt, mà đường thì đông. Xe đạp giống như phòng tập miễn phí vậy!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha, that's true. Whose dog is that in your photo?",
+      "vi": "Ha ha, đúng thế. Con chó trong ảnh của bạn là của ai vậy?"
+    },
+    {
+      "who": "you",
+      "en": "It's my neighbor's dog. He is friendly. He often visits me for food.",
+      "vi": "Chó của hàng xóm. Nó thân thiện lắm. Nó hay sang nhà mình xin ăn."
+    },
+    {
+      "who": "ai",
+      "en": "What do you like most about the new place?",
+      "vi": "Bạn thích nhất điều gì ở chỗ mới?"
+    },
+    {
+      "who": "you",
+      "en": "The quiet. I can read a book and drink tea on the balcony.",
+      "vi": "Sự yên tĩnh. Mình có thể đọc sách và uống trà ngoài ban công."
+    },
+    {
+      "who": "ai",
+      "en": "It sounds as nice as a hotel! Can I visit you?",
+      "vi": "Nghe đẹp như khách sạn vậy! Mình đến chơi được không?"
+    },
+    {
+      "who": "you",
+      "en": "Of course! Come on Saturday. We can talk about the old days.",
+      "vi": "Tất nhiên rồi! Thứ Bảy đến nhé. Mình sẽ ôn lại chuyện ngày xưa."
+    }
+  ]
+}

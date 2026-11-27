@@ -1,0 +1,121 @@
+{
+  "topic": "home",
+  "title": "Đi xem căn hộ thuê",
+  "summary": "Chủ nhà dẫn bạn đi xem căn hộ: phòng khách, phòng ngủ, nhà tắm, bếp, vườn, rồi bạn hỏi giá thuê.",
+  "aiRole": "Mrs. Green, a landlady showing her flat",
+  "learnerRole": "someone looking for a flat to rent",
+  "setting": "a furnished flat for rent",
+  "roleplayOpening": "Hello, come in! This is the flat. What do you want to see first?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hello! Welcome. This is the flat. Come in!",
+      "vi": "Xin chào! Mời vào. Đây là căn hộ. Vào đi!"
+    },
+    {
+      "who": "you",
+      "en": "Thank you. Can I put my bag here? Oh, the living room is big!",
+      "vi": "Cảm ơn bà. Tôi để túi ở đây được không? Ồ, phòng khách rộng quá!"
+    },
+    {
+      "who": "ai",
+      "en": "Yes. There's a sofa, a table, and four chairs. The windows are big, too.",
+      "vi": "Đúng vậy. Có ghế sofa, một cái bàn và bốn cái ghế. Cửa sổ cũng to."
+    },
+    {
+      "who": "you",
+      "en": "I love the light. How many bedrooms are there?",
+      "vi": "Tôi thích ánh sáng ở đây. Có mấy phòng ngủ ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Two. The big bedroom has a bed, a desk, and a shelf for books.",
+      "vi": "Hai phòng. Phòng ngủ lớn có giường, bàn làm việc và giá sách."
+    },
+    {
+      "who": "you",
+      "en": "Nice. Is there a bathroom with a shower?",
+      "vi": "Tốt quá. Có phòng tắm với vòi sen không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes. There's a shower and a bath. The toilet is next to it, and there are clean towels.",
+      "vi": "Có. Có vòi sen và bồn tắm. Nhà vệ sinh ở ngay bên cạnh, và có sẵn khăn tắm sạch."
+    },
+    {
+      "who": "you",
+      "en": "Great. Can I see the kitchen?",
+      "vi": "Tuyệt. Tôi xem bếp được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Sure. Here you have cups, glasses, bowls, dishes, and knives. There's even an apron!",
+      "vi": "Được chứ. Ở đây có cốc, ly, bát, đĩa và dao. Có cả tạp dề nữa!"
+    },
+    {
+      "who": "you",
+      "en": "That's good. I like cooking. Is there a dining room?",
+      "vi": "Tốt quá. Tôi thích nấu ăn. Có phòng ăn không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "No, but you can eat at the table in the living room. There's also a small garden behind the house.",
+      "vi": "Không có, nhưng anh có thể ăn ở bàn trong phòng khách. Sau nhà còn có một khu vườn nhỏ."
+    },
+    {
+      "who": "you",
+      "en": "A garden! Can I put an old couch there?",
+      "vi": "Có cả vườn! Tôi để một cái ghế dài cũ ở đó được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha, maybe a small one. The yard is for my dog, too.",
+      "vi": "Ha ha, có lẽ một cái nhỏ thôi. Cái sân cũng là chỗ của con chó nhà tôi."
+    },
+    {
+      "who": "you",
+      "en": "The walls are white, and the floor is clean. It feels like home.",
+      "vi": "Tường trắng, sàn sạch. Cảm giác như ở nhà vậy."
+    },
+    {
+      "who": "ai",
+      "en": "Thank you. You can keep the clock on the wall and the vase of flowers on the window.",
+      "vi": "Cảm ơn anh. Anh có thể giữ cái đồng hồ trên tường và bình hoa ở cửa sổ."
+    },
+    {
+      "who": "you",
+      "en": "Where do I put the garbage?",
+      "vi": "Tôi để rác ở đâu ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Put it in the green bucket by the door. Plastic bottles and boxes go in the blue one.",
+      "vi": "Bỏ vào cái xô xanh lá cạnh cửa. Chai nhựa và hộp thì bỏ vào xô xanh dương."
+    },
+    {
+      "who": "you",
+      "en": "OK. And what about the keys?",
+      "vi": "Vâng. Còn chìa khóa thì sao ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Here are two keys: one for the front door and one for the gate.",
+      "vi": "Đây là hai chìa: một cho cửa chính và một cho cổng."
+    },
+    {
+      "who": "you",
+      "en": "How much is the rent? And what's the address? I need it for my mail.",
+      "vi": "Tiền thuê bao nhiêu ạ? Địa chỉ là gì? Tôi cần để nhận thư."
+    },
+    {
+      "who": "ai",
+      "en": "It's five million a month. The address is twelve Green Street. Living here is quiet and nice.",
+      "vi": "Năm triệu một tháng. Địa chỉ là số mười hai phố Green. Sống ở đây yên tĩnh và dễ chịu lắm."
+    },
+    {
+      "who": "you",
+      "en": "I'll take it! Can I move in on Sunday?",
+      "vi": "Tôi thuê! Chủ nhật tôi chuyển đến được không ạ?"
+    }
+  ]
+}

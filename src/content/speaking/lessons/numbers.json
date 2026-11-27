@@ -1,0 +1,121 @@
+{
+  "topic": "numbers",
+  "title": "Đi chợ mua hoa quả",
+  "summary": "Bạn mua tất và xoài ở chợ, hỏi giá, tính tiền và xin số điện thoại người bán.",
+  "aiRole": "a cheerful seller at a market stall that sells fruit and socks",
+  "learnerRole": "a customer at the market",
+  "setting": "a busy morning market",
+  "roleplayOpening": "Good morning! Everything is fresh today. What would you like?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Good morning! Fresh fruit and socks today. What do you need?",
+      "vi": "Chào buổi sáng! Hôm nay có hoa quả tươi và tất đây. Bạn cần gì?"
+    },
+    {
+      "who": "you",
+      "en": "Good morning. How much is one pair of socks?",
+      "vi": "Chào chị. Một đôi tất bao nhiêu tiền ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "One pair is twenty thousand dong. Three pairs are fifty thousand.",
+      "vi": "Một đôi hai mươi nghìn. Ba đôi năm mươi nghìn."
+    },
+    {
+      "who": "you",
+      "en": "OK, I'll take three pairs, please.",
+      "vi": "Vâng, cho em ba đôi ạ."
+    },
+    {
+      "who": "ai",
+      "en": "Good choice. Anything else? The mangoes are very sweet.",
+      "vi": "Chọn hay đấy. Còn gì nữa không? Xoài ngọt lắm."
+    },
+    {
+      "who": "you",
+      "en": "How much are they?",
+      "vi": "Xoài bao nhiêu tiền ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Thirty thousand for one kilo. Half a kilo is fifteen thousand.",
+      "vi": "Ba mươi nghìn một cân. Nửa cân mười lăm nghìn."
+    },
+    {
+      "who": "you",
+      "en": "Can I have two kilos, please?",
+      "vi": "Cho em hai cân ạ."
+    },
+    {
+      "who": "ai",
+      "en": "Sure. Two kilos is sixty thousand. Is this your first time here?",
+      "vi": "Được. Hai cân là sáu mươi nghìn. Lần đầu bạn đến đây à?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, it's my first time. My second time will be next week!",
+      "vi": "Vâng, lần đầu ạ. Lần thứ hai sẽ là tuần sau!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha! Then here are four oranges for free. My daughter is fourteen, and she picks them from our garden.",
+      "vi": "Ha ha! Vậy chị tặng bốn quả cam. Con gái chị mười bốn tuổi, nó hái ở vườn nhà đấy."
+    },
+    {
+      "who": "you",
+      "en": "Thank you! What's the sum? How much is it all together?",
+      "vi": "Cảm ơn chị! Tổng cộng bao nhiêu ạ? Tất cả hết bao nhiêu tiền?"
+    },
+    {
+      "who": "ai",
+      "en": "Fifty for the socks and sixty for the mangoes. That's one hundred and ten thousand.",
+      "vi": "Năm mươi tiền tất và sáu mươi tiền xoài. Tổng là một trăm mười nghìn."
+    },
+    {
+      "who": "you",
+      "en": "Here's two hundred thousand.",
+      "vi": "Em gửi hai trăm nghìn ạ."
+    },
+    {
+      "who": "ai",
+      "en": "And here's your change, ninety thousand. Let me count: ten, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety.",
+      "vi": "Đây là tiền thừa, chín mươi nghìn. Để chị đếm nhé: mười, hai mươi, ba mươi, bốn mươi, năm mươi, sáu mươi, bảy mươi, tám mươi, chín mươi."
+    },
+    {
+      "who": "you",
+      "en": "Thanks. Can I have your phone number? I want to order fruit next time.",
+      "vi": "Cảm ơn chị. Cho em xin số điện thoại được không? Lần sau em muốn đặt hoa quả."
+    },
+    {
+      "who": "ai",
+      "en": "Sure. It's zero nine one two, three four five, six seven eight.",
+      "vi": "Được chứ. Không chín một hai, ba bốn năm, sáu bảy tám."
+    },
+    {
+      "who": "you",
+      "en": "Zero nine one two, three four five, six seven eight. Is that the right number?",
+      "vi": "Không chín một hai, ba bốn năm, sáu bảy tám. Số này đúng không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes! We are open from six in the morning to eleven at night, seven days a week.",
+      "vi": "Đúng rồi! Chị bán từ sáu giờ sáng đến mười một giờ đêm, cả bảy ngày trong tuần."
+    },
+    {
+      "who": "you",
+      "en": "Great. I live at number sixteen, near here. Do you deliver?",
+      "vi": "Tốt quá. Em sống ở số mười sáu, gần đây thôi. Chị có giao hàng không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, for orders over eighty thousand. My son is seventeen, and he brings them on his bike in ten to fifteen minutes.",
+      "vi": "Có, đơn trên tám mươi nghìn. Con trai chị mười bảy tuổi, nó chở bằng xe đạp, mất mười đến mười lăm phút."
+    },
+    {
+      "who": "you",
+      "en": "Perfect. See you next week!",
+      "vi": "Tuyệt quá. Hẹn gặp chị tuần sau!"
+    }
+  ]
+}

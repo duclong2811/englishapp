@@ -1,0 +1,81 @@
+{
+  "topic": "colors-shapes",
+  "title": "Sơn phòng cho con",
+  "summary": "Bạn và một người bạn chọn màu sơn cho phòng ngủ của con gái bạn.",
+  "aiRole": "a friend who is good at painting and decorating",
+  "learnerRole": "a parent who wants to paint their daughter's bedroom",
+  "setting": "an empty bedroom before painting",
+  "roleplayOpening": "So, we're painting your daughter's room! What colors does she like?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Let's paint your daughter's bedroom! What color does she like?",
+      "vi": "Mình sơn phòng ngủ cho con gái bạn nhé! Con bé thích màu gì?"
+    },
+    {
+      "who": "you",
+      "en": "She loves pink and purple.",
+      "vi": "Con bé thích màu hồng và màu tím."
+    },
+    {
+      "who": "ai",
+      "en": "Pink is nice. What about the walls? Light pink or dark pink?",
+      "vi": "Màu hồng đẹp đấy. Còn tường thì sao? Hồng nhạt hay hồng đậm?"
+    },
+    {
+      "who": "you",
+      "en": "Light pink. Dark colors make a small room look smaller.",
+      "vi": "Hồng nhạt. Màu tối làm phòng nhỏ trông còn nhỏ hơn."
+    },
+    {
+      "who": "ai",
+      "en": "True. And the door? White?",
+      "vi": "Đúng vậy. Còn cửa? Màu trắng nhé?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, white. And let's paint the ceiling light blue, like the sky.",
+      "vi": "Ừ, màu trắng. Còn trần nhà sơn màu xanh da trời nhạt, giống bầu trời."
+    },
+    {
+      "who": "ai",
+      "en": "Good idea. We can paint yellow stars and a gold moon on it.",
+      "vi": "Ý hay đấy. Mình có thể vẽ những ngôi sao vàng và một mặt trăng màu vàng kim lên đó."
+    },
+    {
+      "who": "you",
+      "en": "She'll love that! Can we draw a big green circle on the wall, like a tree?",
+      "vi": "Con bé sẽ thích lắm! Mình vẽ một hình tròn to màu xanh lá lên tường như cái cây được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Sure. And a brown line under it for the ground.",
+      "vi": "Được chứ. Và một đường kẻ màu nâu bên dưới làm mặt đất."
+    },
+    {
+      "who": "you",
+      "en": "Great. What about her old desk? It's gray.",
+      "vi": "Tuyệt. Còn cái bàn cũ của con bé? Nó màu xám."
+    },
+    {
+      "who": "ai",
+      "en": "Let's paint it red. Bright colors are fun for kids.",
+      "vi": "Sơn nó màu đỏ đi. Màu sáng làm trẻ con vui."
+    },
+    {
+      "who": "you",
+      "en": "OK, but not too bright. And the black chair?",
+      "vi": "Được, nhưng đừng sáng quá. Còn cái ghế đen?"
+    },
+    {
+      "who": "ai",
+      "en": "We can keep the black chair. Black goes with every color.",
+      "vi": "Giữ nguyên cái ghế đen. Màu đen hợp với mọi màu."
+    },
+    {
+      "who": "you",
+      "en": "Perfect. Let's buy the paint this weekend.",
+      "vi": "Hoàn hảo. Cuối tuần này mình đi mua sơn nhé."
+    }
+  ]
+}

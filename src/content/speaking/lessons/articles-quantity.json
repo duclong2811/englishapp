@@ -1,0 +1,101 @@
+{
+  "topic": "articles-quantity",
+  "title": "Chuẩn bị tiệc cuối tuần",
+  "summary": "Bạn và bạn cùng phòng tính xem cần mua bao nhiêu đồ ăn, đồ uống cho bữa tiệc.",
+  "aiRole": "a roommate planning a party with the learner",
+  "learnerRole": "the other roommate",
+  "setting": "the kitchen of a shared apartment",
+  "roleplayOpening": "Our party is on Saturday! What do we need to buy?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "We have a party on Saturday. Do we have any food at home?",
+      "vi": "Thứ Bảy mình có tiệc. Ở nhà còn đồ ăn gì không?"
+    },
+    {
+      "who": "you",
+      "en": "We have some rice and a little chicken, but not much.",
+      "vi": "Có ít gạo và một chút thịt gà, nhưng không nhiều."
+    },
+    {
+      "who": "ai",
+      "en": "How many people are coming?",
+      "vi": "Có bao nhiêu người đến?"
+    },
+    {
+      "who": "you",
+      "en": "Twelve friends. Both of my brothers are coming, too.",
+      "vi": "Mười hai người bạn. Cả hai anh em trai mình cũng đến."
+    },
+    {
+      "who": "ai",
+      "en": "Then we need a lot of food! Let's buy more chicken and an apple pie.",
+      "vi": "Vậy cần nhiều đồ ăn lắm! Mua thêm gà và một cái bánh táo nhé."
+    },
+    {
+      "who": "you",
+      "en": "Good idea. Each person can bring one drink.",
+      "vi": "Ý hay đấy. Mỗi người có thể mang một đồ uống."
+    },
+    {
+      "who": "ai",
+      "en": "OK. Most people bring juice, so we only need water.",
+      "vi": "Được. Phần lớn mọi người sẽ mang nước ép, nên mình chỉ cần mua nước lọc."
+    },
+    {
+      "who": "you",
+      "en": "Do we have enough cups? We only have ten.",
+      "vi": "Mình có đủ cốc không? Mình chỉ có mười cái."
+    },
+    {
+      "who": "ai",
+      "en": "Let's buy another box of cups. The shop near the station sells them.",
+      "vi": "Mua thêm một hộp cốc nữa đi. Cửa hàng gần nhà ga có bán."
+    },
+    {
+      "who": "you",
+      "en": "The same shop has nice plates. Should we buy some?",
+      "vi": "Cũng cửa hàng đó có đĩa đẹp. Mình có nên mua ít không?"
+    },
+    {
+      "who": "ai",
+      "en": "No, we have our own plates. All of them are in the kitchen.",
+      "vi": "Thôi, mình có đĩa rồi. Tất cả để trong bếp đấy."
+    },
+    {
+      "who": "you",
+      "en": "What about the other things? Music and games?",
+      "vi": "Còn mấy thứ khác thì sao? Nhạc và trò chơi?"
+    },
+    {
+      "who": "ai",
+      "en": "I have a speaker and an old guitar. Can you find some games?",
+      "vi": "Mình có một cái loa và một cây đàn ghi-ta cũ. Bạn tìm vài trò chơi được không?"
+    },
+    {
+      "who": "you",
+      "en": "Sure. I can bring my own board games, too.",
+      "vi": "Được. Mình mang trò chơi cờ bàn của mình nữa."
+    },
+    {
+      "who": "ai",
+      "en": "Great. Every party needs games! How much money do we need?",
+      "vi": "Tuyệt. Bữa tiệc nào cũng cần trò chơi! Mình cần bao nhiêu tiền?"
+    },
+    {
+      "who": "you",
+      "en": "Not much. Maybe five hundred thousand for all the food.",
+      "vi": "Không nhiều đâu. Chắc năm trăm nghìn cho tất cả đồ ăn."
+    },
+    {
+      "who": "ai",
+      "en": "Perfect. Let's go to the market together this afternoon.",
+      "vi": "Hoàn hảo. Chiều nay mình cùng đi chợ nhé."
+    },
+    {
+      "who": "you",
+      "en": "OK. I'll make a list.",
+      "vi": "Được. Mình sẽ viết danh sách."
+    }
+  ]
+}

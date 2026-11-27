@@ -1,0 +1,121 @@
+{
+  "topic": "pronouns",
+  "title": "Cái túi của ai?",
+  "summary": "Sau bữa tiệc có người để quên một cái túi. Bạn cùng chủ nhà tìm xem túi đó là của ai.",
+  "aiRole": "the friendly host of a house party",
+  "learnerRole": "a guest who stays to help after the party",
+  "setting": "the host's living room after a party",
+  "roleplayOpening": "Thanks for staying to help! Look, somebody left a lot of things here. Is anything here yours?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hi! Is this your bag? Someone left it on the table.",
+      "vi": "Chào bạn! Đây có phải túi của bạn không? Ai đó để quên trên bàn."
+    },
+    {
+      "who": "you",
+      "en": "No, it isn't mine. My bag is black. Maybe it's hers, the woman by the door.",
+      "vi": "Không, không phải của mình. Túi mình màu đen. Có lẽ của cô ấy, người phụ nữ đứng cạnh cửa."
+    },
+    {
+      "who": "ai",
+      "en": "I asked her. It isn't hers.",
+      "vi": "Mình hỏi cô ấy rồi. Không phải của cô ấy."
+    },
+    {
+      "who": "you",
+      "en": "Is there anything in it? Maybe we can find a name.",
+      "vi": "Trong túi có gì không? Biết đâu tìm được tên."
+    },
+    {
+      "who": "ai",
+      "en": "Let's look. There's nothing with a name, just some keys and these photos.",
+      "vi": "Xem thử nhé. Không có gì ghi tên cả, chỉ có mấy chiếc chìa khóa và mấy tấm ảnh này."
+    },
+    {
+      "who": "you",
+      "en": "Can I see those photos? Oh, I know them! They are my neighbors.",
+      "vi": "Cho mình xem mấy tấm ảnh đó được không? Ồ, mình biết họ! Họ là hàng xóm của mình."
+    },
+    {
+      "who": "ai",
+      "en": "Really? So is it their bag?",
+      "vi": "Thật à? Vậy đây là túi của họ à?"
+    },
+    {
+      "who": "you",
+      "en": "I think so. This is their dog, and that is their house.",
+      "vi": "Mình nghĩ vậy. Đây là con chó của họ, còn kia là nhà họ."
+    },
+    {
+      "who": "ai",
+      "en": "Great! Can you call them?",
+      "vi": "Tốt quá! Bạn gọi cho họ được không?"
+    },
+    {
+      "who": "you",
+      "en": "I don't have his number, and he is at work now. But I have hers. I can call her.",
+      "vi": "Mình không có số của anh ấy, mà giờ anh ấy đang đi làm. Nhưng mình có số của chị ấy. Mình gọi cho chị ấy được."
+    },
+    {
+      "who": "ai",
+      "en": "Thank you. Tell him and her that the bag is safe here. Does anybody else need help?",
+      "vi": "Cảm ơn bạn. Nhắn với hai anh chị là túi để ở đây an toàn nhé. Còn ai cần giúp gì nữa không?"
+    },
+    {
+      "who": "you",
+      "en": "We do. My wife and I live far away. Can you call a taxi for us?",
+      "vi": "Có bọn mình. Vợ chồng mình ở xa. Bạn gọi giúp bọn mình một chiếc taxi được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Sure. Is this umbrella yours, too?",
+      "vi": "Được chứ. Cái ô này cũng của bạn à?"
+    },
+    {
+      "who": "you",
+      "en": "No, it isn't ours. Our umbrella is at home.",
+      "vi": "Không, không phải của bọn mình. Ô của bọn mình để ở nhà."
+    },
+    {
+      "who": "ai",
+      "en": "OK. Do you have everything? Your coats, your phones?",
+      "vi": "Ừ. Các bạn mang đủ đồ chưa? Áo khoác, điện thoại?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, we have everything. Oh wait, where is my phone? It is new, and its case is red.",
+      "vi": "Rồi, đủ cả. Ơ khoan, điện thoại của mình đâu nhỉ? Máy mới, ốp màu đỏ."
+    },
+    {
+      "who": "ai",
+      "en": "Is this it? It was under the chair.",
+      "vi": "Có phải cái này không? Nó ở dưới gầm ghế."
+    },
+    {
+      "who": "you",
+      "en": "Yes, it's mine! Thank you. You are very kind.",
+      "vi": "Đúng là của mình! Cảm ơn bạn. Bạn tốt quá."
+    },
+    {
+      "who": "ai",
+      "en": "You're welcome. Look after yourself, and say hi to everyone for me!",
+      "vi": "Không có gì. Giữ gìn sức khỏe nhé, và cho mình gửi lời chào mọi người!"
+    },
+    {
+      "who": "you",
+      "en": "We will. Thank you for the party. Everybody was so friendly. We all talked to each other all night.",
+      "vi": "Nhất định rồi. Cảm ơn bạn vì bữa tiệc. Ai cũng thân thiện. Mọi người nói chuyện với nhau cả tối."
+    },
+    {
+      "who": "ai",
+      "en": "I'm so happy. Here is something for you: some cake to take home. Our kids can't eat everything!",
+      "vi": "Mình vui lắm. Có chút quà cho các bạn này: ít bánh mang về. Bọn trẻ nhà mình ăn không hết đâu!"
+    },
+    {
+      "who": "you",
+      "en": "Thank you! See you soon.",
+      "vi": "Cảm ơn bạn! Hẹn sớm gặp lại."
+    }
+  ]
+}
