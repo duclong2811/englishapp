@@ -1,0 +1,338 @@
+{
+  "id": "as-as",
+  "level": "A2",
+  "title": "As … as, not as … as, the same as",
+  "summary": "So sánh bằng (as … as), kém hơn (not as … as), giống nhau (the same as) và khác nhau (different from).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Is your new flat [[as big as]] the old one?",
+      "vi": "Căn hộ mới có rộng bằng căn cũ không?"
+    },
+    {
+      "who": "B",
+      "en": "No, it's [[not as big]], but it's closer to work.",
+      "vi": "Không, không rộng bằng, nhưng gần chỗ làm hơn."
+    },
+    {
+      "who": "A",
+      "en": "Is the rent [[the same as]] before?",
+      "vi": "Tiền thuê có như trước không?"
+    },
+    {
+      "who": "B",
+      "en": "Almost. It's [[as cheap as]] the old place.",
+      "vi": "Gần như vậy. Rẻ ngang chỗ cũ."
+    },
+    {
+      "who": "A",
+      "en": "And the neighbours?",
+      "vi": "Thế hàng xóm thì sao?"
+    },
+    {
+      "who": "B",
+      "en": "Very [[different from]] my old ones. They're really quiet!",
+      "vi": "Khác hẳn hàng xóm cũ. Họ rất yên tĩnh!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Bằng nhau",
+      "heading": "As + tính từ + as",
+      "rule": "Hai bên **bằng nhau** → **as + tính từ (nguyên dạng) + as**.",
+      "formula": [
+        {
+          "text": "A + be + [as] + adj + [as] + B"
+        }
+      ],
+      "body": [
+        "Giữa hai chữ as là tính từ **nguyên dạng**, không thêm -er, không dùng more."
+      ],
+      "examples": [
+        {
+          "en": "My son is [[as tall as]] me now.",
+          "vi": "Con trai tôi giờ cao bằng tôi rồi.",
+          "why": "Bằng nhau → as tall as."
+        },
+        {
+          "en": "This bag is [[as expensive as]] that one.",
+          "vi": "Túi này đắt ngang túi kia.",
+          "why": "Tính từ dài vẫn giữ nguyên: as expensive as."
+        },
+        {
+          "en": "Is Da Nang [[as hot as]] Saigon?",
+          "vi": "Đà Nẵng có nóng bằng Sài Gòn không?",
+          "why": "Câu hỏi: Is A as… as B?"
+        }
+      ],
+      "check": {
+        "prompt": "Lan is as ___ as her sister.",
+        "options": [
+          "pretty",
+          "prettier"
+        ],
+        "answer": 0,
+        "explain": "Giữa as… as dùng nguyên dạng: pretty."
+      }
+    },
+    {
+      "part": "Kém hơn",
+      "heading": "Not as … as: không bằng",
+      "rule": "**not as + tính từ + as** = không… bằng (A kém hơn B).",
+      "body": [
+        "*The bus isn't as fast as the train* = xe buýt không nhanh bằng tàu = tàu nhanh hơn. Đây là cách nói nhẹ nhàng, lịch sự hơn so sánh hơn."
+      ],
+      "examples": [
+        {
+          "en": "The bus [[isn't as fast as]] the train.",
+          "vi": "Xe buýt không nhanh bằng tàu.",
+          "why": "Not as fast as = chậm hơn."
+        },
+        {
+          "en": "My English [[isn't as good as]] yours.",
+          "vi": "Tiếng Anh của tôi không giỏi bằng bạn.",
+          "why": "Cách nói khiêm tốn, lịch sự."
+        },
+        {
+          "en": "Today [[isn't as cold as]] yesterday.",
+          "vi": "Hôm nay không lạnh bằng hôm qua.",
+          "why": "Hôm qua lạnh hơn."
+        }
+      ],
+      "check": {
+        "prompt": "This hotel isn't ___ comfortable as the last one.",
+        "options": [
+          "as",
+          "more"
+        ],
+        "answer": 0,
+        "explain": "Not as + tính từ + as."
+      }
+    },
+    {
+      "part": "Giống, khác",
+      "heading": "The same as, similar to, different from",
+      "rule": "**the same as** = giống hệt; **similar to** = gần giống; **different from** = khác với.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Your phone is [[the same as]] mine.",
+          "vi": "Điện thoại của bạn giống hệt của tôi.",
+          "why": "Giống hệt → the same as (có the)."
+        },
+        {
+          "en": "Her idea is [[similar to]] mine.",
+          "vi": "Ý của cô ấy gần giống ý tôi.",
+          "why": "Gần giống → similar to."
+        },
+        {
+          "en": "Life in the city is very [[different from]] life in the countryside.",
+          "vi": "Cuộc sống thành phố rất khác ở quê.",
+          "why": "Khác → different from."
+        }
+      ],
+      "check": {
+        "prompt": "My shoes are the same ___ yours.",
+        "options": [
+          "as",
+          "like",
+          "than"
+        ],
+        "answer": 0,
+        "explain": "The same as."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She is as taller as me.",
+      "right": "She is as tall as me.",
+      "why": "Giữa as… as dùng nguyên dạng."
+    },
+    {
+      "wrong": "It is not as cheap than the bus.",
+      "right": "It is not as cheap as the bus.",
+      "why": "Not as… as, không dùng than."
+    },
+    {
+      "wrong": "My bag is same as yours.",
+      "right": "My bag is the same as yours.",
+      "why": "Cần the: the same as."
+    },
+    {
+      "wrong": "His car is the same like mine.",
+      "right": "His car is the same as mine.",
+      "why": "The same as, không dùng like."
+    },
+    {
+      "wrong": "This is different than that.",
+      "right": "This is different from that.",
+      "why": "Ở A2 dùng different from (than hay gặp ở Mỹ nhưng nên học from trước)."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "My brother is as ___ as my father.",
+      "options": [
+        "tall",
+        "taller",
+        "tallest"
+      ],
+      "answer": 0,
+      "explain": "As + nguyên dạng + as."
+    },
+    {
+      "type": "choice",
+      "prompt": "Hanoi isn't as hot ___ Saigon in summer.",
+      "options": [
+        "as",
+        "than",
+        "like"
+      ],
+      "answer": 0,
+      "explain": "Not as… as."
+    },
+    {
+      "type": "choice",
+      "prompt": "Her dress is the same ___ mine.",
+      "options": [
+        "as",
+        "like",
+        "than"
+      ],
+      "answer": 0,
+      "explain": "The same as."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào cùng nghĩa với 'The train is faster than the bus'?",
+      "options": [
+        "The bus isn't as fast as the train.",
+        "The train isn't as fast as the bus."
+      ],
+      "answer": 0,
+      "explain": "Xe buýt không nhanh bằng tàu."
+    },
+    {
+      "type": "fill",
+      "prompt": "This exercise is ___ the last one.",
+      "hint": "bằng, easy",
+      "answers": [
+        "as easy as"
+      ],
+      "explain": "As + easy + as."
+    },
+    {
+      "type": "fill",
+      "prompt": "My new job isn't as ___ as my old one.",
+      "hint": "stressful",
+      "answers": [
+        "stressful"
+      ],
+      "explain": "Not as + nguyên dạng + as."
+    },
+    {
+      "type": "fill",
+      "prompt": "Vietnamese food is very different ___ Thai food.",
+      "hint": "giới từ",
+      "answers": [
+        "from"
+      ],
+      "explain": "Different from."
+    },
+    {
+      "type": "fill",
+      "prompt": "Your answer is similar ___ mine.",
+      "hint": "giới từ",
+      "answers": [
+        "to"
+      ],
+      "explain": "Similar to."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'm not as ___ as you at maths.",
+      "hint": "good",
+      "answers": [
+        "good"
+      ],
+      "explain": "Not as + good + as."
+    },
+    {
+      "type": "order",
+      "vi": "Tiếng Anh không khó bằng tiếng Nhật.",
+      "words": [
+        "English",
+        "is",
+        "not",
+        "as",
+        "difficult",
+        "as",
+        "Japanese."
+      ],
+      "explain": "Not as + difficult + as."
+    },
+    {
+      "type": "order",
+      "vi": "Con mèo này to bằng con chó.",
+      "words": [
+        "This",
+        "cat",
+        "is",
+        "as",
+        "big",
+        "as",
+        "the",
+        "dog."
+      ],
+      "explain": "As + big + as."
+    },
+    {
+      "type": "fix",
+      "sentence": "My room is as bigger as yours.",
+      "answers": [
+        "My room is as big as yours."
+      ],
+      "explain": "Giữa as… as dùng nguyên dạng."
+    },
+    {
+      "type": "fix",
+      "sentence": "Today isn't as warm than yesterday.",
+      "answers": [
+        "Today isn't as warm as yesterday."
+      ],
+      "explain": "Not as… as."
+    },
+    {
+      "type": "fix",
+      "sentence": "Her bag is same as mine.",
+      "answers": [
+        "Her bag is the same as mine."
+      ],
+      "explain": "Cần the."
+    },
+    {
+      "type": "translate",
+      "vi": "Em gái tôi cao bằng tôi.",
+      "answers": [
+        "My sister is as tall as me.",
+        "My sister is as tall as I am.",
+        "My younger sister is as tall as me.",
+        "My younger sister is as tall as I am."
+      ],
+      "explain": "As + tall + as."
+    },
+    {
+      "type": "translate",
+      "vi": "Phim này không hay bằng cuốn sách.",
+      "answers": [
+        "This film isn't as good as the book.",
+        "This film is not as good as the book.",
+        "This movie isn't as good as the book.",
+        "This movie is not as good as the book."
+      ],
+      "explain": "Not as good as."
+    }
+  ]
+}

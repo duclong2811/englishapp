@@ -1,0 +1,425 @@
+{
+  "id": "comparatives",
+  "level": "A2",
+  "title": "So sánh hơn: bigger, more expensive",
+  "summary": "So sánh hai người, hai vật: tính từ ngắn thêm -er, tính từ dài dùng more, và các dạng đặc biệt better, worse.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Should we take the bus or a Grab to the airport?",
+      "vi": "Mình đi sân bay bằng xe buýt hay Grab?"
+    },
+    {
+      "who": "B",
+      "en": "The bus is [[cheaper than]] a Grab.",
+      "vi": "Xe buýt rẻ hơn Grab."
+    },
+    {
+      "who": "A",
+      "en": "Yes, but a Grab is [[faster]] and [[more comfortable]].",
+      "vi": "Ừ, nhưng Grab nhanh hơn và thoải mái hơn."
+    },
+    {
+      "who": "B",
+      "en": "The traffic is [[worse]] in the evening, though.",
+      "vi": "Nhưng buổi tối kẹt xe tệ hơn đấy."
+    },
+    {
+      "who": "A",
+      "en": "Then let's leave [[earlier]].",
+      "vi": "Thế thì mình đi sớm hơn đi."
+    },
+    {
+      "who": "B",
+      "en": "Good idea. That's [[better than]] missing the flight!",
+      "vi": "Ý hay. Thế còn hơn lỡ chuyến bay!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Tính từ ngắn",
+      "heading": "Tính từ một âm tiết: thêm -er",
+      "rule": "Tính từ **ngắn** (một âm tiết) → **thêm -er** + **than**.",
+      "formula": [
+        {
+          "text": "A + be + [adj-er] + than + B"
+        }
+      ],
+      "body": [
+        "Tính từ hai âm tiết tận cùng -y (easy, happy, busy) cũng theo cách này: đổi y thành i rồi thêm -er."
+      ],
+      "table": {
+        "head": [
+          "Quy tắc",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "thêm -er",
+            "cheap → cheaper, tall → taller"
+          ],
+          [
+            "tận cùng -e: thêm -r",
+            "nice → nicer, large → larger"
+          ],
+          [
+            "1 nguyên âm + 1 phụ âm: gấp đôi phụ âm",
+            "big → bigger, hot → hotter"
+          ],
+          [
+            "tận cùng phụ âm + y: đổi y → ier",
+            "easy → easier, busy → busier"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Hanoi is [[colder than]] Saigon in winter.",
+          "vi": "Mùa đông Hà Nội lạnh hơn Sài Gòn.",
+          "why": "Cold là tính từ ngắn → colder than."
+        },
+        {
+          "en": "My new flat is [[bigger than]] the old one.",
+          "vi": "Căn hộ mới của tôi rộng hơn căn cũ.",
+          "why": "Big → bigger (gấp đôi g)."
+        },
+        {
+          "en": "This exercise is [[easier than]] the last one.",
+          "vi": "Bài này dễ hơn bài trước.",
+          "why": "Easy → easier (y → ier)."
+        }
+      ],
+      "check": {
+        "prompt": "Today is ___ than yesterday.",
+        "options": [
+          "hotter",
+          "hoter",
+          "more hot"
+        ],
+        "answer": 0,
+        "explain": "Hot: 1 nguyên âm + 1 phụ âm → gấp đôi t: hotter."
+      }
+    },
+    {
+      "part": "Tính từ dài",
+      "heading": "Tính từ dài: more + tính từ",
+      "rule": "Tính từ **dài** (hai âm tiết trở lên, không tận cùng -y) → **more + tính từ + than**.",
+      "formula": [
+        {
+          "text": "A + be + [more] + adj + than + B"
+        }
+      ],
+      "body": [
+        "Không thêm -er cho tính từ dài, và không dùng cả *more* lẫn *-er* trong một từ.",
+        "Ngược lại của more là **less**: *less expensive* = ít đắt hơn, rẻ hơn."
+      ],
+      "examples": [
+        {
+          "en": "A taxi is [[more expensive than]] the bus.",
+          "vi": "Taxi đắt hơn xe buýt.",
+          "why": "Expensive là tính từ dài → more expensive."
+        },
+        {
+          "en": "This chair is [[more comfortable]] than that one.",
+          "vi": "Ghế này thoải mái hơn ghế kia.",
+          "why": "Comfortable dài → more."
+        },
+        {
+          "en": "English is [[more useful]] for my job than French.",
+          "vi": "Tiếng Anh có ích cho công việc của tôi hơn tiếng Pháp.",
+          "why": "Useful hai âm tiết → more useful."
+        }
+      ],
+      "check": {
+        "prompt": "Hoi An is ___ than Ha Long for me.",
+        "options": [
+          "more interesting",
+          "interestinger"
+        ],
+        "answer": 0,
+        "explain": "Interesting dài → more interesting."
+      }
+    },
+    {
+      "part": "Đặc biệt",
+      "heading": "Dạng bất quy tắc: better, worse, further",
+      "rule": "**good → better**, **bad → worse**, **far → further / farther**. Không dùng *more good*, *badder*.",
+      "body": [],
+      "table": {
+        "head": [
+          "Tính từ",
+          "So sánh hơn"
+        ],
+        "rows": [
+          [
+            "good",
+            "better"
+          ],
+          [
+            "bad",
+            "worse"
+          ],
+          [
+            "far",
+            "further / farther"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Your English is [[better]] than mine.",
+          "vi": "Tiếng Anh của bạn giỏi hơn của tôi.",
+          "why": "Good → better."
+        },
+        {
+          "en": "The traffic today is [[worse]] than yesterday.",
+          "vi": "Hôm nay kẹt xe tệ hơn hôm qua.",
+          "why": "Bad → worse."
+        },
+        {
+          "en": "My office is [[further]] from home than yours.",
+          "vi": "Chỗ làm của tôi xa nhà hơn chỗ của bạn.",
+          "why": "Far → further."
+        }
+      ],
+      "check": {
+        "prompt": "I feel ___ today. Yesterday I was really sick.",
+        "options": [
+          "better",
+          "gooder",
+          "more good"
+        ],
+        "answer": 0,
+        "explain": "Good → better."
+      }
+    },
+    {
+      "part": "Nhấn mạnh",
+      "heading": "Much, a bit + so sánh hơn",
+      "rule": "Nhấn mạnh **hơn nhiều**: **much / a lot** + so sánh hơn. **Hơn một chút**: **a bit / a little**.",
+      "body": [
+        "Không dùng *very* trước so sánh hơn: nói *much bigger*, không nói *very bigger*.",
+        "Sau than, khi nói thường dùng tân ngữ: *taller than me*. Trang trọng hơn: *taller than I am*."
+      ],
+      "examples": [
+        {
+          "en": "Flying is [[much faster]] than taking the train.",
+          "vi": "Đi máy bay nhanh hơn đi tàu nhiều.",
+          "why": "Much + faster: hơn nhiều."
+        },
+        {
+          "en": "This dress is [[a bit cheaper]] online.",
+          "vi": "Chiếc váy này mua trên mạng rẻ hơn một chút.",
+          "why": "A bit + cheaper: hơn một chút."
+        },
+        {
+          "en": "My brother is [[taller than me]].",
+          "vi": "Anh tôi cao hơn tôi.",
+          "why": "Than + me (tân ngữ) khi nói."
+        }
+      ],
+      "check": {
+        "prompt": "This phone is ___ better than my old one.",
+        "options": [
+          "much",
+          "very"
+        ],
+        "answer": 0,
+        "explain": "Không dùng very trước so sánh hơn → much better."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She is more tall than me.",
+      "right": "She is taller than me.",
+      "why": "Tall là tính từ ngắn → taller."
+    },
+    {
+      "wrong": "This book is more cheaper.",
+      "right": "This book is cheaper.",
+      "why": "Không dùng cả more và -er."
+    },
+    {
+      "wrong": "My car is more good than yours.",
+      "right": "My car is better than yours.",
+      "why": "Good → better."
+    },
+    {
+      "wrong": "Hanoi is colder that Hue.",
+      "right": "Hanoi is colder than Hue.",
+      "why": "So sánh dùng than, không dùng that."
+    },
+    {
+      "wrong": "This is very bigger than that.",
+      "right": "This is much bigger than that.",
+      "why": "Nhấn mạnh so sánh hơn dùng much, không dùng very."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "My sister is ___ than me.",
+      "options": [
+        "younger",
+        "more young",
+        "youngest"
+      ],
+      "answer": 0,
+      "explain": "Young ngắn → younger."
+    },
+    {
+      "type": "choice",
+      "prompt": "Phones are ___ than they were ten years ago.",
+      "options": [
+        "more expensive",
+        "expensiver",
+        "most expensive"
+      ],
+      "answer": 0,
+      "explain": "Expensive dài → more expensive."
+    },
+    {
+      "type": "choice",
+      "prompt": "His cooking is ___ than mine.",
+      "options": [
+        "better",
+        "more good",
+        "gooder"
+      ],
+      "answer": 0,
+      "explain": "Good → better."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Hue is hotter than Da Lat.",
+        "Hue is more hot than Da Lat.",
+        "Hue is hoter than Da Lat."
+      ],
+      "answer": 0,
+      "explain": "Hot → hotter."
+    },
+    {
+      "type": "fill",
+      "prompt": "This box is ___ than that one.",
+      "hint": "heavy",
+      "answers": [
+        "heavier"
+      ],
+      "explain": "Heavy → heavier (y → ier)."
+    },
+    {
+      "type": "fill",
+      "prompt": "The weather today is ___ than yesterday.",
+      "hint": "bad",
+      "answers": [
+        "worse"
+      ],
+      "explain": "Bad → worse."
+    },
+    {
+      "type": "fill",
+      "prompt": "Learning online is ___ than going to class.",
+      "hint": "convenient",
+      "answers": [
+        "more convenient"
+      ],
+      "explain": "Convenient dài → more convenient."
+    },
+    {
+      "type": "fill",
+      "prompt": "Saigon is much ___ than my hometown.",
+      "hint": "big",
+      "answers": [
+        "bigger"
+      ],
+      "explain": "Big → bigger (gấp đôi g)."
+    },
+    {
+      "type": "fill",
+      "prompt": "My room is ___ than my brother's.",
+      "hint": "tidy",
+      "answers": [
+        "tidier"
+      ],
+      "explain": "Tidy → tidier."
+    },
+    {
+      "type": "order",
+      "vi": "Chiếc điện thoại này rẻ hơn chiếc kia.",
+      "words": [
+        "This",
+        "phone",
+        "is",
+        "cheaper",
+        "than",
+        "that",
+        "one."
+      ],
+      "explain": "Cheap → cheaper than."
+    },
+    {
+      "type": "order",
+      "vi": "Hôm nay tôi thấy khỏe hơn nhiều.",
+      "words": [
+        "I",
+        "feel",
+        "much",
+        "better",
+        "today."
+      ],
+      "alternatives": [
+        "Today I feel much better."
+      ],
+      "explain": "Much + better."
+    },
+    {
+      "type": "fix",
+      "sentence": "Coffee is more popular that tea here.",
+      "answers": [
+        "Coffee is more popular than tea here."
+      ],
+      "explain": "So sánh dùng than."
+    },
+    {
+      "type": "fix",
+      "sentence": "My new job is more easier.",
+      "answers": [
+        "My new job is easier."
+      ],
+      "explain": "Easy → easier; không thêm more."
+    },
+    {
+      "type": "fix",
+      "sentence": "Your bag is more big than mine.",
+      "answers": [
+        "Your bag is bigger than mine."
+      ],
+      "explain": "Big ngắn → bigger."
+    },
+    {
+      "type": "translate",
+      "vi": "Xe máy nhanh hơn xe đạp.",
+      "answers": [
+        "Motorbikes are faster than bicycles.",
+        "A motorbike is faster than a bicycle.",
+        "Motorbikes are faster than bikes.",
+        "A motorbike is faster than a bike."
+      ],
+      "explain": "Fast → faster than."
+    },
+    {
+      "type": "translate",
+      "vi": "Bài kiểm tra này khó hơn bài trước.",
+      "answers": [
+        "This test is harder than the last one.",
+        "This test is more difficult than the last one.",
+        "This test is harder than the previous one.",
+        "This test is more difficult than the previous one."
+      ],
+      "explain": "Hard → harder; difficult → more difficult."
+    }
+  ]
+}
