@@ -42,6 +42,7 @@
   ],
   "sections": [
     {
+      "part": "Be là gì",
       "heading": "Vì sao tiếng Anh cần be?",
       "body": [
         "Tiếng Việt nói “Tôi đói”, “Cô ấy đẹp”, “Họ ở nhà”, không cần thêm chữ nào giữa người và tính chất. Tiếng Anh thì **câu nào cũng phải có động từ**, nên khi không có hành động, ta dùng động từ **be**.",
@@ -91,6 +92,7 @@
       ]
     },
     {
+      "part": "Am, is, are",
       "heading": "Am, is hay are?",
       "body": [
         "Chọn theo **chủ ngữ** đứng trước. Khi nói, người bản xứ hầu như luôn dùng dạng viết tắt.",
@@ -143,6 +145,7 @@
       ]
     },
     {
+      "part": "Phủ định",
       "heading": "Phủ định: thêm not",
       "body": [
         "Đặt **not** ngay sau be. Không có dạng viết tắt “amn't”: chỉ có *I'm not*."
@@ -186,6 +189,7 @@
       ]
     },
     {
+      "part": "Câu hỏi",
       "heading": "Câu hỏi: đưa be lên đầu",
       "body": [
         "Tiếng Việt hỏi bằng cách thêm “không?”, “à?” vào cuối câu. Tiếng Anh **đảo be lên trước chủ ngữ**: *You are a student* → *Are you a student?*",

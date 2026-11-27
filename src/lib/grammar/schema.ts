@@ -15,6 +15,8 @@ const example = z.object({
 });
 
 const section = z.object({
+  /** Step this section belongs to in the lesson stepper; consecutive sections with the same part form one step. */
+  part: z.string().optional(),
   heading: z.string().min(1),
   body: z.array(z.string().min(1)).default([]),
   table: z.object({ head: z.array(z.string()), rows: z.array(z.array(z.string())) }).optional(),

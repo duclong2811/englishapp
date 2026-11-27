@@ -176,3 +176,15 @@ mark.word {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
+
+/* Lesson steps: a short fade when moving to the next screen (skipped with reduced motion). */
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
