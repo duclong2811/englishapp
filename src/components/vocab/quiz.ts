@@ -68,7 +68,7 @@ const FORM_POS: Record<string, string[]> = {
   superlative: ["adjective", "adverb"],
 };
 
-function senses(meaning: string): string[] {
+export function senses(meaning: string): string[] {
   return meaning
     .replace(/\([^)]*\)/g, "")
     .split(/[,;]/)

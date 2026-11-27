@@ -186,8 +186,14 @@ function Card({
 
       <section className="oli mt-4 rounded-2xl border border-line p-5 sm:p-8">
         <h2 ref={titleRef} tabIndex={-1} className="text-sm font-medium text-ink-soft focus:outline-none">
-          {typedGap ? TITLE.fill : TITLE[ex.type]}
+          {"audio" in ex && ex.audio ? "Nghe và chọn" : typedGap ? TITLE.fill : TITLE[ex.type]}
         </h2>
+
+        {"audio" in ex && ex.audio ? (
+          <div className="mt-4">
+            <SpeakButton text={ex.audio} label="Nghe" />
+          </div>
+        ) : null}
 
         {ex.type === "choice" && typedGap ? (
           <>
@@ -217,7 +223,7 @@ function Card({
                       disabled={!!checked}
                       aria-pressed={choice === i}
                       onClick={() => setChoice(i)}
-                      className={`en flex min-h-12 w-full items-center gap-3 rounded-xl border px-4 text-left text-lg transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                      className={`${ex.optionsLang === "vi" ? "" : "en "}flex min-h-12 w-full items-center gap-3 rounded-xl border px-4 py-2 text-left text-lg transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
                         state === "right"
                           ? "border-correct bg-correct/10"
                           : state === "wrong"
@@ -326,7 +332,7 @@ function Card({
             {!checked.right ? (
               <p className="mt-1 flex flex-wrap items-center gap-2">
                 <span className="text-sm text-ink-soft">Đáp án:</span>
-                <span className="en text-lg">
+                <span className={`${ex.type === "choice" && ex.optionsLang === "vi" ? "" : "en "}text-lg`}>
                   {best
                     ? best.result.words.map((w, k) => (
                         <span key={k}>
@@ -336,7 +342,7 @@ function Card({
                       ))
                     : rightAnswer}
                 </span>
-                <SpeakButton text={plain(best ? best.answer : rightAnswer)} compact />
+                {ex.type === "choice" && ex.optionsLang === "vi" ? null : <SpeakButton text={plain(best ? best.answer : rightAnswer)} compact />}
               </p>
             ) : null}
             {explain ? <p className="mt-2 text-pretty">{explain}</p> : null}

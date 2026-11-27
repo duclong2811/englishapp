@@ -66,6 +66,17 @@ export function SyllabusList({ levels }: { levels: LevelUnits[] }) {
           )}
         </section>
 
+        <Link
+          href={`/tests/${current.toLowerCase()}`}
+          className="mt-4 flex min-h-14 items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        >
+          <span>
+            Kiểm tra cấp độ {current}
+            <span className="block text-sm font-normal text-ink-soft">Đề ngẫu nhiên từ kho câu hỏi, có cả từ vựng và nghe</span>
+          </span>
+          <span aria-hidden="true" className="text-accent">→</span>
+        </Link>
+
         {units.map((unit, index) => (
           <section key={unit.id} id={`unit-${unit.id}`} aria-labelledby={`title-${unit.id}`} className="mt-9 scroll-mt-20 lg:scroll-mt-8">
             <header className="mb-3 flex items-baseline justify-between gap-3">
@@ -108,6 +119,12 @@ export function SyllabusList({ levels }: { levels: LevelUnits[] }) {
                 );
               })}
             </ul>
+            <Link
+              href={`/tests/${current.toLowerCase()}/unit/${unit.id}`}
+              className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-full px-1 text-sm font-medium text-accent hover:underline focus-visible:outline-2 focus-visible:outline-accent"
+            >
+              Kiểm tra nhanh chương {index + 1} <span aria-hidden="true">→</span>
+            </Link>
           </section>
         ))}
         {pending > 0 && <p className="mt-5 text-sm text-ink-soft">Còn {pending} bài đang soạn.</p>}

@@ -48,11 +48,16 @@ const exercise = z.discriminatedUnion("type", [
     options: z.array(z.string()).min(2).max(4),
     answer: z.number().int().min(0),
     explain,
+    /** English text read aloud with the question (listening items in tests). */
+    audio: z.string().optional(),
+    /** "vi" when the options are Vietnamese (set in the UI typeface, not the English one). */
+    optionsLang: z.enum(["en", "vi"]).optional(),
   }),
   z.object({
     type: z.literal("fill"),
     prompt: z.string().includes("___"),
     hint: z.string().optional(),
+    audio: z.string().optional(),
     answers: z.array(z.string()).min(1),
     explain,
   }),
