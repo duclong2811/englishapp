@@ -10,4 +10,6 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Vocabulary content
 
+When asked to write grammar lessons, follow `docs/grammar-brief.md` exactly.
+
 When asked to write vocabulary (B1 and above), follow `docs/vocab-brief.md` exactly: one batch of 100 words per file from `npm run vocab:next -- <LEVEL> 100`, register the file in `src/content/vocab/vi/index.ts`, keep `npm test` green, work on your own branch and open a pull request into `ccr-2f80a8be-hdts76`. Do not edit A1/A2 content, `words.json`, tests or app code.
