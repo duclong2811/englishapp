@@ -2,7 +2,10 @@
 import adverbsManner from "./adverbs-manner.json";
 import asAs from "./as-as.json";
 import comparatives from "./comparatives.json";
+import couldRequests from "./could-requests.json";
 import firstConditional from "./first-conditional.json";
+import mightMay from "./might-may.json";
+import mustHaveTo from "./must-have-to.json";
 import pastContinuous from "./past-continuous.json";
 import pastSimpleVsContinuous from "./past-simple-vs-continuous.json";
 import presentForFuture from "./present-for-future.json";
@@ -10,6 +13,7 @@ import presentPerfectExperience from "./present-perfect-experience.json";
 import presentPerfectForSince from "./present-perfect-for-since.json";
 import presentPerfectJustYet from "./present-perfect-just-yet.json";
 import presentPerfectVsPast from "./present-perfect-vs-past.json";
+import should from "./should.json";
 import superlatives from "./superlatives.json";
 import timeClauses from "./time-clauses.json";
 import tooEnough from "./too-enough.json";
@@ -18,4 +22,4 @@ import willFuture from "./will-future.json";
 import willVsGoingTo from "./will-vs-going-to.json";
 import zeroConditional from "./zero-conditional.json";
 
-export const grammarFiles: unknown[] = [pastContinuous, pastSimpleVsContinuous, usedTo, timeClauses, presentPerfectExperience, presentPerfectJustYet, presentPerfectForSince, presentPerfectVsPast, willFuture, willVsGoingTo, presentForFuture, zeroConditional, firstConditional, comparatives, superlatives, asAs, tooEnough, adverbsManner];
+export const grammarFiles: unknown[] = [pastContinuous, pastSimpleVsContinuous, usedTo, timeClauses, presentPerfectExperience, presentPerfectJustYet, presentPerfectForSince, presentPerfectVsPast, willFuture, willVsGoingTo, presentForFuture, zeroConditional, firstConditional, comparatives, superlatives, asAs, tooEnough, adverbsManner, mustHaveTo, should, mightMay, couldRequests];

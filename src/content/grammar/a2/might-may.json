@@ -1,0 +1,367 @@
+{
+  "id": "might-may",
+  "level": "A2",
+  "title": "Might, may: có lẽ, có thể",
+  "summary": "Nói điều có thể xảy ra nhưng chưa chắc với might, may, might not; so sánh với will và maybe.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Are you coming to the party on Saturday?",
+      "vi": "Thứ Bảy bạn có đến tiệc không?"
+    },
+    {
+      "who": "B",
+      "en": "I [[might]]. I [[might]] have to work.",
+      "vi": "Có lẽ. Mình có thể phải đi làm."
+    },
+    {
+      "who": "A",
+      "en": "Bring an umbrella if you come. It [[may]] rain.",
+      "vi": "Nếu đến thì mang ô nhé. Trời có thể mưa."
+    },
+    {
+      "who": "B",
+      "en": "OK. Is Hoa coming?",
+      "vi": "Ừ. Hoa có đến không?"
+    },
+    {
+      "who": "A",
+      "en": "She [[might not]] come. She's sick.",
+      "vi": "Có khi cô ấy không đến. Cô ấy ốm."
+    },
+    {
+      "who": "B",
+      "en": "Oh no. I [[may]] visit her tomorrow.",
+      "vi": "Ôi. Có lẽ mai mình sẽ đến thăm cô ấy."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Might, may + động từ nguyên mẫu",
+      "rule": "**might / may + V** = **có lẽ, có thể** (khoảng 50%, chưa chắc). Giống nhau cho mọi chủ ngữ.",
+      "formula": [
+        {
+          "text": "S + [might / may] + V"
+        },
+        {
+          "text": "S + [might not / may not] + V"
+        }
+      ],
+      "body": [
+        "Might và may gần như cùng nghĩa khi đoán tương lai. May hơi trang trọng hơn một chút.",
+        "Phủ định thường dùng dạng đầy đủ: *might not, may not*. Không rút gọn *mayn't*."
+      ],
+      "examples": [
+        {
+          "en": "I [[might]] go to Da Lat next month.",
+          "vi": "Tháng sau tôi có thể đi Đà Lạt.",
+          "why": "Chưa chắc → might + go."
+        },
+        {
+          "en": "It [[may]] be cold tonight.",
+          "vi": "Tối nay trời có thể lạnh.",
+          "why": "Đoán chưa chắc → may + be."
+        },
+        {
+          "en": "He [[might not]] come today. He's busy.",
+          "vi": "Hôm nay có khi anh ấy không đến. Anh ấy bận.",
+          "why": "Phủ định → might not + come."
+        }
+      ],
+      "check": {
+        "prompt": "Take a jacket. It ___ be cold.",
+        "options": [
+          "might",
+          "mights",
+          "might to"
+        ],
+        "answer": 0,
+        "explain": "Might + V, không đổi."
+      }
+    },
+    {
+      "part": "Mức chắc chắn",
+      "heading": "Will, might, won't: chắc chắn đến đâu?",
+      "rule": "**will** (chắc chắn) → **probably will** → **might / may** (50%) → **probably won't** → **won't** (chắc chắn không).",
+      "body": [],
+      "table": {
+        "head": [
+          "Mức",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "100%",
+            "It will rain."
+          ],
+          [
+            "khoảng 70%",
+            "It will probably rain."
+          ],
+          [
+            "khoảng 50%",
+            "It might rain."
+          ],
+          [
+            "khoảng 30%",
+            "It probably won't rain."
+          ],
+          [
+            "0%",
+            "It won't rain."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[will]] be there at 8.",
+          "vi": "Tôi sẽ có mặt lúc 8 giờ.",
+          "why": "Chắc chắn → will."
+        },
+        {
+          "en": "I [[might]] be a bit late.",
+          "vi": "Tôi có thể đến muộn một chút.",
+          "why": "Chưa chắc → might."
+        }
+      ],
+      "check": {
+        "prompt": "I'm not sure, but I ___ change my job next year.",
+        "options": [
+          "might",
+          "will"
+        ],
+        "answer": 0,
+        "explain": "Not sure → might."
+      }
+    },
+    {
+      "part": "Maybe",
+      "heading": "Might hay maybe?",
+      "rule": "**might** là động từ, đứng **sau chủ ngữ**. **maybe** là trạng từ, thường đứng **đầu câu**: *Maybe I'll go.*",
+      "body": [
+        "*I might go* = *Maybe I'll go*. Không nói *I maybe go*."
+      ],
+      "examples": [
+        {
+          "en": "[[Maybe]] she's at home.",
+          "vi": "Có lẽ cô ấy ở nhà.",
+          "why": "Maybe đứng đầu câu."
+        },
+        {
+          "en": "She [[might]] be at home.",
+          "vi": "Cô ấy có thể đang ở nhà.",
+          "why": "Might + be, cùng nghĩa với câu trên."
+        }
+      ],
+      "check": {
+        "prompt": "___ we'll go to the beach.",
+        "options": [
+          "Maybe",
+          "Might"
+        ],
+        "answer": 0,
+        "explain": "Đầu câu, trước we'll → Maybe."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "It might rains tomorrow.",
+      "right": "It might rain tomorrow.",
+      "why": "Sau might → nguyên mẫu."
+    },
+    {
+      "wrong": "I might to go out.",
+      "right": "I might go out.",
+      "why": "Might + V, không có to."
+    },
+    {
+      "wrong": "I maybe go to the party.",
+      "right": "I might go to the party.",
+      "why": "Maybe là trạng từ; dùng might, hoặc Maybe I'll go."
+    },
+    {
+      "wrong": "She mights come.",
+      "right": "She might come.",
+      "why": "Might không thêm -s."
+    },
+    {
+      "wrong": "He doesn't might come.",
+      "right": "He might not come.",
+      "why": "Phủ định: might not."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I'm not sure. I ___ stay at home tonight.",
+      "options": [
+        "might",
+        "will",
+        "must"
+      ],
+      "answer": 0,
+      "explain": "Chưa chắc → might."
+    },
+    {
+      "type": "choice",
+      "prompt": "She ___ come. She has a lot of work.",
+      "options": [
+        "might not",
+        "doesn't might",
+        "mightn't to"
+      ],
+      "answer": 0,
+      "explain": "Phủ định → might not."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ it will snow in Sa Pa this year.",
+      "options": [
+        "Maybe",
+        "Might",
+        "May be"
+      ],
+      "answer": 0,
+      "explain": "Đầu câu trước it will → Maybe."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào chắc chắn nhất?",
+      "options": [
+        "It will rain.",
+        "It might rain.",
+        "It may rain."
+      ],
+      "answer": 0,
+      "explain": "Will = chắc chắn."
+    },
+    {
+      "type": "fill",
+      "prompt": "Call him now. He ___ be asleep later.",
+      "hint": "có thể",
+      "answers": [
+        "might",
+        "may"
+      ],
+      "explain": "Chưa chắc → might / may."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ go to the cinema. We haven't decided.",
+      "hint": "có lẽ",
+      "answers": [
+        "might",
+        "may"
+      ],
+      "explain": "Chưa quyết định → might."
+    },
+    {
+      "type": "fill",
+      "prompt": "Don't wait for me. I ___ not come.",
+      "hint": "có thể",
+      "answers": [
+        "might",
+        "may"
+      ],
+      "explain": "Might not / may not."
+    },
+    {
+      "type": "fill",
+      "prompt": "The shop might ___ closed on Sunday.",
+      "hint": "be",
+      "answers": [
+        "be"
+      ],
+      "explain": "Might + nguyên mẫu."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ buy a new phone. I'm still thinking.",
+      "hint": "có thể",
+      "answers": [
+        "might",
+        "may"
+      ],
+      "explain": "Đang suy nghĩ → might."
+    },
+    {
+      "type": "order",
+      "vi": "Ngày mai trời có thể mưa.",
+      "words": [
+        "It",
+        "might",
+        "rain",
+        "tomorrow."
+      ],
+      "alternatives": [
+        "Tomorrow it might rain."
+      ],
+      "explain": "Might + rain."
+    },
+    {
+      "type": "order",
+      "vi": "Có lẽ anh ấy không biết.",
+      "words": [
+        "He",
+        "might",
+        "not",
+        "know."
+      ],
+      "explain": "Might not + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "It might snows tonight.",
+      "answers": [
+        "It might snow tonight."
+      ],
+      "explain": "Might + nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "I maybe visit you next week.",
+      "answers": [
+        "I might visit you next week."
+      ],
+      "explain": "Dùng might sau chủ ngữ."
+    },
+    {
+      "type": "fix",
+      "sentence": "She doesn't might like it.",
+      "answers": [
+        "She might not like it."
+      ],
+      "explain": "Phủ định: might not."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi có thể đến muộn.",
+      "answers": [
+        "I might be late.",
+        "I may be late.",
+        "I might arrive late.",
+        "I may arrive late.",
+        "I might come late.",
+        "I may come late."
+      ],
+      "explain": "Might + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Có lẽ cô ấy đang ở văn phòng.",
+      "answers": [
+        "She might be in the office.",
+        "She may be in the office.",
+        "Maybe she's in the office.",
+        "Maybe she is in the office.",
+        "She might be at the office.",
+        "She may be at the office.",
+        "Maybe she's at the office.",
+        "Maybe she is at the office."
+      ],
+      "explain": "Might be hoặc Maybe + câu."
+    }
+  ]
+}
