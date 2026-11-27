@@ -76,6 +76,16 @@ export function SyllabusList({ levels }: { levels: LevelUnits[] }) {
           </span>
           <span aria-hidden="true" className="text-accent">→</span>
         </Link>
+        <Link
+          href={`/tests/${current.toLowerCase()}/skills`}
+          className="mt-3 flex min-h-14 items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        >
+          <span>
+            Luyện viết và nói {current}
+            <span className="block text-sm font-normal text-ink-soft">Viết câu, đọc to, trả lời bằng giọng nói. AI chấm và sửa bài</span>
+          </span>
+          <span aria-hidden="true" className="text-accent">→</span>
+        </Link>
 
         {units.map((unit, index) => (
           <section key={unit.id} id={`unit-${unit.id}`} aria-labelledby={`title-${unit.id}`} className="mt-9 scroll-mt-20 lg:scroll-mt-8">

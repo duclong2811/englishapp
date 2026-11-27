@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Illustration } from "@/components/illustration";
 import { LevelPicker, useLevelSelection } from "@/components/level-picker";
 import { BestScore } from "@/components/tests/best-score";
-import { LEVEL_BLUEPRINT } from "@/lib/tests/bank";
+import { LEVEL_BLUEPRINT, SECTION_VI, SKILLS_BLUEPRINT, type Section } from "@/lib/tests/bank";
 import type { Level } from "@/lib/levels";
 
 type LevelTests = {
@@ -20,19 +20,43 @@ export function TestsOverview({ levels }: { levels: LevelTests[] }) {
   const available = levels.map((l) => l.level);
   const { current, select } = useLevelSelection("tests:level:v1", available, available[0] ?? "A1");
   const data = levels.find((l) => l.level === current) ?? levels[0];
-  const total = LEVEL_BLUEPRINT.vocab + LEVEL_BLUEPRINT.listening + LEVEL_BLUEPRINT.grammar;
+  const total = Object.values(LEVEL_BLUEPRINT).reduce((a, b) => a + b, 0);
+  const parts = (Object.entries(LEVEL_BLUEPRINT) as [Section, number][]).map(([k, n]) => `${SECTION_VI[k]} ${n}`).join(", ");
+  const skills = SKILLS_BLUEPRINT;
 
   return (
     <div className="max-w-[42rem]">
       <LevelPicker current={data.level} available={available} onSelect={select} />
 
-      <section aria-labelledby="level-test" className="oli rounded-2xl border border-line p-6 sm:p-8">
+      <section aria-labelledby="skills-test" className="oli rounded-2xl border border-line p-6 sm:p-8">
+        <h2 id="skills-test" className="text-sm font-medium text-ink-soft">
+          Luyện viết và nói
+        </h2>
+        <p className="mt-2 text-3xl font-semibold tracking-tight">Viết và nói {data.level}</p>
+        <p className="mt-2 text-pretty">
+          Dịch và sửa câu, viết vài câu theo đề, đọc to câu mẫu và trả lời bằng giọng nói. AI chấm bài tự do, chỉ ra lỗi và đưa bài đã sửa.
+        </p>
+        <p className="mt-2 text-ink-soft tabular-nums">
+          {skills.translate + skills.open} câu viết, {skills.reading + skills.talk} câu nói · khoảng 20 phút
+        </p>
+        <p className="mt-1">
+          <BestScore testKey={`skills:${data.level}`} />
+        </p>
+        <Link
+          href={`/tests/${data.level.toLowerCase()}/skills`}
+          className="mt-5 inline-flex min-h-12 items-center justify-center rounded-full bg-accent px-6 font-semibold text-accent-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        >
+          Bắt đầu luyện
+        </Link>
+      </section>
+
+      <section aria-labelledby="level-test" className="mt-4 rounded-2xl border border-line bg-sheet p-6 sm:p-8">
         <h2 id="level-test" className="text-sm font-medium text-ink-soft">
           Kiểm tra cấp độ
         </h2>
-        <p className="mt-2 text-3xl font-semibold tracking-tight">Toàn bộ {data.level}</p>
+        <p className="mt-2 text-2xl font-semibold tracking-tight">Toàn bộ {data.level}</p>
         <p className="mt-2 text-ink-soft tabular-nums">
-          {total} câu · khoảng 30 phút · Từ vựng {LEVEL_BLUEPRINT.vocab}, Nghe {LEVEL_BLUEPRINT.listening}, Ngữ pháp {LEVEL_BLUEPRINT.grammar}
+          {total} câu · khoảng 40 phút · {parts}
         </p>
         <p className="mt-1">
           <BestScore testKey={`level:${data.level}`} />

@@ -4,7 +4,8 @@ import { GRAMMAR_LEVELS, type GrammarLevel } from "@/content/grammar/syllabus";
 import { getGrammarLessons } from "@/lib/grammar/lessons";
 import type { Exercise } from "@/lib/grammar/schema";
 import { getVocabData, toPracticeWord } from "@/lib/vocab/data";
-import type { Bank, GrammarItem } from "./bank";
+import { OPEN_TASKS } from "@/content/tests/open-tasks";
+import type { Bank, GrammarItem, OpenItem, ReadingItem } from "./bank";
 
 export const TEST_LEVELS: GrammarLevel[] = ["A1", "A2"];
 
@@ -39,6 +40,26 @@ export async function buildBank(level: GrammarLevel): Promise<Bank> {
     return [...fromExercises, ...fromChecks];
   });
 
+  // Example sentences make good read-aloud items: short, natural, and each shows the lesson's point.
+  const reading: ReadingItem[] = lessons.flatMap((l) =>
+    l.sections.flatMap((s, si) =>
+      s.examples.flatMap((e, ei) => {
+        const text = e.en.replace(/\[\[|\]\]/g, "");
+        const n = text.split(/\s+/).length;
+        // One sentence of 4 to 14 words: longer lines are hard to read in one breath at this level.
+        return n >= 4 && n <= 14 && !/[.?!]\s+\S/.test(text) && !text.includes("/")
+          ? [{ id: `s:${l.id}:${si}:${ei}`, lesson: l.id, unit: unitOf.get(l.id)!, text, vi: e.vi }]
+          : [];
+      }),
+    ),
+  );
+
+  const open: OpenItem[] = OPEN_TASKS.filter((t) => t.level === level).map((t) => ({
+    id: `o:${t.id}`,
+    lesson: t.focus,
+    ex: { type: "open", mode: t.mode, taskId: t.id, task: t.task, hint: t.hint, minWords: t.minWords },
+  }));
+
   const written = new Set(lessons.map((l) => l.id));
   const tags: Bank["tags"] = {};
   for (const t of topics) tags[t.id] = { title: t.title, href: `/vocabulary/topic/${t.id}` };
@@ -48,6 +69,8 @@ export async function buildBank(level: GrammarLevel): Promise<Bank> {
     level,
     words,
     grammar,
+    reading,
+    open,
     tags,
     units: units.map((u) => ({ ...u, lessons: u.lessons.filter((l) => written.has(l)) })).filter((u) => u.lessons.length),
     topics: topics.map((t) => ({ id: t.id, title: t.title })),
