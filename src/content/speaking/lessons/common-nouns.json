@@ -1,0 +1,131 @@
+{
+  "topic": "common-nouns",
+  "title": "Dựng sân khấu cho vở kịch ở trường",
+  "summary": "Bạn giúp người phụ trách sân khấu chuẩn bị cho vở kịch cuối năm ở trường: sửa sàn, xếp ghế, hỏi về vở kịch.",
+  "aiRole": "the stage manager of a school play, who is also a parent",
+  "learnerRole": "a parent who volunteers to help",
+  "setting": "the school theater, three days before the play",
+  "roleplayOpening": "Thanks for coming to help! There's so much to do before the play. Where do you want to start?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Thanks for helping with the school play! We have a lot of things to do.",
+      "vi": "Cảm ơn bạn đến giúp vở kịch của trường! Mình có rất nhiều việc phải làm."
+    },
+    {
+      "who": "you",
+      "en": "No problem. What's the first thing?",
+      "vi": "Không có gì. Việc đầu tiên là gì?"
+    },
+    {
+      "who": "ai",
+      "en": "The stage has a hole in the floor. Can you fix it? Here's a saw and some other tools.",
+      "vi": "Sân khấu có một cái lỗ trên sàn. Bạn sửa được không? Đây là cái cưa và vài dụng cụ khác."
+    },
+    {
+      "who": "you",
+      "en": "OK. What kind of wood do I use?",
+      "vi": "Được. Mình dùng loại gỗ nào?"
+    },
+    {
+      "who": "ai",
+      "en": "This type is good. Cut a small piece and cover the hole.",
+      "vi": "Loại này được đấy. Cắt một miếng nhỏ rồi che cái lỗ lại."
+    },
+    {
+      "who": "you",
+      "en": "Done. That makes a lot of noise! And what's that smell?",
+      "vi": "Xong. Ồn quá! Mà mùi gì thế nhỉ?"
+    },
+    {
+      "who": "ai",
+      "en": "It's the new paint for the sign above the door. The design is by a student.",
+      "vi": "Mùi sơn mới của tấm biển trên cửa. Mẫu thiết kế do một học sinh làm."
+    },
+    {
+      "who": "you",
+      "en": "It looks great. What's the next step?",
+      "vi": "Đẹp quá. Bước tiếp theo là gì?"
+    },
+    {
+      "who": "ai",
+      "en": "Put the chairs in order. There are two sections, one for parents and one for kids.",
+      "vi": "Xếp ghế cho ngay ngắn. Có hai khu, một cho phụ huynh và một cho trẻ con."
+    },
+    {
+      "who": "you",
+      "en": "How many items are on our list?",
+      "vi": "Danh sách của mình có bao nhiêu việc?"
+    },
+    {
+      "who": "ai",
+      "en": "Ten. Everything is due on Friday.",
+      "vi": "Mười việc. Hạn chót cho tất cả là thứ Sáu."
+    },
+    {
+      "who": "you",
+      "en": "What's the play about?",
+      "vi": "Vở kịch nói về điều gì?"
+    },
+    {
+      "who": "ai",
+      "en": "It's about a boy who finds a collection of old letters. Each letter is a memory of his grandfather.",
+      "vi": "Về một cậu bé tìm thấy một bộ sưu tập thư cũ. Mỗi lá thư là một kỷ niệm về ông của cậu."
+    },
+    {
+      "who": "you",
+      "en": "Nice. Who plays the main character?",
+      "vi": "Hay quá. Ai đóng nhân vật chính?"
+    },
+    {
+      "who": "ai",
+      "en": "My son! It's his first big role. His goal is to say every line without his paper.",
+      "vi": "Con trai mình! Đây là vai lớn đầu tiên của nó. Mục tiêu của nó là nói hết lời thoại mà không cần giấy."
+    },
+    {
+      "who": "you",
+      "en": "Ha ha. What's the reason for the play?",
+      "vi": "Ha ha. Vì sao trường làm vở kịch này?"
+    },
+    {
+      "who": "ai",
+      "en": "It's a school activity for the end of the year. Kids learn to work as a team and to take action.",
+      "vi": "Đây là hoạt động cuối năm của trường. Bọn trẻ học cách làm việc nhóm và chủ động hành động."
+    },
+    {
+      "who": "you",
+      "en": "Is there a bar for snacks?",
+      "vi": "Có quầy đồ ăn vặt không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, a small snack bar. We sell pop and cookies. Some people call pop soda.",
+      "vi": "Có, một quầy nhỏ. Bán nước ngọt có ga và bánh quy. Có người gọi nước ngọt là soda."
+    },
+    {
+      "who": "you",
+      "en": "Great. In any case, what's the plan for the following week?",
+      "vi": "Tuyệt. Dù sao thì kế hoạch cho tuần sau là gì?"
+    },
+    {
+      "who": "ai",
+      "en": "We will give parents a survey form. We want to know the result: did they like it?",
+      "vi": "Mình sẽ phát phiếu khảo sát cho phụ huynh. Mình muốn biết kết quả: họ có thích không?"
+    },
+    {
+      "who": "you",
+      "en": "Good point. It's a good way to make the next play better.",
+      "vi": "Ý hay. Đó là một cách tốt để vở kịch sau hay hơn."
+    },
+    {
+      "who": "ai",
+      "en": "Exactly. And it doesn't matter if it's not perfect. Happy kids make the difference.",
+      "vi": "Đúng vậy. Và không sao nếu không hoàn hảo. Bọn trẻ vui là điều làm nên khác biệt."
+    },
+    {
+      "who": "you",
+      "en": "What a sight! The theater looks wonderful now.",
+      "vi": "Đẹp quá! Giờ nhà hát trông tuyệt vời."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "topic": "work",
+  "title": "Phỏng vấn về nghề nghiệp",
+  "summary": "Một phóng viên hỏi bạn về công việc hiện tại, nghề mơ ước hồi nhỏ và nghề của người thân.",
+  "aiRole": "a friendly reporter from City News writing a story about jobs",
+  "learnerRole": "an engineer who agrees to answer some questions",
+  "setting": "a short street interview for a newspaper",
+  "roleplayOpening": "Hi! I'm a reporter from City News. Can I ask you a few questions about your job?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hi! I'm a reporter for City News. Can I ask you some questions about work?",
+      "vi": "Chào bạn! Tôi là phóng viên báo City News. Tôi hỏi bạn vài câu về công việc được không?"
+    },
+    {
+      "who": "you",
+      "en": "Sure. What's the story about?",
+      "vi": "Được chứ. Bài báo về chủ đề gì vậy?"
+    },
+    {
+      "who": "ai",
+      "en": "Dream jobs. What's your job now?",
+      "vi": "Nghề mơ ước. Hiện giờ bạn làm nghề gì?"
+    },
+    {
+      "who": "you",
+      "en": "I'm an engineer. I work in a big factory outside the city.",
+      "vi": "Tôi là kỹ sư. Tôi làm ở một nhà máy lớn ngoài thành phố."
+    },
+    {
+      "who": "ai",
+      "en": "Do you like your work?",
+      "vi": "Bạn có thích công việc của mình không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, but I'm very busy. I'm the leader of a team of ten workers, and I have meetings every day.",
+      "vi": "Có, nhưng tôi rất bận. Tôi là trưởng nhóm của mười công nhân, và ngày nào cũng họp."
+    },
+    {
+      "who": "ai",
+      "en": "What did you want to be when you were a child?",
+      "vi": "Hồi nhỏ bạn muốn làm nghề gì?"
+    },
+    {
+      "who": "you",
+      "en": "I wanted to be a singer or an actor. I loved movies and music.",
+      "vi": "Tôi muốn làm ca sĩ hoặc diễn viên. Tôi rất thích phim và âm nhạc."
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha! Many people say that. My brother wanted to be a spy, but now he's a cop, a police officer.",
+      "vi": "Ha ha! Nhiều người nói vậy lắm. Anh tôi từng muốn làm điệp viên, giờ anh ấy là cảnh sát."
+    },
+    {
+      "who": "you",
+      "en": "That's cool. My father was a farmer. We had a small farm in the country.",
+      "vi": "Hay thật. Bố tôi là nông dân. Nhà tôi có một trang trại nhỏ ở quê."
+    },
+    {
+      "who": "ai",
+      "en": "Did you help on the farm?",
+      "vi": "Bạn có giúp việc ở trang trại không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, every summer. And my uncle was a sailor. He traveled all over the world.",
+      "vi": "Có, mùa hè nào cũng giúp. Còn chú tôi là thủy thủ. Chú đã đi khắp thế giới."
+    },
+    {
+      "who": "ai",
+      "en": "What a family! Do you have a plan for the future?",
+      "vi": "Gia đình thú vị quá! Bạn có kế hoạch gì cho tương lai không?"
+    },
+    {
+      "who": "you",
+      "en": "I want to start my own business, maybe a small cafe. My wife was a waitress, so she knows a lot about it.",
+      "vi": "Tôi muốn tự kinh doanh, có lẽ mở một quán cà phê nhỏ. Vợ tôi từng làm bồi bàn nên cô ấy biết nhiều về việc này."
+    },
+    {
+      "who": "ai",
+      "en": "Great plan. Who will be the waiter?",
+      "vi": "Kế hoạch hay đấy. Ai sẽ làm người phục vụ?"
+    },
+    {
+      "who": "you",
+      "en": "Me, of course! My son wants to be a scientist or a football coach.",
+      "vi": "Tôi chứ ai! Con trai tôi muốn làm nhà khoa học hoặc huấn luyện viên bóng đá."
+    },
+    {
+      "who": "ai",
+      "en": "And your daughter?",
+      "vi": "Còn con gái bạn?"
+    },
+    {
+      "who": "you",
+      "en": "She's five. She wants to be a princess and marry a prince!",
+      "vi": "Con bé năm tuổi. Nó muốn làm công chúa và cưới hoàng tử!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha! And then she can be a queen, and he can be a king!",
+      "vi": "Ha ha! Rồi con bé làm hoàng hậu, còn cậu ấy làm vua!"
+    },
+    {
+      "who": "you",
+      "en": "Maybe! What about you? Do you like being a reporter?",
+      "vi": "Biết đâu đấy! Còn anh? Anh có thích làm phóng viên không?"
+    },
+    {
+      "who": "ai",
+      "en": "I love it. Tomorrow I have an interview with a famous musician and a writer.",
+      "vi": "Tôi rất thích. Ngày mai tôi phỏng vấn một nhạc sĩ và một nhà văn nổi tiếng."
+    },
+    {
+      "who": "you",
+      "en": "That's exciting. You're a great interviewer. Is your office near here?",
+      "vi": "Thú vị quá. Anh phỏng vấn giỏi thật. Văn phòng của anh có gần đây không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, it's over there, next to the bank. Thanks for your time!",
+      "vi": "Có, ở đằng kia, cạnh ngân hàng. Cảm ơn bạn đã dành thời gian!"
+    }
+  ]
+}

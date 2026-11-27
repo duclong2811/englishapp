@@ -1,0 +1,116 @@
+{
+  "topic": "speak-think",
+  "title": "Tập bài phát biểu",
+  "summary": "Bạn phải phát biểu ở công ty ngày mai. Một người bạn nghe thử và góp ý cho bạn.",
+  "aiRole": "a friendly coworker who is good at giving speeches",
+  "learnerRole": "a nervous employee who must give a short speech",
+  "setting": "an empty meeting room at the end of the day",
+  "roleplayOpening": "You look worried. Is it about the speech tomorrow?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "You look worried. What's wrong?",
+      "vi": "Trông bạn lo lắng thế. Có chuyện gì vậy?"
+    },
+    {
+      "who": "you",
+      "en": "I have to give a speech at work tomorrow. I'm afraid to speak in front of people.",
+      "vi": "Mai mình phải phát biểu ở công ty. Mình sợ nói trước đám đông."
+    },
+    {
+      "who": "ai",
+      "en": "Don't worry. Can I hear it now?",
+      "vi": "Đừng lo. Mình nghe thử bây giờ được không?"
+    },
+    {
+      "who": "you",
+      "en": "OK. Please listen and tell me what you think.",
+      "vi": "Được. Bạn nghe rồi cho mình biết bạn nghĩ gì nhé."
+    },
+    {
+      "who": "ai",
+      "en": "That was good! But I have one suggestion.",
+      "vi": "Hay đấy! Nhưng mình có một góp ý."
+    },
+    {
+      "who": "you",
+      "en": "What is it?",
+      "vi": "Là gì vậy?"
+    },
+    {
+      "who": "ai",
+      "en": "Look at the people when you talk. Don't look at your paper all the time.",
+      "vi": "Hãy nhìn mọi người khi nói. Đừng nhìn giấy suốt."
+    },
+    {
+      "who": "you",
+      "en": "That's a good idea. But I always forget my words.",
+      "vi": "Ý hay đấy. Nhưng mình hay quên lời lắm."
+    },
+    {
+      "who": "ai",
+      "en": "Imagine you are having a conversation with friends. Just say what you know.",
+      "vi": "Hãy tưởng tượng bạn đang trò chuyện với bạn bè. Cứ nói những gì bạn biết."
+    },
+    {
+      "who": "you",
+      "en": "I see what you mean. Can I ask you a question?",
+      "vi": "Mình hiểu ý bạn rồi. Mình hỏi bạn một câu được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Of course.",
+      "vi": "Tất nhiên."
+    },
+    {
+      "who": "you",
+      "en": "What do I do if someone asks me something and I don't know the answer?",
+      "vi": "Nếu có người hỏi mà mình không biết câu trả lời thì làm sao?"
+    },
+    {
+      "who": "ai",
+      "en": "Just say, \"Good question. I can call you later about it.\" People will understand.",
+      "vi": "Chỉ cần nói: \"Câu hỏi hay. Lát nữa tôi sẽ gọi lại cho anh chị về việc này.\" Mọi người sẽ hiểu."
+    },
+    {
+      "who": "you",
+      "en": "I agree. That's better than a wrong guess.",
+      "vi": "Mình đồng ý. Như vậy tốt hơn là đoán sai."
+    },
+    {
+      "who": "ai",
+      "en": "Yes. Do you remember the main points?",
+      "vi": "Đúng. Bạn có nhớ các ý chính không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. First I describe our project, and then we discuss the problems.",
+      "vi": "Có. Đầu tiên mình mô tả dự án, sau đó mọi người thảo luận các vấn đề."
+    },
+    {
+      "who": "ai",
+      "en": "Perfect. Do you believe you can do it?",
+      "vi": "Hoàn hảo. Bạn có tin là mình làm được không?"
+    },
+    {
+      "who": "you",
+      "en": "I believe I can. Tonight I can watch some videos of good speakers.",
+      "vi": "Mình tin là được. Tối nay mình sẽ xem vài video của những người nói hay."
+    },
+    {
+      "who": "ai",
+      "en": "Good. And remember, nobody will judge you. Everyone wants you to do well.",
+      "vi": "Tốt. Và nhớ là không ai phán xét bạn đâu. Ai cũng mong bạn làm tốt."
+    },
+    {
+      "who": "you",
+      "en": "Thank you. Will you come and see my speech tomorrow?",
+      "vi": "Cảm ơn bạn. Mai bạn có đến xem mình phát biểu không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, I'll be there. Good luck!",
+      "vi": "Có, mình sẽ ở đó. Chúc may mắn!"
+    }
+  ]
+}

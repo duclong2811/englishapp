@@ -1,0 +1,126 @@
+{
+  "topic": "school",
+  "title": "Họp phụ huynh",
+  "summary": "Bạn gặp cô giáo của con để hỏi về việc học: môn học, bài tập, điểm số và thư viện.",
+  "aiRole": "Ms. Lee, a kind primary school teacher",
+  "learnerRole": "a parent of a student named Minh",
+  "setting": "a classroom after school, at a parent-teacher meeting",
+  "roleplayOpening": "Good afternoon! Thank you for coming. What would you like to know about Minh?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Good afternoon. I'm Ms. Lee, Minh's teacher. Please come into the classroom.",
+      "vi": "Chào buổi chiều. Tôi là cô Lee, giáo viên của Minh. Mời anh vào lớp."
+    },
+    {
+      "who": "you",
+      "en": "Good afternoon. Thank you for meeting me. How is Minh at school?",
+      "vi": "Chào cô. Cảm ơn cô đã gặp tôi. Ở trường Minh học thế nào ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "He's a good student. He likes math and science very much.",
+      "vi": "Cháu là một học sinh ngoan. Cháu rất thích toán và khoa học."
+    },
+    {
+      "who": "you",
+      "en": "That's great. What about history?",
+      "vi": "Tốt quá. Còn môn lịch sử thì sao ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "History is hard for him, but he tries. He also needs to practice grammar in English class.",
+      "vi": "Lịch sử hơi khó với cháu, nhưng cháu cố gắng. Cháu cũng cần luyện ngữ pháp trong giờ tiếng Anh."
+    },
+    {
+      "who": "you",
+      "en": "Which subject is his best?",
+      "vi": "Môn nào cháu học tốt nhất ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Math. He got a good grade on the last test.",
+      "vi": "Toán. Bài kiểm tra vừa rồi cháu được điểm tốt."
+    },
+    {
+      "who": "you",
+      "en": "Does he do his homework?",
+      "vi": "Cháu có làm bài tập về nhà không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, but sometimes he forgets his notebook, his pen, his pencil, or his ruler.",
+      "vi": "Có, nhưng đôi khi cháu quên vở, bút mực, bút chì hoặc thước kẻ."
+    },
+    {
+      "who": "you",
+      "en": "Oh no. I'll check his bag every night.",
+      "vi": "Ôi. Tối nào tôi cũng sẽ kiểm tra cặp của cháu."
+    },
+    {
+      "who": "ai",
+      "en": "Thank you. He also needs to read more. Our school library has many good books.",
+      "vi": "Cảm ơn anh. Cháu cũng cần đọc nhiều hơn. Thư viện trường có nhiều sách hay."
+    },
+    {
+      "who": "you",
+      "en": "Can he borrow books from the library?",
+      "vi": "Cháu có được mượn sách ở thư viện không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, two books a week. There's also a bookstore near the school.",
+      "vi": "Có, mỗi tuần hai cuốn. Gần trường còn có hiệu sách."
+    },
+    {
+      "who": "you",
+      "en": "Should I buy him a dictionary?",
+      "vi": "Tôi có nên mua cho cháu một quyển từ điển không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, a small English dictionary is a great idea.",
+      "vi": "Có, một quyển từ điển tiếng Anh nhỏ là ý rất hay."
+    },
+    {
+      "who": "you",
+      "en": "What does he learn in this English course?",
+      "vi": "Khóa tiếng Anh này cháu học những gì ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Reading, writing, and speaking skills. I teach with games, and the kids love it.",
+      "vi": "Kỹ năng đọc, viết và nói. Tôi dạy bằng trò chơi, bọn trẻ thích lắm."
+    },
+    {
+      "who": "you",
+      "en": "He told me he likes writing on the board.",
+      "vi": "Cháu kể với tôi là cháu thích viết lên bảng."
+    },
+    {
+      "who": "ai",
+      "en": "Yes! He always wants to come to the board.",
+      "vi": "Đúng vậy! Lúc nào cháu cũng muốn lên bảng."
+    },
+    {
+      "who": "you",
+      "en": "I want him to study hard. Maybe he can go to a good college one day.",
+      "vi": "Tôi muốn cháu học chăm. Biết đâu sau này cháu vào được một trường đại học tốt."
+    },
+    {
+      "who": "ai",
+      "en": "I'm sure he can. But he's only in elementary school, so let him have fun, too.",
+      "vi": "Tôi tin là được. Nhưng cháu mới học tiểu học, nên cứ để cháu vui chơi nữa."
+    },
+    {
+      "who": "you",
+      "en": "Thank you. Is there anything else?",
+      "vi": "Cảm ơn cô. Còn gì nữa không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Please help him with page ten of his English book. And he needs paper for the art lesson tomorrow.",
+      "vi": "Anh giúp cháu làm trang mười sách tiếng Anh nhé. Và mai cháu cần mang giấy cho giờ mỹ thuật."
+    }
+  ]
+}

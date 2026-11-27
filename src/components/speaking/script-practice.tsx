@@ -236,6 +236,10 @@ export function ScriptPractice({
           <input type="checkbox" checked={hideEn} onChange={(e) => setHideEn(e.target.checked)} className="size-5 accent-accent" />
           Thử thách: ẩn câu tiếng Anh của bạn
         </label>
+        <label className="inline-flex min-h-11 items-center gap-2 text-sm text-ink-soft">
+          <input type="checkbox" checked={handsFree} onChange={(e) => setHandsFree(e.target.checked)} className="size-5 accent-accent" />
+          Tự bật micro đến lượt bạn
+        </label>
       </div>
 
       {phase === "ready" ? (
@@ -353,7 +357,8 @@ export function ScriptPractice({
         </section>
       ) : null}
 
-      <div ref={endRef} />
+      {/* Scroll margin keeps the newest line above the sticky controls and the tab bar. */}
+      <div ref={endRef} className="scroll-mb-[calc(13rem+env(safe-area-inset-bottom))] lg:scroll-mb-40" />
 
       {yourTurn || phase === "playing" ? (
         <div className="sticky bottom-[calc(4.5rem+env(safe-area-inset-bottom))] mt-6 border-t border-line bg-paper/95 py-3 backdrop-blur lg:bottom-0">
@@ -410,17 +415,6 @@ export function ScriptPractice({
             <button type="button" onClick={() => next("skipped")} disabled={!yourTurn || phase === "checking"} className={pill}>
               {results[index] && typeof results[index] === "object" ? "Tiếp" : "Bỏ qua"}
             </button>
-            {!manual ? (
-              <label className="inline-flex min-h-11 items-center gap-2 text-sm text-ink-soft">
-                <input
-                  type="checkbox"
-                  checked={handsFree}
-                  onChange={(e) => setHandsFree(e.target.checked)}
-                  className="size-5 accent-accent"
-                />
-                Tự bật micro
-              </label>
-            ) : null}
           </div>
         </div>
       ) : null}

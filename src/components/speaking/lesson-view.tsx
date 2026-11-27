@@ -28,10 +28,10 @@ export function LessonView({
     <>
       <div role="tablist" aria-label="Các bước" className="mb-6 flex max-w-[42rem] gap-1 rounded-full border border-line bg-sheet p-1">
         <button type="button" role="tab" aria-selected={step === "script"} onClick={() => setStep("script")} className={tab("script")}>
-          1. Luyện theo kịch bản
+          1. Theo kịch bản
         </button>
         <button type="button" role="tab" aria-selected={step === "roleplay"} onClick={() => setStep("roleplay")} className={tab("roleplay")}>
-          2. Nhập vai với AI
+          2. Nhập vai AI
         </button>
       </div>
       {/* Keyed so leaving a step stops its audio and starts it fresh next time. */}

@@ -1,0 +1,116 @@
+{
+  "topic": "feelings",
+  "title": "Trước ngày đi du học",
+  "summary": "Bạn sắp sang Úc du học. Một người bạn hỏi bạn cảm thấy thế nào: háo hức, lo lắng, nhớ nhà.",
+  "aiRole": "a close friend saying goodbye before the learner studies abroad",
+  "learnerRole": "a student who leaves for Australia next week",
+  "setting": "a farewell coffee with a close friend",
+  "roleplayOpening": "Only one week before you go to Australia! How are you feeling?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "So you leave for Australia next week! How do you feel?",
+      "vi": "Tuần sau bạn sang Úc rồi! Bạn thấy thế nào?"
+    },
+    {
+      "who": "you",
+      "en": "I feel excited, but I'm also a little afraid.",
+      "vi": "Mình thấy háo hức, nhưng cũng hơi sợ."
+    },
+    {
+      "who": "ai",
+      "en": "That's normal. What are you afraid of?",
+      "vi": "Bình thường thôi. Bạn sợ điều gì?"
+    },
+    {
+      "who": "you",
+      "en": "I worry about my English. And I'm shy with new people.",
+      "vi": "Mình lo về tiếng Anh. Mà mình lại ngại người lạ."
+    },
+    {
+      "who": "ai",
+      "en": "Don't worry. Your English is good, and you're very smart.",
+      "vi": "Đừng lo. Tiếng Anh của bạn tốt mà, bạn lại rất thông minh."
+    },
+    {
+      "who": "you",
+      "en": "Thank you. But I think I will be lonely at first.",
+      "vi": "Cảm ơn bạn. Nhưng chắc lúc đầu mình sẽ cô đơn."
+    },
+    {
+      "who": "ai",
+      "en": "Will you miss your family?",
+      "vi": "Bạn có nhớ gia đình không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, a lot. When I told my mother, she started to cry. Then she gave me a kiss.",
+      "vi": "Có, nhiều lắm. Khi mình nói với mẹ, mẹ bật khóc. Rồi mẹ hôn mình."
+    },
+    {
+      "who": "ai",
+      "en": "I'm sure she loves you very much. Are you interested in the city?",
+      "vi": "Chắc chắn mẹ rất thương bạn. Bạn có hứng thú với thành phố đó không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, very interested! I love the beaches there, and I want to enjoy the city life.",
+      "vi": "Có, rất hứng thú! Mình thích những bãi biển ở đó, và mình muốn tận hưởng cuộc sống thành phố."
+    },
+    {
+      "who": "ai",
+      "en": "It will be fun. Do you have a good feeling about your new school?",
+      "vi": "Sẽ vui lắm. Bạn có cảm giác tốt về trường mới không?"
+    },
+    {
+      "who": "you",
+      "en": "I hope the teachers are not too strict. I'm a bit lazy sometimes!",
+      "vi": "Mình mong thầy cô không quá nghiêm khắc. Đôi khi mình hơi lười!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha! You're not lazy, you're clever. Just be careful with money.",
+      "vi": "Ha ha! Bạn không lười đâu, bạn thông minh mà. Chỉ cần cẩn thận chuyện tiền bạc."
+    },
+    {
+      "who": "you",
+      "en": "I will. I don't want to be rude to people either. Is it OK to smile at strangers there?",
+      "vi": "Mình sẽ cẩn thận. Mình cũng không muốn bất lịch sự với ai. Ở đó cười với người lạ có được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes! People smile and laugh a lot. It's a pleasure to talk with them.",
+      "vi": "Được chứ! Người ta hay cười lắm. Nói chuyện với họ rất dễ chịu."
+    },
+    {
+      "who": "you",
+      "en": "Great. That makes me happy. I don't want to be sad there.",
+      "vi": "Tốt quá. Nghe vậy mình vui rồi. Mình không muốn buồn ở đó."
+    },
+    {
+      "who": "ai",
+      "en": "Do you mind if I visit you there?",
+      "vi": "Mình sang thăm bạn có được không?"
+    },
+    {
+      "who": "you",
+      "en": "Of course not! That would be a nice surprise.",
+      "vi": "Tất nhiên là được! Đó sẽ là một bất ngờ thú vị."
+    },
+    {
+      "who": "ai",
+      "en": "Then it's a plan! I wish you good luck.",
+      "vi": "Vậy quyết thế nhé! Chúc bạn may mắn."
+    },
+    {
+      "who": "you",
+      "en": "Thank you. I'm lucky to have a friend like you.",
+      "vi": "Cảm ơn bạn. Mình thật may mắn có người bạn như bạn."
+    },
+    {
+      "who": "ai",
+      "en": "Don't be angry if I bring my whole family with me!",
+      "vi": "Đừng giận nếu mình dẫn cả nhà sang nhé!"
+    }
+  ]
+}

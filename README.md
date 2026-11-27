@@ -28,7 +28,7 @@ Mọi thay đổi giao diện theo skill `.claude/skills/englishapp-ux/SKILL.md`
 1. Khung app và hệ thống thiết kế (xong).
 2. Kho từ vựng (đang làm): khoảng 8.600 từ A1–C2 từ dữ liệu mở. Toàn bộ 1.059 từ A1 đã có nghĩa tiếng Việt, chia thành 33 chủ đề (`src/content/vocab/topics.json`), mỗi chủ đề gồm các bộ khoảng 10 từ: học từng từ, làm bài kiểm tra cả bộ, kết quả đưa vào lịch ôn FSRS. Xem `src/content/vocab/SOURCES.md`.
 3. Bài học ngữ pháp: soạn từ sách nguồn đặt trong `sources/` (thư mục này không đưa lên git). Làm 3 bài thử trước khi nhân rộng.
-4. Luyện nói với AI (đã có bản đầu): 8 tình huống A1 trong `src/content/speaking/scenarios.ts`. Ghi âm trên trình duyệt, tự gửi khi người học ngừng nói; Workers AI Whisper chuyển thành chữ; Claude trả lời dạng stream và giọng đọc của máy đọc từng câu ngay khi câu đó về; cuối buổi có nhận xét bằng tiếng Việt.
+4. Luyện nói (đã có): mỗi chủ đề từ vựng có một bài nói trong `src/content/speaking/lessons/` (33 bài). Bước 1 là hội thoại soạn sẵn: AI đọc lời của mình, người học đọc câu gợi ý và app chấm từng từ (Workers AI Whisper, không tốn phí Claude). Bước 2 là nhập vai tự do với Claude theo chủ đề đó, cuối buổi có nhận xét. Ngoài ra có "Nói tự do" không kịch bản. Test bắt buộc mỗi bài dùng ít nhất 80% từ của chủ đề (hiện 88–100%).
 
 ## Đưa lên Cloudflare
 
@@ -42,9 +42,10 @@ App chạy trên Cloudflare Workers qua bộ chuyển đổi OpenNext (`@opennex
 
 ### Luyện nói cần gì
 
-- Workers AI (nhận giọng nói): đã khai báo trong `wrangler.jsonc` (`"ai": {"binding": "AI"}`), không cần làm gì thêm.
+- Workers AI (nhận giọng nói và giọng đọc tự nhiên Deepgram Aura-2): đã khai báo trong `wrangler.jsonc` (`"ai": {"binding": "AI"}`), không cần làm gì thêm.
 - Khóa Claude: Cloudflare dashboard, Worker `englishapp`, Settings, Variables and Secrets, thêm Secret tên `ANTHROPIC_API_KEY`. Thiếu khóa thì màn luyện nói chạy chế độ thử.
 - Tùy chọn: biến `SPEAK_CHAT_MODEL` (hội thoại) và `SPEAK_FEEDBACK_MODEL` (nhận xét) để đổi model; mặc định `claude-opus-5-5`.
+- Giọng đọc: Aura-2 tính khoảng 0,03 USD/1.000 ký tự, trừ vào hạn mức Workers AI (gói Free có 10.000 neuron miễn phí mỗi ngày; hết hạn mức thì app tự chuyển sang giọng của máy). Câu đọc được cache nên câu cố định trong bài chỉ trả tiền một lần. Người học có thể chọn "Giọng của máy" để không tốn gì.
 - Chạy trên máy: tạo `.dev.vars` chứa `ANTHROPIC_API_KEY=...` rồi `npm run cf:preview`.
 
 Cache Components của Next.js đang tắt vì OpenNext chưa hỗ trợ đầy đủ.

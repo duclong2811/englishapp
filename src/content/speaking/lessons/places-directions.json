@@ -1,0 +1,126 @@
+{
+  "topic": "places-directions",
+  "title": "Hỏi đường đến bảo tàng",
+  "summary": "Bạn bị lạc khi đi tìm bảo tàng thành phố. Một người dân chỉ đường và kể bên trong bảo tàng có gì.",
+  "aiRole": "a kind local person on the street",
+  "learnerRole": "a visitor looking for the City Museum",
+  "setting": "a street corner in the old town",
+  "roleplayOpening": "Hi! You look a bit lost. Can I help you find something?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hi! You look lost. Can I help you?",
+      "vi": "Chào bạn! Trông bạn như bị lạc. Tôi giúp gì được không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, please. I'm looking for the City Museum. Is it near here?",
+      "vi": "Vâng, nhờ anh. Tôi đang tìm Bảo tàng Thành phố. Có gần đây không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, it's not far away. Go straight along this street.",
+      "vi": "Có, không xa đâu. Đi thẳng dọc theo con phố này."
+    },
+    {
+      "who": "you",
+      "en": "Straight along this street. OK. And then?",
+      "vi": "Đi thẳng dọc phố này. Vâng. Rồi sao nữa ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "At the corner, turn left. Walk through the park and over the small bridge.",
+      "vi": "Đến góc phố thì rẽ trái. Đi xuyên qua công viên và qua cây cầu nhỏ."
+    },
+    {
+      "who": "you",
+      "en": "Through the park and over the bridge. Is the museum on the left side?",
+      "vi": "Qua công viên rồi qua cầu. Bảo tàng ở bên trái phải không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, between the bank and a cafe. It's a big white building.",
+      "vi": "Đúng, nằm giữa ngân hàng và một quán cà phê. Đó là một tòa nhà lớn màu trắng."
+    },
+    {
+      "who": "you",
+      "en": "Great. Is there a place to eat inside?",
+      "vi": "Tuyệt. Bên trong có chỗ ăn uống không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, there's a cafe at the top of the building, above the art rooms. It's a nice spot with a view.",
+      "vi": "Có, có một quán cà phê trên tầng thượng, phía trên các phòng tranh. Chỗ đó đẹp, nhìn ra xa được."
+    },
+    {
+      "who": "you",
+      "en": "Can I sit outside?",
+      "vi": "Tôi ngồi ngoài trời được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, there are tables outside on the roof.",
+      "vi": "Được, có bàn bên ngoài trên mái."
+    },
+    {
+      "who": "you",
+      "en": "Is the bus stop in front of the museum?",
+      "vi": "Bến xe buýt ở phía trước bảo tàng phải không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "No, it's behind it. Go around the building, and the bus stop is at the bottom of the hill.",
+      "vi": "Không, ở phía sau. Đi vòng quanh tòa nhà, bến xe buýt ở dưới chân dốc."
+    },
+    {
+      "who": "you",
+      "en": "So I go up the stairs to the museum, and then down the hill to the bus?",
+      "vi": "Vậy tôi đi lên cầu thang vào bảo tàng, rồi xuống dốc ra xe buýt?"
+    },
+    {
+      "who": "ai",
+      "en": "That's it. And next time, get off the bus there and walk back up.",
+      "vi": "Đúng vậy. Lần sau bạn xuống xe ở đó rồi đi bộ ngược lên."
+    },
+    {
+      "who": "you",
+      "en": "I see. Is there a toilet in the museum?",
+      "vi": "Tôi hiểu rồi. Trong bảo tàng có nhà vệ sinh không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, it's below the main hall, under the stairs.",
+      "vi": "Có, ở dưới sảnh chính, gầm cầu thang."
+    },
+    {
+      "who": "you",
+      "en": "Thanks. Can I take my bag into the museum?",
+      "vi": "Cảm ơn anh. Tôi mang túi vào bảo tàng được không?"
+    },
+    {
+      "who": "ai",
+      "en": "No, you have to leave it at the desk beside the door. Take your phone out first.",
+      "vi": "Không, bạn phải gửi ở quầy cạnh cửa. Nhớ lấy điện thoại ra trước."
+    },
+    {
+      "who": "you",
+      "en": "OK. Where can I buy a ticket?",
+      "vi": "Vâng. Tôi mua vé ở đâu ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "In the middle of the hall. There's a short film, too. Sit in the front row!",
+      "vi": "Ở giữa sảnh. Còn có một bộ phim ngắn nữa. Ngồi hàng đầu nhé!"
+    },
+    {
+      "who": "you",
+      "en": "Thank you so much. There are interesting places everywhere here!",
+      "vi": "Cảm ơn anh nhiều. Ở đây chỗ nào cũng có nơi thú vị!"
+    },
+    {
+      "who": "ai",
+      "en": "There are! Enjoy your day!",
+      "vi": "Đúng vậy! Chúc bạn một ngày vui vẻ!"
+    }
+  ]
+}

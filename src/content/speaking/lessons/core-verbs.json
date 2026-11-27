@@ -1,0 +1,136 @@
+{
+  "topic": "core-verbs",
+  "title": "Chuẩn bị tiệc sinh nhật",
+  "summary": "Bạn sang giúp một người bạn chuẩn bị tiệc sinh nhật: làm bánh, bày bàn, cho mèo ăn, đón khách.",
+  "aiRole": "a friend preparing a birthday party at home",
+  "learnerRole": "a friend who comes to help",
+  "setting": "the friend's home, one hour before the party",
+  "roleplayOpening": "Thanks for coming! The guests arrive in one hour. Can you help me?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Thanks for coming to help! Can you help me make the cake?",
+      "vi": "Cảm ơn bạn đã sang giúp! Bạn giúp mình làm bánh được không?"
+    },
+    {
+      "who": "you",
+      "en": "Sure. What do you want me to do? I can try.",
+      "vi": "Được chứ. Bạn muốn mình làm gì? Mình sẽ thử."
+    },
+    {
+      "who": "ai",
+      "en": "Can you get the eggs and milk from the fridge?",
+      "vi": "Bạn lấy giúp trứng và sữa trong tủ lạnh nhé?"
+    },
+    {
+      "who": "you",
+      "en": "Let me check. Here they are. What do you need next?",
+      "vi": "Để mình xem. Đây rồi. Tiếp theo bạn cần gì?"
+    },
+    {
+      "who": "ai",
+      "en": "Add the sugar to the eggs. Then shake the cream before you use it.",
+      "vi": "Cho đường vào trứng. Rồi lắc hộp kem trước khi dùng."
+    },
+    {
+      "who": "you",
+      "en": "Done. When do the guests arrive?",
+      "vi": "Xong rồi. Khi nào khách đến?"
+    },
+    {
+      "who": "ai",
+      "en": "At seven. We have to hurry! Can you find the candles?",
+      "vi": "Lúc bảy giờ. Mình phải nhanh lên! Bạn tìm giúp mấy cây nến nhé?"
+    },
+    {
+      "who": "you",
+      "en": "Here they are. Should I set the table now?",
+      "vi": "Đây rồi. Mình bày bàn luôn nhé?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, please. Choose the blue plates. And don't touch the oven. It's very hot.",
+      "vi": "Ừ, nhờ bạn. Chọn đĩa xanh nhé. Và đừng chạm vào lò nướng. Nóng lắm đấy."
+    },
+    {
+      "who": "you",
+      "en": "OK. What happened to your cat? She is crying.",
+      "vi": "Được. Con mèo nhà bạn bị sao vậy? Nó đang kêu."
+    },
+    {
+      "who": "ai",
+      "en": "Oh, I forgot to feed her! Can you give her some food? The box is next to the door.",
+      "vi": "Ôi, mình quên cho nó ăn! Bạn cho nó ít đồ ăn được không? Hộp ở cạnh cửa."
+    },
+    {
+      "who": "you",
+      "en": "Sure. Your cat has become so big! She is growing fast. Who takes care of her when you leave for work?",
+      "vi": "Được. Mèo nhà bạn lớn quá! Nó lớn nhanh thật. Khi bạn đi làm thì ai chăm nó?"
+    },
+    {
+      "who": "ai",
+      "en": "My neighbor. She lives next door, and she comes in when I go out. Can you move that chair and turn it to the table?",
+      "vi": "Hàng xóm mình. Cô ấy sống ngay bên cạnh, mình đi vắng thì cô ấy sang. Bạn chuyển cái ghế kia và xoay nó về phía bàn được không?"
+    },
+    {
+      "who": "you",
+      "en": "Done. We need to solve one problem: there aren't enough chairs.",
+      "vi": "Xong. Mình cần giải quyết một vấn đề: không đủ ghế."
+    },
+    {
+      "who": "ai",
+      "en": "Let me show you. There are more chairs in the bedroom. My grandma is coming, and she needs a soft one. She always prays before dinner.",
+      "vi": "Để mình chỉ cho. Trong phòng ngủ còn ghế. Bà mình sẽ đến, bà cần ghế êm. Bà luôn cầu nguyện trước bữa tối."
+    },
+    {
+      "who": "you",
+      "en": "That's nice. Should I start the music now?",
+      "vi": "Hay quá. Mình bật nhạc luôn nhé?"
+    },
+    {
+      "who": "ai",
+      "en": "Wait, stop! Let's focus on the food and finish it first. We can begin the music later and change our clothes.",
+      "vi": "Khoan, dừng đã! Tập trung làm xong đồ ăn trước. Lát nữa mình mở nhạc và thay quần áo sau."
+    },
+    {
+      "who": "you",
+      "en": "There's a mosquito on your arm! Let me kill it.",
+      "vi": "Có con muỗi trên tay bạn! Để mình đập nó."
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha, thanks. Listen, the doorbell is ringing! They're here! Can you wait at the door?",
+      "vi": "Ha ha, cảm ơn. Nghe kìa, chuông cửa reo! Họ đến rồi! Bạn ra cửa đón được không?"
+    },
+    {
+      "who": "you",
+      "en": "Sure. And let's bring the cake to the table.",
+      "vi": "Được. Và mang bánh ra bàn đi."
+    },
+    {
+      "who": "ai",
+      "en": "OK. The candles are ready. Come on, blow them out and make a wish!",
+      "vi": "Được. Nến sẵn sàng rồi. Nào, thổi nến và ước một điều đi!"
+    },
+    {
+      "who": "you",
+      "en": "Happy birthday! Stay healthy, and I hope you win the lottery!",
+      "vi": "Chúc mừng sinh nhật! Mạnh khỏe nhé, và mong bạn trúng xổ số!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha, thank you! Please take some cake home, and keep some for later.",
+      "vi": "Ha ha, cảm ơn bạn! Mang ít bánh về nhé, để dành ăn sau."
+    },
+    {
+      "who": "you",
+      "en": "I'll share it with my family. My kids collect birthday candles, too!",
+      "vi": "Mình sẽ chia cho cả nhà. Bọn trẻ nhà mình còn sưu tầm nến sinh nhật nữa!"
+    },
+    {
+      "who": "ai",
+      "en": "Then take the candles, too. And you can join us at the next party!",
+      "vi": "Vậy mang cả nến về nhé. Lần tiệc sau bạn lại đến chơi nhé!"
+    }
+  ]
+}

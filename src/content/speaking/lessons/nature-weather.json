@@ -1,0 +1,111 @@
+{
+  "topic": "nature-weather",
+  "title": "Lên kế hoạch cắm trại",
+  "summary": "Bạn và một người bạn xem thời tiết, chọn chỗ cắm trại trên núi và kể về những chuyến đi trước.",
+  "aiRole": "a friend planning a camping trip with the learner",
+  "learnerRole": "a friend who checks the weather",
+  "setting": "the evening before a weekend camping trip",
+  "roleplayOpening": "We're going camping tomorrow! Did you check the weather?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "What's the weather like tomorrow? We're going camping!",
+      "vi": "Thời tiết ngày mai thế nào? Mình đi cắm trại mà!"
+    },
+    {
+      "who": "you",
+      "en": "The news says it will be sunny in the morning, but cloudy in the afternoon.",
+      "vi": "Bản tin nói buổi sáng nắng, nhưng buổi chiều nhiều mây."
+    },
+    {
+      "who": "ai",
+      "en": "Will it rain?",
+      "vi": "Có mưa không?"
+    },
+    {
+      "who": "you",
+      "en": "Maybe a little. It's the rainy season.",
+      "vi": "Có thể mưa một chút. Đang mùa mưa mà."
+    },
+    {
+      "who": "ai",
+      "en": "Hmm. Where should we camp, at the beach or in the mountains?",
+      "vi": "Hừm. Mình nên cắm trại ở đâu, biển hay núi?"
+    },
+    {
+      "who": "you",
+      "en": "Let's go to the mountains. The beach is too hot in the sun.",
+      "vi": "Lên núi đi. Ở biển nắng nóng quá."
+    },
+    {
+      "who": "ai",
+      "en": "Good idea. There's a nice field near the river, with big trees and green grass.",
+      "vi": "Ý hay. Có một bãi đất đẹp gần sông, có cây to và cỏ xanh."
+    },
+    {
+      "who": "you",
+      "en": "Great. We can sit on the ground and look at the moon and the sky at night.",
+      "vi": "Tuyệt. Buổi tối mình có thể ngồi dưới đất ngắm trăng và bầu trời."
+    },
+    {
+      "who": "ai",
+      "en": "Can we make a fire?",
+      "vi": "Mình đốt lửa được không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, but be careful. The wind is strong there. Put stones around the fire.",
+      "vi": "Được, nhưng phải cẩn thận. Ở đó gió mạnh. Xếp đá xung quanh đống lửa nhé."
+    },
+    {
+      "who": "ai",
+      "en": "Is it cold at night?",
+      "vi": "Ban đêm có lạnh không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, a bit. In the morning it's often foggy on the hill.",
+      "vi": "Có, hơi lạnh. Buổi sáng trên đồi thường có sương mù."
+    },
+    {
+      "who": "ai",
+      "en": "I love that. Last year I went to Japan in winter. There was snow everywhere!",
+      "vi": "Mình thích thế. Năm ngoái mình sang Nhật vào mùa đông. Chỗ nào cũng có tuyết!"
+    },
+    {
+      "who": "you",
+      "en": "Wow! I've never seen snow. Was it snowy every day?",
+      "vi": "Ồ! Mình chưa thấy tuyết bao giờ. Ngày nào cũng có tuyết à?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, and the lake was ice. In spring there were beautiful flowers and pink leaves.",
+      "vi": "Có, mặt hồ đóng băng. Mùa xuân thì có hoa đẹp và lá hồng."
+    },
+    {
+      "who": "you",
+      "en": "My mother loves flowers. She grows roses and lilies in her garden.",
+      "vi": "Mẹ mình rất thích hoa. Mẹ trồng hoa hồng và hoa ly trong vườn."
+    },
+    {
+      "who": "ai",
+      "en": "Nice. Let's take photos of the flowers on the mountain.",
+      "vi": "Hay quá. Mình chụp ảnh hoa trên núi nhé."
+    },
+    {
+      "who": "you",
+      "en": "Next time, we can go to an island in the sea.",
+      "vi": "Lần sau mình có thể ra một hòn đảo ngoài biển."
+    },
+    {
+      "who": "ai",
+      "en": "Yes! There's no pollution there, just sunshine and clean water.",
+      "vi": "Đúng! Ở đó không ô nhiễm, chỉ có nắng và nước trong."
+    },
+    {
+      "who": "you",
+      "en": "Perfect. And tomorrow, if there's a big black cloud, we can stay in the tent.",
+      "vi": "Tuyệt. Còn ngày mai, nếu có đám mây đen to thì mình ở trong lều."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "topic": "transport-city",
+  "title": "Ở quầy thông tin du lịch",
+  "summary": "Bạn đến một thành phố mới, hỏi quầy thông tin cách đi đến cung điện, ngôi đền, hòn đảo và sân bay.",
+  "aiRole": "a helpful officer at a tourist information desk",
+  "learnerRole": "a tourist on a short trip",
+  "setting": "the tourist information desk in the city center",
+  "roleplayOpening": "Hello and welcome to the city! Where would you like to go today?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hello! Welcome to the city. How can I help you?",
+      "vi": "Xin chào! Chào mừng bạn đến thành phố. Tôi giúp gì được cho bạn?"
+    },
+    {
+      "who": "you",
+      "en": "Hi. I'm here on a short trip. Can I have a map of the city, please?",
+      "vi": "Chào anh. Tôi đến đây du lịch ngắn ngày. Cho tôi xin bản đồ thành phố được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Of course. Here you are. Where do you want to go?",
+      "vi": "Tất nhiên. Của bạn đây. Bạn muốn đi đâu?"
+    },
+    {
+      "who": "you",
+      "en": "I want to see the old palace and the famous temple.",
+      "vi": "Tôi muốn xem cung điện cổ và ngôi đền nổi tiếng."
+    },
+    {
+      "who": "ai",
+      "en": "Great choice. The palace is a beautiful yellow building, two blocks from here. You can walk or ride a bike.",
+      "vi": "Chọn hay đấy. Cung điện là một tòa nhà màu vàng rất đẹp, cách đây hai dãy nhà. Bạn có thể đi bộ hoặc đạp xe."
+    },
+    {
+      "who": "you",
+      "en": "Can I rent a bicycle near here?",
+      "vi": "Gần đây tôi thuê xe đạp được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, next to the bank on this street. Or you can take a taxi.",
+      "vi": "Được, cạnh ngân hàng trên phố này. Hoặc bạn có thể đi taxi."
+    },
+    {
+      "who": "you",
+      "en": "How do I get to the temple?",
+      "vi": "Tôi đến ngôi đền bằng cách nào?"
+    },
+    {
+      "who": "ai",
+      "en": "Take the subway to Central Station. The temple is near the station, behind the old church.",
+      "vi": "Đi tàu điện ngầm đến Ga Trung tâm. Ngôi đền ở gần ga, phía sau nhà thờ cổ."
+    },
+    {
+      "who": "you",
+      "en": "Is there a tower with a view?",
+      "vi": "Có tòa tháp nào ngắm cảnh được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, the TV tower near the bridge. You can see the whole town from the top.",
+      "vi": "Có, tháp truyền hình gần cây cầu. Từ trên đỉnh bạn nhìn thấy cả thị trấn."
+    },
+    {
+      "who": "you",
+      "en": "Great. Tomorrow I want to visit the island. Is there a boat?",
+      "vi": "Tuyệt. Ngày mai tôi muốn ra đảo. Có thuyền không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, a boat leaves every hour. A big ship goes on Sundays.",
+      "vi": "Có, mỗi tiếng có một chuyến thuyền. Chủ nhật có tàu lớn."
+    },
+    {
+      "who": "you",
+      "en": "The day after, I fly home. How do I get to the airport?",
+      "vi": "Ngày kia tôi bay về. Tôi ra sân bay bằng cách nào?"
+    },
+    {
+      "who": "ai",
+      "en": "There's a train every thirty minutes, or you can take a bus. The bus driver will help with your bags.",
+      "vi": "Cứ ba mươi phút có một chuyến tàu, hoặc bạn đi xe buýt. Tài xế xe buýt sẽ giúp bạn mang hành lý."
+    },
+    {
+      "who": "you",
+      "en": "Is it easy to get a seat on the train?",
+      "vi": "Lên tàu có dễ có chỗ ngồi không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, it's not busy in the morning. You can see airplanes and big jets from the train window.",
+      "vi": "Có, buổi sáng không đông. Từ cửa sổ tàu bạn còn thấy máy bay và cả phản lực lớn."
+    },
+    {
+      "who": "you",
+      "en": "Nice. Is the post office near my hotel? My hotel is on Green Street.",
+      "vi": "Hay quá. Bưu điện có gần khách sạn tôi không? Khách sạn tôi ở phố Green."
+    },
+    {
+      "who": "ai",
+      "en": "Yes, Green Street is between the post office and the park.",
+      "vi": "Có, phố Green nằm giữa bưu điện và công viên."
+    },
+    {
+      "who": "you",
+      "en": "Can I drive in the city? I want to rent a car.",
+      "vi": "Tôi lái xe trong thành phố được không? Tôi muốn thuê ô tô."
+    },
+    {
+      "who": "ai",
+      "en": "I don't think it's a good idea. The streets are busy, and there are a lot of trucks. Try a cyclo, a bike with three wheels!",
+      "vi": "Tôi nghĩ không nên. Đường phố đông, lại nhiều xe tải. Hãy thử xích lô, một loại xe ba bánh!"
+    },
+    {
+      "who": "you",
+      "en": "OK, no car. What's good in the evening?",
+      "vi": "Được, không thuê ô tô nữa. Buổi tối có gì hay?"
+    },
+    {
+      "who": "ai",
+      "en": "There's a play at the City Theater and a new movie at the cinema near the town hall. Enjoy your travel!",
+      "vi": "Có một vở kịch ở Nhà hát Thành phố và một bộ phim mới ở rạp chiếu phim gần tòa thị chính. Chúc bạn đi chơi vui vẻ!"
+    }
+  ]
+}

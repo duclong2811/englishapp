@@ -1,0 +1,136 @@
+{
+  "topic": "free-time",
+  "title": "Làm quen ở câu lạc bộ",
+  "summary": "Bạn tham gia một câu lạc bộ cuối tuần và trò chuyện về thể thao, âm nhạc, phim ảnh và các sở thích khác.",
+  "aiRole": "Jake, an American member of a weekend club for sports and hobbies",
+  "learnerRole": "a new member of the club",
+  "setting": "the first meeting at a weekend hobby club",
+  "roleplayOpening": "Hi! Welcome to the club. What do you like to do in your free time?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hi! Welcome to our weekend club. What's your hobby?",
+      "vi": "Chào bạn! Chào mừng bạn đến câu lạc bộ cuối tuần. Sở thích của bạn là gì?"
+    },
+    {
+      "who": "you",
+      "en": "I love sports. I play football every Sunday.",
+      "vi": "Mình rất thích thể thao. Chủ nhật nào mình cũng đá bóng."
+    },
+    {
+      "who": "ai",
+      "en": "In America we say soccer! Do you like other sports?",
+      "vi": "Ở Mỹ bọn mình gọi là soccer! Bạn có thích môn thể thao nào khác không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. I play tennis and volleyball, and I watch basketball on TV.",
+      "vi": "Có. Mình chơi quần vợt và bóng chuyền, còn bóng rổ thì xem trên TV."
+    },
+    {
+      "who": "ai",
+      "en": "Do you like baseball? It's very popular in my country.",
+      "vi": "Bạn có thích bóng chày không? Ở nước mình môn này rất phổ biến."
+    },
+    {
+      "who": "you",
+      "en": "I don't know it well. Is it a fun game?",
+      "vi": "Mình không rành lắm. Trò đó có vui không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes! Can you swim? We have a swimming pool here.",
+      "vi": "Vui lắm! Bạn biết bơi không? Ở đây có bể bơi đấy."
+    },
+    {
+      "who": "you",
+      "en": "I love swimming. I swim in the pool twice a week. I also like to surf at the beach.",
+      "vi": "Mình rất thích bơi. Mỗi tuần mình bơi ở bể hai lần. Mình còn thích lướt sóng ở biển."
+    },
+    {
+      "who": "ai",
+      "en": "Cool! Do you watch the Olympics?",
+      "vi": "Hay quá! Bạn có xem Thế vận hội không?"
+    },
+    {
+      "who": "you",
+      "en": "Of course. I'm a big fan. My favorite player is a football star from Brazil.",
+      "vi": "Tất nhiên. Mình là fan cứng. Cầu thủ mình thích nhất là một ngôi sao bóng đá người Brazil."
+    },
+    {
+      "who": "ai",
+      "en": "Did you see the big match last night?",
+      "vi": "Tối qua bạn có xem trận đấu lớn không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes! It was exciting. What about you? What do you do for fun?",
+      "vi": "Có! Hấp dẫn lắm. Còn bạn? Bạn làm gì cho vui?"
+    },
+    {
+      "who": "ai",
+      "en": "I love music. I play the guitar and the piano in a band. My friend plays the drums.",
+      "vi": "Mình mê âm nhạc. Mình chơi ghi-ta và piano trong một ban nhạc. Bạn mình chơi trống."
+    },
+    {
+      "who": "you",
+      "en": "Wow! Do you sing, too?",
+      "vi": "Ồ! Bạn có hát không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes. We have a concert next month and a new album with ten songs.",
+      "vi": "Có. Tháng sau bọn mình có buổi hòa nhạc và một album mới mười bài hát."
+    },
+    {
+      "who": "you",
+      "en": "I want to come! I like dancing, and my sister can dance very well.",
+      "vi": "Mình muốn đi! Mình thích nhảy, em gái mình nhảy rất giỏi."
+    },
+    {
+      "who": "ai",
+      "en": "Great! Do you like opera? My mother loves it.",
+      "vi": "Tuyệt! Bạn có thích nhạc opera không? Mẹ mình rất thích."
+    },
+    {
+      "who": "you",
+      "en": "Not really. I like movies, cartoons, and dramas.",
+      "vi": "Không lắm. Mình thích phim, phim hoạt hình và phim truyền hình."
+    },
+    {
+      "who": "ai",
+      "en": "Me too. Do you like art? This club has painting classes.",
+      "vi": "Mình cũng vậy. Bạn có thích nghệ thuật không? Câu lạc bộ có lớp vẽ tranh."
+    },
+    {
+      "who": "you",
+      "en": "I can't paint or draw well, but I love pictures. I have a poster of a famous painting in my room.",
+      "vi": "Mình vẽ không giỏi, nhưng mình thích tranh. Trong phòng mình có tấm áp phích một bức tranh nổi tiếng."
+    },
+    {
+      "who": "ai",
+      "en": "Our club has a drawing contest next week. You can try!",
+      "vi": "Tuần sau câu lạc bộ có cuộc thi vẽ. Bạn thử xem!"
+    },
+    {
+      "who": "you",
+      "en": "Maybe. Do you have fishing trips, too?",
+      "vi": "Có thể. Câu lạc bộ có đi câu cá không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes! And we go to camp in the mountains in summer. The kids play with balls and fly kites.",
+      "vi": "Có! Mùa hè còn đi cắm trại trên núi. Bọn trẻ chơi bóng và thả diều."
+    },
+    {
+      "who": "you",
+      "en": "My daughter loves kites. She also plays with her doll and her toys all day.",
+      "vi": "Con gái mình rất thích diều. Con bé còn chơi búp bê và đồ chơi cả ngày."
+    },
+    {
+      "who": "ai",
+      "en": "Bring her! It's a family club.",
+      "vi": "Dẫn bé đến nhé! Đây là câu lạc bộ gia đình mà."
+    }
+  ]
+}

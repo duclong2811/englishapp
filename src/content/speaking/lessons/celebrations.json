@@ -1,0 +1,81 @@
+{
+  "topic": "celebrations",
+  "title": "Kể về Tết",
+  "summary": "Một người bạn nước ngoài hỏi về lễ hội ở Việt Nam. Bạn kể về Tết, Trung thu và hỏi về lễ hội ở nước họ.",
+  "aiRole": "Anna, a foreign friend curious about Vietnamese festivals",
+  "learnerRole": "a Vietnamese friend",
+  "setting": "a chat in late December",
+  "roleplayOpening": "Tet is coming soon, right? How do people celebrate it?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "What festivals do you celebrate in Vietnam?",
+      "vi": "Ở Việt Nam các bạn đón những lễ hội nào?"
+    },
+    {
+      "who": "you",
+      "en": "Our biggest celebration is Tet, the Lunar New Year.",
+      "vi": "Lễ lớn nhất của chúng mình là Tết, Tết Nguyên đán."
+    },
+    {
+      "who": "ai",
+      "en": "What do people do at Tet?",
+      "vi": "Người ta làm gì vào dịp Tết?"
+    },
+    {
+      "who": "you",
+      "en": "We visit our families and give gifts. Children get lucky money in red envelopes.",
+      "vi": "Mọi người đi thăm gia đình và tặng quà. Trẻ con được lì xì trong phong bao đỏ."
+    },
+    {
+      "who": "ai",
+      "en": "That's a nice present! Are there any parties?",
+      "vi": "Món quà dễ thương quá! Có tiệc tùng gì không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, family parties with a lot of food. People also put flags on the streets.",
+      "vi": "Có, tiệc gia đình với rất nhiều đồ ăn. Người ta còn treo cờ trên phố."
+    },
+    {
+      "who": "ai",
+      "en": "In my town, we ring a big bell at New Year.",
+      "vi": "Ở thị trấn mình, người ta đánh một cái chuông lớn vào năm mới."
+    },
+    {
+      "who": "you",
+      "en": "We do too, at the temples. Do you celebrate Halloween in your country?",
+      "vi": "Ở đây cũng vậy, ở các chùa. Nước bạn có đón Halloween không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes! Kids dress up as ghosts and fairies. It's a fun event.",
+      "vi": "Có! Bọn trẻ hóa trang thành ma và tiên. Vui lắm."
+    },
+    {
+      "who": "you",
+      "en": "That sounds fun. We have the Mid-Autumn Festival for kids, with lanterns and moon cakes.",
+      "vi": "Nghe vui đấy. Chúng mình có Tết Trung thu cho trẻ con, với đèn lồng và bánh trung thu."
+    },
+    {
+      "who": "ai",
+      "en": "Lovely! Do families have picnics, too?",
+      "vi": "Dễ thương quá! Các gia đình có đi dã ngoại không?"
+    },
+    {
+      "who": "you",
+      "en": "Sometimes. In spring, we often have a picnic in the park.",
+      "vi": "Thỉnh thoảng. Mùa xuân mọi người hay đi dã ngoại ở công viên."
+    },
+    {
+      "who": "ai",
+      "en": "Can I visit your family at Tet next year?",
+      "vi": "Năm sau mình đến thăm gia đình bạn dịp Tết được không?"
+    },
+    {
+      "who": "you",
+      "en": "Of course! You can join our celebration. Bring a small gift for my grandma.",
+      "vi": "Tất nhiên rồi! Bạn đến đón Tết cùng nhà mình. Nhớ mang một món quà nhỏ cho bà mình nhé."
+    }
+  ]
+}

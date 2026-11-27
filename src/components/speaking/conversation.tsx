@@ -361,7 +361,7 @@ export function Conversation({
         />
       ) : null}
 
-      <div ref={endRef} />
+      <div ref={endRef} className="scroll-mb-[calc(12rem+env(safe-area-inset-bottom))] lg:scroll-mb-40" />
 
       {phase !== "ready" && phase !== "ended" ? (
         <div className="sticky bottom-[calc(4.5rem+env(safe-area-inset-bottom))] mt-6 border-t border-line bg-paper/95 py-3 backdrop-blur lg:bottom-0">

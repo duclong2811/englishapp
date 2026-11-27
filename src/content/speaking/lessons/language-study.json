@@ -1,0 +1,106 @@
+{
+  "topic": "language-study",
+  "title": "Trong giờ học tiếng Anh",
+  "summary": "Bạn học một bài đọc trên lớp: đọc theo cô giáo, hỏi nghĩa từ, đánh vần, làm bài điền từ.",
+  "aiRole": "a patient English teacher leading a reading lesson",
+  "learnerRole": "an adult student in the class",
+  "setting": "an English classroom",
+  "roleplayOpening": "OK, everyone. Today we're reading a short story. Are you ready?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "OK, class. Today's topic is my home. Please open your books to the story on page twelve.",
+      "vi": "Nào cả lớp. Chủ đề hôm nay là ngôi nhà của tôi. Các em mở sách ra trang mười hai, bài đọc là một câu chuyện."
+    },
+    {
+      "who": "you",
+      "en": "Excuse me, teacher. Should we read it out loud?",
+      "vi": "Thưa cô, chúng em có đọc to lên không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes. First, I will read the first paragraph. Then you repeat after me.",
+      "vi": "Có. Đầu tiên cô đọc đoạn văn đầu. Sau đó các em đọc theo cô."
+    },
+    {
+      "who": "you",
+      "en": "OK. What does this word mean? Cozy?",
+      "vi": "Vâng. Từ này nghĩa là gì ạ? Cozy?"
+    },
+    {
+      "who": "ai",
+      "en": "Good question. Cozy means warm and comfortable. Can you make a sentence with it?",
+      "vi": "Câu hỏi hay. Cozy nghĩa là ấm cúng và dễ chịu. Em đặt câu với từ này được không?"
+    },
+    {
+      "who": "you",
+      "en": "My bedroom is small and cozy.",
+      "vi": "Phòng ngủ của em nhỏ và ấm cúng."
+    },
+    {
+      "who": "ai",
+      "en": "Excellent example! Now, underline all the new words in the story.",
+      "vi": "Ví dụ rất hay! Giờ các em gạch chân tất cả từ mới trong câu chuyện."
+    },
+    {
+      "who": "you",
+      "en": "There are a lot. Can I write them in a list?",
+      "vi": "Nhiều lắm ạ. Em viết chúng thành một danh sách được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes. Make a list and copy the meaning next to each word.",
+      "vi": "Được. Lập danh sách và chép nghĩa bên cạnh mỗi từ."
+    },
+    {
+      "who": "you",
+      "en": "How do you spell comfortable?",
+      "vi": "Từ comfortable đánh vần thế nào ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "C, O, M, F, O, R, T, A, B, L, E. It's a long one! Now, fill in each blank with a word from your list.",
+      "vi": "C, O, M, F, O, R, T, A, B, L, E. Từ này dài đấy! Giờ các em điền vào mỗi chỗ trống một từ trong danh sách."
+    },
+    {
+      "who": "you",
+      "en": "I'm done. Can you check my answers?",
+      "vi": "Em làm xong rồi. Cô xem giúp em đáp án được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Good work. Just one small mistake. Kitchen has the letter T before C, H.",
+      "vi": "Làm tốt lắm. Chỉ có một lỗi nhỏ. Từ kitchen có chữ T trước C, H."
+    },
+    {
+      "who": "you",
+      "en": "Thank you. I'm a slow reader. How can I read faster?",
+      "vi": "Cảm ơn cô. Em đọc chậm lắm. Làm sao để đọc nhanh hơn ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Read a little every day. Reading short stories is a good start. Some students read a poem every night.",
+      "vi": "Mỗi ngày đọc một chút. Đọc truyện ngắn là khởi đầu tốt. Có bạn tối nào cũng đọc một bài thơ."
+    },
+    {
+      "who": "you",
+      "en": "I like poems. They're short!",
+      "vi": "Em thích thơ. Thơ ngắn mà!"
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha. For homework, write five sentences about your home, and review today's words.",
+      "vi": "Ha ha. Bài tập về nhà: viết năm câu về ngôi nhà của em, và ôn lại từ hôm nay."
+    },
+    {
+      "who": "you",
+      "en": "Can I make a note of that?",
+      "vi": "Em ghi lại được không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Of course. English is a beautiful language. Practice a little every day!",
+      "vi": "Tất nhiên. Tiếng Anh là một ngôn ngữ đẹp. Mỗi ngày luyện một chút nhé!"
+    }
+  ]
+}

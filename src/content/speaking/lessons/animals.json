@@ -1,0 +1,96 @@
+{
+  "topic": "animals",
+  "title": "Đi sở thú",
+  "summary": "Một hướng dẫn viên dẫn bạn đi thăm sở thú: thú dữ, rắn, chim, bướm, khu trang trại, rồi hỏi về thú cưng của bạn.",
+  "aiRole": "a friendly guide at the City Zoo",
+  "learnerRole": "a visitor at the zoo with their family",
+  "setting": "the City Zoo on a sunny Sunday",
+  "roleplayOpening": "Welcome to the City Zoo! Which animals would you like to see first?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Welcome to the City Zoo! I'm your guide today. Which animals do you want to see?",
+      "vi": "Chào mừng đến Sở thú Thành phố! Hôm nay tôi là hướng dẫn viên của bạn. Bạn muốn xem con vật nào?"
+    },
+    {
+      "who": "you",
+      "en": "I want to see the lions and the tigers!",
+      "vi": "Tôi muốn xem sư tử và hổ!"
+    },
+    {
+      "who": "ai",
+      "en": "Great. The lion is sleeping now, but the tiger is awake. Look, over there!",
+      "vi": "Tốt. Sư tử đang ngủ, nhưng hổ thì thức. Nhìn kìa, đằng kia!"
+    },
+    {
+      "who": "you",
+      "en": "Wow, it's so big! Is that a bear next to it?",
+      "vi": "Ồ, to quá! Bên cạnh là con gấu à?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, a brown bear. And over there are the monkeys. They love bananas.",
+      "vi": "Đúng, một con gấu nâu. Còn đằng kia là bầy khỉ. Chúng rất thích chuối."
+    },
+    {
+      "who": "you",
+      "en": "Ha ha, that monkey is funny. Do you have snakes?",
+      "vi": "Ha ha, con khỉ kia buồn cười quá. Ở đây có rắn không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, in the snake house. There are frogs and bats there, too.",
+      "vi": "Có, trong nhà rắn. Ở đó còn có ếch và dơi nữa."
+    },
+    {
+      "who": "you",
+      "en": "I'm afraid of snakes. Let's see the birds.",
+      "vi": "Tôi sợ rắn. Đi xem chim đi."
+    },
+    {
+      "who": "ai",
+      "en": "OK. We have a garden with birds and butterflies. Be careful of the bees!",
+      "vi": "Được. Có một khu vườn có chim và bướm. Cẩn thận ong nhé!"
+    },
+    {
+      "who": "you",
+      "en": "Is there a farm area? My son loves farm animals.",
+      "vi": "Có khu trang trại không? Con trai tôi rất thích động vật ở trang trại."
+    },
+    {
+      "who": "ai",
+      "en": "Yes! There are cows, pigs, horses, and sheep. Kids can feed the rabbits.",
+      "vi": "Có! Có bò, lợn, ngựa và cừu. Trẻ con còn được cho thỏ ăn."
+    },
+    {
+      "who": "you",
+      "en": "Great. Do you have a turkey?",
+      "vi": "Tuyệt. Có gà tây không?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, one big turkey. Do you have a pet at home?",
+      "vi": "Có, một con gà tây to. Ở nhà bạn có nuôi thú cưng không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, a dog and a cat. My cat catches a mouse sometimes.",
+      "vi": "Có, một con chó và một con mèo. Thỉnh thoảng mèo nhà tôi bắt được chuột nhắt."
+    },
+    {
+      "who": "ai",
+      "en": "Ha ha, good cat! We had a problem with rats here last year. Now we have three cats!",
+      "vi": "Ha ha, mèo giỏi đấy! Năm ngoái ở đây bị chuột cống quấy. Giờ chúng tôi nuôi ba con mèo!"
+    },
+    {
+      "who": "you",
+      "en": "Smart idea. Can I take photos of the animals?",
+      "vi": "Ý hay đấy. Tôi chụp ảnh các con vật được không?"
+    },
+    {
+      "who": "ai",
+      "en": "Of course. Just don't give them food. Enjoy the zoo!",
+      "vi": "Tất nhiên. Chỉ đừng cho chúng ăn. Chúc bạn tham quan vui vẻ!"
+    }
+  ]
+}

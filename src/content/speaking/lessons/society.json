@@ -1,0 +1,81 @@
+{
+  "topic": "society",
+  "title": "Thảo luận ở câu lạc bộ tiếng Anh",
+  "summary": "Nhóm của bạn ở câu lạc bộ tiếng Anh nói về du lịch, văn hóa, hòa bình và những điều quan trọng với thế giới.",
+  "aiRole": "the leader of a small English club discussion group",
+  "learnerRole": "a member of the discussion group",
+  "setting": "a weekly English club meeting",
+  "roleplayOpening": "Today our topic is the world around us. Have you ever been to another country?",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Today our group talks about the world. Have you been to a foreign country?",
+      "vi": "Hôm nay nhóm mình nói về thế giới. Bạn đã từng ra nước ngoài chưa?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, I went to Korea last year. I loved the culture there.",
+      "vi": "Rồi, năm ngoái mình đi Hàn Quốc. Mình rất thích văn hóa ở đó."
+    },
+    {
+      "who": "ai",
+      "en": "What did you like about Korean culture?",
+      "vi": "Bạn thích điều gì ở văn hóa Hàn Quốc?"
+    },
+    {
+      "who": "you",
+      "en": "The food, the music, and the people. Life there is very fast.",
+      "vi": "Đồ ăn, âm nhạc và con người. Cuộc sống ở đó rất nhanh."
+    },
+    {
+      "who": "ai",
+      "en": "Is it different from life in Vietnam?",
+      "vi": "Có khác cuộc sống ở Việt Nam không?"
+    },
+    {
+      "who": "you",
+      "en": "A little. But people in both countries love family and food.",
+      "vi": "Hơi khác. Nhưng người ở cả hai nước đều yêu gia đình và đồ ăn."
+    },
+    {
+      "who": "ai",
+      "en": "That's true. Do you use social media to learn about other countries?",
+      "vi": "Đúng vậy. Bạn có dùng mạng xã hội để tìm hiểu về các nước khác không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, every day. But I think travel is better.",
+      "vi": "Có, hằng ngày. Nhưng mình nghĩ đi du lịch thì hơn."
+    },
+    {
+      "who": "ai",
+      "en": "I agree. What do you think is most important for the world?",
+      "vi": "Mình đồng ý. Bạn nghĩ điều gì quan trọng nhất với thế giới?"
+    },
+    {
+      "who": "you",
+      "en": "Peace. There are too many wars. People shouldn't fight.",
+      "vi": "Hòa bình. Có quá nhiều chiến tranh. Con người không nên đánh nhau."
+    },
+    {
+      "who": "ai",
+      "en": "Yes. In my country, every adult can vote. Do you think young people should vote?",
+      "vi": "Đúng thế. Ở nước mình, người trưởng thành nào cũng được bỏ phiếu. Bạn có nghĩ người trẻ nên đi bầu không?"
+    },
+    {
+      "who": "you",
+      "en": "Yes. And everyone should follow the rules, too.",
+      "vi": "Có. Và mọi người cũng nên tuân thủ luật lệ."
+    },
+    {
+      "who": "ai",
+      "en": "Great ideas! Let's end our group talk here. Thank you, everyone.",
+      "vi": "Ý kiến hay quá! Nhóm mình kết thúc ở đây nhé. Cảm ơn mọi người."
+    },
+    {
+      "who": "you",
+      "en": "Thank you. I learned a lot today.",
+      "vi": "Cảm ơn bạn. Hôm nay mình học được nhiều điều."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "topic": "tech-media",
+  "title": "Chỉ hàng xóm dùng điện thoại mới",
+  "summary": "Bác hàng xóm vừa được tặng điện thoại thông minh. Bạn chỉ bác cách mở máy, đọc tin, nhắn tin, gửi email và chụp ảnh.",
+  "aiRole": "Mr. Brown, an elderly neighbor with his first smartphone",
+  "learnerRole": "a young neighbor who is good with technology",
+  "setting": "the neighbor's living room",
+  "roleplayOpening": "Oh, hello! Can you help me? This new phone is so difficult!",
+  "lines": [
+    {
+      "who": "ai",
+      "en": "Hello! Can you help me? My son gave me a new mobile phone, but I don't know how to use it.",
+      "vi": "Chào cháu! Cháu giúp bác được không? Con trai bác tặng bác điện thoại di động mới, mà bác không biết dùng."
+    },
+    {
+      "who": "you",
+      "en": "Of course. First, press this button to turn it on.",
+      "vi": "Tất nhiên rồi ạ. Đầu tiên bác bấm nút này để mở máy."
+    },
+    {
+      "who": "ai",
+      "en": "Oh, it's on! It asks for a code.",
+      "vi": "Ồ, lên rồi! Nó hỏi mã số."
+    },
+    {
+      "who": "you",
+      "en": "Your code is on the card in the box. Type the four numbers.",
+      "vi": "Mã số ghi trên tấm thẻ trong hộp. Bác nhập bốn chữ số vào."
+    },
+    {
+      "who": "ai",
+      "en": "OK. I had the same old telephone at home for forty years. Technology is so fast now!",
+      "vi": "Được rồi. Bác dùng mỗi cái điện thoại bàn cũ suốt bốn mươi năm. Công nghệ bây giờ nhanh quá!"
+    },
+    {
+      "who": "you",
+      "en": "Ha ha, yes. Now you can use the internet on your phone.",
+      "vi": "Ha ha, đúng ạ. Giờ bác có thể dùng mạng internet trên điện thoại."
+    },
+    {
+      "who": "ai",
+      "en": "Can I read the news? I always read the newspaper in the morning.",
+      "vi": "Bác đọc tin tức được không? Sáng nào bác cũng đọc báo."
+    },
+    {
+      "who": "you",
+      "en": "Yes. Open this news site. You can read every article here.",
+      "vi": "Được ạ. Bác mở trang tin này. Ở đây bác đọc được mọi bài báo."
+    },
+    {
+      "who": "ai",
+      "en": "Wonderful! And magazines?",
+      "vi": "Tuyệt quá! Còn tạp chí?"
+    },
+    {
+      "who": "you",
+      "en": "Yes, magazines too. You can also watch TV programs and videos.",
+      "vi": "Có, cả tạp chí nữa. Bác còn xem được chương trình TV và video."
+    },
+    {
+      "who": "ai",
+      "en": "I still like my old television and my radio.",
+      "vi": "Bác vẫn thích cái ti vi cũ và cái đài của bác."
+    },
+    {
+      "who": "you",
+      "en": "That's fine. Can I show you how to send a message?",
+      "vi": "Vậy cũng được ạ. Cháu chỉ bác cách gửi tin nhắn nhé?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes, please. My daughter always sends me messages, and I never answer!",
+      "vi": "Ừ, chỉ bác đi. Con gái bác toàn nhắn tin mà bác chẳng bao giờ trả lời!"
+    },
+    {
+      "who": "you",
+      "en": "Tap here, write your message, and press send.",
+      "vi": "Bác chạm vào đây, viết tin nhắn rồi bấm gửi."
+    },
+    {
+      "who": "ai",
+      "en": "It's easy! Can I send an email, too? I use email on my computer.",
+      "vi": "Dễ thế! Bác gửi email được không? Bác vẫn dùng email trên máy tính."
+    },
+    {
+      "who": "you",
+      "en": "Yes. Your mail is here. You can also send a file or a photo.",
+      "vi": "Được ạ. Thư của bác ở đây. Bác còn gửi được tệp hoặc ảnh nữa."
+    },
+    {
+      "who": "ai",
+      "en": "How do I take a photo?",
+      "vi": "Chụp ảnh thế nào cháu?"
+    },
+    {
+      "who": "you",
+      "en": "Press the camera button. Smile! Look, it's a nice photo.",
+      "vi": "Bác bấm nút máy ảnh. Cười lên nào! Bác xem, ảnh đẹp chưa."
+    },
+    {
+      "who": "ai",
+      "en": "My old camera was a big machine! I also have many CDs, an old CD player, and a box of DVDs.",
+      "vi": "Máy ảnh cũ của bác là cả một cái máy to! Bác còn nhiều đĩa CD, một cái đầu đĩa CD cũ và cả hộp đĩa DVD."
+    },
+    {
+      "who": "you",
+      "en": "Now all your music can be on your phone. Do you need any other information?",
+      "vi": "Giờ tất cả nhạc của bác có thể để trong điện thoại. Bác cần biết thêm gì nữa không ạ?"
+    },
+    {
+      "who": "ai",
+      "en": "Yes. How do I call my son?",
+      "vi": "Có. Gọi cho con trai bác thế nào?"
+    },
+    {
+      "who": "you",
+      "en": "Press his name and then the green button. That's it!",
+      "vi": "Bác bấm vào tên anh ấy rồi bấm nút xanh. Thế thôi ạ!"
+    }
+  ]
+}
