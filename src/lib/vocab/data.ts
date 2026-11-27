@@ -3,6 +3,7 @@ import { z } from "zod";
 import wordsJson from "@/content/vocab/words.json";
 import { viFiles } from "@/content/vocab/vi";
 import topicsJson from "@/content/vocab/topics.json";
+import topicsA2Json from "@/content/vocab/topics-a2.json";
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 export type Level = (typeof LEVELS)[number];
@@ -166,20 +167,32 @@ export function splitIntoSets(ids: string[], size = SET_SIZE): string[][] {
 
 let topicCache: Topic[] | null = null;
 
-export function getTopics(): Topic[] {
-  if (topicCache) return topicCache;
-  const studyIds = new Set(getStudyWords().map((w) => w.id));
-  const parsed = topicsFile.parse(topicsJson);
-  const seen = new Set<string>();
-  topicCache = parsed.topics.map((t) => {
-    for (const id of t.words) {
-      if (!studyIds.has(id)) throw new Error(`Topic "${t.id}" lists unknown word "${id}"`);
-      if (seen.has(id)) throw new Error(`Word "${id}" is in more than one topic`);
-      seen.add(id);
-    }
-    return { ...t, level: "A1" as Level, sets: splitIntoSets(t.words) };
-  });
-  return topicCache;
+/** Topic files per level; topic ids are unique across levels. */
+const TOPIC_FILES: [Level, unknown][] = [
+  ["A1", topicsJson],
+  ["A2", topicsA2Json],
+];
+
+/** All topics in study order, or only those of one level. */
+export function getTopics(level?: Level): Topic[] {
+  if (!topicCache) {
+    const studyIds = new Set(getStudyWords().map((w) => w.id));
+    const seen = new Set<string>();
+    const seenTopics = new Set<string>();
+    topicCache = TOPIC_FILES.flatMap(([lvl, json]) =>
+      topicsFile.parse(json).topics.map((t) => {
+        if (seenTopics.has(t.id)) throw new Error(`Duplicate topic id "${t.id}"`);
+        seenTopics.add(t.id);
+        for (const id of t.words) {
+          if (!studyIds.has(id)) throw new Error(`Topic "${t.id}" lists unknown word "${id}"`);
+          if (seen.has(id)) throw new Error(`Word "${id}" is in more than one topic`);
+          seen.add(id);
+        }
+        return { ...t, level: lvl, sets: splitIntoSets(t.words) };
+      }),
+    );
+  }
+  return level ? topicCache.filter((t) => t.level === level) : topicCache;
 }
 
 export function getTopic(id: string): Topic | undefined {
@@ -189,8 +202,8 @@ export function getTopic(id: string): Topic | undefined {
 /** Compact outline for client components: topic id, title and set word ids. */
 export type TopicOutline = { id: string; title: string; sets: string[][] };
 
-export function getTopicOutline(): TopicOutline[] {
-  return getTopics().map(({ id, title, sets }) => ({ id, title, sets }));
+export function getTopicOutline(level?: Level): TopicOutline[] {
+  return getTopics(level).map(({ id, title, sets }) => ({ id, title, sets }));
 }
 
 /** Shape used by the quiz components (client). */

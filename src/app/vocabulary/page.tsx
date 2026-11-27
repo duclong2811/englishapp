@@ -17,7 +17,7 @@ const LEVEL_VI: Record<string, string> = {
 };
 
 export default function VocabularyPage() {
-  const topics = getTopics().map(({ id, title, description, sets }) => ({ id, title, description, sets }));
+  const topics = getTopics().map(({ id, title, description, level, sets }) => ({ id, title, description, level, sets }));
   const counts = getLevelCounts();
   const nf = new Intl.NumberFormat("vi-VN");
 

@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useSyncExternalStore } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { dueIds, getServerSnapshot, getSnapshot, learnedCount, subscribe } from "@/lib/vocab/srs-store";
 
-export type OverviewTopic = { id: string; title: string; description: string; sets: string[][] };
+export type OverviewTopic = { id: string; title: string; description: string; level: string; sets: string[][] };
 
 const primary =
   "inline-flex min-h-12 items-center justify-center rounded-full bg-accent px-6 font-semibold text-accent-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
@@ -16,9 +16,17 @@ export function VocabOverview({ topics }: { topics: OverviewTopic[] }) {
   const nf = new Intl.NumberFormat("vi-VN");
   const allIds = topics.flatMap((t) => t.sets.flat());
 
+  const levels = [...new Set(topics.map((t) => t.level))];
+  const unfinished = (level: string) =>
+    topics.some((t) => t.level === level && t.sets.some((set) => !state || learnedCount(state, set) < set.length));
+  // Until the learner picks a tab, show the first level that still has words to learn.
+  const [chosen, setChosen] = useState<string | null>(null);
+  const level = chosen ?? levels.find(unfinished) ?? levels[levels.length - 1];
+  const levelTopics = topics.filter((t) => t.level === level);
+
   let next: { topic: OverviewTopic; setIndex: number } | null = null;
   if (state) {
-    outer: for (const topic of topics) {
+    outer: for (const topic of levelTopics) {
       for (let i = 0; i < topic.sets.length; i++) {
         if (learnedCount(state, topic.sets[i]) < topic.sets[i].length) {
           next = { topic, setIndex: i };
@@ -41,6 +49,7 @@ export function VocabOverview({ topics }: { topics: OverviewTopic[] }) {
         ) : next ? (
           <>
             <p className="mt-3 text-3xl font-semibold tracking-tight text-balance">{next.topic.title}</p>
+            <p className="mt-1 text-sm font-medium text-accent">Cấp độ {level}</p>
             <p className="mt-2 text-ink-soft tabular-nums">
               Bộ {next.setIndex + 1}/{next.topic.sets.length}, {next.topic.sets[next.setIndex].length} từ
             </p>
@@ -54,7 +63,7 @@ export function VocabOverview({ topics }: { topics: OverviewTopic[] }) {
             </div>
           </>
         ) : (
-          <p className="mt-3 text-2xl font-semibold">Bạn đã học hết từ vựng A1.</p>
+          <p className="mt-3 text-2xl font-semibold">Bạn đã học hết từ vựng {level}.</p>
         )}
       </section>
 
@@ -87,14 +96,34 @@ export function VocabOverview({ topics }: { topics: OverviewTopic[] }) {
       </section>
 
       <section aria-labelledby="topics-heading" className="mt-10">
-        <h2 id="topics-heading" className="text-lg font-semibold">
-          Chủ đề A1
-        </h2>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 id="topics-heading" className="text-lg font-semibold">
+            Chủ đề {level}
+          </h2>
+          {levels.length > 1 ? (
+            <div role="tablist" aria-label="Cấp độ" className="flex gap-1 rounded-full border border-line bg-sheet p-1">
+              {levels.map((l) => (
+                <button
+                  key={l}
+                  type="button"
+                  role="tab"
+                  aria-selected={l === level}
+                  onClick={() => setChosen(l)}
+                  className={`min-h-11 min-w-16 rounded-full px-4 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+                    l === level ? "bg-accent text-accent-ink" : "text-ink-soft hover:text-ink"
+                  }`}
+                >
+                  {l}
+                </button>
+              ))}
+            </div>
+          ) : null}
+        </div>
         <p className="mt-1 text-ink-soft text-pretty">
-          {topics.length} chủ đề, mỗi chủ đề chia thành các bộ khoảng 10 từ. Học hết một bộ rồi làm bài kiểm tra ngắn.
+          {levelTopics.length} chủ đề, {nf.format(levelTopics.reduce((n, t) => n + t.sets.flat().length, 0))} từ. Mỗi chủ đề chia thành các bộ khoảng 10 từ. Học hết một bộ rồi làm bài kiểm tra ngắn.
         </p>
         <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-          {topics.map((t) => {
+          {levelTopics.map((t) => {
             const ids = t.sets.flat();
             const done = state ? learnedCount(state, ids) : 0;
             const pct = ids.length ? Math.round((done / ids.length) * 100) : 0;

@@ -29,7 +29,7 @@ export default async function TopicPage({ params }: PageProps<"/vocabulary/topic
         ← Từ vựng
       </Link>
       <header className="mb-8 mt-2">
-        <p className="text-sm font-medium text-ink-soft">Chủ đề A1, {topic.words.length} từ</p>
+        <p className="text-sm font-medium text-ink-soft">Chủ đề {topic.level}, {topic.words.length} từ</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">{topic.title}</h1>
         <p className="mt-3 text-lg text-ink-soft text-pretty">{topic.description}</p>
       </header>

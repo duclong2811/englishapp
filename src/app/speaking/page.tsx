@@ -8,7 +8,8 @@ import { getTopics } from "@/lib/vocab/data";
 export const metadata: Metadata = { title: "Luyện nói" };
 
 export default function SpeakingPage() {
-  const items = getTopics().map((t) => {
+  // Speaking lessons follow the A1 topics.
+  const items = getTopics("A1").map((t) => {
     const lesson = getLesson(t.id);
     return { topic: t.id, topicTitle: t.title, title: lesson?.title ?? null };
   });
