@@ -15,5 +15,7 @@
       "service": "englishapp"
     }
   ],
+  // Workers AI, used for speech-to-text in the speaking practice.
+  "ai": { "binding": "AI" },
   "observability": { "enabled": true }
 }

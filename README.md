@@ -28,7 +28,7 @@ Mọi thay đổi giao diện theo skill `.claude/skills/englishapp-ux/SKILL.md`
 1. Khung app và hệ thống thiết kế (xong).
 2. Kho từ vựng (đang làm): khoảng 8.600 từ A1–C2 từ dữ liệu mở. Toàn bộ 1.059 từ A1 đã có nghĩa tiếng Việt, chia thành 33 chủ đề (`src/content/vocab/topics.json`), mỗi chủ đề gồm các bộ khoảng 10 từ: học từng từ, làm bài kiểm tra cả bộ, kết quả đưa vào lịch ôn FSRS. Xem `src/content/vocab/SOURCES.md`.
 3. Bài học ngữ pháp: soạn từ sách nguồn đặt trong `sources/` (thư mục này không đưa lên git). Làm 3 bài thử trước khi nhân rộng.
-4. Luyện nói với AI theo kiểu xử lý cuốn chiếu (nghe, AI trả lời, đọc) để phản hồi nhanh.
+4. Luyện nói với AI (đã có bản đầu): 8 tình huống A1 trong `src/content/speaking/scenarios.ts`. Ghi âm trên trình duyệt, tự gửi khi người học ngừng nói; Workers AI Whisper chuyển thành chữ; Claude trả lời dạng stream và giọng đọc của máy đọc từng câu ngay khi câu đó về; cuối buổi có nhận xét bằng tiếng Việt.
 
 ## Đưa lên Cloudflare
 
@@ -39,5 +39,12 @@ App chạy trên Cloudflare Workers qua bộ chuyển đổi OpenNext (`@opennex
 - Chạy thử bản Cloudflare trên máy: `npm run cf:preview`
 - Tự deploy từ máy: `npx wrangler login` một lần, rồi `npm run cf:deploy`
 - Tự deploy khi đẩy code (Workers Builds): Cloudflare dashboard, Workers & Pages, Create application, Import a repository, chọn repo này. Build command: `npx opennextjs-cloudflare build`. Deploy command: `npx opennextjs-cloudflare deploy`. Tên Worker phải là `englishapp`, trùng với `wrangler.jsonc`.
+
+### Luyện nói cần gì
+
+- Workers AI (nhận giọng nói): đã khai báo trong `wrangler.jsonc` (`"ai": {"binding": "AI"}`), không cần làm gì thêm.
+- Khóa Claude: Cloudflare dashboard, Worker `englishapp`, Settings, Variables and Secrets, thêm Secret tên `ANTHROPIC_API_KEY`. Thiếu khóa thì màn luyện nói chạy chế độ thử.
+- Tùy chọn: biến `SPEAK_CHAT_MODEL` (hội thoại) và `SPEAK_FEEDBACK_MODEL` (nhận xét) để đổi model; mặc định `claude-opus-5-5`.
+- Chạy trên máy: tạo `.dev.vars` chứa `ANTHROPIC_API_KEY=...` rồi `npm run cf:preview`.
 
 Cache Components của Next.js đang tắt vì OpenNext chưa hỗ trợ đầy đủ.
