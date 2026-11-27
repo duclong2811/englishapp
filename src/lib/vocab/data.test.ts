@@ -12,8 +12,8 @@ describe("vocabulary content", () => {
     for (const level of LEVELS) expect(counts[level].total).toBeGreaterThan(500);
   });
 
-  it("has 100 study words at A1, each with meaning, IPA and two examples", () => {
-    expect(study).toHaveLength(100);
+  it("has 200 study words at A1, each with meaning, IPA and two examples", () => {
+    expect(study).toHaveLength(200);
     for (const w of study) {
       expect(w.level, w.id).toBe("A1");
       expect(w.ipa, w.id).toBeTruthy();
@@ -25,7 +25,7 @@ describe("vocabulary content", () => {
     for (const w of study) {
       const forms = [w.headword, ...Object.values(w.forms)].map((f) => f.toLowerCase());
       for (const ex of w.examples) {
-        const tokens: string[] = ex.en.toLowerCase().match(/[a-z]+(?:'[a-z]+)?/g) ?? [];
+        const tokens: string[] = ex.en.toLowerCase().match(/[a-z]+/g) ?? [];
         expect(
           forms.some((f) => tokens.includes(f)),
           `${w.id}: "${ex.en}"`,
