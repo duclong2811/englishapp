@@ -5,7 +5,7 @@ import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import type { Grade } from "ts-fsrs";
 import { SpeakButton } from "@/components/speak-button";
 import {
-  buildQueue,
+  dueIds,
   getServerSnapshot,
   getSnapshot,
   grade,
@@ -45,8 +45,7 @@ export function Review({ cards }: { cards: ReviewCard[] }) {
 
   // Fix the session queue once progress is available (first client render).
   if (queue === null && state) {
-    const q = buildQueue(state, cards.map((c) => c.id), new Date());
-    setQueue([...q.due, ...q.fresh]);
+    setQueue(dueIds(state, cards.map((c) => c.id), new Date()));
   }
 
   const byId = new Map(cards.map((c) => [c.id, c]));
@@ -113,7 +112,7 @@ export function Review({ cards }: { cards: ReviewCard[] }) {
         <p className="mt-3 text-lg text-ink-soft text-pretty">
           {done > 0
             ? `Bạn vừa ôn ${done} lượt. Thẻ sẽ quay lại đúng lúc bạn sắp quên.`
-            : "Chưa có thẻ nào đến hạn. Quay lại vào ngày mai nhé."}
+            : "Chưa có thẻ nào đến hạn ôn. Hãy học một bộ từ mới theo chủ đề."}
         </p>
         <Link href="/vocabulary" className={`${buttonBase} mt-8 bg-accent text-accent-ink hover:opacity-90`}>
           Về trang từ vựng

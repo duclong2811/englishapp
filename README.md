@@ -26,7 +26,7 @@ Mọi thay đổi giao diện theo skill `.claude/skills/englishapp-ux/SKILL.md`
 ## Lộ trình
 
 1. Khung app và hệ thống thiết kế (xong).
-2. Kho từ vựng (đang làm): khoảng 8.600 từ A1–C2 từ dữ liệu mở, 1059 từ A1 đã có nghĩa tiếng Việt, ôn thẻ bằng FSRS, luyện tập 3 dạng (nghe chọn nghĩa, điền từ, chọn từ theo nghĩa). Xem `src/content/vocab/SOURCES.md`.
+2. Kho từ vựng (đang làm): khoảng 8.600 từ A1–C2 từ dữ liệu mở. Toàn bộ 1.059 từ A1 đã có nghĩa tiếng Việt, chia thành 33 chủ đề (`src/content/vocab/topics.json`), mỗi chủ đề gồm các bộ khoảng 10 từ: học từng từ, làm bài kiểm tra cả bộ, kết quả đưa vào lịch ôn FSRS. Xem `src/content/vocab/SOURCES.md`.
 3. Bài học ngữ pháp: soạn từ sách nguồn đặt trong `sources/` (thư mục này không đưa lên git). Làm 3 bài thử trước khi nhân rộng.
 4. Luyện nói với AI theo kiểu xử lý cuốn chiếu (nghe, AI trả lời, đọc) để phản hồi nhanh.
 

@@ -57,3 +57,16 @@ describe("cloze distractors", () => {
     }
   });
 });
+
+describe("topic-sized pools", () => {
+  it("never offers hello as a distractor for hi (chào / xin chào)", () => {
+    const byId = new Map(words.map((w) => [w.id, w]));
+    const greetings = ["hello", "hi", "bye", "good-morning", "welcome", "thank", "please", "sorry"].map((id) => byId.get(id)!);
+    for (let run = 0; run < 300; run++) {
+      for (const q of buildSession([byId.get("hi")!], greetings, true, 1)) {
+        expect(q.options.map((o) => o.toLowerCase())).not.toContain("hello");
+        expect(q.options.some((o) => o.startsWith("lời chào"))).toBe(false);
+      }
+    }
+  });
+});

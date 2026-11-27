@@ -2,6 +2,7 @@ import "server-only";
 import { z } from "zod";
 import wordsJson from "@/content/vocab/words.json";
 import { viFiles } from "@/content/vocab/vi";
+import topicsJson from "@/content/vocab/topics.json";
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 export type Level = (typeof LEVELS)[number];
@@ -127,4 +128,80 @@ export function getLevelCounts(): Record<Level, { total: number; withMeaning: nu
 
 export function getMeaningMap(): Map<string, string> {
   return new Map(load().study.map((w) => [w.id, w.meanings.map((m) => m.vi).join("; ")]));
+}
+
+// ---------------------------------------------------------------- topics
+
+const topicsFile = z.object({
+  about: z.string(),
+  topics: z.array(
+    z.object({
+      id: z.string().regex(/^[a-z0-9-]+$/),
+      title: z.string().min(1),
+      description: z.string().min(1),
+      words: z.array(z.string()).min(4),
+    }),
+  ),
+});
+
+/** About ten words per set, split as evenly as possible. */
+export const SET_SIZE = 10;
+
+export type Topic = {
+  id: string;
+  title: string;
+  description: string;
+  level: Level;
+  words: string[];
+  /** Word ids per learning set, in order. */
+  sets: string[][];
+};
+
+export function splitIntoSets(ids: string[], size = SET_SIZE): string[][] {
+  const n = Math.max(1, Math.ceil(ids.length / size));
+  return Array.from({ length: n }, (_, i) =>
+    ids.slice(Math.floor((i * ids.length) / n), Math.floor(((i + 1) * ids.length) / n)),
+  );
+}
+
+let topicCache: Topic[] | null = null;
+
+export function getTopics(): Topic[] {
+  if (topicCache) return topicCache;
+  const studyIds = new Set(getStudyWords().map((w) => w.id));
+  const parsed = topicsFile.parse(topicsJson);
+  const seen = new Set<string>();
+  topicCache = parsed.topics.map((t) => {
+    for (const id of t.words) {
+      if (!studyIds.has(id)) throw new Error(`Topic "${t.id}" lists unknown word "${id}"`);
+      if (seen.has(id)) throw new Error(`Word "${id}" is in more than one topic`);
+      seen.add(id);
+    }
+    return { ...t, level: "A1" as Level, sets: splitIntoSets(t.words) };
+  });
+  return topicCache;
+}
+
+export function getTopic(id: string): Topic | undefined {
+  return getTopics().find((t) => t.id === id);
+}
+
+/** Compact outline for client components: topic id, title and set word ids. */
+export type TopicOutline = { id: string; title: string; sets: string[][] };
+
+export function getTopicOutline(): TopicOutline[] {
+  return getTopics().map(({ id, title, sets }) => ({ id, title, sets }));
+}
+
+/** Shape used by the quiz components (client). */
+export function toPracticeWord(w: StudyWord) {
+  return {
+    id: w.id,
+    headword: w.headword,
+    ipa: w.ipa,
+    meaning: w.meanings[0].vi,
+    pos: w.meanings.map((m) => m.pos),
+    forms: w.forms,
+    examples: w.examples.map(({ en, vi }) => ({ en, vi })),
+  };
 }

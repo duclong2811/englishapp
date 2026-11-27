@@ -4,10 +4,9 @@ import { createEmptyCard, fsrs, Rating, type Card, type Grade } from "ts-fsrs";
 
 /** Per-device study progress, kept in localStorage until accounts/sync exist. */
 const KEY = "vocab:srs:v1";
-export const NEW_PER_DAY = 10;
 
 type StoredCard = Omit<Card, "due" | "last_review"> & { due: string; last_review?: string };
-type State = { cards: Record<string, StoredCard>; newByDay: Record<string, number> };
+export type State = { cards: Record<string, StoredCard>; newByDay: Record<string, number> };
 
 const scheduler = fsrs();
 const listeners = new Set<() => void>();
@@ -70,14 +69,11 @@ export function toCard(stored: StoredCard | undefined): Card {
   };
 }
 
-/** Ids due now, then new ids up to today's limit, in the given order. */
-export function buildQueue(state: State, ids: string[], now: Date): { due: string[]; fresh: string[] } {
-  const due = ids
+/** Ids of studied cards that are due now, most overdue first. New words come from topic sets. */
+export function dueIds(state: State, ids: string[], now: Date): string[] {
+  return ids
     .filter((id) => state.cards[id] && new Date(state.cards[id].due) <= now)
     .sort((a, b) => +new Date(state.cards[a].due) - +new Date(state.cards[b].due));
-  const left = Math.max(0, NEW_PER_DAY - (state.newByDay[dayKey(now)] ?? 0));
-  const fresh = ids.filter((id) => !state.cards[id]).slice(0, left);
-  return { due, fresh };
 }
 
 export function preview(state: State, id: string, now: Date) {
@@ -98,6 +94,18 @@ export function grade(id: string, rating: Grade, now: Date) {
     cards: { ...state.cards, [id]: stored },
     newByDay: isNew ? { ...state.newByDay, [day]: (state.newByDay[day] ?? 0) + 1 } : state.newByDay,
   });
+}
+
+/**
+ * Stores the outcome of learning a set: words answered right start (or continue)
+ * as "Good", words answered wrong as "Again" so they come back soon.
+ */
+export function recordResults(results: { id: string; correct: boolean }[], now: Date) {
+  for (const r of results) grade(r.id, r.correct ? Rating.Good : Rating.Again, now);
+}
+
+export function learnedCount(state: State, ids: string[]) {
+  return ids.filter((id) => state.cards[id]).length;
 }
 
 export const GRADES: { rating: Grade; label: string; key: string }[] = [

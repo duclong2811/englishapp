@@ -2,7 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 
 vi.mock("server-only", () => ({}));
 
-const { getStudyWords, getLevelCounts, LEVELS } = await import("./data");
+const { getStudyWords, getLevelCounts, getTopics, splitIntoSets, LEVELS } = await import("./data");
 
 describe("vocabulary content", () => {
   const study = getStudyWords();
@@ -37,5 +37,27 @@ describe("vocabulary content", () => {
   it("has no duplicate study ids", () => {
     const ids = study.map((w) => w.id);
     expect(new Set(ids).size).toBe(ids.length);
+  });
+});
+
+describe("topics", () => {
+  it("puts every study word in exactly one topic", () => {
+    const inTopics = getTopics().flatMap((t) => t.words);
+    expect(new Set(inTopics).size).toBe(inTopics.length);
+    expect(new Set(inTopics)).toEqual(new Set(getStudyWords().map((w) => w.id)));
+  });
+
+  it("splits topics into sets of 5 to 10 words", () => {
+    for (const t of getTopics()) {
+      expect(t.sets.flat()).toEqual(t.words);
+      for (const set of t.sets) {
+        expect(set.length, `${t.id}`).toBeGreaterThanOrEqual(5);
+        expect(set.length, `${t.id}`).toBeLessThanOrEqual(10);
+      }
+    }
+  });
+
+  it("splits evenly", () => {
+    expect(splitIntoSets(Array.from({ length: 47 }, (_, i) => String(i))).map((s) => s.length)).toEqual([9, 9, 10, 9, 10]);
   });
 });
