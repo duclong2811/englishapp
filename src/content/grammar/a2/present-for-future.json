@@ -152,8 +152,8 @@
       "check": {
         "prompt": "I ___ dinner with my boss tonight. We booked a table.",
         "options": [
-          "'m having",
-          "'ll have"
+          "am having",
+          "will have"
         ],
         "answer": 0,
         "explain": "Đã đặt bàn → lịch hẹn → I'm having."
@@ -192,7 +192,7 @@
       "type": "choice",
       "prompt": "I ___ my grandparents this Sunday.",
       "options": [
-        "'m visiting",
+        "am visiting",
         "visit",
         "visits"
       ],

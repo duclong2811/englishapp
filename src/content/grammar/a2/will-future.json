@@ -152,7 +152,7 @@
       "check": {
         "prompt": "We've run out of milk. OK, I ___ some.",
         "options": [
-          "'ll buy",
+          "will buy",
           "buy"
         ],
         "answer": 0,
@@ -224,7 +224,7 @@
       "type": "choice",
       "prompt": "I'm tired. I think I ___ to bed early.",
       "options": [
-        "'ll go",
+        "will go",
         "go",
         "going"
       ],

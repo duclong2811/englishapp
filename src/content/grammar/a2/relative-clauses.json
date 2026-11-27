@@ -1,0 +1,366 @@
+{
+  "id": "relative-clauses",
+  "level": "A2",
+  "title": "Who, which, that: mệnh đề quan hệ",
+  "summary": "Nối hai câu và mô tả người, vật bằng who, which, that, where; khi nào có thể bỏ who, which, that.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Who's the man [[who]] is talking to your boss?",
+      "vi": "Người đàn ông đang nói chuyện với sếp bạn là ai?"
+    },
+    {
+      "who": "B",
+      "en": "He's the new manager [[who]] started on Monday.",
+      "vi": "Đó là quản lý mới, bắt đầu làm từ thứ Hai."
+    },
+    {
+      "who": "A",
+      "en": "Is he the one [[who]] lived in Japan?",
+      "vi": "Có phải người từng sống ở Nhật không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. He works in the office [[which]] is next to mine.",
+      "vi": "Đúng. Anh ấy làm ở phòng cạnh phòng mình."
+    },
+    {
+      "who": "A",
+      "en": "Let's invite him to the café [[where]] we have lunch.",
+      "vi": "Mời anh ấy ra quán mình hay ăn trưa đi."
+    },
+    {
+      "who": "B",
+      "en": "Good idea. The pho [[that]] they make is amazing.",
+      "vi": "Ý hay. Phở quán đó nấu ngon tuyệt."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Who, which",
+      "heading": "Who cho người, which cho vật",
+      "rule": "Mô tả **người** → **who**. Mô tả **vật, con vật** → **which**. Mệnh đề đứng **ngay sau** danh từ nó mô tả.",
+      "formula": [
+        {
+          "text": "người + [who] + V…"
+        },
+        {
+          "text": "vật + [which] + V…"
+        }
+      ],
+      "body": [
+        "Hai câu *I have a friend. She lives in Canada* nối thành *I have a friend **who** lives in Canada*. Who thay cho *she*, nên không lặp lại she.",
+        "Tiếng Việt dùng *mà, người mà, cái mà* hoặc không dùng từ nào; tiếng Anh cần who, which hoặc that."
+      ],
+      "examples": [
+        {
+          "en": "I have a friend [[who]] lives in Canada.",
+          "vi": "Tôi có một người bạn sống ở Canada.",
+          "why": "Friend là người → who."
+        },
+        {
+          "en": "This is the bus [[which]] goes to the airport.",
+          "vi": "Đây là xe buýt đi sân bay.",
+          "why": "Bus là vật → which."
+        },
+        {
+          "en": "The woman [[who]] works here is very kind.",
+          "vi": "Người phụ nữ làm ở đây rất tốt bụng.",
+          "why": "Mệnh đề nằm giữa câu, ngay sau the woman."
+        }
+      ],
+      "check": {
+        "prompt": "I met a man ___ speaks five languages.",
+        "options": [
+          "who",
+          "which"
+        ],
+        "answer": 0,
+        "explain": "Man là người → who."
+      }
+    },
+    {
+      "part": "That",
+      "heading": "That thay cho who hoặc which",
+      "rule": "**that** dùng được cho **cả người và vật**, rất hay gặp khi nói.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The phone [[that]] I bought is broken.",
+          "vi": "Cái điện thoại tôi mua bị hỏng rồi.",
+          "why": "That thay cho which (vật)."
+        },
+        {
+          "en": "She's the teacher [[that]] helped me.",
+          "vi": "Cô ấy là giáo viên đã giúp tôi.",
+          "why": "That thay cho who (người)."
+        }
+      ],
+      "check": {
+        "prompt": "The cake ___ you made was delicious.",
+        "options": [
+          "that",
+          "who"
+        ],
+        "answer": 0,
+        "explain": "Cake là vật → that hoặc which."
+      }
+    },
+    {
+      "part": "Where",
+      "heading": "Where cho nơi chốn",
+      "rule": "Mô tả **nơi chốn** mà ở đó có việc xảy ra → **where** + câu đầy đủ (chủ ngữ + động từ).",
+      "body": [],
+      "examples": [
+        {
+          "en": "This is the house [[where]] I grew up.",
+          "vi": "Đây là ngôi nhà nơi tôi lớn lên.",
+          "why": "Nơi chốn + where + I grew up."
+        },
+        {
+          "en": "I know a café [[where]] you can work quietly.",
+          "vi": "Tôi biết một quán cà phê có thể ngồi làm việc yên tĩnh.",
+          "why": "Where + you can work."
+        }
+      ],
+      "check": {
+        "prompt": "That's the hospital ___ I was born.",
+        "options": [
+          "where",
+          "which"
+        ],
+        "answer": 0,
+        "explain": "Sau đó là câu đầy đủ (I was born) → where."
+      }
+    },
+    {
+      "part": "Bỏ who, which",
+      "heading": "Khi nào được bỏ who, which, that?",
+      "rule": "Who, which, that là **tân ngữ** (sau nó có **chủ ngữ mới**) → **có thể bỏ**. Là **chủ ngữ** (sau nó là **động từ**) → **không bỏ**.",
+      "body": [
+        "*The film (that) I watched* → sau that là I (chủ ngữ mới) → bỏ được. *The man who called you* → sau who là called (động từ) → không bỏ được."
+      ],
+      "examples": [
+        {
+          "en": "The film I watched last night was great.",
+          "vi": "Bộ phim tôi xem tối qua rất hay.",
+          "why": "Bỏ that được vì sau đó có chủ ngữ I."
+        },
+        {
+          "en": "The man [[who]] called you is my uncle.",
+          "vi": "Người gọi cho bạn là chú tôi.",
+          "why": "Who là chủ ngữ của called → không bỏ được."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "The book I'm reading is long.",
+          "The man helped me is kind."
+        ],
+        "answer": 0,
+        "explain": "Câu 2 thiếu who (who là chủ ngữ của helped)."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The man which lives here is a doctor.",
+      "right": "The man who lives here is a doctor.",
+      "why": "Người → who."
+    },
+    {
+      "wrong": "I have a friend who she lives in Hue.",
+      "right": "I have a friend who lives in Hue.",
+      "why": "Who đã thay cho she → không lặp lại she."
+    },
+    {
+      "wrong": "This is the restaurant which we had dinner.",
+      "right": "This is the restaurant where we had dinner.",
+      "why": "Nơi chốn + câu đầy đủ → where."
+    },
+    {
+      "wrong": "The girl is talking to Nam is my sister.",
+      "right": "The girl who is talking to Nam is my sister.",
+      "why": "Who là chủ ngữ → không được bỏ."
+    },
+    {
+      "wrong": "The book that I bought it is boring.",
+      "right": "The book that I bought is boring.",
+      "why": "That đã thay cho it → bỏ it."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "She's the singer ___ won the competition.",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "answer": 0,
+      "explain": "Singer là người → who."
+    },
+    {
+      "type": "choice",
+      "prompt": "I lost the bag ___ my mum gave me.",
+      "options": [
+        "that",
+        "who",
+        "where"
+      ],
+      "answer": 0,
+      "explain": "Bag là vật → that / which."
+    },
+    {
+      "type": "choice",
+      "prompt": "Da Lat is the city ___ we went on holiday.",
+      "options": [
+        "where",
+        "which",
+        "who"
+      ],
+      "answer": 0,
+      "explain": "Nơi chốn + câu đầy đủ → where."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "The man who lives next door is a chef.",
+        "The man which lives next door is a chef.",
+        "The man lives next door is a chef."
+      ],
+      "answer": 0,
+      "explain": "Người, làm chủ ngữ → who, không bỏ được."
+    },
+    {
+      "type": "fill",
+      "prompt": "I have a cousin ___ works in Singapore.",
+      "hint": "người",
+      "answers": [
+        "who",
+        "that"
+      ],
+      "explain": "Người → who / that."
+    },
+    {
+      "type": "fill",
+      "prompt": "This is the laptop ___ I use for work.",
+      "hint": "vật",
+      "answers": [
+        "which",
+        "that"
+      ],
+      "explain": "Vật → which / that."
+    },
+    {
+      "type": "fill",
+      "prompt": "That's the school ___ my mother teaches.",
+      "hint": "nơi chốn",
+      "answers": [
+        "where"
+      ],
+      "explain": "Nơi chốn + câu đầy đủ → where."
+    },
+    {
+      "type": "fill",
+      "prompt": "The people ___ live upstairs are very noisy.",
+      "hint": "người",
+      "answers": [
+        "who",
+        "that"
+      ],
+      "explain": "Người → who / that."
+    },
+    {
+      "type": "fill",
+      "prompt": "Do you remember the restaurant ___ we met?",
+      "hint": "nơi chốn",
+      "answers": [
+        "where"
+      ],
+      "explain": "Where + câu đầy đủ."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi có một người bạn nói tiếng Pháp.",
+      "words": [
+        "I",
+        "have",
+        "a",
+        "friend",
+        "who",
+        "speaks",
+        "French."
+      ],
+      "explain": "Friend + who + speaks."
+    },
+    {
+      "type": "order",
+      "vi": "Đây là chiếc xe tôi đã mua năm ngoái.",
+      "words": [
+        "This",
+        "is",
+        "the",
+        "car",
+        "I",
+        "bought",
+        "last",
+        "year."
+      ],
+      "explain": "Bỏ that vì có chủ ngữ mới (I)."
+    },
+    {
+      "type": "fix",
+      "sentence": "The woman which called me is my boss.",
+      "answers": [
+        "The woman who called me is my boss."
+      ],
+      "explain": "Người → who."
+    },
+    {
+      "type": "fix",
+      "sentence": "I like the shirt that you bought it.",
+      "answers": [
+        "I like the shirt that you bought."
+      ],
+      "explain": "That đã thay cho it."
+    },
+    {
+      "type": "fix",
+      "sentence": "This is the park which I play football.",
+      "answers": [
+        "This is the park where I play football."
+      ],
+      "explain": "Nơi chốn + câu đầy đủ → where."
+    },
+    {
+      "type": "translate",
+      "vi": "Người đàn ông sống cạnh nhà tôi là bác sĩ.",
+      "answers": [
+        "The man who lives next to me is a doctor.",
+        "The man who lives next door is a doctor.",
+        "The man that lives next to me is a doctor.",
+        "The man that lives next door is a doctor.",
+        "The man who lives next to my house is a doctor.",
+        "The man that lives next to my house is a doctor."
+      ],
+      "explain": "Người → who / that (làm chủ ngữ, không bỏ được)."
+    },
+    {
+      "type": "translate",
+      "vi": "Đây là quán cà phê nơi chúng tôi gặp nhau.",
+      "answers": [
+        "This is the café where we met.",
+        "This is the cafe where we met.",
+        "This is the coffee shop where we met.",
+        "This is the café where we first met.",
+        "This is the cafe where we first met.",
+        "This is the coffee shop where we first met."
+      ],
+      "explain": "Nơi chốn → where."
+    }
+  ]
+}

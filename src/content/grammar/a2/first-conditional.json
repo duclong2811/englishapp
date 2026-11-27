@@ -106,7 +106,7 @@
       "check": {
         "prompt": "If I see Minh tomorrow, I ___ him the news.",
         "options": [
-          "'ll tell",
+          "will tell",
           "tell",
           "told"
         ],
@@ -212,7 +212,7 @@
       "type": "choice",
       "prompt": "If you don't hurry, you ___ the bus.",
       "options": [
-        "'ll miss",
+        "will miss",
         "miss",
         "missed"
       ],

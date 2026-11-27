@@ -83,8 +83,8 @@
       "check": {
         "prompt": "Why did you buy flour? I ___ make a cake.",
         "options": [
-          "'m going to",
-          "'ll"
+          "am going to",
+          "will"
         ],
         "answer": 0,
         "explain": "Đã định trước nên mới mua bột → going to."
@@ -142,8 +142,8 @@
       "check": {
         "prompt": "I promise I ___ you every day.",
         "options": [
-          "'ll call",
-          "'m going to call"
+          "will call",
+          "am going to call"
         ],
         "answer": 0,
         "explain": "Lời hứa → will."
@@ -182,8 +182,8 @@
       "type": "choice",
       "prompt": "A: We need some bread. B: OK, I ___ some.",
       "options": [
-        "'ll get",
-        "'m going to get"
+        "will get",
+        "am going to get"
       ],
       "answer": 0,
       "explain": "Quyết định ngay lúc nói → will."
@@ -192,8 +192,8 @@
       "type": "choice",
       "prompt": "I ___ move to Saigon next month. I've found a flat.",
       "options": [
-        "'m going to",
-        "'ll"
+        "am going to",
+        "will"
       ],
       "answer": 0,
       "explain": "Kế hoạch đã có (đã tìm nhà) → going to."
@@ -202,7 +202,7 @@
       "type": "choice",
       "prompt": "Look at that car! It ___ crash!",
       "options": [
-        "'s going to",
+        "is going to",
         "will"
       ],
       "answer": 0,

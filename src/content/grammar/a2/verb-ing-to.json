@@ -1,0 +1,388 @@
+{
+  "id": "verb-ing-to",
+  "level": "A2",
+  "title": "Động từ + V-ing hay to V: enjoy doing, want to do",
+  "summary": "Nhớ động từ nào theo sau là V-ing (enjoy, finish, mind), động từ nào là to V (want, decide, hope), và like, love, start.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What do you [[enjoy doing]] at weekends?",
+      "vi": "Cuối tuần bạn thích làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "I [[love cooking]]. I [[want to learn]] to make banh xeo.",
+      "vi": "Mình mê nấu ăn. Mình muốn học làm bánh xèo."
+    },
+    {
+      "who": "A",
+      "en": "My mum can teach you. She [[never stops talking]] about food!",
+      "vi": "Mẹ mình dạy được. Mẹ mình nói về đồ ăn suốt!"
+    },
+    {
+      "who": "B",
+      "en": "Really? I'd [[like to meet]] her.",
+      "vi": "Thật à? Mình muốn gặp bác."
+    },
+    {
+      "who": "A",
+      "en": "Do you [[mind coming]] on Sunday morning?",
+      "vi": "Sáng Chủ nhật bạn đến được không?"
+    },
+    {
+      "who": "B",
+      "en": "Not at all. I [[hope to see]] you then!",
+      "vi": "Được chứ. Hẹn gặp bạn hôm đó!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "V-ing",
+      "heading": "Động từ + V-ing",
+      "rule": "Sau **enjoy, finish, mind, stop, avoid, practice, keep, miss, suggest** → **V-ing**.",
+      "formula": [
+        {
+          "text": "enjoy / finish / mind… + [V-ing]"
+        }
+      ],
+      "body": [
+        "Không có quy tắc tuyệt đối, phải học thuộc. Mẹo nhỏ: nhiều động từ trong nhóm này nói về **việc đang làm hoặc đã làm** (enjoy, finish, stop, keep)."
+      ],
+      "examples": [
+        {
+          "en": "I [[enjoy reading]] before bed.",
+          "vi": "Tôi thích đọc sách trước khi ngủ.",
+          "why": "Enjoy + V-ing."
+        },
+        {
+          "en": "Have you [[finished eating]]?",
+          "vi": "Bạn ăn xong chưa?",
+          "why": "Finish + V-ing."
+        },
+        {
+          "en": "She [[keeps forgetting]] her keys.",
+          "vi": "Cô ấy cứ quên chìa khóa mãi.",
+          "why": "Keep + V-ing = cứ làm mãi."
+        }
+      ],
+      "check": {
+        "prompt": "I don't mind ___ late tonight.",
+        "options": [
+          "working",
+          "to work"
+        ],
+        "answer": 0,
+        "explain": "Mind + V-ing."
+      }
+    },
+    {
+      "part": "To V",
+      "heading": "Động từ + to V",
+      "rule": "Sau **want, need, decide, hope, plan, learn, promise, agree, forget, would like** → **to + V**.",
+      "formula": [
+        {
+          "text": "want / decide / hope… + [to] + V"
+        }
+      ],
+      "body": [
+        "Nhiều động từ trong nhóm này nói về **việc trong tương lai** (muốn, định, hy vọng, hứa sẽ làm)."
+      ],
+      "examples": [
+        {
+          "en": "We [[decided to stay]] at home.",
+          "vi": "Chúng tôi quyết định ở nhà.",
+          "why": "Decide + to V."
+        },
+        {
+          "en": "I [[need to buy]] a new phone.",
+          "vi": "Tôi cần mua điện thoại mới.",
+          "why": "Need + to V."
+        },
+        {
+          "en": "She's [[learning to drive]].",
+          "vi": "Cô ấy đang học lái xe.",
+          "why": "Learn + to V."
+        }
+      ],
+      "check": {
+        "prompt": "They hope ___ a house next year.",
+        "options": [
+          "to buy",
+          "buying"
+        ],
+        "answer": 0,
+        "explain": "Hope + to V."
+      }
+    },
+    {
+      "part": "Cả hai",
+      "heading": "Like, love, hate, start, begin: cả hai đều được",
+      "rule": "Sau **like, love, hate, start, begin** dùng **V-ing** hoặc **to V** đều được, nghĩa gần như không đổi.",
+      "body": [
+        "Nhưng **would like / would love** luôn + **to V**: *I'd like to go*, không nói *I'd like going*."
+      ],
+      "examples": [
+        {
+          "en": "It [[started raining]]. / It [[started to rain]].",
+          "vi": "Trời bắt đầu mưa.",
+          "why": "Start + V-ing hoặc to V đều đúng."
+        },
+        {
+          "en": "I [[love swimming]]. / I [[love to swim]].",
+          "vi": "Tôi rất thích bơi.",
+          "why": "Love + V-ing hoặc to V."
+        },
+        {
+          "en": "I'd [[like to order]] now, please.",
+          "vi": "Tôi muốn gọi món bây giờ.",
+          "why": "Would like luôn + to V."
+        }
+      ],
+      "check": {
+        "prompt": "Would you like ___ some tea?",
+        "options": [
+          "to have",
+          "having"
+        ],
+        "answer": 0,
+        "explain": "Would like + to V."
+      }
+    },
+    {
+      "part": "Sau giới từ",
+      "heading": "Sau giới từ luôn là V-ing",
+      "rule": "Sau **giới từ** (in, of, at, about, without, before, after…) → **V-ing**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I'm interested [[in learning]] Korean.",
+          "vi": "Tôi muốn học tiếng Hàn.",
+          "why": "In là giới từ → learning."
+        },
+        {
+          "en": "Thank you [[for helping]] me.",
+          "vi": "Cảm ơn bạn đã giúp tôi.",
+          "why": "For là giới từ → helping."
+        },
+        {
+          "en": "She's good [[at drawing]].",
+          "vi": "Cô ấy vẽ giỏi.",
+          "why": "At là giới từ → drawing."
+        }
+      ],
+      "check": {
+        "prompt": "How about ___ to the cinema?",
+        "options": [
+          "going",
+          "to go",
+          "go"
+        ],
+        "answer": 0,
+        "explain": "About là giới từ → going."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I enjoy to play football.",
+      "right": "I enjoy playing football.",
+      "why": "Enjoy + V-ing."
+    },
+    {
+      "wrong": "I want going home.",
+      "right": "I want to go home.",
+      "why": "Want + to V."
+    },
+    {
+      "wrong": "She decided going abroad.",
+      "right": "She decided to go abroad.",
+      "why": "Decide + to V."
+    },
+    {
+      "wrong": "I'm interested in learn English.",
+      "right": "I'm interested in learning English.",
+      "why": "Sau giới từ → V-ing."
+    },
+    {
+      "wrong": "Would you like going out?",
+      "right": "Would you like to go out?",
+      "why": "Would like + to V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I've finished ___ the report.",
+      "options": [
+        "writing",
+        "to write",
+        "write"
+      ],
+      "answer": 0,
+      "explain": "Finish + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "We need ___ more milk.",
+      "options": [
+        "to buy",
+        "buying",
+        "buy"
+      ],
+      "answer": 0,
+      "explain": "Need + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Thanks for ___ me.",
+      "options": [
+        "inviting",
+        "to invite",
+        "invite"
+      ],
+      "answer": 0,
+      "explain": "Sau giới từ for → V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào sai?",
+      "options": [
+        "I'd like going out.",
+        "I'd like to go out.",
+        "I like going out."
+      ],
+      "answer": 0,
+      "explain": "Would like + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "My father stopped ___ ten years ago.",
+      "hint": "smoke",
+      "answers": [
+        "smoking"
+      ],
+      "explain": "Stop + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "She promised ___ me back.",
+      "hint": "call",
+      "answers": [
+        "to call"
+      ],
+      "explain": "Promise + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "Do you mind ___ the window?",
+      "hint": "open",
+      "answers": [
+        "opening"
+      ],
+      "explain": "Mind + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "I forgot ___ the door.",
+      "hint": "lock",
+      "answers": [
+        "to lock"
+      ],
+      "explain": "Forget + to V (quên làm việc gì)."
+    },
+    {
+      "type": "fill",
+      "prompt": "He's good at ___ jokes.",
+      "hint": "tell",
+      "answers": [
+        "telling"
+      ],
+      "explain": "Sau giới từ at → V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thích nghe nhạc khi lái xe.",
+      "words": [
+        "I",
+        "enjoy",
+        "listening",
+        "to",
+        "music",
+        "when",
+        "I",
+        "drive."
+      ],
+      "alternatives": [
+        "When I drive I enjoy listening to music."
+      ],
+      "explain": "Enjoy + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Chúng tôi định đi Huế vào tháng sau.",
+      "words": [
+        "We",
+        "plan",
+        "to",
+        "go",
+        "to",
+        "Hue",
+        "next",
+        "month."
+      ],
+      "alternatives": [
+        "Next month we plan to go to Hue."
+      ],
+      "explain": "Plan + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "I want learning Japanese.",
+      "answers": [
+        "I want to learn Japanese."
+      ],
+      "explain": "Want + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "He avoids to eat sugar.",
+      "answers": [
+        "He avoids eating sugar."
+      ],
+      "explain": "Avoid + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "Before go to bed, I read.",
+      "answers": [
+        "Before going to bed, I read."
+      ],
+      "explain": "Sau giới từ before → V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi muốn học bơi.",
+      "answers": [
+        "I want to learn to swim.",
+        "I want to learn swimming.",
+        "I want to learn how to swim.",
+        "I'd like to learn to swim.",
+        "I would like to learn to swim.",
+        "I'd like to learn how to swim."
+      ],
+      "explain": "Want + to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy thích nấu ăn.",
+      "answers": [
+        "She likes cooking.",
+        "She likes to cook.",
+        "She loves cooking.",
+        "She loves to cook.",
+        "She enjoys cooking."
+      ],
+      "explain": "Like + V-ing hoặc to V."
+    }
+  ]
+}
