@@ -12,8 +12,8 @@ describe("vocabulary content", () => {
     for (const level of LEVELS) expect(counts[level].total).toBeGreaterThan(500);
   });
 
-  it("has 900 study words at A1, each with meaning, IPA and two examples", () => {
-    expect(study).toHaveLength(900);
+  it("has 1059 study words at A1, each with meaning, IPA and two examples", () => {
+    expect(study).toHaveLength(1059);
     for (const w of study) {
       expect(w.level, w.id).toBe("A1");
       expect(w.ipa, w.id).toBeTruthy();
@@ -27,7 +27,7 @@ describe("vocabulary content", () => {
       for (const ex of w.examples) {
         // Whole-word match, like the fill-in-the-blank exercise ("Let's" contains "let").
         const found = forms.some((f) =>
-          new RegExp(`\\b${f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(ex.en),
+          new RegExp(`(?<![a-z])${f.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![a-z])`, "i").test(ex.en),
         );
         expect(found, `${w.id}: "${ex.en}"`).toBe(true);
       }

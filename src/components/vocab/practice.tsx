@@ -47,7 +47,8 @@ export function makeCloze(word: PracticeWord) {
   const candidates = [word.headword, ...Object.values(word.forms)].sort((a, b) => b.length - a.length);
   for (const ex of word.examples) {
     for (const form of candidates) {
-      const re = new RegExp(`\\b${escapeRegExp(form)}\\b`, "i");
+      // Letter boundaries rather than \\b so "a.m.", "Mr." and "o'clock" match too.
+      const re = new RegExp(`(?<![a-z])${escapeRegExp(form)}(?![a-z])`, "i");
       const m = re.exec(ex.en);
       if (m) {
         return {
