@@ -39,6 +39,21 @@
     {
       "part": "A hay an",
       "heading": "Danh từ số ít cần a hoặc an",
+      "rule": "Danh từ đếm được **số ít** không đứng một mình: phải có **a/an** (hoặc the, my, this…).",
+      "formula": [
+        {
+          "text": "[a / an] + danh từ số ít"
+        }
+      ],
+      "check": {
+        "prompt": "“Tôi là y tá” là câu nào?",
+        "options": [
+          "I am nurse.",
+          "I am a nurse."
+        ],
+        "answer": 1,
+        "explain": "Nghề nghiệp số ít cần a: a nurse."
+      },
       "body": [
         "Tiếng Việt nói “Tôi là giáo viên”, “Tôi có xe máy”, không cần chữ “một”. Tiếng Anh thì **danh từ đếm được số ít không đứng một mình**: phía trước phải có *a/an*, *the*, *my*, *this*… Khi nói về một thứ bất kỳ hoặc lần đầu nhắc đến, dùng **a** hoặc **an**.",
         "Nhớ nhất là với nghề nghiệp: *I am a teacher*, *She is an engineer*."
@@ -69,6 +84,16 @@
     {
       "part": "A hay an",
       "heading": "A hay an? Nghe âm đầu, không nhìn chữ cái",
+      "rule": "Nghe **âm đầu**, không nhìn chữ cái: âm nguyên âm → **an**, âm phụ âm → **a**.",
+      "check": {
+        "prompt": "It takes ___ hour.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explain": "H trong hour không đọc → âm đầu là nguyên âm → an."
+      },
       "body": [
         "Dùng **an** khi từ tiếp theo **bắt đầu bằng một nguyên âm khi đọc** (thường là a, e, i, o, u). Còn lại dùng **a**.",
         "Có vài từ cần để ý: *hour* đọc âm h câm nên là *an hour*; *university*, *uniform* đọc như “diu-” nên là *a university*."
@@ -114,6 +139,22 @@
     {
       "part": "Số nhiều",
       "heading": "Số nhiều: thêm -s hoặc -es",
+      "rule": "Từ hai trở lên → **danh từ số nhiều** (+s, +es…), và **không có a/an**.",
+      "formula": [
+        {
+          "text": "two, three… + [danh từ số nhiều]"
+        }
+      ],
+      "check": {
+        "prompt": "I have two ___.",
+        "options": [
+          "book",
+          "books",
+          "a books"
+        ],
+        "answer": 1,
+        "explain": "Two → số nhiều → books, không có a."
+      },
       "body": [
         "Tiếng Việt nói “một quyển sách”, “hai quyển sách”, danh từ không đổi. Tiếng Anh thì **từ hai trở lên phải đổi sang số nhiều**, và số nhiều **không dùng a/an**."
       ],
@@ -175,6 +216,16 @@
     {
       "part": "Không đếm được",
       "heading": "Một số danh từ không đếm được",
+      "rule": "Danh từ **không đếm được** (water, rice, money…): **không a/an, không -s**. Dùng *some*.",
+      "check": {
+        "prompt": "Can I have ___ water?",
+        "options": [
+          "a",
+          "some"
+        ],
+        "answer": 1,
+        "explain": "Water không đếm được → some water."
+      },
       "body": [
         "Những thứ như *water*, *rice*, *milk*, *bread*, *money*, *information* không đếm từng cái được. Chúng **không dùng a/an và không thêm -s**. Dùng *some* hoặc một đơn vị: *some water*, *a bottle of water*. Bài “some, any” sẽ học kỹ hơn."
       ],

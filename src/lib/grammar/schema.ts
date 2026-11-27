@@ -18,9 +18,19 @@ const section = z.object({
   /** Step this section belongs to in the lesson stepper; consecutive sections with the same part form one step. */
   part: z.string().optional(),
   heading: z.string().min(1),
+  /** The one-sentence rule of this screen, shown in a highlighted box and collected in the summary. */
+  rule: z.string().optional(),
+  /** Pattern lines, e.g. "He / She / It + V-s/es", drawn as tokens. */
+  formula: z.array(z.object({ label: z.string().optional(), text: z.string() })).default([]),
+  /** Signal words shown as chips. */
+  signals: z.array(z.string()).default([]),
   body: z.array(z.string().min(1)).default([]),
   table: z.object({ head: z.array(z.string()), rows: z.array(z.array(z.string())) }).optional(),
   examples: z.array(example).default([]),
+  /** A quick question at the end of the screen ("Thử ngay"). */
+  check: z
+    .object({ prompt: z.string(), options: z.array(z.string()).min(2).max(4), answer: z.number().int().min(0), explain: z.string() })
+    .optional(),
 });
 
 const mistake = z.object({ wrong: z.string(), right: z.string(), why: z.string() });

@@ -101,6 +101,7 @@ type Page =
   | { group: string; kind: "dialogue" }
   | { group: string; kind: "section"; index: number }
   | { group: string; kind: "mistakes" }
+  | { group: string; kind: "summary" }
   | { group: string; kind: "start" };
 
 /** The lesson as a sequence of short screens, grouped into steps. */
@@ -108,7 +109,8 @@ function pagesOf(lesson: GrammarLesson): Page[] {
   return [
     { group: "Hội thoại", kind: "dialogue" },
     ...lesson.sections.map((s, index) => ({ group: s.part ?? s.heading, kind: "section" as const, index })),
-    { group: "Lỗi hay mắc", kind: "mistakes" },
+    { group: "Lỗi sai", kind: "mistakes" },
+    { group: "Tóm tắt", kind: "summary" },
     { group: "Bài tập", kind: "start" },
   ];
 }
@@ -177,11 +179,11 @@ function Steps({
                     <span className="block h-full rounded-full bg-accent transition-[width] motion-reduce:transition-none" style={{ width: `${fill}%` }} />
                   </span>
                   <span
-                    className={`hidden truncate text-sm sm:block ${
+                    className={`hidden truncate text-[13px] sm:block ${
                       state === "current" ? "font-semibold text-accent" : state === "done" ? "text-ink" : "text-ink-soft group-hover:text-ink"
                     }`}
                   >
-                    {k + 1}. {g}
+                    {g}
                   </span>
                 </button>
               </li>
@@ -199,6 +201,7 @@ function Steps({
           {current.kind === "dialogue" ? <Dialogue lesson={lesson} /> : null}
           {current.kind === "section" ? <SectionView section={lesson.sections[current.index]} /> : null}
           {current.kind === "mistakes" ? <Mistakes lesson={lesson} /> : null}
+          {current.kind === "summary" ? <Summary lesson={lesson} /> : null}
           {current.kind === "start" ? (
             <section className="oli rounded-2xl border border-line p-6 sm:p-8" aria-labelledby="start-heading">
               <h2 id="start-heading" className="text-2xl font-semibold">
@@ -265,21 +268,39 @@ function Dialogue({ lesson }: { lesson: GrammarLesson }) {
 function SectionView({ section: s }: { section: GrammarLesson["sections"][number] }) {
   return (
     <section aria-labelledby="section-heading">
-      <h2 id="section-heading" className="text-2xl font-semibold text-balance">
+      <h2 id="section-heading" className="text-2xl font-semibold tracking-tight text-balance sm:text-3xl">
         {s.heading}
       </h2>
+
+      {s.rule ? <Rule text={s.rule} /> : null}
+      {s.formula.length ? <Formula lines={s.formula} /> : null}
+
       {s.body.map((b, k) => (
-        <p key={k} className="mt-3 text-lg leading-relaxed text-pretty">
+        <p key={k} className="mt-4 text-lg leading-relaxed text-pretty">
           <Explain text={b} />
         </p>
       ))}
+
+      {s.signals.length ? (
+        <div className="mt-5">
+          <p className="text-sm font-medium text-ink-soft">Dấu hiệu nhận biết</p>
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {s.signals.map((w) => (
+              <li key={w} lang="en" className="en rounded-full border border-accent/30 bg-accent/5 px-3 py-1 text-base">
+                {w}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+
       {s.table ? (
-        <div className="mt-5 overflow-x-auto rounded-xl border border-line bg-sheet">
+        <div className="mt-6 overflow-x-auto rounded-2xl border border-line bg-sheet">
           <table className="w-full border-collapse text-left">
             <thead>
-              <tr className="border-b border-line bg-line/30">
+              <tr className="border-b border-line">
                 {s.table.head.map((h) => (
-                  <th key={h} scope="col" className="px-4 py-2 text-sm font-semibold">
+                  <th key={h} scope="col" className="px-4 py-3 text-sm font-semibold text-ink-soft">
                     {h}
                   </th>
                 ))}
@@ -287,9 +308,14 @@ function SectionView({ section: s }: { section: GrammarLesson["sections"][number
             </thead>
             <tbody>
               {s.table.rows.map((r, k) => (
-                <tr key={k} className="border-b border-line last:border-0">
+                <tr key={k} className="border-b border-line last:border-0 even:bg-paper/60">
                   {r.map((c, j) => (
-                    <td key={j} className={`px-4 py-2 align-top ${j === 0 && s.table!.head[0] === "Quy tắc" ? "" : "en"}`}>
+                    <td
+                      key={j}
+                      className={`px-4 py-3 align-top ${j === 0 ? "font-medium" : ""} ${
+                        j === 0 && s.table!.head[0] === "Quy tắc" ? "" : "en"
+                      }`}
+                    >
                       {c}
                     </td>
                   ))}
@@ -299,27 +325,156 @@ function SectionView({ section: s }: { section: GrammarLesson["sections"][number
           </table>
         </div>
       ) : null}
+
       {s.examples.length ? (
-        <ul className="mt-5 space-y-3">
-          {s.examples.map((e, k) => (
-            <li key={k} className="flex items-start gap-3 rounded-xl border border-line bg-sheet p-4">
-              <div className="min-w-0 flex-1">
-                <p className="en text-xl text-pretty" lang="en">
-                  <Marked text={e.en} />
-                </p>
-                <p className="text-ink-soft text-pretty">{e.vi}</p>
-                {e.why ? (
-                  <p className="mt-1.5 text-pretty">
-                    <span className="font-semibold text-accent">Vì sao: </span>
-                    {e.why}
+        <div className="mt-6">
+          <p className="text-sm font-medium text-ink-soft">Ví dụ</p>
+          <ul className="mt-2 divide-y divide-line overflow-hidden rounded-2xl border border-line bg-sheet">
+            {s.examples.map((e, k) => (
+              <li key={k} className="flex items-start gap-3 p-4">
+                <div className="min-w-0 flex-1">
+                  <p className="en text-xl leading-snug text-pretty" lang="en">
+                    <Marked text={e.en} />
                   </p>
-                ) : null}
-              </div>
-              <SpeakButton text={plain(e.en)} compact />
-            </li>
-          ))}
-        </ul>
+                  <p className="mt-0.5 text-ink-soft text-pretty">{e.vi}</p>
+                  {e.why ? (
+                    <p className="mt-2 border-l-2 border-accent/40 pl-3 text-[0.95rem] text-pretty">
+                      <span className="font-semibold text-accent">Vì sao: </span>
+                      {e.why}
+                    </p>
+                  ) : null}
+                </div>
+                <SpeakButton text={plain(e.en)} compact />
+              </li>
+            ))}
+          </ul>
+        </div>
       ) : null}
+
+      {s.check ? <QuickCheck key={s.heading} check={s.check} /> : null}
+    </section>
+  );
+}
+
+function Rule({ text }: { text: string }) {
+  return (
+    <div className="mt-4 rounded-r-2xl border-l-4 border-accent bg-accent/[0.07] px-5 py-4">
+      <p className="text-xs font-semibold text-accent">Quy tắc</p>
+      <p className="mt-1 text-lg leading-relaxed text-pretty">
+        <Explain text={text} />
+      </p>
+    </div>
+  );
+}
+
+/** Pattern lines drawn as tokens: "He / She / It + [V-s/es]", where [..] is the part to notice. */
+function Formula({ lines }: { lines: { label?: string; text: string }[] }) {
+  return (
+    <div className="mt-4 space-y-3 rounded-2xl border border-line bg-sheet p-4">
+      {lines.map((l, i) => {
+        const tone = l.label === "Sai" ? "wrong" : l.label === "Đúng" ? "right" : "normal";
+        return (
+          <div key={i} className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-4">
+            {l.label ? (
+              <span
+                className={`text-sm sm:w-44 sm:shrink-0 ${
+                  tone === "wrong" ? "font-semibold text-mistake" : tone === "right" ? "font-semibold text-correct" : "text-ink-soft"
+                }`}
+              >
+                {l.label}
+              </span>
+            ) : null}
+            <span className={`flex flex-wrap items-center gap-1.5 ${tone === "wrong" ? "opacity-70" : ""}`}>
+              {l.text.split(" + ").map((t, k) => {
+                const focus = t.startsWith("[") && t.endsWith("]");
+                const label = focus ? t.slice(1, -1) : t;
+                return (
+                  <span key={k} className="flex items-center gap-1.5">
+                    {k > 0 ? <span className="text-ink-soft" aria-label="cộng">+</span> : null}
+                    <span
+                      className={`rounded-lg px-2.5 py-1 text-base font-medium ${
+                        focus
+                          ? tone === "wrong"
+                            ? "bg-mistake/15 text-mistake line-through"
+                            : "bg-highlight text-ink"
+                          : "border border-line bg-paper"
+                      }`}
+                    >
+                      {label}
+                    </span>
+                  </span>
+                );
+              })}
+            </span>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function QuickCheck({ check }: { check: { prompt: string; options: string[]; answer: number; explain: string } }) {
+  const [picked, setPicked] = useState<number | null>(null);
+  const done = picked !== null;
+  const right = picked === check.answer;
+  return (
+    <div className="mt-8 rounded-2xl border-2 border-dashed border-accent/40 p-4 sm:p-5">
+      <p className="text-sm font-semibold text-accent">Thử ngay</p>
+      <p className={`mt-1 text-pretty ${check.prompt.includes("___") ? "en text-xl" : "text-lg font-medium"}`}>{check.prompt}</p>
+      <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+        {check.options.map((o, i) => (
+          <button
+            key={o}
+            type="button"
+            disabled={done}
+            onClick={() => setPicked(i)}
+            className={`en min-h-11 rounded-xl border px-4 text-left text-lg transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
+              done && i === check.answer
+                ? "border-correct bg-correct/10"
+                : done && i === picked
+                  ? "border-mistake bg-mistake/10"
+                  : "border-line bg-sheet hover:border-accent"
+            }`}
+          >
+            {o}
+          </button>
+        ))}
+      </div>
+      <p aria-live="polite" className="mt-3 text-pretty">
+        {done ? (
+          <>
+            <span className={`font-semibold ${right ? "text-correct" : "text-mistake"}`}>{right ? "Đúng rồi! " : "Chưa đúng. "}</span>
+            {check.explain}
+          </>
+        ) : null}
+      </p>
+    </div>
+  );
+}
+
+function Summary({ lesson }: { lesson: GrammarLesson }) {
+  const rules = lesson.sections.filter((s) => s.rule);
+  return (
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading" className="text-2xl font-semibold tracking-tight sm:text-3xl">
+        Tóm tắt bài
+      </h2>
+      <p className="mt-2 text-ink-soft">Những điều cần nhớ, gom lại một chỗ để xem lại trước khi làm bài.</p>
+      <ol className="mt-5 divide-y divide-line overflow-hidden rounded-2xl border border-line bg-sheet">
+        {rules.map((s, i) => (
+          <li key={i} className="flex gap-4 p-4">
+            <span className="grid size-7 shrink-0 place-items-center rounded-full bg-accent/10 text-sm font-semibold text-accent tabular-nums">
+              {i + 1}
+            </span>
+            <div className="min-w-0">
+              <p className="text-sm text-ink-soft">{s.heading}</p>
+              <p className="mt-0.5 leading-relaxed text-pretty">
+                <Explain text={s.rule!} />
+              </p>
+            </div>
+          </li>
+        ))}
+      </ol>
     </section>
   );
 }

@@ -39,16 +39,58 @@
     {
       "part": "Cách dùng",
       "heading": "Khi nào dùng hiện tại đơn?",
+      "rule": "Hiện tại đơn dùng cho việc **đúng nói chung**: lặp lại, kéo dài, luôn đúng, theo lịch. Việc **đang xảy ra ngay lúc nói** thì không dùng hiện tại đơn.",
+      "check": {
+        "prompt": "Câu nào nói về thói quen?",
+        "options": [
+          "I drink tea every morning.",
+          "I am drinking tea now."
+        ],
+        "answer": 0,
+        "explain": "Every morning = sáng nào cũng vậy → lặp lại → hiện tại đơn. Now = ngay lúc này → hiện tại tiếp diễn (bài 17)."
+      },
       "body": [
-        "Hiện tại đơn dùng cho những việc **không chỉ đúng vào lúc đang nói**, mà đúng nói chung: lặp đi lặp lại, kéo dài, hoặc luôn luôn đúng. Có bốn trường hợp chính bên dưới.",
-        "Ngược lại, việc **đang diễn ra ngay lúc nói** thì dùng thì hiện tại tiếp diễn (bài 17): *I am cooking now* = Bây giờ tôi đang nấu ăn."
+        "Có bốn trường hợp chính, ở các màn tiếp theo. Trước hết hãy so sánh hai câu dưới đây."
+      ],
+      "examples": [
+        {
+          "en": "I [[work]] in a bank.",
+          "vi": "Tôi làm ở ngân hàng.",
+          "why": "Công việc nói chung, đúng lâu dài → hiện tại đơn."
+        },
+        {
+          "en": "I [[am working]] now.",
+          "vi": "Bây giờ tôi đang làm việc.",
+          "why": "Đang diễn ra ngay lúc nói → hiện tại tiếp diễn, không phải hiện tại đơn."
+        }
       ]
     },
     {
       "part": "Cách dùng",
       "heading": "1. Thói quen, việc lặp lại",
+      "rule": "Việc **lặp đi lặp lại** (thói quen, việc thường làm) → hiện tại đơn.",
+      "signals": [
+        "every day",
+        "every morning",
+        "on Mondays",
+        "twice a week",
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "never"
+      ],
+      "check": {
+        "prompt": "We ___ football on Sundays.",
+        "options": [
+          "play",
+          "are playing"
+        ],
+        "answer": 0,
+        "explain": "On Sundays = mọi Chủ nhật → việc lặp lại → hiện tại đơn: play."
+      },
       "body": [
-        "Việc bạn làm nhiều lần: hằng ngày, hằng tuần, thỉnh thoảng. Dấu hiệu nhận biết: *every day*, *every morning*, *on Mondays*, *twice a week*, *always*, *usually*, *often*, *sometimes*, *never*."
+        "Việc bạn làm nhiều lần: hằng ngày, hằng tuần, thỉnh thoảng. Gặp các từ dưới đây là gần như chắc chắn dùng hiện tại đơn."
       ],
       "examples": [
         {
@@ -76,6 +118,17 @@
     {
       "part": "Cách dùng",
       "heading": "2. Công việc, nơi ở, điều đúng trong thời gian dài",
+      "rule": "Công việc, nơi ở, sở thích, khả năng: những điều **đúng trong thời gian dài** → hiện tại đơn.",
+      "check": {
+        "prompt": "Cô ấy là y tá ở bệnh viện. Câu nào đúng?",
+        "options": [
+          "She works in a hospital.",
+          "She is work in a hospital.",
+          "She work in a hospital."
+        ],
+        "answer": 0,
+        "explain": "Công việc lâu dài → hiện tại đơn. She là ngôi thứ ba số ít → works. Không dùng is trước động từ thường."
+      },
       "body": [
         "Những điều đúng với cuộc sống hiện tại và kéo dài: làm nghề gì, sống ở đâu, thích gì, biết gì."
       ],
@@ -105,6 +158,16 @@
     {
       "part": "Cách dùng",
       "heading": "3. Sự thật, điều luôn đúng",
+      "rule": "Điều **luôn luôn đúng** (tự nhiên, khoa học, hiểu biết chung) → hiện tại đơn.",
+      "check": {
+        "prompt": "Water ___ at 100 degrees.",
+        "options": [
+          "boil",
+          "boils"
+        ],
+        "answer": 1,
+        "explain": "Sự thật khoa học → hiện tại đơn. Water = it → boils."
+      },
       "body": [
         "Điều đúng ở mọi lúc, mọi nơi: tự nhiên, khoa học, hiểu biết chung."
       ],
@@ -129,6 +192,16 @@
     {
       "part": "Cách dùng",
       "heading": "4. Lịch trình, thời gian biểu cố định",
+      "rule": "Giờ giấc **theo lịch có sẵn** (tàu xe, giờ học, giờ mở cửa) → hiện tại đơn, kể cả khi nói về ngày mai.",
+      "check": {
+        "prompt": "The train ___ at nine tomorrow.",
+        "options": [
+          "leaves",
+          "leave"
+        ],
+        "answer": 0,
+        "explain": "Giờ tàu theo lịch → hiện tại đơn dù là ngày mai. The train = it → leaves."
+      },
       "body": [
         "Giờ tàu xe, giờ học, giờ mở cửa: những việc theo lịch có sẵn, kể cả khi nói về tương lai gần."
       ],
@@ -153,30 +226,30 @@
     {
       "part": "Chia động từ",
       "heading": "Ngôi thứ ba số ít: động từ thêm -s",
-      "body": [
-        "Ngữ pháp gọi **he, she, it** là **ngôi thứ ba số ít**: người hoặc vật được nhắc tới (không phải “tôi”, không phải “bạn”), và chỉ có **một**. Một danh từ số ít như *my mother*, *Tom*, *the cat* cũng là ngôi thứ ba số ít, vì có thể thay bằng he, she hoặc it.",
-        "Tiếng Việt nói “tôi làm”, “cô ấy làm”, động từ không bao giờ đổi. Tiếng Anh thì với **ngôi thứ ba số ít, động từ phải thêm -s** (hoặc -es). Các chủ ngữ còn lại giữ nguyên động từ.",
-        "Đây là lỗi người Việt mắc nhiều nhất, kể cả người học lâu năm. Cách kiểm tra: thay chủ ngữ bằng he, she hoặc it. Nếu thay được, động từ cần thêm -s."
+      "rule": "**He, she, it** (hoặc một người, một vật) → động từ **thêm -s/-es**. Các chủ ngữ khác → **giữ nguyên**.",
+      "formula": [
+        {
+          "label": "I, you, we, they, số nhiều",
+          "text": "I / You / We / They + [V]"
+        },
+        {
+          "label": "Ngôi thứ ba số ít",
+          "text": "He / She / It + [V-s/es]"
+        }
       ],
-      "table": {
-        "head": [
-          "Chủ ngữ",
-          "Động từ",
-          "Ví dụ"
+      "check": {
+        "prompt": "My parents ___ in Hue.",
+        "options": [
+          "live",
+          "lives"
         ],
-        "rows": [
-          [
-            "I, you, we, they, danh từ số nhiều",
-            "nguyên mẫu",
-            "I work. My parents work."
-          ],
-          [
-            "he, she, it, danh từ số ít (ngôi thứ ba số ít)",
-            "thêm -s / -es",
-            "She works. My father works."
-          ]
-        ]
+        "answer": 0,
+        "explain": "My parents = they, không phải ngôi thứ ba số ít → giữ nguyên: live."
       },
+      "body": [
+        "**Ngôi thứ ba số ít** là người hoặc vật được nhắc tới (không phải “tôi”, không phải “bạn”) và chỉ có **một**: he, she, it, hoặc *my mother*, *Tom*, *the cat*.",
+        "Tiếng Việt nói “tôi làm”, “cô ấy làm”, động từ không đổi, nên đây là lỗi người Việt mắc nhiều nhất. Mẹo kiểm tra: **thay chủ ngữ bằng he, she hoặc it được thì động từ thêm -s**."
+      ],
       "examples": [
         {
           "en": "My mother [[cooks]] dinner every day.",
@@ -198,6 +271,16 @@
     {
       "part": "Chia động từ",
       "heading": "Cách thêm -s hay -es",
+      "rule": "Thường **+s**. Tận cùng s, ss, sh, ch, x, o → **+es**. Phụ âm + y → **ies**. Have → **has**.",
+      "check": {
+        "prompt": "He ___ English every evening.",
+        "options": [
+          "studys",
+          "studies"
+        ],
+        "answer": 1,
+        "explain": "Study tận cùng phụ âm d + y → đổi y thành i rồi thêm -es: studies."
+      },
       "body": [
         "Phần lớn động từ chỉ thêm -s. Động từ tận cùng bằng âm “xì” (-s, -ss, -sh, -ch, -x) thêm -es vì *watchs* rất khó đọc; thêm e để đọc thành /ɪz/: *watches*. Go và do cũng thêm -es."
       ],
@@ -234,6 +317,17 @@
     {
       "part": "Chia động từ",
       "heading": "Đọc đuôi -s",
+      "rule": "Đuôi -s đọc ba cách: **/s/, /z/, /ɪz/**. Đừng nuốt âm cuối.",
+      "check": {
+        "prompt": "Từ nào đọc đuôi /ɪz/?",
+        "options": [
+          "works",
+          "plays",
+          "watches"
+        ],
+        "answer": 2,
+        "explain": "Watch tận cùng âm /tʃ/ → thêm -es → đọc /ɪz/: watches."
+      },
       "body": [
         "Đuôi -s đọc ba cách: /s/ như *works*, *eats*; /z/ như *plays*, *lives*; /ɪz/ như *watches*, *washes*. Đừng bỏ âm cuối khi nói, vì người nghe dựa vào nó để biết bạn đang nói về ai."
       ]
@@ -241,6 +335,26 @@
     {
       "part": "Lưu ý",
       "heading": "Không dùng be với động từ thường",
+      "rule": "Câu đã có động từ thường thì **không dùng am, is, are**.",
+      "formula": [
+        {
+          "label": "Sai",
+          "text": "I + [am] + go"
+        },
+        {
+          "label": "Đúng",
+          "text": "I + [go]"
+        }
+      ],
+      "check": {
+        "prompt": "Câu nào đúng?",
+        "options": [
+          "I am go to school by bike.",
+          "I go to school by bike."
+        ],
+        "answer": 1,
+        "explain": "Đã có động từ go nên bỏ am."
+      },
       "body": [
         "Người Việt hay nói “I am work”, “She is go” vì nghĩ be là “thì, là”. Ở thì hiện tại đơn, câu đã có động từ thường thì **không có be**."
       ],

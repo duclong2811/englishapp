@@ -44,6 +44,22 @@
     {
       "part": "Be là gì",
       "heading": "Vì sao tiếng Anh cần be?",
+      "rule": "Câu tiếng Anh nào cũng cần động từ. Khi không có hành động, dùng **be** (am, is, are).",
+      "formula": [
+        {
+          "text": "Chủ ngữ + [be] + nghề / tên / tính từ / nơi chốn / tuổi"
+        }
+      ],
+      "check": {
+        "prompt": "“Tôi đói” là câu nào?",
+        "options": [
+          "I hungry.",
+          "I am hungry.",
+          "I have hungry."
+        ],
+        "answer": 1,
+        "explain": "Cần be giữa chủ ngữ và tính từ: I am hungry."
+      },
       "body": [
         "Tiếng Việt nói “Tôi đói”, “Cô ấy đẹp”, “Họ ở nhà”, không cần thêm chữ nào giữa người và tính chất. Tiếng Anh thì **câu nào cũng phải có động từ**, nên khi không có hành động, ta dùng động từ **be**.",
         "Be thường dịch là “là”, “thì”, “ở”, nhưng nhiều khi không dịch ra tiếng Việt: *I am hungry* = Tôi đói. Be đi với bốn loại từ chính dưới đây."
@@ -94,6 +110,27 @@
     {
       "part": "Am, is, are",
       "heading": "Am, is hay are?",
+      "rule": "**I → am**. **He, she, it** (danh từ số ít) → **is**. **You, we, they** (danh từ số nhiều) → **are**.",
+      "formula": [
+        {
+          "text": "I + [am]"
+        },
+        {
+          "text": "He / She / It + [is]"
+        },
+        {
+          "text": "You / We / They + [are]"
+        }
+      ],
+      "check": {
+        "prompt": "My parents ___ teachers.",
+        "options": [
+          "is",
+          "are"
+        ],
+        "answer": 1,
+        "explain": "My parents = they (số nhiều) → are."
+      },
       "body": [
         "Chọn theo **chủ ngữ** đứng trước. Khi nói, người bản xứ hầu như luôn dùng dạng viết tắt.",
         "Danh từ số ít (*my mother*, *the book*, *Tom*) đi với **is**. Danh từ số nhiều (*my parents*, *the books*, *Tom and Anna*) đi với **are**."
@@ -147,6 +184,21 @@
     {
       "part": "Phủ định",
       "heading": "Phủ định: thêm not",
+      "rule": "Phủ định: thêm **not** ngay sau be.",
+      "formula": [
+        {
+          "text": "Chủ ngữ + be + [not]"
+        }
+      ],
+      "check": {
+        "prompt": "It ___ expensive.",
+        "options": [
+          "isn't",
+          "not is"
+        ],
+        "answer": 0,
+        "explain": "Not đứng sau be: is not → isn't."
+      },
       "body": [
         "Đặt **not** ngay sau be. Không có dạng viết tắt “amn't”: chỉ có *I'm not*."
       ],
@@ -191,6 +243,26 @@
     {
       "part": "Câu hỏi",
       "heading": "Câu hỏi: đưa be lên đầu",
+      "rule": "Câu hỏi: đưa **be lên trước chủ ngữ**. Trả lời ngắn: *Yes, I am* / *No, I'm not*.",
+      "formula": [
+        {
+          "label": "Câu hỏi Yes/No",
+          "text": "[Be] + chủ ngữ + …?"
+        },
+        {
+          "label": "Có từ để hỏi",
+          "text": "Wh- + [be] + chủ ngữ?"
+        }
+      ],
+      "check": {
+        "prompt": "Câu hỏi nào đúng?",
+        "options": [
+          "You are a student?",
+          "Are you a student?"
+        ],
+        "answer": 1,
+        "explain": "Đảo are lên trước you."
+      },
       "body": [
         "Tiếng Việt hỏi bằng cách thêm “không?”, “à?” vào cuối câu. Tiếng Anh **đảo be lên trước chủ ngữ**: *You are a student* → *Are you a student?*",
         "Trả lời ngắn dùng lại be. Câu trả lời “Yes” **không viết tắt**: nói *Yes, I am*, không nói “Yes, I'm”.",

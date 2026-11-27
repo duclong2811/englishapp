@@ -70,3 +70,11 @@ describe("grammar lessons", () => {
     expect(marked.length, l.id).toBeGreaterThanOrEqual(Math.ceil(l.dialogue.length / 2));
   });
 });
+
+describe("lesson screens", () => {
+  it("have valid quick checks", () => {
+    for (const l of getGrammarLessons())
+      for (const s of l.sections)
+        if (s.check) expect(s.check.answer, `${l.id}: ${s.heading}`).toBeLessThan(s.check.options.length);
+  });
+});
