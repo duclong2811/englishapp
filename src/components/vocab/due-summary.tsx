@@ -25,14 +25,22 @@ export function DueSummary({ ids, total }: { ids: string[]; total: number }) {
             : `Bạn đã ôn hết thẻ hôm nay. Đã học ${learned}/${total} từ.`
           : "Đang tải tiến độ…"}
       </p>
-      {todo > 0 ? (
+      <div className="mt-6 flex flex-wrap gap-3">
+        {todo > 0 ? (
+          <Link
+            href="/vocabulary/review"
+            className="inline-flex min-h-12 items-center rounded-full bg-accent px-6 font-semibold text-accent-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          >
+            Bắt đầu ôn
+          </Link>
+        ) : null}
         <Link
-          href="/vocabulary/review"
-          className="mt-6 inline-flex min-h-12 items-center rounded-full bg-accent px-6 font-semibold text-accent-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          href="/vocabulary/practice"
+          className="inline-flex min-h-12 items-center rounded-full border border-line bg-sheet px-6 font-semibold transition-colors hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
-          Bắt đầu ôn
+          Luyện tập
         </Link>
-      ) : null}
+      </div>
     </section>
   );
 }

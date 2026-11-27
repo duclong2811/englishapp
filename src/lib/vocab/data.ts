@@ -2,6 +2,7 @@ import "server-only";
 import { z } from "zod";
 import wordsJson from "@/content/vocab/words.json";
 import a1CoreJson from "@/content/vocab/vi/a1-core.json";
+import a1Core2Json from "@/content/vocab/vi/a1-core-2.json";
 
 export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
 export type Level = (typeof LEVELS)[number];
@@ -79,7 +80,7 @@ function load() {
   const words = z.array(baseWord).parse(wordsJson);
   const byId = new Map(words.map((w) => [w.id, w]));
   const study: StudyWord[] = [];
-  for (const file of [a1CoreJson]) {
+  for (const file of [a1CoreJson, a1Core2Json]) {
     const parsed = viFile.parse(file);
     for (const entry of parsed.entries) {
       const base = byId.get(entry.id);

@@ -14,6 +14,6 @@ Trích dẫn CEFR-J: The CEFR-J Wordlist Version 1.5. Compiled by Yukio Tono, To
 
 ## Nghĩa tiếng Việt (`vi/`)
 
-`vi/a1-core.json`: 50 từ A1 thông dụng nhất, gồm nghĩa, ghi chú cho người Việt và câu ví dụ đã chọn. Trạng thái `draft`: AI soạn, chưa có người duyệt. Câu Tatoeba có `edited: true` là câu đã sửa bản dịch tiếng Việt (CC BY cho phép chỉnh sửa, giữ ghi nguồn). Câu `source: "editor"` do người soạn viết.
+`vi/a1-core.json` và `vi/a1-core-2.json`: 100 từ A1 thông dụng nhất, gồm nghĩa, ghi chú cho người Việt và câu ví dụ đã chọn. Trạng thái `draft`: AI soạn, chưa có người duyệt. Câu Tatoeba có `edited: true` là câu đã sửa bản dịch tiếng Việt (CC BY cho phép chỉnh sửa, giữ ghi nguồn). Câu `source: "editor"` do người soạn viết.
 
 Thêm từ: tạo file mới trong `vi/`, thêm vào danh sách file trong `src/lib/vocab/data.ts`, rồi chạy `npm test`.

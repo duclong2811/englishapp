@@ -12,8 +12,8 @@ describe("vocabulary content", () => {
     for (const level of LEVELS) expect(counts[level].total).toBeGreaterThan(500);
   });
 
-  it("has 50 study words at A1, each with meaning, IPA and two examples", () => {
-    expect(study).toHaveLength(50);
+  it("has 100 study words at A1, each with meaning, IPA and two examples", () => {
+    expect(study).toHaveLength(100);
     for (const w of study) {
       expect(w.level, w.id).toBe("A1");
       expect(w.ipa, w.id).toBeTruthy();
