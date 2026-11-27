@@ -1,0 +1,363 @@
+{
+  "id": "present-for-future",
+  "level": "A2",
+  "title": "Hiện tại tiếp diễn cho lịch hẹn tương lai",
+  "summary": "Nói lịch hẹn đã sắp xếp với hiện tại tiếp diễn, và lịch trình cố định (tàu, phim) với hiện tại đơn.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Are you free on Saturday?",
+      "vi": "Thứ Bảy bạn rảnh không?"
+    },
+    {
+      "who": "B",
+      "en": "Sorry, [[I'm meeting]] a client in the morning.",
+      "vi": "Xin lỗi, sáng đó mình gặp khách hàng."
+    },
+    {
+      "who": "A",
+      "en": "What about the afternoon?",
+      "vi": "Thế buổi chiều thì sao?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'm flying]] to Da Nang. My flight [[leaves]] at 3.",
+      "vi": "Mình bay đi Đà Nẵng. Chuyến bay cất cánh lúc 3 giờ."
+    },
+    {
+      "who": "A",
+      "en": "When [[are]] you [[coming]] back?",
+      "vi": "Khi nào bạn về?"
+    },
+    {
+      "who": "B",
+      "en": "On Monday. Let's have lunch on Tuesday!",
+      "vi": "Thứ Hai. Thứ Ba mình đi ăn trưa nhé!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Lịch hẹn",
+      "heading": "Lịch hẹn đã sắp xếp → hiện tại tiếp diễn",
+      "rule": "Việc tương lai **đã hẹn, đã sắp xếp** (có giờ, có người, đã đặt) → **am / is / are + V-ing** + thời gian tương lai.",
+      "formula": [
+        {
+          "text": "S + [am / is / are + V-ing] + thời gian tương lai"
+        }
+      ],
+      "body": [
+        "Giống như việc đã ghi vào lịch hoặc sổ tay. Câu luôn có thời gian tương lai (tonight, tomorrow, on Friday) để không nhầm với việc đang diễn ra bây giờ.",
+        "Rất hay dùng với come, go, meet, have (a party), leave, fly, see (the doctor)."
+      ],
+      "examples": [
+        {
+          "en": "[[I'm seeing]] the dentist tomorrow.",
+          "vi": "Mai tôi đi khám răng.",
+          "why": "Đã đặt lịch với nha sĩ."
+        },
+        {
+          "en": "[[We're having]] a party on Saturday.",
+          "vi": "Thứ Bảy nhà tôi tổ chức tiệc.",
+          "why": "Đã lên kế hoạch, mời khách."
+        },
+        {
+          "en": "What [[are]] you [[doing]] this weekend?",
+          "vi": "Cuối tuần này bạn làm gì?",
+          "why": "Hỏi lịch hẹn → What are you doing…?"
+        }
+      ],
+      "check": {
+        "prompt": "My parents ___ to visit us next Sunday.",
+        "options": [
+          "are coming",
+          "come"
+        ],
+        "answer": 0,
+        "explain": "Lịch đã hẹn → are coming."
+      }
+    },
+    {
+      "part": "Lịch trình",
+      "heading": "Lịch trình cố định → hiện tại đơn",
+      "rule": "Giờ của **tàu, xe, máy bay, phim, lớp học** theo lịch cố định → **hiện tại đơn**, dù nói về tương lai.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The train [[leaves]] at 6:30 tomorrow morning.",
+          "vi": "Tàu khởi hành lúc 6 giờ 30 sáng mai.",
+          "why": "Giờ tàu theo lịch → hiện tại đơn."
+        },
+        {
+          "en": "The film [[starts]] at 8. Don't be late!",
+          "vi": "Phim bắt đầu lúc 8 giờ. Đừng đến muộn!",
+          "why": "Giờ chiếu phim cố định."
+        },
+        {
+          "en": "What time [[does]] the class [[finish]] on Friday?",
+          "vi": "Thứ Sáu lớp học kết thúc lúc mấy giờ?",
+          "why": "Hỏi lịch trình → does + finish."
+        }
+      ],
+      "check": {
+        "prompt": "Our flight ___ at 10:15 tomorrow.",
+        "options": [
+          "leaves",
+          "is leave"
+        ],
+        "answer": 0,
+        "explain": "Giờ bay theo lịch → leaves."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Ba cách nói tương lai",
+      "rule": "Lịch hẹn cụ thể → **V-ing**; dự định, ý định → **going to**; quyết định lúc nói, dự đoán → **will**.",
+      "body": [],
+      "table": {
+        "head": [
+          "Cách nói",
+          "Dùng khi",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "am / is / are + V-ing",
+            "đã hẹn, đã sắp xếp",
+            "I'm meeting Lan at 7."
+          ],
+          [
+            "be going to",
+            "đã định làm",
+            "I'm going to learn to swim."
+          ],
+          [
+            "will",
+            "quyết định lúc nói, dự đoán",
+            "I'll call you later."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[I'm playing]] tennis with Nam at 5.",
+          "vi": "5 giờ tôi chơi tennis với Nam.",
+          "why": "Đã hẹn với Nam, có giờ → V-ing."
+        },
+        {
+          "en": "[[I'm going to]] play more sport this year.",
+          "vi": "Năm nay tôi định chơi thể thao nhiều hơn.",
+          "why": "Ý định chung, chưa hẹn cụ thể → going to."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ dinner with my boss tonight. We booked a table.",
+        "options": [
+          "'m having",
+          "'ll have"
+        ],
+        "answer": 0,
+        "explain": "Đã đặt bàn → lịch hẹn → I'm having."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I meet my friend tomorrow at 7.",
+      "right": "I'm meeting my friend tomorrow at 7.",
+      "why": "Lịch hẹn với người khác → hiện tại tiếp diễn."
+    },
+    {
+      "wrong": "What do you do this weekend?",
+      "right": "What are you doing this weekend?",
+      "why": "Hỏi kế hoạch cuối tuần → are you doing."
+    },
+    {
+      "wrong": "The bus is leaving at 5 every day.",
+      "right": "The bus leaves at 5 every day.",
+      "why": "Lịch trình cố định → hiện tại đơn."
+    },
+    {
+      "wrong": "I'm seeing the doctor.",
+      "right": "I'm seeing the doctor tomorrow.",
+      "why": "Cần có thời gian tương lai để rõ là lịch hẹn."
+    },
+    {
+      "wrong": "She coming to the party tonight.",
+      "right": "She is coming to the party tonight.",
+      "why": "Thiếu is."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ my grandparents this Sunday.",
+      "options": [
+        "'m visiting",
+        "visit",
+        "visits"
+      ],
+      "answer": 0,
+      "explain": "Lịch đã sắp xếp → I'm visiting."
+    },
+    {
+      "type": "choice",
+      "prompt": "The concert ___ at 8 p.m.",
+      "options": [
+        "starts",
+        "is start",
+        "start"
+      ],
+      "answer": 0,
+      "explain": "Lịch trình cố định → starts."
+    },
+    {
+      "type": "choice",
+      "prompt": "What time ___ your bus leave tomorrow?",
+      "options": [
+        "does",
+        "is",
+        "do"
+      ],
+      "answer": 0,
+      "explain": "Lịch trình → does + leave."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói về lịch hẹn đã sắp xếp?",
+      "options": [
+        "I'm meeting Hoa at 6 tonight.",
+        "I'll meet Hoa one day."
+      ],
+      "answer": 0,
+      "explain": "Có giờ, có người, đã hẹn → V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ to Phu Quoc on Friday. The hotel is booked.",
+      "hint": "fly",
+      "answers": [
+        "are flying",
+        "'re flying"
+      ],
+      "explain": "Đã đặt khách sạn → lịch đã sắp xếp."
+    },
+    {
+      "type": "fill",
+      "prompt": "The museum ___ at 5 on Sundays.",
+      "hint": "close",
+      "answers": [
+        "closes"
+      ],
+      "explain": "Giờ mở cửa cố định → closes."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you doing anything tonight?",
+      "hint": "be",
+      "answers": [
+        "Are"
+      ],
+      "explain": "Hỏi lịch hẹn: Are you doing…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "My brother ___ married next month.",
+      "hint": "get",
+      "answers": [
+        "is getting",
+        "'s getting"
+      ],
+      "explain": "Đám cưới đã định → is getting."
+    },
+    {
+      "type": "fill",
+      "prompt": "The next train to Hai Phong ___ at 9:40.",
+      "hint": "leave",
+      "answers": [
+        "leaves"
+      ],
+      "explain": "Giờ tàu → leaves."
+    },
+    {
+      "type": "order",
+      "vi": "Tối mai bạn có làm gì không?",
+      "words": [
+        "Are",
+        "you",
+        "doing",
+        "anything",
+        "tomorrow",
+        "evening?"
+      ],
+      "explain": "Are + you + doing."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi gặp bác sĩ lúc 9 giờ sáng mai.",
+      "words": [
+        "I",
+        "am",
+        "seeing",
+        "the",
+        "doctor",
+        "at",
+        "9",
+        "tomorrow",
+        "morning."
+      ],
+      "alternatives": [
+        "I am seeing the doctor tomorrow morning at 9."
+      ],
+      "explain": "Lịch hẹn → am seeing."
+    },
+    {
+      "type": "fix",
+      "sentence": "I have a meeting. I meet the boss at 3.",
+      "answers": [
+        "I have a meeting. I'm meeting the boss at 3."
+      ],
+      "explain": "Lịch hẹn → am meeting."
+    },
+    {
+      "type": "fix",
+      "sentence": "The film is starting at 7 every evening.",
+      "answers": [
+        "The film starts at 7 every evening."
+      ],
+      "explain": "Lịch trình cố định → starts."
+    },
+    {
+      "type": "fix",
+      "sentence": "What do you do on Saturday night? Want to come over?",
+      "answers": [
+        "What are you doing on Saturday night? Want to come over?"
+      ],
+      "explain": "Hỏi kế hoạch → are you doing."
+    },
+    {
+      "type": "translate",
+      "vi": "Thứ Bảy này chúng tôi tổ chức tiệc.",
+      "answers": [
+        "We're having a party this Saturday.",
+        "We are having a party this Saturday.",
+        "We're having a party on Saturday.",
+        "We are having a party on Saturday.",
+        "We're throwing a party this Saturday."
+      ],
+      "explain": "Lịch đã sắp xếp → are having."
+    },
+    {
+      "type": "translate",
+      "vi": "Tàu khởi hành lúc 7 giờ.",
+      "answers": [
+        "The train leaves at 7.",
+        "The train leaves at seven.",
+        "The train departs at 7.",
+        "The train departs at seven.",
+        "The train leaves at 7 o'clock.",
+        "The train leaves at seven o'clock."
+      ],
+      "explain": "Lịch trình → hiện tại đơn."
+    }
+  ]
+}

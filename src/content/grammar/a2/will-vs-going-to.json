@@ -1,0 +1,348 @@
+{
+  "id": "will-vs-going-to",
+  "level": "A2",
+  "title": "Will hay be going to?",
+  "summary": "Phân biệt quyết định tức thì (will) với kế hoạch đã định (going to); đoán theo ý kiến hay theo dấu hiệu.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What are your plans for Tet?",
+      "vi": "Tết này bạn có dự định gì?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'm going to visit]] my family in Nghe An. I booked my bus ticket last month.",
+      "vi": "Mình sẽ về quê Nghệ An. Mình đặt xe từ tháng trước rồi."
+    },
+    {
+      "who": "A",
+      "en": "Nice. Oh, look at those clouds. [[It's going to rain]].",
+      "vi": "Hay đấy. Ôi, nhìn đám mây kìa. Sắp mưa rồi."
+    },
+    {
+      "who": "B",
+      "en": "Oh no, I don't have an umbrella.",
+      "vi": "Thôi chết, mình không có ô."
+    },
+    {
+      "who": "A",
+      "en": "Don't worry, [[I'll lend]] you mine.",
+      "vi": "Đừng lo, mình cho bạn mượn ô của mình."
+    },
+    {
+      "who": "B",
+      "en": "Thanks! [[I'll give]] it back tomorrow.",
+      "vi": "Cảm ơn! Mai mình trả nhé."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Quyết định",
+      "heading": "Quyết định lúc nói hay kế hoạch có sẵn?",
+      "rule": "Quyết định **ngay lúc nói** → **will**. Kế hoạch đã **định từ trước** → **be going to**.",
+      "body": [
+        "Hãy tự hỏi: *người nói vừa nghĩ ra, hay đã định sẵn?*. Câu *Tôi sẽ học tiếng Nhật* có thể là cả hai, tùy lúc nào bạn quyết định."
+      ],
+      "table": {
+        "head": [
+          "will",
+          "be going to"
+        ],
+        "rows": [
+          [
+            "quyết định lúc nói",
+            "kế hoạch đã có từ trước"
+          ],
+          [
+            "I'll call him now.",
+            "I'm going to call him tonight."
+          ],
+          [
+            "OK, I'll take it.",
+            "I'm going to buy a new phone."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[I'm going to]] study Japanese next year. I've already bought the books.",
+          "vi": "Năm sau tôi sẽ học tiếng Nhật. Tôi mua sách rồi.",
+          "why": "Đã có kế hoạch (đã mua sách) → going to."
+        },
+        {
+          "en": "That bag looks heavy. [[I'll]] carry it.",
+          "vi": "Túi đó trông nặng đấy. Để tôi xách.",
+          "why": "Vừa thấy túi nặng, quyết định ngay → will."
+        },
+        {
+          "en": "[[We're going to]] paint the kitchen this weekend.",
+          "vi": "Cuối tuần này chúng tôi sẽ sơn bếp.",
+          "why": "Kế hoạch đã bàn trước → going to."
+        }
+      ],
+      "check": {
+        "prompt": "Why did you buy flour? I ___ make a cake.",
+        "options": [
+          "'m going to",
+          "'ll"
+        ],
+        "answer": 0,
+        "explain": "Đã định trước nên mới mua bột → going to."
+      }
+    },
+    {
+      "part": "Dự đoán",
+      "heading": "Dự đoán theo ý kiến hay theo dấu hiệu?",
+      "rule": "Đoán theo **ý kiến, cảm nghĩ** → **will**. Đoán vì **thấy dấu hiệu ngay bây giờ** → **going to**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Look at that sky! [[It's going to]] rain.",
+          "vi": "Nhìn trời kìa! Sắp mưa rồi.",
+          "why": "Thấy mây đen bây giờ → going to."
+        },
+        {
+          "en": "I think it [[will]] rain this weekend.",
+          "vi": "Tôi nghĩ cuối tuần này sẽ mưa.",
+          "why": "Chỉ là ý kiến (I think) → will."
+        },
+        {
+          "en": "Be careful! [[You're going to]] fall!",
+          "vi": "Cẩn thận! Bạn sắp ngã kìa!",
+          "why": "Thấy rõ sắp xảy ra → going to."
+        }
+      ],
+      "check": {
+        "prompt": "Watch out! That glass ___ fall!",
+        "options": [
+          "is going to",
+          "will"
+        ],
+        "answer": 0,
+        "explain": "Thấy cái cốc sắp rơi ngay bây giờ → is going to."
+      }
+    },
+    {
+      "part": "Các cách khác",
+      "heading": "Hứa, đề nghị, từ chối: luôn là will",
+      "rule": "Lời **hứa**, **đề nghị giúp**, **từ chối** ngay lúc nói → **will / won't**, không dùng going to.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[won't]] tell anyone.",
+          "vi": "Tôi sẽ không kể với ai đâu.",
+          "why": "Lời hứa → won't."
+        },
+        {
+          "en": "The door [[won't]] open.",
+          "vi": "Cửa không mở được.",
+          "why": "Won't còn nghĩa là không chịu, không chạy (máy móc, đồ vật)."
+        }
+      ],
+      "check": {
+        "prompt": "I promise I ___ you every day.",
+        "options": [
+          "'ll call",
+          "'m going to call"
+        ],
+        "answer": 0,
+        "explain": "Lời hứa → will."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I will visit my grandma tomorrow. I bought the ticket.",
+      "right": "I'm going to visit my grandma tomorrow. I bought the ticket.",
+      "why": "Đã có kế hoạch (mua vé rồi) → going to."
+    },
+    {
+      "wrong": "The phone is ringing. I'm going to answer it.",
+      "right": "The phone is ringing. I'll answer it.",
+      "why": "Quyết định ngay lúc nói → will."
+    },
+    {
+      "wrong": "Look! The baby will cry.",
+      "right": "Look! The baby is going to cry.",
+      "why": "Thấy dấu hiệu ngay bây giờ → going to."
+    },
+    {
+      "wrong": "I going to study tonight.",
+      "right": "I'm going to study tonight.",
+      "why": "Thiếu am: be going to."
+    },
+    {
+      "wrong": "She is going to goes to Hue.",
+      "right": "She is going to go to Hue.",
+      "why": "Going to + nguyên mẫu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "A: We need some bread. B: OK, I ___ some.",
+      "options": [
+        "'ll get",
+        "'m going to get"
+      ],
+      "answer": 0,
+      "explain": "Quyết định ngay lúc nói → will."
+    },
+    {
+      "type": "choice",
+      "prompt": "I ___ move to Saigon next month. I've found a flat.",
+      "options": [
+        "'m going to",
+        "'ll"
+      ],
+      "answer": 0,
+      "explain": "Kế hoạch đã có (đã tìm nhà) → going to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Look at that car! It ___ crash!",
+      "options": [
+        "'s going to",
+        "will"
+      ],
+      "answer": 0,
+      "explain": "Thấy dấu hiệu ngay → going to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào là quyết định ngay lúc nói?",
+      "options": [
+        "I'll have the soup, please.",
+        "I'm going to have soup tonight."
+      ],
+      "answer": 0,
+      "explain": "Gọi món tại chỗ → will."
+    },
+    {
+      "type": "fill",
+      "prompt": "I think the new shop ___ very popular.",
+      "hint": "be",
+      "answers": [
+        "will be",
+        "'ll be"
+      ],
+      "explain": "Dự đoán theo ý kiến → will be."
+    },
+    {
+      "type": "fill",
+      "prompt": "My sister ___ a baby in May.",
+      "hint": "have",
+      "answers": [
+        "is going to have",
+        "'s going to have"
+      ],
+      "explain": "Điều đã biết, có dấu hiệu → going to."
+    },
+    {
+      "type": "fill",
+      "prompt": "A: I can't do this exercise. B: Don't worry, I ___ you.",
+      "hint": "help",
+      "answers": [
+        "'ll help",
+        "will help"
+      ],
+      "explain": "Đề nghị giúp ngay → will."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ get married next year. We've booked the restaurant.",
+      "hint": "kế hoạch",
+      "answers": [
+        "are going to",
+        "'re going to"
+      ],
+      "explain": "Kế hoạch đã định → going to."
+    },
+    {
+      "type": "fill",
+      "prompt": "I promise I ___ forget your birthday again.",
+      "hint": "not forget",
+      "answers": [
+        "won't",
+        "will not"
+      ],
+      "explain": "Lời hứa phủ định → won't."
+    },
+    {
+      "type": "order",
+      "vi": "Tối nay chúng tôi định xem phim.",
+      "words": [
+        "We",
+        "are",
+        "going",
+        "to",
+        "watch",
+        "a",
+        "film",
+        "tonight."
+      ],
+      "alternatives": [
+        "Tonight we are going to watch a film."
+      ],
+      "explain": "Kế hoạch → are going to."
+    },
+    {
+      "type": "order",
+      "vi": "Để tôi mở cửa cho.",
+      "words": [
+        "I",
+        "will",
+        "open",
+        "the",
+        "door."
+      ],
+      "explain": "Đề nghị giúp ngay → will."
+    },
+    {
+      "type": "fix",
+      "sentence": "The phone's ringing. I'm going to answer it.",
+      "answers": [
+        "The phone's ringing. I'll answer it."
+      ],
+      "explain": "Vừa quyết định → will."
+    },
+    {
+      "type": "fix",
+      "sentence": "Look at the clouds! It will rain.",
+      "answers": [
+        "Look at the clouds! It's going to rain."
+      ],
+      "explain": "Có dấu hiệu ngay → going to."
+    },
+    {
+      "type": "fix",
+      "sentence": "They going to buy a car.",
+      "answers": [
+        "They are going to buy a car."
+      ],
+      "explain": "Be going to: thiếu are."
+    },
+    {
+      "type": "translate",
+      "vi": "Nhìn kìa! Xe buýt sắp đi rồi.",
+      "answers": [
+        "Look! The bus is going to leave.",
+        "Look! The bus is about to leave."
+      ],
+      "explain": "Thấy dấu hiệu → going to."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi đã mua vé rồi. Tôi sẽ đi Đà Lạt vào thứ Bảy.",
+      "answers": [
+        "I've bought the ticket. I'm going to go to Da Lat on Saturday.",
+        "I have bought the ticket. I am going to go to Da Lat on Saturday.",
+        "I've already bought the ticket. I'm going to go to Da Lat on Saturday.",
+        "I bought the ticket. I'm going to Da Lat on Saturday.",
+        "I've bought the ticket. I'm going to Da Lat on Saturday.",
+        "I bought the ticket. I'm going to go to Da Lat on Saturday."
+      ],
+      "explain": "Kế hoạch đã có → going to."
+    }
+  ]
+}

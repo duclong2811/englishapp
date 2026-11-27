@@ -1,0 +1,375 @@
+{
+  "id": "first-conditional",
+  "level": "A2",
+  "title": "Câu điều kiện loại 1: If it rains, I will…",
+  "summary": "Nói điều có thể xảy ra trong tương lai và kết quả của nó: if + hiện tại đơn, will + V; unless.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Are we still going to the beach tomorrow?",
+      "vi": "Mai mình vẫn đi biển chứ?"
+    },
+    {
+      "who": "B",
+      "en": "[[If]] it [[rains]], [[we'll stay]] at home.",
+      "vi": "Nếu trời mưa thì mình ở nhà."
+    },
+    {
+      "who": "A",
+      "en": "The forecast says sunny.",
+      "vi": "Dự báo nói trời nắng mà."
+    },
+    {
+      "who": "B",
+      "en": "OK. [[If]] we [[leave]] at 6, [[we'll miss]] the traffic.",
+      "vi": "Ừ. Nếu đi lúc 6 giờ thì mình sẽ tránh được kẹt xe."
+    },
+    {
+      "who": "A",
+      "en": "6 a.m.? I [[won't wake up]] [[unless]] you call me!",
+      "vi": "6 giờ sáng á? Bạn không gọi thì mình không dậy nổi đâu!"
+    },
+    {
+      "who": "B",
+      "en": "Don't worry. [[I'll call]] you [[if]] you're not ready.",
+      "vi": "Đừng lo. Nếu bạn chưa sẵn sàng mình sẽ gọi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "If + hiện tại đơn, will + V",
+      "rule": "Loại 1: **If + hiện tại đơn, will + V**. **Không** dùng will trong mệnh đề if.",
+      "formula": [
+        {
+          "text": "[If] + S + V (hiện tại), S + [will] + V"
+        },
+        {
+          "label": "Đúng",
+          "text": "If it [rains], we will stay home."
+        },
+        {
+          "label": "Sai",
+          "text": "If it [will rain], we will stay home."
+        }
+      ],
+      "body": [
+        "Tiếng Việt nói *nếu mai trời sẽ mưa*, nhưng tiếng Anh giữ mệnh đề if ở **hiện tại đơn** dù nói về tương lai. Chỉ vế kết quả có will."
+      ],
+      "examples": [
+        {
+          "en": "[[If]] you study hard, [[you'll pass]] the exam.",
+          "vi": "Nếu học chăm, bạn sẽ đỗ.",
+          "why": "If + study (hiện tại), you'll + pass."
+        },
+        {
+          "en": "[[We'll be]] late [[if]] we don't hurry.",
+          "vi": "Chúng ta sẽ muộn nếu không nhanh lên.",
+          "why": "Mệnh đề if đứng sau, vẫn là hiện tại đơn (don't hurry)."
+        }
+      ],
+      "check": {
+        "prompt": "If she ___ the bus, she'll be late.",
+        "options": [
+          "misses",
+          "will miss"
+        ],
+        "answer": 0,
+        "explain": "Mệnh đề if → hiện tại đơn: misses."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Điều có thể xảy ra và kết quả của nó",
+      "rule": "Dùng loại 1 cho **tình huống có thật, có thể xảy ra** ở tương lai và **kết quả** của nó.",
+      "body": [
+        "Khác loại 0 (luôn đúng): loại 1 nói về **một lần cụ thể** sắp tới. *If it rains tomorrow, I'll stay home* (mai cụ thể).",
+        "Vế kết quả cũng có thể dùng **can, might, mệnh lệnh**: *If you're free, call me.*"
+      ],
+      "examples": [
+        {
+          "en": "[[If]] it's sunny tomorrow, [[we'll go]] to the beach.",
+          "vi": "Nếu mai nắng, chúng ta sẽ đi biển.",
+          "why": "Tình huống cụ thể ngày mai."
+        },
+        {
+          "en": "[[If]] I get the job, [[I'll buy]] a new laptop.",
+          "vi": "Nếu được nhận việc, tôi sẽ mua laptop mới.",
+          "why": "Có thể xảy ra → kết quả với will."
+        },
+        {
+          "en": "[[If]] you finish early, you [[can]] go home.",
+          "vi": "Nếu xong sớm, bạn có thể về.",
+          "why": "Vế kết quả dùng can."
+        }
+      ],
+      "check": {
+        "prompt": "If I see Minh tomorrow, I ___ him the news.",
+        "options": [
+          "'ll tell",
+          "tell",
+          "told"
+        ],
+        "answer": 0,
+        "explain": "Một tình huống cụ thể ngày mai → I'll tell."
+      }
+    },
+    {
+      "part": "Unless",
+      "heading": "Unless = if… not",
+      "rule": "**unless** = **if… not** (trừ khi, nếu không). Sau unless dùng câu **khẳng định**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I won't go [[unless]] you come with me.",
+          "vi": "Tôi sẽ không đi nếu bạn không đi cùng.",
+          "why": "Unless you come = if you don't come."
+        },
+        {
+          "en": "[[Unless]] we leave now, we'll miss the train.",
+          "vi": "Nếu không đi ngay, chúng ta sẽ lỡ tàu.",
+          "why": "Unless + câu khẳng định (we leave)."
+        }
+      ],
+      "check": {
+        "prompt": "You won't get better ___ you rest.",
+        "options": [
+          "unless",
+          "if"
+        ],
+        "answer": 0,
+        "explain": "Không nghỉ thì không khỏe → unless you rest."
+      }
+    },
+    {
+      "part": "Câu hỏi",
+      "heading": "Hỏi với câu điều kiện",
+      "rule": "Câu hỏi: **What will you do if…?** Vế if vẫn là **hiện tại đơn**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "What [[will]] you do [[if]] it rains?",
+          "vi": "Nếu trời mưa bạn sẽ làm gì?",
+          "why": "Hỏi ở vế will; vế if giữ hiện tại đơn."
+        },
+        {
+          "en": "[[Will]] you come [[if]] I invite you?",
+          "vi": "Nếu tôi mời, bạn có đến không?",
+          "why": "Will + you + come; if + I invite."
+        }
+      ],
+      "check": {
+        "prompt": "What will you do if you ___ the exam?",
+        "options": [
+          "fail",
+          "will fail"
+        ],
+        "answer": 0,
+        "explain": "Vế if → hiện tại đơn."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If it will rain, I will stay home.",
+      "right": "If it rains, I will stay home.",
+      "why": "Mệnh đề if → hiện tại đơn, không dùng will."
+    },
+    {
+      "wrong": "If you will come, I will cook.",
+      "right": "If you come, I will cook.",
+      "why": "Không dùng will sau if."
+    },
+    {
+      "wrong": "If I have time, I call you.",
+      "right": "If I have time, I'll call you.",
+      "why": "Kết quả trong tương lai → will."
+    },
+    {
+      "wrong": "Unless you don't hurry, you'll be late.",
+      "right": "Unless you hurry, you'll be late.",
+      "why": "Unless đã có nghĩa phủ định → không thêm don't."
+    },
+    {
+      "wrong": "I will tell her if I will see her.",
+      "right": "I will tell her if I see her.",
+      "why": "Sau if → hiện tại đơn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "If it ___ tomorrow, we'll cancel the trip.",
+      "options": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "answer": 0,
+      "explain": "Vế if → hiện tại đơn: rains."
+    },
+    {
+      "type": "choice",
+      "prompt": "If you don't hurry, you ___ the bus.",
+      "options": [
+        "'ll miss",
+        "miss",
+        "missed"
+      ],
+      "answer": 0,
+      "explain": "Kết quả tương lai → will miss."
+    },
+    {
+      "type": "choice",
+      "prompt": "I won't go ___ you come with me.",
+      "options": [
+        "unless",
+        "if",
+        "when"
+      ],
+      "answer": 0,
+      "explain": "Unless = if… not."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "If I will have money, I will travel.",
+        "If I have money, I will travel."
+      ],
+      "answer": 1,
+      "explain": "Vế if không dùng will."
+    },
+    {
+      "type": "fill",
+      "prompt": "If she ___ early, she'll catch the first train.",
+      "hint": "leave",
+      "answers": [
+        "leaves"
+      ],
+      "explain": "She → leaves (hiện tại đơn)."
+    },
+    {
+      "type": "fill",
+      "prompt": "We'll go swimming if the weather ___ nice.",
+      "hint": "be",
+      "answers": [
+        "is"
+      ],
+      "explain": "Vế if → hiện tại đơn: is."
+    },
+    {
+      "type": "fill",
+      "prompt": "If you eat all that cake, you ___ sick.",
+      "hint": "feel",
+      "answers": [
+        "'ll feel",
+        "will feel"
+      ],
+      "explain": "Kết quả → will feel."
+    },
+    {
+      "type": "fill",
+      "prompt": "What will you do if you ___ the lottery?",
+      "hint": "win",
+      "answers": [
+        "win"
+      ],
+      "explain": "Vế if → hiện tại đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you study, you won't pass.",
+      "hint": "trừ khi",
+      "answers": [
+        "Unless"
+      ],
+      "explain": "Unless = if you don't."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu mai trời mưa, tôi sẽ ở nhà.",
+      "words": [
+        "If",
+        "it",
+        "rains",
+        "tomorrow",
+        "I",
+        "will",
+        "stay",
+        "at",
+        "home."
+      ],
+      "alternatives": [
+        "I will stay at home if it rains tomorrow."
+      ],
+      "explain": "If + rains, will + stay."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn sẽ làm gì nếu bạn mất việc?",
+      "words": [
+        "What",
+        "will",
+        "you",
+        "do",
+        "if",
+        "you",
+        "lose",
+        "your",
+        "job?"
+      ],
+      "explain": "What will you do + if + hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "If you will need anything, call me.",
+      "answers": [
+        "If you need anything, call me."
+      ],
+      "explain": "Vế if → hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "If he don't come, we will start without him.",
+      "answers": [
+        "If he doesn't come, we will start without him."
+      ],
+      "explain": "He → doesn't."
+    },
+    {
+      "type": "fix",
+      "sentence": "Unless you don't study, you will fail.",
+      "answers": [
+        "Unless you study, you will fail."
+      ],
+      "explain": "Unless đã mang nghĩa phủ định."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu bạn đến muộn, chúng tôi sẽ đợi.",
+      "answers": [
+        "If you're late, we'll wait.",
+        "If you are late, we will wait.",
+        "If you come late, we'll wait.",
+        "If you come late, we will wait.",
+        "If you arrive late, we'll wait.",
+        "If you arrive late, we will wait.",
+        "We'll wait if you're late.",
+        "We will wait if you are late."
+      ],
+      "explain": "If + hiện tại đơn, will + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu có thời gian, tôi sẽ gọi cho bạn.",
+      "answers": [
+        "If I have time, I'll call you.",
+        "If I have time, I will call you.",
+        "I'll call you if I have time.",
+        "I will call you if I have time."
+      ],
+      "explain": "If + have, will + call."
+    }
+  ]
+}

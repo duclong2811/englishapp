@@ -1,0 +1,388 @@
+{
+  "id": "will-future",
+  "level": "A2",
+  "title": "Will: dự đoán, quyết định tức thì, lời hứa",
+  "summary": "Dùng will để đoán tương lai, quyết định ngay lúc nói, hứa hẹn và đề nghị giúp đỡ; phủ định won't.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "It's so hot today.",
+      "vi": "Hôm nay nóng quá."
+    },
+    {
+      "who": "B",
+      "en": "[[I'll get]] you some water.",
+      "vi": "Để mình lấy nước cho bạn."
+    },
+    {
+      "who": "A",
+      "en": "Thanks. Do you think it [[will rain]] tomorrow?",
+      "vi": "Cảm ơn. Bạn nghĩ mai có mưa không?"
+    },
+    {
+      "who": "B",
+      "en": "Probably. I don't think it [[will be]] this hot.",
+      "vi": "Chắc có. Mình nghĩ mai sẽ không nóng thế này đâu."
+    },
+    {
+      "who": "A",
+      "en": "I need to finish this report by Friday.",
+      "vi": "Mình phải xong báo cáo này trước thứ Sáu."
+    },
+    {
+      "who": "B",
+      "en": "Don't worry. [[I'll help]] you. I [[won't]] tell the boss!",
+      "vi": "Đừng lo. Mình sẽ giúp. Mình không mách sếp đâu!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Will + động từ nguyên mẫu",
+      "rule": "**will + V** (nguyên mẫu), giống nhau cho **mọi chủ ngữ**. Phủ định: **won't** (= will not).",
+      "formula": [
+        {
+          "text": "Chủ ngữ + [will] + V"
+        },
+        {
+          "text": "Chủ ngữ + [won't] + V"
+        },
+        {
+          "text": "[Will] + chủ ngữ + V…?"
+        }
+      ],
+      "body": [
+        "Khi nói thường rút gọn: *I'll, you'll, she'll, we'll, it'll*. Won't đọc /woʊnt/, khác với *want*."
+      ],
+      "examples": [
+        {
+          "en": "She [[will]] be 30 next year.",
+          "vi": "Năm sau cô ấy sẽ 30 tuổi.",
+          "why": "Will + be, không thêm -s cho she."
+        },
+        {
+          "en": "I [[won't]] be late.",
+          "vi": "Tôi sẽ không đến muộn đâu.",
+          "why": "Won't = will not."
+        },
+        {
+          "en": "[[Will]] you be at home tonight?",
+          "vi": "Tối nay bạn có ở nhà không?",
+          "why": "Câu hỏi: Will + you + V."
+        }
+      ],
+      "check": {
+        "prompt": "He will ___ us tomorrow.",
+        "options": [
+          "call",
+          "calls",
+          "to call"
+        ],
+        "answer": 0,
+        "explain": "Will + nguyên mẫu: call."
+      }
+    },
+    {
+      "part": "Dự đoán",
+      "heading": "Dự đoán tương lai",
+      "rule": "Đoán điều sẽ xảy ra, thường kèm **I think, I'm sure, probably, maybe** → **will**.",
+      "signals": [
+        "I think",
+        "I don't think",
+        "I'm sure",
+        "probably",
+        "maybe"
+      ],
+      "body": [
+        "Phủ định thường nói *I don't think it will…* tự nhiên hơn *I think it won't…*.",
+        "Probably đứng **sau will** nhưng **trước won't**: *It will probably rain. It probably won't rain.*"
+      ],
+      "examples": [
+        {
+          "en": "I think you [[will]] like this film.",
+          "vi": "Tôi nghĩ bạn sẽ thích phim này.",
+          "why": "Dự đoán dựa trên ý kiến (I think)."
+        },
+        {
+          "en": "I don't think she [[will]] come.",
+          "vi": "Tôi nghĩ cô ấy sẽ không đến.",
+          "why": "Phủ định tự nhiên: I don't think + will."
+        },
+        {
+          "en": "Prices [[will]] probably go up next year.",
+          "vi": "Giá cả có lẽ sẽ tăng vào năm sau.",
+          "why": "Probably đứng sau will."
+        }
+      ],
+      "check": {
+        "prompt": "I'm sure you ___ the exam.",
+        "options": [
+          "will pass",
+          "pass",
+          "are passing"
+        ],
+        "answer": 0,
+        "explain": "Dự đoán với I'm sure → will pass."
+      }
+    },
+    {
+      "part": "Quyết định",
+      "heading": "Quyết định ngay lúc nói",
+      "rule": "Quyết định **ngay lúc nói**, không có kế hoạch trước → **will**.",
+      "body": [
+        "Đây là điểm khác với *going to* (đã định từ trước). Ví dụ ở quán: *I'll have a coffee* (bây giờ mới chọn)."
+      ],
+      "examples": [
+        {
+          "en": "The phone's ringing. [[I'll answer]] it.",
+          "vi": "Điện thoại reo kìa. Để tôi nghe.",
+          "why": "Quyết định ngay khi nghe chuông."
+        },
+        {
+          "en": "[[I'll have]] the chicken rice, please.",
+          "vi": "Cho tôi cơm gà.",
+          "why": "Gọi món: quyết định lúc đang nói."
+        },
+        {
+          "en": "It's cold. [[I'll close]] the window.",
+          "vi": "Lạnh quá. Để tôi đóng cửa sổ.",
+          "why": "Thấy lạnh rồi quyết định luôn."
+        }
+      ],
+      "check": {
+        "prompt": "We've run out of milk. OK, I ___ some.",
+        "options": [
+          "'ll buy",
+          "buy"
+        ],
+        "answer": 0,
+        "explain": "Quyết định ngay lúc nói → I'll buy."
+      }
+    },
+    {
+      "part": "Hứa, đề nghị",
+      "heading": "Lời hứa, đề nghị và nhờ",
+      "rule": "Hứa → **I'll / I won't**. Đề nghị giúp → **Shall I…? / I'll…** Nhờ → **Will you…?**",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I'll]] call you every day, I promise.",
+          "vi": "Anh sẽ gọi cho em mỗi ngày, anh hứa.",
+          "why": "Lời hứa → I'll."
+        },
+        {
+          "en": "[[Shall]] I carry your bag?",
+          "vi": "Để tôi xách túi giúp bạn nhé?",
+          "why": "Đề nghị giúp: Shall I + V?"
+        },
+        {
+          "en": "[[Will]] you help me with this box?",
+          "vi": "Bạn giúp tôi cái thùng này được không?",
+          "why": "Nhờ ai làm gì: Will you + V?"
+        }
+      ],
+      "check": {
+        "prompt": "I ___ tell anyone your secret. I promise.",
+        "options": [
+          "won't",
+          "don't"
+        ],
+        "answer": 0,
+        "explain": "Lời hứa phủ định → won't."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She will goes to school.",
+      "right": "She will go to school.",
+      "why": "Sau will luôn là nguyên mẫu, không thêm -s."
+    },
+    {
+      "wrong": "I will to call you.",
+      "right": "I will call you.",
+      "why": "Will + V, không có to."
+    },
+    {
+      "wrong": "I think it won't rain.",
+      "right": "I don't think it will rain.",
+      "why": "Cách nói tự nhiên: I don't think + will."
+    },
+    {
+      "wrong": "It will rain probably.",
+      "right": "It will probably rain.",
+      "why": "Probably đứng giữa will và động từ."
+    },
+    {
+      "wrong": "I want help you.",
+      "right": "I'll help you.",
+      "why": "Đề nghị giúp ngay lúc nói → I'll help."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I'm tired. I think I ___ to bed early.",
+      "options": [
+        "'ll go",
+        "go",
+        "going"
+      ],
+      "answer": 0,
+      "explain": "Quyết định ngay lúc nói → I'll go."
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't worry, I ___ forget.",
+      "options": [
+        "won't",
+        "don't",
+        "am not"
+      ],
+      "answer": 0,
+      "explain": "Lời hứa phủ định → won't."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ I open the window for you?",
+      "options": [
+        "Shall",
+        "Will",
+        "Do"
+      ],
+      "answer": 0,
+      "explain": "Đề nghị giúp: Shall I…?"
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng vị trí probably?",
+      "options": [
+        "She will probably call later.",
+        "She probably will call later.",
+        "She will call probably later."
+      ],
+      "answer": 0,
+      "explain": "Probably đứng sau will."
+    },
+    {
+      "type": "fill",
+      "prompt": "I think Vietnam ___ the match.",
+      "hint": "win",
+      "answers": [
+        "will win",
+        "'ll win"
+      ],
+      "explain": "Dự đoán với I think → will win."
+    },
+    {
+      "type": "fill",
+      "prompt": "It's late. I ___ you a taxi.",
+      "hint": "call",
+      "answers": [
+        "'ll call",
+        "will call"
+      ],
+      "explain": "Quyết định ngay lúc nói → I'll call."
+    },
+    {
+      "type": "fill",
+      "prompt": "I don't think he ___ the job.",
+      "hint": "get",
+      "answers": [
+        "will get",
+        "'ll get"
+      ],
+      "explain": "I don't think + will get."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you marry me?",
+      "hint": "trợ động từ",
+      "answers": [
+        "Will"
+      ],
+      "explain": "Hỏi, nhờ, cầu hôn → Will you…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Thanks for lending me the money. I ___ it back next week.",
+      "hint": "pay",
+      "answers": [
+        "'ll pay",
+        "will pay"
+      ],
+      "explain": "Lời hứa → will pay."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi nghĩ mai trời sẽ nắng.",
+      "words": [
+        "I",
+        "think",
+        "it",
+        "will",
+        "be",
+        "sunny",
+        "tomorrow."
+      ],
+      "alternatives": [
+        "I think tomorrow it will be sunny."
+      ],
+      "explain": "I think + will + be."
+    },
+    {
+      "type": "order",
+      "vi": "Để tôi rửa bát cho.",
+      "words": [
+        "I",
+        "will",
+        "wash",
+        "the",
+        "dishes."
+      ],
+      "explain": "Đề nghị giúp → I will + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "He will helps you.",
+      "answers": [
+        "He will help you."
+      ],
+      "explain": "Sau will → nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "I will to be there at six.",
+      "answers": [
+        "I will be there at six."
+      ],
+      "explain": "Will + V, không có to."
+    },
+    {
+      "type": "fix",
+      "sentence": "I think she won't come.",
+      "answers": [
+        "I don't think she will come."
+      ],
+      "explain": "Cách nói tự nhiên: I don't think + will."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi hứa tôi sẽ không đến muộn.",
+      "answers": [
+        "I promise I won't be late.",
+        "I promise I will not be late.",
+        "I promise not to be late."
+      ],
+      "explain": "Lời hứa phủ định → won't."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn nghĩ ai sẽ thắng?",
+      "answers": [
+        "Who do you think will win?"
+      ],
+      "explain": "Who + do you think + will win."
+    }
+  ]
+}
