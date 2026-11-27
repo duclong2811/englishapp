@@ -1,0 +1,361 @@
+{
+  "id": "possessive-pronouns",
+  "level": "A2",
+  "title": "Mine, yours… và whose",
+  "summary": "Dùng đại từ sở hữu mine, yours, his, hers, ours, theirs thay cho tính từ sở hữu + danh từ, và hỏi Whose…?",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Whose]] umbrella is this?",
+      "vi": "Ô này của ai vậy?"
+    },
+    {
+      "who": "B",
+      "en": "It's not [[mine]]. Mine is black.",
+      "vi": "Không phải của mình. Của mình màu đen."
+    },
+    {
+      "who": "A",
+      "en": "Is it [[Lan's]]?",
+      "vi": "Của Lan à?"
+    },
+    {
+      "who": "B",
+      "en": "No, Lan's is blue. I think it's [[Hoa's]].",
+      "vi": "Không, của Lan màu xanh. Mình nghĩ là của Hoa."
+    },
+    {
+      "who": "A",
+      "en": "And these keys? Are they [[hers]] too?",
+      "vi": "Thế chùm chìa khóa này? Cũng của cô ấy à?"
+    },
+    {
+      "who": "B",
+      "en": "No, they're [[ours]]! We live together, remember?",
+      "vi": "Không, của bọn mình mà! Mình ở chung, nhớ không?"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Tính từ sở hữu và đại từ sở hữu",
+      "rule": "**Tính từ sở hữu** + danh từ (my bag). **Đại từ sở hữu** đứng **một mình**, thay cho cả cụm (mine = my bag).",
+      "body": [
+        "Đại từ sở hữu **không** có danh từ theo sau và **không** có dấu nháy (yours, không phải *your's*)."
+      ],
+      "table": {
+        "head": [
+          "Đại từ",
+          "Tính từ sở hữu",
+          "Đại từ sở hữu"
+        ],
+        "rows": [
+          [
+            "I",
+            "my",
+            "mine"
+          ],
+          [
+            "you",
+            "your",
+            "yours"
+          ],
+          [
+            "he",
+            "his",
+            "his"
+          ],
+          [
+            "she",
+            "her",
+            "hers"
+          ],
+          [
+            "we",
+            "our",
+            "ours"
+          ],
+          [
+            "they",
+            "their",
+            "theirs"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "This is my bag. This bag is [[mine]].",
+          "vi": "Đây là túi của tôi. Túi này là của tôi.",
+          "why": "Mine = my bag, đứng một mình."
+        },
+        {
+          "en": "Is this pen [[yours]]?",
+          "vi": "Cái bút này của bạn à?",
+          "why": "Yours thay cho your pen."
+        },
+        {
+          "en": "Their house is bigger than [[ours]].",
+          "vi": "Nhà họ to hơn nhà chúng tôi.",
+          "why": "Ours = our house."
+        }
+      ],
+      "check": {
+        "prompt": "That car isn't ___. Mine is red.",
+        "options": [
+          "mine",
+          "my"
+        ],
+        "answer": 0,
+        "explain": "Đứng một mình, không có danh từ sau → mine."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Dùng để tránh lặp danh từ",
+      "rule": "Dùng đại từ sở hữu để **không phải lặp lại** danh từ đã nói.",
+      "body": [],
+      "examples": [
+        {
+          "en": "My phone is old. [[Hers]] is new.",
+          "vi": "Điện thoại tôi cũ. Của cô ấy thì mới.",
+          "why": "Hers = her phone, tránh lặp phone."
+        },
+        {
+          "en": "Your English is better than [[mine]].",
+          "vi": "Tiếng Anh của bạn giỏi hơn của tôi.",
+          "why": "Mine = my English."
+        },
+        {
+          "en": "A friend of [[mine]] lives in Canada.",
+          "vi": "Một người bạn của tôi sống ở Canada.",
+          "why": "A friend of mine = một người bạn của tôi."
+        }
+      ],
+      "check": {
+        "prompt": "Our flat is small, but ___ is big.",
+        "options": [
+          "theirs",
+          "their"
+        ],
+        "answer": 0,
+        "explain": "Đứng một mình → theirs."
+      }
+    },
+    {
+      "part": "Whose",
+      "heading": "Whose: của ai?",
+      "rule": "Hỏi **của ai**: **Whose + danh từ + is this / are these?** hoặc **Whose is this?**",
+      "body": [
+        "Trả lời bằng đại từ sở hữu (*It's mine*) hoặc tên + **'s** (*It's Nam's*). Cẩn thận: **whose** (của ai) phát âm giống **who's** (= who is)."
+      ],
+      "examples": [
+        {
+          "en": "[[Whose]] bag is this? It's Nam's.",
+          "vi": "Túi này của ai? Của Nam.",
+          "why": "Whose + danh từ; trả lời bằng tên + 's."
+        },
+        {
+          "en": "[[Whose]] are these shoes? They're mine.",
+          "vi": "Đôi giày này của ai? Của tôi.",
+          "why": "Whose are these…? → They're mine."
+        }
+      ],
+      "check": {
+        "prompt": "___ jacket is this?",
+        "options": [
+          "Whose",
+          "Who's",
+          "Who"
+        ],
+        "answer": 0,
+        "explain": "Hỏi của ai → Whose."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "This book is my.",
+      "right": "This book is mine.",
+      "why": "Đứng một mình → mine."
+    },
+    {
+      "wrong": "Is this your's?",
+      "right": "Is this yours?",
+      "why": "Yours không có dấu nháy."
+    },
+    {
+      "wrong": "Mine car is blue.",
+      "right": "My car is blue.",
+      "why": "Trước danh từ → tính từ sở hữu my."
+    },
+    {
+      "wrong": "Who's phone is this?",
+      "right": "Whose phone is this?",
+      "why": "Hỏi của ai → whose."
+    },
+    {
+      "wrong": "She is a friend of me.",
+      "right": "She is a friend of mine.",
+      "why": "A friend of + đại từ sở hữu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Is this coffee ___?",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "answer": 0,
+      "explain": "Đứng một mình → yours."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ keys are these?",
+      "options": [
+        "Whose",
+        "Who's",
+        "Who"
+      ],
+      "answer": 0,
+      "explain": "Hỏi của ai → Whose."
+    },
+    {
+      "type": "choice",
+      "prompt": "My room is tidy, but ___ is messy.",
+      "options": [
+        "his",
+        "him",
+        "he"
+      ],
+      "answer": 0,
+      "explain": "His room → his."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "This seat is ours.",
+        "This seat is our.",
+        "This is ours seat."
+      ],
+      "answer": 0,
+      "explain": "Đứng một mình → ours."
+    },
+    {
+      "type": "fill",
+      "prompt": "That's not her bag. ___ is brown.",
+      "hint": "she",
+      "answers": [
+        "Hers"
+      ],
+      "explain": "Hers = her bag."
+    },
+    {
+      "type": "fill",
+      "prompt": "These books aren't ours. They're ___.",
+      "hint": "they",
+      "answers": [
+        "theirs"
+      ],
+      "explain": "Của họ → theirs."
+    },
+    {
+      "type": "fill",
+      "prompt": "Can I use your pen? I forgot ___.",
+      "hint": "I",
+      "answers": [
+        "mine"
+      ],
+      "explain": "Mine = my pen."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ phone is ringing?",
+      "hint": "của ai",
+      "answers": [
+        "Whose"
+      ],
+      "explain": "Whose + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "He's a good friend of ___.",
+      "hint": "I",
+      "answers": [
+        "mine"
+      ],
+      "explain": "A friend of mine."
+    },
+    {
+      "type": "order",
+      "vi": "Chiếc xe đạp này là của tôi.",
+      "words": [
+        "This",
+        "bike",
+        "is",
+        "mine."
+      ],
+      "explain": "Mine đứng cuối."
+    },
+    {
+      "type": "order",
+      "vi": "Cái áo khoác này của ai?",
+      "words": [
+        "Whose",
+        "jacket",
+        "is",
+        "this?"
+      ],
+      "explain": "Whose + danh từ + is this."
+    },
+    {
+      "type": "fix",
+      "sentence": "Is this phone your?",
+      "answers": [
+        "Is this phone yours?"
+      ],
+      "explain": "Đứng một mình → yours."
+    },
+    {
+      "type": "fix",
+      "sentence": "Who's car is outside?",
+      "answers": [
+        "Whose car is outside?"
+      ],
+      "explain": "Hỏi của ai → whose."
+    },
+    {
+      "type": "fix",
+      "sentence": "Their garden is bigger than our.",
+      "answers": [
+        "Their garden is bigger than ours."
+      ],
+      "explain": "Đứng một mình → ours."
+    },
+    {
+      "type": "translate",
+      "vi": "Cái này không phải của tôi.",
+      "answers": [
+        "This isn't mine.",
+        "This is not mine.",
+        "It's not mine.",
+        "It isn't mine.",
+        "It is not mine."
+      ],
+      "explain": "Đại từ sở hữu mine."
+    },
+    {
+      "type": "translate",
+      "vi": "Đây là chìa khóa của ai?",
+      "answers": [
+        "Whose keys are these?",
+        "Whose key is this?",
+        "Whose keys are they?"
+      ],
+      "explain": "Whose + danh từ."
+    }
+  ]
+}
