@@ -13,7 +13,7 @@ const plan = [
   {
     href: "/vocabulary",
     title: "Ôn từ vựng",
-    detail: "600 từ cốt lõi A1, mỗi ngày 10 từ mới.",
+    detail: "700 từ cốt lõi A1, mỗi ngày 10 từ mới.",
   },
   {
     href: "/lessons",

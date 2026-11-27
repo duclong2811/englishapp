@@ -1,0 +1,514 @@
+{
+  "status": "draft",
+  "about": "Từ A1 thứ 601 đến 700 theo độ thông dụng. Bản nháp do AI soạn, cần người duyệt.",
+  "entries": [
+    { "id": "tomorrow", "meanings": [{ "pos": "adverb", "vi": "ngày mai" }],
+      "forms": {},
+      "note": "Không có giới từ: I'll call you tomorrow. tomorrow morning = sáng mai. the day after tomorrow = ngày kia.",
+      "examples": [
+        { "en": "I'm flying to Hanoi tomorrow.", "vi": "Mai tôi bay ra Hà Nội.", "source": "tatoeba", "edited": true },
+        { "en": "It is likely to rain tomorrow.", "vi": "Mai có lẽ trời sẽ mưa.", "source": "tatoeba", "edited": true } ] },
+    { "id": "ear", "meanings": [{ "pos": "noun", "vi": "tai" }],
+      "note": "earrings = bông tai; earphones = tai nghe.",
+      "examples": [
+        { "en": "A cat has two ears.", "vi": "Con mèo có hai cái tai.", "source": "tatoeba" },
+        { "en": "Why do rabbits have long ears?", "vi": "Tại sao thỏ lại có tai dài?", "source": "tatoeba" } ] },
+    { "id": "shop", "meanings": [{ "pos": "noun", "vi": "cửa hàng, tiệm" }, { "pos": "verb", "vi": "mua sắm (B1)" }],
+      "note": "go shopping = đi mua sắm; coffee shop = quán cà phê.",
+      "examples": [
+        { "en": "Is there a coffee shop nearby?", "vi": "Gần đây có quán cà phê nào không?", "source": "tatoeba", "edited": true },
+        { "en": "Let's go shopping this weekend.", "vi": "Cuối tuần này đi mua sắm đi.", "source": "editor" } ] },
+    { "id": "jump", "meanings": [{ "pos": "verb", "vi": "nhảy" }],
+      "note": "jump = nhảy (bật lên); dance = nhảy múa.",
+      "examples": [
+        { "en": "Tom jumped out of his seat.", "vi": "Tom bật dậy khỏi ghế.", "source": "tatoeba", "edited": true },
+        { "en": "I boldly jumped into the sea.", "vi": "Tôi liều mình nhảy xuống biển.", "source": "tatoeba", "edited": true } ] },
+    { "id": "cry", "meanings": [{ "pos": "noun", "vi": "tiếng kêu, tiếng khóc" }, { "pos": "verb", "vi": "khóc (A2)" }],
+      "note": "Quá khứ: cried. Đừng nhầm với cry out = kêu lên.",
+      "examples": [
+        { "en": "She turned and began to cry.", "vi": "Cô ấy quay đi và bắt đầu khóc.", "source": "tatoeba", "edited": true },
+        { "en": "She couldn't help but cry.", "vi": "Cô ấy không kìm được nước mắt.", "source": "tatoeba", "edited": true } ] },
+    { "id": "warm", "meanings": [{ "pos": "adjective", "vi": "ấm" }],
+      "note": "warm = ấm (dễ chịu); hot = nóng. global warming = trái đất nóng lên.",
+      "examples": [
+        { "en": "The weather is warm in spring.", "vi": "Mùa xuân thời tiết ấm áp.", "source": "tatoeba", "edited": true },
+        { "en": "It's warmer outside than in this room.", "vi": "Ngoài trời ấm hơn trong phòng này.", "source": "tatoeba", "edited": true } ] },
+    { "id": "baseball", "meanings": [{ "pos": "noun", "vi": "bóng chày" }],
+      "note": "play baseball (không có the).",
+      "examples": [
+        { "en": "Ichiro is an outstanding baseball player.", "vi": "Ichiro là một cầu thủ bóng chày xuất sắc.", "source": "tatoeba", "edited": true },
+        { "en": "I'm a baseball fan.", "vi": "Tôi là fan bóng chày.", "source": "tatoeba", "edited": true } ] },
+    { "id": "egg", "meanings": [{ "pos": "noun", "vi": "quả trứng" }],
+      "note": "boiled egg = trứng luộc; fried egg = trứng ốp la.",
+      "examples": [
+        { "en": "I eat two eggs for breakfast.", "vi": "Bữa sáng tôi ăn hai quả trứng.", "source": "editor" },
+        { "en": "Can you buy some eggs on the way home?", "vi": "Trên đường về bạn mua giúp ít trứng được không?", "source": "editor" } ] },
+    { "id": "anybody", "meanings": [{ "pos": "pronoun", "vi": "ai, bất kỳ ai" }],
+      "note": "anybody = anyone, dùng trong câu hỏi và phủ định.",
+      "examples": [
+        { "en": "Did you see anybody there?", "vi": "Bạn có thấy ai ở đó không?", "source": "tatoeba" },
+        { "en": "I don't want anybody writing about me.", "vi": "Tôi không muốn ai viết về mình.", "source": "tatoeba", "edited": true } ] },
+    { "id": "gift", "meanings": [{ "pos": "noun", "vi": "món quà; năng khiếu" }],
+      "note": "gift = present. a gift for music = năng khiếu âm nhạc.",
+      "examples": [
+        { "en": "He brought her a small gift.", "vi": "Anh ấy mang cho cô ấy một món quà nhỏ.", "source": "tatoeba", "edited": true },
+        { "en": "Music is a gift from God.", "vi": "Âm nhạc là món quà của Thượng đế.", "source": "tatoeba", "edited": true } ] },
+    { "id": "review", "meanings": [{ "pos": "noun", "vi": "bài đánh giá; sự ôn tập" }],
+      "note": "read reviews = đọc đánh giá (sản phẩm, nhà hàng). Động từ review (B2) = xem lại, ôn lại.",
+      "examples": [
+        { "en": "The hotel has very good reviews.", "vi": "Khách sạn này được đánh giá rất tốt.", "source": "editor" },
+        { "en": "I reviewed the budget, and decided to cut costs.", "vi": "Tôi xem lại ngân sách và quyết định cắt giảm chi phí.", "source": "tatoeba", "edited": true } ] },
+    { "id": "coffee", "meanings": [{ "pos": "noun", "vi": "cà phê" }],
+      "note": "Không đếm được khi nói chung (I like coffee), đếm được khi gọi món: Two coffees, please.",
+      "examples": [
+        { "en": "Do you want tea or coffee?", "vi": "Bạn muốn uống trà hay cà phê?", "source": "tatoeba", "edited": true },
+        { "en": "I'd like a black coffee, please.", "vi": "Cho tôi một cà phê đen.", "source": "editor" } ] },
+    { "id": "afraid", "meanings": [{ "pos": "adjective", "vi": "sợ; e rằng" }],
+      "note": "afraid of + danh từ/V-ing: afraid of dogs. I'm afraid… = Tôi e là… (để báo tin không vui một cách lịch sự).",
+      "examples": [
+        { "en": "She was afraid of travelling alone.", "vi": "Cô ấy sợ đi du lịch một mình.", "source": "tatoeba", "edited": true },
+        { "en": "I'm afraid we're closed.", "vi": "Rất tiếc, chúng tôi đóng cửa rồi.", "source": "editor" } ] },
+    { "id": "quarter", "meanings": [{ "pos": "noun", "vi": "một phần tư; 15 phút; quý" }],
+      "note": "Nói giờ: a quarter past six = 6 giờ 15; a quarter to six = 6 giờ kém 15.",
+      "examples": [
+        { "en": "It's a quarter past seven.", "vi": "Bây giờ là bảy giờ mười lăm.", "source": "editor" },
+        { "en": "Cut the cake into quarters.", "vi": "Cắt bánh làm tư.", "source": "editor" } ] },
+    { "id": "wonderful", "meanings": [{ "pos": "adjective", "vi": "tuyệt vời" }],
+      "note": "Đọc /ˈwʌndɚfəl/: âm đầu như “wăn”.",
+      "examples": [
+        { "en": "We had a wonderful holiday.", "vi": "Chúng tôi đã có một kỳ nghỉ tuyệt vời.", "source": "tatoeba" },
+        { "en": "You mustn't miss this wonderful film.", "vi": "Bạn không được bỏ lỡ bộ phim tuyệt vời này.", "source": "tatoeba", "edited": true } ] },
+    { "id": "blow", "meanings": [{ "pos": "verb", "vi": "thổi" }],
+      "note": "blow out the candles = thổi nến; blow your nose = xì mũi. Bất quy tắc: blow – blew – blown.",
+      "examples": [
+        { "en": "The police officer blew his whistle.", "vi": "Viên cảnh sát thổi còi.", "source": "tatoeba", "edited": true },
+        { "en": "Make a wish and blow out the candles.", "vi": "Ước một điều rồi thổi nến đi.", "source": "editor" } ] },
+    { "id": "cook", "meanings": [{ "pos": "verb", "vi": "nấu ăn" }, { "pos": "noun", "vi": "đầu bếp, người nấu" }],
+      "note": "cook là người nấu (a good cook), cooker là cái bếp. Không gọi đầu bếp là “cooker”.",
+      "examples": [
+        { "en": "I will cook dinner tonight.", "vi": "Tối nay tôi sẽ nấu cơm.", "source": "tatoeba", "edited": true },
+        { "en": "My mom is a very good cook.", "vi": "Mẹ tôi nấu ăn rất ngon.", "source": "editor" } ] },
+    { "id": "shoe", "meanings": [{ "pos": "noun", "vi": "chiếc giày" }],
+      "note": "Thường dùng số nhiều: a pair of shoes = một đôi giày. put on / take off your shoes.",
+      "examples": [
+        { "en": "How much are the shoes?", "vi": "Đôi giày bao nhiêu tiền?", "source": "tatoeba", "edited": true },
+        { "en": "Don't wear your shoes inside the house.", "vi": "Đừng mang giày vào trong nhà.", "source": "tatoeba", "edited": true } ] },
+    { "id": "neighbor", "meanings": [{ "pos": "noun", "vi": "hàng xóm" }],
+      "note": "Anh–Anh viết neighbour. neighborhood = khu phố.",
+      "examples": [
+        { "en": "Tom's neighbors were having a party.", "vi": "Hàng xóm của Tom đang mở tiệc.", "source": "tatoeba", "edited": true },
+        { "en": "Our neighbors are very friendly.", "vi": "Hàng xóm nhà tôi rất thân thiện.", "source": "editor" } ] },
+    { "id": "grade", "meanings": [{ "pos": "noun", "vi": "điểm số; lớp (năm học)" }],
+      "note": "good grades = điểm cao. in fifth grade (Mỹ) = học lớp năm.",
+      "examples": [
+        { "en": "She always gets good grades.", "vi": "Cô ấy luôn được điểm cao.", "source": "editor" },
+        { "en": "My son is in third grade.", "vi": "Con trai tôi học lớp ba.", "source": "editor" } ] },
+    { "id": "clothes", "meanings": [{ "pos": "noun", "vi": "quần áo" }],
+      "forms": {},
+      "note": "Luôn số nhiều, không có “a clothe”: These clothes are new. Đọc /kloʊðz/ hoặc gần như /kloʊz/.",
+      "examples": [
+        { "en": "She brought me new clothes yesterday.", "vi": "Hôm qua cô ấy mang cho tôi quần áo mới.", "source": "tatoeba", "edited": true },
+        { "en": "Do you enjoy buying clothes?", "vi": "Bạn có thích mua quần áo không?", "source": "tatoeba", "edited": true } ] },
+    { "id": "quiet", "meanings": [{ "pos": "adjective", "vi": "yên tĩnh, im lặng" }],
+      "note": "Keep quiet = Giữ im lặng. Đừng nhầm với quite (khá): quiet /ˈkwaɪət/ có hai âm tiết.",
+      "examples": [
+        { "en": "Keep quiet. The baby is sleeping.", "vi": "Nhỏ tiếng thôi. Em bé đang ngủ.", "source": "tatoeba", "edited": true },
+        { "en": "I live on a quiet street.", "vi": "Tôi sống trên một con phố yên tĩnh.", "source": "editor" } ] },
+    { "id": "dress", "meanings": [{ "pos": "noun", "vi": "váy liền" }, { "pos": "verb", "vi": "mặc quần áo (A2)" }],
+      "note": "get dressed = mặc quần áo vào. dress up = ăn mặc đẹp.",
+      "examples": [
+        { "en": "He sent his daughter a dress.", "vi": "Anh ấy gửi cho con gái một chiếc váy.", "source": "tatoeba", "edited": true },
+        { "en": "How did you stain your dress?", "vi": "Sao váy bạn lại bị dính bẩn thế?", "source": "tatoeba", "edited": true } ] },
+    { "id": "bone", "meanings": [{ "pos": "noun", "vi": "xương" }],
+      "note": "Chữ e cuối không đọc: /boʊn/.",
+      "examples": [
+        { "en": "Exercise is good for your muscles and bones.", "vi": "Tập thể dục tốt cho cơ và xương.", "source": "tatoeba", "edited": true },
+        { "en": "The dog is eating a bone.", "vi": "Con chó đang gặm khúc xương.", "source": "editor" } ] },
+    { "id": "below", "meanings": [{ "pos": "preposition", "vi": "dưới, thấp hơn" }],
+      "note": "below = thấp hơn (không nhất thiết ngay dưới); under = ngay bên dưới. below zero = dưới không độ.",
+      "examples": [
+        { "en": "Write your name below the line.", "vi": "Viết tên bạn bên dưới đường kẻ.", "source": "editor" },
+        { "en": "It was ten degrees below zero.", "vi": "Trời lạnh âm mười độ.", "source": "editor" } ] },
+    { "id": "cool", "meanings": [{ "pos": "adjective", "vi": "mát; tuyệt, ngầu; bình tĩnh" }],
+      "note": "Thân mật: Cool! = Hay quá! / Được đấy! cool weather = trời mát.",
+      "examples": [
+        { "en": "This one's pretty cool.", "vi": "Cái này khá hay đấy.", "source": "tatoeba", "edited": true },
+        { "en": "It's cool in the evening.", "vi": "Buổi tối trời mát.", "source": "editor" } ] },
+    { "id": "bus", "meanings": [{ "pos": "noun", "vi": "xe buýt" }],
+      "note": "by bus = bằng xe buýt; on the bus = trên xe buýt; bus stop = trạm xe buýt. Số nhiều buses.",
+      "examples": [
+        { "en": "The bus arrived five minutes early.", "vi": "Xe buýt đến sớm năm phút.", "source": "tatoeba", "edited": true },
+        { "en": "I left your umbrella on the bus.", "vi": "Tôi để quên ô của bạn trên xe buýt.", "source": "tatoeba", "edited": true } ] },
+    { "id": "internet", "meanings": [{ "pos": "noun", "vi": "mạng internet" }],
+      "note": "on the internet = trên mạng (có the).",
+      "examples": [
+        { "en": "I can't connect to the Internet.", "vi": "Tôi không kết nối mạng được.", "source": "tatoeba", "edited": true },
+        { "en": "I found this recipe on the internet.", "vi": "Tôi tìm thấy công thức này trên mạng.", "source": "editor" } ] },
+    { "id": "healthy", "meanings": [{ "pos": "adjective", "vi": "khỏe mạnh; tốt cho sức khỏe" }],
+      "note": "healthy food = đồ ăn lành mạnh. Danh từ: health.",
+      "examples": [
+        { "en": "My grandmother is old but healthy.", "vi": "Bà tôi già nhưng khỏe mạnh.", "source": "tatoeba" },
+        { "en": "Exercise makes the body healthy.", "vi": "Tập thể dục giúp cơ thể khỏe mạnh.", "source": "tatoeba", "edited": true } ] },
+    { "id": "following", "meanings": [{ "pos": "adjective", "vi": "tiếp theo, sau đây" }],
+      "note": "the following day = ngày hôm sau; the following questions = các câu hỏi sau đây.",
+      "examples": [
+        { "en": "Answer the following questions.", "vi": "Trả lời các câu hỏi sau đây.", "source": "editor" },
+        { "en": "We met again the following day.", "vi": "Hôm sau chúng tôi lại gặp nhau.", "source": "editor" } ] },
+    { "id": "medicine", "meanings": [{ "pos": "noun", "vi": "thuốc; y học" }],
+      "note": "take medicine = uống thuốc (không nói “drink medicine”).",
+      "examples": [
+        { "en": "This medicine will do you good.", "vi": "Thuốc này sẽ giúp bạn khỏe hơn.", "source": "tatoeba", "edited": true },
+        { "en": "I have trouble taking powdered medicine.", "vi": "Tôi khó uống thuốc bột.", "source": "tatoeba", "edited": true } ] },
+    { "id": "classroom", "meanings": [{ "pos": "noun", "vi": "lớp học, phòng học" }],
+      "note": "in the classroom = trong lớp.",
+      "examples": [
+        { "en": "There are thirty students in the classroom.", "vi": "Trong lớp có ba mươi học sinh.", "source": "editor" },
+        { "en": "I hope that your classroom had air conditioning.", "vi": "Mẹ mong là lớp con có điều hòa.", "source": "tatoeba", "edited": true } ] },
+    { "id": "fair", "meanings": [{ "pos": "adjective", "vi": "công bằng; (tóc) vàng hoe; (trời) đẹp" }],
+      "note": "That's not fair! = Thế là không công bằng!",
+      "examples": [
+        { "en": "Life's not fair.", "vi": "Cuộc đời không công bằng.", "source": "tatoeba" },
+        { "en": "Will it be fair in Tokyo tomorrow?", "vi": "Mai ở Tokyo trời có đẹp không?", "source": "tatoeba", "edited": true } ] },
+    { "id": "pair", "meanings": [{ "pos": "noun", "vi": "đôi, cặp" }],
+      "note": "Dùng để đếm đồ có hai phần: a pair of shoes, a pair of glasses, a pair of jeans. in pairs = theo cặp.",
+      "examples": [
+        { "en": "I bought a new pair of gloves.", "vi": "Tôi đã mua một đôi găng tay mới.", "source": "tatoeba" },
+        { "en": "Work in pairs.", "vi": "Làm việc theo cặp.", "source": "editor" } ] },
+    { "id": "famous", "meanings": [{ "pos": "adjective", "vi": "nổi tiếng" }],
+      "note": "famous for = nổi tiếng về: Hanoi is famous for phở.",
+      "examples": [
+        { "en": "Detroit is famous for its car industry.", "vi": "Detroit nổi tiếng với ngành công nghiệp ô tô.", "source": "tatoeba", "edited": true },
+        { "en": "Tom became famous very quickly.", "vi": "Tom trở nên nổi tiếng rất nhanh.", "source": "tatoeba", "edited": true } ] },
+    { "id": "exercise", "meanings": [{ "pos": "verb", "vi": "tập thể dục" }, { "pos": "noun", "vi": "bài tập; sự vận động (A2)" }],
+      "note": "do exercise = tập thể dục (không đếm được); do exercises = làm bài tập.",
+      "examples": [
+        { "en": "She exercises three times a week.", "vi": "Cô ấy tập thể dục ba lần một tuần.", "source": "tatoeba" },
+        { "en": "Exercise can help with weight loss.", "vi": "Tập thể dục có thể giúp giảm cân.", "source": "tatoeba" } ] },
+    { "id": "knee", "meanings": [{ "pos": "noun", "vi": "đầu gối" }],
+      "note": "Chữ k không đọc: /ni/.",
+      "examples": [
+        { "en": "Tom hurt his knee when he fell down.", "vi": "Tom bị đau đầu gối khi ngã.", "source": "tatoeba", "edited": true },
+        { "en": "I put bandages on my hurt knee.", "vi": "Tôi băng đầu gối bị đau lại.", "source": "tatoeba", "edited": true } ] },
+    { "id": "flower", "meanings": [{ "pos": "noun", "vi": "bông hoa" }],
+      "note": "a bunch of flowers = một bó hoa.",
+      "examples": [
+        { "en": "Thanks for the flowers.", "vi": "Cảm ơn bạn vì bó hoa.", "source": "tatoeba", "edited": true },
+        { "en": "Let's pick flowers from the garden.", "vi": "Mình ra vườn hái hoa đi.", "source": "tatoeba", "edited": true } ] },
+    { "id": "actor", "meanings": [{ "pos": "noun", "vi": "diễn viên (nam)" }],
+      "note": "actress = nữ diễn viên (nhưng ngày nay actor cũng dùng cho cả nữ).",
+      "examples": [
+        { "en": "The actor has played many roles.", "vi": "Nam diễn viên đã đóng nhiều vai.", "source": "tatoeba" },
+        { "en": "That famous actor is in many movies.", "vi": "Nam diễn viên nổi tiếng đó đóng rất nhiều phim.", "source": "tatoeba", "edited": true } ] },
+    { "id": "birth", "meanings": [{ "pos": "noun", "vi": "sự ra đời, sinh" }],
+      "note": "date of birth = ngày sinh; give birth to = sinh (con).",
+      "examples": [
+        { "en": "She gave birth to a daughter yesterday.", "vi": "Hôm qua cô ấy sinh một bé gái.", "source": "tatoeba", "edited": true },
+        { "en": "Write your date of birth here.", "vi": "Ghi ngày sinh của bạn vào đây.", "source": "editor" } ] },
+    { "id": "yesterday", "meanings": [{ "pos": "adverb", "vi": "hôm qua" }],
+      "note": "Đi với thì quá khứ. Không có giới từ: I saw him yesterday.",
+      "examples": [
+        { "en": "I apologize for what happened yesterday.", "vi": "Tôi xin lỗi về chuyện hôm qua.", "source": "tatoeba" },
+        { "en": "I fell from a ladder yesterday.", "vi": "Hôm qua tôi bị ngã thang.", "source": "tatoeba", "edited": true } ] },
+    { "id": "circle", "meanings": [{ "pos": "noun", "vi": "hình tròn, vòng tròn" }],
+      "note": "Circle the correct answer = Khoanh tròn đáp án đúng.",
+      "examples": [
+        { "en": "Draw a circle on the paper.", "vi": "Vẽ một hình tròn lên giấy.", "source": "editor" },
+        { "en": "You've got dark circles under your eyes.", "vi": "Bạn bị quầng thâm dưới mắt kìa.", "source": "tatoeba", "edited": true } ] },
+    { "id": "bottom", "meanings": [{ "pos": "noun", "vi": "đáy, phần dưới cùng" }],
+      "note": "at the bottom of = ở dưới cùng của. Trái nghĩa: top.",
+      "examples": [
+        { "en": "Write your name at the bottom of the page.", "vi": "Ghi tên bạn ở cuối trang.", "source": "editor" },
+        { "en": "Ziri was at the bottom of the hill.", "vi": "Ziri đang ở chân đồi.", "source": "tatoeba", "edited": true } ] },
+    { "id": "island", "meanings": [{ "pos": "noun", "vi": "hòn đảo" }],
+      "note": "Chữ s không đọc: /ˈaɪlənd/. on an island = trên đảo.",
+      "examples": [
+        { "en": "There are islands in the sea.", "vi": "Trên biển có những hòn đảo.", "source": "tatoeba" },
+        { "en": "I brought presents from Redang Island.", "vi": "Tớ mang quà từ đảo Redang về.", "source": "tatoeba", "edited": true } ] },
+    { "id": "clean", "meanings": [{ "pos": "adjective", "vi": "sạch" }, { "pos": "verb", "vi": "lau dọn, làm sạch" }],
+      "note": "clean the house = dọn nhà; clean up = dọn dẹp. Trái nghĩa: dirty.",
+      "examples": [
+        { "en": "I feel clean after taking a bath.", "vi": "Tắm xong tôi thấy sạch sẽ hẳn.", "source": "tatoeba", "edited": true },
+        { "en": "I clean my room every Saturday.", "vi": "Thứ Bảy nào tôi cũng dọn phòng.", "source": "editor" } ] },
+    { "id": "train", "meanings": [{ "pos": "noun", "vi": "tàu hỏa" }, { "pos": "verb", "vi": "huấn luyện, tập luyện (A2)" }],
+      "note": "by train = bằng tàu; on the train = trên tàu; take the train = đi tàu.",
+      "examples": [
+        { "en": "I got on the wrong train.", "vi": "Tớ lên nhầm tàu.", "source": "tatoeba" },
+        { "en": "I go to work every morning by train.", "vi": "Sáng nào tôi cũng đi làm bằng tàu hỏa.", "source": "tatoeba", "edited": true } ] },
+    { "id": "lady", "meanings": [{ "pos": "noun", "vi": "quý bà, phu nhân" }],
+      "note": "Lịch sự hơn woman. Ladies and gentlemen = Thưa quý bà và quý ông.",
+      "examples": [
+        { "en": "Tom bowed respectfully to the old lady.", "vi": "Tom cung kính cúi chào cụ bà.", "source": "tatoeba", "edited": true },
+        { "en": "Who is that lady in the red dress?", "vi": "Quý cô mặc váy đỏ kia là ai vậy?", "source": "editor" } ] },
+    { "id": "neck", "meanings": [{ "pos": "noun", "vi": "cổ" }],
+      "note": "necklace = vòng cổ, dây chuyền.",
+      "examples": [
+        { "en": "She's wearing a necklace on her neck.", "vi": "Cô ấy đeo một sợi dây chuyền trên cổ.", "source": "tatoeba", "edited": true },
+        { "en": "My neck hurts.", "vi": "Tôi bị đau cổ.", "source": "editor" } ] },
+    { "id": "tall", "meanings": [{ "pos": "adjective", "vi": "cao" }],
+      "note": "tall dùng cho người, cây, tòa nhà cao và mảnh. How tall are you? = Bạn cao bao nhiêu?",
+      "examples": [
+        { "en": "Bill is as tall as Jack.", "vi": "Bill cao bằng Jack.", "source": "tatoeba", "edited": true },
+        { "en": "Tom is the tallest man I know.", "vi": "Tom là người cao nhất mà tôi biết.", "source": "tatoeba" } ] },
+    { "id": "football", "meanings": [{ "pos": "noun", "vi": "bóng đá (Anh); bóng bầu dục (Mỹ)" }],
+      "note": "Ở Mỹ, bóng đá gọi là soccer. play football (không có the).",
+      "examples": [
+        { "en": "The people here are crazy for football.", "vi": "Người dân ở đây phát cuồng vì bóng đá.", "source": "tatoeba", "edited": true },
+        { "en": "Why does a football field have four corners?", "vi": "Tại sao sân bóng lại có bốn góc?", "source": "tatoeba", "edited": true } ] },
+    { "id": "theater", "meanings": [{ "pos": "noun", "vi": "nhà hát; rạp chiếu phim (Mỹ)" }],
+      "note": "Anh–Anh viết theatre. go to the theater = đi xem kịch.",
+      "examples": [
+        { "en": "There was a large audience in the theater.", "vi": "Rạp có rất đông khán giả.", "source": "tatoeba", "edited": true },
+        { "en": "The theater didn't use to open on Tuesdays.", "vi": "Trước đây nhà hát không mở cửa vào thứ Ba.", "source": "tatoeba", "edited": true } ] },
+    { "id": "chicken", "meanings": [{ "pos": "noun", "vi": "con gà; thịt gà" }],
+      "note": "Thịt gà không đếm được: I like chicken (không nói “a chicken” khi nói về món ăn).",
+      "examples": [
+        { "en": "This farm raises cows and chickens.", "vi": "Trang trại này nuôi bò và gà.", "source": "tatoeba", "edited": true },
+        { "en": "I'll have the chicken rice, please.", "vi": "Cho tôi một phần cơm gà.", "source": "editor" } ] },
+    { "id": "map", "meanings": [{ "pos": "noun", "vi": "bản đồ" }],
+      "note": "on the map = trên bản đồ.",
+      "examples": [
+        { "en": "Tom isn't good at reading maps.", "vi": "Tom không giỏi xem bản đồ.", "source": "tatoeba" },
+        { "en": "Can you show me on the map?", "vi": "Bạn chỉ cho tôi trên bản đồ được không?", "source": "editor" } ] },
+    { "id": "welcome", "meanings": [{ "pos": "interjection", "vi": "chào mừng" }, { "pos": "verb", "vi": "chào đón" }],
+      "note": "Welcome to Vietnam! You're welcome = Không có gì (đáp lại lời cảm ơn).",
+      "examples": [
+        { "en": "\"Thank you.\" \"You're welcome.\"", "vi": "“Cảm ơn.” “Không có gì.”", "source": "tatoeba", "edited": true },
+        { "en": "Welcome to the real world!", "vi": "Chào mừng đến với thế giới thật!", "source": "tatoeba", "edited": true } ] },
+    { "id": "rain", "meanings": [{ "pos": "noun", "vi": "mưa" }, { "pos": "verb", "vi": "mưa" }],
+      "note": "It's raining = Trời đang mưa (cần It). heavy rain = mưa to.",
+      "examples": [
+        { "en": "He got wet from the rain.", "vi": "Anh ấy bị ướt vì mưa.", "source": "tatoeba", "edited": true },
+        { "en": "It looks like it'll rain today.", "vi": "Có vẻ hôm nay trời sẽ mưa.", "source": "tatoeba", "edited": true } ] },
+    { "id": "paint", "meanings": [{ "pos": "noun", "vi": "sơn, màu vẽ" }, { "pos": "verb", "vi": "sơn; vẽ (bằng màu)" }],
+      "note": "paint the wall = sơn tường; paint a picture = vẽ tranh màu.",
+      "examples": [
+        { "en": "They painted the fence green.", "vi": "Họ sơn hàng rào màu xanh lá.", "source": "tatoeba", "edited": true },
+        { "en": "Ken painted his bicycle white.", "vi": "Ken sơn xe đạp màu trắng.", "source": "tatoeba", "edited": true } ] },
+    { "id": "leaf", "meanings": [{ "pos": "noun", "vi": "chiếc lá" }],
+      "note": "Số nhiều leaves (f thành v), viết giống leaves của động từ leave.",
+      "examples": [
+        { "en": "The leaves fell to the earth.", "vi": "Lá rụng xuống đất.", "source": "tatoeba", "edited": true },
+        { "en": "The leaves turn yellow in autumn.", "vi": "Mùa thu lá chuyển vàng.", "source": "editor" } ] },
+    { "id": "dry", "meanings": [{ "pos": "adjective", "vi": "khô" }, { "pos": "verb", "vi": "làm khô, phơi (A2)" }],
+      "note": "dry season = mùa khô. Trái nghĩa: wet.",
+      "examples": [
+        { "en": "Keep the medicine in a dry place.", "vi": "Bảo quản thuốc ở nơi khô ráo.", "source": "editor" },
+        { "en": "The weather is hot and dry.", "vi": "Thời tiết nóng và khô.", "source": "editor" } ] },
+    { "id": "pool", "meanings": [{ "pos": "noun", "vi": "bể bơi; vũng nước" }],
+      "note": "swimming pool = bể bơi.",
+      "examples": [
+        { "en": "How deep is the pool?", "vi": "Bể bơi sâu bao nhiêu?", "source": "tatoeba", "edited": true },
+        { "en": "That pool really looks inviting.", "vi": "Cái bể bơi đó trông hấp dẫn thật.", "source": "tatoeba", "edited": true } ] },
+    { "id": "climb", "meanings": [{ "pos": "verb", "vi": "leo, trèo (A2)" }, { "pos": "noun", "vi": "sự leo trèo" }],
+      "note": "Chữ b không đọc: /klaɪm/. climb a mountain = leo núi.",
+      "examples": [
+        { "en": "We climbed up the steep mountain.", "vi": "Chúng tôi leo lên ngọn núi dốc đứng.", "source": "tatoeba", "edited": true },
+        { "en": "Dogs can't climb up walls.", "vi": "Chó không trèo được lên tường.", "source": "tatoeba", "edited": true } ] },
+    { "id": "sweet", "meanings": [{ "pos": "adjective", "vi": "ngọt; dễ thương" }, { "pos": "noun", "vi": "kẹo (Anh) (A2)" }],
+      "note": "Sweet dreams! = Ngủ ngon nhé! sweets (Anh) = candy (Mỹ).",
+      "examples": [
+        { "en": "Good night. Sweet dreams.", "vi": "Ngủ ngon. Mơ đẹp nhé.", "source": "tatoeba", "edited": true },
+        { "en": "You have a sweet dog.", "vi": "Chú chó của bạn dễ thương thật.", "source": "tatoeba", "edited": true } ] },
+    { "id": "fat", "meanings": [{ "pos": "adjective", "vi": "béo, mập" }],
+      "note": "Nói về người, fat nghe khá thô; lịch sự hơn: overweight, big. Trái nghĩa: thin.",
+      "examples": [
+        { "en": "The pig is really fat.", "vi": "Con lợn béo thật.", "source": "tatoeba", "edited": true },
+        { "en": "All bodies have some fat.", "vi": "Cơ thể nào cũng có một ít mỡ.", "source": "tatoeba", "edited": true } ] },
+    { "id": "ticket", "meanings": [{ "pos": "noun", "vi": "vé" }],
+      "note": "a ticket to Hanoi = vé đi Hà Nội; buy / book a ticket.",
+      "examples": [
+        { "en": "Tom bought a ticket to Boston.", "vi": "Tom mua một vé đi Boston.", "source": "tatoeba" },
+        { "en": "Did you already buy the ticket?", "vi": "Bạn mua vé chưa?", "source": "tatoeba", "edited": true } ] },
+    { "id": "strange", "meanings": [{ "pos": "adjective", "vi": "lạ, kỳ lạ" }],
+      "note": "stranger = người lạ (danh từ).",
+      "examples": [
+        { "en": "I want to tell you something strange.", "vi": "Tôi muốn kể bạn nghe một chuyện lạ.", "source": "tatoeba", "edited": true },
+        { "en": "That's strange. He's never late.", "vi": "Lạ thật. Anh ấy chưa bao giờ trễ.", "source": "editor" } ] },
+    { "id": "reading", "meanings": [{ "pos": "noun", "vi": "việc đọc; bài đọc" }],
+      "note": "reading is my hobby = đọc sách là sở thích của tôi.",
+      "examples": [
+        { "en": "Reading is my favorite hobby.", "vi": "Đọc sách là sở thích lớn nhất của tôi.", "source": "editor" },
+        { "en": "I look forward to reading your report.", "vi": "Tôi rất mong được đọc báo cáo của anh.", "source": "tatoeba", "edited": true } ] },
+    { "id": "lunch", "meanings": [{ "pos": "noun", "vi": "bữa trưa" }],
+      "note": "have lunch = ăn trưa; lunch break = giờ nghỉ trưa.",
+      "examples": [
+        { "en": "I caught her on her lunch break.", "vi": "Tôi gặp được cô ấy lúc cô ấy nghỉ trưa.", "source": "tatoeba", "edited": true },
+        { "en": "Let's have lunch together.", "vi": "Mình ăn trưa cùng nhau nhé.", "source": "editor" } ] },
+    { "id": "farmer", "meanings": [{ "pos": "noun", "vi": "nông dân" }],
+      "note": "farm = trang trại → farmer.",
+      "examples": [
+        { "en": "The farmer lives in a cottage in the countryside.", "vi": "Người nông dân sống trong một căn nhà nhỏ ở quê.", "source": "tatoeba", "edited": true },
+        { "en": "The farmer tilled the soil in the bottom field.", "vi": "Người nông dân cày đất ở thửa ruộng phía dưới.", "source": "tatoeba", "edited": true } ] },
+    { "id": "sugar", "meanings": [{ "pos": "noun", "vi": "đường (ăn)" }],
+      "forms": {},
+      "note": "Không đếm được: some sugar. Đọc /ˈʃʊɡɚ/, âm đầu như “sh”.",
+      "examples": [
+        { "en": "Would you like some sugar in your tea?", "vi": "Bạn có muốn cho thêm đường vào trà không?", "source": "tatoeba", "edited": true },
+        { "en": "Do you want sugar or milk?", "vi": "Bạn muốn thêm đường hay sữa?", "source": "tatoeba", "edited": true } ] },
+    { "id": "favorite", "meanings": [{ "pos": "adjective", "vi": "yêu thích nhất" }, { "pos": "noun", "vi": "thứ được yêu thích" }],
+      "note": "favorite đã có nghĩa “nhất”, không thêm most: my favorite song. Anh–Anh viết favourite.",
+      "examples": [
+        { "en": "Pink is her favorite color.", "vi": "Màu hồng là màu cô ấy thích nhất.", "source": "tatoeba", "edited": true },
+        { "en": "That's not my favorite topic.", "vi": "Đó không phải chủ đề tôi thích.", "source": "tatoeba", "edited": true } ] },
+    { "id": "repeat", "meanings": [{ "pos": "verb", "vi": "nhắc lại, lặp lại" }],
+      "note": "Could you repeat that, please? = Bạn nhắc lại được không? Không cần thêm again sau repeat.",
+      "examples": [
+        { "en": "Could you please repeat what you just said?", "vi": "Bạn nhắc lại điều vừa nói được không?", "source": "tatoeba", "edited": true },
+        { "en": "Can you repeat?", "vi": "Bạn nhắc lại được không?", "source": "tatoeba", "edited": true } ] },
+    { "id": "carefully", "meanings": [{ "pos": "adverb", "vi": "cẩn thận" }],
+      "note": "careful (tính từ) → carefully (trạng từ): Drive carefully.",
+      "examples": [
+        { "en": "I wrote the answers carefully.", "vi": "Tôi viết câu trả lời cẩn thận.", "source": "tatoeba", "edited": true },
+        { "en": "Tom studied the document carefully.", "vi": "Tom nghiên cứu tài liệu rất kỹ.", "source": "tatoeba", "edited": true } ] },
+    { "id": "mom", "meanings": [{ "pos": "noun", "vi": "mẹ (thân mật)" }],
+      "note": "Mỹ: mom; Anh: mum. Khi gọi trực tiếp viết hoa: Mom, where are you?",
+      "examples": [
+        { "en": "My mom is cooking in the kitchen.", "vi": "Mẹ tôi đang nấu ăn trong bếp.", "source": "tatoeba" },
+        { "en": "Mom cooked some tasty food!", "vi": "Mẹ nấu món ngon lắm!", "source": "tatoeba", "edited": true } ] },
+    { "id": "weather", "meanings": [{ "pos": "noun", "vi": "thời tiết" }],
+      "forms": {},
+      "note": "Không đếm được, không có a: nice weather (không nói “a nice weather”). How's the weather? = Thời tiết thế nào?",
+      "examples": [
+        { "en": "I am accustomed to cold weather.", "vi": "Tôi quen với thời tiết lạnh.", "source": "tatoeba" },
+        { "en": "Bad weather prevented me from setting out.", "vi": "Thời tiết xấu khiến tôi không lên đường được.", "source": "tatoeba", "edited": true } ] },
+    { "id": "bear", "meanings": [{ "pos": "noun", "vi": "con gấu" }, { "pos": "verb", "vi": "chịu đựng; sinh ra (be born) (A2)" }],
+      "note": "be born = được sinh ra: I was born in 1995. can't bear = không chịu nổi.",
+      "examples": [
+        { "en": "There is a bear in the forest.", "vi": "Trong rừng có một con gấu.", "source": "editor" },
+        { "en": "I was born in Hanoi.", "vi": "Tôi sinh ra ở Hà Nội.", "source": "editor" } ] },
+    { "id": "pocket", "meanings": [{ "pos": "noun", "vi": "túi (quần, áo)" }],
+      "note": "pocket money = tiền tiêu vặt.",
+      "examples": [
+        { "en": "Tom fished through his pockets for his keys.", "vi": "Tom lục túi tìm chìa khóa.", "source": "tatoeba", "edited": true },
+        { "en": "Put your phone in your pocket.", "vi": "Cất điện thoại vào túi đi.", "source": "editor" } ] },
+    { "id": "thin", "meanings": [{ "pos": "adjective", "vi": "mỏng; gầy" }],
+      "note": "Trái nghĩa: thick (dày), fat (béo). Âm th thè lưỡi: /θɪn/.",
+      "examples": [
+        { "en": "One book is thin, and the other is thick.", "vi": "Một cuốn mỏng, cuốn kia dày.", "source": "tatoeba", "edited": true },
+        { "en": "She is very thin.", "vi": "Cô ấy rất gầy.", "source": "editor" } ] },
+    { "id": "surprise", "meanings": [{ "pos": "noun", "vi": "sự ngạc nhiên, điều bất ngờ" }, { "pos": "verb", "vi": "làm ngạc nhiên (B1)" }],
+      "note": "What a surprise! = Bất ngờ quá! surprised (tính từ) = ngạc nhiên: I was surprised.",
+      "examples": [
+        { "en": "Snow in summer is really a surprise.", "vi": "Tuyết rơi mùa hè đúng là điều bất ngờ.", "source": "tatoeba", "edited": true },
+        { "en": "She looked surprised at the letter.", "vi": "Cô ấy có vẻ ngạc nhiên khi đọc lá thư.", "source": "tatoeba", "edited": true } ] },
+    { "id": "sight", "meanings": [{ "pos": "noun", "vi": "thị lực; cảnh tượng" }],
+      "note": "at first sight = ngay từ cái nhìn đầu tiên; sightseeing = tham quan.",
+      "examples": [
+        { "en": "Out of sight, out of mind.", "vi": "Xa mặt cách lòng.", "source": "tatoeba" },
+        { "en": "I lost sight of Tom.", "vi": "Tôi không còn thấy Tom đâu nữa.", "source": "tatoeba", "edited": true } ] },
+    { "id": "straight", "meanings": [{ "pos": "adverb", "vi": "thẳng" }, { "pos": "adjective", "vi": "thẳng (A2)" }],
+      "note": "go straight ahead = đi thẳng; straight hair = tóc thẳng. Chữ gh không đọc: /streɪt/.",
+      "examples": [
+        { "en": "Keep walking straight ahead.", "vi": "Cứ đi thẳng về phía trước.", "source": "tatoeba", "edited": true },
+        { "en": "Go straight 200m, then turn right.", "vi": "Đi thẳng 200 mét, rồi rẽ phải.", "source": "tatoeba", "edited": true } ] },
+    { "id": "code", "meanings": [{ "pos": "noun", "vi": "mã; quy tắc" }],
+      "note": "password / code = mật mã; dress code = quy định trang phục; write code = viết mã (lập trình).",
+      "examples": [
+        { "en": "Enter the code to open the door.", "vi": "Nhập mã để mở cửa.", "source": "editor" },
+        { "en": "What's the zip code here?", "vi": "Mã bưu chính ở đây là gì?", "source": "editor" } ] },
+    { "id": "desk", "meanings": [{ "pos": "noun", "vi": "bàn làm việc, bàn học" }],
+      "note": "desk = bàn làm việc/học; table = bàn nói chung (bàn ăn). front desk = quầy lễ tân.",
+      "examples": [
+        { "en": "This desk is the best of all the desks.", "vi": "Cái bàn này tốt nhất trong số các bàn.", "source": "tatoeba", "edited": true },
+        { "en": "Please ask at the front desk.", "vi": "Vui lòng hỏi ở quầy lễ tân.", "source": "editor" } ] },
+    { "id": "thanks", "meanings": [{ "pos": "noun", "vi": "lời cảm ơn; cảm ơn" }],
+      "forms": {},
+      "note": "Thanks = Thank you (thân mật hơn). Thanks for + danh từ/V-ing: Thanks for coming.",
+      "examples": [
+        { "en": "Thanks a lot, Tom.", "vi": "Cảm ơn Tom nhiều.", "source": "tatoeba", "edited": true },
+        { "en": "Thanks for the flowers.", "vi": "Cảm ơn bạn vì bó hoa.", "source": "tatoeba", "edited": true } ] },
+    { "id": "fruit", "meanings": [{ "pos": "noun", "vi": "trái cây, quả" }],
+      "note": "Thường không đếm được: I eat a lot of fruit. Chữ i không đọc: /frut/.",
+      "examples": [
+        { "en": "Bananas, apples and oranges are all fruits.", "vi": "Chuối, táo và cam đều là trái cây.", "source": "tatoeba" },
+        { "en": "This fruit has an unpleasant smell.", "vi": "Loại quả này có mùi khó chịu.", "source": "tatoeba", "edited": true } ] },
+    { "id": "expensive", "meanings": [{ "pos": "adjective", "vi": "đắt" }],
+      "note": "Trái nghĩa: cheap. Giá thì nói high price (không nói “expensive price”).",
+      "examples": [
+        { "en": "That television is both big and expensive.", "vi": "Cái tivi đó vừa to vừa đắt.", "source": "tatoeba", "edited": true },
+        { "en": "Those shoes are too expensive.", "vi": "Đôi giày kia đắt quá.", "source": "editor" } ] },
+    { "id": "yellow", "meanings": [{ "pos": "adjective", "vi": "vàng" }],
+      "forms": {},
+      "note": "Màu vàng thông thường là yellow; vàng kim loại là gold.",
+      "examples": [
+        { "en": "These yellow trousers are very nice.", "vi": "Chiếc quần vàng này rất đẹp.", "source": "tatoeba", "edited": true },
+        { "en": "When the traffic light is yellow, we stop.", "vi": "Khi đèn giao thông chuyển vàng, chúng ta dừng lại.", "source": "tatoeba", "edited": true } ] },
+    { "id": "dance", "meanings": [{ "pos": "verb", "vi": "nhảy, khiêu vũ" }, { "pos": "noun", "vi": "điệu nhảy" }],
+      "note": "dancer = vũ công.",
+      "examples": [
+        { "en": "Mary is very good at belly dancing.", "vi": "Mary múa bụng rất giỏi.", "source": "tatoeba" },
+        { "en": "Do you want to dance?", "vi": "Bạn muốn nhảy không?", "source": "editor" } ] },
+    { "id": "ring", "meanings": [{ "pos": "verb", "vi": "reo, rung chuông; gọi điện (Anh)" }, { "pos": "noun", "vi": "chiếc nhẫn (A2)" }],
+      "note": "The phone is ringing = Điện thoại đang reo. Bất quy tắc: ring – rang – rung.",
+      "examples": [
+        { "en": "All the church bells started ringing together.", "vi": "Tất cả chuông nhà thờ cùng lúc vang lên.", "source": "tatoeba", "edited": true },
+        { "en": "The ring is made of silver.", "vi": "Chiếc nhẫn làm bằng bạc.", "source": "tatoeba" } ] },
+    { "id": "bridge", "meanings": [{ "pos": "noun", "vi": "cây cầu" }],
+      "note": "cross the bridge = qua cầu.",
+      "examples": [
+        { "en": "The river flows under the bridge.", "vi": "Con sông chảy dưới cây cầu.", "source": "tatoeba", "edited": true },
+        { "en": "The new bridge will have been completed by March.", "vi": "Cây cầu mới sẽ hoàn thành trước tháng Ba.", "source": "tatoeba", "edited": true } ] },
+    { "id": "angry", "meanings": [{ "pos": "adjective", "vi": "giận, tức giận" }],
+      "forms": { "comparative": "angrier" },
+      "note": "angry with/at + người: angry with me; angry about + việc.",
+      "examples": [
+        { "en": "Tom isn't angry at Mary.", "vi": "Tom không giận Mary.", "source": "tatoeba" },
+        { "en": "The king was very angry.", "vi": "Nhà vua rất giận.", "source": "tatoeba", "edited": true } ] },
+    { "id": "meal", "meanings": [{ "pos": "noun", "vi": "bữa ăn" }],
+      "note": "Enjoy your meal! = Chúc ngon miệng!",
+      "examples": [
+        { "en": "He kept silent during the meal.", "vi": "Anh ấy im lặng suốt bữa ăn.", "source": "tatoeba", "edited": true },
+        { "en": "This meal is adequate for three.", "vi": "Bữa ăn này đủ cho ba người.", "source": "tatoeba", "edited": true } ] },
+    { "id": "thick", "meanings": [{ "pos": "adjective", "vi": "dày; đặc" }],
+      "note": "Trái nghĩa: thin.",
+      "examples": [
+        { "en": "One book is thin, and the other is thick.", "vi": "Một cuốn mỏng, cuốn kia dày.", "source": "tatoeba", "edited": true },
+        { "en": "Beef stew should be nice and thick.", "vi": "Bò hầm phải sệt mới ngon.", "source": "tatoeba", "edited": true } ] },
+    { "id": "nose", "meanings": [{ "pos": "noun", "vi": "mũi" }],
+      "note": "blow your nose = xì mũi; runny nose = sổ mũi.",
+      "examples": [
+        { "en": "His nose has been broken twice.", "vi": "Mũi anh ấy đã bị gãy hai lần.", "source": "tatoeba", "edited": true },
+        { "en": "I have a runny nose.", "vi": "Tôi bị sổ mũi.", "source": "editor" } ] },
+    { "id": "bottle", "meanings": [{ "pos": "noun", "vi": "cái chai" }],
+      "note": "a bottle of water = một chai nước.",
+      "examples": [
+        { "en": "We should order another bottle of wine.", "vi": "Mình nên gọi thêm một chai vang nữa.", "source": "tatoeba", "edited": true },
+        { "en": "The bottle cap keeps the water in.", "vi": "Nắp chai giữ cho nước không trào ra.", "source": "tatoeba", "edited": true } ] },
+    { "id": "file", "meanings": [{ "pos": "noun", "vi": "tệp, tập hồ sơ" }],
+      "note": "save / open / send a file = lưu / mở / gửi tệp.",
+      "examples": [
+        { "en": "Please send me the file by email.", "vi": "Vui lòng gửi tôi tệp qua email.", "source": "editor" },
+        { "en": "I can't open this file.", "vi": "Tôi không mở được tệp này.", "source": "editor" } ] },
+    { "id": "sick", "meanings": [{ "pos": "adjective", "vi": "ốm, bệnh; buồn nôn" }],
+      "note": "get sick = bị ốm; be sick of = chán ngấy.",
+      "examples": [
+        { "en": "Are you also afraid of getting sick?", "vi": "Bạn cũng sợ bị ốm à?", "source": "tatoeba", "edited": true },
+        { "en": "Tom was sick of his job.", "vi": "Tom chán ngấy công việc của mình.", "source": "tatoeba", "edited": true } ] },
+    { "id": "slow", "meanings": [{ "pos": "adjective", "vi": "chậm" }],
+      "note": "Trạng từ: slowly (speak slowly). Trong văn nói vẫn gặp “speak slower”.",
+      "examples": [
+        { "en": "Could you please speak slower?", "vi": "Bạn nói chậm lại một chút được không?", "source": "tatoeba", "edited": true },
+        { "en": "My computer is very slow.", "vi": "Máy tính của tôi chạy rất chậm.", "source": "editor" } ] },
+    { "id": "wake", "meanings": [{ "pos": "verb", "vi": "thức dậy; đánh thức (B1)" }],
+      "note": "wake up = thức dậy; wake someone up = đánh thức ai. Bất quy tắc: wake – woke – woken.",
+      "examples": [
+        { "en": "I usually wake up at six.", "vi": "Tôi thường dậy lúc sáu giờ.", "source": "tatoeba", "edited": true },
+        { "en": "I went swimming after I woke up.", "vi": "Ngủ dậy là tôi đi bơi.", "source": "tatoeba", "edited": true } ] },
+    { "id": "airport", "meanings": [{ "pos": "noun", "vi": "sân bay" }],
+      "note": "at the airport = ở sân bay.",
+      "examples": [
+        { "en": "How far is it to the airport?", "vi": "Từ đây đến sân bay bao xa?", "source": "tatoeba", "edited": true },
+        { "en": "Where do I get an airport bus?", "vi": "Tôi bắt xe buýt ra sân bay ở đâu?", "source": "tatoeba", "edited": true } ] },
+    { "id": "brown", "meanings": [{ "pos": "adjective", "vi": "nâu" }],
+      "forms": {},
+      "note": "brown rice = gạo lứt; brown sugar = đường nâu.",
+      "examples": [
+        { "en": "Chocolate has brown color.", "vi": "Sô-cô-la có màu nâu.", "source": "tatoeba", "edited": true },
+        { "en": "She has brown eyes.", "vi": "Cô ấy có đôi mắt nâu.", "source": "editor" } ] },
+    { "id": "shirt", "meanings": [{ "pos": "noun", "vi": "áo sơ mi" }],
+      "note": "T-shirt = áo phông.",
+      "examples": [
+        { "en": "He irons his shirt every morning.", "vi": "Sáng nào anh ấy cũng là áo sơ mi.", "source": "tatoeba", "edited": true },
+        { "en": "This is my father's shirt.", "vi": "Đây là áo của bố tôi.", "source": "tatoeba" } ] }
+  ]
+}
