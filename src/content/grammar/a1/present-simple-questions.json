@@ -1,0 +1,361 @@
+{
+  "id": "present-simple-questions",
+  "level": "A1",
+  "title": "Hiện tại đơn: phủ định và câu hỏi",
+  "summary": "Nói “không làm gì”, hỏi “có làm không” với don't, doesn't, do, does.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Do]] you live near here?",
+      "vi": "Bạn có sống gần đây không?"
+    },
+    {
+      "who": "B",
+      "en": "No, I [[don't]]. I live in District 7.",
+      "vi": "Không. Mình sống ở Quận 7."
+    },
+    {
+      "who": "A",
+      "en": "[[Does]] your wife work in this office too?",
+      "vi": "Vợ bạn cũng làm ở văn phòng này à?"
+    },
+    {
+      "who": "B",
+      "en": "No, she [[doesn't]]. She [[doesn't]] work in an office. She's a nurse.",
+      "vi": "Không. Cô ấy không làm văn phòng. Cô ấy là y tá."
+    },
+    {
+      "who": "A",
+      "en": "What time [[does]] she finish work?",
+      "vi": "Mấy giờ cô ấy tan làm?"
+    },
+    {
+      "who": "B",
+      "en": "Usually at eight. She [[doesn't]] like night shifts!",
+      "vi": "Thường là tám giờ. Cô ấy không thích ca đêm!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Phủ định",
+      "heading": "Phủ định: don't, doesn't",
+      "rule": "Phủ định: **don't** + động từ nguyên mẫu. Ngôi thứ ba số ít dùng **doesn't** + động từ nguyên mẫu.",
+      "formula": [
+        {
+          "text": "I / You / We / They + [don't] + V"
+        },
+        {
+          "text": "He / She / It + [doesn't] + V"
+        }
+      ],
+      "body": [
+        "Tiếng Việt chỉ thêm “không” trước động từ. Tiếng Anh cần **trợ động từ** do/does rồi mới thêm not: do not = **don't**, does not = **doesn't**.",
+        "**Quan trọng:** khi đã có doesn't, động từ chính **quay về nguyên mẫu**, không thêm -s nữa. Đuôi -s đã chuyển sang does."
+      ],
+      "examples": [
+        {
+          "en": "I [[don't]] drink coffee.",
+          "vi": "Tôi không uống cà phê.",
+          "why": "I → don't + drink."
+        },
+        {
+          "en": "My father [[doesn't]] smoke.",
+          "vi": "Bố tôi không hút thuốc.",
+          "why": "My father = he → doesn't + smoke (không phải smokes)."
+        },
+        {
+          "en": "They [[don't]] live here.",
+          "vi": "Họ không sống ở đây.",
+          "why": "They → don't."
+        }
+      ],
+      "check": {
+        "prompt": "She ___ like fish.",
+        "options": [
+          "don't",
+          "doesn't"
+        ],
+        "answer": 1,
+        "explain": "She là ngôi thứ ba số ít → doesn't."
+      }
+    },
+    {
+      "part": "Câu hỏi",
+      "heading": "Câu hỏi: Do…? Does…?",
+      "rule": "Câu hỏi: **Do** hoặc **Does** đứng đầu + chủ ngữ + động từ **nguyên mẫu**.",
+      "formula": [
+        {
+          "text": "[Do] + I / you / we / they + V…?"
+        },
+        {
+          "text": "[Does] + he / she / it + V…?"
+        }
+      ],
+      "body": [
+        "Trả lời ngắn dùng lại do, does: *Yes, I do. / No, I don't. Yes, she does. / No, she doesn't.*"
+      ],
+      "examples": [
+        {
+          "en": "[[Do]] you speak English? Yes, I [[do]].",
+          "vi": "Bạn có nói tiếng Anh không? Có.",
+          "why": "You → Do; trả lời ngắn Yes, I do."
+        },
+        {
+          "en": "[[Does]] he work on Saturdays? No, he [[doesn't]].",
+          "vi": "Anh ấy có làm thứ Bảy không? Không.",
+          "why": "He → Does; work giữ nguyên."
+        },
+        {
+          "en": "[[Do]] your kids like school?",
+          "vi": "Con bạn có thích đi học không?",
+          "why": "Your kids = they → Do."
+        }
+      ],
+      "check": {
+        "prompt": "___ your brother play football?",
+        "options": [
+          "Do",
+          "Does"
+        ],
+        "answer": 1,
+        "explain": "Your brother = he → Does."
+      }
+    },
+    {
+      "part": "Từ để hỏi",
+      "heading": "Câu hỏi với what, where, when…",
+      "rule": "Từ để hỏi + **do/does** + chủ ngữ + động từ nguyên mẫu?",
+      "formula": [
+        {
+          "text": "Wh- + [do / does] + chủ ngữ + V…?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "Where [[do]] you live?",
+          "vi": "Bạn sống ở đâu?",
+          "why": "You → do; live nguyên mẫu."
+        },
+        {
+          "en": "What time [[does]] the bank open?",
+          "vi": "Ngân hàng mở cửa lúc mấy giờ?",
+          "why": "The bank = it → does; open nguyên mẫu, không phải opens."
+        },
+        {
+          "en": "What [[do]] you do?",
+          "vi": "Bạn làm nghề gì?",
+          "why": "Do đầu tiên là trợ động từ, do thứ hai là động từ “làm”."
+        }
+      ],
+      "check": {
+        "prompt": "Where ___ she work?",
+        "options": [
+          "do",
+          "does"
+        ],
+        "answer": 1,
+        "explain": "She → does; work giữ nguyên."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She don't like coffee.",
+      "right": "She doesn't like coffee.",
+      "why": "She → doesn't."
+    },
+    {
+      "wrong": "He doesn't likes fish.",
+      "right": "He doesn't like fish.",
+      "why": "Sau doesn't, động từ về nguyên mẫu."
+    },
+    {
+      "wrong": "You like music?",
+      "right": "Do you like music?",
+      "why": "Câu hỏi cần Do ở đầu."
+    },
+    {
+      "wrong": "Does she works here?",
+      "right": "Does she work here?",
+      "why": "Sau does, động từ về nguyên mẫu."
+    },
+    {
+      "wrong": "I not understand.",
+      "right": "I don't understand.",
+      "why": "Phủ định cần don't, không chỉ thêm not."
+    },
+    {
+      "wrong": "Where you live?",
+      "right": "Where do you live?",
+      "why": "Câu hỏi có từ để hỏi vẫn cần do/does."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ eat meat.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not"
+      ],
+      "answer": 0,
+      "explain": "I → don't + động từ nguyên mẫu."
+    },
+    {
+      "type": "choice",
+      "prompt": "My sister ___ drive.",
+      "options": [
+        "don't",
+        "doesn't"
+      ],
+      "answer": 1,
+      "explain": "My sister = she → doesn't."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you have a car?",
+      "options": [
+        "Do",
+        "Does",
+        "Are"
+      ],
+      "answer": 0,
+      "explain": "You → Do. Have là động từ thường nên không dùng Are."
+    },
+    {
+      "type": "choice",
+      "prompt": "Does Tom ___ in Hanoi?",
+      "options": [
+        "live",
+        "lives"
+      ],
+      "answer": 0,
+      "explain": "Sau does, động từ về nguyên mẫu: live."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ watch TV in the morning.",
+      "hint": "phủ định",
+      "answers": [
+        "don't",
+        "do not"
+      ],
+      "explain": "We → don't."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ like spicy food.",
+      "hint": "phủ định",
+      "answers": [
+        "doesn't",
+        "does not"
+      ],
+      "explain": "He → doesn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ your parents live with you?",
+      "hint": "trợ động từ",
+      "answers": [
+        "Do"
+      ],
+      "explain": "Your parents = they → Do."
+    },
+    {
+      "type": "fill",
+      "prompt": "Does she speak French? No, she ___.",
+      "hint": "trả lời ngắn",
+      "answers": [
+        "doesn't",
+        "does not"
+      ],
+      "explain": "Hỏi Does she → trả lời No, she doesn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "What time ___ the train leave?",
+      "hint": "trợ động từ",
+      "answers": [
+        "does"
+      ],
+      "explain": "The train = it → does."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn có thích trà không?",
+      "words": [
+        "Do",
+        "you",
+        "like",
+        "tea?"
+      ],
+      "explain": "Câu hỏi: Do + you + like nguyên mẫu."
+    },
+    {
+      "type": "order",
+      "vi": "Anh ấy không làm việc vào Chủ nhật.",
+      "words": [
+        "He",
+        "doesn't",
+        "work",
+        "on",
+        "Sundays."
+      ],
+      "explain": "He → doesn't + work nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "She doesn't works on Mondays.",
+      "answers": [
+        "She doesn't work on Mondays."
+      ],
+      "explain": "Sau doesn't, bỏ -s: work."
+    },
+    {
+      "type": "fix",
+      "sentence": "Where your mother works?",
+      "answers": [
+        "Where does your mother work?"
+      ],
+      "explain": "Thiếu does: your mother = she → does, và work về nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "I no like rain.",
+      "answers": [
+        "I don't like rain.",
+        "I do not like rain."
+      ],
+      "explain": "Phủ định: don't + động từ, không dùng no."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn sống ở đâu?",
+      "answers": [
+        "Where do you live?"
+      ],
+      "explain": "You → do; live nguyên mẫu."
+    },
+    {
+      "type": "translate",
+      "vi": "Mẹ tôi không uống cà phê.",
+      "answers": [
+        "My mother doesn't drink coffee.",
+        "My mom doesn't drink coffee.",
+        "My mum doesn't drink coffee."
+      ],
+      "explain": "My mother = she → doesn't + drink."
+    },
+    {
+      "type": "translate",
+      "vi": "Con trai bạn có thích bóng đá không?",
+      "answers": [
+        "Does your son like football?",
+        "Does your son like soccer?"
+      ],
+      "explain": "Your son = he → Does + like nguyên mẫu."
+    }
+  ]
+}

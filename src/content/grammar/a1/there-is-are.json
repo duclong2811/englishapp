@@ -1,0 +1,342 @@
+{
+  "id": "there-is-are",
+  "level": "A1",
+  "title": "There is, there are",
+  "summary": "Nói ở đâu đó “có” cái gì: there is, there are, phủ định và câu hỏi. Phân biệt với have.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Is [[there]] a kitchen in the flat?",
+      "vi": "Căn hộ có bếp không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, [[there is]]. And [[there are]] two bedrooms.",
+      "vi": "Có. Và có hai phòng ngủ."
+    },
+    {
+      "who": "A",
+      "en": "[[Is there]] a washing machine?",
+      "vi": "Có máy giặt không?"
+    },
+    {
+      "who": "B",
+      "en": "No, [[there isn't]]. But [[there's]] a laundry next door.",
+      "vi": "Không có. Nhưng ngay bên cạnh có tiệm giặt."
+    },
+    {
+      "who": "A",
+      "en": "[[Are there]] any shops near here?",
+      "vi": "Gần đây có cửa hàng nào không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, [[there are]] a lot of shops on this street.",
+      "vi": "Có, trên phố này có rất nhiều cửa hàng."
+    }
+  ],
+  "sections": [
+    {
+      "part": "There is, are",
+      "heading": "There is, there are: ở đâu đó “có” cái gì",
+      "rule": "Nói **có cái gì ở đâu**: *There is* + số ít, *There are* + số nhiều.",
+      "formula": [
+        {
+          "text": "There is + [a/an + danh từ số ít] + nơi chốn"
+        },
+        {
+          "text": "There are + [danh từ số nhiều] + nơi chốn"
+        }
+      ],
+      "body": [
+        "Tiếng Việt nói “Trên bàn **có** một quyển sách”. Người Việt hay dịch thẳng thành “On the table has a book”, nhưng câu này **sai**. Tiếng Anh nói *There is a book on the table*.",
+        "Viết tắt: *there's* = there is. *There are* thường không viết tắt."
+      ],
+      "examples": [
+        {
+          "en": "[[There is]] a bank near my house.",
+          "vi": "Gần nhà tôi có một ngân hàng.",
+          "why": "Một ngân hàng (số ít) → there is."
+        },
+        {
+          "en": "[[There are]] three bedrooms in the flat.",
+          "vi": "Căn hộ có ba phòng ngủ.",
+          "why": "Ba phòng (số nhiều) → there are."
+        },
+        {
+          "en": "[[There is]] some milk in the fridge.",
+          "vi": "Trong tủ lạnh có ít sữa.",
+          "why": "Milk không đếm được → there is."
+        }
+      ],
+      "check": {
+        "prompt": "___ two cats in the garden.",
+        "options": [
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explain": "Two cats là số nhiều → there are."
+      }
+    },
+    {
+      "part": "Have hay there is",
+      "heading": "Have hay there is?",
+      "rule": "**Have** = ai đó **có, sở hữu**. **There is, there are** = cái gì đó **có mặt ở một nơi**.",
+      "body": [
+        "Tiếng Việt dùng chữ “có” cho cả hai nghĩa. Hãy hỏi: có **người làm chủ** không? Có thì dùng *have*: *I have a car*. Chỉ nói vật nằm ở đâu thì dùng *there is*: *There is a car in front of my house*."
+      ],
+      "examples": [
+        {
+          "en": "I [[have]] two brothers.",
+          "vi": "Tôi có hai anh trai.",
+          "why": "Nói về điều tôi có → have."
+        },
+        {
+          "en": "[[There are]] two cafes on my street.",
+          "vi": "Phố tôi có hai quán cà phê.",
+          "why": "Không nói ai sở hữu, chỉ nói quán ở đâu → there are."
+        }
+      ],
+      "check": {
+        "prompt": "Câu nào đúng? (Trong phòng có một cái bàn)",
+        "options": [
+          "In the room has a table.",
+          "There is a table in the room."
+        ],
+        "answer": 1,
+        "explain": "Nói vật ở đâu → there is. Không dùng has khi không có người làm chủ."
+      }
+    },
+    {
+      "part": "Phủ định, câu hỏi",
+      "heading": "Phủ định và câu hỏi",
+      "rule": "Phủ định: *There isn't…*, *There aren't any…*. Câu hỏi: **Is there…? / Are there any…?**",
+      "formula": [
+        {
+          "label": "Phủ định",
+          "text": "There + [isn't / aren't] + …"
+        },
+        {
+          "label": "Câu hỏi",
+          "text": "[Is / Are] + there + …?"
+        }
+      ],
+      "body": [
+        "Với số nhiều, câu phủ định và câu hỏi thường có **any**: *There aren't any shops. Are there any shops?*",
+        "Trả lời ngắn: *Yes, there is.* / *No, there aren't.*"
+      ],
+      "examples": [
+        {
+          "en": "[[There isn't]] a lift in this building.",
+          "vi": "Tòa nhà này không có thang máy.",
+          "why": "Phủ định, số ít → there isn't a…"
+        },
+        {
+          "en": "[[Are there]] any good restaurants here?",
+          "vi": "Ở đây có nhà hàng nào ngon không?",
+          "why": "Hỏi số nhiều → Are there any…?"
+        },
+        {
+          "en": "[[Is there]] a toilet near here? Yes, [[there is]].",
+          "vi": "Gần đây có nhà vệ sinh không? Có.",
+          "why": "Trả lời ngắn khẳng định không viết tắt."
+        }
+      ],
+      "check": {
+        "prompt": "___ any eggs in the fridge?",
+        "options": [
+          "Is there",
+          "Are there"
+        ],
+        "answer": 1,
+        "explain": "Eggs là số nhiều → Are there any…?"
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "On the table has a book.",
+      "right": "There is a book on the table.",
+      "why": "Nói vật ở đâu dùng there is, không dùng has."
+    },
+    {
+      "wrong": "There is two banks here.",
+      "right": "There are two banks here.",
+      "why": "Two banks là số nhiều → there are."
+    },
+    {
+      "wrong": "Have a cafe near my house.",
+      "right": "There is a cafe near my house.",
+      "why": "Không có người làm chủ → there is."
+    },
+    {
+      "wrong": "Is there any shops?",
+      "right": "Are there any shops?",
+      "why": "Shops là số nhiều → are."
+    },
+    {
+      "wrong": "There are a lot of water.",
+      "right": "There is a lot of water.",
+      "why": "Water không đếm được → there is."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ a supermarket on this street.",
+      "options": [
+        "There is",
+        "There are"
+      ],
+      "answer": 0,
+      "explain": "A supermarket là số ít → there is."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ many students in my class.",
+      "options": [
+        "There is",
+        "There are"
+      ],
+      "answer": 1,
+      "explain": "Many students là số nhiều → there are."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ a hospital near here?",
+      "options": [
+        "Is there",
+        "Are there"
+      ],
+      "answer": 0,
+      "explain": "A hospital là số ít → Is there…?"
+    },
+    {
+      "type": "choice",
+      "prompt": "“Ở Hà Nội có nhiều hồ.”",
+      "options": [
+        "In Hanoi has many lakes.",
+        "There are many lakes in Hanoi."
+      ],
+      "answer": 1,
+      "explain": "Nói cái gì ở đâu → there are. “In Hanoi has” là dịch từng chữ, sai."
+    },
+    {
+      "type": "fill",
+      "prompt": "There ___ some bread on the table.",
+      "hint": "be",
+      "answers": [
+        "is",
+        "'s"
+      ],
+      "explain": "Bread không đếm được → there is."
+    },
+    {
+      "type": "fill",
+      "prompt": "There ___ two bikes in front of the house.",
+      "hint": "be",
+      "answers": [
+        "are"
+      ],
+      "explain": "Two bikes là số nhiều → there are."
+    },
+    {
+      "type": "fill",
+      "prompt": "There ___ any milk in the fridge.",
+      "hint": "be, phủ định",
+      "answers": [
+        "isn't",
+        "is not"
+      ],
+      "explain": "Milk không đếm được → there isn't any."
+    },
+    {
+      "type": "fill",
+      "prompt": "Are there any buses at night? No, there ___.",
+      "hint": "trả lời ngắn",
+      "answers": [
+        "aren't",
+        "are not"
+      ],
+      "explain": "Hỏi Are there → trả lời No, there aren't."
+    },
+    {
+      "type": "order",
+      "vi": "Trong túi tôi có một quả táo.",
+      "words": [
+        "There",
+        "is",
+        "an",
+        "apple",
+        "in",
+        "my",
+        "bag."
+      ],
+      "alternatives": [
+        "In my bag there is an apple."
+      ],
+      "explain": "Một quả táo (số ít) → there is an apple."
+    },
+    {
+      "type": "order",
+      "vi": "Gần đây có quán cà phê nào không?",
+      "words": [
+        "Are",
+        "there",
+        "any",
+        "cafes",
+        "near",
+        "here?"
+      ],
+      "explain": "Số nhiều trong câu hỏi → Are there any…?"
+    },
+    {
+      "type": "fix",
+      "sentence": "In my room has a big window.",
+      "answers": [
+        "There is a big window in my room.",
+        "There's a big window in my room.",
+        "My room has a big window."
+      ],
+      "explain": "Không nói “In my room has”. Dùng there is, hoặc my room has."
+    },
+    {
+      "type": "fix",
+      "sentence": "There is three people in the car.",
+      "answers": [
+        "There are three people in the car."
+      ],
+      "explain": "Three people là số nhiều → there are."
+    },
+    {
+      "type": "fix",
+      "sentence": "Is there any apples?",
+      "answers": [
+        "Are there any apples?"
+      ],
+      "explain": "Apples là số nhiều → are."
+    },
+    {
+      "type": "translate",
+      "vi": "Phố tôi có một tiệm bánh mì.",
+      "answers": [
+        "There is a bakery on my street.",
+        "There's a bakery on my street.",
+        "My street has a bakery.",
+        "There is a bakery in my street."
+      ],
+      "explain": "Nói cái gì ở đâu → there is."
+    },
+    {
+      "type": "translate",
+      "vi": "Trong lớp có hai mươi học sinh.",
+      "answers": [
+        "There are twenty students in the class.",
+        "There are twenty students in my class.",
+        "There are twenty students in the classroom."
+      ],
+      "explain": "Hai mươi học sinh → số nhiều → there are."
+    }
+  ]
+}

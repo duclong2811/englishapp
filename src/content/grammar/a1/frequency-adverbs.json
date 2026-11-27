@@ -1,0 +1,380 @@
+{
+  "id": "frequency-adverbs",
+  "level": "A1",
+  "title": "Always, usually, often, never",
+  "summary": "Nói mức độ thường xuyên (luôn luôn, thường, thỉnh thoảng, không bao giờ) và đặt các từ này đúng chỗ trong câu.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What do you [[usually]] do on weekends?",
+      "vi": "Cuối tuần bạn thường làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "I [[always]] sleep late on Saturdays!",
+      "vi": "Thứ Bảy nào mình cũng ngủ dậy muộn!"
+    },
+    {
+      "who": "A",
+      "en": "Ha ha. Do you go out?",
+      "vi": "Ha ha. Bạn có đi chơi không?"
+    },
+    {
+      "who": "B",
+      "en": "I [[often]] meet my friends for coffee, and I [[sometimes]] go to the cinema.",
+      "vi": "Mình hay gặp bạn bè uống cà phê, thỉnh thoảng đi xem phim."
+    },
+    {
+      "who": "A",
+      "en": "Do you cook?",
+      "vi": "Bạn có nấu ăn không?"
+    },
+    {
+      "who": "B",
+      "en": "[[Never]]! I'm [[never]] at home at dinner time.",
+      "vi": "Không bao giờ! Giờ ăn tối mình chẳng bao giờ ở nhà."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Mức độ",
+      "heading": "Từ luôn luôn đến không bao giờ",
+      "rule": "Trạng từ tần suất cho biết **bao lâu làm một lần**: *always* (100%) → *usually* → *often* → *sometimes* → *rarely* → *never* (0%).",
+      "body": [],
+      "table": {
+        "head": [
+          "Từ",
+          "Nghĩa",
+          "Khoảng"
+        ],
+        "rows": [
+          [
+            "always",
+            "luôn luôn",
+            "100%"
+          ],
+          [
+            "usually",
+            "thường thường",
+            "80–90%"
+          ],
+          [
+            "often",
+            "hay, thường",
+            "60–70%"
+          ],
+          [
+            "sometimes",
+            "thỉnh thoảng",
+            "30–50%"
+          ],
+          [
+            "rarely",
+            "hiếm khi",
+            "10%"
+          ],
+          [
+            "never",
+            "không bao giờ",
+            "0%"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[always]] brush my teeth before bed.",
+          "vi": "Tôi luôn đánh răng trước khi ngủ.",
+          "why": "Lần nào cũng làm → always."
+        },
+        {
+          "en": "We [[sometimes]] eat out.",
+          "vi": "Thỉnh thoảng chúng tôi ăn ngoài.",
+          "why": "Lúc có lúc không → sometimes."
+        },
+        {
+          "en": "He [[never]] drinks alcohol.",
+          "vi": "Anh ấy không bao giờ uống rượu.",
+          "why": "Không lần nào → never."
+        }
+      ],
+      "check": {
+        "prompt": "Tôi hiếm khi xem TV: I ___ watch TV.",
+        "options": [
+          "always",
+          "rarely",
+          "usually"
+        ],
+        "answer": 1,
+        "explain": "Hiếm khi → rarely."
+      }
+    },
+    {
+      "part": "Vị trí",
+      "heading": "Đặt ở đâu trong câu?",
+      "rule": "Đứng **trước động từ thường**, nhưng **sau be** (am, is, are).",
+      "formula": [
+        {
+          "text": "Chủ ngữ + [always / often…] + động từ thường"
+        },
+        {
+          "text": "Chủ ngữ + be + [always / often…]"
+        }
+      ],
+      "body": [
+        "Tiếng Việt cũng nói “tôi **thường** đi bộ”, nên vị trí trước động từ khá dễ. Chỗ khác là với be: “Anh ấy **luôn** đúng giờ” → *He is always on time*, always đứng **sau** is."
+      ],
+      "examples": [
+        {
+          "en": "She [[usually]] gets up at six.",
+          "vi": "Cô ấy thường dậy lúc sáu giờ.",
+          "why": "Động từ thường gets → usually đứng trước."
+        },
+        {
+          "en": "He [[is always]] late.",
+          "vi": "Anh ấy lúc nào cũng muộn.",
+          "why": "Có be (is) → always đứng sau is."
+        },
+        {
+          "en": "I [[don't often]] go out.",
+          "vi": "Tôi không hay đi chơi.",
+          "why": "Câu phủ định: don't + often + động từ."
+        }
+      ],
+      "check": {
+        "prompt": "Câu nào đúng?",
+        "options": [
+          "She is always happy.",
+          "She always is happy."
+        ],
+        "answer": 0,
+        "explain": "Có be → always đứng sau is."
+      }
+    },
+    {
+      "part": "How often",
+      "heading": "Hỏi: How often…?",
+      "rule": "Hỏi mức độ thường xuyên: **How often do/does…?** Trả lời bằng trạng từ, hoặc *every day, once a week, twice a month…*",
+      "signals": [
+        "every day",
+        "once a week",
+        "twice a week",
+        "three times a month",
+        "every year"
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[How often]] do you go to the gym? Twice a week.",
+          "vi": "Bạn đi tập bao lâu một lần? Mỗi tuần hai lần.",
+          "why": "How often → hỏi tần suất. Twice = hai lần."
+        },
+        {
+          "en": "[[How often]] does she call her mother? Every day.",
+          "vi": "Cô ấy gọi cho mẹ bao lâu một lần? Hằng ngày.",
+          "why": "She → does; call nguyên mẫu."
+        }
+      ],
+      "check": {
+        "prompt": "___ do you see your grandparents? Once a month.",
+        "options": [
+          "How often",
+          "How long",
+          "How much"
+        ],
+        "answer": 0,
+        "explain": "Hỏi bao lâu một lần → How often."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I go always to work by bus.",
+      "right": "I always go to work by bus.",
+      "why": "Always đứng trước động từ thường (go)."
+    },
+    {
+      "wrong": "She always is late.",
+      "right": "She is always late.",
+      "why": "Với be, always đứng sau is."
+    },
+    {
+      "wrong": "I don't never eat meat.",
+      "right": "I never eat meat.",
+      "why": "Never đã mang nghĩa phủ định; không dùng thêm don't."
+    },
+    {
+      "wrong": "How many times you go?",
+      "right": "How often do you go?",
+      "why": "Hỏi tần suất: How often do you…?"
+    },
+    {
+      "wrong": "He usually go to bed early.",
+      "right": "He usually goes to bed early.",
+      "why": "Có usually nhưng he vẫn cần goes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ drink coffee in the morning. (lần nào cũng uống)",
+      "options": [
+        "always",
+        "never",
+        "sometimes"
+      ],
+      "answer": 0,
+      "explain": "Lần nào cũng làm → always."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "He often plays tennis.",
+        "He plays often tennis.",
+        "Often he tennis plays."
+      ],
+      "answer": 0,
+      "explain": "Often đứng trước động từ thường plays."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "They are usually tired after work.",
+        "They usually are tired after work."
+      ],
+      "answer": 0,
+      "explain": "Có be (are) → usually đứng sau are."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ do you go swimming? Twice a week.",
+      "options": [
+        "How often",
+        "How many",
+        "When"
+      ],
+      "answer": 0,
+      "explain": "Hỏi bao lâu một lần → How often."
+    },
+    {
+      "type": "choice",
+      "prompt": "My dad ___ smokes. He hates cigarettes.",
+      "options": [
+        "always",
+        "never"
+      ],
+      "answer": 1,
+      "explain": "Ghét thuốc lá → không bao giờ hút → never."
+    },
+    {
+      "type": "fill",
+      "prompt": "I am ___ busy on Mondays.",
+      "hint": "luôn luôn",
+      "answers": [
+        "always"
+      ],
+      "explain": "Luôn luôn → always, đứng sau am."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ eat out, maybe once a month.",
+      "hint": "thỉnh thoảng",
+      "answers": [
+        "sometimes"
+      ],
+      "explain": "Thỉnh thoảng → sometimes, đứng trước động từ eat."
+    },
+    {
+      "type": "fill",
+      "prompt": "My son ___ forgets his homework.",
+      "hint": "hay, thường",
+      "answers": [
+        "often"
+      ],
+      "explain": "Hay quên → often, đứng trước forgets."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thường đi làm bằng xe buýt.",
+      "words": [
+        "I",
+        "usually",
+        "go",
+        "to",
+        "work",
+        "by",
+        "bus."
+      ],
+      "explain": "Usually đứng trước động từ go."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy không bao giờ đến muộn.",
+      "words": [
+        "She",
+        "is",
+        "never",
+        "late."
+      ],
+      "explain": "Có be → never đứng sau is."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn đi bơi bao lâu một lần?",
+      "words": [
+        "How",
+        "often",
+        "do",
+        "you",
+        "go",
+        "swimming?"
+      ],
+      "explain": "How often + do + you + go…?"
+    },
+    {
+      "type": "fix",
+      "sentence": "I eat often noodles for breakfast.",
+      "answers": [
+        "I often eat noodles for breakfast."
+      ],
+      "explain": "Often đứng trước động từ eat."
+    },
+    {
+      "type": "fix",
+      "sentence": "He always is hungry.",
+      "answers": [
+        "He is always hungry."
+      ],
+      "explain": "Với be, always đứng sau is."
+    },
+    {
+      "type": "fix",
+      "sentence": "I don't never watch TV.",
+      "answers": [
+        "I never watch TV."
+      ],
+      "explain": "Never đã là phủ định; bỏ don't."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi luôn uống trà vào buổi sáng.",
+      "answers": [
+        "I always drink tea in the morning.",
+        "I always drink tea in the mornings."
+      ],
+      "explain": "Always đứng trước drink."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy thường mệt sau giờ làm.",
+      "answers": [
+        "He is usually tired after work.",
+        "He's usually tired after work.",
+        "He is often tired after work.",
+        "He's often tired after work."
+      ],
+      "explain": "Có be (is) → usually đứng sau is."
+    }
+  ]
+}

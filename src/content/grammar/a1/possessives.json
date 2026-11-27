@@ -1,0 +1,410 @@
+{
+  "id": "possessives",
+  "level": "A1",
+  "title": "My, your, his… và sở hữu cách 's",
+  "summary": "Nói đồ vật, người thân là của ai: my, your, his, her… và cách thêm 's sau tên người.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Is this [[your]] family?",
+      "vi": "Đây là gia đình bạn à?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. This is [[my]] father, and that's [[my]] mother.",
+      "vi": "Ừ. Đây là bố mình, còn kia là mẹ mình."
+    },
+    {
+      "who": "A",
+      "en": "Who is the girl with the cat?",
+      "vi": "Cô bé ôm con mèo là ai?"
+    },
+    {
+      "who": "B",
+      "en": "That's [[my sister's]] daughter. [[Her]] name is Mia.",
+      "vi": "Đó là con gái của chị mình. Tên cháu là Mia."
+    },
+    {
+      "who": "A",
+      "en": "And what's [[the cat's]] name?",
+      "vi": "Còn con mèo tên gì?"
+    },
+    {
+      "who": "B",
+      "en": "[[Its]] name is Lucky. It's [[our]] family cat.",
+      "vi": "Tên nó là Lucky. Đó là mèo của cả nhà mình."
+    }
+  ],
+  "sections": [
+    {
+      "part": "My, your…",
+      "heading": "My, your, his, her…: đứng trước danh từ",
+      "rule": "Muốn nói “của ai”, đặt **my, your, his, her, its, our, their** **trước** danh từ.",
+      "body": [
+        "Tiếng Việt nói “điện thoại **của tôi**”: phần “của tôi” đứng **sau**. Tiếng Anh đặt **trước**: *my phone*, và không có từ nào cho chữ “của”."
+      ],
+      "table": {
+        "head": [
+          "Người",
+          "Của người đó",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "I",
+            "my",
+            "my phone"
+          ],
+          [
+            "you",
+            "your",
+            "your name"
+          ],
+          [
+            "he",
+            "his",
+            "his car"
+          ],
+          [
+            "she",
+            "her",
+            "her bag"
+          ],
+          [
+            "it",
+            "its",
+            "its color"
+          ],
+          [
+            "we",
+            "our",
+            "our house"
+          ],
+          [
+            "they",
+            "their",
+            "their kids"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[My]] name is Lan.",
+          "vi": "Tên tôi là Lan.",
+          "why": "Của tôi → my, đứng trước name."
+        },
+        {
+          "en": "[[His]] wife is a teacher.",
+          "vi": "Vợ anh ấy là giáo viên.",
+          "why": "Của anh ấy → his."
+        },
+        {
+          "en": "[[Their]] house is near the river.",
+          "vi": "Nhà của họ ở gần sông.",
+          "why": "Của họ → their."
+        }
+      ],
+      "check": {
+        "prompt": "Đây là xe của chúng tôi: This is ___ car.",
+        "options": [
+          "us",
+          "our",
+          "we"
+        ],
+        "answer": 1,
+        "explain": "Của chúng tôi → our."
+      }
+    },
+    {
+      "part": "His hay her",
+      "heading": "His hay her? Theo người sở hữu",
+      "rule": "Chọn **his** hay **her** theo **người sở hữu** (nam → his, nữ → her), không theo đồ vật hay người được nhắc tới.",
+      "body": [
+        "Câu *Tom loves his mother*: mẹ là nữ nhưng vẫn dùng **his**, vì người “sở hữu” ở đây là Tom."
+      ],
+      "examples": [
+        {
+          "en": "Tom loves [[his]] mother.",
+          "vi": "Tom thương mẹ của anh ấy.",
+          "why": "Người sở hữu là Tom (nam) → his, dù mẹ là nữ."
+        },
+        {
+          "en": "Lan is with [[her]] father.",
+          "vi": "Lan đi cùng bố.",
+          "why": "Người sở hữu là Lan (nữ) → her, dù bố là nam."
+        },
+        {
+          "en": "The dog is eating [[its]] food.",
+          "vi": "Con chó đang ăn đồ ăn của nó.",
+          "why": "Con vật → its."
+        }
+      ],
+      "check": {
+        "prompt": "Mr. Hai and ___ daughter live in Hue.",
+        "options": [
+          "his",
+          "her"
+        ],
+        "answer": 0,
+        "explain": "Người sở hữu là ông Hai (nam) → his."
+      }
+    },
+    {
+      "part": "Sở hữu 's",
+      "heading": "Của một người cụ thể: thêm 's",
+      "rule": "Với tên người hoặc danh từ chỉ người: thêm **'s** vào người sở hữu, rồi đến đồ vật: *Nam's phone* = điện thoại của Nam.",
+      "formula": [
+        {
+          "text": "người sở hữu + ['s] + vật"
+        }
+      ],
+      "body": [
+        "Thứ tự **ngược với tiếng Việt**: “xe của **mẹ tôi**” → *my mother's car*. Không nói “the car of my mother”.",
+        "Danh từ số nhiều tận cùng -s thì chỉ thêm dấu ': *my parents' house*."
+      ],
+      "examples": [
+        {
+          "en": "This is [[Nam's]] phone.",
+          "vi": "Đây là điện thoại của Nam.",
+          "why": "Nam + 's + phone."
+        },
+        {
+          "en": "[[My sister's]] husband is a doctor.",
+          "vi": "Chồng của chị tôi là bác sĩ.",
+          "why": "My sister + 's + husband."
+        },
+        {
+          "en": "[[My parents']] house is big.",
+          "vi": "Nhà của bố mẹ tôi to.",
+          "why": "Parents tận cùng -s → chỉ thêm dấu '."
+        }
+      ],
+      "check": {
+        "prompt": "“Xe của bố tôi” là:",
+        "options": [
+          "my father's car",
+          "my car father's",
+          "the car of my father"
+        ],
+        "answer": 0,
+        "explain": "Người sở hữu (my father) + 's + vật (car)."
+      }
+    },
+    {
+      "part": "Its hay it's",
+      "heading": "Its hay it's?",
+      "rule": "**its** = của nó. **it's** = it is. Hai từ đọc giống nhau nhưng nghĩa khác hẳn.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[It's]] a nice cafe.",
+          "vi": "Đó là một quán cà phê đẹp.",
+          "why": "It's = It is."
+        },
+        {
+          "en": "I love this cafe. [[Its]] coffee is great.",
+          "vi": "Tôi thích quán này. Cà phê của quán rất ngon.",
+          "why": "Its = của nó (của quán)."
+        }
+      ],
+      "check": {
+        "prompt": "The cat is hungry. ___ bowl is empty.",
+        "options": [
+          "Its",
+          "It's"
+        ],
+        "answer": 0,
+        "explain": "Cái bát của nó → its. It's = It is."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "This is phone of me.",
+      "right": "This is my phone.",
+      "why": "Không nói “of me”; đặt my trước danh từ."
+    },
+    {
+      "wrong": "Lan loves his mother.",
+      "right": "Lan loves her mother.",
+      "why": "Người sở hữu là Lan (nữ) → her."
+    },
+    {
+      "wrong": "the car of my father",
+      "right": "my father's car",
+      "why": "Với người, dùng 's: my father's car."
+    },
+    {
+      "wrong": "The dog wags it's tail.",
+      "right": "The dog wags its tail.",
+      "why": "Its (của nó) không có dấu '."
+    },
+    {
+      "wrong": "They love they children.",
+      "right": "They love their children.",
+      "why": "Của họ → their, không phải they."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I live with ___ parents.",
+      "options": [
+        "my",
+        "me",
+        "I"
+      ],
+      "answer": 0,
+      "explain": "Của tôi → my, đứng trước danh từ parents."
+    },
+    {
+      "type": "choice",
+      "prompt": "Anna is a nurse. ___ husband is a doctor.",
+      "options": [
+        "His",
+        "Her"
+      ],
+      "answer": 1,
+      "explain": "Người sở hữu là Anna (nữ) → her."
+    },
+    {
+      "type": "choice",
+      "prompt": "Tom often calls ___ grandmother.",
+      "options": [
+        "his",
+        "her"
+      ],
+      "answer": 0,
+      "explain": "Người sở hữu là Tom (nam) → his, dù bà là nữ."
+    },
+    {
+      "type": "choice",
+      "prompt": "We love ___ new house.",
+      "options": [
+        "us",
+        "our",
+        "we"
+      ],
+      "answer": 1,
+      "explain": "Của chúng tôi → our."
+    },
+    {
+      "type": "choice",
+      "prompt": "The children are with ___ teacher.",
+      "options": [
+        "their",
+        "there",
+        "they"
+      ],
+      "answer": 0,
+      "explain": "Của họ (the children) → their. There nghĩa là ở đó."
+    },
+    {
+      "type": "fill",
+      "prompt": "What is ___ name?",
+      "hint": "của bạn",
+      "answers": [
+        "your"
+      ],
+      "explain": "Của bạn → your."
+    },
+    {
+      "type": "fill",
+      "prompt": "This is my brother. ___ name is Minh.",
+      "hint": "của anh ấy",
+      "answers": [
+        "His"
+      ],
+      "explain": "Người sở hữu là my brother (nam) → his."
+    },
+    {
+      "type": "fill",
+      "prompt": "The bird is in ___ nest.",
+      "hint": "của nó",
+      "answers": [
+        "its"
+      ],
+      "explain": "Con vật → its, không có dấu '."
+    },
+    {
+      "type": "choice",
+      "prompt": "“Đây là túi của Lan.”",
+      "options": [
+        "This is Lan's bag.",
+        "This is bag Lan's.",
+        "This is bag of Lan."
+      ],
+      "answer": 0,
+      "explain": "Người sở hữu (Lan) + 's + vật (bag)."
+    },
+    {
+      "type": "order",
+      "vi": "Chồng của chị tôi là kỹ sư.",
+      "words": [
+        "My",
+        "sister's",
+        "husband",
+        "is",
+        "an",
+        "engineer."
+      ],
+      "explain": "My sister + 's đứng trước husband. Nghề nghiệp cần an."
+    },
+    {
+      "type": "order",
+      "vi": "Nhà của họ ở gần biển.",
+      "words": [
+        "Their",
+        "house",
+        "is",
+        "near",
+        "the",
+        "sea."
+      ],
+      "explain": "Của họ → their, đứng trước house."
+    },
+    {
+      "type": "fix",
+      "sentence": "This is the phone of my mother.",
+      "answers": [
+        "This is my mother's phone."
+      ],
+      "explain": "Với người, dùng 's: my mother's phone."
+    },
+    {
+      "type": "fix",
+      "sentence": "She loves his children.",
+      "answers": [
+        "She loves her children."
+      ],
+      "explain": "Người sở hữu là she → her."
+    },
+    {
+      "type": "fix",
+      "sentence": "I like this hotel. It's rooms are big.",
+      "answers": [
+        "I like this hotel. Its rooms are big."
+      ],
+      "explain": "Của nó (khách sạn) → its, không có dấu '."
+    },
+    {
+      "type": "translate",
+      "vi": "Tên của cô ấy là Hoa.",
+      "answers": [
+        "Her name is Hoa."
+      ],
+      "explain": "Của cô ấy → her."
+    },
+    {
+      "type": "translate",
+      "vi": "Đây là xe máy của bố tôi.",
+      "answers": [
+        "This is my father's motorbike.",
+        "This is my dad's motorbike.",
+        "This is my father's motorcycle.",
+        "This is my dad's motorcycle."
+      ],
+      "explain": "My father + 's + motorbike."
+    }
+  ]
+}

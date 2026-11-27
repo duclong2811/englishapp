@@ -312,9 +312,7 @@ function SectionView({ section: s }: { section: GrammarLesson["sections"][number
                   {r.map((c, j) => (
                     <td
                       key={j}
-                      className={`px-4 py-3 align-top ${j === 0 ? "font-medium" : ""} ${
-                        j === 0 && s.table!.head[0] === "Quy tắc" ? "" : "en"
-                      }`}
+                      className={`px-4 py-3 align-top ${j === 0 ? "font-medium" : ""} ${isVietnamese(c) ? "" : "en"}`}
                     >
                       {c}
                     </td>
@@ -354,6 +352,11 @@ function SectionView({ section: s }: { section: GrammarLesson["sections"][number
       {s.check ? <QuickCheck key={s.heading} check={s.check} /> : null}
     </section>
   );
+}
+
+/** Vietnamese cells keep the UI face; English cells use the English study face. */
+function isVietnamese(text: string) {
+  return /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/i.test(text);
 }
 
 function Rule({ text }: { text: string }) {

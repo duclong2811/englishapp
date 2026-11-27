@@ -1,0 +1,360 @@
+{
+  "id": "this-that",
+  "level": "A1",
+  "title": "This, that, these, those",
+  "summary": "Chỉ người và vật ở gần hay ở xa, một hay nhiều: this, that, these, those.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Excuse me, how much is [[this]] bag?",
+      "vi": "Xin lỗi, cái túi này bao nhiêu tiền?"
+    },
+    {
+      "who": "B",
+      "en": "[[This]] one? It's twenty dollars.",
+      "vi": "Cái này à? Hai mươi đô."
+    },
+    {
+      "who": "A",
+      "en": "And [[those]] shoes over there?",
+      "vi": "Còn đôi giày đằng kia?"
+    },
+    {
+      "who": "B",
+      "en": "[[Those]] are forty dollars. [[These]] shoes here are cheaper.",
+      "vi": "Đôi kia bốn mươi đô. Đôi ở đây rẻ hơn."
+    },
+    {
+      "who": "A",
+      "en": "Can I try [[these]]?",
+      "vi": "Tôi thử đôi này được không?"
+    },
+    {
+      "who": "B",
+      "en": "Of course. And [[that]] is the mirror, next to the door.",
+      "vi": "Tất nhiên. Còn kia là cái gương, cạnh cửa."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Gần hay xa",
+      "heading": "This, these: ở gần. That, those: ở xa",
+      "rule": "Ở **gần** người nói → **this** (một), **these** (nhiều). Ở **xa** → **that** (một), **those** (nhiều).",
+      "body": [
+        "Tiếng Việt dùng “này” và “kia” cho cả một lẫn nhiều. Tiếng Anh tách theo **số lượng** nữa: “quyển sách này” là *this book*, “những quyển sách này” là *these books*."
+      ],
+      "table": {
+        "head": [
+          "",
+          "Gần (ở đây)",
+          "Xa (ở kia)"
+        ],
+        "rows": [
+          [
+            "Một (số ít)",
+            "this",
+            "that"
+          ],
+          [
+            "Nhiều (số nhiều)",
+            "these",
+            "those"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[This]] is my phone.",
+          "vi": "Đây là điện thoại của tôi.",
+          "why": "Điện thoại trong tay → gần, một cái → this."
+        },
+        {
+          "en": "[[That]] house is very old.",
+          "vi": "Ngôi nhà kia rất cũ.",
+          "why": "Ngôi nhà ở xa, một cái → that."
+        },
+        {
+          "en": "[[These]] apples are sweet.",
+          "vi": "Những quả táo này ngọt.",
+          "why": "Ở gần, nhiều quả → these, và động từ dùng are."
+        },
+        {
+          "en": "[[Those]] people are my neighbors.",
+          "vi": "Những người kia là hàng xóm của tôi.",
+          "why": "Ở xa, nhiều người → those."
+        }
+      ],
+      "check": {
+        "prompt": "Những chiếc ô tô kia rất đắt: ___ cars are expensive.",
+        "options": [
+          "This",
+          "That",
+          "These",
+          "Those"
+        ],
+        "answer": 3,
+        "explain": "Ở xa (kia) và nhiều (cars) → those."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Đứng trước danh từ hoặc đứng một mình",
+      "rule": "This, that… có thể **đứng trước danh từ** (*this book*) hoặc **đứng một mình** thay cho danh từ (*This is my book*).",
+      "formula": [
+        {
+          "text": "this / that + [danh từ số ít] + is"
+        },
+        {
+          "text": "these / those + [danh từ số nhiều] + are"
+        }
+      ],
+      "body": [
+        "Nhớ hòa hợp với động từ: *this, that* đi với **is**; *these, those* đi với **are**.",
+        "Khi giới thiệu người, dùng *This is…*: *This is my friend, Lan.* Khi nghe điện thoại, nói *This is Nam* = Tôi là Nam đây."
+      ],
+      "examples": [
+        {
+          "en": "[[This]] is my friend, Lan.",
+          "vi": "Đây là Lan, bạn tôi.",
+          "why": "Giới thiệu người đang đứng cạnh mình → This is."
+        },
+        {
+          "en": "Is [[that]] your car?",
+          "vi": "Kia có phải xe của bạn không?",
+          "why": "Một vật ở xa → that; câu hỏi đưa is lên đầu."
+        },
+        {
+          "en": "[[These]] are for you.",
+          "vi": "Những cái này là cho bạn.",
+          "why": "Đứng một mình thay cho danh từ số nhiều → these + are."
+        }
+      ],
+      "check": {
+        "prompt": "___ shoes are new. (đôi giày này)",
+        "options": [
+          "This",
+          "These"
+        ],
+        "answer": 1,
+        "explain": "Shoes là số nhiều, ở gần → these."
+      }
+    },
+    {
+      "part": "Câu hỏi",
+      "heading": "What is this? What are those?",
+      "rule": "Hỏi đồ vật: *What is this/that?* → trả lời *It is…*. *What are these/those?* → trả lời *They are…*.",
+      "body": [
+        "Khi trả lời, người ta thường không lặp lại this, that mà dùng **it** (một) hoặc **they** (nhiều)."
+      ],
+      "examples": [
+        {
+          "en": "What is [[that]]? It's a temple.",
+          "vi": "Kia là cái gì? Đó là một ngôi đền.",
+          "why": "Một vật ở xa → What is that? Trả lời bằng it cho đỡ lặp."
+        },
+        {
+          "en": "What are [[these]]? They're keys.",
+          "vi": "Mấy cái này là gì? Là chìa khóa.",
+          "why": "Nhiều vật ở gần → What are these? Trả lời bằng they."
+        }
+      ],
+      "check": {
+        "prompt": "What are those? ___ are mangoes.",
+        "options": [
+          "It",
+          "They"
+        ],
+        "answer": 1,
+        "explain": "Hỏi về nhiều vật → trả lời bằng they."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "This books are mine.",
+      "right": "These books are mine.",
+      "why": "Books là số nhiều → these."
+    },
+    {
+      "wrong": "Those is my car.",
+      "right": "That is my car.",
+      "why": "Một chiếc xe → that, đi với is."
+    },
+    {
+      "wrong": "These is my friends.",
+      "right": "These are my friends.",
+      "why": "These đi với are."
+    },
+    {
+      "wrong": "This my sister.",
+      "right": "This is my sister.",
+      "why": "Thiếu is: câu tiếng Anh cần động từ."
+    },
+    {
+      "wrong": "What is these?",
+      "right": "What are these?",
+      "why": "These là số nhiều → are."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ is my bag. (cái túi tôi đang cầm)",
+      "options": [
+        "This",
+        "These",
+        "Those"
+      ],
+      "answer": 0,
+      "explain": "Một cái túi, ở gần → this."
+    },
+    {
+      "type": "choice",
+      "prompt": "Look at ___ birds in the sky!",
+      "options": [
+        "this",
+        "that",
+        "those"
+      ],
+      "answer": 2,
+      "explain": "Chim trên trời → xa; nhiều con → those."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ shoes are too small. (đôi tôi đang mang)",
+      "options": [
+        "This",
+        "These",
+        "That"
+      ],
+      "answer": 1,
+      "explain": "Shoes là số nhiều, đang mang → gần → these."
+    },
+    {
+      "type": "choice",
+      "prompt": "Is ___ your house over there?",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "answer": 1,
+      "explain": "Over there = đằng kia → xa; một ngôi nhà → that."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ are my parents.",
+      "hint": "những người này, đứng cạnh tôi",
+      "answers": [
+        "These"
+      ],
+      "explain": "Nhiều người (parents), ở gần → these, đi với are."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ is my friend Mai.",
+      "hint": "giới thiệu người bên cạnh",
+      "answers": [
+        "This"
+      ],
+      "explain": "Giới thiệu một người đang ở cạnh mình → This is."
+    },
+    {
+      "type": "fill",
+      "prompt": "That ___ a good idea.",
+      "hint": "be",
+      "answers": [
+        "is",
+        "'s"
+      ],
+      "explain": "That là số ít → is."
+    },
+    {
+      "type": "fill",
+      "prompt": "Those cakes ___ delicious.",
+      "hint": "be",
+      "answers": [
+        "are"
+      ],
+      "explain": "Those cakes là số nhiều → are."
+    },
+    {
+      "type": "choice",
+      "prompt": "What are these? ___ are pens.",
+      "options": [
+        "It",
+        "They"
+      ],
+      "answer": 1,
+      "explain": "Hỏi về nhiều vật → trả lời bằng they."
+    },
+    {
+      "type": "order",
+      "vi": "Mấy quả xoài kia có ngọt không?",
+      "words": [
+        "Are",
+        "those",
+        "mangoes",
+        "sweet?"
+      ],
+      "explain": "Câu hỏi với be: Are đứng đầu. Xoài ở xa, nhiều quả → those."
+    },
+    {
+      "type": "order",
+      "vi": "Đây là phòng của tôi.",
+      "words": [
+        "This",
+        "is",
+        "my",
+        "room."
+      ],
+      "explain": "Một căn phòng ở đây → this + is."
+    },
+    {
+      "type": "fix",
+      "sentence": "This shoes are new.",
+      "answers": [
+        "These shoes are new."
+      ],
+      "explain": "Shoes là số nhiều → these."
+    },
+    {
+      "type": "fix",
+      "sentence": "Those is my phone.",
+      "answers": [
+        "That is my phone.",
+        "That's my phone."
+      ],
+      "explain": "Một chiếc điện thoại ở xa → that + is."
+    },
+    {
+      "type": "translate",
+      "vi": "Những bông hoa này đẹp quá.",
+      "answers": [
+        "These flowers are beautiful.",
+        "These flowers are very beautiful.",
+        "These flowers are so beautiful."
+      ],
+      "explain": "Nhiều bông hoa, ở gần → these + are."
+    },
+    {
+      "type": "translate",
+      "vi": "Người đàn ông kia là ai?",
+      "answers": [
+        "Who is that man?",
+        "Who's that man?"
+      ],
+      "explain": "Một người ở xa → that man."
+    },
+    {
+      "type": "translate",
+      "vi": "Đây là Nam, bạn tôi.",
+      "answers": [
+        "This is my friend Nam.",
+        "This is Nam, my friend.",
+        "This is my friend, Nam."
+      ],
+      "explain": "Giới thiệu người → This is."
+    }
+  ]
+}

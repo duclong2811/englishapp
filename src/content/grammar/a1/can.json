@@ -1,0 +1,330 @@
+{
+  "id": "can",
+  "level": "A1",
+  "title": "Can và can't",
+  "summary": "Nói khả năng (biết làm gì), xin phép và nhờ vả với can, can't.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Can]] you swim?",
+      "vi": "Bạn có biết bơi không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, I [[can]]. I [[can]] swim very well.",
+      "vi": "Có. Mình bơi giỏi lắm."
+    },
+    {
+      "who": "A",
+      "en": "Great! [[Can]] you teach my son? He [[can't]] swim yet.",
+      "vi": "Tuyệt! Bạn dạy con trai mình được không? Cháu chưa biết bơi."
+    },
+    {
+      "who": "B",
+      "en": "Sure. [[Can]] he come on Saturday morning?",
+      "vi": "Được chứ. Sáng thứ Bảy cháu đến được không?"
+    },
+    {
+      "who": "A",
+      "en": "No, he [[can't]]. He has a class. But he [[can]] come on Sunday.",
+      "vi": "Không được. Cháu có lớp học. Nhưng Chủ nhật thì cháu đến được."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Khả năng",
+      "heading": "Can: có thể, biết làm",
+      "rule": "**can + động từ nguyên mẫu**, giống nhau với **mọi** chủ ngữ. Phủ định: **can't** (cannot).",
+      "formula": [
+        {
+          "text": "Chủ ngữ + [can] + V"
+        },
+        {
+          "text": "Chủ ngữ + [can't] + V"
+        }
+      ],
+      "body": [
+        "Điểm dễ: *can* không bao giờ thêm -s, và động từ sau nó luôn ở nguyên mẫu, không có *to*. Nói *She can swim*, không nói “She cans swims”.",
+        "Tiếng Việt “biết bơi”, “đọc được”, “có thể đến” đều dịch bằng *can*."
+      ],
+      "examples": [
+        {
+          "en": "I [[can]] speak a little English.",
+          "vi": "Tôi nói được một chút tiếng Anh.",
+          "why": "Khả năng → can + speak."
+        },
+        {
+          "en": "My grandmother [[can't]] read small letters.",
+          "vi": "Bà tôi không đọc được chữ nhỏ.",
+          "why": "Không có khả năng → can't + read."
+        },
+        {
+          "en": "She [[can]] play the piano.",
+          "vi": "Cô ấy biết chơi piano.",
+          "why": "She → vẫn là can; play giữ nguyên."
+        }
+      ],
+      "check": {
+        "prompt": "He ___ drive a car.",
+        "options": [
+          "can",
+          "cans",
+          "can to"
+        ],
+        "answer": 0,
+        "explain": "Can giống nhau với mọi chủ ngữ và không có to."
+      }
+    },
+    {
+      "part": "Câu hỏi",
+      "heading": "Câu hỏi: Can you…?",
+      "rule": "Câu hỏi: **Can** + chủ ngữ + động từ nguyên mẫu? Trả lời: *Yes, I can. / No, I can't.*",
+      "formula": [
+        {
+          "text": "[Can] + chủ ngữ + V…?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Can]] you cook? Yes, I [[can]].",
+          "vi": "Bạn biết nấu ăn không? Có.",
+          "why": "Hỏi khả năng; trả lời ngắn Yes, I can."
+        },
+        {
+          "en": "[[Can]] your son ride a bike?",
+          "vi": "Con trai bạn biết đi xe đạp chưa?",
+          "why": "Can + your son + ride."
+        }
+      ],
+      "check": {
+        "prompt": "Câu hỏi nào đúng?",
+        "options": [
+          "Can you help me?",
+          "Do you can help me?",
+          "You can help me?"
+        ],
+        "answer": 0,
+        "explain": "Can tự đứng đầu câu hỏi, không cần do."
+      }
+    },
+    {
+      "part": "Xin phép, nhờ",
+      "heading": "Xin phép và nhờ vả",
+      "rule": "**Can I…?** = xin phép. **Can you…?** = nhờ ai làm gì. Thêm *please* cho lịch sự.",
+      "body": [
+        "Ở cửa hàng, nhà hàng, đây là mẫu câu dùng nhiều nhất: *Can I have…, please?* = Cho tôi…"
+      ],
+      "examples": [
+        {
+          "en": "[[Can I]] open the window?",
+          "vi": "Tôi mở cửa sổ được không?",
+          "why": "Xin phép → Can I…?"
+        },
+        {
+          "en": "[[Can you]] help me, please?",
+          "vi": "Bạn giúp tôi được không?",
+          "why": "Nhờ người khác → Can you…?"
+        },
+        {
+          "en": "[[Can I]] have the bill, please?",
+          "vi": "Cho tôi xin hóa đơn.",
+          "why": "Gọi tính tiền trong nhà hàng."
+        }
+      ],
+      "check": {
+        "prompt": "Ở quán cà phê, gọi một ly trà sữa:",
+        "options": [
+          "Can I have a milk tea, please?",
+          "Can you have a milk tea?"
+        ],
+        "answer": 0,
+        "explain": "Xin cho mình → Can I have…?"
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She cans swim.",
+      "right": "She can swim.",
+      "why": "Can không thêm -s."
+    },
+    {
+      "wrong": "I can to speak English.",
+      "right": "I can speak English.",
+      "why": "Sau can không có to."
+    },
+    {
+      "wrong": "He can plays guitar.",
+      "right": "He can play guitar.",
+      "why": "Sau can, động từ về nguyên mẫu."
+    },
+    {
+      "wrong": "Do you can help me?",
+      "right": "Can you help me?",
+      "why": "Can tự đứng đầu câu hỏi, không cần do."
+    },
+    {
+      "wrong": "I don't can come.",
+      "right": "I can't come.",
+      "why": "Phủ định: can't, không dùng don't."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "My brother ___ speak Japanese.",
+      "options": [
+        "can",
+        "cans"
+      ],
+      "answer": 0,
+      "explain": "Can giống nhau với mọi chủ ngữ."
+    },
+    {
+      "type": "choice",
+      "prompt": "She can ___ very fast.",
+      "options": [
+        "run",
+        "runs"
+      ],
+      "answer": 0,
+      "explain": "Sau can → động từ nguyên mẫu."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you drive?",
+      "options": [
+        "Do",
+        "Can",
+        "Are"
+      ],
+      "answer": 1,
+      "explain": "Hỏi khả năng → Can you…?"
+    },
+    {
+      "type": "choice",
+      "prompt": "Nhờ người ta mở cửa:",
+      "options": [
+        "Can you open the door, please?",
+        "Can I open the door, please?"
+      ],
+      "answer": 0,
+      "explain": "Nhờ người khác làm → Can you…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ swim. I'm afraid of water.",
+      "hint": "phủ định",
+      "answers": [
+        "can't",
+        "cannot"
+      ],
+      "explain": "Không biết bơi → can't."
+    },
+    {
+      "type": "fill",
+      "prompt": "Can your kids ride a bike? Yes, they ___.",
+      "hint": "trả lời ngắn",
+      "answers": [
+        "can"
+      ],
+      "explain": "Trả lời ngắn: Yes, they can."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ I sit here?",
+      "hint": "xin phép",
+      "answers": [
+        "Can"
+      ],
+      "explain": "Xin phép → Can I…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "My grandfather ___ hear well.",
+      "hint": "phủ định",
+      "answers": [
+        "can't",
+        "cannot"
+      ],
+      "explain": "Không nghe rõ → can't + hear."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn có biết nấu phở không?",
+      "words": [
+        "Can",
+        "you",
+        "cook",
+        "pho?"
+      ],
+      "explain": "Can đứng đầu câu hỏi, cook nguyên mẫu."
+    },
+    {
+      "type": "order",
+      "vi": "Cho tôi một cốc nước nhé.",
+      "words": [
+        "Can",
+        "I",
+        "have",
+        "a",
+        "glass",
+        "of",
+        "water,",
+        "please?"
+      ],
+      "explain": "Xin cho mình → Can I have…, please?"
+    },
+    {
+      "type": "fix",
+      "sentence": "He can speaks English.",
+      "answers": [
+        "He can speak English."
+      ],
+      "explain": "Sau can, bỏ -s: speak."
+    },
+    {
+      "type": "fix",
+      "sentence": "Do you can play the guitar?",
+      "answers": [
+        "Can you play the guitar?"
+      ],
+      "explain": "Bỏ do: Can tự đứng đầu câu hỏi."
+    },
+    {
+      "type": "fix",
+      "sentence": "I can to help you.",
+      "answers": [
+        "I can help you."
+      ],
+      "explain": "Sau can không có to."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi không biết bơi.",
+      "answers": [
+        "I can't swim.",
+        "I cannot swim."
+      ],
+      "explain": "Không có khả năng → can't + swim."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn giúp tôi được không?",
+      "answers": [
+        "Can you help me?",
+        "Can you help me, please?"
+      ],
+      "explain": "Nhờ người khác → Can you…?"
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy nói được ba thứ tiếng.",
+      "answers": [
+        "She can speak three languages."
+      ],
+      "explain": "She → vẫn là can; speak nguyên mẫu."
+    }
+  ]
+}
