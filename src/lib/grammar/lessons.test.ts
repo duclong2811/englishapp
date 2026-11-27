@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { A1_SYLLABUS } from "@/content/grammar/syllabus";
+import { GRAMMAR_LEVELS } from "@/content/grammar/syllabus";
 import { closest, isRight } from "./check";
 import { getGrammarLessons } from "./lessons";
 
@@ -23,12 +23,12 @@ describe("answer checking", () => {
 
 describe("grammar lessons", () => {
   const lessons = getGrammarLessons();
-  const syllabus = new Set(A1_SYLLABUS.map((s) => s.id));
+  const syllabus = new Map(Object.entries(GRAMMAR_LEVELS).flatMap(([level, { syllabus }]) => syllabus.map((s) => [s.id, level] as const)));
 
   it("are all in the syllabus, once", () => {
     const ids = lessons.map((l) => l.id);
     expect(new Set(ids).size).toBe(ids.length);
-    for (const id of ids) expect(syllabus.has(id), id).toBe(true);
+    for (const l of lessons) expect(syllabus.get(l.id), l.id).toBe(l.level);
   });
 
   it.each(lessons.map((l) => [l.id, l] as const))("%s has well-formed exercises", (_, l) => {
@@ -76,5 +76,39 @@ describe("lesson screens", () => {
     for (const l of getGrammarLessons())
       for (const s of l.sections)
         if (s.check) expect(s.check.answer, `${l.id}: ${s.heading}`).toBeLessThan(s.check.options.length);
+  });
+});
+
+describe("A2 lesson quality", () => {
+  const words = (s: string) => s.replace(/\[\[|\]\]/g, "").split(/\s+/).filter(Boolean).length;
+  const a2 = getGrammarLessons().filter((l) => l.level === "A2");
+
+  it.each(a2.map((l) => [l.id, l] as const))("%s follows the A2 brief", (_, l) => {
+    expect(l.summary.length, "summary").toBeGreaterThanOrEqual(40);
+    expect(l.summary.length, "summary").toBeLessThanOrEqual(160);
+    expect(l.dialogue.length, "dialogue").toBeGreaterThanOrEqual(6);
+    expect(l.dialogue.length, "dialogue").toBeLessThanOrEqual(8);
+    const parts = new Set(l.sections.map((s) => s.part));
+    expect(parts.size, "parts").toBeGreaterThanOrEqual(3);
+    expect(parts.size, "parts").toBeLessThanOrEqual(5);
+    for (const part of parts) expect(l.sections.some((s) => s.part === part && s.check), `check in ${part}`).toBe(true);
+    for (const s of l.sections) {
+      expect(s.rule, `rule: ${s.heading}`).toBeTruthy();
+      expect(s.examples.length, `examples: ${s.heading}`).toBeGreaterThanOrEqual(2);
+      for (const e of s.examples) {
+        expect(e.why, `why: ${e.en}`).toBeTruthy();
+        expect(words(e.en), e.en).toBeGreaterThanOrEqual(3);
+        expect(words(e.en), e.en).toBeLessThanOrEqual(16);
+      }
+    }
+    for (const d of l.dialogue) expect(words(d.en), d.en).toBeLessThanOrEqual(16);
+    expect(l.mistakes.length, "mistakes").toBeGreaterThanOrEqual(5);
+    expect(l.exercises.length, "exercises").toBeGreaterThanOrEqual(15);
+    const count = (t: string) => l.exercises.filter((e) => e.type === t).length;
+    expect(count("choice"), "choice").toBeGreaterThanOrEqual(4);
+    expect(count("fill"), "fill").toBeGreaterThanOrEqual(4);
+    expect(count("order"), "order").toBeGreaterThanOrEqual(2);
+    expect(count("fix"), "fix").toBeGreaterThanOrEqual(3);
+    expect(count("translate"), "translate").toBeGreaterThanOrEqual(2);
   });
 });

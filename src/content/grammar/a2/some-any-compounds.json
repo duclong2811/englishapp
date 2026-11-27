@@ -1,0 +1,388 @@
+{
+  "id": "some-any-compounds",
+  "level": "A2",
+  "title": "Something, anyone, nobody, everywhere…",
+  "summary": "Dùng something, anything, nothing, everything và các từ ghép với -one, -body, -where trong câu khẳng định, phủ định, câu hỏi.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Is [[anybody]] home?",
+      "vi": "Có ai ở nhà không?"
+    },
+    {
+      "who": "B",
+      "en": "I'm in the kitchen. Do you want [[something]] to eat?",
+      "vi": "Mình ở trong bếp. Bạn muốn ăn gì không?"
+    },
+    {
+      "who": "A",
+      "en": "No thanks. Have you seen my keys [[anywhere]]?",
+      "vi": "Thôi. Bạn có thấy chìa khóa của mình ở đâu không?"
+    },
+    {
+      "who": "B",
+      "en": "No. I looked [[everywhere]] this morning.",
+      "vi": "Không. Sáng nay mình tìm khắp nơi rồi."
+    },
+    {
+      "who": "A",
+      "en": "Oh no. [[Nobody]] has seen them!",
+      "vi": "Thôi rồi. Không ai thấy cả!"
+    },
+    {
+      "who": "B",
+      "en": "Wait, there's [[something]] in your bag.",
+      "vi": "Khoan, có cái gì trong túi bạn kìa."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Bảng từ",
+      "heading": "Some-, any-, no-, every- + thing, one / body, where",
+      "rule": "Ghép **some / any / no / every** với **-thing** (vật), **-one / -body** (người), **-where** (nơi chốn).",
+      "body": [
+        "**-one** và **-body** cùng nghĩa (someone = somebody). Lưu ý **no one** viết tách hai chữ."
+      ],
+      "table": {
+        "head": [
+          "",
+          "vật",
+          "người",
+          "nơi chốn"
+        ],
+        "rows": [
+          [
+            "some-",
+            "something",
+            "someone, somebody",
+            "somewhere"
+          ],
+          [
+            "any-",
+            "anything",
+            "anyone, anybody",
+            "anywhere"
+          ],
+          [
+            "no-",
+            "nothing",
+            "no one, nobody",
+            "nowhere"
+          ],
+          [
+            "every-",
+            "everything",
+            "everyone, everybody",
+            "everywhere"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[Someone]] is at the door.",
+          "vi": "Có ai đó ở cửa.",
+          "why": "Người, khẳng định → someone."
+        },
+        {
+          "en": "I want to go [[somewhere]] quiet.",
+          "vi": "Tôi muốn đi đâu đó yên tĩnh.",
+          "why": "Nơi chốn → somewhere."
+        },
+        {
+          "en": "[[Everyone]] loved the food.",
+          "vi": "Mọi người đều thích món ăn.",
+          "why": "Every- = tất cả."
+        }
+      ],
+      "check": {
+        "prompt": "I left my phone ___ in this room.",
+        "options": [
+          "somewhere",
+          "something"
+        ],
+        "answer": 0,
+        "explain": "Nơi chốn → somewhere."
+      }
+    },
+    {
+      "part": "Some hay any",
+      "heading": "Some- trong câu khẳng định, any- trong phủ định và câu hỏi",
+      "rule": "**some-** → câu **khẳng định**. **any-** → câu **phủ định** và **câu hỏi**.",
+      "body": [
+        "Giống some / any ở A1. Ngoại lệ: lời **mời, đề nghị** dùng some- dù là câu hỏi: *Would you like something to drink?*"
+      ],
+      "examples": [
+        {
+          "en": "I bought [[something]] for you.",
+          "vi": "Tôi mua cho bạn một thứ.",
+          "why": "Câu khẳng định → something."
+        },
+        {
+          "en": "I didn't see [[anyone]].",
+          "vi": "Tôi không thấy ai cả.",
+          "why": "Phủ định → anyone."
+        },
+        {
+          "en": "Did you go [[anywhere]] last weekend?",
+          "vi": "Cuối tuần trước bạn có đi đâu không?",
+          "why": "Câu hỏi → anywhere."
+        }
+      ],
+      "check": {
+        "prompt": "Is there ___ in the fridge?",
+        "options": [
+          "anything",
+          "something"
+        ],
+        "answer": 0,
+        "explain": "Câu hỏi bình thường → anything."
+      }
+    },
+    {
+      "part": "No-",
+      "heading": "Nothing, nobody, nowhere: không dùng thêm not",
+      "rule": "**no-** đã mang nghĩa phủ định → động từ ở dạng **khẳng định**. **nothing = not… anything**.",
+      "body": [
+        "Tiếng Việt nói *Tôi không thấy gì cả* (có *không* và *gì*). Tiếng Anh chỉ dùng **một** từ phủ định: *I saw nothing* hoặc *I didn't see anything*, không nói *I didn't see nothing*."
+      ],
+      "examples": [
+        {
+          "en": "There's [[nothing]] in the box.",
+          "vi": "Trong hộp không có gì.",
+          "why": "Nothing + động từ khẳng định (is)."
+        },
+        {
+          "en": "[[Nobody]] knows the answer.",
+          "vi": "Không ai biết câu trả lời.",
+          "why": "Nobody = số ít → knows."
+        },
+        {
+          "en": "I didn't eat [[anything]]. I ate [[nothing]].",
+          "vi": "Tôi không ăn gì.",
+          "why": "Hai cách cùng nghĩa: not… anything = nothing."
+        }
+      ],
+      "check": {
+        "prompt": "I didn't buy ___.",
+        "options": [
+          "anything",
+          "nothing"
+        ],
+        "answer": 0,
+        "explain": "Đã có didn't → anything."
+      }
+    },
+    {
+      "part": "Chia động từ",
+      "heading": "Everyone, nobody + động từ số ít",
+      "rule": "**everyone, everything, nobody, someone…** đi với động từ **số ít** (is, has, V-s).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Everyone]] is here.",
+          "vi": "Mọi người có mặt đủ rồi.",
+          "why": "Everyone → is (số ít)."
+        },
+        {
+          "en": "[[Everything]] looks great.",
+          "vi": "Mọi thứ trông tuyệt quá.",
+          "why": "Everything → looks."
+        }
+      ],
+      "check": {
+        "prompt": "Everybody ___ this song.",
+        "options": [
+          "knows",
+          "know"
+        ],
+        "answer": 0,
+        "explain": "Everybody → động từ số ít: knows."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I didn't see nobody.",
+      "right": "I didn't see anybody.",
+      "why": "Chỉ dùng một từ phủ định: didn't + anybody."
+    },
+    {
+      "wrong": "Everyone are happy.",
+      "right": "Everyone is happy.",
+      "why": "Everyone → động từ số ít."
+    },
+    {
+      "wrong": "Nobody don't like him.",
+      "right": "Nobody likes him.",
+      "why": "Nobody đã mang nghĩa phủ định → động từ khẳng định."
+    },
+    {
+      "wrong": "I have nothing to do nothing.",
+      "right": "I have nothing to do.",
+      "why": "Chỉ một từ phủ định."
+    },
+    {
+      "wrong": "Somebody have taken my pen.",
+      "right": "Somebody has taken my pen.",
+      "why": "Somebody → động từ số ít: has."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "There's ___ at the door. Can you open it?",
+      "options": [
+        "someone",
+        "anyone",
+        "no one"
+      ],
+      "answer": 0,
+      "explain": "Câu khẳng định → someone."
+    },
+    {
+      "type": "choice",
+      "prompt": "I can't find my glasses ___.",
+      "options": [
+        "anywhere",
+        "somewhere",
+        "nowhere"
+      ],
+      "answer": 0,
+      "explain": "Phủ định → anywhere."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ knows where Nam is.",
+      "options": [
+        "Nobody",
+        "Anybody",
+        "Nobody don't"
+      ],
+      "answer": 0,
+      "explain": "Không ai biết → Nobody + knows."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I didn't say anything.",
+        "I didn't say nothing."
+      ],
+      "answer": 0,
+      "explain": "Chỉ một từ phủ định."
+    },
+    {
+      "type": "fill",
+      "prompt": "Would you like ___ to eat?",
+      "hint": "some- / any-",
+      "answers": [
+        "something"
+      ],
+      "explain": "Lời mời → something."
+    },
+    {
+      "type": "fill",
+      "prompt": "Is there ___ I can help you with?",
+      "hint": "any- / some-",
+      "answers": [
+        "anything"
+      ],
+      "explain": "Câu hỏi bình thường → anything."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ in my family likes durian.",
+      "hint": "mọi người",
+      "answers": [
+        "Everyone",
+        "Everybody"
+      ],
+      "explain": "Every- = tất cả."
+    },
+    {
+      "type": "fill",
+      "prompt": "There's ___ in the fridge. It's empty!",
+      "hint": "không có gì",
+      "answers": [
+        "nothing"
+      ],
+      "explain": "Trống rỗng → nothing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Let's go ___ different this weekend.",
+      "hint": "đâu đó",
+      "answers": [
+        "somewhere"
+      ],
+      "explain": "Nơi chốn, khẳng định → somewhere."
+    },
+    {
+      "type": "order",
+      "vi": "Không ai gọi cho tôi cả.",
+      "words": [
+        "Nobody",
+        "called",
+        "me."
+      ],
+      "explain": "Nobody + động từ khẳng định."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn có thấy ai ở đó không?",
+      "words": [
+        "Did",
+        "you",
+        "see",
+        "anyone",
+        "there?"
+      ],
+      "explain": "Câu hỏi → anyone."
+    },
+    {
+      "type": "fix",
+      "sentence": "I don't know nobody here.",
+      "answers": [
+        "I don't know anybody here."
+      ],
+      "explain": "Một từ phủ định."
+    },
+    {
+      "type": "fix",
+      "sentence": "Everybody have a phone now.",
+      "answers": [
+        "Everybody has a phone now."
+      ],
+      "explain": "Everybody → has."
+    },
+    {
+      "type": "fix",
+      "sentence": "I can't find my keys nowhere.",
+      "answers": [
+        "I can't find my keys anywhere."
+      ],
+      "explain": "Đã có can't → anywhere."
+    },
+    {
+      "type": "translate",
+      "vi": "Mọi người đều mệt.",
+      "answers": [
+        "Everyone is tired.",
+        "Everybody is tired.",
+        "Everyone's tired.",
+        "Everybody's tired."
+      ],
+      "explain": "Everyone + is."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi không biết gì cả.",
+      "answers": [
+        "I don't know anything.",
+        "I know nothing.",
+        "I do not know anything."
+      ],
+      "explain": "Một từ phủ định."
+    }
+  ]
+}

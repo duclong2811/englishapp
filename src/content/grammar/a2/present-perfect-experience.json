@@ -1,0 +1,418 @@
+{
+  "id": "present-perfect-experience",
+  "level": "A2",
+  "title": "Hiện tại hoàn thành: ever, never",
+  "summary": "Kể trải nghiệm trong đời (đã từng, chưa từng) với have, has + V3, ever, never và been to.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Have]] you ever [[been]] to Japan?",
+      "vi": "Bạn đã bao giờ đến Nhật chưa?"
+    },
+    {
+      "who": "B",
+      "en": "No, I [[haven't]]. But [[I've been]] to Korea twice.",
+      "vi": "Chưa. Nhưng mình đến Hàn Quốc hai lần rồi."
+    },
+    {
+      "who": "A",
+      "en": "[[Have]] you [[tried]] Korean barbecue?",
+      "vi": "Bạn ăn thử thịt nướng Hàn chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Of course! It's the best food [[I've]] ever [[eaten]].",
+      "vi": "Tất nhiên! Món ngon nhất mình từng ăn đấy."
+    },
+    {
+      "who": "A",
+      "en": "My sister [[has]] never [[flown]] on a plane.",
+      "vi": "Em gái mình chưa bao giờ đi máy bay."
+    },
+    {
+      "who": "B",
+      "en": "Really? She should try it!",
+      "vi": "Thật à? Em ấy nên thử đi!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Have, has + V3",
+      "rule": "Hiện tại hoàn thành = **have / has + V3** (quá khứ phân từ). He, she, it → **has**; còn lại → **have**.",
+      "formula": [
+        {
+          "text": "I / You / We / They + [have] + V3"
+        },
+        {
+          "text": "He / She / It + [has] + V3"
+        }
+      ],
+      "body": [
+        "V3 của động từ có quy tắc giống quá khứ đơn: *work → worked*. Động từ bất quy tắc có dạng riêng, là cột thứ ba trong bảng: *go – went – gone*, *eat – ate – eaten*.",
+        "Khi nói thường rút gọn: *I've, you've, she's, he's*. Cẩn thận: *she's* có thể là *she is* hoặc *she has*."
+      ],
+      "table": {
+        "head": [
+          "Nguyên mẫu",
+          "Quá khứ (V2)",
+          "Quá khứ phân từ (V3)"
+        ],
+        "rows": [
+          [
+            "be",
+            "was / were",
+            "been"
+          ],
+          [
+            "eat",
+            "ate",
+            "eaten"
+          ],
+          [
+            "see",
+            "saw",
+            "seen"
+          ],
+          [
+            "do",
+            "did",
+            "done"
+          ],
+          [
+            "fly",
+            "flew",
+            "flown"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[have visited]] Hue.",
+          "vi": "Tôi đã đến Huế.",
+          "why": "I → have + V3 (visited)."
+        },
+        {
+          "en": "She [[has seen]] this film.",
+          "vi": "Cô ấy đã xem phim này rồi.",
+          "why": "She → has + seen (V3 của see)."
+        },
+        {
+          "en": "[[We've eaten]] here before.",
+          "vi": "Chúng tôi từng ăn ở đây rồi.",
+          "why": "We've = we have; eaten là V3 của eat."
+        }
+      ],
+      "check": {
+        "prompt": "My father ___ worked in three countries.",
+        "options": [
+          "has",
+          "have"
+        ],
+        "answer": 0,
+        "explain": "My father = he → has."
+      }
+    },
+    {
+      "part": "Trải nghiệm",
+      "heading": "Kể trải nghiệm: không nói khi nào",
+      "rule": "Nói **đã từng** làm gì trong đời, **không nêu thời điểm** → hiện tại hoàn thành.",
+      "body": [
+        "Điều quan trọng là *có* trải nghiệm đó hay không, không phải *khi nào*. Vì vậy câu không có *yesterday, last year, in 2020*.",
+        "Có thể thêm số lần: *once* (một lần), *twice* (hai lần), *three times*, *many times*."
+      ],
+      "examples": [
+        {
+          "en": "[[I've met]] a famous singer.",
+          "vi": "Tôi từng gặp một ca sĩ nổi tiếng.",
+          "why": "Trải nghiệm trong đời, không nói khi nào."
+        },
+        {
+          "en": "He [[has been]] to Phu Quoc three times.",
+          "vi": "Anh ấy đã đi Phú Quốc ba lần.",
+          "why": "Kể số lần trải nghiệm, không có thời điểm."
+        },
+        {
+          "en": "They [[have lived]] in many different cities.",
+          "vi": "Họ đã sống ở nhiều thành phố khác nhau.",
+          "why": "Tổng kết trải nghiệm đến nay."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ to Singapore twice.",
+        "options": [
+          "have been",
+          "went"
+        ],
+        "answer": 0,
+        "explain": "Kể số lần trải nghiệm, không nói khi nào → have been."
+      }
+    },
+    {
+      "part": "Ever, never",
+      "heading": "Ever trong câu hỏi, never trong câu trả lời",
+      "rule": "**ever** = đã bao giờ (dùng trong câu hỏi). **never** = chưa bao giờ (câu khẳng định mang nghĩa phủ định).",
+      "formula": [
+        {
+          "text": "[Have / Has] + S + [ever] + V3…?"
+        },
+        {
+          "text": "S + [have / has] + [never] + V3"
+        }
+      ],
+      "body": [
+        "Ever và never đứng **giữa** have/has và V3. Never đã mang nghĩa phủ định, nên không dùng thêm *not*.",
+        "Câu trả lời ngắn: *Yes, I have. / No, I haven't.*"
+      ],
+      "examples": [
+        {
+          "en": "[[Have]] you [[ever]] eaten durian?",
+          "vi": "Bạn đã bao giờ ăn sầu riêng chưa?",
+          "why": "Câu hỏi trải nghiệm: Have + you + ever + V3."
+        },
+        {
+          "en": "[[I've never]] seen snow.",
+          "vi": "Tôi chưa bao giờ thấy tuyết.",
+          "why": "Never đứng giữa have và V3; không thêm not."
+        },
+        {
+          "en": "[[Has]] she [[ever]] worked abroad? No, she [[hasn't]].",
+          "vi": "Cô ấy đã bao giờ làm việc ở nước ngoài chưa? Chưa.",
+          "why": "Trả lời ngắn: No, she hasn't."
+        }
+      ],
+      "check": {
+        "prompt": "I have ___ been to Paris.",
+        "options": [
+          "never",
+          "not never"
+        ],
+        "answer": 0,
+        "explain": "Never đã mang nghĩa phủ định → không thêm not."
+      }
+    },
+    {
+      "part": "Been hay gone",
+      "heading": "Been to hay gone to?",
+      "rule": "**has been to** = đã đến và **đã về**. **has gone to** = đã đi và **vẫn đang ở đó**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Lan [[has been]] to Da Lat. She loved it.",
+          "vi": "Lan đã từng đi Đà Lạt. Cô ấy rất thích.",
+          "why": "Đi rồi về → been to."
+        },
+        {
+          "en": "Lan isn't here. She [[has gone]] to Da Lat.",
+          "vi": "Lan không có ở đây. Cô ấy đi Đà Lạt rồi.",
+          "why": "Đi và chưa về → gone to."
+        }
+      ],
+      "check": {
+        "prompt": "Where's Minh? He ___ to the bank.",
+        "options": [
+          "has gone",
+          "has been"
+        ],
+        "answer": 0,
+        "explain": "Minh không có ở đây, đang ở ngân hàng → has gone."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I have went to Hanoi.",
+      "right": "I have been to Hanoi.",
+      "why": "Sau have dùng V3 (been / gone), không dùng V2 (went)."
+    },
+    {
+      "wrong": "Have you ever saw a ghost?",
+      "right": "Have you ever seen a ghost?",
+      "why": "Sau have dùng V3: seen."
+    },
+    {
+      "wrong": "I haven't never been to Japan.",
+      "right": "I have never been to Japan.",
+      "why": "Never đã mang nghĩa phủ định → không dùng thêm not."
+    },
+    {
+      "wrong": "She have tried pho.",
+      "right": "She has tried pho.",
+      "why": "She → has."
+    },
+    {
+      "wrong": "I have visited Hue last year.",
+      "right": "I visited Hue last year.",
+      "why": "Có thời điểm cụ thể (last year) → quá khứ đơn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ you ever ridden a horse?",
+      "options": [
+        "Have",
+        "Did",
+        "Has"
+      ],
+      "answer": 0,
+      "explain": "Câu hỏi trải nghiệm với ever, chủ ngữ you → Have."
+    },
+    {
+      "type": "choice",
+      "prompt": "My brother has ___ sushi.",
+      "options": [
+        "never eaten",
+        "never ate",
+        "not never eaten"
+      ],
+      "answer": 0,
+      "explain": "Has + never + V3 (eaten)."
+    },
+    {
+      "type": "choice",
+      "prompt": "I've ___ to Thailand twice.",
+      "options": [
+        "been",
+        "gone",
+        "went"
+      ],
+      "answer": 0,
+      "explain": "Kể trải nghiệm đi rồi về → been."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "She has seen that film.",
+        "She has saw that film.",
+        "She have seen that film."
+      ],
+      "answer": 0,
+      "explain": "She → has + V3 (seen)."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ a marathon.",
+      "hint": "never run",
+      "answers": [
+        "have never run",
+        "'ve never run"
+      ],
+      "explain": "Have + never + V3 (run)."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ your parents ever visited Nha Trang?",
+      "hint": "trợ động từ",
+      "answers": [
+        "Have"
+      ],
+      "explain": "Your parents là số nhiều → Have."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ many books about history.",
+      "hint": "write",
+      "answers": [
+        "has written"
+      ],
+      "explain": "She → has + written (V3 của write)."
+    },
+    {
+      "type": "fill",
+      "prompt": "Have you ever met a famous person? No, I ___.",
+      "hint": "trả lời ngắn",
+      "answers": [
+        "haven't",
+        "have not"
+      ],
+      "explain": "Trả lời ngắn phủ định: No, I haven't."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ in this restaurant before.",
+      "hint": "eat",
+      "answers": [
+        "have eaten",
+        "'ve eaten"
+      ],
+      "explain": "Trải nghiệm, không nói khi nào → have eaten."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn đã bao giờ đi Sa Pa chưa?",
+      "words": [
+        "Have",
+        "you",
+        "ever",
+        "been",
+        "to",
+        "Sa",
+        "Pa?"
+      ],
+      "explain": "Have + you + ever + been."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi chưa bao giờ thấy tuyết.",
+      "words": [
+        "I",
+        "have",
+        "never",
+        "seen",
+        "snow."
+      ],
+      "explain": "Have + never + seen."
+    },
+    {
+      "type": "fix",
+      "sentence": "I have saw that film.",
+      "answers": [
+        "I have seen that film."
+      ],
+      "explain": "Sau have dùng V3: seen."
+    },
+    {
+      "type": "fix",
+      "sentence": "Has you ever been to Korea?",
+      "answers": [
+        "Have you ever been to Korea?"
+      ],
+      "explain": "You → Have."
+    },
+    {
+      "type": "fix",
+      "sentence": "He hasn't never driven a car.",
+      "answers": [
+        "He has never driven a car."
+      ],
+      "explain": "Never đã mang nghĩa phủ định → bỏ not."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn đã bao giờ ăn phở chưa?",
+      "answers": [
+        "Have you ever eaten pho?",
+        "Have you ever tried pho?",
+        "Have you ever had pho?"
+      ],
+      "explain": "Câu hỏi trải nghiệm: Have you ever + V3?"
+    },
+    {
+      "type": "translate",
+      "vi": "Mẹ tôi chưa bao giờ đi máy bay.",
+      "answers": [
+        "My mother has never flown.",
+        "My mother has never been on a plane.",
+        "My mom has never flown.",
+        "My mom has never been on a plane.",
+        "My mother has never traveled by plane.",
+        "My mom has never traveled by plane.",
+        "My mother has never flown on a plane.",
+        "My mom has never flown on a plane."
+      ],
+      "explain": "Has + never + V3."
+    }
+  ]
+}

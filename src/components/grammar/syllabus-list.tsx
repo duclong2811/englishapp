@@ -5,17 +5,20 @@ import { useSyncExternalStore } from "react";
 import { Illustration } from "@/components/illustration";
 import { LevelPicker, useLevelSelection } from "@/components/level-picker";
 import { grammarScores } from "@/lib/grammar/progress";
+import type { Level } from "@/lib/levels";
 
 type Item = { id: string; title: string; number: number; ready: boolean; summary?: string };
 type Unit = { id: string; title: string; items: Item[] };
+type LevelUnits = { level: Level; units: Unit[] };
 
-const available = ["A1"] as const;
 const passingScore = 80;
 const primary = "inline-flex min-h-12 touch-manipulation items-center justify-center rounded-full bg-accent px-6 font-semibold text-accent-ink hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
 const card = "flex h-full min-h-11 flex-col rounded-xl border border-line bg-sheet p-4 text-left";
 
-export function SyllabusList({ units }: { units: Unit[] }) {
-  const { current, select } = useLevelSelection("lessons:level:v1", available, "A1");
+export function SyllabusList({ levels }: { levels: LevelUnits[] }) {
+  const available = levels.map((l) => l.level);
+  const { current, select } = useLevelSelection("lessons:level:v1", available, available[0] ?? "A1");
+  const units = levels.find((l) => l.level === current)?.units ?? [];
   const scores = useSyncExternalStore(grammarScores.subscribe, grammarScores.getSnapshot, grammarScores.getServerSnapshot);
   const items = units.flatMap((unit, index) => unit.items.map((item) => ({ ...item, unitNumber: index + 1 })));
   const ready = items.filter((item) => item.ready);

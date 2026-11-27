@@ -1,0 +1,376 @@
+{
+  "id": "past-simple-vs-continuous",
+  "level": "A2",
+  "title": "Quá khứ đơn hay quá khứ tiếp diễn? When, while",
+  "summary": "Kể việc đang diễn ra thì bị việc khác cắt ngang, và hai việc diễn ra cùng lúc với when, while.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What happened to your arm?",
+      "vi": "Tay bạn bị sao vậy?"
+    },
+    {
+      "who": "B",
+      "en": "I [[was riding]] my motorbike when a dog [[ran]] into the road.",
+      "vi": "Mình đang chạy xe máy thì một con chó lao ra đường."
+    },
+    {
+      "who": "A",
+      "en": "Oh no! Did you fall?",
+      "vi": "Trời! Bạn có ngã không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. While I [[was lying]] on the ground, a kind man [[stopped]] to help.",
+      "vi": "Có. Lúc mình đang nằm dưới đất thì một anh tốt bụng dừng lại giúp."
+    },
+    {
+      "who": "A",
+      "en": "And the dog?",
+      "vi": "Thế còn con chó?"
+    },
+    {
+      "who": "B",
+      "en": "It [[ran]] away while we [[were talking]]!",
+      "vi": "Nó chạy mất trong lúc bọn mình đang nói chuyện!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Bị cắt ngang",
+      "heading": "Việc dài bị việc ngắn cắt ngang",
+      "rule": "Việc **đang diễn ra** (dài) → quá khứ tiếp diễn. Việc **xảy ra chen vào** (ngắn) → quá khứ đơn.",
+      "formula": [
+        {
+          "text": "S + [was / were + V-ing] + when + S + [V2]"
+        },
+        {
+          "text": "When + S + [V2], S + [was / were + V-ing]"
+        }
+      ],
+      "body": [
+        "Việc dài là bối cảnh, đã bắt đầu từ trước. Việc ngắn xảy ra đột ngột ở giữa. Tiếng Việt hay nói *đang… thì…*: phần *đang* là quá khứ tiếp diễn, phần *thì* là quá khứ đơn."
+      ],
+      "examples": [
+        {
+          "en": "I [[was having]] a shower when the phone [[rang]].",
+          "vi": "Tôi đang tắm thì điện thoại reo.",
+          "why": "Tắm là việc dài (was having); điện thoại reo là việc ngắn chen vào (rang)."
+        },
+        {
+          "en": "When I [[arrived]], they [[were eating]].",
+          "vi": "Khi tôi đến thì họ đang ăn.",
+          "why": "Tôi đến (ngắn) → arrived; họ đang ăn từ trước (dài) → were eating."
+        },
+        {
+          "en": "She [[was walking]] home when it [[started]] to rain.",
+          "vi": "Cô ấy đang đi bộ về nhà thì trời bắt đầu mưa.",
+          "why": "Đi bộ là bối cảnh; trời mưa là việc chen vào."
+        }
+      ],
+      "check": {
+        "prompt": "I was cooking when the lights ___ out.",
+        "options": [
+          "went",
+          "were going"
+        ],
+        "answer": 0,
+        "explain": "Đèn tắt là việc ngắn, đột ngột → went."
+      }
+    },
+    {
+      "part": "When, while",
+      "heading": "When hay while?",
+      "rule": "**while** + việc dài (V-ing). **when** thường + việc ngắn (quá khứ đơn).",
+      "body": [
+        "*While* nghĩa là *trong lúc*, nên đi với việc đang kéo dài: *while I was driving*. *When* nghĩa là *khi*, hay đi với việc xảy ra tại một lúc: *when the phone rang*.",
+        "Mệnh đề có when hoặc while đứng đầu câu thì thêm dấu phẩy sau nó."
+      ],
+      "examples": [
+        {
+          "en": "[[While]] I was driving, I saw an accident.",
+          "vi": "Trong lúc lái xe, tôi thấy một vụ tai nạn.",
+          "why": "While + việc dài (was driving)."
+        },
+        {
+          "en": "My phone rang [[when]] I was in the meeting.",
+          "vi": "Điện thoại tôi reo khi tôi đang họp.",
+          "why": "When + việc diễn ra tại một lúc."
+        },
+        {
+          "en": "Someone stole my bag [[while]] I was sleeping on the train.",
+          "vi": "Có người lấy trộm túi của tôi trong lúc tôi ngủ trên tàu.",
+          "why": "While + was sleeping (việc dài)."
+        }
+      ],
+      "check": {
+        "prompt": "___ I was waiting for the bus, I met an old friend.",
+        "options": [
+          "While",
+          "During"
+        ],
+        "answer": 0,
+        "explain": "Trước mệnh đề (I was waiting) dùng while; during + danh từ."
+      }
+    },
+    {
+      "part": "Cùng lúc",
+      "heading": "Hai việc dài diễn ra cùng lúc",
+      "rule": "Hai việc **cùng đang diễn ra** song song → cả hai dùng quá khứ tiếp diễn, nối bằng **while**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[was cooking]] while my husband [[was cleaning]] the house.",
+          "vi": "Tôi nấu ăn trong lúc chồng tôi dọn nhà.",
+          "why": "Hai việc cùng kéo dài → cả hai đều was/were + V-ing."
+        },
+        {
+          "en": "While the teacher [[was talking]], the students [[were taking]] notes.",
+          "vi": "Trong lúc thầy giảng, học sinh ghi chép.",
+          "why": "Hai việc song song."
+        }
+      ],
+      "check": {
+        "prompt": "While I was studying, my sister ___ music.",
+        "options": [
+          "was listening to",
+          "listened to"
+        ],
+        "answer": 0,
+        "explain": "Hai việc cùng kéo dài → was listening to."
+      }
+    },
+    {
+      "part": "Chuỗi sự việc",
+      "heading": "Nhiều việc nối tiếp nhau",
+      "rule": "Các việc xảy ra **lần lượt**, việc này xong mới đến việc kia → tất cả dùng **quá khứ đơn**.",
+      "body": [
+        "So sánh: *When she came, I was cooking* (lúc cô ấy đến tôi đang nấu dở). *When she came, I cooked* (cô ấy đến rồi tôi mới bắt đầu nấu)."
+      ],
+      "examples": [
+        {
+          "en": "I [[got]] up, [[had]] a coffee and [[left]] for work.",
+          "vi": "Tôi dậy, uống cà phê rồi đi làm.",
+          "why": "Ba việc nối tiếp nhau → cả ba đều quá khứ đơn."
+        },
+        {
+          "en": "When the film [[ended]], we [[went]] home.",
+          "vi": "Phim hết thì chúng tôi về nhà.",
+          "why": "Phim hết trước, về nhà sau → cả hai quá khứ đơn."
+        }
+      ],
+      "check": {
+        "prompt": "When the bell rang, the students ___ the room.",
+        "options": [
+          "left",
+          "were leaving"
+        ],
+        "answer": 0,
+        "explain": "Chuông reo rồi học sinh mới ra → hai việc nối tiếp → left."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I watched TV when she was calling.",
+      "right": "I was watching TV when she called.",
+      "why": "Việc dài (xem TV) dùng was + V-ing; việc ngắn (gọi) dùng quá khứ đơn."
+    },
+    {
+      "wrong": "While I cooked, the phone rang.",
+      "right": "While I was cooking, the phone rang.",
+      "why": "While đi với việc đang kéo dài → was cooking."
+    },
+    {
+      "wrong": "During I was driving, it started to rain.",
+      "right": "While I was driving, it started to rain.",
+      "why": "During + danh từ (during the trip); trước mệnh đề dùng while."
+    },
+    {
+      "wrong": "When I was arriving, they had dinner.",
+      "right": "When I arrived, they were having dinner.",
+      "why": "Đến là việc ngắn → arrived; ăn tối là việc dài → were having."
+    },
+    {
+      "wrong": "I was seeing an accident while I was driving.",
+      "right": "I saw an accident while I was driving.",
+      "why": "Nhìn thấy là việc xảy ra tức thì → saw."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ my homework when the lights went out.",
+      "options": [
+        "was doing",
+        "did",
+        "were doing"
+      ],
+      "answer": 0,
+      "explain": "Việc dài bị cắt ngang, chủ ngữ I → was doing."
+    },
+    {
+      "type": "choice",
+      "prompt": "She was crossing the street when she ___ her phone.",
+      "options": [
+        "dropped",
+        "was dropping",
+        "drops"
+      ],
+      "answer": 0,
+      "explain": "Làm rơi điện thoại là việc ngắn chen vào → dropped."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ we were having dinner, the cat jumped on the table.",
+      "options": [
+        "While",
+        "During",
+        "When"
+      ],
+      "answer": 0,
+      "explain": "While + việc đang kéo dài (were having)."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là cô ấy đến rồi tôi mới bắt đầu nấu?",
+      "options": [
+        "When she came, I was cooking.",
+        "When she came, I cooked."
+      ],
+      "answer": 1,
+      "explain": "Hai việc nối tiếp → cả hai quá khứ đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "It ___ when we left the house.",
+      "hint": "rain",
+      "answers": [
+        "was raining"
+      ],
+      "explain": "Trời đang mưa lúc chúng tôi đi → was raining."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ my keys while I was running for the bus.",
+      "hint": "lose",
+      "answers": [
+        "lost"
+      ],
+      "explain": "Đánh rơi chìa khóa là việc ngắn → lost."
+    },
+    {
+      "type": "fill",
+      "prompt": "While Mai was reading, her brother ___ the guitar.",
+      "hint": "play",
+      "answers": [
+        "was playing"
+      ],
+      "explain": "Hai việc song song → was playing."
+    },
+    {
+      "type": "fill",
+      "prompt": "What were you doing when I ___ you?",
+      "hint": "call",
+      "answers": [
+        "called"
+      ],
+      "explain": "Gọi điện là việc ngắn → called."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ off his bike while he was riding to school.",
+      "hint": "fall",
+      "answers": [
+        "fell"
+      ],
+      "explain": "Ngã là việc ngắn, đột ngột → fell (bất quy tắc)."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đang ngủ thì có người gõ cửa.",
+      "words": [
+        "I",
+        "was",
+        "sleeping",
+        "when",
+        "someone",
+        "knocked",
+        "on",
+        "the",
+        "door."
+      ],
+      "alternatives": [
+        "When someone knocked on the door I was sleeping."
+      ],
+      "explain": "Đang ngủ (dài) → was sleeping; gõ cửa (ngắn) → knocked."
+    },
+    {
+      "type": "order",
+      "vi": "Trong lúc tôi nấu ăn, anh ấy dọn bàn.",
+      "words": [
+        "While",
+        "I",
+        "was",
+        "cooking",
+        "he",
+        "was",
+        "setting",
+        "the",
+        "table."
+      ],
+      "alternatives": [
+        "He was setting the table while I was cooking."
+      ],
+      "explain": "Hai việc song song → cả hai đều V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "I read a book when you were calling.",
+      "answers": [
+        "I was reading a book when you called."
+      ],
+      "explain": "Việc dài → was reading; việc ngắn → called."
+    },
+    {
+      "type": "fix",
+      "sentence": "While I walked home, I met my teacher.",
+      "answers": [
+        "While I was walking home, I met my teacher."
+      ],
+      "explain": "While + việc đang kéo dài → was walking."
+    },
+    {
+      "type": "fix",
+      "sentence": "When the alarm was ringing, I got up.",
+      "answers": [
+        "When the alarm rang, I got up."
+      ],
+      "explain": "Chuông reo rồi mới dậy → hai việc nối tiếp → rang."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi đang lái xe thì điện thoại reo.",
+      "answers": [
+        "I was driving when the phone rang.",
+        "I was driving when my phone rang.",
+        "When the phone rang, I was driving.",
+        "When my phone rang, I was driving."
+      ],
+      "explain": "Đang lái xe → was driving; điện thoại reo → rang."
+    },
+    {
+      "type": "translate",
+      "vi": "Trong lúc chúng tôi đang ăn, trời bắt đầu mưa.",
+      "answers": [
+        "While we were eating, it started to rain.",
+        "While we were eating, it started raining.",
+        "It started to rain while we were eating.",
+        "It started raining while we were eating.",
+        "While we were eating, it began to rain.",
+        "It began to rain while we were eating."
+      ],
+      "explain": "While + were eating; mưa bắt đầu → started."
+    }
+  ]
+}

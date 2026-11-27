@@ -1,0 +1,347 @@
+{
+  "id": "too-enough",
+  "level": "A2",
+  "title": "Too và enough",
+  "summary": "Nói quá mức (too + tính từ) và đủ hay không đủ (tính từ + enough, enough + danh từ).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Do you want this shirt? It's on sale.",
+      "vi": "Bạn có lấy áo này không? Đang giảm giá đấy."
+    },
+    {
+      "who": "B",
+      "en": "It's [[too small]] for me.",
+      "vi": "Nó chật quá với mình."
+    },
+    {
+      "who": "A",
+      "en": "What about the blue one?",
+      "vi": "Thế cái màu xanh?"
+    },
+    {
+      "who": "B",
+      "en": "It's [[big enough]], but it's [[too expensive]].",
+      "vi": "Đủ rộng, nhưng đắt quá."
+    },
+    {
+      "who": "A",
+      "en": "I can lend you some money.",
+      "vi": "Mình cho bạn mượn ít tiền."
+    },
+    {
+      "who": "B",
+      "en": "Thanks, but I don't have [[enough time]] to shop today.",
+      "vi": "Cảm ơn, nhưng hôm nay mình không đủ thời gian đi mua sắm."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Too",
+      "heading": "Too + tính từ: quá (đến mức có vấn đề)",
+      "rule": "**too + tính từ** = quá…, **nhiều hơn mức cần**, gây ra vấn đề.",
+      "formula": [
+        {
+          "text": "[too] + adj"
+        },
+        {
+          "text": "[too] + adj + to + V"
+        },
+        {
+          "text": "[too] + adj + for + người"
+        }
+      ],
+      "body": [
+        "Khác với **very**: *very hot* chỉ là rất nóng; *too hot* là nóng quá, không làm được gì đó. *The tea is very hot* (vẫn uống được), *The tea is too hot to drink* (không uống được)."
+      ],
+      "examples": [
+        {
+          "en": "This coffee is [[too hot]] to drink.",
+          "vi": "Cà phê này nóng quá, không uống được.",
+          "why": "Too hot + to drink: quá nóng nên không uống được."
+        },
+        {
+          "en": "The box is [[too heavy]] for me.",
+          "vi": "Cái thùng nặng quá với tôi.",
+          "why": "Too + adj + for + người."
+        },
+        {
+          "en": "I'm [[too tired]] to go out tonight.",
+          "vi": "Tối nay tôi mệt quá, không đi chơi được.",
+          "why": "Quá mệt → không đi được."
+        }
+      ],
+      "check": {
+        "prompt": "The soup is ___ salty. I can't eat it.",
+        "options": [
+          "too",
+          "very"
+        ],
+        "answer": 0,
+        "explain": "Mặn đến mức không ăn được → too."
+      }
+    },
+    {
+      "part": "Enough",
+      "heading": "Tính từ + enough, enough + danh từ",
+      "rule": "**enough** đứng **sau tính từ** (old enough) nhưng **trước danh từ** (enough money).",
+      "formula": [
+        {
+          "text": "adj + [enough] (+ to V)"
+        },
+        {
+          "text": "[enough] + danh từ"
+        }
+      ],
+      "body": [
+        "Phủ định **not… enough** = không đủ, thường là cách nói nhẹ nhàng hơn *too*: *not big enough* ≈ *too small*."
+      ],
+      "examples": [
+        {
+          "en": "She's [[old enough]] to drive.",
+          "vi": "Cô ấy đủ tuổi lái xe.",
+          "why": "Tính từ + enough."
+        },
+        {
+          "en": "We don't have [[enough chairs]] for everyone.",
+          "vi": "Chúng ta không đủ ghế cho mọi người.",
+          "why": "Enough + danh từ."
+        },
+        {
+          "en": "The room isn't [[big enough]] for a party.",
+          "vi": "Phòng không đủ rộng để tổ chức tiệc.",
+          "why": "Not + tính từ + enough."
+        }
+      ],
+      "check": {
+        "prompt": "Is the water ___ to swim in?",
+        "options": [
+          "warm enough",
+          "enough warm"
+        ],
+        "answer": 0,
+        "explain": "Enough đứng sau tính từ."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Too hay not enough?",
+      "rule": "Một ý có thể nói hai cách: **too + tính từ** hoặc **not + tính từ trái nghĩa + enough**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The shoes are [[too small]].",
+          "vi": "Giày chật quá.",
+          "why": "Too + small."
+        },
+        {
+          "en": "The shoes aren't [[big enough]].",
+          "vi": "Giày không đủ rộng.",
+          "why": "Cùng ý: not big enough."
+        },
+        {
+          "en": "He's [[too young]] to vote. He isn't [[old enough]].",
+          "vi": "Cậu ấy còn quá nhỏ để đi bầu. Chưa đủ tuổi.",
+          "why": "Hai cách nói cùng nghĩa."
+        }
+      ],
+      "check": {
+        "prompt": "The bed is too short. = The bed isn't ___ enough.",
+        "options": [
+          "long",
+          "short"
+        ],
+        "answer": 0,
+        "explain": "Quá ngắn = không đủ dài."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "This shirt is enough big.",
+      "right": "This shirt is big enough.",
+      "why": "Enough đứng sau tính từ."
+    },
+    {
+      "wrong": "I don't have money enough.",
+      "right": "I don't have enough money.",
+      "why": "Enough đứng trước danh từ."
+    },
+    {
+      "wrong": "It's too much hot today.",
+      "right": "It's too hot today.",
+      "why": "Too + tính từ; không dùng too much trước tính từ."
+    },
+    {
+      "wrong": "The film was too good. I loved it.",
+      "right": "The film was very good. I loved it.",
+      "why": "Too mang nghĩa tiêu cực; khen thì dùng very."
+    },
+    {
+      "wrong": "He is too young for drive.",
+      "right": "He is too young to drive.",
+      "why": "Too + adj + to + V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I can't sleep. It's ___ noisy here.",
+      "options": [
+        "too",
+        "enough",
+        "very much"
+      ],
+      "answer": 0,
+      "explain": "Ồn đến mức không ngủ được → too."
+    },
+    {
+      "type": "choice",
+      "prompt": "Are you ___ to walk home?",
+      "options": [
+        "strong enough",
+        "enough strong"
+      ],
+      "answer": 0,
+      "explain": "Enough sau tính từ."
+    },
+    {
+      "type": "choice",
+      "prompt": "We have ___ to finish the work.",
+      "options": [
+        "enough time",
+        "time enough",
+        "too time"
+      ],
+      "answer": 0,
+      "explain": "Enough + danh từ."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "The test was too easy, so everyone finished early.",
+        "The test was easy enough to everyone."
+      ],
+      "answer": 0,
+      "explain": "Too easy: dễ quá (mọi người xong sớm)."
+    },
+    {
+      "type": "fill",
+      "prompt": "This bag is ___ heavy to carry.",
+      "hint": "quá",
+      "answers": [
+        "too"
+      ],
+      "explain": "Too + adj + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "She isn't tall ___ to reach the shelf.",
+      "hint": "đủ",
+      "answers": [
+        "enough"
+      ],
+      "explain": "Tính từ + enough."
+    },
+    {
+      "type": "fill",
+      "prompt": "There aren't ___ seats on the bus.",
+      "hint": "đủ",
+      "answers": [
+        "enough"
+      ],
+      "explain": "Enough + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "The tea is too hot ___ drink.",
+      "hint": "giới từ",
+      "answers": [
+        "to"
+      ],
+      "explain": "Too + adj + to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "Is this room big ___ for six people?",
+      "hint": "đủ",
+      "answers": [
+        "enough"
+      ],
+      "explain": "Big enough."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi quá mệt để nấu ăn.",
+      "words": [
+        "I",
+        "am",
+        "too",
+        "tired",
+        "to",
+        "cook."
+      ],
+      "explain": "Too + tired + to + V."
+    },
+    {
+      "type": "order",
+      "vi": "Chúng tôi không đủ tiền mua nhà.",
+      "words": [
+        "We",
+        "don't",
+        "have",
+        "enough",
+        "money",
+        "to",
+        "buy",
+        "a",
+        "house."
+      ],
+      "explain": "Enough + danh từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "It's enough warm to go swimming.",
+      "answers": [
+        "It's warm enough to go swimming."
+      ],
+      "explain": "Enough sau tính từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'm too much busy today.",
+      "answers": [
+        "I'm too busy today."
+      ],
+      "explain": "Too + tính từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "She doesn't have experience enough.",
+      "answers": [
+        "She doesn't have enough experience."
+      ],
+      "explain": "Enough trước danh từ."
+    },
+    {
+      "type": "translate",
+      "vi": "Trời quá lạnh để đi bơi.",
+      "answers": [
+        "It's too cold to go swimming.",
+        "It is too cold to go swimming.",
+        "It's too cold to swim.",
+        "It is too cold to swim."
+      ],
+      "explain": "Too + cold + to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn đã đủ tuổi lái xe chưa?",
+      "answers": [
+        "Are you old enough to drive?"
+      ],
+      "explain": "Old enough + to V."
+    }
+  ]
+}

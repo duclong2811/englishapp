@@ -1,0 +1,358 @@
+{
+  "id": "must-have-to",
+  "level": "A2",
+  "title": "Must, have to, don't have to, mustn't",
+  "summary": "Nói điều bắt buộc (must, have to), không cần thiết (don't have to) và bị cấm (mustn't).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Do you [[have to]] wear a uniform at work?",
+      "vi": "Bạn có phải mặc đồng phục đi làm không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, and I [[have to]] be there by 7:30.",
+      "vi": "Có, và mình phải có mặt trước 7 giờ 30."
+    },
+    {
+      "who": "A",
+      "en": "That's early! I [[don't have to]] start until 9.",
+      "vi": "Sớm thế! Mình 9 giờ mới phải bắt đầu."
+    },
+    {
+      "who": "B",
+      "en": "Lucky you. And we [[mustn't]] use our phones in the office.",
+      "vi": "Sướng nhỉ. Còn bọn mình không được dùng điện thoại trong văn phòng."
+    },
+    {
+      "who": "A",
+      "en": "Really? That's strict.",
+      "vi": "Thật à? Nghiêm thế."
+    },
+    {
+      "who": "B",
+      "en": "I know. I really [[must]] find a new job!",
+      "vi": "Ừ. Mình thật sự phải tìm việc mới thôi!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Bắt buộc",
+      "heading": "Must và have to: phải",
+      "rule": "**must + V** và **have to + V** đều là **phải**. He, she, it → **has to**; must thì không đổi.",
+      "formula": [
+        {
+          "text": "S + [must] + V"
+        },
+        {
+          "text": "S + [have to / has to] + V"
+        }
+      ],
+      "body": [
+        "Hai từ gần nghĩa. Khác nhau nhỏ: **must** thường là ý của **người nói** (tôi thấy cần), **have to** thường là **quy định, hoàn cảnh** bên ngoài bắt buộc.",
+        "Must chỉ dùng cho hiện tại và tương lai. Quá khứ dùng **had to**: *I had to work late yesterday.*"
+      ],
+      "examples": [
+        {
+          "en": "I [[must]] call my mum tonight.",
+          "vi": "Tối nay tôi phải gọi cho mẹ.",
+          "why": "Tự tôi thấy cần → must."
+        },
+        {
+          "en": "She [[has to]] wear glasses for driving.",
+          "vi": "Cô ấy phải đeo kính khi lái xe.",
+          "why": "Quy định bên ngoài; she → has to."
+        },
+        {
+          "en": "We [[had to]] wait two hours at the airport.",
+          "vi": "Chúng tôi phải chờ hai tiếng ở sân bay.",
+          "why": "Quá khứ của must/have to → had to."
+        }
+      ],
+      "check": {
+        "prompt": "My brother ___ get up at 5 for work.",
+        "options": [
+          "has to",
+          "have to",
+          "musts"
+        ],
+        "answer": 0,
+        "explain": "My brother = he → has to."
+      }
+    },
+    {
+      "part": "Không cần",
+      "heading": "Don't have to: không cần, không bắt buộc",
+      "rule": "**don't / doesn't have to + V** = **không cần** làm (làm cũng được, không làm cũng được).",
+      "body": [
+        "Đây không phải là cấm. *You don't have to come* = bạn không cần đến (tùy bạn)."
+      ],
+      "examples": [
+        {
+          "en": "You [[don't have to]] bring anything.",
+          "vi": "Bạn không cần mang gì đâu.",
+          "why": "Không bắt buộc, tùy bạn."
+        },
+        {
+          "en": "He [[doesn't have to]] work on Saturdays.",
+          "vi": "Thứ Bảy anh ấy không phải đi làm.",
+          "why": "He → doesn't have to."
+        },
+        {
+          "en": "[[Do]] I [[have to]] pay now?",
+          "vi": "Tôi có phải trả tiền ngay không?",
+          "why": "Câu hỏi: Do + I + have to."
+        }
+      ],
+      "check": {
+        "prompt": "It's Sunday. I ___ get up early.",
+        "options": [
+          "don't have to",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explain": "Không cần dậy sớm (không cấm) → don't have to."
+      }
+    },
+    {
+      "part": "Cấm",
+      "heading": "Mustn't: không được (cấm)",
+      "rule": "**mustn't + V** = **không được** làm (bị cấm, rất quan trọng không làm).",
+      "body": [
+        "Người Việt hay nhầm *mustn't* với *don't have to* vì tiếng Việt đều có chữ *không*. Hãy nhớ: mustn't = **cấm**; don't have to = **không cần**."
+      ],
+      "table": {
+        "head": [
+          "Cấu trúc",
+          "Nghĩa",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "must / have to",
+            "phải",
+            "You must wear a helmet."
+          ],
+          [
+            "don't have to",
+            "không cần",
+            "You don't have to come."
+          ],
+          [
+            "mustn't",
+            "không được",
+            "You mustn't smoke here."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "You [[mustn't]] smoke in the hospital.",
+          "vi": "Không được hút thuốc trong bệnh viện.",
+          "why": "Bị cấm → mustn't."
+        },
+        {
+          "en": "We [[mustn't]] be late for the exam.",
+          "vi": "Chúng ta không được đến muộn buổi thi.",
+          "why": "Rất quan trọng không làm."
+        }
+      ],
+      "check": {
+        "prompt": "You ___ park here. It's a fire exit.",
+        "options": [
+          "mustn't",
+          "don't have to"
+        ],
+        "answer": 0,
+        "explain": "Lối thoát hiểm → cấm đỗ xe → mustn't."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "You must to wear a helmet.",
+      "right": "You must wear a helmet.",
+      "why": "Must + V, không có to."
+    },
+    {
+      "wrong": "She have to work late.",
+      "right": "She has to work late.",
+      "why": "She → has to."
+    },
+    {
+      "wrong": "I musted go to the doctor yesterday.",
+      "right": "I had to go to the doctor yesterday.",
+      "why": "Quá khứ dùng had to."
+    },
+    {
+      "wrong": "You mustn't come if you're busy.",
+      "right": "You don't have to come if you're busy.",
+      "why": "Không cần (tùy bạn) → don't have to."
+    },
+    {
+      "wrong": "Do I must pay?",
+      "right": "Do I have to pay?",
+      "why": "Câu hỏi dùng Do I have to…?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Students ___ wear a uniform at my school.",
+      "options": [
+        "have to",
+        "has to",
+        "must to"
+      ],
+      "answer": 0,
+      "explain": "Students là số nhiều → have to."
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ touch that. It's very hot!",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "doesn't have to"
+      ],
+      "answer": 0,
+      "explain": "Nguy hiểm, cấm → mustn't."
+    },
+    {
+      "type": "choice",
+      "prompt": "It's free. You ___ pay.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "have to"
+      ],
+      "answer": 0,
+      "explain": "Không cần trả → don't have to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói về việc trong quá khứ?",
+      "options": [
+        "I had to work late yesterday.",
+        "I must work late yesterday."
+      ],
+      "answer": 0,
+      "explain": "Quá khứ → had to."
+    },
+    {
+      "type": "fill",
+      "prompt": "My mother ___ take medicine every morning.",
+      "hint": "have to",
+      "answers": [
+        "has to"
+      ],
+      "explain": "My mother = she → has to."
+    },
+    {
+      "type": "fill",
+      "prompt": "You ___ use your phone during the test.",
+      "hint": "cấm",
+      "answers": [
+        "mustn't",
+        "must not"
+      ],
+      "explain": "Cấm → mustn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ hurry. We have plenty of time.",
+      "hint": "không cần",
+      "answers": [
+        "don't have to",
+        "do not have to"
+      ],
+      "explain": "Không cần vội → don't have to."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you have to work tomorrow?",
+      "hint": "trợ động từ",
+      "answers": [
+        "Do"
+      ],
+      "explain": "Câu hỏi: Do you have to…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Last year I ___ take the bus to work every day.",
+      "hint": "have to",
+      "answers": [
+        "had to"
+      ],
+      "explain": "Quá khứ → had to."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn phải đội mũ bảo hiểm.",
+      "words": [
+        "You",
+        "must",
+        "wear",
+        "a",
+        "helmet."
+      ],
+      "explain": "Must + V."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy không phải làm việc vào Chủ nhật.",
+      "words": [
+        "She",
+        "doesn't",
+        "have",
+        "to",
+        "work",
+        "on",
+        "Sundays."
+      ],
+      "explain": "Doesn't have to + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "He must to finish the report today.",
+      "answers": [
+        "He must finish the report today."
+      ],
+      "explain": "Must + V, không có to."
+    },
+    {
+      "type": "fix",
+      "sentence": "She don't have to cook tonight.",
+      "answers": [
+        "She doesn't have to cook tonight."
+      ],
+      "explain": "She → doesn't."
+    },
+    {
+      "type": "fix",
+      "sentence": "You must wear a suit, it's optional.",
+      "answers": [
+        "You don't have to wear a suit, it's optional."
+      ],
+      "explain": "Optional (tùy chọn) → don't have to."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn không được nói cho ai biết.",
+      "answers": [
+        "You mustn't tell anyone.",
+        "You must not tell anyone."
+      ],
+      "explain": "Cấm → mustn't."
+    },
+    {
+      "type": "translate",
+      "vi": "Hôm qua tôi phải làm việc đến khuya.",
+      "answers": [
+        "I had to work late yesterday.",
+        "Yesterday I had to work late."
+      ],
+      "explain": "Quá khứ → had to."
+    }
+  ]
+}

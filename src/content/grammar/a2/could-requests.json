@@ -1,0 +1,394 @@
+{
+  "id": "could-requests",
+  "level": "A2",
+  "title": "Could you…? Can I…? May I…?",
+  "summary": "Nhờ, xin phép và đề nghị lịch sự với could, can, may, would you mind; cách đồng ý và từ chối.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Excuse me, [[could]] you help me?",
+      "vi": "Xin lỗi, anh giúp tôi một chút được không?"
+    },
+    {
+      "who": "B",
+      "en": "Sure. What do you need?",
+      "vi": "Được chứ. Chị cần gì?"
+    },
+    {
+      "who": "A",
+      "en": "[[Could]] you tell me where the station is?",
+      "vi": "Anh chỉ giúp tôi ga tàu ở đâu được không?"
+    },
+    {
+      "who": "B",
+      "en": "It's next to the bank. [[Can]] I show you on your map?",
+      "vi": "Cạnh ngân hàng. Tôi chỉ trên bản đồ của chị nhé?"
+    },
+    {
+      "who": "A",
+      "en": "Yes, please. [[May]] I take a photo of it too?",
+      "vi": "Vâng. Tôi chụp lại được không?"
+    },
+    {
+      "who": "B",
+      "en": "Of course. Go ahead.",
+      "vi": "Tất nhiên. Chị cứ chụp."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Nhờ",
+      "heading": "Can you…? Could you…?: nhờ ai làm gì",
+      "rule": "Nhờ ai làm gì: **Can you + V?** (thân mật) → **Could you + V?** (lịch sự hơn).",
+      "formula": [
+        {
+          "text": "[Can / Could] + you + V…?"
+        },
+        {
+          "text": "[Could] + you + [please] + V…?"
+        }
+      ],
+      "body": [
+        "Could ở đây **không** mang nghĩa quá khứ, chỉ là lịch sự hơn. Với người lạ, sếp, khách hàng nên dùng could.",
+        "Thêm **please** cuối câu hoặc sau you cho lịch sự hơn."
+      ],
+      "examples": [
+        {
+          "en": "[[Can]] you pass me the salt?",
+          "vi": "Lấy giúp mình lọ muối được không?",
+          "why": "Thân mật, với người nhà, bạn bè."
+        },
+        {
+          "en": "[[Could]] you send me the file, please?",
+          "vi": "Anh gửi giúp tôi tài liệu được không ạ?",
+          "why": "Lịch sự, với đồng nghiệp, sếp."
+        },
+        {
+          "en": "[[Could]] you speak more slowly?",
+          "vi": "Bạn nói chậm hơn được không?",
+          "why": "Nhờ lịch sự."
+        }
+      ],
+      "check": {
+        "prompt": "___ you open the window, please?",
+        "options": [
+          "Could",
+          "May"
+        ],
+        "answer": 0,
+        "explain": "Nhờ người khác làm → Could you…?"
+      }
+    },
+    {
+      "part": "Xin phép",
+      "heading": "Can I…? Could I…? May I…?: xin phép",
+      "rule": "Xin phép làm gì: **Can I** (thân mật) → **Could I** (lịch sự) → **May I** (rất lịch sự, trang trọng).",
+      "body": [
+        "Không dùng *May you…?* để nhờ. May chỉ đi với **I** hoặc **we** khi xin phép."
+      ],
+      "examples": [
+        {
+          "en": "[[Can]] I use your phone?",
+          "vi": "Mình dùng điện thoại của bạn được không?",
+          "why": "Xin phép, thân mật."
+        },
+        {
+          "en": "[[Could]] I leave a bit early today?",
+          "vi": "Hôm nay tôi về sớm một chút được không?",
+          "why": "Xin phép sếp, lịch sự."
+        },
+        {
+          "en": "[[May]] I come in?",
+          "vi": "Tôi vào được không ạ?",
+          "why": "Rất lịch sự, trang trọng."
+        }
+      ],
+      "check": {
+        "prompt": "___ I sit here?",
+        "options": [
+          "May",
+          "Would"
+        ],
+        "answer": 0,
+        "explain": "Xin phép → May I…?"
+      }
+    },
+    {
+      "part": "Trả lời",
+      "heading": "Đồng ý và từ chối lịch sự",
+      "rule": "Đồng ý: **Sure. / Of course. / No problem.** Từ chối: **Sorry, + lý do**, không nói cụt *No, you can't*.",
+      "body": [],
+      "table": {
+        "head": [
+          "Đồng ý",
+          "Từ chối"
+        ],
+        "rows": [
+          [
+            "Sure.",
+            "Sorry, I'm using it right now."
+          ],
+          [
+            "Of course.",
+            "I'm afraid not. It's not allowed."
+          ],
+          [
+            "No problem.",
+            "Sorry, I can't. I'm busy."
+          ],
+          [
+            "Go ahead.",
+            "I'd like to, but…"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Could you help me? [[Of course]].",
+          "vi": "Bạn giúp tôi được không? Tất nhiên rồi.",
+          "why": "Đồng ý lịch sự."
+        },
+        {
+          "en": "Can I borrow your car? [[Sorry]], I need it today.",
+          "vi": "Cho mình mượn xe được không? Xin lỗi, hôm nay mình cần dùng.",
+          "why": "Từ chối kèm lý do."
+        }
+      ],
+      "check": {
+        "prompt": "Could I use your pen? ___",
+        "options": [
+          "Sure, here you are.",
+          "No."
+        ],
+        "answer": 0,
+        "explain": "Đồng ý lịch sự."
+      }
+    },
+    {
+      "part": "Would you mind",
+      "heading": "Would you mind + V-ing?",
+      "rule": "**Would you mind + V-ing?** = Phiền bạn… được không? (rất lịch sự). Đồng ý thì trả lời **No / Not at all**.",
+      "body": [
+        "Mind nghĩa là *thấy phiền*. Vì vậy trả lời **No, not at all** = không phiền đâu = đồng ý."
+      ],
+      "examples": [
+        {
+          "en": "Would you mind [[closing]] the door?",
+          "vi": "Phiền bạn đóng cửa giúp được không?",
+          "why": "Would you mind + V-ing."
+        },
+        {
+          "en": "Would you mind [[waiting]] a moment? Not at all.",
+          "vi": "Phiền bạn đợi một chút nhé? Không sao đâu.",
+          "why": "Not at all = đồng ý."
+        }
+      ],
+      "check": {
+        "prompt": "Would you mind ___ me later?",
+        "options": [
+          "calling",
+          "to call",
+          "call"
+        ],
+        "answer": 0,
+        "explain": "Would you mind + V-ing."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "May you help me?",
+      "right": "Could you help me?",
+      "why": "Nhờ người khác dùng Could you / Can you, không dùng May you."
+    },
+    {
+      "wrong": "Could you to open the door?",
+      "right": "Could you open the door?",
+      "why": "Could + V, không có to."
+    },
+    {
+      "wrong": "Would you mind to wait?",
+      "right": "Would you mind waiting?",
+      "why": "Would you mind + V-ing."
+    },
+    {
+      "wrong": "Would you mind helping me? Yes, of course.",
+      "right": "Would you mind helping me? No, not at all.",
+      "why": "Đồng ý với would you mind → No, not at all."
+    },
+    {
+      "wrong": "Can I to sit here?",
+      "right": "Can I sit here?",
+      "why": "Can + V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ you help me carry this box?",
+      "options": [
+        "Could",
+        "May",
+        "Should"
+      ],
+      "answer": 0,
+      "explain": "Nhờ → Could you."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ I see your passport, please?",
+      "options": [
+        "May",
+        "Would",
+        "Do"
+      ],
+      "answer": 0,
+      "explain": "Xin phép trang trọng → May I."
+    },
+    {
+      "type": "choice",
+      "prompt": "Would you mind ___ the music down?",
+      "options": [
+        "turning",
+        "to turn",
+        "turn"
+      ],
+      "answer": 0,
+      "explain": "Would you mind + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào lịch sự nhất khi xin sếp về sớm?",
+      "options": [
+        "Could I leave early today?",
+        "I leave early today.",
+        "Can you leave early today?"
+      ],
+      "answer": 0,
+      "explain": "Xin phép lịch sự → Could I…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you tell me the time, please?",
+      "hint": "nhờ",
+      "answers": [
+        "Could",
+        "Can"
+      ],
+      "explain": "Nhờ → Could / Can you."
+    },
+    {
+      "type": "fill",
+      "prompt": "Could you ___ this word for me?",
+      "hint": "spell",
+      "answers": [
+        "spell"
+      ],
+      "explain": "Could + nguyên mẫu."
+    },
+    {
+      "type": "fill",
+      "prompt": "Would you mind ___ a photo of us?",
+      "hint": "take",
+      "answers": [
+        "taking"
+      ],
+      "explain": "Would you mind + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Can I borrow your pen? Sure, ___ you are.",
+      "hint": "trả lời",
+      "answers": [
+        "here"
+      ],
+      "explain": "Here you are = đây ạ."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ I ask you a question?",
+      "hint": "xin phép",
+      "answers": [
+        "Can",
+        "Could",
+        "May"
+      ],
+      "explain": "Xin phép → Can / Could / May I."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn nói lại được không?",
+      "words": [
+        "Could",
+        "you",
+        "say",
+        "that",
+        "again?"
+      ],
+      "explain": "Could + you + V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi mở cửa sổ được không?",
+      "words": [
+        "Can",
+        "I",
+        "open",
+        "the",
+        "window?"
+      ],
+      "explain": "Xin phép → Can I."
+    },
+    {
+      "type": "fix",
+      "sentence": "May you give me a hand?",
+      "answers": [
+        "Could you give me a hand?"
+      ],
+      "explain": "Nhờ → Could you."
+    },
+    {
+      "type": "fix",
+      "sentence": "Would you mind to close the door?",
+      "answers": [
+        "Would you mind closing the door?"
+      ],
+      "explain": "Would you mind + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "Could you to repeat that?",
+      "answers": [
+        "Could you repeat that?"
+      ],
+      "explain": "Could + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn giúp tôi được không?",
+      "answers": [
+        "Could you help me?",
+        "Can you help me?",
+        "Could you help me, please?",
+        "Can you help me, please?"
+      ],
+      "explain": "Could / Can you + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi dùng nhà vệ sinh được không?",
+      "answers": [
+        "Can I use the bathroom?",
+        "Could I use the bathroom?",
+        "May I use the bathroom?",
+        "Can I use the toilet?",
+        "Could I use the toilet?",
+        "May I use the toilet?",
+        "Can I use the restroom?",
+        "Could I use the restroom?",
+        "May I use the restroom?"
+      ],
+      "explain": "Xin phép → Can / Could / May I."
+    }
+  ]
+}

@@ -19,7 +19,7 @@ export default async function GrammarLessonPage({ params }: PageProps<"/lessons/
   const { id } = await params;
   const lesson = getGrammarLesson(id);
   if (!lesson) notFound();
-  const number = getSyllabus().find((s) => s.id === id)?.number;
+  const number = getSyllabus(lesson.level).find((s) => s.id === id)?.number;
   const { next } = neighbours(id);
 
   return (

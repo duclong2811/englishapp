@@ -1,0 +1,406 @@
+{
+  "id": "articles-the",
+  "level": "A2",
+  "title": "The hay không có mạo từ",
+  "summary": "Khi nào dùng the, khi nào không dùng mạo từ: nói chung, nói riêng, tên riêng, bữa ăn, nơi chốn quen thuộc.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Do you like [[coffee]]?",
+      "vi": "Bạn có thích cà phê không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, but [[the coffee]] in this café is too strong.",
+      "vi": "Có, nhưng cà phê ở quán này đặc quá."
+    },
+    {
+      "who": "A",
+      "en": "Let's go to [[the café]] near [[the river]] then.",
+      "vi": "Thế mình ra quán gần sông đi."
+    },
+    {
+      "who": "B",
+      "en": "OK. After that I have to go to [[work]].",
+      "vi": "Ừ. Sau đó mình phải đi làm."
+    },
+    {
+      "who": "A",
+      "en": "Me too. I usually have [[lunch]] at the office.",
+      "vi": "Mình cũng vậy. Mình hay ăn trưa ở văn phòng."
+    },
+    {
+      "who": "B",
+      "en": "Then let's meet again on [[Sunday]].",
+      "vi": "Vậy Chủ nhật gặp lại nhé."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Nói chung",
+      "heading": "Nói chung chung: không dùng the",
+      "rule": "Nói về sự vật **nói chung** (tất cả, bất kỳ) → **không dùng the**: danh từ **số nhiều** hoặc **không đếm được**.",
+      "body": [
+        "Người Việt hay thêm *the* vì nghĩ là *cái, con, những*. Nhưng *I like dogs* (tôi thích chó nói chung) không có the."
+      ],
+      "examples": [
+        {
+          "en": "I love [[music]].",
+          "vi": "Tôi yêu âm nhạc.",
+          "why": "Âm nhạc nói chung → không có the."
+        },
+        {
+          "en": "[[Cats]] sleep a lot.",
+          "vi": "Mèo ngủ nhiều.",
+          "why": "Mèo nói chung, số nhiều → không có the."
+        },
+        {
+          "en": "[[Rice]] is cheap in Vietnam.",
+          "vi": "Ở Việt Nam gạo rẻ.",
+          "why": "Gạo nói chung, không đếm được → không có the."
+        }
+      ],
+      "check": {
+        "prompt": "I don't like ___.",
+        "options": [
+          "spicy food",
+          "the spicy food"
+        ],
+        "answer": 0,
+        "explain": "Đồ cay nói chung → không có the."
+      }
+    },
+    {
+      "part": "Nói riêng",
+      "heading": "Đã biết, cụ thể, duy nhất: dùng the",
+      "rule": "Dùng **the** khi người nghe **biết rõ là cái nào**: đã nhắc đến, được xác định rõ, hoặc **duy nhất**.",
+      "body": [],
+      "table": {
+        "head": [
+          "Trường hợp",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "đã nhắc đến trước",
+            "I bought a shirt. The shirt is blue."
+          ],
+          [
+            "được xác định rõ",
+            "the coffee in this café"
+          ],
+          [
+            "chỉ có một",
+            "the sun, the sky, the internet"
+          ],
+          [
+            "cả hai cùng biết",
+            "Close the door, please."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[The]] music at the party was too loud.",
+          "vi": "Nhạc ở bữa tiệc to quá.",
+          "why": "Nhạc cụ thể (ở bữa tiệc) → the."
+        },
+        {
+          "en": "I saw a dog. [[The]] dog was very big.",
+          "vi": "Tôi thấy một con chó. Con chó đó rất to.",
+          "why": "Lần đầu → a; nhắc lại → the."
+        },
+        {
+          "en": "[[The]] sun rises at 5:30 in summer.",
+          "vi": "Mùa hè mặt trời mọc lúc 5 giờ 30.",
+          "why": "Chỉ có một mặt trời → the."
+        }
+      ],
+      "check": {
+        "prompt": "Can you turn off ___ light?",
+        "options": [
+          "the",
+          "a"
+        ],
+        "answer": 0,
+        "explain": "Cả hai đều biết là đèn nào → the."
+      }
+    },
+    {
+      "part": "Không dùng the",
+      "heading": "Tên riêng, bữa ăn, môn học, ngày tháng",
+      "rule": "Không dùng the với: **tên người, thành phố, phần lớn tên nước**, **bữa ăn**, **môn học, môn thể thao**, **ngày, tháng**.",
+      "body": [
+        "Ngoại lệ hay gặp: **the USA, the UK, the Philippines** (tên nước có *States, Kingdom* hoặc số nhiều)."
+      ],
+      "table": {
+        "head": [
+          "Không dùng the",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "tên người, thành phố, nước",
+            "Lan, Hanoi, Vietnam, Japan"
+          ],
+          [
+            "bữa ăn",
+            "have breakfast, lunch, dinner"
+          ],
+          [
+            "môn học, thể thao",
+            "study English, play football"
+          ],
+          [
+            "ngày, tháng",
+            "on Monday, in May"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "We have [[dinner]] at 7.",
+          "vi": "Nhà tôi ăn tối lúc 7 giờ.",
+          "why": "Bữa ăn → không có the."
+        },
+        {
+          "en": "My son plays [[football]] on [[Saturdays]].",
+          "vi": "Con trai tôi đá bóng vào thứ Bảy.",
+          "why": "Môn thể thao, ngày → không có the."
+        },
+        {
+          "en": "She lives in [[the USA]].",
+          "vi": "Cô ấy sống ở Mỹ.",
+          "why": "Ngoại lệ: the USA."
+        }
+      ],
+      "check": {
+        "prompt": "I usually have ___ at 12.",
+        "options": [
+          "lunch",
+          "the lunch"
+        ],
+        "answer": 0,
+        "explain": "Bữa ăn → không có the."
+      }
+    },
+    {
+      "part": "Nơi chốn",
+      "heading": "Go to school, go to work, go home",
+      "rule": "**go to school / work / bed / hospital** (đúng mục đích) → không có the. **go home** → không có to.",
+      "body": [
+        "*Go to school* = đi học. *Go to the school* = đến trường vì việc khác (ví dụ họp phụ huynh)."
+      ],
+      "examples": [
+        {
+          "en": "I go to [[work]] by bus.",
+          "vi": "Tôi đi làm bằng xe buýt.",
+          "why": "Go to work → không có the."
+        },
+        {
+          "en": "It's late. Let's go [[home]].",
+          "vi": "Muộn rồi. Về nhà thôi.",
+          "why": "Go home → không có to, không có the."
+        }
+      ],
+      "check": {
+        "prompt": "What time do you go ___?",
+        "options": [
+          "to bed",
+          "to the bed"
+        ],
+        "answer": 0,
+        "explain": "Đi ngủ → go to bed."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I like the music. (nói chung)",
+      "right": "I like music.",
+      "why": "Nói chung → không có the."
+    },
+    {
+      "wrong": "We have the breakfast at 7.",
+      "right": "We have breakfast at 7.",
+      "why": "Bữa ăn → không có the."
+    },
+    {
+      "wrong": "I go to the home after work.",
+      "right": "I go home after work.",
+      "why": "Go home → không có to, không có the."
+    },
+    {
+      "wrong": "She lives in the Vietnam.",
+      "right": "She lives in Vietnam.",
+      "why": "Tên nước → không có the."
+    },
+    {
+      "wrong": "Sun is very hot today.",
+      "right": "The sun is very hot today.",
+      "why": "Chỉ có một → the sun."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ are my favorite animals.",
+      "options": [
+        "Dogs",
+        "The dogs",
+        "A dogs"
+      ],
+      "answer": 0,
+      "explain": "Nói chung, số nhiều → không có the."
+    },
+    {
+      "type": "choice",
+      "prompt": "Can you close ___ window, please?",
+      "options": [
+        "the",
+        "a"
+      ],
+      "answer": 0,
+      "explain": "Cả hai đều biết cửa sổ nào → the."
+    },
+    {
+      "type": "choice",
+      "prompt": "My brother studies ___ at university.",
+      "options": [
+        "economics",
+        "the economics"
+      ],
+      "answer": 0,
+      "explain": "Môn học → không có the."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I went home early.",
+        "I went to home early.",
+        "I went to the home early."
+      ],
+      "answer": 0,
+      "explain": "Go home."
+    },
+    {
+      "type": "fill",
+      "prompt": "We usually have ___ at 6:30.",
+      "hint": "bữa tối",
+      "answers": [
+        "dinner"
+      ],
+      "explain": "Bữa ăn → không có the."
+    },
+    {
+      "type": "fill",
+      "prompt": "I bought a cake. ___ cake was delicious.",
+      "hint": "mạo từ",
+      "answers": [
+        "The"
+      ],
+      "explain": "Nhắc lại lần hai → The."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ moon is beautiful tonight.",
+      "hint": "mạo từ",
+      "answers": [
+        "The"
+      ],
+      "explain": "Chỉ có một mặt trăng → The."
+    },
+    {
+      "type": "fill",
+      "prompt": "My father goes to ___ by motorbike.",
+      "hint": "đi làm",
+      "answers": [
+        "work"
+      ],
+      "explain": "Go to work."
+    },
+    {
+      "type": "fill",
+      "prompt": "She is from ___ Philippines.",
+      "hint": "mạo từ",
+      "answers": [
+        "the"
+      ],
+      "explain": "Ngoại lệ: the Philippines."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thích đọc sách.",
+      "words": [
+        "I",
+        "like",
+        "reading",
+        "books."
+      ],
+      "explain": "Nói chung → không có the."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đi học lúc 7 giờ.",
+      "words": [
+        "I",
+        "go",
+        "to",
+        "school",
+        "at",
+        "7."
+      ],
+      "explain": "Go to school."
+    },
+    {
+      "type": "fix",
+      "sentence": "I play the football every weekend.",
+      "answers": [
+        "I play football every weekend."
+      ],
+      "explain": "Môn thể thao → không có the."
+    },
+    {
+      "type": "fix",
+      "sentence": "The life is beautiful.",
+      "answers": [
+        "Life is beautiful."
+      ],
+      "explain": "Nói chung → không có the."
+    },
+    {
+      "type": "fix",
+      "sentence": "Let's go to home.",
+      "answers": [
+        "Let's go home."
+      ],
+      "explain": "Go home không có to."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi thích cà phê.",
+      "answers": [
+        "I like coffee.",
+        "I love coffee."
+      ],
+      "explain": "Nói chung → không có the."
+    },
+    {
+      "type": "translate",
+      "vi": "Cà phê ở quán này rất ngon.",
+      "answers": [
+        "The coffee in this café is very good.",
+        "The coffee at this café is very good.",
+        "The coffee in this cafe is very good.",
+        "The coffee at this cafe is very good.",
+        "The coffee here is very good.",
+        "The coffee in this café is really good.",
+        "The coffee at this café is really good.",
+        "The coffee in this café is delicious.",
+        "The coffee at this café is delicious."
+      ],
+      "explain": "Cụ thể → the coffee."
+    }
+  ]
+}

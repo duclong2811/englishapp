@@ -1,0 +1,356 @@
+{
+  "id": "present-perfect-for-since",
+  "level": "A2",
+  "title": "For và since: how long",
+  "summary": "Nói việc bắt đầu trong quá khứ và vẫn còn đến nay: How long…?, for + khoảng thời gian, since + mốc.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How long [[have]] you [[worked]] here?",
+      "vi": "Bạn làm ở đây bao lâu rồi?"
+    },
+    {
+      "who": "B",
+      "en": "[[I've worked]] here [[for]] five years.",
+      "vi": "Mình làm ở đây năm năm rồi."
+    },
+    {
+      "who": "A",
+      "en": "And how long [[have]] you [[known]] Hoa?",
+      "vi": "Thế bạn quen Hoa bao lâu rồi?"
+    },
+    {
+      "who": "B",
+      "en": "[[Since]] university. We were classmates.",
+      "vi": "Từ hồi đại học. Bọn mình học cùng lớp."
+    },
+    {
+      "who": "A",
+      "en": "Do you still live in Thu Duc?",
+      "vi": "Bạn vẫn sống ở Thủ Đức à?"
+    },
+    {
+      "who": "B",
+      "en": "No, [[I've lived]] in District 7 [[since]] 2022.",
+      "vi": "Không, mình sống ở Quận 7 từ năm 2022."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cách dùng",
+      "heading": "Việc bắt đầu trong quá khứ, vẫn còn bây giờ",
+      "rule": "Việc **bắt đầu trong quá khứ** và **vẫn tiếp tục đến nay** → hiện tại hoàn thành + **for / since**.",
+      "body": [
+        "Tiếng Việt nói *Tôi sống ở đây năm năm rồi* bằng động từ không đổi. Tiếng Anh không dùng hiện tại đơn (*I live here for five years* là sai) mà phải dùng **have lived**.",
+        "Câu hỏi: **How long + have / has + S + V3?** = … bao lâu rồi?"
+      ],
+      "examples": [
+        {
+          "en": "[[I've lived]] in Hanoi for ten years.",
+          "vi": "Tôi sống ở Hà Nội mười năm rồi.",
+          "why": "Bắt đầu mười năm trước, bây giờ vẫn sống ở đó."
+        },
+        {
+          "en": "How long [[has]] she [[had]] that car?",
+          "vi": "Cô ấy có chiếc xe đó bao lâu rồi?",
+          "why": "Hỏi khoảng thời gian đến nay → How long + has + V3."
+        },
+        {
+          "en": "[[We've known]] each other since we were children.",
+          "vi": "Chúng tôi quen nhau từ hồi còn nhỏ.",
+          "why": "Vẫn quen nhau đến bây giờ."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ this phone for two years.",
+        "options": [
+          "have had",
+          "have",
+          "had"
+        ],
+        "answer": 0,
+        "explain": "Có từ hai năm trước đến nay → have had."
+      }
+    },
+    {
+      "part": "For hay since",
+      "heading": "For + khoảng thời gian, since + mốc thời gian",
+      "rule": "**for** + **khoảng** thời gian (bao lâu). **since** + **mốc** thời gian (từ khi nào).",
+      "body": [
+        "Mẹo: hỏi *bao lâu?* thì dùng **for**; hỏi *từ bao giờ?* thì dùng **since**. Sau since có thể là cả một mệnh đề quá khứ: *since I moved here*."
+      ],
+      "table": {
+        "head": [
+          "for (khoảng thời gian)",
+          "since (mốc thời gian)"
+        ],
+        "rows": [
+          [
+            "for three days",
+            "since Monday"
+          ],
+          [
+            "for two weeks",
+            "since June"
+          ],
+          [
+            "for ten years",
+            "since 2015"
+          ],
+          [
+            "for a long time",
+            "since I was a child"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "She has worked here [[for]] six months.",
+          "vi": "Cô ấy làm ở đây được sáu tháng.",
+          "why": "Six months là khoảng thời gian → for."
+        },
+        {
+          "en": "She has worked here [[since]] March.",
+          "vi": "Cô ấy làm ở đây từ tháng Ba.",
+          "why": "March là mốc thời gian → since."
+        },
+        {
+          "en": "I haven't seen him [[since]] we left school.",
+          "vi": "Tôi không gặp cậu ấy từ khi ra trường.",
+          "why": "Since + mệnh đề quá khứ (we left school)."
+        }
+      ],
+      "check": {
+        "prompt": "They've been married ___ 2010.",
+        "options": [
+          "since",
+          "for"
+        ],
+        "answer": 0,
+        "explain": "2010 là mốc → since."
+      }
+    },
+    {
+      "part": "Câu hỏi, phủ định",
+      "heading": "How long và haven't… for / since",
+      "rule": "Phủ định với for/since = **đã lâu không** làm gì: *I haven't seen her for a year.*",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[haven't eaten]] meat for a month.",
+          "vi": "Tôi không ăn thịt một tháng nay rồi.",
+          "why": "Phủ định kéo dài đến nay → haven't + V3 + for."
+        },
+        {
+          "en": "How long [[have]] you [[been]] a teacher?",
+          "vi": "Bạn làm giáo viên bao lâu rồi?",
+          "why": "How long + have + you + been."
+        },
+        {
+          "en": "It [[hasn't rained]] since last week.",
+          "vi": "Từ tuần trước đến giờ trời không mưa.",
+          "why": "Since + mốc (last week)."
+        }
+      ],
+      "check": {
+        "prompt": "I haven't talked to him ___ ages.",
+        "options": [
+          "for",
+          "since"
+        ],
+        "answer": 0,
+        "explain": "Ages (rất lâu) là khoảng thời gian → for."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I live here for five years.",
+      "right": "I have lived here for five years.",
+      "why": "Việc kéo dài đến nay → hiện tại hoàn thành, không dùng hiện tại đơn."
+    },
+    {
+      "wrong": "I have worked here since three years.",
+      "right": "I have worked here for three years.",
+      "why": "Three years là khoảng thời gian → for."
+    },
+    {
+      "wrong": "She has lived in Hue for 2020.",
+      "right": "She has lived in Hue since 2020.",
+      "why": "2020 là mốc thời gian → since."
+    },
+    {
+      "wrong": "How long do you know her?",
+      "right": "How long have you known her?",
+      "why": "Hỏi bao lâu đến nay → How long have you + V3."
+    },
+    {
+      "wrong": "I am a teacher since 2018.",
+      "right": "I have been a teacher since 2018.",
+      "why": "Since + mốc → have been."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "We have lived in this house ___ 2015.",
+      "options": [
+        "since",
+        "for",
+        "from"
+      ],
+      "answer": 0,
+      "explain": "2015 là mốc → since."
+    },
+    {
+      "type": "choice",
+      "prompt": "He has played the guitar ___ ten years.",
+      "options": [
+        "for",
+        "since",
+        "in"
+      ],
+      "answer": 0,
+      "explain": "Ten years là khoảng thời gian → for."
+    },
+    {
+      "type": "choice",
+      "prompt": "How long ___ you known your best friend?",
+      "options": [
+        "have",
+        "do",
+        "are"
+      ],
+      "answer": 0,
+      "explain": "How long + have + you + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I know him for a long time.",
+        "I have known him for a long time."
+      ],
+      "answer": 1,
+      "explain": "Kéo dài đến nay → have known."
+    },
+    {
+      "type": "fill",
+      "prompt": "My parents ___ married for thirty years.",
+      "hint": "be",
+      "answers": [
+        "have been",
+        "'ve been"
+      ],
+      "explain": "Kéo dài đến nay → have been."
+    },
+    {
+      "type": "fill",
+      "prompt": "I haven't seen Mai ___ her birthday party.",
+      "hint": "for / since",
+      "answers": [
+        "since"
+      ],
+      "explain": "Her birthday party là mốc → since."
+    },
+    {
+      "type": "fill",
+      "prompt": "She has studied English ___ six months.",
+      "hint": "for / since",
+      "answers": [
+        "for"
+      ],
+      "explain": "Six months là khoảng thời gian → for."
+    },
+    {
+      "type": "fill",
+      "prompt": "How long ___ your sister lived in Canada?",
+      "hint": "trợ động từ",
+      "answers": [
+        "has"
+      ],
+      "explain": "Your sister = she → has."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ this job since I finished university.",
+      "hint": "have",
+      "answers": [
+        "have had",
+        "'ve had"
+      ],
+      "explain": "Since + mệnh đề → have had."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn học tiếng Anh bao lâu rồi?",
+      "words": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "studied",
+        "English?"
+      ],
+      "explain": "How long + have + you + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi không gặp cô ấy từ tháng trước.",
+      "words": [
+        "I",
+        "haven't",
+        "seen",
+        "her",
+        "since",
+        "last",
+        "month."
+      ],
+      "explain": "Haven't + seen + since + mốc."
+    },
+    {
+      "type": "fix",
+      "sentence": "I work here since 2019.",
+      "answers": [
+        "I have worked here since 2019."
+      ],
+      "explain": "Since + mốc → hiện tại hoàn thành."
+    },
+    {
+      "type": "fix",
+      "sentence": "They have been friends since ten years.",
+      "answers": [
+        "They have been friends for ten years."
+      ],
+      "explain": "Ten years là khoảng thời gian → for."
+    },
+    {
+      "type": "fix",
+      "sentence": "How long are you married?",
+      "answers": [
+        "How long have you been married?"
+      ],
+      "explain": "Hỏi bao lâu đến nay → How long have you been."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi sống ở Đà Nẵng ba năm rồi.",
+      "answers": [
+        "I've lived in Da Nang for three years.",
+        "I have lived in Da Nang for three years.",
+        "I've been living in Da Nang for three years.",
+        "I have been living in Da Nang for three years."
+      ],
+      "explain": "Have lived + for + khoảng thời gian."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi quen nhau từ năm 2018.",
+      "answers": [
+        "We've known each other since 2018.",
+        "We have known each other since 2018."
+      ],
+      "explain": "Have known + since + mốc."
+    }
+  ]
+}

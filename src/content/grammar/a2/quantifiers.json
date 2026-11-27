@@ -1,0 +1,376 @@
+{
+  "id": "quantifiers",
+  "level": "A2",
+  "title": "Much, many, a few, a little, a lot of",
+  "summary": "Nói số lượng nhiều, ít với danh từ đếm được và không đếm được: many, much, a lot of, a few, a little, few, little.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was the market?",
+      "vi": "Đi chợ thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "Busy! There were [[a lot of]] people.",
+      "vi": "Đông lắm! Rất nhiều người."
+    },
+    {
+      "who": "A",
+      "en": "Did you buy [[many]] vegetables?",
+      "vi": "Bạn có mua nhiều rau không?"
+    },
+    {
+      "who": "B",
+      "en": "Just [[a few]] tomatoes and [[a little]] garlic.",
+      "vi": "Chỉ vài quả cà chua và một ít tỏi."
+    },
+    {
+      "who": "A",
+      "en": "Do we have [[much]] rice left?",
+      "vi": "Nhà mình còn nhiều gạo không?"
+    },
+    {
+      "who": "B",
+      "en": "Not [[much]]. We need to buy some tomorrow.",
+      "vi": "Không nhiều. Mai phải mua thêm."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Nhiều",
+      "heading": "Many, much, a lot of",
+      "rule": "**many** + danh từ **đếm được** số nhiều. **much** + danh từ **không đếm được**. **a lot of** dùng được cho **cả hai**.",
+      "body": [
+        "Trong câu **khẳng định**, người bản xứ thường dùng **a lot of** (*I have a lot of friends*). **Much** và **many** hay dùng trong câu **phủ định** và **câu hỏi**."
+      ],
+      "table": {
+        "head": [
+          "Từ",
+          "Đi với",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "many",
+            "đếm được số nhiều",
+            "many books, many people"
+          ],
+          [
+            "much",
+            "không đếm được",
+            "much water, much time"
+          ],
+          [
+            "a lot of",
+            "cả hai",
+            "a lot of books, a lot of water"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "She has [[a lot of]] friends in Hanoi.",
+          "vi": "Cô ấy có nhiều bạn ở Hà Nội.",
+          "why": "Câu khẳng định → a lot of."
+        },
+        {
+          "en": "I don't have [[much]] time today.",
+          "vi": "Hôm nay tôi không có nhiều thời gian.",
+          "why": "Time không đếm được, câu phủ định → much."
+        },
+        {
+          "en": "Are there [[many]] tourists in Hoi An?",
+          "vi": "Ở Hội An có nhiều khách du lịch không?",
+          "why": "Tourists đếm được, câu hỏi → many."
+        }
+      ],
+      "check": {
+        "prompt": "We don't have ___ milk.",
+        "options": [
+          "much",
+          "many"
+        ],
+        "answer": 0,
+        "explain": "Milk không đếm được → much."
+      }
+    },
+    {
+      "part": "Ít",
+      "heading": "A few, a little: một vài, một ít",
+      "rule": "**a few** + đếm được số nhiều (một vài). **a little** + không đếm được (một ít). Nghĩa **tích cực**: có, đủ dùng.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I have [[a few]] questions.",
+          "vi": "Tôi có vài câu hỏi.",
+          "why": "Questions đếm được → a few."
+        },
+        {
+          "en": "Can I have [[a little]] sugar in my coffee?",
+          "vi": "Cho tôi một ít đường vào cà phê nhé?",
+          "why": "Sugar không đếm được → a little."
+        },
+        {
+          "en": "We stayed in Hue for [[a few]] days.",
+          "vi": "Chúng tôi ở Huế vài ngày.",
+          "why": "Days đếm được → a few."
+        }
+      ],
+      "check": {
+        "prompt": "Add ___ salt to the soup.",
+        "options": [
+          "a little",
+          "a few"
+        ],
+        "answer": 0,
+        "explain": "Salt không đếm được → a little."
+      }
+    },
+    {
+      "part": "Few, little",
+      "heading": "Few, little (không có a): rất ít, gần như không",
+      "rule": "**few / little** (không có **a**) = **rất ít, không đủ**, mang nghĩa **tiêu cực**.",
+      "body": [
+        "So sánh: *I have a few friends* (tôi có vài người bạn, ổn). *I have few friends* (tôi có rất ít bạn, buồn).",
+        "Khi nói hằng ngày, người ta hay dùng *not many / not much* thay cho few / little."
+      ],
+      "examples": [
+        {
+          "en": "[[Few]] people came to the meeting.",
+          "vi": "Rất ít người đến họp.",
+          "why": "Few = rất ít, đáng thất vọng."
+        },
+        {
+          "en": "There is [[little]] water in the river this summer.",
+          "vi": "Hè này sông gần như cạn nước.",
+          "why": "Little = gần như không có."
+        }
+      ],
+      "check": {
+        "prompt": "He's lonely. He has ___ friends.",
+        "options": [
+          "few",
+          "a few"
+        ],
+        "answer": 0,
+        "explain": "Cô đơn → rất ít bạn → few."
+      }
+    },
+    {
+      "part": "Câu hỏi",
+      "heading": "How many, how much",
+      "rule": "Hỏi số lượng: **How many** + đếm được số nhiều; **How much** + không đếm được (và hỏi **giá**).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[How many]] people work here?",
+          "vi": "Có bao nhiêu người làm ở đây?",
+          "why": "People đếm được → how many."
+        },
+        {
+          "en": "[[How much]] money do you need?",
+          "vi": "Bạn cần bao nhiêu tiền?",
+          "why": "Money không đếm được → how much."
+        }
+      ],
+      "check": {
+        "prompt": "___ coffee do you drink a day?",
+        "options": [
+          "How much",
+          "How many"
+        ],
+        "answer": 0,
+        "explain": "Coffee không đếm được → how much."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I have much friends.",
+      "right": "I have a lot of friends.",
+      "why": "Friends đếm được; câu khẳng định dùng a lot of."
+    },
+    {
+      "wrong": "How many money do you have?",
+      "right": "How much money do you have?",
+      "why": "Money không đếm được → how much."
+    },
+    {
+      "wrong": "There are a little apples.",
+      "right": "There are a few apples.",
+      "why": "Apples đếm được → a few."
+    },
+    {
+      "wrong": "I need a few information.",
+      "right": "I need a little information.",
+      "why": "Information không đếm được → a little."
+    },
+    {
+      "wrong": "She has a lot friends.",
+      "right": "She has a lot of friends.",
+      "why": "Thiếu of: a lot of."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "There aren't ___ cars on the road today.",
+      "options": [
+        "many",
+        "much",
+        "a little"
+      ],
+      "answer": 0,
+      "explain": "Cars đếm được, phủ định → many."
+    },
+    {
+      "type": "choice",
+      "prompt": "I only need ___ minutes.",
+      "options": [
+        "a few",
+        "a little",
+        "much"
+      ],
+      "answer": 0,
+      "explain": "Minutes đếm được → a few."
+    },
+    {
+      "type": "choice",
+      "prompt": "Did you spend ___ money on the trip?",
+      "options": [
+        "much",
+        "many",
+        "a few"
+      ],
+      "answer": 0,
+      "explain": "Money không đếm được → much."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào có nghĩa tích cực?",
+      "options": [
+        "I have a little time, so I can help.",
+        "I have little time, so I can't help."
+      ],
+      "answer": 0,
+      "explain": "A little = một ít, đủ dùng."
+    },
+    {
+      "type": "fill",
+      "prompt": "How ___ brothers and sisters do you have?",
+      "hint": "số lượng",
+      "answers": [
+        "many"
+      ],
+      "explain": "Brothers đếm được → how many."
+    },
+    {
+      "type": "fill",
+      "prompt": "She drinks ___ of water every day.",
+      "hint": "rất nhiều",
+      "answers": [
+        "a lot"
+      ],
+      "explain": "A lot of + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "Can you give me ___ help with this?",
+      "hint": "một ít",
+      "answers": [
+        "a little"
+      ],
+      "explain": "Help không đếm được → a little."
+    },
+    {
+      "type": "fill",
+      "prompt": "There are only ___ eggs left. We need to buy more.",
+      "hint": "một vài",
+      "answers": [
+        "a few"
+      ],
+      "explain": "Eggs đếm được → a few."
+    },
+    {
+      "type": "fill",
+      "prompt": "How ___ does this shirt cost?",
+      "hint": "hỏi giá",
+      "answers": [
+        "much"
+      ],
+      "explain": "Hỏi giá → how much."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi không có nhiều thời gian.",
+      "words": [
+        "I",
+        "don't",
+        "have",
+        "much",
+        "time."
+      ],
+      "explain": "Phủ định + much + time."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi có vài người bạn ở Đà Nẵng.",
+      "words": [
+        "I",
+        "have",
+        "a",
+        "few",
+        "friends",
+        "in",
+        "Da",
+        "Nang."
+      ],
+      "explain": "A few + đếm được."
+    },
+    {
+      "type": "fix",
+      "sentence": "How many sugar do you want?",
+      "answers": [
+        "How much sugar do you want?"
+      ],
+      "explain": "Sugar không đếm được → how much."
+    },
+    {
+      "type": "fix",
+      "sentence": "We have a few rice left.",
+      "answers": [
+        "We have a little rice left."
+      ],
+      "explain": "Rice không đếm được → a little."
+    },
+    {
+      "type": "fix",
+      "sentence": "There were much people at the concert.",
+      "answers": [
+        "There were a lot of people at the concert."
+      ],
+      "explain": "People đếm được, khẳng định → a lot of."
+    },
+    {
+      "type": "translate",
+      "vi": "Có rất nhiều xe máy ở Hà Nội.",
+      "answers": [
+        "There are a lot of motorbikes in Hanoi.",
+        "There are lots of motorbikes in Hanoi.",
+        "There are many motorbikes in Hanoi.",
+        "Hanoi has a lot of motorbikes.",
+        "Hanoi has lots of motorbikes.",
+        "Hanoi has many motorbikes."
+      ],
+      "explain": "A lot of / many + đếm được."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn cần bao nhiêu tiền?",
+      "answers": [
+        "How much money do you need?"
+      ],
+      "explain": "Money → how much."
+    }
+  ]
+}

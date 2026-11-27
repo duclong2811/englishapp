@@ -1,0 +1,343 @@
+{
+  "id": "linking-words",
+  "level": "A2",
+  "title": "And, but, so, because, although",
+  "summary": "Nối ý trong câu: and (thêm), but và although (đối lập), because (lý do), so (kết quả).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was your trip to Sa Pa?",
+      "vi": "Chuyến đi Sa Pa thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "It was beautiful, [[but]] it was really cold.",
+      "vi": "Đẹp lắm, nhưng lạnh kinh khủng."
+    },
+    {
+      "who": "A",
+      "en": "Did you climb Fansipan?",
+      "vi": "Bạn có leo Fansipan không?"
+    },
+    {
+      "who": "B",
+      "en": "No, [[because]] it rained all day.",
+      "vi": "Không, vì trời mưa cả ngày."
+    },
+    {
+      "who": "A",
+      "en": "That's a pity. [[Although]] it rained, did you have fun?",
+      "vi": "Tiếc nhỉ. Dù mưa, bạn có vui không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes! I bought a warm jacket, [[so]] I was OK. [[And]] the food was great!",
+      "vi": "Có! Mình mua một cái áo ấm nên không sao. Mà đồ ăn ngon lắm!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "And, but",
+      "heading": "And: thêm ý. But: ý ngược lại",
+      "rule": "**and** = và (thêm ý cùng chiều). **but** = nhưng (ý ngược lại). Trước **but** thường có **dấu phẩy**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I like coffee [[and]] my wife likes tea.",
+          "vi": "Tôi thích cà phê, còn vợ tôi thích trà.",
+          "why": "And nối hai ý cùng chiều."
+        },
+        {
+          "en": "The hotel was cheap, [[but]] it was very clean.",
+          "vi": "Khách sạn rẻ nhưng rất sạch.",
+          "why": "But: ý ngược lại với mong đợi (rẻ thường không sạch)."
+        },
+        {
+          "en": "I called him, [[but]] he didn't answer.",
+          "vi": "Tôi gọi cho anh ấy nhưng anh ấy không nghe máy.",
+          "why": "Kết quả trái mong đợi → but."
+        }
+      ],
+      "check": {
+        "prompt": "The food was good, ___ the service was slow.",
+        "options": [
+          "but",
+          "and"
+        ],
+        "answer": 0,
+        "explain": "Ý ngược lại → but."
+      }
+    },
+    {
+      "part": "Because, so",
+      "heading": "Because: lý do. So: kết quả",
+      "rule": "**because** + **lý do** (vì). **so** + **kết quả** (nên). Không dùng cả hai trong một câu.",
+      "formula": [
+        {
+          "text": "Kết quả + [because] + lý do"
+        },
+        {
+          "text": "Lý do + [, so] + kết quả"
+        },
+        {
+          "label": "Sai",
+          "text": "[Because] lý do, [so] kết quả"
+        }
+      ],
+      "body": [
+        "Tiếng Việt hay nói *Vì… nên…*. Tiếng Anh chỉ chọn **một**: *Because it rained, we stayed home* hoặc *It rained, so we stayed home*. Không nói *Because it rained, so we stayed home*."
+      ],
+      "examples": [
+        {
+          "en": "I'm tired [[because]] I worked late.",
+          "vi": "Tôi mệt vì làm việc khuya.",
+          "why": "Because + lý do (worked late)."
+        },
+        {
+          "en": "It was raining, [[so]] we took a taxi.",
+          "vi": "Trời mưa nên chúng tôi đi taxi.",
+          "why": "So + kết quả (took a taxi)."
+        },
+        {
+          "en": "[[Because]] the shop was closed, we went home.",
+          "vi": "Vì cửa hàng đóng cửa nên chúng tôi về nhà.",
+          "why": "Because đứng đầu câu → không thêm so."
+        }
+      ],
+      "check": {
+        "prompt": "I was hungry, ___ I made some noodles.",
+        "options": [
+          "so",
+          "because"
+        ],
+        "answer": 0,
+        "explain": "Nấu mì là kết quả → so."
+      }
+    },
+    {
+      "part": "Although",
+      "heading": "Although: mặc dù",
+      "rule": "**although** = mặc dù. Không dùng **but** trong cùng câu với although.",
+      "body": [
+        "Tiếng Việt nói *Mặc dù… nhưng…*. Tiếng Anh chỉ chọn **một**: *Although it was late, we stayed* hoặc *It was late, but we stayed*."
+      ],
+      "examples": [
+        {
+          "en": "[[Although]] it was expensive, I bought it.",
+          "vi": "Mặc dù đắt, tôi vẫn mua.",
+          "why": "Although đầu câu → không thêm but."
+        },
+        {
+          "en": "She went to work [[although]] she was sick.",
+          "vi": "Cô ấy vẫn đi làm dù đang ốm.",
+          "why": "Although giữa câu → không cần dấu phẩy."
+        }
+      ],
+      "check": {
+        "prompt": "___ he studied hard, he failed the test.",
+        "options": [
+          "Although",
+          "Because"
+        ],
+        "answer": 0,
+        "explain": "Học chăm mà vẫn trượt → ý ngược lại → Although."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Because it rained, so we stayed home.",
+      "right": "Because it rained, we stayed home.",
+      "why": "Chỉ dùng because hoặc so, không dùng cả hai."
+    },
+    {
+      "wrong": "Although it was cold, but we went swimming.",
+      "right": "Although it was cold, we went swimming.",
+      "why": "Chỉ dùng although hoặc but."
+    },
+    {
+      "wrong": "I was tired, because I went to bed early.",
+      "right": "I was tired, so I went to bed early.",
+      "why": "Đi ngủ sớm là kết quả → so."
+    },
+    {
+      "wrong": "She is kind but she is beautiful.",
+      "right": "She is kind and she is beautiful.",
+      "why": "Hai ý cùng chiều → and."
+    },
+    {
+      "wrong": "I stayed home so I was sick.",
+      "right": "I stayed home because I was sick.",
+      "why": "Bị ốm là lý do → because."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I couldn't sleep ___ the room was too hot.",
+      "options": [
+        "because",
+        "so",
+        "but"
+      ],
+      "answer": 0,
+      "explain": "Phòng nóng là lý do → because."
+    },
+    {
+      "type": "choice",
+      "prompt": "It was late, ___ we took a Grab home.",
+      "options": [
+        "so",
+        "because",
+        "although"
+      ],
+      "answer": 0,
+      "explain": "Đi Grab là kết quả → so."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ the weather was bad, we enjoyed the trip.",
+      "options": [
+        "Although",
+        "Because",
+        "So"
+      ],
+      "answer": 0,
+      "explain": "Thời tiết xấu mà vẫn vui → although."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Because I was late, I took a taxi.",
+        "Because I was late, so I took a taxi."
+      ],
+      "answer": 0,
+      "explain": "Không dùng cả because và so."
+    },
+    {
+      "type": "fill",
+      "prompt": "I like Hanoi, ___ I don't like the traffic.",
+      "hint": "nhưng",
+      "answers": [
+        "but"
+      ],
+      "explain": "Ý ngược lại → but."
+    },
+    {
+      "type": "fill",
+      "prompt": "She speaks English ___ Japanese.",
+      "hint": "và",
+      "answers": [
+        "and"
+      ],
+      "explain": "Thêm ý → and."
+    },
+    {
+      "type": "fill",
+      "prompt": "We stayed inside ___ it was raining.",
+      "hint": "vì",
+      "answers": [
+        "because"
+      ],
+      "explain": "Lý do → because."
+    },
+    {
+      "type": "fill",
+      "prompt": "The phone was cheap, ___ I bought two.",
+      "hint": "nên",
+      "answers": [
+        "so"
+      ],
+      "explain": "Kết quả → so."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ he's only ten, he plays the piano very well.",
+      "hint": "mặc dù",
+      "answers": [
+        "Although"
+      ],
+      "explain": "Mặc dù → Although."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đói nên tôi ăn một cái bánh mì.",
+      "words": [
+        "I",
+        "was",
+        "hungry",
+        "so",
+        "I",
+        "ate",
+        "a",
+        "sandwich."
+      ],
+      "explain": "So + kết quả."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy ở nhà vì cô ấy bị ốm.",
+      "words": [
+        "She",
+        "stayed",
+        "at",
+        "home",
+        "because",
+        "she",
+        "was",
+        "sick."
+      ],
+      "explain": "Because + lý do."
+    },
+    {
+      "type": "fix",
+      "sentence": "Because I was busy, so I didn't call you.",
+      "answers": [
+        "Because I was busy, I didn't call you."
+      ],
+      "explain": "Bỏ so."
+    },
+    {
+      "type": "fix",
+      "sentence": "Although it was cheap, but it was good.",
+      "answers": [
+        "Although it was cheap, it was good."
+      ],
+      "explain": "Bỏ but."
+    },
+    {
+      "type": "fix",
+      "sentence": "He was sick, because he stayed in bed.",
+      "answers": [
+        "He was sick, so he stayed in bed."
+      ],
+      "explain": "Nằm nghỉ là kết quả → so."
+    },
+    {
+      "type": "translate",
+      "vi": "Trời mưa nên chúng tôi ở nhà.",
+      "answers": [
+        "It rained, so we stayed home.",
+        "It rained, so we stayed at home.",
+        "It was raining, so we stayed home.",
+        "It was raining, so we stayed at home.",
+        "It's raining, so we're staying home.",
+        "It's raining, so we're staying at home."
+      ],
+      "explain": "So + kết quả."
+    },
+    {
+      "type": "translate",
+      "vi": "Mặc dù mệt, tôi vẫn đi làm.",
+      "answers": [
+        "Although I was tired, I went to work.",
+        "Although I was tired, I still went to work.",
+        "I went to work although I was tired.",
+        "Although I'm tired, I still go to work.",
+        "Although I am tired, I still go to work."
+      ],
+      "explain": "Although, không thêm but."
+    }
+  ]
+}

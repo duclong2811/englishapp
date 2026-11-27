@@ -1,0 +1,413 @@
+{
+  "id": "adverbs-manner",
+  "level": "A2",
+  "title": "Trạng từ cách thức: quickly, well, hard",
+  "summary": "Tả cách làm một việc bằng trạng từ (-ly), các dạng đặc biệt well, fast, hard, và so sánh trạng từ.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Your English is [[good]]! You speak very [[clearly]].",
+      "vi": "Tiếng Anh của bạn tốt quá! Bạn nói rõ ràng lắm."
+    },
+    {
+      "who": "B",
+      "en": "Thanks. I practise [[hard]] every day.",
+      "vi": "Cảm ơn. Mình luyện chăm chỉ mỗi ngày."
+    },
+    {
+      "who": "A",
+      "en": "I speak too [[quickly]] when I'm nervous.",
+      "vi": "Mình hồi hộp là nói nhanh quá."
+    },
+    {
+      "who": "B",
+      "en": "Try to speak [[slowly]] and [[calmly]].",
+      "vi": "Thử nói chậm và bình tĩnh xem."
+    },
+    {
+      "who": "A",
+      "en": "And how can I listen [[better]]?",
+      "vi": "Làm sao để nghe tốt hơn?"
+    },
+    {
+      "who": "B",
+      "en": "Watch films and listen [[carefully]].",
+      "vi": "Xem phim và nghe thật kỹ."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Tính từ + -ly",
+      "rule": "Trạng từ cách thức thường = **tính từ + -ly**. Tính từ tả **người, vật**; trạng từ tả **cách làm**.",
+      "body": [
+        "Tính từ đứng trước danh từ hoặc sau be: *a careful driver, she is careful*. Trạng từ đi với **động từ**: *she drives carefully*."
+      ],
+      "table": {
+        "head": [
+          "Tính từ",
+          "Trạng từ"
+        ],
+        "rows": [
+          [
+            "quick",
+            "quickly"
+          ],
+          [
+            "careful",
+            "carefully"
+          ],
+          [
+            "easy",
+            "easily (y → ily)"
+          ],
+          [
+            "gentle",
+            "gently (-le → -ly)"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "She's a [[careful]] driver. She drives [[carefully]].",
+          "vi": "Cô ấy là người lái xe cẩn thận. Cô ấy lái xe cẩn thận.",
+          "why": "Careful tả người (driver); carefully tả cách lái."
+        },
+        {
+          "en": "He answered the question [[easily]].",
+          "vi": "Anh ấy trả lời câu hỏi một cách dễ dàng.",
+          "why": "Easy → easily."
+        },
+        {
+          "en": "Please close the door [[quietly]].",
+          "vi": "Làm ơn đóng cửa nhẹ nhàng.",
+          "why": "Quietly tả cách đóng cửa."
+        }
+      ],
+      "check": {
+        "prompt": "He speaks English very ___.",
+        "options": [
+          "fluently",
+          "fluent"
+        ],
+        "answer": 0,
+        "explain": "Tả cách nói (động từ speaks) → trạng từ fluently."
+      }
+    },
+    {
+      "part": "Bất quy tắc",
+      "heading": "Well, fast, hard, late, early",
+      "rule": "**good → well**. **fast, hard, late, early** giữ nguyên, không thêm -ly.",
+      "body": [
+        "Cẩn thận: **hardly** nghĩa là *hầu như không*, **lately** nghĩa là *gần đây*. Chúng không phải trạng từ của hard và late."
+      ],
+      "table": {
+        "head": [
+          "Tính từ",
+          "Trạng từ"
+        ],
+        "rows": [
+          [
+            "good",
+            "well"
+          ],
+          [
+            "fast",
+            "fast"
+          ],
+          [
+            "hard",
+            "hard"
+          ],
+          [
+            "late",
+            "late"
+          ],
+          [
+            "early",
+            "early"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "She sings [[well]].",
+          "vi": "Cô ấy hát hay.",
+          "why": "Good → well."
+        },
+        {
+          "en": "He works very [[hard]].",
+          "vi": "Anh ấy làm việc rất chăm chỉ.",
+          "why": "Hard giữ nguyên, không phải hardly."
+        },
+        {
+          "en": "The train arrived [[late]].",
+          "vi": "Tàu đến muộn.",
+          "why": "Late giữ nguyên."
+        }
+      ],
+      "check": {
+        "prompt": "My brother cooks very ___.",
+        "options": [
+          "well",
+          "good"
+        ],
+        "answer": 0,
+        "explain": "Tả cách nấu → well."
+      }
+    },
+    {
+      "part": "Vị trí",
+      "heading": "Vị trí trạng từ",
+      "rule": "Trạng từ cách thức thường đứng **sau động từ** hoặc **sau tân ngữ**, không đứng giữa động từ và tân ngữ.",
+      "formula": [
+        {
+          "text": "S + V + [adv]"
+        },
+        {
+          "text": "S + V + tân ngữ + [adv]"
+        },
+        {
+          "label": "Sai",
+          "text": "S + V + [adv] + tân ngữ"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "She speaks English [[well]].",
+          "vi": "Cô ấy nói tiếng Anh giỏi.",
+          "why": "Trạng từ sau tân ngữ (English)."
+        },
+        {
+          "en": "Read the instructions [[carefully]].",
+          "vi": "Đọc kỹ hướng dẫn.",
+          "why": "Sau tân ngữ (the instructions)."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "He drives his car fast.",
+          "He drives fast his car."
+        ],
+        "answer": 0,
+        "explain": "Trạng từ sau tân ngữ."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "So sánh trạng từ",
+      "rule": "Trạng từ -ly → **more** + trạng từ. **well → better**, **fast → faster**, **hard → harder**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Could you speak [[more slowly]], please?",
+          "vi": "Bạn nói chậm hơn được không?",
+          "why": "Slowly → more slowly."
+        },
+        {
+          "en": "She runs [[faster]] than me.",
+          "vi": "Cô ấy chạy nhanh hơn tôi.",
+          "why": "Fast → faster."
+        },
+        {
+          "en": "I can swim [[better]] now.",
+          "vi": "Giờ tôi bơi giỏi hơn rồi.",
+          "why": "Well → better."
+        }
+      ],
+      "check": {
+        "prompt": "Can you drive ___? I'm scared!",
+        "options": [
+          "more carefully",
+          "carefullier"
+        ],
+        "answer": 0,
+        "explain": "Trạng từ -ly → more carefully."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She speaks English very good.",
+      "right": "She speaks English very well.",
+      "why": "Tả cách nói → well."
+    },
+    {
+      "wrong": "He drives very careful.",
+      "right": "He drives very carefully.",
+      "why": "Tả cách lái → trạng từ carefully."
+    },
+    {
+      "wrong": "I work hardly every day.",
+      "right": "I work hard every day.",
+      "why": "Hard là trạng từ; hardly nghĩa là hầu như không."
+    },
+    {
+      "wrong": "She speaks well English.",
+      "right": "She speaks English well.",
+      "why": "Trạng từ không đứng giữa động từ và tân ngữ."
+    },
+    {
+      "wrong": "Please speak slowlier.",
+      "right": "Please speak more slowly.",
+      "why": "Trạng từ -ly → more slowly."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Please drive ___. The road is wet.",
+      "options": [
+        "carefully",
+        "careful",
+        "care"
+      ],
+      "answer": 0,
+      "explain": "Tả cách lái → carefully."
+    },
+    {
+      "type": "choice",
+      "prompt": "My mother cooks really ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly"
+      ],
+      "answer": 0,
+      "explain": "Good → well."
+    },
+    {
+      "type": "choice",
+      "prompt": "He was late, so he walked ___.",
+      "options": [
+        "fast",
+        "fastly"
+      ],
+      "answer": 0,
+      "explain": "Fast giữ nguyên."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "She plays the piano beautifully.",
+        "She plays beautifully the piano.",
+        "She plays the piano beautiful."
+      ],
+      "answer": 0,
+      "explain": "Trạng từ sau tân ngữ."
+    },
+    {
+      "type": "fill",
+      "prompt": "The children played ___ in the garden.",
+      "hint": "happy",
+      "answers": [
+        "happily"
+      ],
+      "explain": "Happy → happily (y → ily)."
+    },
+    {
+      "type": "fill",
+      "prompt": "Please speak ___. The baby is sleeping.",
+      "hint": "quiet",
+      "answers": [
+        "quietly"
+      ],
+      "explain": "Quiet → quietly."
+    },
+    {
+      "type": "fill",
+      "prompt": "She studied ___ and passed the exam.",
+      "hint": "hard",
+      "answers": [
+        "hard"
+      ],
+      "explain": "Hard giữ nguyên."
+    },
+    {
+      "type": "fill",
+      "prompt": "Can you explain it more ___?",
+      "hint": "clear",
+      "answers": [
+        "clearly"
+      ],
+      "explain": "More + trạng từ -ly."
+    },
+    {
+      "type": "fill",
+      "prompt": "He did ___ in the interview.",
+      "hint": "good",
+      "answers": [
+        "well"
+      ],
+      "explain": "Good → well."
+    },
+    {
+      "type": "order",
+      "vi": "Anh ấy nói tiếng Anh rất trôi chảy.",
+      "words": [
+        "He",
+        "speaks",
+        "English",
+        "very",
+        "fluently."
+      ],
+      "explain": "Trạng từ sau tân ngữ."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn nói chậm hơn được không?",
+      "words": [
+        "Can",
+        "you",
+        "speak",
+        "more",
+        "slowly?"
+      ],
+      "explain": "More + slowly."
+    },
+    {
+      "type": "fix",
+      "sentence": "She sings very good.",
+      "answers": [
+        "She sings very well."
+      ],
+      "explain": "Tả cách hát → well."
+    },
+    {
+      "type": "fix",
+      "sentence": "Open the box careful.",
+      "answers": [
+        "Open the box carefully."
+      ],
+      "explain": "Tả cách mở → carefully."
+    },
+    {
+      "type": "fix",
+      "sentence": "He works very hardly.",
+      "answers": [
+        "He works very hard."
+      ],
+      "explain": "Hard là trạng từ; hardly = hầu như không."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy lái xe rất cẩn thận.",
+      "answers": [
+        "She drives very carefully."
+      ],
+      "explain": "Drive + carefully."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy chạy nhanh hơn tôi.",
+      "answers": [
+        "He runs faster than me.",
+        "He runs faster than I do."
+      ],
+      "explain": "Fast → faster."
+    }
+  ]
+}

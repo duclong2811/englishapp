@@ -1,0 +1,419 @@
+{
+  "id": "past-continuous",
+  "level": "A2",
+  "title": "Quá khứ tiếp diễn: I was working",
+  "summary": "Kể việc đang diễn ra tại một thời điểm trong quá khứ: was, were + V-ing, phủ định và câu hỏi.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "I called you at eight last night. Where were you?",
+      "vi": "Tối qua lúc tám giờ mình gọi cho bạn. Bạn ở đâu thế?"
+    },
+    {
+      "who": "B",
+      "en": "Sorry, I [[was cooking]] dinner.",
+      "vi": "Xin lỗi, lúc đó mình đang nấu cơm tối."
+    },
+    {
+      "who": "A",
+      "en": "And your brother? He didn't answer either.",
+      "vi": "Còn anh bạn? Anh ấy cũng không nghe máy."
+    },
+    {
+      "who": "B",
+      "en": "He [[was playing]] games with his headphones on.",
+      "vi": "Anh ấy đang đeo tai nghe chơi game."
+    },
+    {
+      "who": "A",
+      "en": "What [[were]] your parents [[doing]]?",
+      "vi": "Thế bố mẹ bạn đang làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "They [[were watching]] the news. Nobody [[was looking]] at their phone!",
+      "vi": "Bố mẹ đang xem thời sự. Chẳng ai nhìn điện thoại cả!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Was, were + V-ing",
+      "rule": "Quá khứ tiếp diễn = **was / were + V-ing**. I, he, she, it → **was**; you, we, they → **were**.",
+      "formula": [
+        {
+          "text": "I / He / She / It + [was] + V-ing"
+        },
+        {
+          "text": "You / We / They + [were] + V-ing"
+        }
+      ],
+      "body": [
+        "Giống hiện tại tiếp diễn (*I am working*), chỉ đổi am, is, are sang quá khứ: **was, were**. Phần V-ing giữ nguyên quy tắc thêm -ing bạn đã học ở A1."
+      ],
+      "table": {
+        "head": [
+          "Hiện tại tiếp diễn",
+          "Quá khứ tiếp diễn"
+        ],
+        "rows": [
+          [
+            "I am reading.",
+            "I was reading."
+          ],
+          [
+            "She is sleeping.",
+            "She was sleeping."
+          ],
+          [
+            "They are working.",
+            "They were working."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[was reading]] a book.",
+          "vi": "Tôi đang đọc sách.",
+          "why": "Chủ ngữ I → was + reading."
+        },
+        {
+          "en": "The children [[were sleeping]].",
+          "vi": "Bọn trẻ đang ngủ.",
+          "why": "The children là số nhiều → were."
+        },
+        {
+          "en": "My phone [[was charging]] in the kitchen.",
+          "vi": "Điện thoại tôi đang sạc trong bếp.",
+          "why": "My phone = it → was."
+        }
+      ],
+      "check": {
+        "prompt": "We ___ having lunch at noon.",
+        "options": [
+          "was",
+          "were"
+        ],
+        "answer": 1,
+        "explain": "We → were."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Việc đang diễn ra tại một thời điểm trong quá khứ",
+      "rule": "Nói việc **đang diễn ra** tại **một thời điểm cụ thể** trong quá khứ → quá khứ tiếp diễn.",
+      "signals": [
+        "at 8 p.m. yesterday",
+        "at this time last week",
+        "at that moment",
+        "all morning"
+      ],
+      "body": [
+        "Hãy hình dung một bức ảnh chụp lúc đó: việc đã bắt đầu trước và còn tiếp tục sau. Tiếng Việt dùng *lúc đó đang…*; tiếng Anh dùng was, were + V-ing.",
+        "Quá khứ đơn kể việc **đã xong** (*I cooked dinner* = tôi đã nấu xong). Quá khứ tiếp diễn kể việc **đang dở dang** (*I was cooking* = tôi đang nấu)."
+      ],
+      "examples": [
+        {
+          "en": "At 7 a.m. yesterday, I [[was driving]] to work.",
+          "vi": "Lúc 7 giờ sáng qua, tôi đang lái xe đi làm.",
+          "why": "“At 7 a.m. yesterday” là một thời điểm cụ thể; việc lái xe đang diễn ra lúc đó."
+        },
+        {
+          "en": "What [[were]] you [[doing]] at this time last year?",
+          "vi": "Giờ này năm ngoái bạn đang làm gì?",
+          "why": "Hỏi về việc đang diễn ra tại một thời điểm trong quá khứ."
+        },
+        {
+          "en": "It [[was raining]] all morning.",
+          "vi": "Trời mưa suốt buổi sáng.",
+          "why": "“All morning” nhấn mạnh việc kéo dài, đang tiếp diễn."
+        }
+      ],
+      "check": {
+        "prompt": "At midnight, I ___ still working.",
+        "options": [
+          "was",
+          "did"
+        ],
+        "answer": 0,
+        "explain": "Việc đang diễn ra lúc nửa đêm → was working."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Tả bối cảnh khi kể chuyện",
+      "rule": "Khi kể chuyện, dùng quá khứ tiếp diễn để **tả khung cảnh**, quá khứ đơn để kể **sự việc chính**.",
+      "body": [
+        "Câu mở đầu câu chuyện thường tả lúc đó đang có chuyện gì: trời đang mưa, mọi người đang làm gì. Sau đó mới kể việc xảy ra."
+      ],
+      "examples": [
+        {
+          "en": "The sun [[was shining]] and birds [[were singing]].",
+          "vi": "Nắng đang chiếu và chim đang hót.",
+          "why": "Tả khung cảnh ở đầu câu chuyện."
+        },
+        {
+          "en": "Everyone [[was laughing]], but Nam looked sad.",
+          "vi": "Mọi người đang cười, nhưng Nam trông buồn.",
+          "why": "Was laughing tả bối cảnh; looked là chi tiết chính."
+        }
+      ],
+      "check": {
+        "prompt": "It was a cold night. The wind ___.",
+        "options": [
+          "was blowing",
+          "blowing"
+        ],
+        "answer": 0,
+        "explain": "Tả khung cảnh → was blowing; thiếu was là sai."
+      }
+    },
+    {
+      "part": "Phủ định, câu hỏi",
+      "heading": "Wasn't, weren't và câu hỏi",
+      "rule": "Phủ định: **wasn't / weren't + V-ing**. Câu hỏi: **Was / Were** + chủ ngữ + V-ing?",
+      "formula": [
+        {
+          "text": "Chủ ngữ + [wasn't / weren't] + V-ing"
+        },
+        {
+          "text": "[Was / Were] + chủ ngữ + V-ing…?"
+        },
+        {
+          "text": "Wh- + [was / were] + chủ ngữ + V-ing…?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[wasn't listening]], sorry.",
+          "vi": "Xin lỗi, tôi không để ý nghe.",
+          "why": "Phủ định: wasn't + listening."
+        },
+        {
+          "en": "[[Were]] you [[sleeping]] when I called?",
+          "vi": "Lúc tôi gọi bạn đang ngủ à?",
+          "why": "Câu hỏi: Were + you + sleeping. Không dùng did."
+        },
+        {
+          "en": "Why [[was]] she [[crying]]?",
+          "vi": "Sao cô ấy lại khóc?",
+          "why": "Wh- + was + she + crying."
+        }
+      ],
+      "check": {
+        "prompt": "___ they waiting for the bus?",
+        "options": [
+          "Were",
+          "Did"
+        ],
+        "answer": 0,
+        "explain": "Câu có V-ing → hỏi bằng Were, không dùng Did."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I was cook dinner at 7.",
+      "right": "I was cooking dinner at 7.",
+      "why": "Sau was phải là V-ing."
+    },
+    {
+      "wrong": "They was watching TV.",
+      "right": "They were watching TV.",
+      "why": "They → were."
+    },
+    {
+      "wrong": "Did you sleeping at 10?",
+      "right": "Were you sleeping at 10?",
+      "why": "Quá khứ tiếp diễn hỏi bằng was, were, không dùng did."
+    },
+    {
+      "wrong": "I cooking when she came.",
+      "right": "I was cooking when she came.",
+      "why": "Thiếu was: V-ing không đứng một mình làm động từ chính."
+    },
+    {
+      "wrong": "I was knowing the answer.",
+      "right": "I knew the answer.",
+      "why": "Know, like, want… thường không dùng dạng -ing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "At 9 p.m. yesterday, I ___ TV.",
+      "options": [
+        "was watching",
+        "watched",
+        "am watching"
+      ],
+      "answer": 0,
+      "explain": "Việc đang diễn ra tại 9 giờ tối qua → was watching."
+    },
+    {
+      "type": "choice",
+      "prompt": "My parents ___ dinner when I got home.",
+      "options": [
+        "was having",
+        "were having",
+        "are having"
+      ],
+      "answer": 1,
+      "explain": "My parents là số nhiều → were having."
+    },
+    {
+      "type": "choice",
+      "prompt": "What ___ you doing at 6 this morning?",
+      "options": [
+        "were",
+        "did",
+        "was"
+      ],
+      "answer": 0,
+      "explain": "You → were; câu có doing nên không dùng did."
+    },
+    {
+      "type": "choice",
+      "prompt": "Chọn câu đúng:",
+      "options": [
+        "She was write an email.",
+        "She was writing an email.",
+        "She writing an email."
+      ],
+      "answer": 1,
+      "explain": "Was + V-ing: was writing."
+    },
+    {
+      "type": "fill",
+      "prompt": "At this time last week, we ___ on the beach in Nha Trang.",
+      "hint": "lie",
+      "answers": [
+        "were lying"
+      ],
+      "explain": "Việc đang diễn ra tại một thời điểm → were + lying (lie → lying)."
+    },
+    {
+      "type": "fill",
+      "prompt": "The baby ___ when the doorbell rang.",
+      "hint": "sleep",
+      "answers": [
+        "was sleeping"
+      ],
+      "explain": "The baby = it → was sleeping."
+    },
+    {
+      "type": "fill",
+      "prompt": "Sorry, I ___ to you. Can you say it again?",
+      "hint": "not listen",
+      "answers": [
+        "wasn't listening",
+        "was not listening"
+      ],
+      "explain": "Phủ định: wasn't + listening."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ it raining when you left the office?",
+      "hint": "be",
+      "answers": [
+        "Was"
+      ],
+      "explain": "It → Was; câu hỏi quá khứ tiếp diễn."
+    },
+    {
+      "type": "fill",
+      "prompt": "Lan and Minh ___ about the trip all evening.",
+      "hint": "talk",
+      "answers": [
+        "were talking"
+      ],
+      "explain": "Lan and Minh là số nhiều; all evening → were talking."
+    },
+    {
+      "type": "order",
+      "vi": "Lúc 8 giờ tối qua bạn đang làm gì?",
+      "words": [
+        "What",
+        "were",
+        "you",
+        "doing",
+        "at",
+        "8",
+        "p.m.",
+        "last",
+        "night?"
+      ],
+      "alternatives": [
+        "At 8 p.m. last night what were you doing?"
+      ],
+      "explain": "Wh- + were + you + doing."
+    },
+    {
+      "type": "order",
+      "vi": "Lúc đó chúng tôi đang ăn trưa.",
+      "words": [
+        "We",
+        "were",
+        "having",
+        "lunch",
+        "at",
+        "that",
+        "time."
+      ],
+      "alternatives": [
+        "At that time we were having lunch."
+      ],
+      "explain": "Were + having."
+    },
+    {
+      "type": "fix",
+      "sentence": "He were working late last night.",
+      "answers": [
+        "He was working late last night."
+      ],
+      "explain": "He → was."
+    },
+    {
+      "type": "fix",
+      "sentence": "I was wait for you at the gate.",
+      "answers": [
+        "I was waiting for you at the gate."
+      ],
+      "explain": "Sau was → V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "Did she cooking when you called?",
+      "answers": [
+        "Was she cooking when you called?"
+      ],
+      "explain": "Câu hỏi quá khứ tiếp diễn: Was + she + cooking."
+    },
+    {
+      "type": "translate",
+      "vi": "Lúc đó trời đang mưa to.",
+      "answers": [
+        "It was raining heavily at that time.",
+        "It was raining hard at that time.",
+        "At that time it was raining heavily.",
+        "At that time it was raining hard.",
+        "It was raining heavily then."
+      ],
+      "explain": "Tả việc đang diễn ra → was raining."
+    },
+    {
+      "type": "translate",
+      "vi": "Tối qua lúc mười giờ tôi đang học bài.",
+      "answers": [
+        "I was studying at ten o'clock last night.",
+        "I was studying at 10 o'clock last night.",
+        "At ten o'clock last night I was studying.",
+        "I was studying at 10 p.m. last night.",
+        "At 10 p.m. last night I was studying.",
+        "I was studying at ten last night."
+      ],
+      "explain": "Was + studying."
+    }
+  ]
+}

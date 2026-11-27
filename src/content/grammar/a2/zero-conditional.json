@@ -1,0 +1,345 @@
+{
+  "id": "zero-conditional",
+  "level": "A2",
+  "title": "Câu điều kiện loại 0: If you heat ice, it melts",
+  "summary": "Nói điều luôn đúng, sự thật và thói quen với if/when + hiện tại đơn, hiện tại đơn.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Why are the plants dying?",
+      "vi": "Sao cây chết hết vậy?"
+    },
+    {
+      "who": "B",
+      "en": "[[If]] you [[don't water]] them, they [[die]].",
+      "vi": "Không tưới thì cây chết thôi."
+    },
+    {
+      "who": "A",
+      "en": "But I water them every week!",
+      "vi": "Nhưng tuần nào mình cũng tưới mà!"
+    },
+    {
+      "who": "B",
+      "en": "[[If]] it [[is]] hot, they [[need]] water every day.",
+      "vi": "Trời nóng thì cây cần tưới mỗi ngày."
+    },
+    {
+      "who": "A",
+      "en": "Really? And [[if]] I [[forget]]?",
+      "vi": "Thật à? Thế nếu mình quên?"
+    },
+    {
+      "who": "B",
+      "en": "Then the leaves [[turn]] yellow. Like now!",
+      "vi": "Thì lá vàng hết. Như bây giờ đấy!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "If + hiện tại đơn, hiện tại đơn",
+      "rule": "Loại 0: **If + hiện tại đơn, hiện tại đơn**. Cả hai vế đều **hiện tại đơn**.",
+      "formula": [
+        {
+          "text": "[If] + S + V (hiện tại), S + V (hiện tại)"
+        },
+        {
+          "text": "S + V (hiện tại) + [if] + S + V (hiện tại)"
+        }
+      ],
+      "body": [
+        "Mệnh đề if đứng đầu thì có dấu phẩy; đứng sau thì không cần."
+      ],
+      "examples": [
+        {
+          "en": "[[If]] you heat ice, it melts.",
+          "vi": "Nếu đun nóng nước đá, nó tan.",
+          "why": "Sự thật khoa học: cả hai vế hiện tại đơn."
+        },
+        {
+          "en": "Water boils [[if]] you heat it to 100 degrees.",
+          "vi": "Nước sôi nếu đun đến 100 độ.",
+          "why": "Mệnh đề if đứng sau → không có dấu phẩy."
+        }
+      ],
+      "check": {
+        "prompt": "If you mix red and white, you ___ pink.",
+        "options": [
+          "get",
+          "will get",
+          "got"
+        ],
+        "answer": 0,
+        "explain": "Điều luôn đúng → hiện tại đơn: get."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Sự thật, quy luật, thói quen",
+      "rule": "Dùng loại 0 cho điều **luôn luôn đúng** mỗi khi điều kiện xảy ra: sự thật, quy luật, thói quen.",
+      "body": [
+        "Ở loại 0, **if** có nghĩa gần như **when** (mỗi khi). Bạn có thể thay if bằng when mà nghĩa không đổi."
+      ],
+      "examples": [
+        {
+          "en": "[[If]] I drink coffee at night, I can't sleep.",
+          "vi": "Hễ uống cà phê buổi tối là tôi mất ngủ.",
+          "why": "Thói quen, lần nào cũng vậy."
+        },
+        {
+          "en": "[[When]] it rains, the streets in my area flood.",
+          "vi": "Hễ mưa là đường khu tôi ngập.",
+          "why": "When = if: điều luôn xảy ra."
+        },
+        {
+          "en": "[[If]] you press this button, the machine stops.",
+          "vi": "Nhấn nút này thì máy dừng.",
+          "why": "Quy luật, hướng dẫn sử dụng."
+        }
+      ],
+      "check": {
+        "prompt": "If my baby is hungry, she ___.",
+        "options": [
+          "cries",
+          "will cry",
+          "cried"
+        ],
+        "answer": 0,
+        "explain": "Thói quen luôn đúng → hiện tại đơn: cries."
+      }
+    },
+    {
+      "part": "Câu mệnh lệnh",
+      "heading": "If + hiện tại đơn, mệnh lệnh",
+      "rule": "Đưa **lời khuyên, hướng dẫn**: **If + hiện tại đơn, + câu mệnh lệnh**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[If]] you feel sick, go home.",
+          "vi": "Nếu thấy mệt thì về nhà đi.",
+          "why": "Vế sau là câu mệnh lệnh (go)."
+        },
+        {
+          "en": "[[If]] you don't understand, ask me.",
+          "vi": "Nếu không hiểu thì hỏi tôi.",
+          "why": "Hướng dẫn: If + hiện tại đơn, + ask."
+        }
+      ],
+      "check": {
+        "prompt": "If you see Lan, ___ her I said hello.",
+        "options": [
+          "tell",
+          "you tell",
+          "will tell"
+        ],
+        "answer": 0,
+        "explain": "Lời nhắn, hướng dẫn → mệnh lệnh: tell."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If you will heat water, it boils.",
+      "right": "If you heat water, it boils.",
+      "why": "Không dùng will sau if trong câu điều kiện loại 0."
+    },
+    {
+      "wrong": "If it rain, the road floods.",
+      "right": "If it rains, the road floods.",
+      "why": "It → rains (thêm -s)."
+    },
+    {
+      "wrong": "If I eat too much, I will feel sick always.",
+      "right": "If I eat too much, I always feel sick.",
+      "why": "Điều luôn xảy ra → hiện tại đơn ở cả hai vế."
+    },
+    {
+      "wrong": "If you are tired, you go to bed.",
+      "right": "If you are tired, go to bed.",
+      "why": "Lời khuyên → câu mệnh lệnh, không cần you."
+    },
+    {
+      "wrong": "Ice melts, if you heat it.",
+      "right": "Ice melts if you heat it.",
+      "why": "Mệnh đề if đứng sau thì không cần dấu phẩy."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "If you ___ water, it turns into ice.",
+      "options": [
+        "freeze",
+        "will freeze",
+        "froze"
+      ],
+      "answer": 0,
+      "explain": "Sự thật → hiện tại đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "If people don't sleep enough, they ___ tired.",
+      "options": [
+        "feel",
+        "will feel",
+        "felt"
+      ],
+      "answer": 0,
+      "explain": "Điều luôn đúng → feel."
+    },
+    {
+      "type": "choice",
+      "prompt": "If you're cold, ___ a jacket.",
+      "options": [
+        "wear",
+        "you wear",
+        "wears"
+      ],
+      "answer": 0,
+      "explain": "Lời khuyên → mệnh lệnh: wear."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói về một sự thật?",
+      "options": [
+        "If you heat butter, it melts.",
+        "If you heat butter, it will melt tomorrow."
+      ],
+      "answer": 0,
+      "explain": "Sự thật → hiện tại đơn ở cả hai vế."
+    },
+    {
+      "type": "fill",
+      "prompt": "If my dad ___ late, he takes a taxi.",
+      "hint": "wake up",
+      "answers": [
+        "wakes up"
+      ],
+      "explain": "My dad = he → wakes up."
+    },
+    {
+      "type": "fill",
+      "prompt": "Plants die if they ___ get light.",
+      "hint": "phủ định",
+      "answers": [
+        "don't",
+        "do not"
+      ],
+      "explain": "They → don't."
+    },
+    {
+      "type": "fill",
+      "prompt": "If you ___ this button, the light comes on.",
+      "hint": "press",
+      "answers": [
+        "press"
+      ],
+      "explain": "Hiện tại đơn: press."
+    },
+    {
+      "type": "fill",
+      "prompt": "When I'm stressed, I ___ chocolate.",
+      "hint": "eat",
+      "answers": [
+        "eat"
+      ],
+      "explain": "Thói quen → hiện tại đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "If you get lost, ___ me.",
+      "hint": "call",
+      "answers": [
+        "call"
+      ],
+      "explain": "Hướng dẫn → mệnh lệnh: call."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu bạn trộn xanh và vàng, bạn được màu xanh lá.",
+      "words": [
+        "If",
+        "you",
+        "mix",
+        "blue",
+        "and",
+        "yellow",
+        "you",
+        "get",
+        "green."
+      ],
+      "alternatives": [
+        "You get green if you mix blue and yellow."
+      ],
+      "explain": "Hai vế đều hiện tại đơn."
+    },
+    {
+      "type": "order",
+      "vi": "Hễ mưa là tôi ở nhà.",
+      "words": [
+        "When",
+        "it",
+        "rains",
+        "I",
+        "stay",
+        "at",
+        "home."
+      ],
+      "alternatives": [
+        "I stay at home when it rains."
+      ],
+      "explain": "Thói quen → hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "If you will press here, the door opens.",
+      "answers": [
+        "If you press here, the door opens."
+      ],
+      "explain": "Không dùng will sau if."
+    },
+    {
+      "type": "fix",
+      "sentence": "If the baby cry, she is hungry.",
+      "answers": [
+        "If the baby cries, she is hungry."
+      ],
+      "explain": "The baby = she → cries."
+    },
+    {
+      "type": "fix",
+      "sentence": "If you will need help, call me.",
+      "answers": [
+        "If you need help, call me."
+      ],
+      "explain": "Sau if → hiện tại đơn."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu bạn không ăn sáng, bạn sẽ thấy đói lúc 10 giờ.",
+      "answers": [
+        "If you don't eat breakfast, you get hungry at 10.",
+        "If you don't have breakfast, you get hungry at 10.",
+        "If you don't eat breakfast, you feel hungry at 10.",
+        "If you don't have breakfast, you feel hungry at 10.",
+        "If you skip breakfast, you get hungry at 10.",
+        "If you don't eat breakfast, you'll be hungry at 10.",
+        "If you don't eat breakfast, you will be hungry at 10."
+      ],
+      "explain": "Điều luôn xảy ra → hiện tại đơn (hoặc will với ý dự đoán)."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu bạn mệt thì đi ngủ sớm đi.",
+      "answers": [
+        "If you're tired, go to bed early.",
+        "If you are tired, go to bed early.",
+        "If you feel tired, go to bed early.",
+        "If you're tired, go to sleep early.",
+        "If you are tired, go to sleep early."
+      ],
+      "explain": "Lời khuyên → mệnh lệnh."
+    }
+  ]
+}

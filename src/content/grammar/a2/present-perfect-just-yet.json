@@ -1,0 +1,399 @@
+{
+  "id": "present-perfect-just-yet",
+  "level": "A2",
+  "title": "Just, already, yet",
+  "summary": "Nói việc vừa mới xảy ra, đã xong sớm hơn dự kiến hoặc chưa xong: just, already, yet.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Have]] you finished the report [[yet]]?",
+      "vi": "Bạn làm xong báo cáo chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, [[I've already sent]] it to the boss.",
+      "vi": "Rồi, mình gửi cho sếp luôn rồi."
+    },
+    {
+      "who": "A",
+      "en": "Wow, fast! [[Has]] she replied [[yet]]?",
+      "vi": "Nhanh thế! Sếp trả lời chưa?"
+    },
+    {
+      "who": "B",
+      "en": "[[She's just called]] me. She liked it.",
+      "vi": "Sếp vừa gọi cho mình. Sếp thích lắm."
+    },
+    {
+      "who": "A",
+      "en": "Great. I [[haven't started]] mine [[yet]].",
+      "vi": "Tuyệt. Mình còn chưa bắt đầu phần của mình."
+    },
+    {
+      "who": "B",
+      "en": "Then you'd better hurry!",
+      "vi": "Thế thì nhanh lên đi!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Just",
+      "heading": "Just: vừa mới",
+      "rule": "**have / has + just + V3** = vừa mới làm xong (rất gần lúc nói).",
+      "formula": [
+        {
+          "text": "S + [have / has] + [just] + V3"
+        }
+      ],
+      "body": [
+        "Just đứng giữa have/has và V3. Tiếng Việt: *vừa, vừa mới*. Kết quả thường còn thấy ngay bây giờ."
+      ],
+      "examples": [
+        {
+          "en": "[[I've just]] had lunch.",
+          "vi": "Tôi vừa ăn trưa xong.",
+          "why": "Vừa mới xong → have + just + had."
+        },
+        {
+          "en": "The bus [[has just]] left.",
+          "vi": "Xe buýt vừa đi mất.",
+          "why": "Việc vừa xảy ra, kết quả: bây giờ không còn xe."
+        },
+        {
+          "en": "[[She's just]] arrived at the airport.",
+          "vi": "Cô ấy vừa đến sân bay.",
+          "why": "She's = she has; just đứng trước V3."
+        }
+      ],
+      "check": {
+        "prompt": "Don't touch the wall. I've ___ painted it.",
+        "options": [
+          "just",
+          "yet"
+        ],
+        "answer": 0,
+        "explain": "Vừa mới sơn → just."
+      }
+    },
+    {
+      "part": "Already",
+      "heading": "Already: đã… rồi",
+      "rule": "**already** = đã xong rồi, thường **sớm hơn mong đợi**. Đứng giữa have/has và V3.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I've already]] paid the bill.",
+          "vi": "Tôi trả tiền rồi.",
+          "why": "Việc đã xong, có thể sớm hơn người nghe nghĩ."
+        },
+        {
+          "en": "They [[have already]] booked the hotel.",
+          "vi": "Họ đã đặt khách sạn rồi.",
+          "why": "Already giữa have và V3."
+        },
+        {
+          "en": "Have you [[already]] eaten? It's only 10!",
+          "vi": "Bạn ăn rồi à? Mới có 10 giờ mà!",
+          "why": "Câu hỏi với already thể hiện ngạc nhiên vì quá sớm."
+        }
+      ],
+      "check": {
+        "prompt": "You don't need to buy milk. I've ___ bought some.",
+        "options": [
+          "already",
+          "yet"
+        ],
+        "answer": 0,
+        "explain": "Đã mua rồi → already."
+      }
+    },
+    {
+      "part": "Yet",
+      "heading": "Yet: chưa / … chưa?",
+      "rule": "**yet** dùng trong **câu hỏi** (… chưa?) và **câu phủ định** (chưa…), đứng **cuối câu**.",
+      "formula": [
+        {
+          "text": "[Have / Has] + S + V3 + … + [yet]?"
+        },
+        {
+          "text": "S + [haven't / hasn't] + V3 + … + [yet]"
+        }
+      ],
+      "body": [
+        "Yet cho thấy người nói chờ việc đó xảy ra. Không dùng yet trong câu khẳng định thông thường."
+      ],
+      "examples": [
+        {
+          "en": "Have you done your homework [[yet]]?",
+          "vi": "Con làm bài tập chưa?",
+          "why": "Câu hỏi → yet ở cuối câu."
+        },
+        {
+          "en": "I haven't called her [[yet]].",
+          "vi": "Tôi chưa gọi cho cô ấy.",
+          "why": "Phủ định → yet ở cuối câu."
+        },
+        {
+          "en": "The package hasn't arrived [[yet]].",
+          "vi": "Gói hàng vẫn chưa đến.",
+          "why": "Đang chờ gói hàng → yet."
+        }
+      ],
+      "check": {
+        "prompt": "Has the film started ___?",
+        "options": [
+          "yet",
+          "already",
+          "just"
+        ],
+        "answer": 0,
+        "explain": "Câu hỏi … chưa? → yet ở cuối câu."
+      }
+    },
+    {
+      "part": "Tổng kết",
+      "heading": "So sánh ba từ",
+      "rule": "**just** và **already** đứng **giữa** have và V3; **yet** đứng **cuối câu** hỏi hoặc phủ định.",
+      "body": [],
+      "table": {
+        "head": [
+          "Từ",
+          "Nghĩa",
+          "Vị trí",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "just",
+            "vừa mới",
+            "giữa have và V3",
+            "I've just eaten."
+          ],
+          [
+            "already",
+            "đã… rồi",
+            "giữa have và V3",
+            "I've already eaten."
+          ],
+          [
+            "yet",
+            "chưa / … chưa?",
+            "cuối câu",
+            "I haven't eaten yet."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Is Nam here? Yes, [[he's just]] come in.",
+          "vi": "Nam đến chưa? Rồi, cậu ấy vừa vào.",
+          "why": "Vừa mới → just."
+        },
+        {
+          "en": "Is Nam here? No, he [[hasn't]] come [[yet]].",
+          "vi": "Nam đến chưa? Chưa, cậu ấy chưa đến.",
+          "why": "Phủ định → yet cuối câu."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "I've finished yet.",
+          "I haven't finished yet."
+        ],
+        "answer": 1,
+        "explain": "Yet dùng trong câu phủ định hoặc câu hỏi."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I have finished my work yet.",
+      "right": "I have already finished my work.",
+      "why": "Câu khẳng định dùng already, không dùng yet."
+    },
+    {
+      "wrong": "Have you yet eaten?",
+      "right": "Have you eaten yet?",
+      "why": "Yet đứng cuối câu."
+    },
+    {
+      "wrong": "I just have arrived.",
+      "right": "I have just arrived.",
+      "why": "Just đứng giữa have và V3."
+    },
+    {
+      "wrong": "She has already went home.",
+      "right": "She has already gone home.",
+      "why": "Sau has dùng V3: gone."
+    },
+    {
+      "wrong": "I didn't finish yet.",
+      "right": "I haven't finished yet.",
+      "why": "Yet thường đi với hiện tại hoàn thành: haven't + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Have you replied to the email ___?",
+      "options": [
+        "yet",
+        "already",
+        "just"
+      ],
+      "answer": 0,
+      "explain": "Câu hỏi … chưa? → yet."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'm not hungry. I've ___ eaten.",
+      "options": [
+        "just",
+        "yet",
+        "still"
+      ],
+      "answer": 0,
+      "explain": "Vừa ăn xong → just."
+    },
+    {
+      "type": "choice",
+      "prompt": "They haven't decided ___.",
+      "options": [
+        "yet",
+        "already",
+        "just"
+      ],
+      "answer": 0,
+      "explain": "Phủ định → yet ở cuối câu."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng vị trí?",
+      "options": [
+        "I have already seen it.",
+        "I have seen already it.",
+        "I already have see it."
+      ],
+      "answer": 0,
+      "explain": "Already giữa have và V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "We've ___ cleaned the house, so you can relax.",
+      "hint": "đã… rồi",
+      "answers": [
+        "already"
+      ],
+      "explain": "Đã xong rồi → already."
+    },
+    {
+      "type": "fill",
+      "prompt": "My brother hasn't found a job ___.",
+      "hint": "chưa",
+      "answers": [
+        "yet"
+      ],
+      "explain": "Phủ định → yet cuối câu."
+    },
+    {
+      "type": "fill",
+      "prompt": "The train has ___ left. We missed it!",
+      "hint": "vừa mới",
+      "answers": [
+        "just"
+      ],
+      "explain": "Vừa mới đi → just."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you booked the tickets yet?",
+      "hint": "trợ động từ",
+      "answers": [
+        "Have"
+      ],
+      "explain": "Câu hỏi hiện tại hoàn thành với you → Have."
+    },
+    {
+      "type": "fill",
+      "prompt": "She has just ___ a new phone.",
+      "hint": "buy",
+      "answers": [
+        "bought"
+      ],
+      "explain": "Has + just + V3 (bought)."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi vừa nhận được tin nhắn của bạn.",
+      "words": [
+        "I",
+        "have",
+        "just",
+        "got",
+        "your",
+        "message."
+      ],
+      "explain": "Have + just + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn đã nói chuyện với cô ấy chưa?",
+      "words": [
+        "Have",
+        "you",
+        "talked",
+        "to",
+        "her",
+        "yet?"
+      ],
+      "explain": "Have + you + V3 … yet?"
+    },
+    {
+      "type": "fix",
+      "sentence": "I have just finish my homework.",
+      "answers": [
+        "I have just finished my homework."
+      ],
+      "explain": "Sau have just dùng V3: finished."
+    },
+    {
+      "type": "fix",
+      "sentence": "Has he arrived already yet?",
+      "answers": [
+        "Has he arrived yet?"
+      ],
+      "explain": "Chỉ dùng yet trong câu hỏi … chưa?"
+    },
+    {
+      "type": "fix",
+      "sentence": "We haven't yet ordered the food.",
+      "answers": [
+        "We haven't ordered the food yet."
+      ],
+      "explain": "Yet đứng cuối câu."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi vừa ăn sáng xong.",
+      "answers": [
+        "I've just had breakfast.",
+        "I have just had breakfast.",
+        "I've just eaten breakfast.",
+        "I have just eaten breakfast.",
+        "I've just finished breakfast.",
+        "I have just finished breakfast."
+      ],
+      "explain": "Have + just + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi chưa quyết định.",
+      "answers": [
+        "We haven't decided yet.",
+        "We have not decided yet."
+      ],
+      "explain": "Phủ định + yet."
+    }
+  ]
+}

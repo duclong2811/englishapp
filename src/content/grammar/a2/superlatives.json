@@ -1,0 +1,395 @@
+{
+  "id": "superlatives",
+  "level": "A2",
+  "title": "So sánh nhất: the biggest, the most…",
+  "summary": "Nói ai, cái gì nhất trong một nhóm: the + -est, the most + tính từ dài, the best, the worst.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What's [[the best]] place to eat in Hue?",
+      "vi": "Ở Huế ăn chỗ nào ngon nhất?"
+    },
+    {
+      "who": "B",
+      "en": "This place has [[the most famous]] bun bo in the city.",
+      "vi": "Quán này có bún bò nổi tiếng nhất thành phố."
+    },
+    {
+      "who": "A",
+      "en": "Is it [[the cheapest]] too?",
+      "vi": "Có phải rẻ nhất luôn không?"
+    },
+    {
+      "who": "B",
+      "en": "No, but it's [[the most delicious]] I've ever had.",
+      "vi": "Không, nhưng là ngon nhất mình từng ăn."
+    },
+    {
+      "who": "A",
+      "en": "OK! What's [[the easiest]] way to get there?",
+      "vi": "Được! Đi đến đó cách nào dễ nhất?"
+    },
+    {
+      "who": "B",
+      "en": "By motorbike. It's [[the fastest]] way at lunchtime.",
+      "vi": "Đi xe máy. Giờ trưa đi xe máy là nhanh nhất."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Tính từ ngắn",
+      "heading": "The + tính từ + -est",
+      "rule": "Tính từ **ngắn** → **the + adj-est**. Quy tắc chính tả giống so sánh hơn.",
+      "formula": [
+        {
+          "text": "[the] + adj-[est]"
+        }
+      ],
+      "body": [],
+      "table": {
+        "head": [
+          "Tính từ",
+          "So sánh hơn",
+          "So sánh nhất"
+        ],
+        "rows": [
+          [
+            "cheap",
+            "cheaper",
+            "the cheapest"
+          ],
+          [
+            "nice",
+            "nicer",
+            "the nicest"
+          ],
+          [
+            "big",
+            "bigger",
+            "the biggest"
+          ],
+          [
+            "easy",
+            "easier",
+            "the easiest"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Fansipan is [[the highest]] mountain in Vietnam.",
+          "vi": "Fansipan là ngọn núi cao nhất Việt Nam.",
+          "why": "High → the highest."
+        },
+        {
+          "en": "This is [[the biggest]] room in the hotel.",
+          "vi": "Đây là phòng rộng nhất khách sạn.",
+          "why": "Big → the biggest (gấp đôi g)."
+        },
+        {
+          "en": "Friday is [[the busiest]] day of the week.",
+          "vi": "Thứ Sáu là ngày bận nhất trong tuần.",
+          "why": "Busy → the busiest."
+        }
+      ],
+      "check": {
+        "prompt": "This is ___ day of the year.",
+        "options": [
+          "the hottest",
+          "the hotest",
+          "hottest"
+        ],
+        "answer": 0,
+        "explain": "Hot → the hottest; cần the."
+      }
+    },
+    {
+      "part": "Tính từ dài",
+      "heading": "The most + tính từ dài",
+      "rule": "Tính từ **dài** → **the most + tính từ**. Ít nhất → **the least + tính từ**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "It's [[the most expensive]] restaurant in town.",
+          "vi": "Đó là nhà hàng đắt nhất thị trấn.",
+          "why": "Expensive dài → the most expensive."
+        },
+        {
+          "en": "Lan is [[the most helpful]] person in our team.",
+          "vi": "Lan là người hay giúp đỡ nhất nhóm.",
+          "why": "Helpful → the most helpful."
+        },
+        {
+          "en": "This is [[the least]] popular dish on the menu.",
+          "vi": "Đây là món ít được gọi nhất trong thực đơn.",
+          "why": "The least + tính từ = ít… nhất."
+        }
+      ],
+      "check": {
+        "prompt": "It was ___ film I've ever seen.",
+        "options": [
+          "the most boring",
+          "the boringest"
+        ],
+        "answer": 0,
+        "explain": "Boring dài → the most boring."
+      }
+    },
+    {
+      "part": "Đặc biệt",
+      "heading": "The best, the worst, the furthest",
+      "rule": "**good → the best**, **bad → the worst**, **far → the furthest**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "She's [[the best]] teacher I've ever had.",
+          "vi": "Cô ấy là giáo viên giỏi nhất tôi từng học.",
+          "why": "Good → the best."
+        },
+        {
+          "en": "That was [[the worst]] day of my life.",
+          "vi": "Đó là ngày tồi tệ nhất đời tôi.",
+          "why": "Bad → the worst."
+        }
+      ],
+      "check": {
+        "prompt": "Who is ___ player in your team?",
+        "options": [
+          "the best",
+          "the goodest",
+          "the most good"
+        ],
+        "answer": 0,
+        "explain": "Good → the best."
+      }
+    },
+    {
+      "part": "Đi kèm",
+      "heading": "In, of và I've ever",
+      "rule": "Sau so sánh nhất: **in** + nơi chốn, nhóm (in the class); **of** + khoảng thời gian, số lượng (of the year, of all).",
+      "body": [
+        "Hay gặp: *the best… I've ever…* = …nhất mà tôi từng… (dùng hiện tại hoàn thành)."
+      ],
+      "examples": [
+        {
+          "en": "He's the tallest student [[in]] the class.",
+          "vi": "Cậu ấy cao nhất lớp.",
+          "why": "In + nhóm (the class)."
+        },
+        {
+          "en": "It was the coldest day [[of]] the year.",
+          "vi": "Đó là ngày lạnh nhất trong năm.",
+          "why": "Of + khoảng thời gian (the year)."
+        },
+        {
+          "en": "This is the best coffee [[I've ever had]].",
+          "vi": "Đây là cà phê ngon nhất tôi từng uống.",
+          "why": "The best… + I've ever + V3."
+        }
+      ],
+      "check": {
+        "prompt": "She's the oldest person ___ my family.",
+        "options": [
+          "in",
+          "of"
+        ],
+        "answer": 0,
+        "explain": "My family là một nhóm → in."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She is the most tall girl.",
+      "right": "She is the tallest girl.",
+      "why": "Tall ngắn → the tallest."
+    },
+    {
+      "wrong": "It's most expensive hotel.",
+      "right": "It's the most expensive hotel.",
+      "why": "So sánh nhất cần the."
+    },
+    {
+      "wrong": "He is the goodest student.",
+      "right": "He is the best student.",
+      "why": "Good → the best."
+    },
+    {
+      "wrong": "It's the biggest city of Vietnam.",
+      "right": "It's the biggest city in Vietnam.",
+      "why": "Nơi chốn → in."
+    },
+    {
+      "wrong": "This is the best film I ever saw.",
+      "right": "This is the best film I've ever seen.",
+      "why": "The best… + I've ever + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Ho Chi Minh City is ___ city in Vietnam.",
+      "options": [
+        "the largest",
+        "the most large",
+        "larger"
+      ],
+      "answer": 0,
+      "explain": "Large → the largest."
+    },
+    {
+      "type": "choice",
+      "prompt": "That's ___ idea I've heard today.",
+      "options": [
+        "the most interesting",
+        "the interestingest"
+      ],
+      "answer": 0,
+      "explain": "Interesting dài → the most interesting."
+    },
+    {
+      "type": "choice",
+      "prompt": "It was ___ meal of the trip.",
+      "options": [
+        "the worst",
+        "the baddest",
+        "the most bad"
+      ],
+      "answer": 0,
+      "explain": "Bad → the worst."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "He's the funniest person in our class.",
+        "He's the most funny person of our class."
+      ],
+      "answer": 0,
+      "explain": "Funny → the funniest; nhóm → in."
+    },
+    {
+      "type": "fill",
+      "prompt": "December is ___ month of the year for shops.",
+      "hint": "busy",
+      "answers": [
+        "the busiest"
+      ],
+      "explain": "Busy → the busiest."
+    },
+    {
+      "type": "fill",
+      "prompt": "This is ___ phone in the shop.",
+      "hint": "cheap",
+      "answers": [
+        "the cheapest"
+      ],
+      "explain": "Cheap → the cheapest."
+    },
+    {
+      "type": "fill",
+      "prompt": "She is ___ person I know.",
+      "hint": "generous",
+      "answers": [
+        "the most generous"
+      ],
+      "explain": "Generous dài → the most generous."
+    },
+    {
+      "type": "fill",
+      "prompt": "It's the best pho I've ever ___.",
+      "hint": "eat",
+      "answers": [
+        "eaten",
+        "had"
+      ],
+      "explain": "I've ever + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "Which is the longest river ___ the world?",
+      "hint": "in / of",
+      "answers": [
+        "in"
+      ],
+      "explain": "The world là nơi chốn → in."
+    },
+    {
+      "type": "order",
+      "vi": "Đây là ngày hạnh phúc nhất đời tôi.",
+      "words": [
+        "This",
+        "is",
+        "the",
+        "happiest",
+        "day",
+        "of",
+        "my",
+        "life."
+      ],
+      "explain": "Happy → the happiest; of my life."
+    },
+    {
+      "type": "order",
+      "vi": "Ai là người cao nhất trong gia đình bạn?",
+      "words": [
+        "Who",
+        "is",
+        "the",
+        "tallest",
+        "person",
+        "in",
+        "your",
+        "family?"
+      ],
+      "explain": "The tallest + in + nhóm."
+    },
+    {
+      "type": "fix",
+      "sentence": "It's the most cheap restaurant here.",
+      "answers": [
+        "It's the cheapest restaurant here."
+      ],
+      "explain": "Cheap ngắn → the cheapest."
+    },
+    {
+      "type": "fix",
+      "sentence": "She is best singer in the competition.",
+      "answers": [
+        "She is the best singer in the competition."
+      ],
+      "explain": "Cần the."
+    },
+    {
+      "type": "fix",
+      "sentence": "It was the hotest day of the summer.",
+      "answers": [
+        "It was the hottest day of the summer."
+      ],
+      "explain": "Hot → hottest (gấp đôi t)."
+    },
+    {
+      "type": "translate",
+      "vi": "Đây là món ăn ngon nhất tôi từng ăn.",
+      "answers": [
+        "This is the best dish I've ever eaten.",
+        "This is the best dish I have ever eaten.",
+        "This is the most delicious dish I've ever eaten.",
+        "This is the most delicious dish I have ever eaten.",
+        "This is the best food I've ever eaten.",
+        "This is the best food I have ever eaten.",
+        "This is the best dish I've ever had.",
+        "This is the best food I've ever had."
+      ],
+      "explain": "The best + I've ever + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Thứ Hai là ngày bận nhất trong tuần.",
+      "answers": [
+        "Monday is the busiest day of the week."
+      ],
+      "explain": "Busy → the busiest; of the week."
+    }
+  ]
+}

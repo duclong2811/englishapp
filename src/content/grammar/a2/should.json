@@ -1,0 +1,328 @@
+{
+  "id": "should",
+  "level": "A2",
+  "title": "Should: lời khuyên",
+  "summary": "Đưa và xin lời khuyên với should, shouldn't, Should I…?, và cách nói lịch sự I think you should.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "I have a headache and I can't sleep.",
+      "vi": "Mình bị đau đầu và không ngủ được."
+    },
+    {
+      "who": "B",
+      "en": "You [[should]] see a doctor.",
+      "vi": "Bạn nên đi khám bác sĩ."
+    },
+    {
+      "who": "A",
+      "en": "Maybe. I drink a lot of coffee.",
+      "vi": "Có lẽ. Mình uống nhiều cà phê lắm."
+    },
+    {
+      "who": "B",
+      "en": "You [[shouldn't]] drink coffee after lunch.",
+      "vi": "Bạn không nên uống cà phê sau bữa trưa."
+    },
+    {
+      "who": "A",
+      "en": "[[Should]] I stop completely?",
+      "vi": "Mình có nên bỏ hẳn không?"
+    },
+    {
+      "who": "B",
+      "en": "No, but I think you [[should]] drink more water.",
+      "vi": "Không cần, nhưng mình nghĩ bạn nên uống nhiều nước hơn."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Should + động từ nguyên mẫu",
+      "rule": "**should + V** = **nên**. **shouldn't + V** = **không nên**. Giống nhau cho mọi chủ ngữ.",
+      "formula": [
+        {
+          "text": "S + [should] + V"
+        },
+        {
+          "text": "S + [shouldn't] + V"
+        }
+      ],
+      "body": [
+        "Should nhẹ hơn must: chỉ là lời khuyên, người nghe có thể không làm theo."
+      ],
+      "examples": [
+        {
+          "en": "You [[should]] drink more water.",
+          "vi": "Bạn nên uống nhiều nước hơn.",
+          "why": "Lời khuyên → should + drink."
+        },
+        {
+          "en": "She [[shouldn't]] work so late.",
+          "vi": "Cô ấy không nên làm việc khuya thế.",
+          "why": "Should không thêm -s cho she."
+        },
+        {
+          "en": "We [[should]] leave now. It's getting dark.",
+          "vi": "Chúng ta nên đi thôi. Trời tối rồi.",
+          "why": "Đề xuất cho cả nhóm."
+        }
+      ],
+      "check": {
+        "prompt": "He ___ eat so much sugar.",
+        "options": [
+          "shouldn't",
+          "doesn't should"
+        ],
+        "answer": 0,
+        "explain": "Phủ định → shouldn't."
+      }
+    },
+    {
+      "part": "Xin lời khuyên",
+      "heading": "Should I…? và What should I do?",
+      "rule": "Xin lời khuyên: **Should I + V…?** hoặc **What / Where / Which + should I + V?**",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Should]] I bring a jacket?",
+          "vi": "Tôi có nên mang áo khoác không?",
+          "why": "Câu hỏi: Should + I + V."
+        },
+        {
+          "en": "What [[should]] I wear to the interview?",
+          "vi": "Đi phỏng vấn tôi nên mặc gì?",
+          "why": "Wh- + should + I."
+        },
+        {
+          "en": "Which phone [[should]] I buy?",
+          "vi": "Tôi nên mua điện thoại nào?",
+          "why": "Which + danh từ + should I."
+        }
+      ],
+      "check": {
+        "prompt": "___ I call her now or later?",
+        "options": [
+          "Should",
+          "Do"
+        ],
+        "answer": 0,
+        "explain": "Xin lời khuyên → Should I…?"
+      }
+    },
+    {
+      "part": "Lịch sự",
+      "heading": "I think you should / I don't think you should",
+      "rule": "Lời khuyên **nhẹ nhàng, lịch sự** hơn: **I think you should…**, **I don't think you should…**",
+      "body": [
+        "Như với will: nói *I don't think you should* tự nhiên hơn *I think you shouldn't*.",
+        "So sánh độ mạnh: **should** (nên) < **have to / must** (phải)."
+      ],
+      "examples": [
+        {
+          "en": "[[I think you should]] apply for that job.",
+          "vi": "Tôi nghĩ bạn nên nộp đơn vào công việc đó.",
+          "why": "Lời khuyên lịch sự."
+        },
+        {
+          "en": "[[I don't think you should]] lend him money.",
+          "vi": "Tôi nghĩ bạn không nên cho anh ta vay tiền.",
+          "why": "Phủ định tự nhiên: I don't think + should."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ you should buy that car. It's too old.",
+        "options": [
+          "don't think",
+          "think don't"
+        ],
+        "answer": 0,
+        "explain": "I don't think you should = tôi nghĩ bạn không nên."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "You should to rest.",
+      "right": "You should rest.",
+      "why": "Should + V, không có to."
+    },
+    {
+      "wrong": "She shoulds study more.",
+      "right": "She should study more.",
+      "why": "Should không thêm -s."
+    },
+    {
+      "wrong": "Do I should call him?",
+      "right": "Should I call him?",
+      "why": "Câu hỏi: Should I…?, không dùng do."
+    },
+    {
+      "wrong": "I think you shouldn't go.",
+      "right": "I don't think you should go.",
+      "why": "Cách nói tự nhiên: I don't think you should."
+    },
+    {
+      "wrong": "You should eating more fruit.",
+      "right": "You should eat more fruit.",
+      "why": "Should + nguyên mẫu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "You look tired. You ___ go to bed early.",
+      "options": [
+        "should",
+        "should to",
+        "shoulds"
+      ],
+      "answer": 0,
+      "explain": "Should + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ drive after drinking beer.",
+      "options": [
+        "shouldn't",
+        "don't should",
+        "should"
+      ],
+      "answer": 0,
+      "explain": "Lời khuyên phủ định → shouldn't."
+    },
+    {
+      "type": "choice",
+      "prompt": "What ___ I say to her?",
+      "options": [
+        "should",
+        "do should",
+        "shall to"
+      ],
+      "answer": 0,
+      "explain": "Wh- + should + I."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào tự nhiên nhất?",
+      "options": [
+        "I don't think you should go.",
+        "I think you shouldn't to go."
+      ],
+      "answer": 0,
+      "explain": "I don't think you should + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "It's cold outside. You ___ wear a coat.",
+      "hint": "nên",
+      "answers": [
+        "should"
+      ],
+      "explain": "Lời khuyên → should."
+    },
+    {
+      "type": "fill",
+      "prompt": "Children ___ watch TV all day.",
+      "hint": "không nên",
+      "answers": [
+        "shouldn't",
+        "should not"
+      ],
+      "explain": "Không nên → shouldn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ I take an umbrella?",
+      "hint": "xin lời khuyên",
+      "answers": [
+        "Should"
+      ],
+      "explain": "Should I…?"
+    },
+    {
+      "type": "fill",
+      "prompt": "Which hotel should we ___?",
+      "hint": "book",
+      "answers": [
+        "book"
+      ],
+      "explain": "Should + nguyên mẫu."
+    },
+    {
+      "type": "fill",
+      "prompt": "I don't think you ___ eat that. It smells bad.",
+      "hint": "nên",
+      "answers": [
+        "should"
+      ],
+      "explain": "I don't think you should."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn nên học tiếng Anh mỗi ngày.",
+      "words": [
+        "You",
+        "should",
+        "study",
+        "English",
+        "every",
+        "day."
+      ],
+      "explain": "Should + V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi có nên nói với cô ấy không?",
+      "words": [
+        "Should",
+        "I",
+        "tell",
+        "her?"
+      ],
+      "explain": "Should + I + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "You should to see a dentist.",
+      "answers": [
+        "You should see a dentist."
+      ],
+      "explain": "Bỏ to."
+    },
+    {
+      "type": "fix",
+      "sentence": "He shoulds get more sleep.",
+      "answers": [
+        "He should get more sleep."
+      ],
+      "explain": "Should không đổi theo chủ ngữ."
+    },
+    {
+      "type": "fix",
+      "sentence": "Do I should buy this?",
+      "answers": [
+        "Should I buy this?"
+      ],
+      "explain": "Câu hỏi bắt đầu bằng Should."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn nên ngủ sớm hơn.",
+      "answers": [
+        "You should sleep earlier.",
+        "You should go to bed earlier.",
+        "You should go to sleep earlier."
+      ],
+      "explain": "Should + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi nên mặc gì?",
+      "answers": [
+        "What should I wear?"
+      ],
+      "explain": "What + should + I + wear."
+    }
+  ]
+}
