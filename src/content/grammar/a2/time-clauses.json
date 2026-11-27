@@ -1,0 +1,398 @@
+{
+  "id": "time-clauses",
+  "level": "A2",
+  "title": "Before, after, when, until, as soon as",
+  "summary": "Nối hai việc theo thời gian bằng before, after, when, until, as soon as, và thì đúng sau các từ này.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Can we leave now?",
+      "vi": "Mình đi được chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Not yet. I'll call a taxi [[after]] I finish this email.",
+      "vi": "Chưa. Mình xong email này rồi gọi taxi."
+    },
+    {
+      "who": "A",
+      "en": "OK. I'll wait here [[until]] you're ready.",
+      "vi": "Ừ. Mình đợi ở đây cho tới khi bạn xong."
+    },
+    {
+      "who": "B",
+      "en": "Thanks. [[Before]] we go, let's check the weather.",
+      "vi": "Cảm ơn. Trước khi đi, xem thời tiết đã."
+    },
+    {
+      "who": "A",
+      "en": "It's fine. Text Mai [[as soon as]] we get there.",
+      "vi": "Trời đẹp. Đến nơi là nhắn Mai ngay nhé."
+    },
+    {
+      "who": "B",
+      "en": "Sure. [[When]] I see her, I'll give her the gift.",
+      "vi": "Ừ. Lúc gặp cô ấy mình sẽ đưa quà."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Thứ tự việc",
+      "heading": "Before và after",
+      "rule": "**before** = trước khi; **after** = sau khi. Theo sau có thể là **mệnh đề** hoặc **V-ing / danh từ**.",
+      "formula": [
+        {
+          "text": "[before / after] + S + V"
+        },
+        {
+          "text": "[before / after] + V-ing"
+        },
+        {
+          "text": "[before / after] + danh từ"
+        }
+      ],
+      "body": [
+        "*Before I go to bed* (mệnh đề), *before going to bed* (V-ing), *before dinner* (danh từ) đều đúng. Không dùng *before to go*."
+      ],
+      "examples": [
+        {
+          "en": "I always brush my teeth [[before]] I go to bed.",
+          "vi": "Tôi luôn đánh răng trước khi đi ngủ.",
+          "why": "Before + mệnh đề (I go to bed)."
+        },
+        {
+          "en": "[[After]] finishing work, she went to the gym.",
+          "vi": "Làm xong việc, cô ấy đi tập gym.",
+          "why": "After + V-ing; hai việc cùng chủ ngữ."
+        },
+        {
+          "en": "Let's have a coffee [[after]] the meeting.",
+          "vi": "Họp xong mình đi cà phê nhé.",
+          "why": "After + danh từ (the meeting)."
+        }
+      ],
+      "check": {
+        "prompt": "Wash your hands before ___.",
+        "options": [
+          "eating",
+          "to eat"
+        ],
+        "answer": 0,
+        "explain": "Before + V-ing, không dùng to V."
+      }
+    },
+    {
+      "part": "Until, as soon as",
+      "heading": "Until và as soon as",
+      "rule": "**until** = cho đến khi (việc kéo dài rồi dừng). **as soon as** = ngay khi (việc thứ hai xảy ra liền sau).",
+      "body": [
+        "Until nhấn mạnh **điểm dừng**: *I waited until 9* = tôi đợi, đến 9 giờ thì thôi. As soon as nhấn mạnh **ngay lập tức**."
+      ],
+      "examples": [
+        {
+          "en": "We waited [[until]] the rain stopped.",
+          "vi": "Chúng tôi đợi cho tới khi tạnh mưa.",
+          "why": "Việc đợi kéo dài, dừng lúc mưa tạnh."
+        },
+        {
+          "en": "Call me [[as soon as]] you arrive.",
+          "vi": "Đến nơi thì gọi mình ngay nhé.",
+          "why": "Gọi ngay sau khi đến."
+        },
+        {
+          "en": "The shop is open [[until]] 10 p.m.",
+          "vi": "Cửa hàng mở cửa đến 10 giờ tối.",
+          "why": "Until + mốc thời gian."
+        }
+      ],
+      "check": {
+        "prompt": "Stay in bed ___ you feel better.",
+        "options": [
+          "until",
+          "as soon as"
+        ],
+        "answer": 0,
+        "explain": "Nằm nghỉ, kéo dài đến lúc khỏe hơn → until."
+      }
+    },
+    {
+      "part": "Thì tương lai",
+      "heading": "Nói tương lai: không dùng will sau các từ này",
+      "rule": "Nói về **tương lai**, sau when, before, after, until, as soon as dùng **hiện tại đơn**, không dùng will.",
+      "formula": [
+        {
+          "text": "[will] + V + when / until… + S + [V hiện tại]"
+        },
+        {
+          "label": "Đúng",
+          "text": "I'll call you when I [arrive]."
+        },
+        {
+          "label": "Sai",
+          "text": "I'll call you when I [will arrive]."
+        }
+      ],
+      "body": [
+        "Đây là lỗi người Việt rất hay mắc, vì tiếng Việt nói *khi nào tôi sẽ đến*. Trong tiếng Anh, chỉ mệnh đề chính có will; mệnh đề thời gian giữ hiện tại đơn."
+      ],
+      "examples": [
+        {
+          "en": "I'll text you [[when]] I get home.",
+          "vi": "Về đến nhà tôi sẽ nhắn bạn.",
+          "why": "Mệnh đề when nói tương lai nhưng dùng hiện tại đơn: get."
+        },
+        {
+          "en": "We'll start [[as soon as]] everyone is here.",
+          "vi": "Mọi người đến đủ là chúng ta bắt đầu ngay.",
+          "why": "As soon as + is, không phải will be."
+        },
+        {
+          "en": "Don't go out [[until]] the rain stops.",
+          "vi": "Đừng ra ngoài cho đến khi tạnh mưa.",
+          "why": "Until + stops (hiện tại đơn), dù nói về sau này."
+        }
+      ],
+      "check": {
+        "prompt": "I'll tell her when she ___ back.",
+        "options": [
+          "comes",
+          "will come"
+        ],
+        "answer": 0,
+        "explain": "Sau when nói tương lai → hiện tại đơn: comes."
+      }
+    },
+    {
+      "part": "Dấu phẩy",
+      "heading": "Vị trí mệnh đề và dấu phẩy",
+      "rule": "Mệnh đề thời gian đứng **đầu câu** → có **dấu phẩy**. Đứng **sau** → không cần dấu phẩy.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[When]] I was young, I lived in Hue.",
+          "vi": "Hồi nhỏ tôi sống ở Huế.",
+          "why": "Mệnh đề when đứng đầu → có dấu phẩy."
+        },
+        {
+          "en": "I lived in Hue [[when]] I was young.",
+          "vi": "Tôi sống ở Huế hồi nhỏ.",
+          "why": "Mệnh đề when đứng sau → không có dấu phẩy."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu viết đúng dấu phẩy:",
+        "options": [
+          "After lunch, we went for a walk.",
+          "We went for a walk, after lunch."
+        ],
+        "answer": 0,
+        "explain": "Cụm thời gian đứng đầu câu → có dấu phẩy."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I'll call you when I will arrive.",
+      "right": "I'll call you when I arrive.",
+      "why": "Sau when nói tương lai → hiện tại đơn."
+    },
+    {
+      "wrong": "Before to go out, close the window.",
+      "right": "Before going out, close the window.",
+      "why": "Before + V-ing, không dùng to V."
+    },
+    {
+      "wrong": "Wait here until I will come back.",
+      "right": "Wait here until I come back.",
+      "why": "Sau until → hiện tại đơn."
+    },
+    {
+      "wrong": "After I will finish, I'll help you.",
+      "right": "After I finish, I'll help you.",
+      "why": "Sau after → hiện tại đơn khi nói tương lai."
+    },
+    {
+      "wrong": "As soon as I will get the results, I'll tell you.",
+      "right": "As soon as I get the results, I'll tell you.",
+      "why": "Sau as soon as → hiện tại đơn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I'll send you the photos when I ___ home.",
+      "options": [
+        "get",
+        "will get",
+        "got"
+      ],
+      "answer": 0,
+      "explain": "Nói tương lai sau when → hiện tại đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "She lived with her parents ___ she got married.",
+      "options": [
+        "until",
+        "as soon as",
+        "before to"
+      ],
+      "answer": 0,
+      "explain": "Sống với bố mẹ, kéo dài đến lúc cưới → until."
+    },
+    {
+      "type": "choice",
+      "prompt": "Turn off the lights before ___ the house.",
+      "options": [
+        "leaving",
+        "to leave",
+        "leave"
+      ],
+      "answer": 0,
+      "explain": "Before + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I'll wait until you will finish.",
+        "I'll wait until you finish."
+      ],
+      "answer": 1,
+      "explain": "Sau until → hiện tại đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "We'll have dinner as soon as Dad ___ home.",
+      "hint": "come",
+      "answers": [
+        "comes"
+      ],
+      "explain": "Sau as soon as nói tương lai → hiện tại đơn; Dad → comes."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ the film, we went for ice cream.",
+      "hint": "sau khi",
+      "answers": [
+        "After"
+      ],
+      "explain": "After + danh từ (the film)."
+    },
+    {
+      "type": "fill",
+      "prompt": "I can't go out ___ I finish my homework.",
+      "hint": "cho đến khi",
+      "answers": [
+        "until"
+      ],
+      "explain": "Không ra ngoài cho tới khi làm xong bài."
+    },
+    {
+      "type": "fill",
+      "prompt": "Read the instructions before you ___ the machine.",
+      "hint": "use",
+      "answers": [
+        "use"
+      ],
+      "explain": "Before + mệnh đề, hiện tại đơn: use."
+    },
+    {
+      "type": "fill",
+      "prompt": "When I ___ the news, I'll call you.",
+      "hint": "hear",
+      "answers": [
+        "hear"
+      ],
+      "explain": "Sau when nói tương lai → hiện tại đơn."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi sẽ gọi cho bạn ngay khi tôi đến sân bay.",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "as",
+        "soon",
+        "as",
+        "I",
+        "get",
+        "to",
+        "the",
+        "airport."
+      ],
+      "alternatives": [
+        "As soon as I get to the airport I will call you."
+      ],
+      "explain": "As soon as + get (hiện tại đơn)."
+    },
+    {
+      "type": "order",
+      "vi": "Trước khi đi ngủ, tôi đọc sách.",
+      "words": [
+        "Before",
+        "going",
+        "to",
+        "bed",
+        "I",
+        "read",
+        "a",
+        "book."
+      ],
+      "alternatives": [
+        "I read a book before going to bed."
+      ],
+      "explain": "Before + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'll be ready when you will come.",
+      "answers": [
+        "I'll be ready when you come."
+      ],
+      "explain": "Sau when → hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "After to eat, we washed the dishes.",
+      "answers": [
+        "After eating, we washed the dishes."
+      ],
+      "explain": "After + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "Please wait until the light will turn green.",
+      "answers": [
+        "Please wait until the light turns green."
+      ],
+      "explain": "Sau until → hiện tại đơn: turns."
+    },
+    {
+      "type": "translate",
+      "vi": "Gọi cho tôi ngay khi bạn đến nơi nhé.",
+      "answers": [
+        "Call me as soon as you arrive.",
+        "Call me as soon as you get there.",
+        "Please call me as soon as you arrive.",
+        "Please call me as soon as you get there."
+      ],
+      "explain": "As soon as + hiện tại đơn."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi sẽ đợi cho đến khi bạn xong việc.",
+      "answers": [
+        "I'll wait until you finish.",
+        "I will wait until you finish.",
+        "I'll wait until you're done.",
+        "I will wait until you are done.",
+        "I'll wait until you finish work.",
+        "I will wait until you finish work."
+      ],
+      "explain": "Until + hiện tại đơn."
+    }
+  ]
+}

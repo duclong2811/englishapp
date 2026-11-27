@@ -1,0 +1,341 @@
+{
+  "id": "used-to",
+  "level": "A2",
+  "title": "Used to: thói quen trong quá khứ",
+  "summary": "Nói về thói quen, tình trạng ngày trước nay không còn: used to, didn't use to, did you use to…?",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Is this you in the photo? You look so different!",
+      "vi": "Đây là bạn trong ảnh à? Trông khác quá!"
+    },
+    {
+      "who": "B",
+      "en": "Yes! I [[used to have]] long hair.",
+      "vi": "Ừ! Ngày trước mình để tóc dài."
+    },
+    {
+      "who": "A",
+      "en": "Where was this?",
+      "vi": "Chụp ở đâu vậy?"
+    },
+    {
+      "who": "B",
+      "en": "In Hue. We [[used to live]] there when I was a kid.",
+      "vi": "Ở Huế. Hồi nhỏ nhà mình sống ở đó."
+    },
+    {
+      "who": "A",
+      "en": "[[Did]] you [[use to]] go to school by bike?",
+      "vi": "Hồi đó bạn đi học bằng xe đạp à?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, but I [[didn't use to]] like it in the rain!",
+      "vi": "Ừ, nhưng mình chẳng thích đạp xe lúc trời mưa chút nào!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Used to",
+      "heading": "Used to + động từ nguyên mẫu",
+      "rule": "**used to + V** = ngày trước thường / từng…, **bây giờ không còn nữa**.",
+      "formula": [
+        {
+          "text": "Chủ ngữ + [used to] + V"
+        }
+      ],
+      "body": [
+        "Tiếng Việt nói *ngày trước, hồi đó, trước kia hay…*. Used to giống nhau cho mọi chủ ngữ: I used to, she used to, they used to.",
+        "Used to nói cả **thói quen** (việc hay làm) lẫn **tình trạng** (đã từng là, từng có)."
+      ],
+      "examples": [
+        {
+          "en": "I [[used to play]] football every afternoon.",
+          "vi": "Ngày trước chiều nào tôi cũng đá bóng.",
+          "why": "Thói quen trong quá khứ, nay không còn."
+        },
+        {
+          "en": "My grandfather [[used to be]] a teacher.",
+          "vi": "Ông tôi từng là giáo viên.",
+          "why": "Tình trạng trong quá khứ: bây giờ ông không còn dạy."
+        },
+        {
+          "en": "There [[used to be]] a cinema on this street.",
+          "vi": "Trước kia trên phố này có một rạp phim.",
+          "why": "Bây giờ rạp phim không còn nữa."
+        }
+      ],
+      "check": {
+        "prompt": "She ___ live in Da Nang, but now she lives in Hanoi.",
+        "options": [
+          "used to",
+          "use to"
+        ],
+        "answer": 0,
+        "explain": "Câu khẳng định → used to (có -d)."
+      }
+    },
+    {
+      "part": "Phủ định, câu hỏi",
+      "heading": "Didn't use to và Did… use to?",
+      "rule": "Phủ định và câu hỏi đã có **did** thì viết **use to** (không có -d).",
+      "formula": [
+        {
+          "text": "Chủ ngữ + [didn't use to] + V"
+        },
+        {
+          "text": "[Did] + chủ ngữ + [use to] + V…?"
+        }
+      ],
+      "body": [
+        "Quy tắc giống quá khứ đơn: did đã mang dấu hiệu quá khứ, nên phía sau bỏ -d. Khi nói, used to và use to phát âm giống nhau: /ˈjuːstə/."
+      ],
+      "examples": [
+        {
+          "en": "I [[didn't use to]] like coffee.",
+          "vi": "Ngày trước tôi không thích cà phê.",
+          "why": "Phủ định với didn't → use to."
+        },
+        {
+          "en": "[[Did]] you [[use to]] watch cartoons?",
+          "vi": "Hồi nhỏ bạn có hay xem phim hoạt hình không?",
+          "why": "Câu hỏi với did → use to."
+        },
+        {
+          "en": "Where [[did]] you [[use to]] work?",
+          "vi": "Ngày trước bạn làm ở đâu?",
+          "why": "Wh- + did + you + use to."
+        }
+      ],
+      "check": {
+        "prompt": "Did you ___ walk to school?",
+        "options": [
+          "use to",
+          "used to"
+        ],
+        "answer": 0,
+        "explain": "Sau did → use to."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Used to hay quá khứ đơn?",
+      "rule": "Nói **một lần** hoặc có **số lần, thời gian cụ thể** → quá khứ đơn. Nói **thói quen kéo dài** đã chấm dứt → used to.",
+      "body": [
+        "Used to không đi với số lần hay khoảng thời gian chính xác. Không nói *I used to go there three times*.",
+        "Cẩn thận: **be used to + V-ing** (quen với việc gì) là cấu trúc khác, sẽ học ở B1."
+      ],
+      "examples": [
+        {
+          "en": "I [[went]] to Sa Pa last year.",
+          "vi": "Năm ngoái tôi đi Sa Pa.",
+          "why": "Một lần cụ thể → quá khứ đơn."
+        },
+        {
+          "en": "We [[used to go]] to Sa Pa every summer.",
+          "vi": "Ngày trước hè nào chúng tôi cũng đi Sa Pa.",
+          "why": "Thói quen lặp lại, nay không còn → used to."
+        },
+        {
+          "en": "He [[lived]] in Japan for three years.",
+          "vi": "Anh ấy sống ở Nhật ba năm.",
+          "why": "Có thời gian cụ thể (three years) → quá khứ đơn."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ to the dentist last Monday.",
+        "options": [
+          "went",
+          "used to go"
+        ],
+        "answer": 0,
+        "explain": "Một lần cụ thể (last Monday) → went."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I use to play the piano.",
+      "right": "I used to play the piano.",
+      "why": "Câu khẳng định → used to."
+    },
+    {
+      "wrong": "Did you used to live here?",
+      "right": "Did you use to live here?",
+      "why": "Sau did → use to."
+    },
+    {
+      "wrong": "I used to playing football.",
+      "right": "I used to play football.",
+      "why": "Used to + động từ nguyên mẫu."
+    },
+    {
+      "wrong": "I used to go to Hue three times.",
+      "right": "I went to Hue three times.",
+      "why": "Có số lần cụ thể → quá khứ đơn."
+    },
+    {
+      "wrong": "I use to get up at 6 every day.",
+      "right": "I usually get up at 6 every day.",
+      "why": "Thói quen hiện tại dùng hiện tại đơn (usually), không dùng used to."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "When I was a child, I ___ afraid of the dark.",
+      "options": [
+        "used to be",
+        "use to be",
+        "used to being"
+      ],
+      "answer": 0,
+      "explain": "Tình trạng trong quá khứ → used to be."
+    },
+    {
+      "type": "choice",
+      "prompt": "My father didn't ___ smoke.",
+      "options": [
+        "use to",
+        "used to"
+      ],
+      "answer": 0,
+      "explain": "Sau didn't → use to."
+    },
+    {
+      "type": "choice",
+      "prompt": "We ___ Ha Long Bay in 2019.",
+      "options": [
+        "visited",
+        "used to visit"
+      ],
+      "answer": 0,
+      "explain": "Một lần, có năm cụ thể → quá khứ đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói về thói quen ngày trước?",
+      "options": [
+        "I play tennis every Sunday.",
+        "I used to play tennis every Sunday."
+      ],
+      "answer": 1,
+      "explain": "Used to = thói quen trong quá khứ, nay không còn."
+    },
+    {
+      "type": "fill",
+      "prompt": "This shop ___ sell bread, but now it sells phones.",
+      "hint": "khẳng định",
+      "answers": [
+        "used to"
+      ],
+      "explain": "Tình trạng ngày trước → used to."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ your mother use to cook for the whole family?",
+      "hint": "trợ động từ",
+      "answers": [
+        "Did"
+      ],
+      "explain": "Câu hỏi: Did + chủ ngữ + use to."
+    },
+    {
+      "type": "fill",
+      "prompt": "I didn't ___ eat vegetables, but now I love them.",
+      "hint": "use to",
+      "answers": [
+        "use to"
+      ],
+      "explain": "Sau didn't → use to."
+    },
+    {
+      "type": "fill",
+      "prompt": "My brother used to ___ very shy.",
+      "hint": "be",
+      "answers": [
+        "be"
+      ],
+      "explain": "Used to + nguyên mẫu: be."
+    },
+    {
+      "type": "fill",
+      "prompt": "There ___ be a big tree in front of our house.",
+      "hint": "khẳng định",
+      "answers": [
+        "used to"
+      ],
+      "explain": "There used to be = trước kia có."
+    },
+    {
+      "type": "order",
+      "vi": "Hồi nhỏ chúng tôi sống ở quê.",
+      "words": [
+        "We",
+        "used",
+        "to",
+        "live",
+        "in",
+        "the",
+        "countryside."
+      ],
+      "explain": "Used to + live."
+    },
+    {
+      "type": "order",
+      "vi": "Ngày trước bạn có chơi thể thao không?",
+      "words": [
+        "Did",
+        "you",
+        "use",
+        "to",
+        "play",
+        "sports?"
+      ],
+      "explain": "Did + you + use to + play."
+    },
+    {
+      "type": "fix",
+      "sentence": "She use to work in a bank.",
+      "answers": [
+        "She used to work in a bank."
+      ],
+      "explain": "Câu khẳng định → used to."
+    },
+    {
+      "type": "fix",
+      "sentence": "Did they used to have a dog?",
+      "answers": [
+        "Did they use to have a dog?"
+      ],
+      "explain": "Sau did → use to."
+    },
+    {
+      "type": "fix",
+      "sentence": "I used to going to the gym.",
+      "answers": [
+        "I used to go to the gym."
+      ],
+      "explain": "Used to + nguyên mẫu: go."
+    },
+    {
+      "type": "translate",
+      "vi": "Ngày trước tôi hay uống trà sữa.",
+      "answers": [
+        "I used to drink milk tea.",
+        "I used to drink bubble tea."
+      ],
+      "explain": "Thói quen ngày trước → used to + drink."
+    },
+    {
+      "type": "translate",
+      "vi": "Ông tôi từng là bác sĩ.",
+      "answers": [
+        "My grandfather used to be a doctor.",
+        "My grandpa used to be a doctor."
+      ],
+      "explain": "Tình trạng ngày trước → used to be."
+    }
+  ]
+}

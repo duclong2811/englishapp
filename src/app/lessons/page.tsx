@@ -1,19 +1,24 @@
 import type { Metadata } from "next";
 import { PageHeading } from "@/components/empty-state";
 import { SyllabusList } from "@/components/grammar/syllabus-list";
-import { A1_UNITS } from "@/content/grammar/syllabus";
-import { getGrammarLessons, getSyllabus } from "@/lib/grammar/lessons";
+import { GRAMMAR_LEVELS } from "@/content/grammar/syllabus";
+import { getGrammarLessons, getSyllabus, GRAMMAR_LEVEL_IDS } from "@/lib/grammar/lessons";
 
 export const metadata: Metadata = { title: "Bài học" };
 
 export default function LessonsPage() {
   const summaries = new Map(getGrammarLessons().map(({ id, summary }) => [id, summary]));
-  const items = new Map(getSyllabus().map((lesson) => [lesson.id, { ...lesson, summary: summaries.get(lesson.id) }]));
-  const units = A1_UNITS.map(({ id, title, lessons }) => ({
-    id,
-    title,
-    items: lessons.map((lesson) => items.get(lesson)!),
-  }));
+  const levels = GRAMMAR_LEVEL_IDS.map((level) => {
+    const items = new Map(getSyllabus(level).map((lesson) => [lesson.id, { ...lesson, summary: summaries.get(lesson.id) }]));
+    return {
+      level,
+      units: GRAMMAR_LEVELS[level].units.map(({ id, title, lessons }) => ({
+        id,
+        title,
+        items: lessons.map((lesson) => items.get(lesson)!),
+      })),
+    };
+  }).filter(({ units }) => units.some((u) => u.items.some((i) => i.ready)));
 
   return (
     <>
@@ -21,7 +26,7 @@ export default function LessonsPage() {
         title="Bài học"
         intro="Học ngữ pháp qua hội thoại mẫu, giải thích bằng tiếng Việt và bài tập có chấm điểm."
       />
-      <SyllabusList units={units} />
+      <SyllabusList levels={levels} />
     </>
   );
 }

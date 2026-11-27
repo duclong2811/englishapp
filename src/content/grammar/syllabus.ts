@@ -37,3 +37,54 @@ export const A1_UNITS: { id: string; title: string; lessons: string[] }[] = [
   { id: "past", title: "Quá khứ", lessons: ["was-were", "past-simple-regular", "past-simple-irregular", "past-simple-questions"] },
   { id: "future-communication", title: "Tương lai và giao tiếp", lessons: ["going-to", "question-words", "would-like"] },
 ];
+
+/** A2 grammar, in teaching order. Each id has a lesson file in ./a2 once it is written. */
+export const A2_SYLLABUS: { id: string; title: string }[] = [
+  { id: "past-continuous", title: "Quá khứ tiếp diễn: I was working" },
+  { id: "past-simple-vs-continuous", title: "Quá khứ đơn hay quá khứ tiếp diễn? When, while" },
+  { id: "used-to", title: "Used to: thói quen trong quá khứ" },
+  { id: "time-clauses", title: "Before, after, when, until, as soon as" },
+  { id: "present-perfect-experience", title: "Hiện tại hoàn thành: ever, never" },
+  { id: "present-perfect-just-yet", title: "Just, already, yet" },
+  { id: "present-perfect-for-since", title: "For và since: how long" },
+  { id: "present-perfect-vs-past", title: "Hiện tại hoàn thành hay quá khứ đơn?" },
+  { id: "will-future", title: "Will: dự đoán, quyết định tức thì, lời hứa" },
+  { id: "will-vs-going-to", title: "Will hay be going to?" },
+  { id: "present-for-future", title: "Hiện tại tiếp diễn cho lịch hẹn tương lai" },
+  { id: "zero-conditional", title: "Câu điều kiện loại 0: If you heat ice, it melts" },
+  { id: "first-conditional", title: "Câu điều kiện loại 1: If it rains, I will…" },
+  { id: "comparatives", title: "So sánh hơn: bigger, more expensive" },
+  { id: "superlatives", title: "So sánh nhất: the biggest, the most…" },
+  { id: "as-as", title: "As … as, not as … as, the same as" },
+  { id: "too-enough", title: "Too và enough" },
+  { id: "adverbs-manner", title: "Trạng từ cách thức: quickly, well, hard" },
+  { id: "must-have-to", title: "Must, have to, don't have to, mustn't" },
+  { id: "should", title: "Should: lời khuyên" },
+  { id: "might-may", title: "Might, may: có lẽ, có thể" },
+  { id: "could-requests", title: "Could you…? Can I…? May I…?" },
+  { id: "quantifiers", title: "Much, many, a few, a little, a lot of" },
+  { id: "some-any-compounds", title: "Something, anyone, nobody, everywhere…" },
+  { id: "possessive-pronouns", title: "Mine, yours… và whose" },
+  { id: "articles-the", title: "The hay không có mạo từ" },
+  { id: "verb-ing-to", title: "Động từ + V-ing hay to V: enjoy doing, want to do" },
+  { id: "relative-clauses", title: "Who, which, that: mệnh đề quan hệ" },
+  { id: "linking-words", title: "And, but, so, because, although" },
+];
+
+/** A2 chapters in teaching order. */
+export const A2_UNITS: { id: string; title: string; lessons: string[] }[] = [
+  { id: "a2-past", title: "Kể chuyện quá khứ", lessons: ["past-continuous", "past-simple-vs-continuous", "used-to", "time-clauses"] },
+  { id: "a2-present-perfect", title: "Hiện tại hoàn thành", lessons: ["present-perfect-experience", "present-perfect-just-yet", "present-perfect-for-since", "present-perfect-vs-past"] },
+  { id: "a2-future", title: "Tương lai và điều kiện", lessons: ["will-future", "will-vs-going-to", "present-for-future", "zero-conditional", "first-conditional"] },
+  { id: "a2-compare", title: "So sánh và mô tả", lessons: ["comparatives", "superlatives", "as-as", "too-enough", "adverbs-manner"] },
+  { id: "a2-modals", title: "Động từ khuyết thiếu", lessons: ["must-have-to", "should", "might-may", "could-requests"] },
+  { id: "a2-nouns", title: "Danh từ, đại từ và lượng từ", lessons: ["quantifiers", "some-any-compounds", "possessive-pronouns", "articles-the"] },
+  { id: "a2-linking", title: "Nối câu", lessons: ["verb-ing-to", "relative-clauses", "linking-words"] },
+];
+
+export type GrammarLevel = "A1" | "A2";
+
+export const GRAMMAR_LEVELS: Record<GrammarLevel, { syllabus: { id: string; title: string }[]; units: { id: string; title: string; lessons: string[] }[] }> = {
+  A1: { syllabus: A1_SYLLABUS, units: A1_UNITS },
+  A2: { syllabus: A2_SYLLABUS, units: A2_UNITS },
+};
