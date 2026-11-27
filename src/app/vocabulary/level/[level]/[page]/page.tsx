@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { LevelList, pageCount, toLevel } from "@/components/vocab/level-list";
-import { LEVELS } from "@/lib/vocab/data";
+import { getVocabData, LEVELS } from "@/lib/vocab/data";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { getWordsByLevel } = await getVocabData();
   return LEVELS.flatMap((level) =>
-    Array.from({ length: pageCount(level) - 1 }, (_, i) => ({ level: level.toLowerCase(), page: String(i + 2) })),
+    Array.from({ length: pageCount(getWordsByLevel(level).length) - 1 }, (_, i) => ({ level: level.toLowerCase(), page: String(i + 2) })),
   );
 }
 

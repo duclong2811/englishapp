@@ -3,11 +3,12 @@ import Link from "next/link";
 import { PageHeading } from "@/components/empty-state";
 import { LessonList } from "@/components/speaking/lesson-list";
 import { getLesson } from "@/lib/speaking/lessons";
-import { getTopics } from "@/lib/vocab/data";
+import { getVocabData } from "@/lib/vocab/data";
 
 export const metadata: Metadata = { title: "Luyện nói" };
 
-export default function SpeakingPage() {
+export default async function SpeakingPage() {
+  const { getTopics } = await getVocabData();
   // Speaking lessons follow the A1 topics.
   const items = getTopics("A1").map((t) => {
     const lesson = getLesson(t.id);

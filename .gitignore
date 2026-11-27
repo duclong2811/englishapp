@@ -45,6 +45,7 @@ next-env.d.ts
 
 # Downloaded vocabulary sources (tools/vocab/fetch.sh)
 /data/raw/
+/public/data/vocab/
 
 # Cloudflare build output and local secrets
 /.open-next/
