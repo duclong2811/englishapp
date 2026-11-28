@@ -106,7 +106,11 @@ export function FlashcardsOverview({ levels }: { levels: LevelDecks[] }) {
         </section>
       ) : (
         <section aria-label={`Thẻ ngữ pháp ${data.level}`} className="mt-6">
-          <p className="text-sm text-ink-soft">Mỗi quy tắc và lỗi hay gặp là một thẻ. Ôn từng bài, hoặc cả chương một lượt.</p>
+          <p className="text-sm text-ink-soft">
+            {data.units.length
+              ? "Mỗi quy tắc và lỗi hay gặp là một thẻ. Ôn từng bài, hoặc cả chương một lượt."
+              : `Ngữ pháp ${data.level} đang được soạn. Trong lúc chờ, bạn ôn thẻ từ vựng ${data.level} nhé.`}
+          </p>
           <ol className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {data.units.map((u, i) => (
               <li key={u.id} className="flex flex-col rounded-2xl border border-line bg-sheet">

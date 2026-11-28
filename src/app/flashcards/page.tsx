@@ -2,21 +2,22 @@ import type { Metadata } from "next";
 import { PageHeading } from "@/components/empty-state";
 import { FlashcardsOverview } from "@/components/flashcards-overview";
 import { ReviewSwitch } from "@/components/review-switch";
-import { GRAMMAR_LEVELS } from "@/content/grammar/syllabus";
+import { GRAMMAR_LEVELS, type GrammarLevel } from "@/content/grammar/syllabus";
 import { getSyllabus } from "@/lib/grammar/lessons";
-import { TEST_LEVELS } from "@/lib/tests/build-bank";
-import { getVocabData } from "@/lib/vocab/data";
+import { getVocabData, LEVELS } from "@/lib/vocab/data";
 
 export const metadata: Metadata = { title: "Thẻ ghi nhớ" };
 
 export default async function FlashcardsPage() {
   const { getTopics } = await getVocabData();
-  const levels = await Promise.all(
-    TEST_LEVELS.map(async (level) => {
-      const ready = new Map((await getSyllabus(level)).map((s) => [s.id, s]));
+  // Every level with grammar lessons or vocabulary topics (C1 has vocabulary only).
+  const all = await Promise.all(
+    LEVELS.map(async (level) => {
+      const grammar = level in GRAMMAR_LEVELS ? (level as GrammarLevel) : null;
+      const ready = new Map((grammar ? await getSyllabus(grammar) : []).map((s) => [s.id, s]));
       return {
         level,
-        units: GRAMMAR_LEVELS[level].units
+        units: (grammar ? GRAMMAR_LEVELS[grammar].units : [])
           .map((u) => ({
             id: u.id,
             title: u.title,
@@ -30,6 +31,7 @@ export default async function FlashcardsPage() {
       };
     }),
   );
+  const levels = all.filter((l) => l.units.length || l.topics.length);
   return (
     <>
       <ReviewSwitch current="flashcards" />
