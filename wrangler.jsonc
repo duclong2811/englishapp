@@ -17,5 +17,11 @@
   ],
   // Workers AI, used for speech-to-text in the speaking practice.
   "ai": { "binding": "AI" },
+  // Accounts, sessions, AI usage and synced progress (docs/accounts.md).
+  "d1_databases": [
+    { "binding": "DB", "database_name": "englishapp", "database_id": "06cc5b8e-84fb-43cd-9944-2b8b7e3e2438" }
+  ],
+  // Keep variables set in the dashboard (ADMIN_EMAILS) when deploying.
+  "keep_vars": true,
   "observability": { "enabled": true }
 }
