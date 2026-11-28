@@ -4,7 +4,7 @@
  */
 export type OpenTask = {
   id: string;
-  level: "A1" | "A2";
+  level: "A1" | "A2" | "B1";
   mode: "write" | "speak";
   /** What to do, in Vietnamese. */
   task: string;
@@ -14,7 +14,7 @@ export type OpenTask = {
   focus: string;
 };
 
-const t = (level: "A1" | "A2", mode: "write" | "speak", id: string, focus: string, minWords: number, task: string, hint: string): OpenTask => ({
+const t = (level: "A1" | "A2" | "B1", mode: "write" | "speak", id: string, focus: string, minWords: number, task: string, hint: string): OpenTask => ({
   id: `${level.toLowerCase()}-${mode}-${id}`,
   level,
   mode,
@@ -77,4 +77,30 @@ export const OPEN_TASKS: OpenTask[] = [
   t("A2", "speak", "maybe", "might-may", 12, "Cuối tuần này bạn chưa có kế hoạch rõ ràng. Nói những gì bạn có thể sẽ làm.", "I might … I may … Maybe I'll …"),
   t("A2", "speak", "hobby", "verb-ing-to", 12, "Nói về sở thích của bạn và một việc bạn muốn học.", "I enjoy … I'd like to learn to … I want to …"),
   t("A2", "speak", "opinion", "linking-words", 15, "Bạn thích sống ở thành phố hay ở quê? Giải thích lý do.", "I prefer … because … but … so …"),
+// B1 writing (graded by the standard model, see docs/ai-policy.md)
+  t("B1", "write", "news", "past-perfect", 50, "Kể lại một ngày mọi chuyện đều trục trặc: lúc bạn đến nơi thì chuyện gì đã xảy ra rồi?", "When I got to …, the … had already … I realized I had …"),
+  t("B1", "write", "lately", "present-perfect-continuous", 45, "Viết email cho một người bạn lâu ngày không gặp: dạo này bạn đang làm gì, học gì, bao lâu rồi?", "Hi …, I've been … for … Lately I've been …"),
+  t("B1", "write", "town", "would-used-to", 50, "Quê bạn ngày xưa khác bây giờ thế nào? Kể những thói quen của người dân ngày trước.", "When I was young, people used to … Every Tet, we would … Now I'm used to …"),
+  t("B1", "write", "review", "passive-basics", 50, "Viết đoạn giới thiệu một món ăn hoặc đặc sản quê bạn: nó được làm thế nào, từ gì, ăn với gì.", "Banh chung is made from … It is wrapped in … It is usually eaten …"),
+  t("B1", "write", "lottery", "second-conditional", 50, "Nếu bạn có một năm nghỉ được trả lương, bạn sẽ làm gì? Giải thích lý do.", "If I had a year off, I would … because … I could also …"),
+  t("B1", "write", "regret", "third-conditional", 50, "Kể một quyết định trong quá khứ mà bạn tiếc. Nếu chọn khác thì điều gì đã xảy ra?", "If I had …, I would have … I wish I had …"),
+  t("B1", "write", "message", "reported-statements", 45, "Bạn nhận một cuộc gọi cho đồng nghiệp đi vắng. Viết lời nhắn kể lại người gọi đã nói gì, hỏi gì, nhờ gì.", "Mr Nam called. He said that … He asked if … He asked you to …"),
+  t("B1", "write", "mystery", "modals-deduction", 45, "Hàng xóm bạn đi vắng cả tuần, cửa đóng, thư chất đầy. Viết những phỏng đoán của bạn.", "They must be … They might have … They can't be …"),
+  t("B1", "write", "complaint", "indirect-questions", 50, "Viết email lịch sự hỏi khách sạn về phòng, giá và dịch vụ cho chuyến đi sắp tới.", "Dear …, Could you tell me whether … I would like to know how much …"),
+  t("B1", "write", "advice", "modals-past", 45, "Một người bạn vừa trượt phỏng vấn xin việc. Viết cho họ: lẽ ra nên làm gì, không nên làm gì.", "You should have … You shouldn't have … You could have …"),
+  t("B1", "write", "opinion", "contrast-purpose", 60, "Mạng xã hội tốt hay xấu cho người trẻ? Viết đoạn văn nêu cả hai mặt.", "Although social media …, … Despite …, … However, … so that …"),
+  t("B1", "write", "rules", "verb-object-infinitive", 45, "Ngày nhỏ bố mẹ bắt bạn làm gì và cho phép bạn làm gì? Bạn có muốn con mình làm giống vậy không?", "My parents made me … They let me … I want my children to …"),
+  // B1 speaking
+  t("B1", "speak", "trip", "past-perfect", 35, "Kể về một chuyến đi mà bạn đến muộn hoặc lỡ điều gì đó.", "By the time we arrived, … had already … because I had …"),
+  t("B1", "speak", "habit", "present-perfect-continuous", 30, "Bạn đang theo đuổi thói quen hay sở thích nào? Bắt đầu từ bao giờ?", "I've been … since … I've been trying to …"),
+  t("B1", "speak", "childhood", "would-used-to", 35, "Kể về Tết hồi bạn còn nhỏ.", "Every Tet, my family would … We used to … I'm not used to … anymore."),
+  t("B1", "speak", "city", "passive-more", 30, "Thành phố của bạn đang thay đổi thế nào? Những gì đang được xây, đã được làm?", "A new metro is being built … Many old houses have been …"),
+  t("B1", "speak", "dream", "second-conditional", 30, "Nếu được sống ở bất kỳ nước nào, bạn chọn nước nào? Vì sao?", "If I could live anywhere, I would … because …"),
+  t("B1", "speak", "wish", "wish", 30, "Bạn ước điều gì về cuộc sống hiện tại, và tiếc điều gì đã qua?", "I wish I had more … I wish I had … when I was …"),
+  t("B1", "speak", "conversation", "reported-statements", 30, "Kể lại một cuộc trò chuyện thú vị gần đây: người kia đã nói và hỏi gì?", "My friend told me that … She asked me if … I said …"),
+  t("B1", "speak", "guess", "modals-deduction", 25, "Nhìn quanh bạn: đoán xem những người xung quanh đang làm gì, cảm thấy thế nào.", "That man must be … She might be … They can't be …"),
+  t("B1", "speak", "mistake", "modals-past", 30, "Kể một lần bạn mắc sai lầm. Lẽ ra bạn nên làm gì?", "I should have … I shouldn't have … I could have …"),
+  t("B1", "speak", "directions", "indirect-questions", 25, "Bạn lạc ở một thành phố lạ. Hỏi đường và hỏi thông tin thật lịch sự.", "Excuse me, could you tell me where … Do you know if …"),
+  t("B1", "speak", "success", "could-able-to", 30, "Kể về một việc khó mà cuối cùng bạn đã làm được.", "It was difficult, but I managed to … I was able to … because …"),
+  t("B1", "speak", "debate", "contrast-purpose", 35, "Nên học đại học hay đi làm sớm? Nêu ý kiến của bạn và lý do.", "Although university is …, … Despite …, I think … in order to …"),
 ];

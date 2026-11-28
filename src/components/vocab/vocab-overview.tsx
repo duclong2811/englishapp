@@ -108,7 +108,7 @@ export function VocabOverview({
             <Link href="/vocabulary/practice" className={secondary}>
               Luyện tập
             </Link>
-            {level === "A1" || level === "A2" ? (
+            {level === "A1" || level === "A2" || level === "B1" ? (
               <Link href={`/tests/${level.toLowerCase()}`} className={secondary}>
                 Kiểm tra {level}
               </Link>

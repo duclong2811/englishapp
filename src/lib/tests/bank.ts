@@ -138,11 +138,15 @@ export function openTestItem(o: OpenItem): TestItem {
   return { id: o.id, section: o.ex.mode === "write" ? "writing" : "speaking", tag: o.lesson, ex: o.ex };
 }
 
-/** Random order, but items not seen before come first. */
-function freshFirst<T>(items: T[], key: (t: T) => string, seen: Set<string>) {
+/** Random order, but items not seen before come first. `key` may give several ids: seen if any of them was. */
+function freshFirst<T>(items: T[], key: (t: T) => string | string[], seen: Set<string>) {
   const s = shuffle(items);
-  return [...s.filter((t) => !seen.has(key(t))), ...s.filter((t) => seen.has(key(t)))];
+  const isSeen = (t: T) => ([] as string[]).concat(key(t)).some((k) => seen.has(k));
+  return [...s.filter((t) => !isSeen(t)), ...s.filter(isSeen)];
 }
+
+/** A word counts as seen once any question about it was asked. */
+const wordIds = (w: BankWord) => (["meaning", "reverse", "cloze"] as VocabKind[]).map((k) => vocabItemId(w.id, k));
 
 /**
  * Picks `n` items spread over groups (topics, units, lessons): one from each
@@ -197,7 +201,7 @@ function openItems(bank: Bank, mode: "write" | "speak", n: number, seen: Set<str
 /** The level test: vocabulary over every topic, listening, grammar over every unit, then writing and speaking. */
 export function drawLevelTest(bank: Bank, seen: Set<string>): TestItem[] {
   const B = LEVEL_BLUEPRINT;
-  const byTopic = groupBy(freshFirst(bank.words, (w) => vocabItemId(w.id, "meaning"), seen), (w) => w.topic);
+  const byTopic = groupBy(freshFirst(bank.words, wordIds, seen), (w) => w.topic);
   const picked = spread(byTopic, B.vocab + B.listening);
   const vocab = vocabItems(picked.slice(0, B.vocab), bank.words, VOCAB_KINDS, seen);
   const listening = picked.slice(B.vocab).map((w) => vocabItem(w, "listen", bank.words));
@@ -231,7 +235,7 @@ export function drawUnitTest(bank: Bank, unitId: string, seen: Set<string>): Tes
 
 /** Quick test for one vocabulary topic: every word once if possible, mixed question kinds. */
 export function drawTopicTest(bank: Bank, topicId: string, seen: Set<string>): TestItem[] {
-  const words = freshFirst(bank.words.filter((w) => w.topic === topicId), (w) => vocabItemId(w.id, "meaning"), seen);
+  const words = freshFirst(bank.words.filter((w) => w.topic === topicId), wordIds, seen);
   const picked = words.length >= QUICK_SIZE ? words.slice(0, QUICK_SIZE) : [...words, ...shuffle(words)].slice(0, QUICK_SIZE);
   return shuffle(vocabItems(picked, bank.words, ["meaning", "cloze", "reverse", "listen"], seen));
 }
