@@ -1,0 +1,369 @@
+{
+  "id": "reported-requests",
+  "level": "B1",
+  "title": "Tell, ask someone to do: kể lại lời nhờ, lời khuyên",
+  "summary": "Kể lại mệnh lệnh, lời nhờ, lời khuyên, lời hứa: tell, ask, advise, remind + người + to V, và promise, offer, refuse + to V.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What did the doctor say?",
+      "vi": "Bác sĩ nói gì?"
+    },
+    {
+      "who": "B",
+      "en": "She [[told me to rest]] for a few days.",
+      "vi": "Bác sĩ bảo mình nghỉ ngơi vài ngày."
+    },
+    {
+      "who": "A",
+      "en": "Did she give you medicine?",
+      "vi": "Có kê thuốc không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, and she [[advised me not to drink]] coffee.",
+      "vi": "Có, và bác sĩ khuyên mình đừng uống cà phê."
+    },
+    {
+      "who": "A",
+      "en": "Oh no. You love coffee!",
+      "vi": "Thôi xong. Bạn mê cà phê mà!"
+    },
+    {
+      "who": "B",
+      "en": "I know. My wife [[promised to hide]] all the coffee!",
+      "vi": "Biết vậy. Vợ mình hứa sẽ giấu hết cà phê đi rồi!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Người + to V",
+      "heading": "Tell, ask, advise, remind + người + to V",
+      "rule": "Kể lại **mệnh lệnh, lời nhờ, lời khuyên, lời nhắc**: **động từ + người + to V**. Phủ định: **not to V**.",
+      "formula": [
+        {
+          "text": "S + [told / asked / advised / reminded] + người + [to V]"
+        },
+        {
+          "text": "S + [told / asked] + người + [not to V]"
+        }
+      ],
+      "body": [
+        "**tell** = ra lệnh, bảo; **ask** = nhờ, xin; **advise** = khuyên; **remind** = nhắc. Chọn động từ cho đúng ý thì không cần lùi thì gì cả."
+      ],
+      "table": {
+        "head": [
+          "Lời nói trực tiếp",
+          "Lời kể lại"
+        ],
+        "rows": [
+          [
+            "\"Close the door.\"",
+            "He told me to close the door."
+          ],
+          [
+            "\"Could you help me?\"",
+            "She asked me to help her."
+          ],
+          [
+            "\"You should rest.\"",
+            "The doctor advised me to rest."
+          ],
+          [
+            "\"Don't forget your keys.\"",
+            "Mum reminded me not to forget my keys."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The teacher [[told us to be]] quiet.",
+          "vi": "Cô giáo bảo chúng tôi giữ trật tự.",
+          "why": "Mệnh lệnh → told + us + to be."
+        },
+        {
+          "en": "I [[asked her to send]] me the file.",
+          "vi": "Tôi nhờ cô ấy gửi tài liệu cho tôi.",
+          "why": "Lời nhờ → asked + her + to send."
+        },
+        {
+          "en": "He [[told me not to worry]].",
+          "vi": "Anh ấy bảo tôi đừng lo.",
+          "why": "Phủ định: not to + V."
+        }
+      ],
+      "check": {
+        "prompt": "\"Please wait here.\" → She asked me ___ there.",
+        "options": [
+          "to wait",
+          "wait",
+          "waiting"
+        ],
+        "answer": 0,
+        "explain": "Asked + me + to V."
+      }
+    },
+    {
+      "part": "To V không có người",
+      "heading": "Promise, offer, refuse, agree + to V",
+      "rule": "Kể lại **lời hứa, lời đề nghị giúp, lời từ chối, sự đồng ý**: **promise / offer / refuse / agree + to V** (không có người ở giữa).",
+      "body": [],
+      "examples": [
+        {
+          "en": "\"I'll call you tonight.\" → He [[promised to call]] me.",
+          "vi": "Anh ấy hứa sẽ gọi cho tôi.",
+          "why": "Lời hứa → promised + to V."
+        },
+        {
+          "en": "\"Shall I carry your bag?\" → She [[offered to carry]] my bag.",
+          "vi": "Cô ấy ngỏ ý xách túi giúp tôi.",
+          "why": "Đề nghị giúp → offered + to V."
+        },
+        {
+          "en": "\"No, I won't pay.\" → He [[refused to pay]].",
+          "vi": "Anh ta từ chối trả tiền.",
+          "why": "Từ chối → refused + to V."
+        }
+      ],
+      "check": {
+        "prompt": "\"OK, I'll help you.\" → She agreed ___ me.",
+        "options": [
+          "to help",
+          "helping",
+          "that help"
+        ],
+        "answer": 0,
+        "explain": "Agree + to V."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Suggest: không dùng người + to V",
+      "rule": "**suggest** không theo mẫu *suggest someone to*. Dùng **suggest + V-ing** hoặc **suggest (that) + câu**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "\"Let's take a taxi.\" → He [[suggested taking]] a taxi.",
+          "vi": "Anh ấy gợi ý đi taxi.",
+          "why": "Suggest + V-ing."
+        },
+        {
+          "en": "She [[suggested that we leave]] early.",
+          "vi": "Cô ấy gợi ý chúng tôi đi sớm.",
+          "why": "Suggest + that + câu."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "He suggested me to go home.",
+          "He suggested going home."
+        ],
+        "answer": 1,
+        "explain": "Suggest + V-ing, không dùng suggest me to."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She told me close the window.",
+      "right": "She told me to close the window.",
+      "why": "Tell + người + to V."
+    },
+    {
+      "wrong": "He told me don't be late.",
+      "right": "He told me not to be late.",
+      "why": "Phủ định: not to + V."
+    },
+    {
+      "wrong": "She said me to wait.",
+      "right": "She told me to wait.",
+      "why": "Say không dùng với người + to V; dùng tell."
+    },
+    {
+      "wrong": "He suggested me to see a doctor.",
+      "right": "He suggested that I see a doctor.",
+      "why": "Suggest + that + câu (hoặc + V-ing)."
+    },
+    {
+      "wrong": "My friend promised me to come.",
+      "right": "My friend promised to come.",
+      "why": "Promise + to V (thường không có người ở giữa)."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "My mother told me ___ my room.",
+      "options": [
+        "to clean",
+        "clean",
+        "cleaning"
+      ],
+      "answer": 0,
+      "explain": "Told + me + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "The doctor advised him ___ smoking.",
+      "options": [
+        "to stop",
+        "stop",
+        "stopping"
+      ],
+      "answer": 0,
+      "explain": "Advise + người + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "He offered ___ me to the airport.",
+      "options": [
+        "to drive",
+        "driving",
+        "me to drive"
+      ],
+      "answer": 0,
+      "explain": "Offer + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "She told me not to touch it.",
+        "She told me don't touch it.",
+        "She said me not to touch it."
+      ],
+      "answer": 0,
+      "explain": "Told + me + not to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"Please call me later.\" → He asked me ___ him later.",
+      "hint": "call",
+      "answers": [
+        "to call"
+      ],
+      "explain": "Asked + me + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"Don't park here.\" → The guard told us ___ there.",
+      "hint": "park, phủ định",
+      "answers": [
+        "not to park"
+      ],
+      "explain": "Told + us + not to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"I'll pay you back next week.\" → She promised ___ me back the next week.",
+      "hint": "pay",
+      "answers": [
+        "to pay"
+      ],
+      "explain": "Promise + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"Let's eat out tonight.\" → He suggested ___ out that night.",
+      "hint": "eat",
+      "answers": [
+        "eating"
+      ],
+      "explain": "Suggest + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"Remember to lock the door.\" → She ___ me to lock the door.",
+      "hint": "nhắc",
+      "answers": [
+        "reminded"
+      ],
+      "explain": "Remind + người + to V."
+    },
+    {
+      "type": "order",
+      "vi": "Sếp bảo tôi gửi email cho khách hàng.",
+      "words": [
+        "My",
+        "boss",
+        "told",
+        "me",
+        "to",
+        "send",
+        "an",
+        "email",
+        "to",
+        "the",
+        "client."
+      ],
+      "explain": "Told + me + to V."
+    },
+    {
+      "type": "order",
+      "vi": "Anh ấy từ chối trả lời câu hỏi.",
+      "words": [
+        "He",
+        "refused",
+        "to",
+        "answer",
+        "the",
+        "question."
+      ],
+      "explain": "Refuse + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "The teacher told us don't use our phones.",
+      "answers": [
+        "The teacher told us not to use our phones."
+      ],
+      "explain": "Told + us + not to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "She asked me help her with the boxes.",
+      "answers": [
+        "She asked me to help her with the boxes."
+      ],
+      "explain": "Asked + me + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "He suggested me to try the new restaurant.",
+      "answers": [
+        "He suggested trying the new restaurant."
+      ],
+      "explain": "Suggest + V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Bác sĩ khuyên tôi nên ngủ nhiều hơn.",
+      "answers": [
+        "The doctor advised me to sleep more.",
+        "The doctor advised me to get more sleep.",
+        "My doctor advised me to sleep more.",
+        "My doctor advised me to get more sleep.",
+        "The doctor told me to sleep more.",
+        "The doctor told me to get more sleep."
+      ],
+      "explain": "Advised + me + to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Mẹ nhắc tôi đừng quên mang ô.",
+      "answers": [
+        "My mother reminded me not to forget my umbrella.",
+        "My mom reminded me not to forget my umbrella.",
+        "Mum reminded me not to forget my umbrella.",
+        "My mother reminded me to take my umbrella.",
+        "My mom reminded me to take my umbrella.",
+        "My mother reminded me to bring my umbrella.",
+        "My mom reminded me to bring my umbrella.",
+        "My mother reminded me not to forget the umbrella.",
+        "My mom reminded me not to forget the umbrella."
+      ],
+      "explain": "Reminded + me + (not) to V."
+    }
+  ]
+}

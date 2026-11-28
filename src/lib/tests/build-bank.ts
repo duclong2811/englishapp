@@ -47,7 +47,7 @@ export async function buildBank(level: GrammarLevel): Promise<Bank> {
         const text = e.en.replace(/\[\[|\]\]/g, "");
         const n = text.split(/\s+/).length;
         // One sentence of 4 to 14 words: longer lines are hard to read in one breath at this level.
-        return n >= 4 && n <= 14 && !/[.?!]\s+\S/.test(text) && !text.includes("/")
+        return n >= 4 && n <= 14 && !/[.?!]\s+\S/.test(text) && !/[/→"“]/.test(text)
           ? [{ id: `s:${l.id}:${si}:${ei}`, lesson: l.id, unit: unitOf.get(l.id)!, text, vi: e.vi }]
           : [];
       }),

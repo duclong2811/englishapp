@@ -1,0 +1,344 @@
+{
+  "id": "reported-questions",
+  "level": "B1",
+  "title": "Câu hỏi gián tiếp: He asked if…",
+  "summary": "Kể lại câu hỏi của người khác: asked + if/whether hoặc từ để hỏi, trật tự câu kể, lùi thì.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was the interview?",
+      "vi": "Buổi phỏng vấn thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "Fine. They [[asked]] me [[where I worked]] before.",
+      "vi": "Ổn. Họ hỏi trước đây mình làm ở đâu."
+    },
+    {
+      "who": "A",
+      "en": "Did they ask about money?",
+      "vi": "Họ có hỏi về lương không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. They [[asked]] [[how much I wanted]] to earn.",
+      "vi": "Có. Họ hỏi mình muốn lương bao nhiêu."
+    },
+    {
+      "who": "A",
+      "en": "And anything else?",
+      "vi": "Còn gì nữa không?"
+    },
+    {
+      "who": "B",
+      "en": "They [[asked]] [[if I could]] start next month.",
+      "vi": "Họ hỏi mình có bắt đầu vào tháng sau được không."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Câu hỏi Yes/No",
+      "heading": "Asked if / whether",
+      "rule": "Câu hỏi **Yes/No** → **asked (+ người) + if / whether + chủ ngữ + động từ**, không có trợ động từ do/did.",
+      "formula": [
+        {
+          "text": "\"Are you tired?\" → She asked [if] I [was] tired."
+        },
+        {
+          "text": "\"Do you like it?\" → He asked [if] I [liked] it."
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "\"Are you ready?\" → She asked [[if I was]] ready.",
+          "vi": "Cô ấy hỏi tôi đã sẵn sàng chưa.",
+          "why": "Are you → if I was (đổi trật tự, lùi thì)."
+        },
+        {
+          "en": "\"Did you see the news?\" → He asked [[whether I had seen]] the news.",
+          "vi": "Anh ấy hỏi tôi đã xem tin chưa.",
+          "why": "Bỏ did; saw → had seen."
+        },
+        {
+          "en": "\"Can you help me?\" → She asked [[if I could]] help her.",
+          "vi": "Cô ấy hỏi tôi có giúp cô ấy được không.",
+          "why": "Can you → if I could."
+        }
+      ],
+      "check": {
+        "prompt": "\"Do you speak English?\" → He asked if I ___ English.",
+        "options": [
+          "spoke",
+          "did speak",
+          "do speak"
+        ],
+        "answer": 0,
+        "explain": "Bỏ do, lùi thì → spoke."
+      }
+    },
+    {
+      "part": "Câu hỏi Wh-",
+      "heading": "Asked + từ để hỏi",
+      "rule": "Câu hỏi có **what, where, when, why, how…** → giữ từ để hỏi, sau đó là **chủ ngữ + động từ** như câu kể.",
+      "formula": [
+        {
+          "text": "\"Where do you live?\" → She asked where [I lived]."
+        },
+        {
+          "text": "\"What time is it?\" → He asked what time [it was]."
+        }
+      ],
+      "body": [
+        "Lỗi hay gặp: giữ trật tự câu hỏi (*She asked where did I live*). Trong câu gián tiếp, chủ ngữ **đứng trước** động từ và **không** có dấu hỏi."
+      ],
+      "examples": [
+        {
+          "en": "\"Where are you going?\" → He asked [[where I was going]].",
+          "vi": "Anh ấy hỏi tôi đang đi đâu.",
+          "why": "Where + I + was going."
+        },
+        {
+          "en": "\"Why did you leave?\" → She asked [[why I had left]].",
+          "vi": "Cô ấy hỏi vì sao tôi đã bỏ đi.",
+          "why": "Bỏ did; left → had left."
+        },
+        {
+          "en": "\"How old is your son?\" → They asked [[how old my son was]].",
+          "vi": "Họ hỏi con trai tôi bao nhiêu tuổi.",
+          "why": "How old + chủ ngữ + was."
+        }
+      ],
+      "check": {
+        "prompt": "\"What do you want?\" → She asked what I ___.",
+        "options": [
+          "wanted",
+          "did want",
+          "do want"
+        ],
+        "answer": 0,
+        "explain": "Bỏ do, lùi thì → wanted."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Không dấu hỏi, có thể có người được hỏi",
+      "rule": "Câu hỏi gián tiếp **kết thúc bằng dấu chấm**. Có thể thêm người được hỏi: **asked me / asked her**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "My mum [[asked me]] when I would come home.",
+          "vi": "Mẹ hỏi tôi khi nào về nhà.",
+          "why": "Asked + me + when; kết thúc bằng dấu chấm."
+        },
+        {
+          "en": "I [[wondered]] whether she was angry.",
+          "vi": "Tôi tự hỏi không biết cô ấy có giận không.",
+          "why": "Wonder dùng như ask."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "He asked me what time it was.",
+          "He asked me what time was it?"
+        ],
+        "answer": 0,
+        "explain": "Câu gián tiếp: chủ ngữ trước động từ, dấu chấm."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She asked me where did I live.",
+      "right": "She asked me where I lived.",
+      "why": "Không dùng did; chủ ngữ trước động từ."
+    },
+    {
+      "wrong": "He asked if was I hungry.",
+      "right": "He asked if I was hungry.",
+      "why": "Chủ ngữ trước động từ."
+    },
+    {
+      "wrong": "They asked me what is my name.",
+      "right": "They asked me what my name was.",
+      "why": "Trật tự câu kể và lùi thì."
+    },
+    {
+      "wrong": "She asked do I like coffee.",
+      "right": "She asked if I liked coffee.",
+      "why": "Câu Yes/No → if + câu kể."
+    },
+    {
+      "wrong": "He asked me where I was going?",
+      "right": "He asked me where I was going.",
+      "why": "Câu gián tiếp kết thúc bằng dấu chấm."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "She asked me ___ I was married.",
+      "options": [
+        "if",
+        "that",
+        "what"
+      ],
+      "answer": 0,
+      "explain": "Câu Yes/No → if."
+    },
+    {
+      "type": "choice",
+      "prompt": "He asked where ___.",
+      "options": [
+        "I lived",
+        "did I live",
+        "I live did"
+      ],
+      "answer": 0,
+      "explain": "Chủ ngữ trước động từ, lùi thì."
+    },
+    {
+      "type": "choice",
+      "prompt": "They asked how much the tickets ___.",
+      "options": [
+        "cost",
+        "did cost",
+        "costs did"
+      ],
+      "answer": 0,
+      "explain": "Câu kể, lùi thì: cost (quá khứ của cost)."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "She asked me why I was late.",
+        "She asked me why was I late."
+      ],
+      "answer": 0,
+      "explain": "Chủ ngữ trước động từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"Are you a student?\" → He asked if I ___ a student.",
+      "hint": "be",
+      "answers": [
+        "was"
+      ],
+      "explain": "Are you → I was."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"Where is the station?\" → She asked where the station ___.",
+      "hint": "be",
+      "answers": [
+        "was"
+      ],
+      "explain": "Station + was."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"Did you call him?\" → She asked ___ I had called him.",
+      "hint": "if / whether",
+      "answers": [
+        "if",
+        "whether"
+      ],
+      "explain": "Câu Yes/No → if / whether."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"What are you doing?\" → He asked what I ___ doing.",
+      "hint": "be",
+      "answers": [
+        "was"
+      ],
+      "explain": "I + was doing."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"Can you swim?\" → The teacher asked if we ___ swim.",
+      "hint": "can",
+      "answers": [
+        "could"
+      ],
+      "explain": "Can → could."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy hỏi tôi sống ở đâu.",
+      "words": [
+        "She",
+        "asked",
+        "me",
+        "where",
+        "I",
+        "lived."
+      ],
+      "explain": "Asked + me + where + I + lived."
+    },
+    {
+      "type": "order",
+      "vi": "Anh ấy hỏi tôi có thích cà phê không.",
+      "words": [
+        "He",
+        "asked",
+        "me",
+        "if",
+        "I",
+        "liked",
+        "coffee."
+      ],
+      "explain": "Asked + if + câu kể."
+    },
+    {
+      "type": "fix",
+      "sentence": "My boss asked me when will I finish.",
+      "answers": [
+        "My boss asked me when I would finish."
+      ],
+      "explain": "Câu kể: I would finish."
+    },
+    {
+      "type": "fix",
+      "sentence": "She asked me did I see the film.",
+      "answers": [
+        "She asked me if I had seen the film."
+      ],
+      "explain": "Yes/No → if + câu kể."
+    },
+    {
+      "type": "fix",
+      "sentence": "They asked where was the hotel.",
+      "answers": [
+        "They asked where the hotel was."
+      ],
+      "explain": "Chủ ngữ trước động từ."
+    },
+    {
+      "type": "translate",
+      "vi": "Họ hỏi tôi đã làm ở đây bao lâu.",
+      "answers": [
+        "They asked me how long I had worked here.",
+        "They asked me how long I had been working here.",
+        "They asked how long I had worked here.",
+        "They asked how long I had been working here.",
+        "They asked me how long I had worked there.",
+        "They asked me how long I had been working there."
+      ],
+      "explain": "How long + I + had worked."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy hỏi tôi có thể giúp cô ấy không.",
+      "answers": [
+        "She asked me if I could help her.",
+        "She asked if I could help her.",
+        "She asked me whether I could help her.",
+        "She asked whether I could help her."
+      ],
+      "explain": "Asked + if + could."
+    }
+  ]
+}

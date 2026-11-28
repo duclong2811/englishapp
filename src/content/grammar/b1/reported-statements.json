@@ -1,0 +1,408 @@
+{
+  "id": "reported-statements",
+  "level": "B1",
+  "title": "Câu gián tiếp: She said that…",
+  "summary": "Kể lại lời người khác nói: say và tell, lùi thì, đổi đại từ và từ chỉ thời gian, nơi chốn.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Did you talk to Hoa yesterday?",
+      "vi": "Hôm qua bạn có nói chuyện với Hoa không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. She [[said]] she [[was]] moving to Da Nang.",
+      "vi": "Có. Cô ấy bảo cô ấy sắp chuyển vào Đà Nẵng."
+    },
+    {
+      "who": "A",
+      "en": "Really? Why?",
+      "vi": "Thật à? Sao vậy?"
+    },
+    {
+      "who": "B",
+      "en": "She [[told]] me she [[had found]] a new job there.",
+      "vi": "Cô ấy kể với mình là đã tìm được việc mới ở đó."
+    },
+    {
+      "who": "A",
+      "en": "When does she leave?",
+      "vi": "Khi nào cô ấy đi?"
+    },
+    {
+      "who": "B",
+      "en": "She [[said]] she [[would]] leave the next week.",
+      "vi": "Cô ấy nói tuần sau sẽ đi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Say, tell",
+      "heading": "Say và tell",
+      "rule": "**say (that) + câu**; **tell + người + (that) + câu**. Tell **luôn có người nghe** ngay sau.",
+      "formula": [
+        {
+          "text": "S + [said] + (that) + câu"
+        },
+        {
+          "text": "S + [told] + người + (that) + câu"
+        }
+      ],
+      "body": [
+        "Không nói *She said me*, cũng không nói *She told that…*. Nếu muốn nhắc người nghe sau say thì dùng *said to me*, nhưng *told me* tự nhiên hơn.",
+        "Có thể bỏ **that** khi nói."
+      ],
+      "examples": [
+        {
+          "en": "He [[said]] he was tired.",
+          "vi": "Anh ấy nói anh ấy mệt.",
+          "why": "Say + câu, không có người nghe."
+        },
+        {
+          "en": "He [[told]] me he was tired.",
+          "vi": "Anh ấy bảo tôi là anh ấy mệt.",
+          "why": "Tell + me + câu."
+        },
+        {
+          "en": "She [[told]] us that the shop was closed.",
+          "vi": "Cô ấy bảo chúng tôi là cửa hàng đóng cửa.",
+          "why": "Tell + us + that + câu."
+        }
+      ],
+      "check": {
+        "prompt": "My boss ___ me I could leave early.",
+        "options": [
+          "told",
+          "said"
+        ],
+        "answer": 0,
+        "explain": "Có người nghe (me) ngay sau → told."
+      }
+    },
+    {
+      "part": "Lùi thì",
+      "heading": "Lùi một thì về quá khứ",
+      "rule": "Khi **said / told** ở quá khứ, động từ trong lời kể thường **lùi một thì**: hiện tại → quá khứ, quá khứ → quá khứ hoàn thành, will → would.",
+      "body": [
+        "Nếu điều được nói **vẫn còn đúng** bây giờ, có thể giữ nguyên thì: *He said he lives in Hue* (giờ vẫn sống ở Huế)."
+      ],
+      "table": {
+        "head": [
+          "Lời nói trực tiếp",
+          "Lời kể lại"
+        ],
+        "rows": [
+          [
+            "I am busy.",
+            "She said she was busy."
+          ],
+          [
+            "I'm working.",
+            "He said he was working."
+          ],
+          [
+            "I have finished.",
+            "She said she had finished."
+          ],
+          [
+            "I saw him.",
+            "He said he had seen him."
+          ],
+          [
+            "I will call you.",
+            "She said she would call me."
+          ],
+          [
+            "I can swim.",
+            "He said he could swim."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "\"I'm hungry.\" → She said she [[was]] hungry.",
+          "vi": "Cô ấy nói cô ấy đói.",
+          "why": "Am → was."
+        },
+        {
+          "en": "\"I will help you.\" → He said he [[would]] help me.",
+          "vi": "Anh ấy nói sẽ giúp tôi.",
+          "why": "Will → would; you → me."
+        },
+        {
+          "en": "\"I lost my keys.\" → She said she [[had lost]] her keys.",
+          "vi": "Cô ấy nói đã làm mất chìa khóa.",
+          "why": "Quá khứ đơn → quá khứ hoàn thành."
+        }
+      ],
+      "check": {
+        "prompt": "\"I can drive.\" → He said he ___ drive.",
+        "options": [
+          "could",
+          "can",
+          "can't"
+        ],
+        "answer": 0,
+        "explain": "Can → could."
+      }
+    },
+    {
+      "part": "Đổi từ",
+      "heading": "Đổi đại từ, thời gian, nơi chốn",
+      "rule": "Đổi **đại từ** theo người kể; đổi **today, tomorrow, here** cho hợp lúc kể: that day, the next day, there.",
+      "body": [],
+      "table": {
+        "head": [
+          "Trực tiếp",
+          "Gián tiếp"
+        ],
+        "rows": [
+          [
+            "today",
+            "that day"
+          ],
+          [
+            "tomorrow",
+            "the next day"
+          ],
+          [
+            "yesterday",
+            "the day before"
+          ],
+          [
+            "next week",
+            "the following week"
+          ],
+          [
+            "here",
+            "there"
+          ],
+          [
+            "this",
+            "that"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "\"I'll see you tomorrow.\" → She said she would see me [[the next day]].",
+          "vi": "Cô ấy nói hôm sau sẽ gặp tôi.",
+          "why": "Tomorrow → the next day; you → me."
+        },
+        {
+          "en": "\"I'm staying here.\" → He said he was staying [[there]].",
+          "vi": "Anh ấy nói đang ở đó.",
+          "why": "Here → there."
+        }
+      ],
+      "check": {
+        "prompt": "\"I'm leaving today.\" → She said she was leaving ___.",
+        "options": [
+          "that day",
+          "today",
+          "tomorrow"
+        ],
+        "answer": 0,
+        "explain": "Kể lại sau đó → today thành that day."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "She said me she was tired.",
+      "right": "She told me she was tired.",
+      "why": "Có người nghe → told me."
+    },
+    {
+      "wrong": "He told that he was busy.",
+      "right": "He said that he was busy.",
+      "why": "Tell phải có người nghe; không có thì dùng said."
+    },
+    {
+      "wrong": "She said she will come.",
+      "right": "She said she would come.",
+      "why": "Lùi thì: will → would."
+    },
+    {
+      "wrong": "He said he can swim.",
+      "right": "He said he could swim.",
+      "why": "Lùi thì: can → could."
+    },
+    {
+      "wrong": "She said she is going to the market tomorrow.",
+      "right": "She said she was going to the market the next day.",
+      "why": "Lùi thì và đổi tomorrow → the next day."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Lan ___ me that she liked my dress.",
+      "options": [
+        "told",
+        "said",
+        "spoke"
+      ],
+      "answer": 0,
+      "explain": "Có người nghe (me) → told."
+    },
+    {
+      "type": "choice",
+      "prompt": "\"I am cold.\" → He said he ___ cold.",
+      "options": [
+        "was",
+        "is",
+        "were"
+      ],
+      "answer": 0,
+      "explain": "Am → was."
+    },
+    {
+      "type": "choice",
+      "prompt": "\"We will finish soon.\" → They said they ___ finish soon.",
+      "options": [
+        "would",
+        "will",
+        "can"
+      ],
+      "answer": 0,
+      "explain": "Will → would."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "She said me the news.",
+        "She told me the news.",
+        "She told the news me."
+      ],
+      "answer": 1,
+      "explain": "Tell + người + điều được kể."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"I have done my homework.\" → He said he ___ his homework.",
+      "hint": "do",
+      "answers": [
+        "had done"
+      ],
+      "explain": "Have done → had done."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"I live in Hanoi.\" → She said she ___ in Hanoi.",
+      "hint": "live",
+      "answers": [
+        "lived",
+        "lives"
+      ],
+      "explain": "Lùi thì: lived (giữ lives nếu vẫn còn đúng)."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ that he was sorry.",
+      "hint": "nói",
+      "answers": [
+        "said"
+      ],
+      "explain": "Không có người nghe → said."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"I bought it yesterday.\" → She said she had bought it the ___ before.",
+      "hint": "day",
+      "answers": [
+        "day"
+      ],
+      "explain": "Yesterday → the day before."
+    },
+    {
+      "type": "fill",
+      "prompt": "\"I can't come.\" → Minh said he ___ come.",
+      "hint": "can't",
+      "answers": [
+        "couldn't",
+        "could not"
+      ],
+      "explain": "Can't → couldn't."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy bảo tôi là cô ấy rất bận.",
+      "words": [
+        "She",
+        "told",
+        "me",
+        "she",
+        "was",
+        "very",
+        "busy."
+      ],
+      "explain": "Told + me + câu lùi thì."
+    },
+    {
+      "type": "order",
+      "vi": "Anh ấy nói anh ấy sẽ gọi lại.",
+      "words": [
+        "He",
+        "said",
+        "he",
+        "would",
+        "call",
+        "back."
+      ],
+      "explain": "Said + would."
+    },
+    {
+      "type": "fix",
+      "sentence": "My mother said me to be careful, and she was right.",
+      "answers": [
+        "My mother told me to be careful, and she was right."
+      ],
+      "explain": "Có người nghe → told me."
+    },
+    {
+      "type": "fix",
+      "sentence": "He said he will be late.",
+      "answers": [
+        "He said he would be late."
+      ],
+      "explain": "Will → would."
+    },
+    {
+      "type": "fix",
+      "sentence": "She told that she was hungry.",
+      "answers": [
+        "She said that she was hungry."
+      ],
+      "explain": "Không có người nghe → said."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy nói anh ấy đang học tiếng Nhật.",
+      "answers": [
+        "He said he was learning Japanese.",
+        "He said that he was learning Japanese.",
+        "He said he was studying Japanese.",
+        "He said that he was studying Japanese.",
+        "He said he is learning Japanese.",
+        "He said he is studying Japanese."
+      ],
+      "explain": "Said + lùi thì (was learning)."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy bảo tôi là cô ấy đã xem phim đó rồi.",
+      "answers": [
+        "She told me she had seen that film.",
+        "She told me that she had seen that film.",
+        "She told me she had already seen that film.",
+        "She told me that she had already seen that film.",
+        "She told me she had seen that movie.",
+        "She told me that she had seen that movie.",
+        "She told me she had already seen that movie."
+      ],
+      "explain": "Told me + had seen."
+    }
+  ]
+}
