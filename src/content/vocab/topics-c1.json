@@ -1,4 +1,373 @@
 {
   "about": "Chủ đề từ vựng C1. Mỗi từ thuộc đúng một chủ đề; thứ tự trong danh sách là thứ tự học.",
-  "topics": []
+  "topics": [
+    {
+      "id": "c1-home",
+      "title": "Nhà cửa và không gian sinh hoạt",
+      "description": "Nhà ở, không gian sinh hoạt và những vật dụng, dịch vụ gắn với chúng.",
+      "words": [
+        "suburban", "suburbia", "adjoining", "adjoin", "unoccupied", "occupant", "exterior", "spacious",
+        "verandah", "fixture", "appliance", "radiator", "ventilation", "stuffy", "ventilate", "lavatory",
+        "plumbing", "settee", "sauna", "clutter", "misplace", "bulky", "washtub", "suds",
+        "utensil", "flask", "buzzer", "gadget", "refurbish", "refurbishment", "demolition"
+      ]
+    },
+    {
+      "id": "c1-appearance",
+      "title": "Ngoại hình và chăm sóc cá nhân",
+      "description": "Vóc dáng, diện mạo, trang phục và chăm sóc cá nhân.",
+      "words": [
+        "facial", "physique", "muscular", "strapping", "bearded", "chiselled", "battered", "wizened",
+        "homely", "silhouette", "cloak", "strap", "elastic", "jersey", "classy", "overalls",
+        "manicure", "pedicure"
+      ]
+    },
+    {
+      "id": "c1-food",
+      "title": "Ăn uống và tiếp khách",
+      "description": "Thực phẩm, cách chế biến và tiếp khách trong không gian ăn uống.",
+      "words": [
+        "gourmet", "connoisseur", "staple", "calorie", "craving", "crave", "voracious", "munch",
+        "gnaw", "crumb", "creamy", "succulent", "succulently", "batter", "churn", "chill",
+        "salivate", "tastebud", "grapefruit", "saloon", "hostess"
+      ]
+    },
+    {
+      "id": "c1-health",
+      "title": "Y tế và chăm sóc sức khỏe",
+      "description": "Khám chữa bệnh, dấu hiệu, cơ thể và cách chăm sóc.",
+      "words": [
+        "clinical", "symptomatic", "trauma", "traumatic", "blister", "incision", "incisor", "cavity",
+        "plaque", "stuffiness", "clammy", "numb", "sedate", "salve", "benign", "alleviate",
+        "relapse", "restorative", "fatigue", "lethargy", "lethargic", "sedentary", "snooze", "psychiatrist",
+        "psychiatric", "claustrophobia", "claustrophobic", "midwife", "dispensary", "dispense", "tract", "graft",
+        "adrenaline"
+      ]
+    },
+    {
+      "id": "c1-relationships",
+      "title": "Gia đình và quan hệ",
+      "description": "Quan hệ gia đình, sự gắn bó và những cách cư xử với người khác.",
+      "words": [
+        "offspring", "maternal", "paternal", "clan", "inheritance", "bequeath", "lust", "suitor",
+        "woo", "closeness", "rapport", "confide", "mingle", "congregate", "socialization", "reassurance",
+        "reassure", "flatter", "disdain", "scorn", "hostility", "hostile", "insensitive"
+      ]
+    },
+    {
+      "id": "c1-character",
+      "title": "Tính cách và phẩm chất",
+      "description": "Tính khí, thói quen và cách đánh giá con người.",
+      "words": [
+        "temperament", "temperamental", "timid", "wary", "headstrong", "naive", "naivety", "cynical",
+        "cynic", "cynicism", "hypocrite", "hypocrisy", "hypocritical", "conscientious", "dutiful", "neglectful",
+        "negligent", "tact", "tactful", "poise", "individuality", "ego", "smug", "self-worth",
+        "self-conscious", "insecure", "withdrawn", "eccentric", "quirky", "quirk", "impish", "antics",
+        "imp", "slob", "buffoon", "elitist", "fiend", "gutsy", "agreeable", "instinctive",
+        "spontaneous", "wicked", "vicious", "avid", "accustomed", "ruthless", "remorseless"
+      ]
+    },
+    {
+      "id": "c1-feelings",
+      "title": "Cảm xúc và phản ứng",
+      "description": "Niềm vui, nỗi lo và phản ứng trước trải nghiệm.",
+      "words": [
+        "bliss", "gusto", "exhilaration", "startling", "exhilarating", "exhilarate", "exuberance", "exuberant",
+        "torment", "resent", "remorse", "dismay", "disillusionment", "unsettle", "unsettling", "disquieting",
+        "apprehensive", "irate", "glum", "somber", "detest", "detestable", "appalling", "grumble",
+        "tantrum", "sentimental", "reminisce", "reminiscent", "daydream", "psyche", "blankness", "marvel",
+        "vitality", "transfix"
+      ]
+    },
+    {
+      "id": "c1-movement",
+      "title": "Chuyển động và hoạt động thể chất",
+      "description": "Chuyển động, sức bền, thể thao và phản ứng của cơ thể.",
+      "words": [
+        "posture", "clench", "twitch", "flick", "clutch", "wrench", "dislodge", "rotate",
+        "plunge", "elevate", "stretching", "stamina", "toughness", "bulk-up", "somersault", "trampoline",
+        "billiards", "victorious", "mountaineer", "gape", "retrace", "pounce", "prowl", "stray",
+        "astray"
+      ]
+    },
+    {
+      "id": "c1-travel",
+      "title": "Đi lại và địa hình",
+      "description": "Hành trình, phương tiện, địa hình và cảnh quan.",
+      "words": [
+        "itinerary", "embark", "transit", "carrier", "bypass", "maneuver", "fatality", "transatlantic",
+        "descent", "terrain", "peninsula", "waterfront", "acre", "quarry", "fissure", "wooded",
+        "sprawl", "panoramic", "panorama", "tranquil", "tranquility", "placid", "wayside", "elevation",
+        "anchored", "canoe"
+      ]
+    },
+    {
+      "id": "c1-nature",
+      "title": "Thiên nhiên và môi trường",
+      "description": "Động vật, cây cối, môi trường sống và việc bảo tồn.",
+      "words": [
+        "otter", "goose", "pigeon", "peacock", "hedgehog", "ewe", "heifer", "snail",
+        "nocturnal", "hibernate", "hibernation", "domesticate", "domestication", "docile", "ferocious", "sentient",
+        "parasite", "repellant", "repel", "vegetation", "acidic", "orchard", "seedling", "sprout",
+        "sap", "resin", "pendulous", "ornamental", "bouquet", "aquarium", "sustainable", "conserve",
+        "unsustainable", "degradation", "detritus", "atmospheric", "geological"
+      ]
+    },
+    {
+      "id": "c1-materials",
+      "title": "Dụng cụ và vật liệu",
+      "description": "Dụng cụ, vật liệu, kích thước và các thao tác với đồ vật.",
+      "words": [
+        "fuse", "chisel", "tinker", "fiddly", "plaster", "gem", "durable", "synthetic",
+        "fusion", "portable", "adjustable", "vertical", "linear", "elongate", "taut", "slack",
+        "supple", "impervious", "tangled", "tangle", "untangle", "crumble", "stiffen", "prop",
+        "pendulum", "magnetic", "magnetism"
+      ]
+    },
+    {
+      "id": "c1-sounds",
+      "title": "Âm thanh và cảm giác",
+      "description": "Âm thanh, ánh sáng, màu sắc và các hiện tượng cảm nhận được.",
+      "words": [
+        "acoustic", "acoustics", "amplification", "rumble", "rustle", "honk", "flicker", "aqua",
+        "bubbly", "violet", "ghostly", "chilly", "frosty"
+      ]
+    },
+    {
+      "id": "c1-work",
+      "title": "Nghề nghiệp và tổ chức",
+      "description": "Công việc, chức trách, đào tạo nghề và cách phối hợp.",
+      "words": [
+        "contractor", "carpenter", "carpentry", "tailor", "occupational", "credential", "retention", "prospective",
+        "oversee", "overseer", "subordinate", "insubordinate", "insubordination", "predecessor", "organizational", "circulate",
+        "advisory", "professionalism", "enterprising", "pioneer", "consultancy", "consultation", "collaborative", "collaborate",
+        "collaboration", "collaborator", "liaison", "facilitation", "shortlist", "induction", "induct", "pinnacle",
+        "premier", "amateur", "formality"
+      ]
+    },
+    {
+      "id": "c1-commerce",
+      "title": "Kinh doanh và tài chính",
+      "description": "Kinh doanh, thanh toán, giá cả và hoạt động thị trường.",
+      "words": [
+        "niche", "bulk", "invoice", "overdraft", "mark-up", "cost-effective", "complimentary", "prohibitive",
+        "tycoon", "wares", "haggle", "ploy", "speculate", "speculation", "speculative", "squander",
+        "sponsorship", "endorsement", "reap", "plummet", "flourish", "innovate"
+      ]
+    },
+    {
+      "id": "c1-technology",
+      "title": "Công nghệ và thiết bị",
+      "description": "Thiết bị, dữ liệu, bảo mật và các thao tác kỹ thuật.",
+      "words": [
+        "mechanism", "structural", "specification", "firewall", "hack", "compromised", "paywall", "digitalization",
+        "digitalize", "personalization", "personalize", "malfunction", "recharge", "unplug", "rendering", "buffer",
+        "unmanned"
+      ]
+    },
+    {
+      "id": "c1-school",
+      "title": "Học tập và phát triển kỹ năng",
+      "description": "Kiến thức nền, hoạt động ở trường và cách học một kỹ năng.",
+      "words": [
+        "recess", "remedial", "knowledgeable", "apprentice", "rudiments", "apprenticeship", "demo", "insightful",
+        "explanatory", "readable", "citation", "cite", "criteria"
+      ]
+    },
+    {
+      "id": "c1-research",
+      "title": "Nghiên cứu và số liệu",
+      "description": "Phương pháp, bằng chứng, dữ liệu và cách đánh giá.",
+      "words": [
+        "specimen", "dissect", "dissection", "scrutiny", "scrutinize", "precision", "fraction", "estimation",
+        "likelihood", "scenario", "constraint", "demography", "demographic", "anthropology", "anthropologist", "stimuli",
+        "fossil", "recessive", "genome", "circulation", "purity", "neutralization"
+      ]
+    },
+    {
+      "id": "c1-law",
+      "title": "Pháp luật và sai phạm",
+      "description": "Quy định, thẩm quyền, tố tụng và hành vi vi phạm.",
+      "words": [
+        "convict", "juvenile", "verdict", "contested", "jurisdiction", "forensic", "allege", "implicate",
+        "charter", "testament", "provisions", "premises", "possessor", "grounds", "compliance", "comply",
+        "compliant", "conformity", "conform", "oblige", "compel", "forfeit", "bribe", "bribery",
+        "con", "extortion", "deceit", "harassment", "harass", "impersonate", "impersonation", "impersonator",
+        "inexcusable", "ruthlessness"
+      ]
+    },
+    {
+      "id": "c1-society",
+      "title": "Xã hội và đời sống công cộng",
+      "description": "Cộng đồng, dư luận, định kiến, quyền lực và biến động xã hội.",
+      "words": [
+        "coverage", "roundup", "discourse", "popularization", "sentiment", "diversity", "inclusion", "inclusive",
+        "faction", "adversary", "corps", "injustice", "exploitation", "degrading", "persecution", "persecute",
+        "peasant", "impoverished", "deprivation", "privileged", "norms", "gypsy", "domination", "brainwash",
+        "brainwashing", "exodus", "desertion", "bureaucratic", "turmoil", "shambles", "upheaval", "confinement",
+        "paternalistic", "maternalistic", "legacy", "repute", "renown", "exhibitionist"
+      ]
+    },
+    {
+      "id": "c1-film",
+      "title": "Sân khấu, âm nhạc và điện ảnh",
+      "description": "Tác phẩm biểu diễn, nghề làm phim và âm nhạc.",
+      "words": [
+        "screenplay", "screenwriter", "dramatist", "blockbuster", "sequel", "debut", "repertory", "conservatory",
+        "concerto", "staccato", "fiddler", "fiddle", "unmusical", "gig", "climax", "climactic",
+        "anticlimactic", "flashback", "farce", "realism", "realist", "reenact", "physicality", "pathos",
+        "verve", "engross"
+      ]
+    },
+    {
+      "id": "c1-literature",
+      "title": "Văn học và nghệ thuật",
+      "description": "Nhân vật, hình ảnh, phong cách và cách kể chuyện.",
+      "words": [
+        "protagonist", "heroine", "portrayal", "depict", "depiction", "portray", "characterization", "aesthetic",
+        "stylistic", "sketchbook", "darkroom", "synopsis", "folktale", "mythology", "mythological", "antiquity",
+        "abstraction", "poetess", "macabre", "fiendish", "gruesome", "raunchy", "zany", "fanciful",
+        "beguiling", "irony", "evoke", "conjure", "immortalize", "elaborate", "uninspiring", "riveting",
+        "engrossing"
+      ]
+    },
+    {
+      "id": "c1-beliefs",
+      "title": "Niềm tin và giá trị",
+      "description": "Đạo đức, tín ngưỡng và cách thể hiện sự tôn kính.",
+      "words": [
+        "ethical", "conviction", "sanctity", "salvation", "preacher", "preach", "prophet", "prophetic",
+        "revere", "venerate", "veneration", "voluntary", "sacrifice", "fanatic", "devotee", "altruism",
+        "altruistic"
+      ]
+    },
+    {
+      "id": "c1-reasoning",
+      "title": "Lập luận và nhận thức",
+      "description": "Cách hình thành, diễn giải và đánh giá lập luận.",
+      "words": [
+        "premise", "assertion", "credible", "credibility", "plausible", "plausibility", "unconvincing", "obscure",
+        "convoluted", "pertinent", "concur", "profess", "formulate", "elaboration", "intuition", "intellect",
+        "intuitive", "intuit", "perceptive", "telltale", "minutiae", "glean", "interjection", "contextual",
+        "recognizable", "superficial", "ingenuity", "cleverness", "ingenious"
+      ]
+    },
+    {
+      "id": "c1-speech",
+      "title": "Lời nói và cách giao tiếp",
+      "description": "Cách nói, kiểu phản hồi và sắc thái trong giao tiếp.",
+      "words": [
+        "quip", "interject", "scoff", "sarcasm", "sarcastic", "wry", "scathing", "provocative",
+        "gushing", "gush", "resonate", "impersonal", "candid", "commend", "commendation", "scornful",
+        "wrangle", "flattery"
+      ]
+    },
+    {
+      "id": "c1-decisions",
+      "title": "Lựa chọn và nỗ lực",
+      "description": "Phương án, động lực và cách xử lý khó khăn.",
+      "words": [
+        "quest", "aimless", "drawback", "advantageous", "marginal", "apt", "apt-to", "envisage",
+        "dither", "relinquish", "suffice", "expedite", "salvage", "turn-to", "swap", "exert",
+        "daunting", "daunt", "unmanageable", "trying", "tedious", "tedium", "monotony", "monotonous",
+        "impediment", "resilience", "resilient", "unassisted", "effortless", "undaunted", "unwavering", "torturous",
+        "gruelling", "elude"
+      ]
+    },
+    {
+      "id": "c1-change",
+      "title": "Thay đổi và sự tiếp nối",
+      "description": "Diễn biến, gián đoạn, phục hồi và quá trình chuyển đổi.",
+      "words": [
+        "diverge", "divergent", "divergence", "suspension", "restoration", "rediscover", "demise", "degrade",
+        "proliferate", "fragmentation", "removed", "discard", "isolated", "untangled", "isolate", "loom"
+      ]
+    },
+    {
+      "id": "c1-qualities",
+      "title": "Đặc điểm và mức đánh giá",
+      "description": "Tính chất và cách đánh giá một vật, sự việc hoặc kết quả.",
+      "words": [
+        "immense", "profound", "inherent", "integral", "dominant", "uniformity", "robust", "crude",
+        "rudimentary", "versatile", "versatility", "notable", "revealing", "latent", "rarity", "oddity",
+        "unconventional", "eclectic", "nondescript", "motley", "showy", "spartan", "stately", "extravagance",
+        "customary", "phenomenal", "staggering", "inexhaustible", "limitless", "lackluster", "dismal", "ludicrous",
+        "inexplicable", "elusive", "simplicity", "naturalness", "meaningless", "enviable", "unenviable", "refreshing",
+        "pleasurable", "negligible", "abound", "prolific", "antiquated"
+      ]
+    },
+    {
+      "id": "c1-impact",
+      "title": "Tác động và hệ quả",
+      "description": "Cách một sự việc tạo ảnh hưởng hoặc làm phát sinh kết quả.",
+      "words": [
+        "provoke", "manipulation", "compulsion", "detrimental", "detriment", "stoke", "appall", "alienate",
+        "neutralize", "render", "perpetuate", "heighten", "impede"
+      ]
+    },
+    {
+      "id": "c1-time",
+      "title": "Thời gian và trình tự",
+      "description": "Mốc thời gian, thời lượng và sự tiếp nối.",
+      "words": [
+        "outset", "beforehand", "duration", "expire", "indefinite", "indefinitely", "lapse", "cessation",
+        "continuity", "succession", "ceaseless", "ceaselessly", "uneventful", "respite"
+      ]
+    },
+    {
+      "id": "c1-manner",
+      "title": "Cách thức và phương diện",
+      "description": "Trạng từ chỉ phương thức, cách làm và mặt đang được xét.",
+      "words": [
+        "methodical", "dynamically", "structurally", "magnetically", "demographically", "geologically", "acoustically", "synthetically",
+        "linearly", "contextually", "commercially", "domestically", "remotely", "inclusively", "sustainably", "unsustainably",
+        "primitively", "chaotically", "bureaucratically", "compliantly", "slackly", "obscurely", "cleanly", "tautly",
+        "unreliably", "insecurely", "superficially", "artistically", "aesthetically", "stylistically", "eclectically", "eccentrically",
+        "aimlessly", "spontaneously", "instinctively", "intuitively", "unmusically", "tediously", "monotonously", "negligently",
+        "conscientiously", "dutifully", "crudely", "temperamentally", "damply", "docilely", "lethargically", "exotically",
+        "refreshingly", "beguilingly", "voraciously"
+      ]
+    },
+    {
+      "id": "c1-delivery",
+      "title": "Trạng từ chỉ cách diễn đạt",
+      "description": "Cách nói, lập luận, phản hồi và đối xử với người khác.",
+      "words": [
+        "ethically", "justly", "candidly", "tactfully", "perceptively", "insightfully", "persuasively", "credibly",
+        "plausibly", "believably", "unconvincingly", "baldly", "sarcastically", "cynically", "wryly", "hypocritically",
+        "insensitively", "impersonally", "insubordinately", "provocatively", "raunchily", "scornfully"
+      ]
+    },
+    {
+      "id": "c1-attitude",
+      "title": "Trạng từ chỉ thái độ",
+      "description": "Cách biểu đạt cảm xúc, thái độ và cách cư xử.",
+      "words": [
+        "fanatically", "smugly", "benignly", "glumly", "somberly", "remorsefully", "remorselessly", "irately",
+        "frostily", "stuffily", "placidly", "sedately", "impishly", "gushingly", "sentimentally", "animatedly",
+        "exuberantly", "ecstatically", "viciously", "ferociously", "wickedly", "naively", "blithely", "gamely",
+        "reluctantly", "voluntarily", "unwaveringly", "victoriously", "fiercely", "unenviably"
+      ]
+    },
+    {
+      "id": "c1-degree",
+      "title": "Mức độ và đánh giá",
+      "description": "Trạng từ nhấn mạnh mức độ, phạm vi và kết quả.",
+      "words": [
+        "amply", "acutely", "profoundly", "enormously", "immensely", "fabulously", "phenomenally", "substantially",
+        "marginally", "startlingly", "subtly", "inexplicably", "prohibitively", "inexcusably", "appallingly", "ludicrously",
+        "dismally", "fiendishly", "gruesomely", "detrimentally", "robustly", "explosively", "prolifically", "ordinarily",
+        "principally", "inherently", "dominantly", "recognizably", "stressfully", "meaninglessly", "favorably"
+      ]
+    },
+    {
+      "id": "c1-connectors",
+      "title": "Từ nối và quan hệ giữa các ý",
+      "description": "Cách nối ý và diễn đạt hệ quả, điều kiện, sự tương hợp hoặc liên hệ.",
+      "words": [
+        "amid", "thereby", "hence", "notwithstanding", "whilst", "pertain-to", "conditionally", "conditional",
+        "unison", "coupled", "comprise", "complementary", "mutually", "alignment", "align", "tantamount"
+      ]
+    }
+  ]
 }
