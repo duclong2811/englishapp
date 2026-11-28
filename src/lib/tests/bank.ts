@@ -4,35 +4,46 @@
 
 import { makeCloze, senses, sharesSense, shuffle, type PracticeWord } from "@/components/vocab/quiz";
 import type { Exercise } from "@/lib/grammar/schema";
+import type { OpenExercise, TestExercise } from "./skills";
 
-export type Section = "vocab" | "listening" | "grammar";
+export type Section = "vocab" | "listening" | "grammar" | "writing" | "speaking";
 
 export const SECTION_VI: Record<Section, string> = {
   vocab: "Từ vựng",
   listening: "Nghe",
   grammar: "Ngữ pháp",
+  writing: "Viết",
+  speaking: "Nói",
 };
+
+const SECTION_ORDER: Section[] = ["vocab", "listening", "grammar", "writing", "speaking"];
 
 export type BankWord = PracticeWord & { topic: string };
 export type GrammarItem = { id: string; lesson: string; unit: string; ex: Exercise };
+/** A sentence from a lesson to read aloud. */
+export type ReadingItem = { id: string; lesson: string; unit: string; text: string; vi: string };
+/** An open writing or speaking task, graded by AI. */
+export type OpenItem = { id: string; lesson: string; ex: OpenExercise };
 
 export type Bank = {
   level: string;
   words: BankWord[];
   grammar: GrammarItem[];
+  reading: ReadingItem[];
+  open: OpenItem[];
   /** Titles for result breakdowns: topic ids and lesson ids. */
   tags: Record<string, { title: string; href: string }>;
   units: { id: string; title: string; lessons: string[] }[];
   topics: { id: string; title: string }[];
 };
 
-export type TestItem = { id: string; section: Section; tag: string; ex: Exercise };
+export type TestItem = { id: string; section: Section; tag: string; ex: TestExercise };
 
 export type VocabKind = "meaning" | "reverse" | "cloze" | "listen";
 
 /** Every item id the bank can produce, for coverage ("đã gặp x% kho câu hỏi"). */
-export function bankSize(bank: Pick<Bank, "words" | "grammar">) {
-  return bank.words.length * 3 + bank.grammar.length;
+export function bankSize(bank: Pick<Bank, "words" | "grammar" | "reading" | "open">) {
+  return bank.words.length * 3 + bank.grammar.length + bank.reading.length + bank.open.length;
 }
 
 export function vocabItemId(word: string, kind: VocabKind) {
@@ -110,8 +121,21 @@ export function vocabItem(word: BankWord, kind: VocabKind, all: BankWord[]): Tes
   };
 }
 
+/** Translating and correcting sentences are writing; the rest is grammar. */
+export function isWriting(g: GrammarItem) {
+  return g.ex.type === "translate" || g.ex.type === "fix";
+}
+
 export function grammarTestItem(g: GrammarItem): TestItem {
-  return { id: g.id, section: "grammar", tag: g.lesson, ex: g.ex };
+  return { id: g.id, section: isWriting(g) ? "writing" : "grammar", tag: g.lesson, ex: g.ex };
+}
+
+export function readingTestItem(r: ReadingItem): TestItem {
+  return { id: r.id, section: "speaking", tag: r.lesson, ex: { type: "speak", text: r.text, vi: r.vi } };
+}
+
+export function openTestItem(o: OpenItem): TestItem {
+  return { id: o.id, section: o.ex.mode === "write" ? "writing" : "speaking", tag: o.lesson, ex: o.ex };
 }
 
 /** Random order, but items not seen before come first. */
@@ -154,28 +178,55 @@ function vocabItems(words: BankWord[], all: BankWord[], kinds: VocabKind[], seen
   });
 }
 
-export const LEVEL_BLUEPRINT = { vocab: 20, listening: 5, grammar: 25 } as const;
+export const LEVEL_BLUEPRINT = { vocab: 15, listening: 5, grammar: 16, writing: 7, speaking: 7 } as const;
+export const SKILLS_BLUEPRINT = { translate: 4, open: 2, reading: 4, talk: 2 } as const;
 export const QUICK_SIZE = 12;
 
-/** The level test: vocabulary over every topic, listening, then grammar over every unit. */
-export function drawLevelTest(bank: Bank, seen: Set<string>): TestItem[] {
-  const byTopic = groupBy(freshFirst(bank.words, (w) => vocabItemId(w.id, "meaning"), seen), (w) => w.topic);
-  const picked = spread(byTopic, LEVEL_BLUEPRINT.vocab + LEVEL_BLUEPRINT.listening);
-  const vocab = vocabItems(picked.slice(0, LEVEL_BLUEPRINT.vocab), bank.words, VOCAB_KINDS, seen);
-  const listening = picked.slice(LEVEL_BLUEPRINT.vocab).map((w) => vocabItem(w, "listen", bank.words));
-
-  // Grammar: one unit at a time, and inside each unit one lesson at a time.
+/** Spread grammar-bank items over units, and inside each unit over lessons. */
+function overUnits<T extends { unit: string; lesson: string; id: string }>(bank: Bank, items: T[], n: number, seen: Set<string>) {
   const units = bank.units.map((u) =>
-    spread(groupBy(freshFirst(bank.grammar.filter((g) => g.unit === u.id), (g) => g.id, seen), (g) => g.lesson), Infinity),
+    spread(groupBy(freshFirst(items.filter((g) => g.unit === u.id), (g) => g.id, seen), (g) => g.lesson), Infinity),
   );
-  const grammar = spread(units, LEVEL_BLUEPRINT.grammar).map(grammarTestItem);
-  return [...vocab, ...listening, ...grammar];
+  return spread(units, n);
+}
+
+function openItems(bank: Bank, mode: "write" | "speak", n: number, seen: Set<string>) {
+  return freshFirst(bank.open.filter((o) => o.ex.mode === mode), (o) => o.id, seen).slice(0, n).map(openTestItem);
+}
+
+/** The level test: vocabulary over every topic, listening, grammar over every unit, then writing and speaking. */
+export function drawLevelTest(bank: Bank, seen: Set<string>): TestItem[] {
+  const B = LEVEL_BLUEPRINT;
+  const byTopic = groupBy(freshFirst(bank.words, (w) => vocabItemId(w.id, "meaning"), seen), (w) => w.topic);
+  const picked = spread(byTopic, B.vocab + B.listening);
+  const vocab = vocabItems(picked.slice(0, B.vocab), bank.words, VOCAB_KINDS, seen);
+  const listening = picked.slice(B.vocab).map((w) => vocabItem(w, "listen", bank.words));
+  const grammar = overUnits(bank, bank.grammar.filter((g) => !isWriting(g)), B.grammar, seen).map(grammarTestItem);
+  const writing = [
+    ...overUnits(bank, bank.grammar.filter(isWriting), B.writing - 1, seen).map(grammarTestItem),
+    ...openItems(bank, "write", 1, seen),
+  ];
+  const speaking = [...overUnits(bank, bank.reading, B.speaking - 1, seen).map(readingTestItem), ...openItems(bank, "speak", 1, seen)];
+  return [...vocab, ...listening, ...grammar, ...writing, ...speaking];
+}
+
+/** Writing and speaking only: translate and correct, write freely, read aloud, talk freely. */
+export function drawSkillsTest(bank: Bank, seen: Set<string>): TestItem[] {
+  const B = SKILLS_BLUEPRINT;
+  return [
+    ...overUnits(bank, bank.grammar.filter(isWriting), B.translate, seen).map(grammarTestItem),
+    ...openItems(bank, "write", B.open, seen),
+    ...overUnits(bank, bank.reading, B.reading, seen).map(readingTestItem),
+    ...openItems(bank, "speak", B.talk, seen),
+  ];
 }
 
 /** Quick test for one grammar unit. */
 export function drawUnitTest(bank: Bank, unitId: string, seen: Set<string>): TestItem[] {
   const items = freshFirst(bank.grammar.filter((g) => g.unit === unitId), (g) => g.id, seen);
-  return shuffle(spread(groupBy(items, (g) => g.lesson), QUICK_SIZE)).map(grammarTestItem);
+  const reading = freshFirst(bank.reading.filter((r) => r.unit === unitId), (r) => r.id, seen).slice(0, 2).map(readingTestItem);
+  const grammar = spread(groupBy(items, (g) => g.lesson), QUICK_SIZE - reading.length).map(grammarTestItem);
+  return [...shuffle(grammar), ...reading];
 }
 
 /** Quick test for one vocabulary topic: every word once if possible, mixed question kinds. */
@@ -195,7 +246,7 @@ export type Summary = {
 };
 
 export function summarize(items: TestItem[], right: boolean[]): Summary {
-  const sections = (["vocab", "listening", "grammar"] as Section[])
+  const sections = SECTION_ORDER
     .map((section) => {
       const idx = items.flatMap((it, i) => (it.section === section ? [i] : []));
       return { section, right: idx.filter((i) => right[i]).length, total: idx.length };

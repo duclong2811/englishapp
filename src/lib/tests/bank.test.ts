@@ -2,8 +2,10 @@ import { describe, expect, it, vi } from "vitest";
 
 vi.mock("server-only", () => ({}));
 import { isRight } from "@/lib/grammar/check";
-import type { Exercise } from "@/lib/grammar/schema";
-import { bankSize, drawLevelTest, drawTopicTest, drawUnitTest, LEVEL_BLUEPRINT, QUICK_SIZE, summarize, vocabItem, type Bank, type VocabKind } from "./bank";
+import type { TestExercise } from "./skills";
+import { bankSize, drawLevelTest, drawSkillsTest, drawTopicTest, drawUnitTest, LEVEL_BLUEPRINT, QUICK_SIZE, SKILLS_BLUEPRINT, summarize, vocabItem, type Bank, type VocabKind } from "./bank";
+import { OPEN_TASKS } from "@/content/tests/open-tasks";
+import { GRAMMAR_LEVELS } from "@/content/grammar/syllabus";
 import { buildBank, TEST_LEVELS } from "./build-bank";
 
 const banks = new Map<string, Bank>();
@@ -13,7 +15,7 @@ async function bank(level: (typeof TEST_LEVELS)[number]) {
 }
 
 /** The answer the app accepts as right must be accepted by the checker. */
-function selfConsistent(ex: Exercise) {
+function selfConsistent(ex: TestExercise) {
   if (ex.type === "choice") {
     expect(ex.answer).toBeLessThan(ex.options.length);
     expect(new Set(ex.options.map((o) => o.toLowerCase())).size).toBe(ex.options.length);
@@ -55,9 +57,12 @@ describe.each(TEST_LEVELS)("%s test bank", (level) => {
     expect(count("vocab")).toBe(LEVEL_BLUEPRINT.vocab);
     expect(count("listening")).toBe(LEVEL_BLUEPRINT.listening);
     expect(count("grammar")).toBe(LEVEL_BLUEPRINT.grammar);
+    expect(count("writing")).toBe(LEVEL_BLUEPRINT.writing);
+    expect(count("speaking")).toBe(LEVEL_BLUEPRINT.speaking);
+    expect(items.filter((i) => i.ex.type === "open").length).toBe(2);
     expect(new Set(items.map((i) => i.id)).size).toBe(items.length);
     const units = new Set(items.filter((i) => i.section === "grammar").map((i) => b.grammar.find((g) => g.id === i.id)!.unit));
-    expect(units.size).toBe(b.units.length);
+    expect(units.size).toBe(Math.min(b.units.length, LEVEL_BLUEPRINT.grammar));
     // Words come from many topics, not a few.
     expect(new Set(items.filter((i) => i.section !== "grammar").map((i) => i.tag)).size).toBeGreaterThanOrEqual(Math.min(20, b.topics.length));
   });
@@ -74,7 +79,8 @@ describe.each(TEST_LEVELS)("%s test bank", (level) => {
     const b = await bank(level);
     for (const u of b.units) {
       const items = drawUnitTest(b, u.id, new Set());
-      expect(items.length, u.id).toBe(Math.min(QUICK_SIZE, b.grammar.filter((g) => g.unit === u.id).length));
+      expect(items.length, u.id).toBe(QUICK_SIZE);
+      expect(items.filter((i) => i.ex.type === "speak").length, u.id).toBe(2);
       expect(new Set(items.map((i) => i.tag)).size, u.id).toBe(u.lessons.length);
     }
     for (const t of b.topics) {
@@ -85,8 +91,32 @@ describe.each(TEST_LEVELS)("%s test bank", (level) => {
   });
 });
 
+describe.each(TEST_LEVELS)("%s writing and speaking", (level) => {
+  it("has open tasks that point at real lessons, and read-aloud sentences in every unit", async () => {
+    const b = await bank(level);
+    const lessons = new Set(GRAMMAR_LEVELS[level].syllabus.map((s) => s.id));
+    const tasks = OPEN_TASKS.filter((t) => t.level === level);
+    expect(tasks.filter((t) => t.mode === "write").length).toBeGreaterThanOrEqual(10);
+    expect(tasks.filter((t) => t.mode === "speak").length).toBeGreaterThanOrEqual(10);
+    for (const t of tasks) expect(lessons.has(t.focus), t.id).toBe(true);
+    expect(new Set(OPEN_TASKS.map((t) => t.id)).size).toBe(OPEN_TASKS.length);
+    for (const u of b.units) expect(b.reading.filter((r) => r.unit === u.id).length, u.id).toBeGreaterThanOrEqual(4);
+    for (const r of b.reading) expect(r.text, r.id).not.toMatch(/\[\[|\]\]/);
+  });
+
+  it("draws a skills test with writing first, then speaking", async () => {
+    const b = await bank(level);
+    const items = drawSkillsTest(b, new Set());
+    const total = SKILLS_BLUEPRINT.translate + SKILLS_BLUEPRINT.open + SKILLS_BLUEPRINT.reading + SKILLS_BLUEPRINT.talk;
+    expect(items.length).toBe(total);
+    const firstSpeaking = items.findIndex((i) => i.section === "speaking");
+    expect(items.slice(0, firstSpeaking).every((i) => i.section === "writing")).toBe(true);
+    expect(items.filter((i) => i.ex.type === "open").length).toBe(SKILLS_BLUEPRINT.open + SKILLS_BLUEPRINT.talk);
+  });
+});
+
 it("summarizes by section and weakest tag", () => {
-  const ex: Exercise = { type: "fill", prompt: "a ___", answers: ["b"], explain: "" };
+  const ex: TestExercise = { type: "fill", prompt: "a ___", answers: ["b"], explain: "" };
   const items = [
     { id: "1", section: "vocab" as const, tag: "x", ex },
     { id: "2", section: "grammar" as const, tag: "y", ex },

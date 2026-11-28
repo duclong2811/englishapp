@@ -43,10 +43,20 @@ export default async function TopicPage({ params }: PageProps<"/vocabulary/topic
         <p className="mt-3 text-lg text-ink-soft text-pretty">{topic.description}</p>
       </header>
       <TopicSets topicId={topic.id} sets={sets} />
+      <Link
+        href={`/vocabulary/topic/${topic.id}/cards`}
+        className="mt-6 flex min-h-14 max-w-[42rem] items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+      >
+        <span>
+          Thẻ ghi nhớ
+          <span className="block text-sm font-normal text-ink-soft">Tự kiểm tra nhanh: nhìn từ, nhớ nghĩa, lật thẻ</span>
+        </span>
+        <span aria-hidden="true" className="text-accent">→</span>
+      </Link>
       {topic.level === "A1" || topic.level === "A2" ? (
         <Link
           href={`/tests/${topic.level.toLowerCase()}/topic/${topic.id}`}
-          className="mt-6 flex min-h-14 max-w-[42rem] items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          className="mt-3 flex min-h-14 max-w-[42rem] items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           <span>
             Kiểm tra cả chủ đề

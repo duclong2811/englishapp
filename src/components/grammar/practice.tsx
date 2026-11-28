@@ -4,10 +4,12 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { SpeakButton } from "@/components/speak-button";
 import { closest, isRight } from "@/lib/grammar/check";
 import type { Exercise } from "@/lib/grammar/schema";
+import { SkillCard } from "@/components/tests/skill-card";
+import { isSkill, type TestExercise } from "@/lib/tests/skills";
 import { startRecording, unlockAudio } from "@/lib/speaking/recorder";
 import { plain } from "./rich-text";
 
-export type Outcome = { index: number; right: boolean };
+export type Outcome = { index: number; right: boolean; /** What the learner gave, when worth showing later (AI-corrected text, what was heard). */ detail?: string };
 
 const primary =
   "inline-flex min-h-12 items-center justify-center rounded-full bg-accent px-6 font-semibold text-accent-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-50";
@@ -57,7 +59,7 @@ export function Practice({
   order,
   onFinish,
 }: {
-  exercises: Exercise[];
+  exercises: TestExercise[];
   /** Indexes into `exercises` to run, in this order. */
   order: number[];
   onFinish: (outcomes: Outcome[]) => void;
@@ -65,15 +67,34 @@ export function Practice({
   const [pos, setPos] = useState(0);
   const outcomes = useRef<Outcome[]>([]);
   const index = order[pos];
+  const ex = exercises[index];
+  const props = {
+    pos,
+    total: order.length,
+    onChecked: (right: boolean, detail?: string) => outcomes.current.push({ index, right, detail }),
+    onNext: () => (pos + 1 >= order.length ? onFinish(outcomes.current) : setPos(pos + 1)),
+  };
+  return isSkill(ex) ? <SkillCard key={pos} ex={ex} {...props} /> : <Card key={pos} ex={ex} {...props} />;
+}
+
+/** "Câu 3/12" and a thin bar; shared by every kind of question card. */
+export function Progress({ pos, total, done }: { pos: number; total: number; done: boolean }) {
   return (
-    <Card
-      key={pos}
-      ex={exercises[index]}
-      pos={pos}
-      total={order.length}
-      onChecked={(right) => outcomes.current.push({ index, right })}
-      onNext={() => (pos + 1 >= order.length ? onFinish(outcomes.current) : setPos(pos + 1))}
-    />
+    <div className="flex items-center gap-3 text-sm text-ink-soft tabular-nums">
+      <span>
+        Câu {pos + 1}/{total}
+      </span>
+      <span
+        className="h-1.5 flex-1 overflow-hidden rounded-full bg-line"
+        role="progressbar"
+        aria-valuemin={0}
+        aria-valuemax={total}
+        aria-valuenow={pos + (done ? 1 : 0)}
+        aria-label="Tiến độ bài tập"
+      >
+        <span className="block h-full rounded-full bg-accent" style={{ width: `${((pos + (done ? 1 : 0)) / total) * 100}%` }} />
+      </span>
+    </div>
   );
 }
 
@@ -87,7 +108,7 @@ function Card({
   ex: Exercise;
   pos: number;
   total: number;
-  onChecked: (right: boolean) => void;
+  onChecked: (right: boolean, detail?: string) => void;
   onNext: () => void;
 }) {
   const [checked, setChecked] = useState<null | { right: boolean; given: string }>(null);

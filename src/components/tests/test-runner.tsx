@@ -7,6 +7,7 @@ import { plain } from "@/components/grammar/rich-text";
 import {
   bankSize,
   drawLevelTest,
+  drawSkillsTest,
   drawTopicTest,
   drawUnitTest,
   PASS_PERCENT,
@@ -17,9 +18,9 @@ import {
   type TestItem,
 } from "@/lib/tests/bank";
 import { addSeen, getSeen, testScores } from "@/lib/tests/progress";
-import type { Exercise } from "@/lib/grammar/schema";
+import type { TestExercise } from "@/lib/tests/skills";
 
-export type TestMode = { kind: "level" } | { kind: "unit"; id: string } | { kind: "topic"; id: string };
+export type TestMode = { kind: "level" } | { kind: "skills" } | { kind: "unit"; id: string } | { kind: "topic"; id: string };
 
 const primary =
   "inline-flex min-h-12 items-center justify-center rounded-full bg-accent px-6 font-semibold text-accent-ink transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-50";
@@ -46,12 +47,14 @@ function draw(bank: Bank, mode: TestMode) {
   const seen = getSeen(bank.level);
   if (mode.kind === "unit") return drawUnitTest(bank, mode.id, seen);
   if (mode.kind === "topic") return drawTopicTest(bank, mode.id, seen);
+  if (mode.kind === "skills") return drawSkillsTest(bank, seen);
   return drawLevelTest(bank, seen);
 }
 
 /** Minutes the learner should plan for. */
 function minutes(items: TestItem[]) {
-  return Math.max(3, Math.round(items.reduce((t, i) => t + (i.ex.type === "choice" ? 25 : 45), 0) / 60));
+  const seconds = { choice: 25, fill: 45, order: 45, fix: 45, translate: 60, speak: 45, open: 240 } as const;
+  return Math.max(3, Math.round(items.reduce((t, i) => t + seconds[i.ex.type], 0) / 60));
 }
 
 export function TestRunner({ level, mode, testKey, title }: { level: string; mode: TestMode; testKey: string; title: string }) {
@@ -59,7 +62,7 @@ export function TestRunner({ level, mode, testKey, title }: { level: string; mod
   const [failed, setFailed] = useState(false);
   const [stage, setStage] = useState<"intro" | "run" | "done">("intro");
   const [items, setItems] = useState<TestItem[]>([]);
-  const [result, setResult] = useState<{ summary: Summary; right: boolean[] } | null>(null);
+  const [result, setResult] = useState<{ summary: Summary; right: boolean[]; details: (string | undefined)[] } | null>(null);
   const [round, setRound] = useState(0);
   const scores = useSyncExternalStore(testScores.subscribe, testScores.getSnapshot, testScores.getServerSnapshot);
 
@@ -87,12 +90,13 @@ export function TestRunner({ level, mode, testKey, title }: { level: string; mod
     window.scrollTo({ top: 0 });
   }
 
-  function finish(outcomes: { index: number; right: boolean }[]) {
+  function finish(outcomes: { index: number; right: boolean; detail?: string }[]) {
     const right = items.map((_, i) => outcomes.find((o) => o.index === i)?.right ?? false);
+    const details = items.map((_, i) => outcomes.find((o) => o.index === i)?.detail);
     const summary = summarize(items, right);
     testScores.save(testKey, summary.percent);
     addSeen(bank!.level, items.map((i) => i.id));
-    setResult({ summary, right });
+    setResult({ summary, right, details });
     setStage("done");
     window.scrollTo({ top: 0 });
   }
@@ -139,6 +143,10 @@ function Intro({ bank, mode, best, title, onStart }: { bank: Bank; mode: TestMod
         <li>Mỗi lần làm là một đề mới, rút ngẫu nhiên từ kho câu hỏi. Câu bạn chưa gặp được ưu tiên.</li>
         {mode.kind === "level" ? <li>Đạt từ {PASS_PERCENT}% là hoàn thành cấp {bank.level}.</li> : null}
         <li>Làm xong, bạn biết mình yếu phần nào và nên ôn bài nào.</li>
+        {sample.some((i) => i.ex.type === "speak" || (i.ex.type === "open" && i.ex.mode === "speak")) ? (
+          <li>Có phần nói: hãy ở chỗ yên tĩnh và cho phép trình duyệt dùng micro.</li>
+        ) : null}
+        {sample.some((i) => i.ex.type === "open") ? <li>Bài viết và nói tự do do AI chấm, kèm bài đã sửa và giải thích lỗi.</li> : null}
       </ul>
       <p className="mt-4 text-sm text-ink-soft tabular-nums">
         {best !== undefined ? `Điểm cao nhất: ${best}%. ` : ""}
@@ -151,8 +159,12 @@ function Intro({ bank, mode, best, title, onStart }: { bank: Bank; mode: TestMod
   );
 }
 
-function answerOf(ex: Exercise) {
+function answerOf(ex: TestExercise, detail?: string) {
   switch (ex.type) {
+    case "speak":
+      return ex.text;
+    case "open":
+      return detail && detail !== "Bỏ qua" ? detail : "";
     case "choice":
       return ex.options[ex.answer];
     case "fill":
@@ -165,8 +177,12 @@ function answerOf(ex: Exercise) {
   }
 }
 
-function questionOf(ex: Exercise) {
+function questionOf(ex: TestExercise) {
   switch (ex.type) {
+    case "speak":
+      return "Đọc to câu";
+    case "open":
+      return ex.task;
     case "choice":
       return ex.audio ? `Nghe: ${ex.audio}` : ex.prompt;
     case "fill":
@@ -189,12 +205,12 @@ function Results({
   bank: Bank;
   mode: TestMode;
   items: TestItem[];
-  result: { summary: Summary; right: boolean[] };
+  result: { summary: Summary; right: boolean[]; details: (string | undefined)[] };
   onAgain: () => void;
 }) {
-  const { summary, right } = result;
+  const { summary, right, details } = result;
   const passed = summary.percent >= PASS_PERCENT;
-  const wrong = items.filter((_, i) => !right[i]);
+  const wrong = items.flatMap((it, i) => (right[i] ? [] : [{ it, detail: details[i] }]));
   const back = mode.kind === "topic" ? `/vocabulary/topic/${mode.id}` : "/lessons";
 
   return (
@@ -276,11 +292,12 @@ function Results({
             Các câu sai ({wrong.length})
           </h2>
           <ul className="mt-3 space-y-3">
-            {wrong.map((it) => (
+            {wrong.map(({ it, detail }) => (
               <li key={it.id} className="rounded-xl border border-line bg-sheet p-4">
                 <p className="text-sm text-ink-soft text-pretty">{plain(questionOf(it.ex))}</p>
                 <p className={`${it.ex.type === "choice" && it.ex.optionsLang === "vi" ? "" : "en "}mt-1 text-lg text-pretty`}>
-                  {plain(answerOf(it.ex))}
+                  {it.ex.type === "open" ? (detail && detail !== "Bỏ qua" ? <span className="block font-sans text-sm text-ink-soft">Bài đã sửa:</span> : "Đã bỏ qua") : null}
+                  {plain(answerOf(it.ex, detail))}
                 </p>
                 {"explain" in it.ex && it.ex.explain ? <p className="mt-1 text-sm text-ink-soft text-pretty">{it.ex.explain}</p> : null}
               </li>
