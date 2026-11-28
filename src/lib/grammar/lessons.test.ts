@@ -1,7 +1,11 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
+
+vi.mock("server-only", () => ({}));
 import { GRAMMAR_LEVELS } from "@/content/grammar/syllabus";
 import { closest, isRight } from "./check";
 import { getGrammarLessons } from "./lessons";
+
+const allLessons = await getGrammarLessons();
 
 describe("answer checking", () => {
   it("ignores case, punctuation and contractions", () => {
@@ -22,7 +26,7 @@ describe("answer checking", () => {
 });
 
 describe("grammar lessons", () => {
-  const lessons = getGrammarLessons();
+  const lessons = allLessons;
   const syllabus = new Map(Object.entries(GRAMMAR_LEVELS).flatMap(([level, { syllabus }]) => syllabus.map((s) => [s.id, level] as const)));
 
   it("are all in the syllabus, once", () => {
@@ -73,7 +77,7 @@ describe("grammar lessons", () => {
 
 describe("lesson screens", () => {
   it("have valid quick checks", () => {
-    for (const l of getGrammarLessons())
+    for (const l of allLessons)
       for (const s of l.sections)
         if (s.check) expect(s.check.answer, `${l.id}: ${s.heading}`).toBeLessThan(s.check.options.length);
   });
@@ -81,7 +85,7 @@ describe("lesson screens", () => {
 
 describe("A2 and B1 lesson quality", () => {
   const words = (s: string) => s.replace(/\[\[|\]\]/g, "").split(/\s+/).filter(Boolean).length;
-  const a2 = getGrammarLessons().filter((l) => l.level !== "A1");
+  const a2 = allLessons.filter((l) => l.level !== "A1");
 
   it.each(a2.map((l) => [l.id, l] as const))("%s follows the A2 brief", (_, l) => {
     expect(l.summary.length, "summary").toBeGreaterThanOrEqual(40);

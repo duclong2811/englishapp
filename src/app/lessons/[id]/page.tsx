@@ -4,23 +4,23 @@ import { notFound } from "next/navigation";
 import { LessonView } from "@/components/grammar/lesson-view";
 import { getGrammarLesson, getGrammarLessons, getSyllabus, neighbours } from "@/lib/grammar/lessons";
 
-export function generateStaticParams() {
-  return getGrammarLessons().map((l) => ({ id: l.id }));
+export async function generateStaticParams() {
+  return (await getGrammarLessons()).map((l) => ({ id: l.id }));
 }
 
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: PageProps<"/lessons/[id]">): Promise<Metadata> {
   const { id } = await params;
-  return { title: getGrammarLesson(id)?.title ?? "Bài học" };
+  return { title: (await getGrammarLesson(id))?.title ?? "Bài học" };
 }
 
 export default async function GrammarLessonPage({ params }: PageProps<"/lessons/[id]">) {
   const { id } = await params;
-  const lesson = getGrammarLesson(id);
+  const lesson = await getGrammarLesson(id);
   if (!lesson) notFound();
-  const number = getSyllabus(lesson.level).find((s) => s.id === id)?.number;
-  const { next } = neighbours(id);
+  const number = (await getSyllabus(lesson.level)).find((s) => s.id === id)?.number;
+  const { next } = await neighbours(id);
 
   return (
     <>

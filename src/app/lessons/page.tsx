@@ -6,10 +6,11 @@ import { getGrammarLessons, getSyllabus, GRAMMAR_LEVEL_IDS } from "@/lib/grammar
 
 export const metadata: Metadata = { title: "Bài học" };
 
-export default function LessonsPage() {
-  const summaries = new Map(getGrammarLessons().map(({ id, summary }) => [id, summary]));
-  const levels = GRAMMAR_LEVEL_IDS.map((level) => {
-    const items = new Map(getSyllabus(level).map((lesson) => [lesson.id, { ...lesson, summary: summaries.get(lesson.id) }]));
+export default async function LessonsPage() {
+  const summaries = new Map((await getGrammarLessons()).map(({ id, summary }) => [id, summary]));
+  const syllabi = await Promise.all(GRAMMAR_LEVEL_IDS.map((level) => getSyllabus(level)));
+  const levels = GRAMMAR_LEVEL_IDS.map((level, li) => {
+    const items = new Map(syllabi[li].map((lesson) => [lesson.id, { ...lesson, summary: summaries.get(lesson.id) }]));
     return {
       level,
       units: GRAMMAR_LEVELS[level].units.map(({ id, title, lessons }) => ({

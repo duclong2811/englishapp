@@ -5,19 +5,19 @@ import { Flashcards } from "@/components/flashcards";
 import { lessonCards } from "@/lib/flashcards";
 import { getGrammarLesson, getGrammarLessons } from "@/lib/grammar/lessons";
 
-export function generateStaticParams() {
-  return getGrammarLessons().map((l) => ({ id: l.id }));
+export async function generateStaticParams() {
+  return (await getGrammarLessons()).map((l) => ({ id: l.id }));
 }
 
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: PageProps<"/lessons/[id]/cards">): Promise<Metadata> {
-  const lesson = getGrammarLesson((await params).id);
+  const lesson = await getGrammarLesson((await params).id);
   return { title: lesson ? `Thẻ ghi nhớ: ${lesson.title}` : "Thẻ ghi nhớ" };
 }
 
 export default async function LessonCardsPage({ params }: PageProps<"/lessons/[id]/cards">) {
-  const lesson = getGrammarLesson((await params).id);
+  const lesson = await getGrammarLesson((await params).id);
   if (!lesson) notFound();
   const back = { href: `/lessons/${lesson.id}`, label: "Về bài học" };
   return (
