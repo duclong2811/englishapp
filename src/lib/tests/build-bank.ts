@@ -29,7 +29,7 @@ export async function buildBank(level: GrammarLevel): Promise<Bank> {
 
   const { units, syllabus } = GRAMMAR_LEVELS[level];
   const unitOf = new Map(units.flatMap((u) => u.lessons.map((l) => [l, u.id] as const)));
-  const lessons = getGrammarLessons().filter((l) => l.level === level);
+  const lessons = (await getGrammarLessons()).filter((l) => l.level === level);
   const grammar: GrammarItem[] = lessons.flatMap((l) => {
     const unit = unitOf.get(l.id)!;
     const fromExercises = l.exercises.map((ex, i) => ({ id: `g:${l.id}:${i}`, lesson: l.id, unit, ex }));

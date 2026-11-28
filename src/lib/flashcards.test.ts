@@ -1,9 +1,13 @@
-import { expect, it } from "vitest";
+import { expect, it, vi } from "vitest";
+
+vi.mock("server-only", () => ({}));
 import { lessonCards, wordCard } from "./flashcards";
 import { getGrammarLessons } from "./grammar/lessons";
 
+const allLessons = await getGrammarLessons();
+
 it("gives every lesson rule cards with an example, and mistake cards", () => {
-  for (const lesson of getGrammarLessons()) {
+  for (const lesson of allLessons) {
     const cards = lessonCards(lesson);
     const rules = cards.filter((c) => c.kind === "rule");
     expect(rules.length, lesson.id).toBeGreaterThanOrEqual(2);

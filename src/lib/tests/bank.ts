@@ -188,10 +188,15 @@ export const QUICK_SIZE = 12;
 
 /** Spread grammar-bank items over units, and inside each unit over lessons. */
 function overUnits<T extends { unit: string; lesson: string; id: string }>(bank: Bank, items: T[], n: number, seen: Set<string>) {
+  // Spread over lessons, then keep unseen items ahead: a lesson whose items were all seen must not jump the queue.
+  const unseenFirst = (list: T[]) => [...list.filter((g) => !seen.has(g.id)), ...list.filter((g) => seen.has(g.id))];
   const units = bank.units.map((u) =>
-    spread(groupBy(freshFirst(items.filter((g) => g.unit === u.id), (g) => g.id, seen), (g) => g.lesson), Infinity),
+    unseenFirst(spread(groupBy(freshFirst(items.filter((g) => g.unit === u.id), (g) => g.id, seen), (g) => g.lesson), Infinity)),
   );
-  return spread(units, n);
+  const picked = spread(units, n);
+  // Across units too: a unit with nothing new left gives way to units that still have new items.
+  if (picked.every((g) => !seen.has(g.id))) return picked;
+  return unseenFirst(spread(units, Infinity)).slice(0, n);
 }
 
 function openItems(bank: Bank, mode: "write" | "speak", n: number, seen: Set<string>) {

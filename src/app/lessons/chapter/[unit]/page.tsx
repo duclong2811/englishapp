@@ -30,10 +30,8 @@ export async function generateMetadata({ params }: PageProps<"/lessons/chapter/[
 export default async function ChapterCardsPage({ params }: PageProps<"/lessons/chapter/[unit]">) {
   const f = find((await params).unit);
   if (!f) notFound();
-  const cards = f.unit.lessons.flatMap((id) => {
-    const lesson = getGrammarLesson(id);
-    return lesson ? lessonCards(lesson) : [];
-  });
+  const lessons = await Promise.all(f.unit.lessons.map((id) => getGrammarLesson(id)));
+  const cards = lessons.flatMap((lesson) => (lesson ? lessonCards(lesson) : []));
   if (!cards.length) notFound();
   const back = { href: "/lessons", label: "Về bài học" };
   return (
