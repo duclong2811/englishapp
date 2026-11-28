@@ -19,7 +19,11 @@ for (const f of readdirSync(viDir)) {
   if (f.startsWith(prefix)) lastFile = Math.max(lastFile, Number(f.slice(prefix.length, -5)));
 }
 
-const todo = words.filter((w) => w.level === level && !done.has(w.id));
+// Errors in the source word list: not taught, not counted as missing.
+// chauffer = misspelling of chauffeur; unscathing = not a real word (the word is unscathed).
+const SKIP = new Set(["chauffer", "unscathing"]);
+
+const todo = words.filter((w) => w.level === level && !done.has(w.id) && !SKIP.has(w.id));
 const batch = todo.slice(0, count).map((w) => ({
   id: w.id,
   headword: w.headword,

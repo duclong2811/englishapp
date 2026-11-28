@@ -102,6 +102,8 @@ Mỗi mục trong `entries` viết **trên một dòng** như các file B2.
 
 **Không** viết ghi chú sáo rỗng ("Đây là từ phổ biến", "Từ này rất hữu ích"), và không lặp lại nghĩa.
 
+**Lỗi của danh sách gốc** (từ viết sai, từ không có thật): không soạn. Các mục đã biết nằm trong `SKIP` của `tools/vocab/next-batch.mjs` (`chauffer`, `unscathing`); gặp mục mới như vậy thì ghi vào mô tả PR để người duyệt thêm vào danh sách.
+
 **Mục lạ trong danh sách gốc** (từ ghép, trạng từ hiếm như `fiendishly`, từ cổ, từ có thể gây khó chịu): vẫn soạn bình thường như B2 đã làm (`unto`, `cyberpet`, `queer`).
 - Chọn nghĩa và ví dụ hữu ích nhất cho người học.
 - Từ nhạy cảm hoặc lỗi thời thì ghi chú cách nói phù hợp hơn, dạy nghĩa không xúc phạm trước (như `cripple`, `lame`, `prick` ở B2).
