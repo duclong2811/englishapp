@@ -17,7 +17,7 @@ const tile =
   "flex min-h-14 items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
 
 /** Levels that have tests and flashcard decks built from their topics. */
-const TESTED = new Set<Level>(["A1", "A2", "B1"]);
+const TESTED = new Set<Level>(["A1", "A2", "B1", "B2"]);
 
 export function VocabOverview({
   topics,

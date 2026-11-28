@@ -7,7 +7,7 @@ import { getVocabData, toPracticeWord } from "@/lib/vocab/data";
 import { OPEN_TASKS } from "@/content/tests/open-tasks";
 import type { Bank, GrammarItem, OpenItem, ReadingItem } from "./bank";
 
-export const TEST_LEVELS: GrammarLevel[] = ["A1", "A2", "B1"];
+export const TEST_LEVELS: GrammarLevel[] = ["A1", "A2", "B1", "B2"];
 
 export function toTestLevel(param: string): GrammarLevel | undefined {
   return TEST_LEVELS.find((l) => l.toLowerCase() === param);

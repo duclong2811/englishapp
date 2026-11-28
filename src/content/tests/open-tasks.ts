@@ -4,7 +4,7 @@
  */
 export type OpenTask = {
   id: string;
-  level: "A1" | "A2" | "B1";
+  level: "A1" | "A2" | "B1" | "B2";
   mode: "write" | "speak";
   /** What to do, in Vietnamese. */
   task: string;
@@ -14,7 +14,7 @@ export type OpenTask = {
   focus: string;
 };
 
-const t = (level: "A1" | "A2" | "B1", mode: "write" | "speak", id: string, focus: string, minWords: number, task: string, hint: string): OpenTask => ({
+const t = (level: "A1" | "A2" | "B1" | "B2", mode: "write" | "speak", id: string, focus: string, minWords: number, task: string, hint: string): OpenTask => ({
   id: `${level.toLowerCase()}-${mode}-${id}`,
   level,
   mode,
@@ -103,4 +103,30 @@ export const OPEN_TASKS: OpenTask[] = [
   t("B1", "speak", "directions", "indirect-questions", 25, "Bạn lạc ở một thành phố lạ. Hỏi đường và hỏi thông tin thật lịch sự.", "Excuse me, could you tell me where … Do you know if …"),
   t("B1", "speak", "success", "could-able-to", 30, "Kể về một việc khó mà cuối cùng bạn đã làm được.", "It was difficult, but I managed to … I was able to … because …"),
   t("B1", "speak", "debate", "contrast-purpose", 35, "Nên học đại học hay đi làm sớm? Nêu ý kiến của bạn và lý do.", "Although university is …, … Despite …, I think … in order to …"),
+  // B2 writing (graded by the standard model, see docs/ai-policy.md)
+  t("B2", "write", "milestone", "future-perfect", 70, "Năm năm nữa bạn sẽ đạt được những gì? Viết về công việc, việc học và cuộc sống của bạn lúc đó.", "In five years, I will have … By then, I'll have been … for …"),
+  t("B2", "write", "story", "narrative-tenses", 80, "Kể lại một chuyến đi đáng nhớ có chuyện bất ngờ xảy ra. Dùng nhiều thì quá khứ.", "We had been driving for … when … It was raining and we had forgotten …"),
+  t("B2", "write", "news", "passive-reporting", 70, "Viết một bản tin ngắn về một sự kiện ở thành phố bạn (khai trương, tai nạn, lễ hội) mà không nêu nguồn tin.", "It is reported that … The new … is expected to … It is believed that …"),
+  t("B2", "write", "meeting", "reporting-verbs", 70, "Viết biên bản ngắn kể lại một cuộc họp: ai đề xuất, ai từ chối, ai hứa làm gì.", "Ms Lan suggested … Mr Nam refused to … Everyone agreed to … He promised to …"),
+  t("B2", "write", "turning-point", "mixed-conditionals", 70, "Một quyết định trong quá khứ đã thay đổi cuộc sống hiện tại của bạn thế nào? Nếu chọn khác thì giờ ra sao?", "If I hadn't …, I wouldn't be … now. If I were more …, I would have …"),
+  t("B2", "write", "complaint", "conditional-inversion", 80, "Viết email trang trọng phàn nàn về một dịch vụ kém và yêu cầu giải quyết.", "Dear …, Had I known …, I would … Should you require …, please …"),
+  t("B2", "write", "mystery", "past-deduction", 70, "Bạn về nhà và thấy cửa mở, đồ đạc lộn xộn. Viết những phỏng đoán về chuyện đã xảy ra.", "Someone must have … They can't have … It might have been …"),
+  t("B2", "write", "city-guide", "participle-clauses", 70, "Viết đoạn giới thiệu một địa danh ở Việt Nam cho du khách nước ngoài.", "Built in …, the … is … Walking along …, visitors can … Having seen …"),
+  t("B2", "write", "lesson", "cleft-sentences", 70, "Điều quan trọng nhất bạn học được từ một người thầy hay người bạn là gì?", "What I learned from … was … It was … who taught me … What matters most is …"),
+  t("B2", "write", "essay", "linking-contrast", 90, "Làm việc ở nhà hay ở văn phòng tốt hơn? Viết bài luận ngắn nêu hai mặt và kết luận.", "Working from home is …, whereas … Even though … Nevertheless, …"),
+  t("B2", "write", "report", "linking-cause", 80, "Vì sao nhiều người trẻ chuyển lên thành phố sống? Nêu nguyên nhân và hậu quả.", "Due to …, many young people … As a result, … Consequently, …"),
+  t("B2", "write", "services", "causative-advanced", 60, "Bạn sắp chuyển nhà. Viết cho bạn bè những việc bạn đã thuê người làm và nhờ người khác làm.", "I'm having the walls painted … I got my brother to … I had my … repaired"),
+  // B2 speaking
+  t("B2", "speak", "plans", "future-perfect", 45, "Cuối năm nay bạn sẽ làm xong những việc gì? Kể kế hoạch của bạn.", "By the end of the year, I'll have … By then, I'll have been …"),
+  t("B2", "speak", "change-of-plan", "future-in-past", 40, "Kể về một kế hoạch bạn định làm nhưng cuối cùng không thực hiện.", "I was going to … but … I was about to … when …"),
+  t("B2", "speak", "rumour", "passive-reporting", 40, "Kể lại một tin đồn hoặc điều người ta hay nói về quê bạn.", "It is said that … People are believed to … It's thought that …"),
+  t("B2", "speak", "advice-given", "reporting-verbs", 40, "Kể lại những lời khuyên quan trọng mà bố mẹ hay thầy cô từng cho bạn.", "My father advised me to … My teacher warned me not to … She suggested …"),
+  t("B2", "speak", "preferences", "would-rather", 40, "Bạn thích sống ở thành phố lớn hay thị trấn nhỏ? Bạn muốn người thân thay đổi điều gì?", "I'd rather live in … I'd rather my family … It's time I … I wish … would …"),
+  t("B2", "speak", "missing", "past-deduction", 35, "Một đồng nghiệp không đến họp và không nghe máy. Đoán xem chuyện gì đã xảy ra.", "She must have … She might have … She can't have …"),
+  t("B2", "speak", "rules", "need-supposed", 35, "Kể về những quy định ở nơi bạn làm việc hoặc học tập: điều gì phải làm, điều gì không được làm.", "We're supposed to … We aren't supposed to … I needn't have …"),
+  t("B2", "speak", "future-city", "likelihood", 40, "Mười năm nữa thành phố của bạn sẽ thay đổi thế nào? Điều gì chắc chắn, điều gì khó xảy ra?", "Prices are likely to … The city is bound to … It's unlikely that …"),
+  t("B2", "speak", "best-experience", "inversion-emphasis", 35, "Kể về trải nghiệm tuyệt vời nhất của bạn bằng những câu nhấn mạnh.", "Never have I … Not only was it …, but … Rarely do I …"),
+  t("B2", "speak", "values", "whatever-however", 35, "Nói về những nguyên tắc bạn luôn giữ, dù hoàn cảnh thế nào.", "Whatever happens, I … However busy I am, I … No matter what …"),
+  t("B2", "speak", "comparison", "linking-contrast", 40, "So sánh cuộc sống của ông bà bạn ngày trước với cuộc sống của bạn bây giờ.", "My grandparents …, whereas I … Even though … Nevertheless, …"),
+  t("B2", "speak", "habits", "verb-patterns-advanced", 35, "Có thói quen nào bạn muốn bỏ? Điều gì ngăn bạn thay đổi?", "Nothing can stop me from … I insist on … I look forward to …"),
 ];

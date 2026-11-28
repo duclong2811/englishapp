@@ -126,8 +126,11 @@ export function FlashcardsOverview({ levels }: { levels: LevelDecks[] }) {
                         href={`/lessons/${l.id}/cards`}
                         className="flex min-h-12 items-center gap-3 px-4 py-2 transition-colors hover:bg-line/40 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent"
                       >
-                        <span className="w-6 shrink-0 text-right text-sm text-ink-soft tabular-nums">{l.number}</span>
-                        <span className="min-w-0 flex-1 text-pretty">{l.title}</span>
+                        <Illustration id={l.id} size={28} />
+                        <span className="min-w-0 flex-1 text-pretty">
+                          <span className="mr-1.5 text-sm text-ink-soft tabular-nums">{l.number}.</span>
+                          {l.title}
+                        </span>
                       </Link>
                     </li>
                   ))}

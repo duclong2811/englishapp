@@ -29,13 +29,14 @@ function selfConsistent(ex: TestExercise) {
 describe.each(TEST_LEVELS)("%s test bank", (level) => {
   it("has words from every topic and exercises from every unit", async () => {
     const b = await bank(level);
-    expect(b.words.length).toBeGreaterThan(500);
+    // A level gets vocabulary questions once its topics are written (B2 topics come later).
+    if (b.topics.length) expect(b.words.length).toBeGreaterThan(500);
     for (const t of b.topics) expect(b.words.some((w) => w.topic === t.id), t.id).toBe(true);
     for (const u of b.units) expect(b.grammar.some((g) => g.unit === u.id), u.id).toBe(true);
     for (const w of b.words) expect(b.tags[w.topic], w.topic).toBeTruthy();
     for (const g of b.grammar) expect(b.tags[g.lesson], g.lesson).toBeTruthy();
     expect(new Set(b.grammar.map((g) => g.id)).size).toBe(b.grammar.length);
-    expect(bankSize(b)).toBeGreaterThan(2000);
+    expect(bankSize(b)).toBeGreaterThan(b.topics.length ? 2000 : 400);
   });
 
   it("builds a well-formed question of every kind for every word", async () => {
@@ -54,8 +55,8 @@ describe.each(TEST_LEVELS)("%s test bank", (level) => {
     const b = await bank(level);
     const items = drawLevelTest(b, new Set());
     const count = (s: string) => items.filter((i) => i.section === s).length;
-    expect(count("vocab")).toBe(LEVEL_BLUEPRINT.vocab);
-    expect(count("listening")).toBe(LEVEL_BLUEPRINT.listening);
+    expect(count("vocab")).toBe(b.words.length ? LEVEL_BLUEPRINT.vocab : 0);
+    expect(count("listening")).toBe(b.words.length ? LEVEL_BLUEPRINT.listening : 0);
     expect(count("grammar")).toBe(LEVEL_BLUEPRINT.grammar);
     expect(count("writing")).toBe(LEVEL_BLUEPRINT.writing);
     expect(count("speaking")).toBe(LEVEL_BLUEPRINT.speaking);
