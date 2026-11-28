@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Be_Vietnam_Pro, Literata } from "next/font/google";
 import { Suspense } from "react";
+import { SyncProvider } from "@/components/account/sync-provider";
 import { AppNav } from "@/components/app-nav";
 import "./globals.css";
 
@@ -48,6 +49,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Suspense fallback={null}>
             <AppNav />
           </Suspense>
+          <SyncProvider />
           <main
             id="main"
             className="pb-safe-tabbar mx-auto w-full max-w-6xl px-4 pt-6 sm:px-6 lg:px-10 lg:pb-12 lg:pt-12"

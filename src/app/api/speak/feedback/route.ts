@@ -4,6 +4,7 @@ import { feedbackPrompt } from "@/lib/speaking/prompt";
 import { conversationBody, feedbackSchema } from "@/lib/speaking/schema";
 import { planFor } from "@/lib/ai/policy";
 import { FREE_CHAT } from "@/lib/speaking/lessons";
+import { aiGate } from "@/lib/server/quota";
 import { anthropic, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
 export async function POST(request: Request) {
@@ -14,13 +15,17 @@ export async function POST(request: Request) {
   if (!scenario) return jsonError(404, "Không tìm thấy tình huống.");
   if (!parsed.data.messages.some((m) => m.role === "user")) return jsonError(400, "Bạn chưa nói câu nào.");
 
+  const level = scenario.id === FREE_CHAT.id ? "A2" : "A1";
+  const gate = await aiGate("speak-feedback", level);
+  if (!gate.ok) return jsonError(gate.status, gate.error);
+
   const client = anthropic(speakEnv());
   if (!client) return jsonError(501, "App chưa có khóa API nên chưa nhận xét được.");
 
   const transcript = parsed.data.messages
     .map((m) => `${m.role === "user" ? "Learner" : "Partner"}: ${m.content}`)
     .join("\n");
-  const plan = planFor("speak-feedback", scenario.id === FREE_CHAT.id ? "A2" : "A1", speakEnv())!;
+  const plan = planFor("speak-feedback", level, speakEnv())!;
   const model = speakEnv().SPEAK_FEEDBACK_MODEL || plan.model;
 
   try {
@@ -35,6 +40,7 @@ export async function POST(request: Request) {
     if (message.stop_reason === "refusal" || !message.parsed_output) {
       return jsonError(502, "Chưa tạo được nhận xét. Thử lại nhé.");
     }
+    await gate.consume();
     return Response.json(message.parsed_output);
   } catch (err) {
     console.error("feedback failed", err);

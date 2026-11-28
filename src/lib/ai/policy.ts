@@ -103,3 +103,15 @@ export function planFor(feature: AiFeature, level: PolicyLevel, env: { AI_LIGHT_
 export function policyLevel(level: string): PolicyLevel {
   return (["A1", "A2", "B1", "B2"] as const).find((l) => l === level) ?? "B2";
 }
+
+/** Speech recognition (read aloud, speaking): cheap, but capped per member per day to stop abuse. */
+export const TRANSCRIBE_DAILY = 300;
+
+/** Shown to the learner, per feature. */
+export const AI_LIMIT_VI: Record<AiFeature | "transcribe", string> = {
+  "speak-chat": "buổi trò chuyện với AI",
+  "speak-feedback": "lượt nhận xét buổi nói",
+  "write-check": "lượt chấm bài viết",
+  "talk-check": "lượt chấm bài nói",
+  transcribe: "lượt nhận giọng nói",
+};

@@ -4,6 +4,7 @@ import { OPEN_TASKS } from "@/content/tests/open-tasks";
 import { findLessonTitle } from "@/lib/tests/lesson-titles";
 import { gradeSchema, openAnswerBody } from "@/lib/tests/grading";
 import { MAX_ANSWER_CHARS, planFor } from "@/lib/ai/policy";
+import { aiGate } from "@/lib/server/quota";
 import { anthropic, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
 function system(level: string, mode: "write" | "speak", focus: string) {
@@ -32,9 +33,12 @@ export async function POST(request: Request) {
 
   if (parsed.data.answer.length > MAX_ANSWER_CHARS[task.level]) return jsonError(400, "Bài quá dài so với đề.");
 
+  const feature = task.mode === "write" ? "write-check" : "talk-check";
   const env = speakEnv();
-  const plan = planFor(task.mode === "write" ? "write-check" : "talk-check", task.level, env);
+  const plan = planFor(feature, task.level, env);
   if (!plan) return jsonError(400, "Bài ở cấp này được chấm bằng đáp án mẫu, không cần AI.");
+  const gate = await aiGate(feature, task.level);
+  if (!gate.ok) return jsonError(gate.status, gate.error);
   const client = anthropic(env);
   if (!client) return jsonError(501, "App chưa có khóa API nên chưa chấm được.");
   const model = plan.model;
@@ -56,6 +60,7 @@ export async function POST(request: Request) {
     if (message.stop_reason === "refusal" || !message.parsed_output) {
       return jsonError(502, "Chưa chấm được. Thử lại nhé.");
     }
+    await gate.consume();
     const grade = message.parsed_output;
     return Response.json({ ...grade, mistakes: grade.mistakes.slice(0, 5) });
   } catch (err) {

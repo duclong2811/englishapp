@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
+import { AccountLink } from "@/components/account/account-link";
 
 type NavItem = { href: string; label: string; icon: ReactNode; /** Other paths that belong to this item. */ also?: string[] };
 
@@ -115,13 +116,15 @@ export function AppNav() {
             })}
           </ul>
         </nav>
+        <AccountLink variant="sidebar" />
       </aside>
 
       {/* Mobile top bar */}
-      <header className="sticky top-0 z-30 border-b border-line bg-paper/90 px-4 pb-3 pt-[calc(0.75rem+env(safe-area-inset-top))] backdrop-blur lg:hidden">
-        <Link href="/" className="text-lg font-semibold tracking-tight">
-          Vở <span className="en italic">tiếng Anh</span>
+      <header className="sticky top-0 z-30 flex items-center justify-between gap-3 border-b border-line bg-paper/90 px-4 pb-1.5 pt-[calc(0.375rem+env(safe-area-inset-top))] backdrop-blur lg:hidden">
+        <Link href="/" className="inline-flex min-h-11 items-center text-lg font-semibold tracking-tight">
+          Vở <span className="en ml-1.5 italic">tiếng Anh</span>
         </Link>
+        <AccountLink variant="topbar" />
       </header>
 
       {/* Mobile bottom tab bar */}

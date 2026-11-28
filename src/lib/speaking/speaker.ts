@@ -99,10 +99,17 @@ export function ttsUrl(text: string, voice: string) {
   return `/api/speak/tts?voice=${encodeURIComponent(voice)}&text=${encodeURIComponent(text)}`;
 }
 
+/** Guests use the device voice: the natural voice is a members' AI feature. */
+let naturalAllowed = true;
+export function allowNaturalVoice(allowed: boolean) {
+  naturalAllowed = allowed;
+}
+
 async function fetchAudio(text: string, voice: VoiceChoice, signal: AbortSignal): Promise<string | null> {
-  if (voice === "device" || failures >= MAX_FAILURES) return null;
+  if (voice === "device" || !naturalAllowed || failures >= MAX_FAILURES) return null;
   try {
     const res = await fetch(ttsUrl(text, voice), { signal });
+    if (res.status === 401) naturalAllowed = false;
     if (!res.ok) throw new Error(`tts ${res.status}`);
     const blob = await res.blob();
     failures = 0;

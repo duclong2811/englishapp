@@ -3,6 +3,7 @@ import { findScenario, supportsFallbacks, targetWords, toApiMessages } from "@/l
 import { conversationBody } from "@/lib/speaking/schema";
 import { planFor } from "@/lib/ai/policy";
 import { FREE_CHAT } from "@/lib/speaking/lessons";
+import { aiGate } from "@/lib/server/quota";
 import { anthropic, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
 const REFUSAL_LINE = "Sorry, let's talk about something else. What do you like to do?";
@@ -13,6 +14,13 @@ export async function POST(request: Request) {
   if (!parsed.success) return jsonError(400, "Dữ liệu hội thoại không hợp lệ.");
   const scenario = findScenario(parsed.data.scenarioId);
   if (!scenario) return jsonError(404, "Không tìm thấy tình huống.");
+
+  // Topic lessons are A1; free chat is open-ended, so it gets the A2 rule.
+  const level = scenario.id === FREE_CHAT.id ? "A2" : "A1";
+  // One conversation counts once: on the learner's first turn.
+  const firstTurn = parsed.data.messages.filter((m) => m.role === "user").length <= 1;
+  const gate = await aiGate("speak-chat", level, { count: firstTurn });
+  if (!gate.ok) return jsonError(gate.status, gate.error);
 
   const env = speakEnv();
   const client = anthropic(env);
@@ -26,8 +34,8 @@ export async function POST(request: Request) {
     });
   }
 
-  // Topic lessons are A1; free chat is open-ended, so it gets the A2 rule.
-  const plan = planFor("speak-chat", scenario.id === FREE_CHAT.id ? "A2" : "A1", env)!;
+  const plan = planFor("speak-chat", level, env)!;
+  await gate.consume();
   const model = env.SPEAK_CHAT_MODEL || plan.model;
   const stream = client.beta.messages.stream({
     model,

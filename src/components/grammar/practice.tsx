@@ -441,7 +441,7 @@ function MicButton({ disabled, onText }: { disabled: boolean; onText: (t: string
       const form = new FormData();
       form.append("audio", wav, "speech.wav");
       const res = await fetch("/api/speak/transcribe", { method: "POST", body: form });
-      if (res.status === 501) return setState("off");
+      if (res.status === 501 || res.status === 401 || res.status === 429) return setState("off");
       const { text = "" } = (await res.json()) as { text?: string };
       if (text) onText(text);
       setState("idle");

@@ -173,9 +173,14 @@ export function ScriptPractice({
       const form = new FormData();
       form.append("audio", wav, "speech.wav");
       const res = await fetch("/api/speak/transcribe", { method: "POST", body: form });
-      if (res.status === 501) {
+      if (res.status === 501 || res.status === 401 || res.status === 429) {
+        const { error } = (await res.json().catch(() => ({}))) as { error?: string };
         setManual(true);
-        setNotice("Máy chủ chưa bật nhận giọng nói. Hãy đọc to câu này rồi bấm Tiếp.");
+        setNotice(
+          res.status === 501
+            ? "Máy chủ chưa bật nhận giọng nói. Hãy đọc to câu này rồi bấm Tiếp."
+            : `${error ?? "Chưa dùng được nhận giọng nói."} Hãy đọc to câu này rồi bấm Tiếp.`,
+        );
         setPhase("waiting");
         return;
       }

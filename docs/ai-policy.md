@@ -134,3 +134,7 @@ AI không viết lời giải thích dài. App ghép giải thích theo mã lỗ
 2. Thư viện mã lỗi chung kèm giải thích tiếng Việt, liên kết với bài ngữ pháp.
 3. Khung chấm B1–B2 theo mục 5, khi có ngữ pháp B1.
 4. Backend: thành viên, hạn mức trên máy chủ, Turnstile, quảng cáo nhận thưởng.
+
+## Who may use AI
+
+Guests cannot use AI, members get the daily limits above, administrators have no limit. Every AI route must call `aiGate()` from `src/lib/server/quota.ts` first. See `docs/accounts.md`.

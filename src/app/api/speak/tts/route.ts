@@ -1,4 +1,5 @@
 import { fromOtherSite, jsonError, speakEnv, TTS_MODEL } from "@/lib/speaking/server";
+import { aiGate } from "@/lib/server/quota";
 import { isVoice } from "@/lib/speaking/voices";
 
 const MAX_CHARS = 400;
@@ -25,6 +26,10 @@ export async function GET(request: Request) {
   const text = (url.searchParams.get("text") ?? "").trim();
   const voice = url.searchParams.get("voice") ?? "";
   if (!text || text.length > MAX_CHARS || !isVoice(voice)) return jsonError(400, "Bad request");
+
+  // Natural voice is an AI feature: guests hear the device voice instead. Not counted.
+  const gate = await aiGate("transcribe", "A1", { count: false });
+  if (!gate.ok) return jsonError(gate.status, gate.error);
 
   const env = speakEnv();
   if (!env.AI) return jsonError(501, "Giọng đọc AI chỉ chạy trên Cloudflare.");

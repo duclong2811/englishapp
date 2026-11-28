@@ -1,3 +1,4 @@
+import { AiGuestNotice } from "@/components/account/ai-guest-notice";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -34,6 +35,7 @@ export default async function LessonPage({ params }: PageProps<"/speaking/[id]">
         <p className="text-sm font-medium text-ink-soft">Chủ đề: {topic?.title}</p>
         <h1 className="mt-1 text-3xl font-semibold tracking-tight text-balance">{lesson.title}</h1>
         <p className="mt-2 text-ink-soft text-pretty">{lesson.summary}</p>
+        <AiGuestNotice className="mt-4" />
       </header>
       <LessonView
         topic={id}

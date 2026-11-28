@@ -40,6 +40,11 @@ function useRecorder(onText: (text: string) => void) {
         setError("Nhận giọng nói chỉ chạy trên bản web chính thức.");
         return setState("off");
       }
+      if (res.status === 401 || res.status === 429) {
+        const { error } = (await res.json().catch(() => ({}))) as { error?: string };
+        setError(error ?? "Chưa dùng được nhận giọng nói.");
+        return setState("off");
+      }
       const { text = "" } = (await res.json()) as { text?: string };
       if (text.trim()) {
         setError("");

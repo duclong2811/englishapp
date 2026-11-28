@@ -1,3 +1,4 @@
+import { AiGuestNotice } from "@/components/account/ai-guest-notice";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Conversation } from "@/components/speaking/conversation";
@@ -18,6 +19,7 @@ export default function FreeChatPage() {
           Trò chuyện với Alex về bất cứ chuyện gì: công việc, sở thích, phim ảnh, hay hỏi cách nói một câu bằng tiếng
           Anh. Alex nói theo trình độ của bạn và sửa lỗi bằng cách nói lại câu đúng.
         </p>
+        <AiGuestNotice className="mt-4" />
       </header>
       <Conversation scenario={{ id, title, goal, opening, starters }} maxTurns={19} />
     </>

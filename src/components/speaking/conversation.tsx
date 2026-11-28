@@ -24,6 +24,9 @@ type Recording = Awaited<ReturnType<typeof startRecording>>;
 const DEFAULT_MAX_TURNS = 15;
 const MAX_CHARS = 600;
 
+/** The server refused because the learner is not signed in or used up today's limit. */
+class LimitError extends Error {}
+
 const STATUS: Record<Phase, string> = {
   ready: "Bấm Bắt đầu để nghe câu đầu tiên.",
   idle: "Đến lượt bạn. Bấm micro rồi nói.",
@@ -148,6 +151,10 @@ export function Conversation({
         body: JSON.stringify({ scenarioId: scenario.id, messages: history }),
         signal: controller.signal,
       });
+      if (res.status === 401 || res.status === 429) {
+        const { error } = (await res.json().catch(() => ({}))) as { error?: string };
+        throw new LimitError(error ?? "Chưa dùng được AI.");
+      }
       if (!res.ok || !res.body) throw new Error(`chat ${res.status}`);
       if (res.headers.get("x-speak-demo")) setDemo(true);
       const reader = res.body.getReader();
@@ -177,7 +184,7 @@ export function Conversation({
       // Drop the unanswered line so the learner can try again.
       updateMessages(history.slice(0, -1));
       setDraft(clean);
-      setNotice("Không kết nối được với AI. Kiểm tra mạng rồi gửi lại nhé.");
+      setNotice(err instanceof LimitError ? err.message : "Không kết nối được với AI. Kiểm tra mạng rồi gửi lại nhé.");
       updatePhase("idle");
     } finally {
       if (request.current === controller) request.current = null;
@@ -225,9 +232,10 @@ export function Conversation({
       const form = new FormData();
       form.append("audio", wav, "speech.wav");
       const res = await fetch("/api/speak/transcribe", { method: "POST", body: form });
-      if (res.status === 501) {
+      if (res.status === 501 || res.status === 401 || res.status === 429) {
+        const { error } = (await res.json().catch(() => ({}))) as { error?: string };
         setHandsFree(false);
-        setNotice("Máy chủ chưa bật nhận giọng nói. Tạm thời hãy gõ câu trả lời.");
+        setNotice(res.status === 501 ? "Máy chủ chưa bật nhận giọng nói. Tạm thời hãy gõ câu trả lời." : (error ?? "Chưa dùng được nhận giọng nói."));
         updatePhase("idle");
         return;
       }

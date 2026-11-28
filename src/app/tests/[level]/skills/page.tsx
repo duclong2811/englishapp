@@ -1,3 +1,4 @@
+import { AiGuestNotice } from "@/components/account/ai-guest-notice";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -22,6 +23,9 @@ export default async function SkillsTestPage({ params }: PageProps<"/tests/[leve
       <Link href="/tests" className="back-link">
         Kiểm tra
       </Link>
+      <div className="mt-4 max-w-[42rem]">
+        <AiGuestNotice />
+      </div>
       <div className="mt-4">
         <TestRunner level={level} mode={{ kind: "skills" }} testKey={`skills:${level}`} title={`Viết và nói ${level}`} />
       </div>
