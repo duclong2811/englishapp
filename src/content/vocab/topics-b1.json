@@ -6,9 +6,9 @@
       "title": "Gia đình và họ hàng",
       "description": "Thành viên gia đình, tuổi tác và các giai đoạn cuộc đời.",
       "words": [
-        "immediate", "runaway", "lovingly", "gay", "middle-aged", "twin", "pregnant", "newborn",
-        "babysitter", "babysit", "niece", "nephew", "teen", "underage", "parental", "minor",
-        "adopt"
+        "runaway", "lovingly", "middle-aged", "twin", "marriage", "divorced", "pregnant", "newborn",
+        "babysitter", "babysit", "niece", "nephew", "teen", "underage", "household", "parental",
+        "minor", "adopt"
       ]
     },
     {
@@ -16,12 +16,12 @@
       "title": "Bạn bè và các mối quan hệ",
       "description": "Tình bạn, sự tin tưởng và cách giữ liên lạc.",
       "words": [
-        "reunification", "enemy", "dude", "buddy", "fellow", "mend", "gentleman", "handshake",
-        "connect", "joint", "possession", "possessive", "bond", "marriage", "divorced", "dating",
-        "relation", "relationship", "relate", "unrelated", "passion", "beloved", "affection", "fondness",
-        "fond", "lifelong", "lasting", "enjoyable", "mutual", "acquaintance", "friendliness", "gratitude",
-        "loyalty", "companion", "teammate", "sparkle", "charm", "hearty", "crush", "attraction",
-        "eager", "broad", "closely", "jealous", "tease"
+        "enemy", "dude", "buddy", "fellow", "mend", "gentleman", "handshake", "connect",
+        "joint", "possessive", "bond", "dating", "relation", "next-door-adverb", "next-door-adjective", "relative",
+        "relationship", "relate", "unrelated", "passion", "beloved", "affection", "fondness", "fond",
+        "lifelong", "lasting", "enjoyable", "mutual", "acquaintance", "nickname", "friendliness", "gratitude",
+        "loyalty", "companion", "teammate", "charm", "hearty", "crush", "attraction", "jealous",
+        "tease"
       ]
     },
     {
@@ -29,12 +29,12 @@
       "title": "Tính cách và phẩm chất",
       "description": "Phẩm chất, thói quen và cách cư xử của một người.",
       "words": [
-        "orderly", "systematic", "stubborn", "faithful", "loyal", "aggressive", "attract", "cruel",
-        "adorable", "graceful", "courage", "courageous", "bravely", "helpless", "desperate", "liar",
-        "honest", "honesty", "trustworthy", "goodness", "fortunate", "generous", "gifted", "admiration",
-        "devotion", "hearted", "satisfaction", "satisfied", "proud", "vain", "shallow", "eagerness",
-        "uninterested", "unfriendly", "easygoing", "carelessly", "careless", "carelessness", "hasty", "mere",
-        "blush", "boldly", "politely", "earnest", "dull", "rough", "rarely"
+        "orderly", "stubborn", "faithful", "loyal", "aggressive", "attract", "adorable", "graceful",
+        "courage", "courageous", "bravely", "helpless", "desperate", "liar", "honest", "honesty",
+        "trustworthy", "goodness", "fortunate", "generous", "gifted", "admiration", "devotion", "hearted",
+        "satisfaction", "satisfied", "proud", "vain", "shallow", "uninterested", "unfriendly", "easygoing",
+        "carelessly", "careless", "selfish", "carelessness", "hasty", "mere", "boldly", "politely",
+        "earnest", "dull", "rough"
       ]
     },
     {
@@ -42,14 +42,14 @@
       "title": "Cảm xúc và tâm trạng",
       "description": "Cảm xúc thường gặp và những thay đổi trong tâm trạng.",
       "words": [
-        "stun", "unlucky", "disappoint", "bore", "fascinate", "thankful", "supportive", "enthusiasm",
-        "enthusiastic", "excitement", "excitedly", "delight", "overjoyed", "amazed", "amazing", "shocked",
-        "shocking", "insane", "horrify", "scare", "scared", "terrified", "fright", "scary",
-        "awkward", "embarrassment", "laughter", "giggle", "chuckle", "sigh", "guilt", "mourn",
-        "depressing", "depressed", "depression", "misery", "miserable", "despair", "sorrow", "sadness",
-        "disappointment", "hopeless", "stricken", "daze", "suffer", "irritate", "annoyance", "annoyed",
-        "frustrated", "frustration", "calm", "calmness", "emotion", "emotional", "emotionally", "comfort",
-        "cheerful", "boredom", "mental", "unafraid"
+        "stun", "unlucky", "disappoint", "bore", "fascinate", "thankful", "excitement", "excitedly",
+        "delight", "overjoyed", "uplifted", "amazed", "shocked", "shocking", "insane", "horrify",
+        "scare", "scared", "terrified", "fright", "scary", "awkward", "embarrassed", "ashamed",
+        "embarrassment", "laughter", "giggle", "blush", "chuckle", "sigh", "guilt", "mourn",
+        "depression", "misery", "miserable", "despair", "sorrow", "sadness", "disappointment", "hopeless",
+        "stricken", "daze", "suffer", "irritate", "annoyance", "annoyed", "frustrated", "frustration",
+        "calm", "calmness", "emotion", "emotional", "emotionally", "comfort", "cheerful", "boredom",
+        "unafraid"
       ]
     },
     {
@@ -57,11 +57,11 @@
       "title": "Trò chuyện và phản hồi",
       "description": "Cách đặt câu hỏi, trả lời và bày tỏ ý kiến.",
       "words": [
-        "gee", "tick", "questionnaire", "interact", "dialog", "inquiry", "session", "oral",
-        "freely", "indirect", "misunderstanding", "summarize", "introduction", "briefly", "narrate", "convey",
-        "formally", "talkative", "face-to-face-adverb", "face-to-face-adjective", "greeting", "nod", "compliment", "remark",
-        "comment", "respond", "thump", "whisper", "loud", "yell", "swear", "caller",
-        "addressee", "acknowledgment"
+        "gee", "tick", "questionnaire", "interact", "dialog", "session", "oral", "freely",
+        "indirect", "misunderstanding", "summarize", "introduction", "narrate", "convey", "formally", "talkative",
+        "face-to-face-adverb", "face-to-face-adjective", "greeting", "nod", "compliment", "remark", "comment", "respond",
+        "thump", "bang", "whisper", "loud", "yell", "swear", "caller", "addressee",
+        "acknowledgment"
       ]
     },
     {
@@ -69,11 +69,10 @@
       "title": "Bất đồng và hòa giải",
       "description": "Trao đổi khi có mâu thuẫn, góp ý hoặc phàn nàn.",
       "words": [
-        "undo", "acknowledge", "correction", "embarrass", "embarrassed", "ashamed", "apology", "forgive",
-        "amusing", "offensive", "counter", "controversial", "agreement", "disagreement", "objection", "conflict",
-        "disturbance", "ignore", "deny", "refuse", "refusal", "insist", "bang", "fuss",
-        "neutral", "appeal", "bitter", "temper", "anger", "rage", "violence", "hatred",
-        "damage"
+        "undo", "acknowledge", "correction", "embarrass", "apology", "forgive", "amusing", "offensive",
+        "counter", "controversial", "agreement", "disagreement", "objection", "accuse", "defend", "conflict",
+        "disturbance", "ignore", "deny", "refuse", "refusal", "insist", "fuss", "bitter",
+        "temper", "anger", "rage", "hatred"
       ]
     },
     {
@@ -81,11 +80,11 @@
       "title": "Dịp lễ và gặp gỡ",
       "description": "Những dịp đặc biệt, quà tặng và hoạt động gặp mặt.",
       "words": [
-        "postcard", "cultural", "presentation", "feast", "festive", "firework", "candle", "priest",
-        "christian", "spiritual", "prayer", "reception", "ceremony", "groom", "invitation", "engaged",
-        "honeymoon", "farewell", "funeral", "graduation", "congratulate", "cherish", "occasion", "memorable",
-        "appreciation", "delighted", "delightful", "glorious", "terrific", "tremendous", "magnificent", "spectacular",
-        "outstanding", "blessing", "bless", "holy", "secretly"
+        "postcard", "presentation", "feast", "festive", "firework", "candle", "bow", "priest",
+        "christian", "prayer", "reception", "ceremony", "groom", "invitation", "engaged", "honeymoon",
+        "farewell", "funeral", "graduation", "congratulate", "cherish", "occasion", "memorable", "appreciation",
+        "delighted", "delightful", "glorious", "terrific", "tremendous", "magnificent", "spectacular", "outstanding",
+        "blessing", "bless", "holy", "secretly"
       ]
     },
     {
@@ -93,8 +92,8 @@
       "title": "Nhà cửa và hàng xóm",
       "description": "Các loại nhà, các phòng và khu vực quanh nhà.",
       "words": [
-        "ladder", "spiral", "haunt", "hut", "inhabitant", "indoors", "basement", "hostel",
-        "ground-floor", "first-floor-noun", "first-floor-adjective", "skyscraper", "household", "residential", "landlord"
+        "ladder", "hut", "inhabitant", "indoors", "storage", "basement", "hostel", "ground-floor",
+        "first-floor-noun", "first-floor-adjective", "skyscraper", "residential", "landlord"
       ]
     },
     {
@@ -102,11 +101,11 @@
       "title": "Đồ đạc và việc nhà",
       "description": "Đồ dùng gia đình, dọn dẹp và chăm sóc nhà cửa.",
       "words": [
-        "central-heating", "air-conditioning", "storage", "chest-of-drawers", "toothpaste", "absorb", "sponge", "damp",
-        "scratch", "mess", "messy", "nasty", "untidy", "unwanted", "diaper", "carpet",
-        "cushion", "pillow", "duvet", "sheet", "dusty", "dustbin", "bin", "curtain",
-        "handkerchief", "attachment", "washbowl", "dishwasher", "housework", "iron", "ironing", "furnish",
-        "hairdryer", "shave", "trim"
+        "central-heating", "air-conditioning", "chest-of-drawers", "toothpaste", "absorb", "sponge", "damp", "mess",
+        "messy", "nasty", "untidy", "unwanted", "diaper", "carpet", "cushion", "pillow",
+        "duvet", "sheet", "dusty", "dustbin", "bin", "curtain", "handkerchief", "attachment",
+        "washbowl", "dishwasher", "housework", "iron", "ironing", "furnish", "lighter", "hairdryer",
+        "trim"
       ]
     },
     {
@@ -114,10 +113,10 @@
       "title": "Dụng cụ và sửa chữa",
       "description": "Dụng cụ cầm tay, thao tác và cách sửa đồ.",
       "words": [
-        "circular", "lift", "needle", "handy", "attach", "accessory", "hang", "stuck",
-        "opening", "tightly", "tighten", "bent", "fold", "wrapping", "wrap", "sticky",
-        "stick", "sticker", "wax", "wire", "razor", "sword", "weapon", "hammer",
-        "nail", "pin", "barrel", "brass", "fasten"
+        "needle", "handy", "attach", "hang", "stuck", "opening", "tightly", "firmly",
+        "tighten", "bent", "fold", "wrapping", "wrap", "sticky", "stick", "sticker",
+        "wire", "razor", "hammer", "scratch", "nail", "pin", "arrow", "barrel",
+        "brass", "fasten"
       ]
     },
     {
@@ -125,8 +124,8 @@
       "title": "Xây dựng và vật liệu",
       "description": "Bộ phận công trình, vật liệu và các công việc xây lắp.",
       "words": [
-        "diagram", "pipe", "mount", "brick", "tile", "marble", "mineral", "steel",
-        "rebuild", "engineering", "architect", "builder", "construction", "construct", "foundation", "giant"
+        "pipe", "mount", "brick", "tile", "marble", "mineral", "steel", "rebuild",
+        "engineering", "architect", "builder", "construction", "construct", "foundation", "giant"
       ]
     },
     {
@@ -134,11 +133,11 @@
       "title": "Quần áo và ngoại hình",
       "description": "Trang phục, màu sắc, kiểu dáng và cách ăn mặc.",
       "words": [
-        "sort", "pattern", "trend", "casual", "stripe", "shiny", "gorgeous", "navy-blue",
-        "well-dressed", "gown", "sweatshirt", "wardrobe", "stylish", "worn", "fashionable", "designer",
-        "cotton", "silk", "garment", "knit", "ivory", "pale", "bare", "naked",
-        "undress", "underpants", "pullover", "jumper", "tracksuit", "wristwatch", "bracelet", "necklace",
-        "sleeve", "layer", "remove", "fade", "heel"
+        "trend", "casual", "strip", "stripe", "shiny", "gorgeous", "navy-blue", "well-dressed",
+        "gown", "sweatshirt", "wardrobe", "stylish", "worn", "fashionable", "designer", "cotton",
+        "sandal", "silk", "garment", "knit", "ivory", "pale", "bare", "naked",
+        "undress", "underpants", "pullover", "jumper", "tracksuit", "wristwatch", "bracelet", "accessory",
+        "necklace", "sleeve", "layer", "remove", "fade", "boot", "heel"
       ]
     },
     {
@@ -146,10 +145,10 @@
       "title": "Cơ thể và giác quan",
       "description": "Các bộ phận cơ thể, cử động và cảm nhận.",
       "words": [
-        "depth", "stretch", "muscle", "curly", "beard", "bald", "forehead", "skin",
-        "tissue", "liver", "vein", "hip", "elbow", "wrist", "finger", "thumb",
-        "foot", "palm", "gesture", "blind", "eyesight", "stare", "glance", "glint",
-        "observe", "unheard", "silent", "deaf", "hearing", "earache", "lung", "breathless",
+        "stretch", "muscle", "curly", "beard", "wax", "shave", "bald", "forehead",
+        "skin", "tissue", "liver", "vein", "hip", "elbow", "breast", "wrist",
+        "finger", "thumb", "foot", "palm", "gesture", "blind", "eyesight", "stare",
+        "glint", "unheard", "silent", "deaf", "hearing", "earache", "lung", "breathless",
         "breath", "inhale", "sneeze", "disgusting", "burning", "shiver", "sensation", "soothe"
       ]
     },
@@ -158,10 +157,10 @@
       "title": "Triệu chứng và chấn thương",
       "description": "Dấu hiệu bệnh, cơn đau và các chấn thương thường gặp.",
       "words": [
-        "feverishly", "paralyze", "impair", "allergic", "poison", "bleed", "choke", "remedy",
-        "cough", "symptom", "sickness", "flu", "infection", "injury", "wound", "swollen",
-        "sore", "ache", "pain", "painful", "discomfort", "backache", "heart-attack", "limp",
-        "faint", "gall", "deficiency", "syndrome", "hiv"
+        "feverishly", "impair", "allergic", "bleed", "choke", "remedy", "cough", "symptom",
+        "sickness", "illness", "flu", "infection", "injury", "strain", "wound", "swollen",
+        "sore", "ache", "pain", "depressing", "painful", "discomfort", "backache", "heart-attack",
+        "limp", "faint", "gall", "deficiency", "syndrome", "hiv"
       ]
     },
     {
@@ -169,11 +168,10 @@
       "title": "Chăm sóc và điều trị",
       "description": "Khám bệnh, thuốc men và phục hồi sức khỏe.",
       "words": [
-        "inject", "capsule", "aspirin", "prescription", "pharmacy", "ecstasy", "breast", "cancer",
-        "disease", "illness", "unwell", "recover", "recovery", "treatment", "healing", "heal",
-        "cure", "bandage", "vet", "doc", "clinic", "bedside", "ambulance", "specialist",
-        "surgeon", "surgery", "operation", "undergo", "confirm", "scan", "accessible", "counseling",
-        "psychological"
+        "inject", "capsule", "aspirin", "prescription", "pharmacy", "cancer", "disease", "unwell",
+        "recover", "recovery", "treatment", "healing", "heal", "cure", "bandage", "vet",
+        "ward", "doc", "clinic", "bedside", "ambulance", "specialist", "surgeon", "surgery",
+        "operation", "undergo", "confirm", "scan", "disabled", "accessible", "depressed", "counseling"
       ]
     },
     {
@@ -181,10 +179,10 @@
       "title": "Thể chất và tinh thần",
       "description": "Sức khỏe, nghỉ ngơi và những thói quen có lợi.",
       "words": [
-        "disability", "disabled", "useless", "practical", "nutrient", "hunger", "lean", "maintain",
-        "retain", "accustom", "tend", "routine", "aerobics", "fitness", "gym", "workout",
-        "jogging", "yoga", "meditate", "meditation", "mentally", "anxiety", "nervousness", "unfit",
-        "strain", "stressed", "stress", "stressful", "exhausted", "rest", "relaxing", "nap",
+        "disability", "nutrient", "hunger", "appetite", "lean", "maintain", "retain", "accustom",
+        "tend", "routine", "aerobics", "fitness", "gym", "workout", "jogging", "yoga",
+        "meditate", "meditation", "mentally", "psychological", "mental", "anxiety", "nervousness", "unfit",
+        "stressed", "stress", "stressful", "supportive", "exhausted", "rest", "relaxing", "nap",
         "doze", "smoker"
       ]
     },
@@ -193,12 +191,12 @@
       "title": "Đồ ăn và nguyên liệu",
       "description": "Thực phẩm và nguyên liệu dùng cho bữa ăn hằng ngày.",
       "words": [
-        "ingredient", "nutrition", "appetite", "chewing-gum", "freezer", "canned", "lettuce", "mustard",
-        "peanut", "popcorn", "stuffed", "filling", "sour", "tasty", "nutritious", "flavor",
-        "taste", "tasteless", "spicy", "spice", "ginger", "juicy", "spinach", "pineapple",
-        "cucumber", "cabbage", "broccoli", "courgette", "grill", "shrimp", "tuna", "salmon",
-        "cod", "butcher", "lamb", "vegetarian", "pork", "bacon", "pie", "baker",
-        "bakery", "loaf", "mash", "gravy", "rotten"
+        "ingredient", "nutrition", "chewing-gum", "freezer", "canned", "lettuce", "mustard", "peanut",
+        "popcorn", "stuffed", "filling", "sour", "tasty", "nutritious", "flavor", "taste",
+        "tasteless", "spicy", "spice", "ginger", "juicy", "spinach", "pineapple", "cucumber",
+        "cabbage", "broccoli", "courgette", "grill", "shrimp", "tuna", "salmon", "cod",
+        "butcher", "lamb", "vegetarian", "pork", "bacon", "pie", "baker", "bakery",
+        "loaf", "mash", "gravy", "rotten"
       ]
     },
     {
@@ -207,8 +205,8 @@
       "description": "Dụng cụ, công thức và các thao tác nấu ăn.",
       "words": [
         "oily", "stir", "steam", "kettle", "pot", "tin", "powder", "saucer",
-        "saucepan", "frying-pan", "tempt", "spoil", "jug", "filter", "contain", "substitute",
-        "mixing-bowl", "combine", "blend", "dissolve", "melt", "compose"
+        "saucepan", "frying-pan", "tempt", "spoil", "jar", "jug", "filter", "contain",
+        "substitute", "mixing-bowl", "combine", "blend", "dissolve", "melt"
       ]
     },
     {
@@ -216,9 +214,9 @@
       "title": "Ăn uống bên ngoài",
       "description": "Đồ uống, gọi món và phục vụ tại quán ăn.",
       "words": [
-        "slogan", "barman", "alcoholic", "alcohol", "consumption", "consume", "refreshments", "canteen",
-        "pub", "establishment", "nightlife", "self-service", "service", "queue", "constitute", "formal",
-        "traditionally", "typical", "takeaway", "grab", "recall"
+        "barman", "alcoholic", "alcohol", "consumption", "consume", "refreshments", "canteen", "pub",
+        "reservation", "establishment", "nightlife", "self-service", "service", "queue", "formal", "traditionally",
+        "takeaway", "grab"
       ]
     },
     {
@@ -226,10 +224,9 @@
       "title": "Mua sắm và dịch vụ",
       "description": "Chọn đồ, kiểm tra giá và đổi trả hàng.",
       "words": [
-        "retrospect", "second-hand", "duty-free", "discount", "regulation", "warranty", "refund", "reputation",
-        "slot", "carton", "checkout", "confirmation", "supply", "goods", "parcel", "package",
-        "merchant", "shopper", "salesman", "buyer", "consumer", "retail", "advertise", "ad",
-        "available"
+        "second-hand", "duty-free", "discount", "warranty", "refund", "reputation", "slot", "carton",
+        "checkout", "confirmation", "supply", "goods", "parcel", "package", "merchant", "shopper",
+        "salesman", "buyer", "consumer", "retail", "available"
       ]
     },
     {
@@ -237,9 +234,9 @@
       "title": "Tiền bạc cá nhân",
       "description": "Tiền tệ, tiết kiệm, chi tiêu và nợ.",
       "words": [
-        "worth", "prosperous", "penniless", "penny", "purse", "pocket-money", "owing", "repay",
+        "worth", "valuable", "penniless", "penny", "purse", "pocket-money", "owing", "repay",
         "owe", "debt", "fund", "financial", "afford", "expense", "allowance", "monthly",
-        "cashpoint", "deposit", "bank-account", "teller", "balance", "currency", "exchange-rate"
+        "cashpoint", "deposit", "bank-account", "teller", "balance", "amount", "currency", "exchange-rate"
       ]
     },
     {
@@ -249,7 +246,7 @@
       "words": [
         "signpost", "turning", "crossroads", "crossing", "patrol", "traffic-jam", "roadside", "sidewalk",
         "parking", "vehicle", "van", "lorry", "crash", "windscreen", "helmet", "motorcycle",
-        "mechanic", "mechanical", "rubber", "tire", "horn"
+        "mechanic", "rubber", "tire", "horn"
       ]
     },
     {
@@ -257,9 +254,9 @@
       "title": "Đi lại bằng phương tiện công cộng",
       "description": "Xe buýt, tàu, điểm dừng và lịch chạy.",
       "words": [
-        "check-in-counter", "check-in-desk", "shift", "runway", "takeoff", "depart", "departure", "arrival",
-        "customs", "public-transport", "transportation", "transport", "carriage", "railroad", "railway", "rail",
-        "ferry", "transfer"
+        "check-in-counter", "check-in-desk", "shift", "runway", "takeoff", "depart", "departure", "entry",
+        "arrival", "public-transport", "transportation", "transport", "carriage", "terminal", "railroad", "railway",
+        "rail", "ferry", "transfer"
       ]
     },
     {
@@ -267,9 +264,9 @@
       "title": "Du lịch và lưu trú",
       "description": "Đặt vé, chuẩn bị hành lý và đi nghỉ.",
       "words": [
-        "passport", "overnight", "spirit", "jade", "unpack", "packing", "baggage", "luggage",
-        "souvenir", "reservation", "booking", "cabin", "airline", "travel-agent", "paradise", "resort",
-        "tourism", "destination", "voyage", "luxury", "entry", "guide", "circus"
+        "passport", "overnight", "unpack", "packing", "baggage", "luggage", "souvenir", "booking",
+        "cabin", "airline", "travel-agent", "paradise", "resort", "tourism", "destination", "voyage",
+        "luxury", "guide", "circus"
       ]
     },
     {
@@ -277,10 +274,10 @@
       "title": "Địa điểm và chỉ đường",
       "description": "Địa điểm trong khu dân cư, vị trí và phương hướng.",
       "words": [
-        "exit", "bound", "settlement", "haven", "vast", "surround", "occupy", "geographical",
-        "regional", "central", "northwest", "southeast", "northeastern", "southwest", "northeast", "northern",
-        "eastern", "avenue", "location", "locate", "district", "county", "upper", "upward",
-        "outward", "internal", "outer", "innermost", "edge"
+        "exit", "bound", "settlement", "haven", "vast", "surround", "regional", "central",
+        "northwest", "southeast", "northeastern", "southwest", "northeast", "northern", "eastern", "avenue",
+        "location", "locate", "neighborhood", "district", "county", "upper", "upward", "outward",
+        "faraway", "internal", "outer", "innermost", "edge"
       ]
     },
     {
@@ -288,11 +285,10 @@
       "title": "Trường lớp và việc học",
       "description": "Trường học, môn học và bài tập trên lớp.",
       "words": [
-        "pupil", "individual", "interaction", "engage", "sex", "cycle", "process", "distribute",
-        "workshop", "assignment", "outline", "transitional", "intermediate", "freshman", "sophomore", "secondary-school",
-        "primary-school", "preschool", "academy", "institute", "academic", "scholarship", "librarian", "instructor",
-        "lecture", "professor", "schoolteacher", "teaching", "schoolmate", "mathematics", "mathematician", "curriculum",
-        "educate"
+        "pupil", "interaction", "engage", "workshop", "assignment", "outline", "transitional", "intermediate",
+        "freshman", "sophomore", "secondary-school", "primary-school", "preschool", "academy", "institute", "academic",
+        "scholarship", "librarian", "instructor", "lecture", "professor", "schoolteacher", "teaching", "schoolmate",
+        "mathematics", "mathematician", "curriculum", "educate"
       ]
     },
     {
@@ -300,9 +296,9 @@
       "title": "Thi cử và tiến bộ",
       "description": "Bài kiểm tra, kỹ năng và đánh giá kết quả học tập.",
       "words": [
-        "categorize", "classify", "category", "bullet", "prove", "demonstrate", "demonstration", "admission",
-        "examine", "examination", "examiner", "accuracy", "distinction", "written", "experienced", "qualified",
-        "qualify", "requirement", "guidance", "scope", "cv", "score", "endless", "flunk"
+        "categorize", "classify", "category", "prove", "demonstrate", "demonstration", "admission", "examine",
+        "examination", "examiner", "accuracy", "distinction", "written", "qualified", "qualify", "requirement",
+        "guidance", "cv", "score", "flunk"
       ]
     },
     {
@@ -310,12 +306,12 @@
       "title": "Ngôn ngữ và chữ viết",
       "description": "Từ ngữ, phát âm, dấu câu và cấu tạo từ.",
       "words": [
-        "rewrite", "signature", "inscription", "inscribe", "comma", "question-mark", "dot", "register",
-        "define", "definition", "term", "antonym", "prefix", "suffix", "consonant", "vowel",
+        "rewrite", "signature", "handwriting", "inscription", "inscribe", "comma", "question-mark", "dot",
+        "register", "definition", "term", "antonym", "prefix", "suffix", "consonant", "vowel",
         "alphabet", "tongue", "translate", "bilingual", "fluent", "fluently", "accent", "englishman",
-        "spelling", "usage", "memorize", "imitate", "retell", "recite", "aloud", "loudspeaker",
-        "full-stop", "standard", "bold", "highlight", "emphasize", "motto", "proverb", "idiom",
-        "phrase", "meaningful"
+        "spelling", "instance", "usage", "memorize", "imitate", "retell", "recite", "aloud",
+        "loudspeaker", "full-stop", "standard", "bold", "highlight", "emphasize", "motto", "proverb",
+        "idiom", "phrase", "meaningful"
       ]
     },
     {
@@ -323,9 +319,9 @@
       "title": "Nghề nghiệp và tuyển dụng",
       "description": "Nghề nghiệp, tìm việc và điều kiện làm việc.",
       "words": [
-        "postman", "impression", "interviewee", "vacancy", "hire", "working", "workplace", "employment",
-        "unemployed", "unemployment", "paid", "full-time", "part-time", "career", "profession", "hairdresser",
-        "associate", "specialize"
+        "postman", "interviewee", "vacancy", "hire", "working", "workplace", "employment", "unemployed",
+        "unemployment", "paid", "full-time", "part-time", "career", "profession", "hairdresser", "associate",
+        "leading", "experienced", "specialize"
       ]
     },
     {
@@ -333,9 +329,9 @@
       "title": "Văn phòng và công việc nhóm",
       "description": "Trao đổi, lập kế hoạch và xử lý công việc chung.",
       "words": [
-        "mailbox", "delivery", "deliver", "department", "leading", "adviser", "agenda", "proposal",
-        "propose", "assign", "arrangement", "arrange", "rearrange", "preparation", "brainstorming", "teamwork",
-        "deadline", "up-to-date", "noticeboard", "document", "resource"
+        "mailbox", "registration", "delivery", "deliver", "department", "management", "adviser", "agenda",
+        "proposal", "propose", "assign", "arrangement", "arrange", "rearrange", "preparation", "brainstorming",
+        "teamwork", "deadline", "up-to-date", "noticeboard", "document", "photocopy", "format", "resource"
       ]
     },
     {
@@ -343,8 +339,8 @@
       "title": "Kinh doanh và quản lý",
       "description": "Doanh nghiệp, hợp đồng và hoạt động thương mại.",
       "words": [
-        "format", "application", "dealer", "promotion", "brand-new", "acquire", "invest", "industrial",
-        "industry", "firm", "management", "maintenance", "guarantee", "property"
+        "application", "launch", "dealer", "promotion", "boom", "brand-new", "acquire", "invest",
+        "industrial", "industry", "firm", "maintenance", "guarantee", "property"
       ]
     },
     {
@@ -352,9 +348,9 @@
       "title": "Kinh tế và chi phí",
       "description": "Giá cả, tăng trưởng và các hoạt động kinh tế.",
       "words": [
-        "hidden", "gap", "hardship", "amount", "income", "tax", "accountant", "finance",
-        "poverty", "prosperity", "economy", "economic", "economics", "growth", "limited", "demand",
-        "shortage", "distribution"
+        "gap", "hardship", "income", "tax", "accountant", "finance", "poverty", "prosperity",
+        "prosperous", "economy", "economic", "economics", "growth", "limited", "demand", "shortage",
+        "distribution"
       ]
     },
     {
@@ -362,10 +358,10 @@
       "title": "Máy tính và thiết bị",
       "description": "Phần cứng, phần mềm và thao tác trên thiết bị.",
       "words": [
-        "disable", "enable", "plug", "terminal", "port", "modem", "dial", "press",
-        "install", "password", "cd-rom", "disk", "keyboard", "tablet", "device", "electronic",
-        "digital", "monitor", "webcam", "remote-control", "engine", "robot", "flash", "hand-held",
-        "virtual"
+        "disable", "enable", "plug", "port", "modem", "dial", "press", "install",
+        "password", "cd-rom", "disk", "keyboard", "tablet", "platform", "device", "electronic",
+        "digital", "monitor", "webcam", "remote-control", "engine", "mechanical", "robot", "flash",
+        "hand-held", "virtual"
       ]
     },
     {
@@ -373,10 +369,9 @@
       "title": "Internet và mạng xã hội",
       "description": "Tìm kiếm, đăng bài và tương tác trên mạng.",
       "words": [
-        "uninteresting", "pause", "clip", "video-clip", "fax", "message-board", "delete", "link",
-        "update", "upload", "status", "privacy", "access", "stumble", "safari", "platform",
-        "network", "social-networking", "blog", "blogger", "content", "server", "connection", "telecommunications",
-        "virus"
+        "pause", "clip", "video-clip", "fax", "message-board", "delete", "link", "update",
+        "upload", "status", "privacy", "access", "stumble", "safari", "network", "social-networking",
+        "blog", "blogger", "content", "server", "connection", "telecommunications", "virus"
       ]
     },
     {
@@ -384,10 +379,10 @@
       "title": "Tin tức và truyền thông",
       "description": "Báo chí, bản tin và cách đưa tin.",
       "words": [
-        "bust", "telegram", "channel", "broadcast", "signal", "crisis", "critical", "urgent",
+        "telegram", "channel", "broadcast", "signal", "crisis", "critic", "critical", "urgent",
         "edition", "publisher", "journal", "journalist", "columnist", "gossip", "publicly", "incident",
-        "headline", "bulletin", "announcement", "announce", "inform", "informative", "advert", "commercial",
-        "mislead"
+        "headline", "bulletin", "announcement", "announce", "inform", "informative", "advert", "advertise",
+        "ad", "slogan", "commercial", "mislead"
       ]
     },
     {
@@ -395,10 +390,10 @@
       "title": "Phim ảnh và truyền hình",
       "description": "Các thể loại, nhân vật và chương trình trên màn ảnh.",
       "words": [
-        "intermission", "jar", "wizard", "magician", "imaginary", "monster", "tragic", "tragedy",
-        "dramatic", "comedian", "comedy", "humorous", "humor", "entertain", "critic", "documentary",
-        "film-maker", "producer", "animation", "animated", "series", "chat-show", "soap-opera", "thriller",
-        "science-fiction", "fantasy", "astronomer", "actress", "celebrity", "survivor", "react"
+        "intermission", "wizard", "haunt", "spirit", "magician", "imaginary", "monster", "tragic",
+        "tragedy", "comedian", "comedy", "humorous", "humor", "entertain", "documentary", "film-maker",
+        "animation", "animated", "series", "chat-show", "soap-opera", "thriller", "science-fiction", "setting",
+        "fantasy", "actress", "celebrity", "survivor", "react"
       ]
     },
     {
@@ -406,8 +401,8 @@
       "title": "Âm nhạc và biểu diễn",
       "description": "Nhạc cụ, giọng hát và các buổi biểu diễn.",
       "words": [
-        "chaos", "beat", "applaud", "applause", "whistle", "disc-jockey", "guitarist", "dj",
-        "studio", "recording", "talented", "entertainer", "performer", "onstage", "idol", "choir",
+        "beat", "applaud", "applause", "whistle", "disc-jockey", "guitarist", "dj", "studio",
+        "producer", "recording", "talented", "entertainer", "performer", "onstage", "idol", "choir",
         "orchestra", "flute", "trumpet", "jazz", "accompany", "organ"
       ]
     },
@@ -416,12 +411,12 @@
       "title": "Nghệ thuật và sáng tác",
       "description": "Tác phẩm, hình ảnh và hoạt động sáng tạo.",
       "words": [
-        "drag", "photocopy", "strip", "dazzle", "tiring", "bow", "jewel", "illuminate",
-        "vivid", "hanging", "riddle", "myth", "storyteller", "tale", "narrative", "biography",
-        "novelist", "literary", "literature", "poetry", "poet", "scholar", "pottery", "craft",
-        "composition", "abstract", "creator", "copyright", "artist", "sculpture", "artistic", "likeness",
-        "prominent", "logo", "graphics", "graphic", "visual", "visually", "vision", "handwriting",
-        "ink", "stunning", "glimpse"
+        "dazzle", "sparkle", "jade", "jewel", "illuminate", "vivid", "hanging", "riddle",
+        "myth", "storyteller", "tale", "narrative", "biography", "novelist", "literary", "literature",
+        "poetry", "poet", "scholar", "pottery", "craft", "compose", "composition", "abstract",
+        "creator", "copyright", "artist", "sculpture", "artistic", "likeness", "prominent", "logo",
+        "graphics", "graphic", "visual", "visually", "vision", "pattern", "ink", "stunning",
+        "glance", "glimpse"
       ]
     },
     {
@@ -440,10 +435,10 @@
       "title": "Hoạt động ngoài trời",
       "description": "Thư giãn, cắm trại và vận động ngoài trời.",
       "words": [
-        "boot", "launch", "hatch", "pole", "sunbathe", "windsurfing", "jog", "jungle",
-        "trail", "scenic", "outdoor", "outdoors", "tent", "campsite", "backpack", "backpacking",
-        "backpacker", "climber", "harness", "equipment", "shelter", "warmth", "thirst", "enjoyment",
-        "exploration", "enthusiast", "lodge", "reserve", "parachute", "extreme-sports", "lifeguard"
+        "pole", "sunbathe", "windsurfing", "jog", "jungle", "wagon", "trail", "scenic",
+        "outdoor", "outdoors", "tent", "campsite", "backpack", "backpacking", "backpacker", "cliff",
+        "climber", "harness", "equipment", "warmth", "thirst", "enjoyment", "exploration", "enthusiast",
+        "lodge", "reserve", "parachute", "extreme-sports"
       ]
     },
     {
@@ -451,10 +446,10 @@
       "title": "Địa hình và cảnh quan",
       "description": "Núi, đất đai và các dạng địa hình.",
       "words": [
-        "plain", "fragment", "rainforest", "moss", "sandal", "debris", "dirt", "mud",
-        "sand", "quake", "geology", "soil", "surface", "basin", "pit", "cave",
-        "ness", "cliff", "sunrise", "horizon", "summit", "mountaintop", "volcano", "steep",
-        "slope", "region", "southern", "northwestern", "isle"
+        "plain", "moss", "dirt", "mud", "sand", "quake", "geology", "soil",
+        "surface", "basin", "pit", "cave", "ness", "sunrise", "horizon", "summit",
+        "mountaintop", "volcano", "steep", "slope", "region", "geographical", "geography", "southern",
+        "northwestern", "isle"
       ]
     },
     {
@@ -462,10 +457,10 @@
       "title": "Sông hồ và biển",
       "description": "Sông, hồ, biển và chuyển động của nước.",
       "words": [
-        "generate", "stream", "flow", "waterfall", "fountain", "pond", "wetland", "bathe",
-        "swimmer", "vessel", "canal", "paddle", "drown", "dive", "diver", "submarine",
-        "harbor", "tide", "coastal", "reef", "marine", "ocean", "seawater", "seaweed",
-        "bubble", "liquid", "swell"
+        "stream", "flow", "waterfall", "fountain", "pond", "wetland", "bathe", "swimmer",
+        "vessel", "canal", "paddle", "drown", "dive", "diver", "submarine", "harbor",
+        "tide", "coastal", "reef", "marine", "ocean", "seawater", "seaweed", "bubble",
+        "swell"
       ]
     },
     {
@@ -473,10 +468,9 @@
       "title": "Thời tiết và mùa",
       "description": "Nhiệt độ, mưa gió và dự báo thời tiết.",
       "words": [
-        "setting", "sundial", "sunset", "stormy", "misty", "turbulence", "tornado", "snowstorm",
-        "lightning", "thunder", "thunderous", "season", "forecast", "weather-forecast", "tropical", "climate",
-        "atmosphere", "moisture", "humid", "rainfall", "frost", "frozen", "freezing", "prepared",
-        "deprive"
+        "sunset", "stormy", "misty", "turbulence", "tornado", "snowstorm", "lightning", "thunder",
+        "thunderous", "season", "forecast", "weather-forecast", "tropical", "atmosphere", "moisture", "humid",
+        "rainfall", "frost", "frozen", "freezing"
       ]
     },
     {
@@ -484,11 +478,11 @@
       "title": "Động vật và tập tính",
       "description": "Động vật, đặc điểm và cách chúng sinh sống.",
       "words": [
-        "poisonous", "nickname", "fur", "collar", "bark", "hunt", "chase", "extinct",
-        "habitat", "wildlife", "beast", "turtle", "cage", "parrot", "crow", "herd",
-        "bull", "calf", "beaver", "dolphin", "whale", "gorilla", "ape", "giraffe",
-        "camel", "spider", "ant", "mosquito", "kitten", "puppy", "swarm", "flock",
-        "breeding", "mule", "hop", "wing", "arrow", "trace", "numerous", "rare"
+        "poisonous", "fur", "collar", "bark", "hunt", "chase", "extinct", "habitat",
+        "wildlife", "beast", "turtle", "cage", "parrot", "crow", "herd", "bull",
+        "calf", "beaver", "dolphin", "whale", "gorilla", "ape", "giraffe", "camel",
+        "spider", "ant", "mosquito", "kitten", "puppy", "swarm", "flock", "breeding",
+        "hatch", "mule", "hop", "wing", "trace"
       ]
     },
     {
@@ -498,8 +492,7 @@
       "words": [
         "maple", "raspberry", "strawberry", "ripe", "nectar", "abundance", "cattle", "farming",
         "agriculture", "agricultural", "farmland", "crop", "gardening", "cultivate", "organic", "tobacco",
-        "straw", "stem", "wither", "wagon", "daisy", "scatter", "resemble", "reproduce",
-        "breed"
+        "straw", "stem", "wither", "daisy", "scatter", "resemble", "reproduce", "breed"
       ]
     },
     {
@@ -507,10 +500,11 @@
       "title": "Môi trường và tài nguyên",
       "description": "Tài nguyên, chất thải và cách bảo vệ môi trường.",
       "words": [
-        "lighter", "tank", "fuel", "coal", "electricity", "electrical", "efficiency", "efficient",
+        "tank", "rare", "fuel", "coal", "electricity", "electrical", "efficiency", "efficient",
         "enrich", "enclose", "preserve", "reclaim", "recycling", "recycled", "waste", "wasteful",
-        "dump", "trash", "rubbish", "purify", "pollutant", "dioxide", "greenhouse", "eco",
-        "environmentalist", "environmental", "ecosystem", "ecology", "ecological", "conservation", "extinction", "destruction"
+        "dump", "debris", "trash", "rubbish", "purify", "pollutant", "dioxide", "greenhouse",
+        "climate", "eco", "environmentalist", "environmental", "ecosystem", "ecology", "rainforest", "ecological",
+        "conservation", "extinction", "destruction"
       ]
     },
     {
@@ -519,11 +513,12 @@
       "description": "Thí nghiệm, quan sát và giải thích hiện tượng.",
       "words": [
         "genetically", "gene", "genetic", "genetics", "analysis", "analyze", "researcher", "observation",
-        "finding", "discovery", "breakthrough", "technological", "concentration", "experiment", "lab", "laboratory",
-        "chemist", "chemistry", "biochemistry", "biology", "encyclopedia", "molecule", "compound", "element",
-        "atomic", "electron", "radiation", "nuclear", "physics", "nucleus", "cell", "organism",
-        "oxygen", "universe", "sphere", "comet", "satellite", "phenomenon", "presence", "shadowy",
-        "darkness", "uncover", "expose", "excess", "essence", "origin"
+        "observe", "finding", "discovery", "breakthrough", "technological", "concentration", "experiment", "diagram",
+        "lab", "laboratory", "chemist", "chemistry", "biochemistry", "biology", "encyclopedia", "molecule",
+        "compound", "element", "atomic", "electron", "radiation", "nuclear", "physics", "nucleus",
+        "cell", "organism", "oxygen", "universe", "sphere", "comet", "astronomer", "satellite",
+        "phenomenon", "presence", "shadowy", "darkness", "uncover", "expose", "excess", "essence",
+        "origin"
       ]
     },
     {
@@ -531,12 +526,12 @@
       "title": "Số lượng và đo lường",
       "description": "Con số, đơn vị, kích thước và tỷ lệ.",
       "words": [
-        "registration", "relative", "anti", "minus", "remainder", "arithmetic", "calculator", "calculate",
-        "calculation", "formula", "quantity", "ration", "proportion", "percent", "limit", "maximum",
-        "minimum", "per", "total", "approximately", "considerable", "estimate", "log", "measurement",
-        "measure", "diameter", "length", "height", "distance", "mile", "narrow", "medium",
-        "tiny", "huge", "massive", "mass", "pound", "gallon", "volume", "capacity",
-        "countless", "dozen", "fifth", "graph"
+        "minus", "remainder", "fragment", "arithmetic", "calculator", "calculate", "calculation", "formula",
+        "quantity", "ration", "proportion", "percent", "limit", "maximum", "minimum", "per",
+        "total", "approximately", "considerable", "substantial", "depth", "extent", "estimate", "log",
+        "measurement", "measure", "diameter", "circular", "spiral", "length", "height", "distance",
+        "mile", "narrow", "broad", "medium", "tiny", "huge", "massive", "mass",
+        "pound", "gallon", "volume", "capacity", "countless", "dozen", "fifth", "graph"
       ]
     },
     {
@@ -544,10 +539,10 @@
       "title": "Lực và chuyển động",
       "description": "Tốc độ, lực, hướng và sự chuyển động.",
       "words": [
-        "curve", "evenly", "pump", "uncontrollable", "motionless", "movement", "glide", "motor",
-        "orbit", "burst", "rapid", "rise", "arise", "fallen", "slip", "rolling",
-        "bump", "bounce", "leap", "stall", "angle", "tremble", "tension", "tumble",
-        "twist", "toss", "vague"
+        "curve", "evenly", "liquid", "pump", "uncontrollable", "motionless", "movement", "glide",
+        "motor", "orbit", "burst", "rapid", "drag", "lift", "downward", "rise",
+        "arise", "fallen", "slip", "rolling", "bump", "bounce", "leap", "stall",
+        "angle", "tremble", "tension", "tumble", "twist", "toss"
       ]
     },
     {
@@ -555,12 +550,12 @@
       "title": "An toàn và ứng phó",
       "description": "Nguy cơ, tai nạn và cách ứng phó khẩn cấp.",
       "words": [
-        "insurance", "inspection", "concerned", "aware", "awareness", "discourage", "inconvenient", "forbidden",
-        "hazard", "deadly", "endanger", "survival", "ensure", "warn", "warning", "caution",
-        "cautious", "risk", "dangerously", "safety", "safely", "secure", "security", "safeguard",
-        "protection", "protect", "protective", "defend", "explosion", "bomb", "terrorism", "terror",
-        "threat", "threatening", "collapse", "severe", "destructive", "disaster", "accidental", "accidentally",
-        "heater", "fire-station", "firefighter", "rescue", "ward"
+        "insurance", "inspection", "concerned", "aware", "inconvenient", "hazard", "deadly", "poison",
+        "endanger", "lifeguard", "survival", "ensure", "warn", "warning", "caution", "cautious",
+        "risk", "dangerously", "safety", "safely", "secure", "security", "safeguard", "protect",
+        "protective", "explosion", "bomb", "terror", "threat", "threatening", "paralyze", "severe",
+        "destructive", "disaster", "accidental", "accidentally", "heater", "fire-station", "firefighter", "shelter",
+        "rescue"
       ]
     },
     {
@@ -568,11 +563,11 @@
       "title": "Luật pháp và an ninh",
       "description": "Quy định, hành vi phạm pháp và xử lý trước tòa.",
       "words": [
-        "proof", "seize", "notorious", "outlaw", "killing", "legal", "legally", "illegally",
-        "prohibition", "judgment", "justice", "accuse", "innocent", "guilty", "victim", "drunk",
-        "burglar", "suspect", "detective", "criminal", "murderer", "arrest", "theft", "prisoner",
-        "prison", "jail", "punishment", "punish", "investigation", "witness", "capture", "charge",
-        "mischief"
+        "proof", "seize", "bullet", "sword", "weapon", "notorious", "bust", "outlaw",
+        "killing", "legally", "illegally", "prohibition", "judgment", "appeal", "justice", "innocent",
+        "guilty", "victim", "ecstasy", "drunk", "burglar", "detective", "criminal", "terrorism",
+        "murderer", "arrest", "protection", "theft", "prisoner", "prison", "jail", "punishment",
+        "punish", "investigation", "witness", "capture", "charge", "mischief"
       ]
     },
     {
@@ -580,10 +575,10 @@
       "title": "Chính quyền và công dân",
       "description": "Bộ máy nhà nước, bầu cử và đời sống công dân.",
       "words": [
-        "moderate", "civil", "govern", "republic", "democracy", "democratic", "election", "politics",
-        "first-lady", "vice-president", "president", "representative", "governor", "politician", "mayor", "sheriff",
-        "administration", "leadership", "appoint", "authority", "council", "approval", "chief", "rank",
-        "air-force", "bureau", "policy", "declare", "officially"
+        "moderate", "govern", "republic", "democracy", "democratic", "election", "first-lady", "vice-president",
+        "president", "representative", "governor", "politician", "mayor", "sheriff", "administration", "leadership",
+        "appoint", "authority", "council", "approval", "chief", "rank", "bureau", "policy",
+        "constitute", "declare", "officially"
       ]
     },
     {
@@ -592,11 +587,12 @@
       "description": "Các nhóm xã hội, hoạt động cộng đồng và hỗ trợ lẫn nhau.",
       "words": [
         "renew", "resident", "identity-card", "identity", "newcomer", "conduct", "encounter", "isolation",
-        "religious", "conservative", "majority", "minority", "racial", "oppression", "socially", "neighborhood",
-        "folk", "facility", "membership", "league", "union", "brotherhood", "unite", "unify",
-        "protest", "supporter", "contribution", "charity", "sympathy", "assist", "assistance", "aid",
-        "grant", "involved", "attend", "participate", "volunteer", "organization", "mission", "homeless",
-        "suicide", "bunch", "grouping", "scold"
+        "religious", "gay", "religion", "conservative", "majority", "minority", "cultural", "civil",
+        "racial", "discrimination", "oppression", "socially", "folk", "facility", "membership", "league",
+        "union", "brotherhood", "unite", "unify", "protest", "supporter", "contribution", "charity",
+        "sympathy", "assist", "assistance", "aid", "grant", "involved", "attend", "participate",
+        "volunteer", "organization", "mission", "homeless", "sex", "suicide", "bunch", "grouping",
+        "scold"
       ]
     },
     {
@@ -608,7 +604,7 @@
         "skeleton", "antique", "mankind", "civilization", "settler", "slavery", "dynasty", "historic",
         "historical", "historian", "era", "empire", "emperor", "chariot", "phoenix", "piety",
         "soul", "eternal", "eternity", "magical", "divine", "heavenly", "heaven", "glory",
-        "religion", "sacred", "goddess", "warrior", "monk", "bishop"
+        "sacred", "spiritual", "goddess", "warrior", "monk", "bishop"
       ]
     },
     {
@@ -616,10 +612,10 @@
       "title": "Quốc gia và quan hệ quốc tế",
       "description": "Quốc gia, biên giới và quan hệ giữa các nước.",
       "words": [
-        "reunify", "army", "invasion", "separation", "border", "immigrate", "immigration", "citizenship",
-        "visa", "independent", "nationalist", "liberation", "liberate", "declaration", "constitution", "possess",
-        "motherland", "mediterranean", "atlantic", "westward", "geography", "faraway", "internationally", "global",
-        "former"
+        "reunify", "reunification", "army", "air-force", "invasion", "separation", "border", "immigrate",
+        "immigration", "customs", "citizenship", "visa", "independent", "nationalist", "politics", "liberation",
+        "liberate", "declaration", "constitution", "possess", "motherland", "mediterranean", "atlantic", "westward",
+        "internationally", "global"
       ]
     },
     {
@@ -627,13 +623,14 @@
       "title": "Suy nghĩ và lập luận",
       "description": "Đưa ra ý kiến, lập luận và xem xét thông tin.",
       "words": [
-        "lay", "reasonable", "realistic", "unbelievable", "incredible", "superstition", "miracle", "uncertainty",
-        "certainty", "probability", "phantom", "subconscious", "conscious", "reflection", "puzzle", "confusion",
-        "unclear", "suspicion", "motive", "curiosity", "curious", "weird", "nonsense", "foolish",
-        "stupid", "existence", "belief", "reality", "concept", "notion", "common-sense", "logic",
-        "persuasive", "rational", "theory", "philosophy", "philosopher", "approach", "conclusion", "conclude",
-        "objective", "viewpoint", "insight", "definite", "convince", "assume", "suppose", "recognize",
-        "determine", "similarity"
+        "lay", "realistic", "unlikely", "unbelievable", "incredible", "superstition", "miracle", "uncertainty",
+        "certainty", "probability", "phantom", "subconscious", "conscious", "characteristic", "characterize", "impression",
+        "reflection", "puzzle", "confusing", "confusion", "possession", "curiosity", "inquiry", "curious",
+        "weird", "nonsense", "foolish", "stupid", "existence", "belief", "reality", "concept",
+        "individual", "notion", "awareness", "common-sense", "logic", "persuasive", "rational", "theory",
+        "complex", "philosophy", "philosopher", "conclusion", "conclude", "objective", "scope", "viewpoint",
+        "insight", "significance", "definite", "convince", "assume", "suppose", "recall", "recognize",
+        "distinguish", "determine", "similarity"
       ]
     },
     {
@@ -641,12 +638,13 @@
       "title": "Lựa chọn và quyết định",
       "description": "Cân nhắc các phương án và đặt ưu tiên.",
       "words": [
-        "ridiculous", "obtain", "fetch", "lottery", "general", "strategic", "valuable", "potential",
-        "favorable", "aspect", "involve", "commit", "settle", "compromise", "negotiation", "negotiate",
-        "approve", "reject", "acceptance", "decision", "consideration", "hesitate", "proceed", "advance",
-        "intentionally", "intention", "intend", "urge", "desire", "persuade", "resolve", "possibility",
-        "limitation", "combination", "selection", "select", "exclusive", "recommend", "alternative", "option",
-        "switch", "main", "basis", "preference", "tendency", "dependent", "rely", "require",
+        "ridiculous", "reasonable", "typical", "obtain", "fetch", "lottery", "general", "strategic",
+        "potential", "favorable", "aspect", "define", "involve", "commit", "settle", "compromise",
+        "negotiation", "negotiate", "approve", "reject", "acceptance", "decision", "consideration", "hesitate",
+        "proceed", "approach", "advance", "intentionally", "intention", "intend", "urge", "desire",
+        "persuade", "resolve", "suspect", "suspicion", "possibility", "regulation", "limitation", "combination",
+        "sort", "selection", "select", "exclusive", "recommend", "alternative", "option", "switch",
+        "neutral", "main", "basis", "preference", "tendency", "dependent", "rely", "require",
         "abandon", "eliminate", "rid", "minimize"
       ]
     },
@@ -655,12 +653,13 @@
       "title": "Thay đổi và kết quả",
       "description": "Sự thay đổi, diễn biến và hệ quả.",
       "words": [
-        "derive", "gain", "emerge", "unfold", "devastate", "devastating", "disastrous", "boom",
-        "continual", "continuous", "cancel", "complicate", "simplify", "transformation", "transform", "adapt",
-        "modify", "extend", "expand", "effective", "progress", "improvement", "revision", "revise",
-        "development", "affect", "loss", "lessen", "reduce", "reduction", "decrease", "decline",
-        "downward", "increasingly", "vary", "absence", "significance", "benefit", "outweigh", "positive",
-        "positively", "promote", "uplifted", "regain", "restore"
+        "derive", "gain", "emerge", "chaos", "unfold", "collapse", "devastate", "dramatic",
+        "devastating", "damage", "disastrous", "continual", "continuous", "cancel", "complicate", "simplify",
+        "transformation", "transform", "distribute", "generate", "adapt", "modify", "extend", "expand",
+        "effective", "progress", "cycle", "process", "improvement", "revision", "revise", "development",
+        "trigger", "affect", "loss", "lessen", "reduce", "reduction", "decrease", "deprive",
+        "decline", "increasingly", "vary", "absence", "benefit", "outweigh", "positive", "positively",
+        "promote", "regain", "restore"
       ]
     },
     {
@@ -668,14 +667,14 @@
       "title": "Đặc điểm và trạng thái",
       "description": "Đặc điểm, mức độ hoàn chỉnh và tình trạng của sự vật.",
       "words": [
-        "restrict", "permit", "awesome", "stable", "steady", "unlikely", "unfortunate", "horrible",
-        "serious", "worthwhile", "distinguish", "unique", "alike", "differ", "confusing", "complicated",
-        "complex", "reliable", "accurate", "fake", "incorrect", "essential", "sufficient", "substantial",
-        "thorough", "partial", "mild", "extreme", "intensive", "intense", "extraordinary", "ordinary",
-        "peculiar", "abnormal", "improper", "absent", "entire", "exact", "obvious", "visible",
-        "apparent", "evident", "noticeable", "slight", "absolute", "solid", "damaged", "marked",
-        "diverse", "various", "variety", "abundant", "brief", "sharp", "sheer", "pure",
-        "precious", "superior", "characterize", "characteristic"
+        "awesome", "stable", "steady", "unfortunate", "horrible", "serious", "useless", "tiring",
+        "practical", "unique", "alike", "differ", "complicated", "accurate", "fake", "incorrect",
+        "essential", "sufficient", "thorough", "partial", "mild", "extreme", "intensive", "prepared",
+        "intense", "extraordinary", "ordinary", "peculiar", "uninteresting", "abnormal", "improper", "absent",
+        "occupy", "endless", "entire", "exact", "obvious", "visible", "hidden", "apparent",
+        "evident", "noticeable", "slight", "absolute", "solid", "damaged", "marked", "diverse",
+        "numerous", "various", "variety", "abundant", "brief", "unclear", "vague", "sharp",
+        "sheer", "pure", "precious", "superior"
       ]
     },
     {
@@ -683,13 +682,14 @@
       "title": "Nỗ lực và thành tựu",
       "description": "Theo đuổi mục tiêu, vượt trở ngại và đạt kết quả.",
       "words": [
-        "extent", "technique", "strengthen", "overwhelming", "overwhelm", "overwork", "patience", "struggle",
-        "challenging", "endure", "overcome", "conquer", "defeat", "weakness", "failure", "obstacle",
-        "resist", "competitive", "reward", "prize", "achievement", "triumph", "excellence", "confidence",
-        "attain", "determination", "willingness", "innovator", "diligent", "diligence", "ambitious", "hard-working",
-        "productive", "accomplish", "inspire", "praise", "encouragement", "encouraging", "motivation", "motivate",
-        "procrastination", "contribute", "aim", "hopeful", "impressive", "remarkable", "proclaim", "boast",
-        "capable", "able", "unable"
+        "technique", "systematic", "strengthen", "overwhelming", "overwhelm", "overwork", "patience", "struggle",
+        "worthwhile", "challenging", "endure", "overcome", "conquer", "defeat", "weakness", "reliable",
+        "failure", "obstacle", "resist", "competitive", "reward", "prize", "achievement", "triumph",
+        "excellence", "confidence", "attain", "determination", "willingness", "innovator", "diligent", "diligence",
+        "ambitious", "eagerness", "eager", "hard-working", "productive", "accomplish", "inspire", "praise",
+        "encouragement", "enthusiasm", "enthusiastic", "encouraging", "motivation", "motivate", "procrastination", "contribute",
+        "aim", "hopeful", "impressive", "amazing", "remarkable", "proclaim", "boast", "capable",
+        "able", "unable"
       ]
     },
     {
@@ -697,10 +697,11 @@
       "title": "Quyền lợi và trách nhiệm",
       "description": "Trách nhiệm, giá trị và cách đánh giá đúng sai.",
       "words": [
-        "oppress", "dare", "shame", "shameful", "unfairly", "principle", "equally", "equal",
-        "equality", "discrimination", "prejudice", "delicate", "burden", "deed", "behalf", "responsibility",
-        "responsible", "duty", "respect", "deserve", "worthy", "respectable", "kindness", "selfish",
-        "humanity", "moral", "dedicate", "behave", "regard", "treat", "lawful", "vice"
+        "oppress", "dare", "shame", "shameful", "cruel", "unfairly", "principle", "equally",
+        "equal", "equality", "violence", "motive", "anti", "prejudice", "delicate", "burden",
+        "deed", "behalf", "responsibility", "responsible", "duty", "respect", "deserve", "worthy",
+        "respectable", "kindness", "humanity", "moral", "dedicate", "behave", "regard", "treat",
+        "lawful", "permit", "forbidden", "restrict", "discourage", "legal", "vice"
       ]
     },
     {
@@ -708,12 +709,12 @@
       "title": "Thời gian và trình tự",
       "description": "Mốc thời gian, tần suất và thứ tự diễn ra.",
       "words": [
-        "frequency", "fortnight", "interval", "simultaneously", "timely", "chronological", "sequence", "hurriedly",
-        "afterward", "afterwards", "immediately", "initially", "lately", "sometime", "shortly", "eventually",
-        "currently", "previous", "newly", "permanently", "permanent", "temporary", "sometimes", "occasionally",
-        "frequently", "occasional", "frequent", "repeatedly", "constantly", "continually", "continuously", "irregular",
-        "unexpected", "unexpectedly", "unpredictable", "inevitable", "occur", "old-fashioned", "out-of-date", "latecomer",
-        "trigger", "initial", "current", "annual", "annually"
+        "frequency", "fortnight", "sundial", "interval", "simultaneously", "timely", "chronological", "sequence",
+        "afterward", "afterwards", "immediate", "immediately", "briefly", "initially", "lately", "sometime",
+        "shortly", "eventually", "currently", "previous", "retrospect", "former", "newly", "permanently",
+        "permanent", "temporary", "sometimes", "occasionally", "frequently", "occasional", "frequent", "repeatedly",
+        "constantly", "steadily", "irregular", "unexpected", "unexpectedly", "unpredictable", "inevitable", "occur",
+        "old-fashioned", "out-of-date", "latecomer", "initial", "current", "annual", "annually"
       ]
     },
     {
@@ -721,13 +722,14 @@
       "title": "Trạng từ chỉ mức độ và cách thức",
       "description": "Bổ sung thông tin về mức độ, cách làm hoặc thái độ.",
       "words": [
-        "warmly", "anxiously", "brightly", "lightly", "firmly", "highly", "commonly", "widespread",
-        "extensively", "rapidly", "steadily", "merely", "completely", "entirely", "altogether", "absolutely",
-        "definitely", "totally", "surely", "obviously", "somehow", "supposedly", "hopefully", "naturally",
-        "normally", "generally", "typically", "largely", "primarily", "personally", "pleasantly", "specially",
-        "honestly", "properly", "accurately", "beautifully", "vividly", "distinctly", "slightly", "barely",
-        "incredibly", "relatively", "surprisingly", "strangely", "curiously", "unusually", "suddenly", "terribly",
-        "severely", "violently", "wildly", "involuntarily", "noisily", "rudely", "indirectly", "directly"
+        "warmly", "anxiously", "brightly", "lightly", "highly", "commonly", "widespread", "extensively",
+        "hurriedly", "rapidly", "merely", "completely", "entirely", "altogether", "absolutely", "definitely",
+        "totally", "surely", "obviously", "somehow", "supposedly", "hopefully", "normally", "generally",
+        "rarely", "typically", "largely", "primarily", "personally", "pleasantly", "particularly", "specially",
+        "honestly", "properly", "closely", "accurately", "beautifully", "vividly", "distinctly", "slightly",
+        "barely", "incredibly", "relatively", "surprisingly", "strangely", "curiously", "unusually", "suddenly",
+        "terribly", "severely", "violently", "continuously", "continually", "wildly", "involuntarily", "noisily",
+        "rudely", "indirectly", "directly"
       ]
     },
     {
@@ -735,8 +737,8 @@
       "title": "Liên kết và chuyển ý",
       "description": "Nối ý, đối chiếu và làm rõ quan hệ giữa các câu.",
       "words": [
-        "similarly", "comparison", "moreover", "furthermore", "thus", "consequently", "despite", "nonetheless",
-        "nevertheless", "contrary", "nor", "meanwhile", "particularly", "whenever", "wherever", "whether",
+        "similarly", "comparison", "moreover", "furthermore", "thus", "naturally", "consequently", "despite",
+        "nonetheless", "nevertheless", "contrary", "nor", "meanwhile", "whenever", "wherever", "whether",
         "unless", "otherwise", "provided", "anyhow"
       ]
     },
@@ -746,9 +748,9 @@
       "description": "Giới từ, đại từ và từ hạn định để chỉ người, vật hoặc quan hệ.",
       "words": [
         "none", "whichever", "whoever", "pronoun", "oneself", "preposition", "onto", "aboard",
-        "forth", "via", "throughout", "surrounding", "beneath", "underneath", "next-door-adjective", "next-door-adverb",
-        "nearby", "someplace", "nowhere", "distant", "farther", "furthest", "farthest", "regarding",
-        "according-to", "including", "aside", "instead-of", "because-of"
+        "forth", "via", "throughout", "surrounding", "beneath", "underneath", "nearby", "someplace",
+        "nowhere", "distant", "farther", "furthest", "farthest", "regarding", "according-to", "including",
+        "aside", "instead-of", "because-of"
       ]
     },
     {
@@ -757,8 +759,8 @@
       "description": "Trợ động từ, cấu trúc chỉ khả năng, lời khuyên và thói quen cũ.",
       "words": [
         "active", "used-to", "ought-to", "indefinite-article", "definite-article", "tense", "passive", "participle",
-        "adverbial", "adverb", "phrasal-verb", "modal-verb", "infinitive", "object", "instance", "auxiliary",
-        "command", "emphasis", "instruction", "complement"
+        "adverbial", "adverb", "phrasal-verb", "modal-verb", "infinitive", "object", "auxiliary", "command",
+        "emphasis", "instruction", "complement"
       ]
     }
   ]
