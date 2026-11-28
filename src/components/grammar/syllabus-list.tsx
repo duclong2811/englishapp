@@ -135,8 +135,11 @@ export function SyllabusList({ levels }: { levels: LevelUnits[] }) {
                   const ok = passed(item);
                   const inner = (
                     <>
-                      <span className="w-6 shrink-0 text-right text-sm text-ink-soft tabular-nums">{item.number}</span>
-                      <span className="min-w-0 flex-1 text-pretty">{item.title}</span>
+                      <Illustration id={item.id} size={28} />
+                      <span className="min-w-0 flex-1 text-pretty">
+                        <span className="mr-1.5 text-sm text-ink-soft tabular-nums">{item.number}.</span>
+                        {item.title}
+                      </span>
                       <span className={`shrink-0 text-sm tabular-nums ${ok ? "text-correct" : "text-ink-soft"}`}>
                         {!item.ready ? "Sắp có" : best === undefined ? "" : ok ? `✓ ${best}%` : `${best}%`}
                       </span>
