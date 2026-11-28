@@ -38,7 +38,7 @@ for (const file of entries) {
     if (!byLevel.has(id)) throw new Error(`Vietnamese entry "${id}" has no matching word in words.json`);
   }
 }
-const topics = await Promise.all(["topics.json", "topics-a2.json", "topics-b1.json"].map(readJson));
+const topics = await Promise.all(["topics.json", "topics-a2.json", "topics-b1.json", "topics-b2.json"].map(readJson));
 await mkdir(output, { recursive: true });
 const emit = (name, data) => writeFile(new URL(name, output), JSON.stringify(data));
 await Promise.all([

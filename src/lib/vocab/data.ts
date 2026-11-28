@@ -130,7 +130,7 @@ async function loadVocabData(assets: ReturnType<typeof getAssets>) {
 
   const [levels, topicFiles] = await Promise.all([
     Promise.all(LEVELS.map(async (level) => dataset.parse(await readAsset(`${level.toLowerCase()}.json`)))),
-    readAsset("topics.json").then((json) => z.tuple([topicsFile, topicsFile, topicsFile]).parse(json)),
+    readAsset("topics.json").then((json) => z.tuple([topicsFile, topicsFile, topicsFile, topicsFile]).parse(json)),
   ]);
   const words = levels.flatMap((level) => level.words);
   const byId = new Map(words.map((word) => [word.id, word]));
@@ -162,7 +162,7 @@ async function loadVocabData(assets: ReturnType<typeof getAssets>) {
 
   const seenWords = new Set<string>();
   const seenTopics = new Set<string>();
-  const topicLevels = ["A1", "A2", "B1"] as const;
+  const topicLevels = ["A1", "A2", "B1", "B2"] as const;
   const topics: Topic[] = topicFiles.flatMap((file, index) =>
     file.topics.map((topic) => {
       if (seenTopics.has(topic.id)) throw new Error(`Duplicate topic id "${topic.id}"`);

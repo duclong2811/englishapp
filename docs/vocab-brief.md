@@ -6,13 +6,20 @@ Mỗi lần nộp, một người duyệt sẽ kiểm tra. Bài nộp không qua
 
 ## 1. Việc cần làm
 
-Viết nghĩa tiếng Việt, ghi chú và 2 câu ví dụ cho **toàn bộ 2.139 từ B1** trong `src/content/vocab/words.json` (các mục có `"level": "B1"`). Sau khi xong toàn bộ từ, chia chúng thành chủ đề trong `src/content/vocab/topics-b1.json` (mục 7).
+Viết nghĩa tiếng Việt, ghi chú và 2 câu ví dụ cho toàn bộ từ của một cấp trong `src/content/vocab/words.json`, rồi chia chúng thành chủ đề (mục 7).
 
-Mẫu chuẩn để học theo: các file `src/content/vocab/vi/a2-core-*.json` (A2 đã duyệt xong về hình thức). Đọc vài chục mục trong đó trước khi viết.
+| Cấp | Số từ | File từ | File chủ đề | Trạng thái |
+|---|---|---|---|---|
+| B1 | 2.139 | `vi/b1-core-N.json` | `topics-b1.json` | Xong |
+| **B2** | **2.417** | `vi/b2-core-N.json` | `topics-b2.json` | **Đang làm** |
+
+Trong tài liệu này, chỗ nào ghi B1 thì với cấp đang làm hãy đổi cho đúng (ví dụ `b2-core-1.json`, `b2-health`, `vocab-b2-1-4`).
+
+Mẫu chuẩn để học theo: các file `src/content/vocab/vi/b1-core-*.json` (B1 đã duyệt xong). Đọc vài chục mục trong đó trước khi viết.
 
 **Không được sửa:**
-- `words.json`, các file `a1-core-*`, `a2-core-*`, `topics.json`, `topics-a2.json`;
-- bất kỳ file code nào ngoài những chỗ ghi rõ ở dưới (`vi/index.ts`, `topics-b1.json`);
+- `words.json`, các file từ và chủ đề của cấp khác (`a1-core-*`, `a2-core-*`, `b1-core-*`, `topics.json`, `topics-a2.json`, `topics-b1.json`);
+- bất kỳ file code nào ngoài những chỗ ghi rõ ở dưới (`vi/index.ts`, file chủ đề của cấp đang làm);
 - test. Nếu bạn nghĩ test sai, ghi lại trong mô tả PR, không sửa test.
 
 ## 2. Chuẩn bị và nhánh
@@ -22,7 +29,7 @@ npm ci
 git checkout -b vocab-b1-<số đợt đầu>-<số đợt cuối>   # ví dụ vocab-b1-1-5
 ```
 
-Không đẩy thẳng lên nhánh `ccr-2f80a8be-hdts76` (nhánh đang chạy web). Luôn mở **Pull Request vào nhánh `ccr-2f80a8be-hdts76`**. Mỗi PR từ 3 đến 5 đợt (300–500 từ).
+Không đẩy thẳng lên nhánh `ccr-2f80a8be-hdts76` (nhánh đang chạy web). Luôn mở **Pull Request vào nhánh `ccr-2f80a8be-hdts76`**. Mỗi PR 4 đợt (400 từ).
 
 ## 3. Quy trình cho mỗi đợt 100 từ
 
@@ -85,6 +92,8 @@ Mỗi mục trong `entries`, viết trên một dòng như các file A2:
 ## 5. Nghĩa và ghi chú
 
 **Nghĩa (`meanings`):**
+- **Xếp nghĩa theo mức độ hay gặp với người học**, không theo từ loại. Không thêm nghĩa hiếm, rất trang trọng hoặc chuyên ngành chỉ vì từ điển có.
+- Ưu tiên tiếng Anh-Mỹ. Từ chỉ dùng ở Anh (turning, windscreen, chemist's) thì ghi rõ trong `note` và nêu từ tương ứng của Mỹ.
 - Chọn nghĩa **phổ biến nhất ở trình độ B1**, theo từ loại có cấp `(B1)` trong `pos`. Từ loại ở cấp cao hơn (B2, C1) chỉ thêm nếu thật sự hay gặp.
 - Viết như từ điển Anh-Việt tốt: ngắn, tự nhiên, nhiều nghĩa gần nhau thì ngăn bằng dấu phẩy, nghĩa khác hẳn thì ngăn bằng dấu chấm phẩy. Ví dụ: `"vi": "dịch vụ; sự phục vụ"`.
 - Không dịch từng chữ, không giải thích dài dòng trong phần nghĩa. Phần giải thích để vào `note`.
@@ -115,7 +124,7 @@ Không viết ghi chú vô nghĩa kiểu "Đây là một danh từ phổ biến
   - Không sửa câu tiếng Anh của Tatoeba. Muốn sửa thì chuyển thành `editor`.
   - Chỉ dùng câu Tatoeba khi nó tự nhiên, ngắn, không lạ. Không có câu tốt thì tự viết cả hai câu.
 
-## 7. Chủ đề (làm sau cùng, khi đủ 2.139 từ)
+## 7. Chủ đề (làm sau cùng, khi đủ từ của cấp)
 
 Điền `src/content/vocab/topics-b1.json`. Mẫu: `topics-a2.json`.
 
@@ -123,8 +132,9 @@ Không viết ghi chú vô nghĩa kiểu "Đây là một danh từ phổ biến
 { "id": "b1-health", "title": "Sức khỏe và bệnh tật", "description": "Triệu chứng, điều trị, bệnh viện và lối sống lành mạnh.", "words": ["symptom", "treatment", "…"] }
 ```
 
-- Khoảng 50–70 chủ đề. Mỗi chủ đề từ 11 đến 60 từ (app tự chia thành bộ khoảng 10 từ). `id` bắt đầu bằng `b1-`, chỉ chữ thường, số và gạch ngang.
+- Khoảng 50–80 chủ đề. Mỗi chủ đề từ 11 đến 60 từ (app tự chia thành bộ khoảng 10 từ). `id` bắt đầu bằng `b1-`, chỉ chữ thường, số và gạch ngang.
 - **Mỗi từ B1 nằm trong đúng một chủ đề.** Test sẽ báo nếu thiếu hoặc trùng.
+- **Xếp theo nghĩa đã dạy trong file từ** (mở file ra xem), không theo nghĩa bạn đoán. Mỗi từ phải liên quan rõ đến tiêu đề chủ đề. Từ không hợp chủ đề đời sống nào thì đưa vào chủ đề trừu tượng (ý tưởng, đặc điểm, thay đổi…), không nhét cho đủ số.
 - Gom theo nghĩa, sao cho người học thấy các từ liên quan đến nhau. Trong một chủ đề, từ liên quan đứng cạnh nhau. Từ chức năng (giới từ, liên từ, trạng từ) gom thành các chủ đề riêng như A2.
 - Thứ tự chủ đề: các chủ đề đời sống, thực tế lên trước; chủ đề trừu tượng, ngữ pháp để sau.
 - Tiêu đề và mô tả bằng tiếng Việt, ngắn gọn, viết hoa chữ đầu câu.
