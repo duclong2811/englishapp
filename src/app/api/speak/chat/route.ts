@@ -58,6 +58,7 @@ export async function POST(request: Request) {
           }
         }
         const final = await stream.finalMessage();
+        await gate.record(final.model, final.usage);
         if (final.stop_reason === "refusal" && sent === 0) controller.enqueue(encoder.encode(REFUSAL_LINE));
       } catch (err) {
         console.error("chat stream failed", err);

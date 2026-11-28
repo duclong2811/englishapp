@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { fromOtherSite, json, jsonError, needUser } from "@/lib/server/api";
+import { readProgress, totals } from "@/lib/account/summary";
 import { mergeValues, SYNC_KEYS } from "@/lib/sync/merge";
 
 const MAX_BYTES = 1_500_000;
@@ -46,5 +47,15 @@ export async function POST(request: Request) {
         .run();
     }
   }
+  const t = totals(readProgress(values));
+  await ctx.db
+    .prepare(
+      `INSERT INTO user_stats (user_id, words, lessons, tests, active_at) VALUES (?, ?, ?, ?, ?)
+       ON CONFLICT (user_id) DO UPDATE SET words = excluded.words, lessons = excluded.lessons, tests = excluded.tests,
+       active_at = CASE WHEN user_stats.words != excluded.words OR user_stats.lessons != excluded.lessons OR user_stats.tests != excluded.tests
+         THEN excluded.active_at ELSE user_stats.active_at END`,
+    )
+    .bind(ctx.user.id, t.words, t.lessons, t.tests, t.words || t.lessons || t.tests ? now : null)
+    .run();
   return json({ values });
 }

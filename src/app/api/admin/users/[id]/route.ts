@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { fromOtherSite, json, jsonError, needUser, readBody } from "@/lib/server/api";
 import { endAllSessions, findUser, hashPassword } from "@/lib/server/auth";
+import { vnDay } from "@/lib/server/quota";
 
 const body = z.object({
   role: z.enum(["member", "admin"]).optional(),
@@ -41,4 +42,34 @@ export async function PATCH(request: Request, ctxRoute: RouteContext<"/api/admin
     await endAllSessions(ctx.db, id);
   }
   return json({ user: await findUser(ctx.db, id), password });
+}
+
+/** One learner: account, synced progress, and 14 days of AI use and cost. */
+export async function GET(_request: Request, ctxRoute: RouteContext<"/api/admin/users/[id]">) {
+  const ctx = await needUser({ admin: true });
+  if (ctx instanceof Response) return ctx;
+  const id = Number((await ctxRoute.params).id);
+  const user = Number.isInteger(id) ? await findUser(ctx.db, id) : null;
+  if (!user) return jsonError(404, "Không tìm thấy người dùng.");
+  const since = vnDay(new Date(Date.now() - 13 * 86_400_000));
+  const [progress, stats, usage, cost] = await Promise.all([
+    ctx.db.prepare("SELECT key, value, updated_at FROM progress WHERE user_id = ?").bind(id).all<{ key: string; value: string; updated_at: string }>(),
+    ctx.db.prepare("SELECT words, lessons, tests, active_at FROM user_stats WHERE user_id = ?").bind(id).first(),
+    ctx.db
+      .prepare("SELECT day, feature, level, count FROM ai_usage WHERE user_id = ? AND day >= ? ORDER BY day")
+      .bind(id, since)
+      .all(),
+    ctx.db
+      .prepare("SELECT day, feature, model, input_tokens, output_tokens, micro_usd FROM ai_cost WHERE user_id = ? AND day >= ? ORDER BY day")
+      .bind(id, since)
+      .all(),
+  ]);
+  return json({
+    user,
+    stats,
+    values: Object.fromEntries(progress.results.map((r) => [r.key, r.value])),
+    syncedAt: progress.results.reduce<string | null>((a, r) => (!a || r.updated_at > a ? r.updated_at : a), null),
+    usage: usage.results,
+    cost: cost.results,
+  });
 }

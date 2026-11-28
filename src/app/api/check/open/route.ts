@@ -57,6 +57,7 @@ export async function POST(request: Request) {
       output_config: { format: betaZodOutputFormat(gradeSchema), effort: plan.effort },
       ...(supportsFallbacks(model) ? { betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" as const } : {}),
     });
+    await gate.record(message.model, message.usage);
     if (message.stop_reason === "refusal" || !message.parsed_output) {
       return jsonError(502, "Chưa chấm được. Thử lại nhé.");
     }

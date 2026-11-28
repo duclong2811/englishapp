@@ -2,13 +2,15 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { AI_FEATURE_VI, AI_RULES, TRANSCRIBE_DAILY, type AiFeature, type PolicyLevel } from "@/lib/ai/policy";
 import { postJson, refreshViewer, setViewer, signedIn, useViewer, type UsageRow } from "@/lib/account/viewer";
 import { grammarScores } from "@/lib/grammar/progress";
 import * as speakStore from "@/lib/speaking/progress";
 import { testScores } from "@/lib/tests/progress";
 import * as srs from "@/lib/vocab/srs-store";
+import { summarize, type LearningCatalog } from "@/lib/account/summary";
+import { LevelProgress, WeakSpots } from "./progress-panels";
 import { card, input, primary, secondary } from "./ui";
 
 const LEVELS: PolicyLevel[] = ["A1", "A2", "B1", "B2"];
@@ -18,7 +20,7 @@ function used(usage: UsageRow[] | undefined, feature: string, level: string) {
   return usage?.find((u) => u.feature === feature && u.level === level)?.count ?? 0;
 }
 
-export function AccountPage() {
+export function AccountPage({ catalog }: { catalog: LearningCatalog }) {
   const viewer = useViewer();
   const router = useRouter();
   // Fresh AI counts each time the page opens.
@@ -46,9 +48,10 @@ export function AccountPage() {
   }
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
+    <div className="grid grid-cols-1 gap-4 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] [&>*]:min-w-0">
       <div className="flex flex-col gap-4">
         <Profile name={viewer.user.name} email={viewer.user.email} admin={admin} since={viewer.user.created_at} />
+        <LearnerProgress catalog={catalog} />
 
         <section aria-labelledby="ai-heading" className={card}>
           <h2 id="ai-heading" className="text-lg font-semibold">
@@ -162,6 +165,23 @@ function Profile({ name, email, admin, since }: { name: string; email: string; a
         </>
       )}
     </section>
+  );
+}
+
+function LearnerProgress({ catalog }: { catalog: LearningCatalog }) {
+  const vocab = useSyncExternalStore(srs.subscribe, srs.getSnapshot, srs.getServerSnapshot);
+  const grammar = useSyncExternalStore(grammarScores.subscribe, grammarScores.getSnapshot, grammarScores.getServerSnapshot);
+  const tests = useSyncExternalStore(testScores.subscribe, testScores.getSnapshot, testScores.getServerSnapshot);
+  const summary = useMemo(
+    () => (vocab && grammar && tests ? summarize(catalog, { cards: vocab.cards, grammar, tests }) : null),
+    [catalog, vocab, grammar, tests],
+  );
+  if (!summary) return null;
+  return (
+    <>
+      <LevelProgress summary={summary} />
+      <WeakSpots summary={summary} />
+    </>
   );
 }
 

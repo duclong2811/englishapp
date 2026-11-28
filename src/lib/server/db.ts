@@ -46,6 +46,23 @@ const SCHEMA = [
     updated_at TEXT NOT NULL,
     PRIMARY KEY (user_id, key)
   )`,
+  `CREATE TABLE IF NOT EXISTS ai_cost (
+    user_id INTEGER NOT NULL,
+    day TEXT NOT NULL,
+    feature TEXT NOT NULL,
+    model TEXT NOT NULL,
+    input_tokens INTEGER NOT NULL DEFAULT 0,
+    output_tokens INTEGER NOT NULL DEFAULT 0,
+    micro_usd INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY (user_id, day, feature, model)
+  )`,
+  `CREATE TABLE IF NOT EXISTS user_stats (
+    user_id INTEGER PRIMARY KEY,
+    words INTEGER NOT NULL DEFAULT 0,
+    lessons INTEGER NOT NULL DEFAULT 0,
+    tests INTEGER NOT NULL DEFAULT 0,
+    active_at TEXT
+  )`,
   `CREATE TABLE IF NOT EXISTS login_attempts (
     email TEXT NOT NULL,
     hour TEXT NOT NULL,

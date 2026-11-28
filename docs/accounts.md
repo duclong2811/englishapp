@@ -32,3 +32,12 @@ Without a database bound (local `next dev`, or before D1 is set up) the site run
 - Pages: `/login`, `/account`, `/admin`.
 
 Limits: 10 failed sign-ins per email per hour; 5 sign-ups per IP per hour; passwords at least 8 characters.
+
+## Learner and admin pages
+
+- `/account`: progress per level (words, grammar lessons passed, level-test score), weak spots (grammar below 80%, topics with forgotten or due words), AI use today against limits, password.
+- `/admin`: estimated AI cost (today, 14 days, per model, top spenders), AI calls, member list with search, filters (role, status) and sorting (recent activity, words, AI use, cost).
+- `/admin/users/[id]`: one learner's synced progress, weak spots, 14 days of AI use and cost, and role/lock/password actions.
+
+Cost is estimated from each call's token counts and `MODEL_PRICES` in `src/lib/ai/policy.ts` (update it when prices change). Speech recognition and the natural voice run on Workers AI and are not included.
+Per-user totals for the list (`user_stats`) are refreshed on each progress sync; progress summaries are computed by `src/lib/account/summary.ts`.

@@ -34,6 +34,8 @@ const login = await import("@/app/api/auth/login/route");
 const logout = await import("@/app/api/auth/logout/route");
 const progress = await import("@/app/api/progress/route");
 const adminUsers = await import("@/app/api/admin/users/[id]/route");
+const adminList = await import("@/app/api/admin/users/route");
+const adminStats = await import("@/app/api/admin/stats/route");
 
 const post = (body: unknown) =>
   new Request("http://x/api", { method: "POST", body: JSON.stringify(body), headers: { "cf-connecting-ip": "1.2.3.4" } });
@@ -117,5 +119,25 @@ describe("accounts", () => {
     userCookie.forEach((v, k) => jar.set(k, v));
     expect((await getViewer()).kind).toBe("guest");
     expect((await login.POST(post({ email: "u@example.com", password: "password1" }))).status).toBe(403);
+  });
+
+  it("records AI cost and shows it to admins", async () => {
+    await register.POST(post({ email: "c@example.com", password: "password1" }));
+    await progress.POST(post({ values: { "vocab:srs:v1": JSON.stringify({ cards: { a: {}, b: {} } }) } }));
+    const gate = await aiGate("write-check", "B1");
+    if (!gate.ok) throw new Error("gate");
+    await gate.record("claude-sonnet-5-5", { input_tokens: 1000, output_tokens: 500 });
+    jar.clear();
+    await register.POST(post({ email: "boss@example.com", password: "password1" }));
+    for (const sort of ["recent", "words", "ai", "cost", "new"]) {
+      const list = await (await adminList.GET(new Request(`http://x/api/admin/users?sort=${sort}&role=member`))).json();
+      expect(list.users).toHaveLength(1);
+      expect(list.users[0]).toMatchObject({ email: "c@example.com", words: 2, cost_week: 7000 });
+    }
+    const stats = await (await adminStats.GET()).json();
+    expect(stats.spenders[0].micro_usd).toBe(7000);
+    const profile = await (await adminUsers.GET(new Request("http://x"), { params: Promise.resolve({ id: "1" }) } as never)).json();
+    expect(JSON.parse(profile.values["vocab:srs:v1"]).cards).toHaveProperty("a");
+    expect(profile.cost[0]).toMatchObject({ feature: "write-check", micro_usd: 7000 });
   });
 });

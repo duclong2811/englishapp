@@ -26,5 +26,29 @@ export async function GET() {
     .prepare("SELECT day, SUM(count) AS count FROM ai_usage WHERE day >= ? AND feature != 'transcribe' GROUP BY day ORDER BY day")
     .bind(since)
     .all();
-  return json({ users, today: today.results, days: days.results });
+  const costDays = await ctx.db
+    .prepare("SELECT day, SUM(micro_usd) AS micro_usd FROM ai_cost WHERE day >= ? GROUP BY day ORDER BY day")
+    .bind(since)
+    .all<{ day: string; micro_usd: number }>();
+  const costModels = await ctx.db
+    .prepare("SELECT model, SUM(input_tokens) AS input_tokens, SUM(output_tokens) AS output_tokens, SUM(micro_usd) AS micro_usd FROM ai_cost WHERE day >= ? GROUP BY model ORDER BY micro_usd DESC")
+    .bind(since)
+    .all();
+  const weekDay = vnDay(new Date(Date.now() - 6 * 86_400_000));
+  const spenders = await ctx.db
+    .prepare(
+      `SELECT u.id, u.email, u.name, SUM(c.micro_usd) AS micro_usd FROM ai_cost c JOIN users u ON u.id = c.user_id
+       WHERE c.day >= ? GROUP BY u.id ORDER BY micro_usd DESC LIMIT 5`,
+    )
+    .bind(weekDay)
+    .all();
+  return json({
+    users,
+    today: today.results,
+    days: days.results,
+    costDays: costDays.results,
+    costModels: costModels.results,
+    spenders: spenders.results,
+    todayKey: vnDay(),
+  });
 }

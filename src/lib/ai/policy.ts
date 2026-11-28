@@ -115,3 +115,16 @@ export const AI_LIMIT_VI: Record<AiFeature | "transcribe", string> = {
   "talk-check": "lượt chấm bài nói",
   transcribe: "lượt nhận giọng nói",
 };
+
+/** USD per million tokens, for the cost estimate on the admin page. Update when prices change. */
+export const MODEL_PRICES: Record<string, { input: number; output: number }> = {
+  "claude-haiku-5-5": { input: 0.1, output: 0.5 },
+  "claude-sonnet-5-5": { input: 2, output: 10 },
+  "claude-opus-5-5": { input: 4, output: 20 },
+};
+
+/** Estimated cost of one call in millionths of a dollar (unknown models are priced like the standard tier). */
+export function costMicroUsd(model: string, inputTokens: number, outputTokens: number) {
+  const price = MODEL_PRICES[model] ?? MODEL_PRICES[MODEL_TIERS.standard.model];
+  return Math.round(inputTokens * price.input + outputTokens * price.output);
+}
