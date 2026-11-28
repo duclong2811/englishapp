@@ -2,7 +2,9 @@ import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import { findScenario, supportsFallbacks } from "@/lib/speaking/conversation";
 import { feedbackPrompt } from "@/lib/speaking/prompt";
 import { conversationBody, feedbackSchema } from "@/lib/speaking/schema";
-import { anthropic, DEFAULT_MODEL, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
+import { planFor } from "@/lib/ai/policy";
+import { FREE_CHAT } from "@/lib/speaking/lessons";
+import { anthropic, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
 export async function POST(request: Request) {
   if (fromOtherSite(request)) return jsonError(403, "Forbidden");
@@ -18,15 +20,16 @@ export async function POST(request: Request) {
   const transcript = parsed.data.messages
     .map((m) => `${m.role === "user" ? "Learner" : "Partner"}: ${m.content}`)
     .join("\n");
-  const model = speakEnv().SPEAK_FEEDBACK_MODEL || DEFAULT_MODEL;
+  const plan = planFor("speak-feedback", scenario.id === FREE_CHAT.id ? "A2" : "A1", speakEnv())!;
+  const model = speakEnv().SPEAK_FEEDBACK_MODEL || plan.model;
 
   try {
     const message = await client.beta.messages.parse({
       model,
-      max_tokens: 8000,
+      max_tokens: plan.maxTokens,
       system: feedbackPrompt(scenario),
       messages: [{ role: "user", content: `Conversation:\n${transcript}` }],
-      output_config: { format: betaZodOutputFormat(feedbackSchema), effort: "medium" },
+      output_config: { format: betaZodOutputFormat(feedbackSchema), effort: plan.effort },
       ...(supportsFallbacks(model) ? { betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" as const } : {}),
     });
     if (message.stop_reason === "refusal" || !message.parsed_output) {

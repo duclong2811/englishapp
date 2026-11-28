@@ -3,7 +3,8 @@ import { supportsFallbacks } from "@/lib/speaking/conversation";
 import { OPEN_TASKS } from "@/content/tests/open-tasks";
 import { findLessonTitle } from "@/lib/tests/lesson-titles";
 import { gradeSchema, openAnswerBody } from "@/lib/tests/grading";
-import { anthropic, CHECK_MODEL, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
+import { MAX_ANSWER_CHARS, planFor } from "@/lib/ai/policy";
+import { anthropic, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
 function system(level: string, mode: "write" | "speak", focus: string) {
   return [
@@ -29,15 +30,19 @@ export async function POST(request: Request) {
   const task = OPEN_TASKS.find((t) => t.id === parsed.data.taskId);
   if (!task) return jsonError(404, "Không tìm thấy đề.");
 
+  if (parsed.data.answer.length > MAX_ANSWER_CHARS[task.level]) return jsonError(400, "Bài quá dài so với đề.");
+
   const env = speakEnv();
+  const plan = planFor(task.mode === "write" ? "write-check" : "talk-check", task.level, env);
+  if (!plan) return jsonError(400, "Bài ở cấp này được chấm bằng đáp án mẫu, không cần AI.");
   const client = anthropic(env);
   if (!client) return jsonError(501, "App chưa có khóa API nên chưa chấm được.");
-  const model = env.CHECK_MODEL || CHECK_MODEL;
+  const model = plan.model;
 
   try {
     const message = await client.beta.messages.parse({
       model,
-      max_tokens: 4000,
+      max_tokens: plan.maxTokens,
       system: system(task.level, task.mode, findLessonTitle(task.focus) ?? task.focus),
       messages: [
         {
@@ -45,7 +50,7 @@ export async function POST(request: Request) {
           content: `Task (shown to the learner in Vietnamese): ${task.task}\nSuggested start: ${task.hint}\n\nLearner's answer:\n${parsed.data.answer}`,
         },
       ],
-      output_config: { format: betaZodOutputFormat(gradeSchema), effort: "low" },
+      output_config: { format: betaZodOutputFormat(gradeSchema), effort: plan.effort },
       ...(supportsFallbacks(model) ? { betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" as const } : {}),
     });
     if (message.stop_reason === "refusal" || !message.parsed_output) {

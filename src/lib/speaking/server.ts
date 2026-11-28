@@ -10,8 +10,9 @@ type SpeakEnv = {
   ANTHROPIC_API_KEY?: string;
   SPEAK_CHAT_MODEL?: string;
   SPEAK_FEEDBACK_MODEL?: string;
-  /** Model that grades open writing and speaking answers in tests. */
-  CHECK_MODEL?: string;
+  /** Model overrides for the AI policy tiers (src/lib/ai/policy.ts). */
+  AI_LIGHT_MODEL?: string;
+  AI_STANDARD_MODEL?: string;
 };
 
 /** Cloudflare bindings and secrets in production; process.env in plain `next start`/`next dev`. */
@@ -28,14 +29,11 @@ export function speakEnv(): SpeakEnv {
     ANTHROPIC_API_KEY: pick("ANTHROPIC_API_KEY"),
     SPEAK_CHAT_MODEL: pick("SPEAK_CHAT_MODEL"),
     SPEAK_FEEDBACK_MODEL: pick("SPEAK_FEEDBACK_MODEL"),
-    CHECK_MODEL: pick("CHECK_MODEL"),
+    AI_LIGHT_MODEL: pick("AI_LIGHT_MODEL"),
+    AI_STANDARD_MODEL: pick("AI_STANDARD_MODEL"),
   };
 }
 
-export const DEFAULT_MODEL = "claude-opus-5-5";
-
-/** Grading a few short sentences is a small job: the fast, low-cost model is enough. Override with CHECK_MODEL. */
-export const CHECK_MODEL = "claude-haiku-5-5";
 
 export function anthropic(env: SpeakEnv) {
   if (!env.ANTHROPIC_API_KEY) return null;
