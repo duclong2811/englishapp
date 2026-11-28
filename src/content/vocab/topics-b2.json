@@ -88,7 +88,7 @@
       "title": "Niềm vui và sự quan tâm",
       "description": "Niềm vui, sự thích thú, mong mỏi và những điều gây bất ngờ.",
       "words": [
-        "sniff", "exultant", "heartwarming", "heartbreaking", "ecstatic", "thrilled", "relieved", "relief",
+        "exultant", "heartwarming", "ecstatic", "thrilled", "relieved", "relief",
         "consolation", "cheerfulness", "serene", "passionate", "thrill", "thrilling", "fascination", "fascinated",
         "astonish", "amaze", "impressed", "awe", "astonished", "amazement", "astonishment", "glee",
         "hilarious", "amuse", "obsess", "obsessive", "obsession", "adore", "hospitable", "yearn",
@@ -103,7 +103,7 @@
         "shaken", "startle", "furious", "mortify", "furor", "petrified", "repress", "agonize",
         "desolation", "despise", "fed-up", "worrying", "bothered", "irritated", "irritating", "irritation",
         "dissatisfied", "displeasure", "outrage", "sob", "humiliating", "humiliation", "suffering", "agony",
-        "anguish", "distressing", "mournful", "grief", "grieve", "engulf", "desperation", "unhappiness",
+        "anguish", "distressing", "heartbreaking", "mournful", "grief", "grieve", "engulf", "desperation", "unhappiness",
         "grim", "dreadful", "gloomy", "dread", "unease", "fearsome", "creepy", "terrifying",
         "nightmare", "haunting", "doom", "madness", "moody"
       ]
@@ -114,7 +114,7 @@
       "description": "Trở ngại, sức chịu đựng và cách đối phó trong tình huống khó.",
       "words": [
         "balky", "dispensable", "setback", "adversity", "circumstance", "predicament", "prevail", "impossibility",
-        "unrealistic", "pessimistic", "dilemma", "tiresome", "ruinous", "downfall", "misfortune", "unsuccessful",
+        "unrealistic", "pessimistic", "dilemma", "tiresome", "ruinous", "cripple", "downfall", "misfortune", "unsuccessful",
         "faulty", "tricky", "tough", "troublesome", "mediocre", "unsatisfactory", "inadequate", "adequate",
         "constant", "nuisance", "excessive", "disorderly", "chaotic", "wearisome", "weary", "exhausting",
         "unbearable", "cope", "burdensome", "needless", "falter", "barrier"
@@ -129,7 +129,7 @@
         "slap", "punch", "bruise", "flesh", "tenderness", "thigh", "rib", "toenail",
         "fingernail", "scar", "sneer", "jaw", "bony", "gaze", "retina", "eyelid",
         "eyelash", "eyebrow", "hairy", "lick", "tickle", "rub", "tan", "complexion",
-        "perspiration", "suck", "throat", "vomit", "yawn", "snore", "nostril", "bloody",
+        "perspiration", "suck", "throat", "vomit", "yawn", "snore", "nostril", "sniff", "bloody",
         "gasp", "shrug", "wink", "grin", "peep", "pee"
       ]
     },
@@ -138,7 +138,7 @@
       "title": "Bệnh tật và triệu chứng",
       "description": "Bệnh, triệu chứng và chấn thương thường được nhắc đến.",
       "words": [
-        "cripple", "starve", "starvation", "respiratory", "pneumonia", "tuberculosis", "malaria", "diarrhea",
+        "starve", "starvation", "respiratory", "pneumonia", "tuberculosis", "malaria", "diarrhea",
         "germ", "infect", "infectious", "infected", "influenza", "outbreak", "pandemic", "plague",
         "quarantine", "rash", "untreated", "acute", "inflammation", "inflammatory", "neurosis", "disorder",
         "malady", "incurable", "hospitalize", "coma", "unconscious", "paralysis", "stroke", "blindness",
