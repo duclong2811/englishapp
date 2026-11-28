@@ -1,0 +1,354 @@
+{
+  "id": "contrast-purpose",
+  "level": "B1",
+  "title": "Despite, however, so that, in order to",
+  "summary": "Nối ý tương phản (although, despite, in spite of, however) và mục đích (to, in order to, so that).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Despite]] the rain, we went to the beach.",
+      "vi": "Dù trời mưa, bọn mình vẫn đi biển."
+    },
+    {
+      "who": "B",
+      "en": "Really? [[Although]] it was cold?",
+      "vi": "Thật à? Dù trời lạnh?"
+    },
+    {
+      "who": "A",
+      "en": "Yes. [[However]], we didn't swim.",
+      "vi": "Ừ. Tuy nhiên, bọn mình không bơi."
+    },
+    {
+      "who": "B",
+      "en": "Why did you go then?",
+      "vi": "Thế đi làm gì?"
+    },
+    {
+      "who": "A",
+      "en": "We went [[in order to]] take photos of the storm.",
+      "vi": "Bọn mình đi để chụp ảnh cơn bão."
+    },
+    {
+      "who": "B",
+      "en": "Next time, bring a bag [[so that]] your camera stays dry!",
+      "vi": "Lần sau mang theo túi để máy ảnh không bị ướt nhé!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Tương phản",
+      "heading": "Although + câu, despite + danh từ / V-ing",
+      "rule": "**although / even though + câu** (S + V). **despite / in spite of + danh từ hoặc V-ing** (không có câu).",
+      "formula": [
+        {
+          "text": "[Although] + S + V, …"
+        },
+        {
+          "text": "[Despite / In spite of] + danh từ / V-ing, …"
+        },
+        {
+          "text": "[Despite the fact that] + S + V, …"
+        }
+      ],
+      "body": [
+        "Người Việt hay viết *Despite it rained*. Sai, vì sau despite không có câu. Đổi thành *Despite the rain* hoặc *Although it rained*."
+      ],
+      "examples": [
+        {
+          "en": "[[Although]] it was late, we kept working.",
+          "vi": "Dù đã muộn, chúng tôi vẫn làm tiếp.",
+          "why": "Although + câu (it was late)."
+        },
+        {
+          "en": "[[Despite]] the traffic, we arrived on time.",
+          "vi": "Dù kẹt xe, chúng tôi vẫn đến đúng giờ.",
+          "why": "Despite + danh từ (the traffic)."
+        },
+        {
+          "en": "[[In spite of]] feeling sick, she went to work.",
+          "vi": "Dù thấy mệt, cô ấy vẫn đi làm.",
+          "why": "In spite of + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "___ the bad weather, the flight left on time.",
+        "options": [
+          "Despite",
+          "Although",
+          "However"
+        ],
+        "answer": 0,
+        "explain": "Theo sau là danh từ → Despite."
+      }
+    },
+    {
+      "part": "However",
+      "heading": "However: nối hai câu",
+      "rule": "**however** = tuy nhiên. Đứng **đầu câu thứ hai**, sau dấu chấm hoặc chấm phẩy, theo sau là **dấu phẩy**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The hotel was cheap. [[However]], it was very clean.",
+          "vi": "Khách sạn rẻ. Tuy nhiên, nó rất sạch.",
+          "why": "However mở đầu câu thứ hai."
+        },
+        {
+          "en": "I studied hard; [[however]], I failed the test.",
+          "vi": "Tôi học chăm; tuy nhiên tôi vẫn trượt.",
+          "why": "Sau dấu chấm phẩy."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "It was raining. However, we went out.",
+          "It was raining, however we went out."
+        ],
+        "answer": 0,
+        "explain": "However đầu câu mới, sau nó có dấu phẩy."
+      }
+    },
+    {
+      "part": "Mục đích",
+      "heading": "To, in order to, so that",
+      "rule": "Mục đích: **to / in order to + V**; hoặc **so that + S + can / could / will / would + V** (thường khi chủ ngữ khác nhau).",
+      "body": [
+        "*In order to* trang trọng hơn *to*. Phủ định: **so as not to + V** hoặc **so that… won't / wouldn't**."
+      ],
+      "examples": [
+        {
+          "en": "I'm saving money [[to buy]] a car.",
+          "vi": "Tôi đang tiết kiệm để mua ô tô.",
+          "why": "Mục đích → to + V."
+        },
+        {
+          "en": "She left early [[in order to]] catch the train.",
+          "vi": "Cô ấy đi sớm để kịp tàu.",
+          "why": "In order to + V."
+        },
+        {
+          "en": "I'll speak slowly [[so that]] everyone can understand.",
+          "vi": "Tôi sẽ nói chậm để mọi người hiểu được.",
+          "why": "Chủ ngữ khác (everyone) → so that + can."
+        }
+      ],
+      "check": {
+        "prompt": "He wrote it down ___ he wouldn't forget.",
+        "options": [
+          "so that",
+          "in order to",
+          "despite"
+        ],
+        "answer": 0,
+        "explain": "Theo sau là câu (he wouldn't forget) → so that."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Despite it rained, we went out.",
+      "right": "Although it rained, we went out.",
+      "why": "Sau despite không có câu → although (hoặc Despite the rain)."
+    },
+    {
+      "wrong": "Although the rain, we went out.",
+      "right": "Despite the rain, we went out.",
+      "why": "Danh từ → despite."
+    },
+    {
+      "wrong": "It was cheap, however it was good.",
+      "right": "It was cheap. However, it was good.",
+      "why": "However mở đầu câu mới."
+    },
+    {
+      "wrong": "I went to the shop for buy milk.",
+      "right": "I went to the shop to buy milk.",
+      "why": "Mục đích → to + V, không dùng for + V."
+    },
+    {
+      "wrong": "I study hard so that pass the exam.",
+      "right": "I study hard so that I can pass the exam.",
+      "why": "So that + chủ ngữ + can + V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ she was tired, she finished the report.",
+      "options": [
+        "Although",
+        "Despite",
+        "In spite of"
+      ],
+      "answer": 0,
+      "explain": "Theo sau là câu → Although."
+    },
+    {
+      "type": "choice",
+      "prompt": "In spite of ___ hard, he didn't pass.",
+      "options": [
+        "studying",
+        "he studied",
+        "study"
+      ],
+      "answer": 0,
+      "explain": "In spite of + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "I turned off my phone ___ I could concentrate.",
+      "options": [
+        "so that",
+        "in order to",
+        "despite"
+      ],
+      "answer": 0,
+      "explain": "Theo sau là câu → so that."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Despite the noise, I slept well.",
+        "Despite it was noisy, I slept well."
+      ],
+      "answer": 0,
+      "explain": "Despite + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "We went to the market ___ buy some fruit.",
+      "hint": "mục đích",
+      "answers": [
+        "to",
+        "in order to"
+      ],
+      "explain": "To / in order to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ the high price, the tickets sold out quickly.",
+      "hint": "dù",
+      "answers": [
+        "Despite",
+        "In spite of"
+      ],
+      "explain": "Despite / in spite of + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "The food was great. ___, the service was slow.",
+      "hint": "tuy nhiên",
+      "answers": [
+        "However"
+      ],
+      "explain": "However mở đầu câu."
+    },
+    {
+      "type": "fill",
+      "prompt": "She whispered so that the baby ___ wake up.",
+      "hint": "phủ định",
+      "answers": [
+        "wouldn't",
+        "would not",
+        "won't",
+        "will not"
+      ],
+      "explain": "So that + wouldn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ though he's rich, he lives simply.",
+      "hint": "dù",
+      "answers": [
+        "Even"
+      ],
+      "explain": "Even though + câu."
+    },
+    {
+      "type": "order",
+      "vi": "Dù trời mưa, trận đấu vẫn tiếp tục.",
+      "words": [
+        "Despite",
+        "the",
+        "rain",
+        "the",
+        "match",
+        "continued."
+      ],
+      "alternatives": [
+        "The match continued despite the rain."
+      ],
+      "explain": "Despite + danh từ."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi dậy sớm để tập thể dục.",
+      "words": [
+        "I",
+        "get",
+        "up",
+        "early",
+        "to",
+        "exercise."
+      ],
+      "explain": "To + V chỉ mục đích."
+    },
+    {
+      "type": "fix",
+      "sentence": "Despite he was ill, he went to school.",
+      "answers": [
+        "Although he was ill, he went to school."
+      ],
+      "explain": "Câu đầy đủ → although."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'm learning English for get a better job.",
+      "answers": [
+        "I'm learning English to get a better job."
+      ],
+      "explain": "Mục đích → to + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "However the test was hard, I passed.",
+      "answers": [
+        "Although the test was hard, I passed."
+      ],
+      "explain": "Nối hai vế trong một câu → although; however chỉ mở đầu câu mới."
+    },
+    {
+      "type": "translate",
+      "vi": "Dù rất mệt, cô ấy vẫn nấu bữa tối.",
+      "answers": [
+        "Although she was very tired, she still cooked dinner.",
+        "Although she was very tired, she cooked dinner.",
+        "Even though she was very tired, she still cooked dinner.",
+        "Even though she was very tired, she cooked dinner.",
+        "Despite being very tired, she still cooked dinner.",
+        "Despite being very tired, she cooked dinner.",
+        "In spite of being very tired, she still cooked dinner.",
+        "In spite of being very tired, she cooked dinner.",
+        "Despite feeling very tired, she cooked dinner."
+      ],
+      "explain": "Although + câu / despite + V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi tiết kiệm tiền để đi du lịch Nhật Bản.",
+      "answers": [
+        "I'm saving money to travel to Japan.",
+        "I am saving money to travel to Japan.",
+        "I'm saving money in order to travel to Japan.",
+        "I save money to travel to Japan.",
+        "I'm saving money to go to Japan.",
+        "I am saving money to go to Japan.",
+        "I'm saving up to travel to Japan.",
+        "I'm saving money for a trip to Japan."
+      ],
+      "explain": "To + V chỉ mục đích."
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "id": "comparison-more",
+  "level": "B1",
+  "title": "The more … the more, much better, a bit",
+  "summary": "So sánh nâng cao: mức độ chênh lệch (much, far, a bit), càng … càng, ngày càng, và not as … as.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Your English is getting [[better and better]]!",
+      "vi": "Tiếng Anh của bạn ngày càng tiến bộ!"
+    },
+    {
+      "who": "B",
+      "en": "Thanks. [[The more]] I practice, [[the more]] confident I feel.",
+      "vi": "Cảm ơn. Càng luyện mình càng tự tin."
+    },
+    {
+      "who": "A",
+      "en": "Is it [[much harder]] than Japanese?",
+      "vi": "Nó có khó hơn tiếng Nhật nhiều không?"
+    },
+    {
+      "who": "B",
+      "en": "No, Japanese is [[far more difficult]].",
+      "vi": "Không, tiếng Nhật khó hơn nhiều."
+    },
+    {
+      "who": "A",
+      "en": "And the new course?",
+      "vi": "Còn khóa học mới?"
+    },
+    {
+      "who": "B",
+      "en": "It's [[a bit more expensive]], but it's [[much better]].",
+      "vi": "Đắt hơn một chút nhưng tốt hơn nhiều."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Mức chênh lệch",
+      "heading": "Much, far, a lot, a bit + so sánh hơn",
+      "rule": "Chênh **nhiều**: **much / far / a lot** + so sánh hơn. Chênh **ít**: **a bit / a little / slightly** + so sánh hơn.",
+      "body": [
+        "Không dùng **very** trước so sánh hơn. *Far* nhấn mạnh hơn *much*."
+      ],
+      "examples": [
+        {
+          "en": "The new phone is [[much faster]].",
+          "vi": "Điện thoại mới nhanh hơn nhiều.",
+          "why": "Chênh nhiều → much + faster."
+        },
+        {
+          "en": "Living in Hanoi is [[far more expensive]] now.",
+          "vi": "Giờ sống ở Hà Nội đắt hơn nhiều.",
+          "why": "Far nhấn mạnh hơn much."
+        },
+        {
+          "en": "Can you speak [[a bit more slowly]]?",
+          "vi": "Bạn nói chậm hơn một chút được không?",
+          "why": "Chênh ít → a bit + more slowly."
+        }
+      ],
+      "check": {
+        "prompt": "This hotel is ___ better than the last one.",
+        "options": [
+          "much",
+          "very",
+          "more"
+        ],
+        "answer": 0,
+        "explain": "Không dùng very trước so sánh hơn → much."
+      }
+    },
+    {
+      "part": "Càng … càng",
+      "heading": "The + so sánh hơn, the + so sánh hơn",
+      "rule": "**The + so sánh hơn…, the + so sánh hơn…** = **càng… càng…**",
+      "formula": [
+        {
+          "text": "[The] + so sánh hơn + S + V, [the] + so sánh hơn + S + V"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[The more]] you read, [[the more]] you learn.",
+          "vi": "Càng đọc nhiều, bạn càng học được nhiều.",
+          "why": "The more…, the more…"
+        },
+        {
+          "en": "[[The sooner]] we leave, [[the better]].",
+          "vi": "Đi càng sớm càng tốt.",
+          "why": "Có thể rút gọn vế sau: the better."
+        },
+        {
+          "en": "[[The older]] I get, [[the less]] I sleep.",
+          "vi": "Càng lớn tuổi tôi càng ngủ ít.",
+          "why": "Less cũng dùng được."
+        }
+      ],
+      "check": {
+        "prompt": "The harder you work, ___ you'll be.",
+        "options": [
+          "the more successful",
+          "more successful",
+          "the most successful"
+        ],
+        "answer": 0,
+        "explain": "Càng … càng → the + so sánh hơn."
+      }
+    },
+    {
+      "part": "Ngày càng",
+      "heading": "Ngày càng: so sánh hơn + and + so sánh hơn",
+      "rule": "**Ngày càng**: **adj-er and adj-er** (bigger and bigger) hoặc **more and more + adj** (more and more expensive).",
+      "body": [],
+      "examples": [
+        {
+          "en": "The city is getting [[bigger and bigger]].",
+          "vi": "Thành phố ngày càng lớn.",
+          "why": "Tính từ ngắn → bigger and bigger."
+        },
+        {
+          "en": "Phones are becoming [[more and more]] expensive.",
+          "vi": "Điện thoại ngày càng đắt.",
+          "why": "Tính từ dài → more and more + adj."
+        }
+      ],
+      "check": {
+        "prompt": "The traffic is getting ___.",
+        "options": [
+          "worse and worse",
+          "more and more bad",
+          "badder and badder"
+        ],
+        "answer": 0,
+        "explain": "Bad → worse and worse."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "This is very better.",
+      "right": "This is much better.",
+      "why": "Không dùng very trước so sánh hơn."
+    },
+    {
+      "wrong": "More you practice, more you improve.",
+      "right": "The more you practice, the more you improve.",
+      "why": "Càng … càng cần the."
+    },
+    {
+      "wrong": "It's getting more and more hot.",
+      "right": "It's getting hotter and hotter.",
+      "why": "Tính từ ngắn → hotter and hotter."
+    },
+    {
+      "wrong": "The more I sleep, I feel more tired.",
+      "right": "The more I sleep, the more tired I feel.",
+      "why": "Hai vế đều bắt đầu bằng the + so sánh hơn."
+    },
+    {
+      "wrong": "My new job is a bit more better.",
+      "right": "My new job is a bit better.",
+      "why": "Không dùng more với better."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The train is ___ faster than the bus.",
+      "options": [
+        "much",
+        "very",
+        "more"
+      ],
+      "answer": 0,
+      "explain": "Much + so sánh hơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you start, the sooner you'll finish.",
+      "options": [
+        "The earlier",
+        "Earlier",
+        "The earliest"
+      ],
+      "answer": 0,
+      "explain": "Càng … càng → the earlier."
+    },
+    {
+      "type": "choice",
+      "prompt": "Prices are going up ___.",
+      "options": [
+        "more and more",
+        "most and most",
+        "much and much"
+      ],
+      "answer": 0,
+      "explain": "Ngày càng → more and more."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "It's a little cheaper.",
+        "It's a little more cheaper.",
+        "It's very cheaper."
+      ],
+      "answer": 0,
+      "explain": "A little + so sánh hơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "The more I know him, ___ more I like him.",
+      "hint": "the",
+      "answers": [
+        "the"
+      ],
+      "explain": "Càng … càng: the more."
+    },
+    {
+      "type": "fill",
+      "prompt": "My English is getting ___ and better.",
+      "hint": "good",
+      "answers": [
+        "better"
+      ],
+      "explain": "Ngày càng: better and better."
+    },
+    {
+      "type": "fill",
+      "prompt": "This exam was ___ easier than I expected.",
+      "hint": "nhiều",
+      "answers": [
+        "much",
+        "far",
+        "a lot"
+      ],
+      "explain": "Chênh nhiều → much / far / a lot."
+    },
+    {
+      "type": "fill",
+      "prompt": "Could you make it a ___ shorter?",
+      "hint": "ít",
+      "answers": [
+        "bit",
+        "little"
+      ],
+      "explain": "A bit / a little."
+    },
+    {
+      "type": "fill",
+      "prompt": "The weather is getting ___ and colder.",
+      "hint": "cold",
+      "answers": [
+        "colder"
+      ],
+      "explain": "Ngày càng: colder and colder."
+    },
+    {
+      "type": "order",
+      "vi": "Càng sớm càng tốt.",
+      "words": [
+        "The",
+        "sooner",
+        "the",
+        "better."
+      ],
+      "explain": "The + so sánh hơn, the + so sánh hơn."
+    },
+    {
+      "type": "order",
+      "vi": "Cuộc sống ở thành phố ngày càng đắt đỏ.",
+      "words": [
+        "Life",
+        "in",
+        "the",
+        "city",
+        "is",
+        "getting",
+        "more",
+        "and",
+        "more",
+        "expensive."
+      ],
+      "explain": "More and more + adj."
+    },
+    {
+      "type": "fix",
+      "sentence": "Her new flat is very bigger than her old one.",
+      "answers": [
+        "Her new flat is much bigger than her old one."
+      ],
+      "explain": "Much + so sánh hơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "The more you eat, more weight you gain.",
+      "answers": [
+        "The more you eat, the more weight you gain."
+      ],
+      "explain": "Vế sau cũng cần the."
+    },
+    {
+      "type": "fix",
+      "sentence": "The roads are getting more and more busy.",
+      "answers": [
+        "The roads are getting busier and busier."
+      ],
+      "explain": "Busy → busier and busier."
+    },
+    {
+      "type": "translate",
+      "vi": "Càng học nhiều, bạn càng biết nhiều.",
+      "answers": [
+        "The more you study, the more you know.",
+        "The more you learn, the more you know.",
+        "The more you study, the more you learn."
+      ],
+      "explain": "The more…, the more…"
+    },
+    {
+      "type": "translate",
+      "vi": "Chiếc xe này đắt hơn nhiều.",
+      "answers": [
+        "This car is much more expensive.",
+        "This car is far more expensive.",
+        "This car is a lot more expensive."
+      ],
+      "explain": "Much / far / a lot + so sánh hơn."
+    }
+  ]
+}

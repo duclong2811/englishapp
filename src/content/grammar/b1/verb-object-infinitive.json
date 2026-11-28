@@ -1,0 +1,362 @@
+{
+  "id": "verb-object-infinitive",
+  "level": "B1",
+  "title": "Want someone to, make, let",
+  "summary": "Muốn, nhờ, bắt, cho phép ai làm gì: want/ask/expect + người + to V; make/let + người + V nguyên mẫu.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "My boss [[wants me to work]] this Saturday.",
+      "vi": "Sếp muốn mình làm thứ Bảy này."
+    },
+    {
+      "who": "B",
+      "en": "Again? He [[made you stay]] late last week too.",
+      "vi": "Lại nữa à? Tuần trước sếp cũng bắt bạn ở lại muộn mà."
+    },
+    {
+      "who": "A",
+      "en": "I know. I [[asked him to give]] me a day off next week.",
+      "vi": "Biết thế. Mình đã xin sếp cho nghỉ một ngày tuần sau."
+    },
+    {
+      "who": "B",
+      "en": "Did he agree?",
+      "vi": "Sếp có đồng ý không?"
+    },
+    {
+      "who": "A",
+      "en": "He [[let me choose]] the day.",
+      "vi": "Sếp cho mình tự chọn ngày."
+    },
+    {
+      "who": "B",
+      "en": "Good. Don't [[let him make]] you work every weekend!",
+      "vi": "Tốt. Đừng để sếp bắt bạn làm mọi cuối tuần nhé!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Người + to V",
+      "heading": "Want, ask, expect, would like + người + to V",
+      "rule": "**want / would like / ask / expect / need / help + người + to V** = muốn, nhờ, mong ai làm gì.",
+      "formula": [
+        {
+          "text": "S + [want] + người + [to V]"
+        }
+      ],
+      "body": [
+        "Tiếng Việt nói *muốn anh ấy đến*; tiếng Anh không dùng mệnh đề *that* sau want: không nói *I want that he comes*, mà nói *I want him to come*.",
+        "Người ở đây dùng **tân ngữ**: me, him, her, us, them."
+      ],
+      "examples": [
+        {
+          "en": "I [[want you to meet]] my parents.",
+          "vi": "Anh muốn em gặp bố mẹ anh.",
+          "why": "Want + you + to meet."
+        },
+        {
+          "en": "My parents [[expect me to study]] medicine.",
+          "vi": "Bố mẹ mong tôi học y.",
+          "why": "Expect + me + to V."
+        },
+        {
+          "en": "Would you [[like me to help]]?",
+          "vi": "Bạn có muốn tôi giúp không?",
+          "why": "Would like + me + to V."
+        }
+      ],
+      "check": {
+        "prompt": "My mother wants ___ home early.",
+        "options": [
+          "me to come",
+          "that I come",
+          "I come"
+        ],
+        "answer": 0,
+        "explain": "Want + me + to V."
+      }
+    },
+    {
+      "part": "Make, let",
+      "heading": "Make, let + người + V nguyên mẫu",
+      "rule": "**make + người + V** = **bắt** ai làm. **let + người + V** = **cho phép, để** ai làm. Không có **to**.",
+      "body": [
+        "**allow** cùng nghĩa với let nhưng dùng **to**: *They allowed us to leave.* Make cũng có nghĩa *khiến*: *Sad films make me cry.*"
+      ],
+      "table": {
+        "head": [
+          "Động từ",
+          "Nghĩa",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "make",
+            "bắt, khiến",
+            "My mum made me clean my room."
+          ],
+          [
+            "let",
+            "cho phép, để",
+            "My dad let me drive his car."
+          ],
+          [
+            "help",
+            "giúp (to có thể bỏ)",
+            "She helped me (to) carry the bags."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The teacher [[made us rewrite]] the essay.",
+          "vi": "Cô giáo bắt chúng tôi viết lại bài luận.",
+          "why": "Make + us + V (không có to)."
+        },
+        {
+          "en": "My parents [[let me go]] to the concert.",
+          "vi": "Bố mẹ cho tôi đi xem ca nhạc.",
+          "why": "Let + me + V."
+        },
+        {
+          "en": "This song always [[makes me cry]].",
+          "vi": "Bài hát này lần nào cũng làm tôi khóc.",
+          "why": "Make = khiến."
+        }
+      ],
+      "check": {
+        "prompt": "My boss let me ___ home early.",
+        "options": [
+          "go",
+          "to go",
+          "going"
+        ],
+        "answer": 0,
+        "explain": "Let + người + V (không có to)."
+      }
+    },
+    {
+      "part": "Bị động",
+      "heading": "Be made to, be allowed to",
+      "rule": "Ở bị động, make **có to**: **be made to V**. Let không dùng bị động, thay bằng **be allowed to V**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "We [[were made to wait]] for two hours.",
+          "vi": "Chúng tôi bị bắt đợi hai tiếng.",
+          "why": "Bị động của make → were made + to V."
+        },
+        {
+          "en": "Students [[are allowed to use]] dictionaries.",
+          "vi": "Học sinh được phép dùng từ điển.",
+          "why": "Thay cho let → are allowed + to V."
+        }
+      ],
+      "check": {
+        "prompt": "Children are not ___ to swim here alone.",
+        "options": [
+          "allowed",
+          "let",
+          "made"
+        ],
+        "answer": 0,
+        "explain": "Bị động của let → allowed."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I want that you help me.",
+      "right": "I want you to help me.",
+      "why": "Want + người + to V."
+    },
+    {
+      "wrong": "My mom made me to clean my room.",
+      "right": "My mom made me clean my room.",
+      "why": "Make + người + V (không có to)."
+    },
+    {
+      "wrong": "My dad let me to use his car.",
+      "right": "My dad let me use his car.",
+      "why": "Let + người + V."
+    },
+    {
+      "wrong": "She asked me help her.",
+      "right": "She asked me to help her.",
+      "why": "Ask + người + to V."
+    },
+    {
+      "wrong": "We were let to leave early.",
+      "right": "We were allowed to leave early.",
+      "why": "Bị động: be allowed to."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I'd like you ___ this report by Friday.",
+      "options": [
+        "to finish",
+        "finish",
+        "finishing"
+      ],
+      "answer": 0,
+      "explain": "Would like + người + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "The film made me ___.",
+      "options": [
+        "laugh",
+        "to laugh",
+        "laughing"
+      ],
+      "answer": 0,
+      "explain": "Make + người + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "My parents didn't let me ___ out late.",
+      "options": [
+        "stay",
+        "to stay",
+        "staying"
+      ],
+      "answer": 0,
+      "explain": "Let + người + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "They made us to wait.",
+        "We were made to wait.",
+        "We were made wait."
+      ],
+      "answer": 1,
+      "explain": "Bị động: be made + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "The doctor wants me ___ more water.",
+      "hint": "drink",
+      "answers": [
+        "to drink"
+      ],
+      "explain": "Want + me + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "Our teacher made us ___ the words ten times.",
+      "hint": "write",
+      "answers": [
+        "write"
+      ],
+      "explain": "Make + us + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "Could you help me ___ this table?",
+      "hint": "move",
+      "answers": [
+        "move",
+        "to move"
+      ],
+      "explain": "Help + người + (to) V."
+    },
+    {
+      "type": "fill",
+      "prompt": "We aren't ___ to take photos in the museum.",
+      "hint": "cho phép",
+      "answers": [
+        "allowed"
+      ],
+      "explain": "Be allowed to."
+    },
+    {
+      "type": "fill",
+      "prompt": "I expect you ___ on time tomorrow.",
+      "hint": "be",
+      "answers": [
+        "to be"
+      ],
+      "explain": "Expect + you + to V."
+    },
+    {
+      "type": "order",
+      "vi": "Mẹ tôi bắt tôi ăn rau.",
+      "words": [
+        "My",
+        "mother",
+        "made",
+        "me",
+        "eat",
+        "vegetables."
+      ],
+      "explain": "Make + người + V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi muốn anh ấy gọi lại cho tôi.",
+      "words": [
+        "I",
+        "want",
+        "him",
+        "to",
+        "call",
+        "me",
+        "back."
+      ],
+      "explain": "Want + him + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "My boss let me to leave at four.",
+      "answers": [
+        "My boss let me leave at four."
+      ],
+      "explain": "Let + người + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "Do you want that I come with you?",
+      "answers": [
+        "Do you want me to come with you?"
+      ],
+      "explain": "Want + người + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "The police made him to stop the car.",
+      "answers": [
+        "The police made him stop the car."
+      ],
+      "explain": "Make + người + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Bố mẹ cho tôi đi du lịch một mình.",
+      "answers": [
+        "My parents let me travel alone.",
+        "My parents let me travel by myself.",
+        "My parents allowed me to travel alone.",
+        "My parents allowed me to travel by myself.",
+        "My parents let me go traveling alone.",
+        "My parents let me go on a trip alone."
+      ],
+      "explain": "Let + người + V / allow + người + to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Sếp muốn tôi làm thêm giờ.",
+      "answers": [
+        "My boss wants me to work overtime.",
+        "My boss wants me to work extra hours.",
+        "My boss wants me to do overtime.",
+        "The boss wants me to work overtime."
+      ],
+      "explain": "Want + me + to V."
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "id": "gerund-infinitive-meaning",
+  "level": "B1",
+  "title": "Stop, remember, try + V-ing hay to V",
+  "summary": "Những động từ đổi nghĩa khi đi với V-ing hoặc to V: stop, remember, forget, try, regret.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Did you [[remember to buy]] milk?",
+      "vi": "Bạn có nhớ mua sữa không?"
+    },
+    {
+      "who": "B",
+      "en": "Oh no, I forgot! I [[remember putting]] it on my list, though.",
+      "vi": "Chết, mình quên mất! Mình nhớ là đã ghi vào danh sách rồi mà."
+    },
+    {
+      "who": "A",
+      "en": "Never mind. Did you [[stop smoking]]?",
+      "vi": "Không sao. Bạn bỏ thuốc chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Yes! Last month. I [[tried using]] nicotine gum.",
+      "vi": "Rồi! Tháng trước. Mình thử dùng kẹo cao su nicotine."
+    },
+    {
+      "who": "A",
+      "en": "Well done. I'll never [[forget seeing]] you smoke at our wedding!",
+      "vi": "Giỏi quá. Mình sẽ không bao giờ quên cảnh bạn hút thuốc ở đám cưới tụi mình!"
+    },
+    {
+      "who": "B",
+      "en": "I [[stopped to have]] a cigarette every hour back then.",
+      "vi": "Hồi đó cứ mỗi tiếng mình lại dừng lại để hút một điếu."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Stop",
+      "heading": "Stop + V-ing hay stop + to V",
+      "rule": "**stop + V-ing** = **thôi, bỏ** làm việc đó. **stop + to V** = **dừng lại để** làm việc khác.",
+      "body": [],
+      "examples": [
+        {
+          "en": "He [[stopped smoking]] last year.",
+          "vi": "Anh ấy bỏ thuốc từ năm ngoái.",
+          "why": "Thôi không hút nữa → stop + V-ing."
+        },
+        {
+          "en": "We [[stopped to buy]] some water.",
+          "vi": "Chúng tôi dừng lại để mua nước.",
+          "why": "Dừng việc đang làm để mua nước → stop + to V."
+        }
+      ],
+      "check": {
+        "prompt": "I was tired, so I stopped ___ a rest.",
+        "options": [
+          "to have",
+          "having"
+        ],
+        "answer": 0,
+        "explain": "Dừng lại để nghỉ → stop + to V."
+      }
+    },
+    {
+      "part": "Remember, forget",
+      "heading": "Remember, forget + V-ing hay to V",
+      "rule": "**remember / forget + to V** = nhớ / quên **việc cần làm**. **remember / forget + V-ing** = nhớ / quên **việc đã làm**.",
+      "body": [],
+      "table": {
+        "head": [
+          "Cấu trúc",
+          "Nghĩa",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "remember to V",
+            "nhớ phải làm (chưa làm)",
+            "Remember to lock the door."
+          ],
+          [
+            "remember V-ing",
+            "nhớ đã làm (rồi)",
+            "I remember locking the door."
+          ],
+          [
+            "forget to V",
+            "quên làm",
+            "I forgot to call her."
+          ],
+          [
+            "never forget V-ing",
+            "không quên việc đã trải qua",
+            "I'll never forget meeting you."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Please [[remember to send]] the email.",
+          "vi": "Nhớ gửi email nhé.",
+          "why": "Việc cần làm → remember + to V."
+        },
+        {
+          "en": "I [[remember meeting]] her at a party.",
+          "vi": "Tôi nhớ là đã gặp cô ấy ở một bữa tiệc.",
+          "why": "Việc đã xảy ra → remember + V-ing."
+        },
+        {
+          "en": "I [[forgot to turn]] off the lights.",
+          "vi": "Tôi quên tắt đèn.",
+          "why": "Quên việc cần làm → forget + to V."
+        }
+      ],
+      "check": {
+        "prompt": "Don't forget ___ your passport.",
+        "options": [
+          "to bring",
+          "bringing"
+        ],
+        "answer": 0,
+        "explain": "Việc cần làm → forget + to V."
+      }
+    },
+    {
+      "part": "Try, regret",
+      "heading": "Try, regret + V-ing hay to V",
+      "rule": "**try + to V** = **cố gắng** (khó). **try + V-ing** = **thử** một cách xem có hiệu quả không. **regret + V-ing** = tiếc đã làm.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[tried to open]] the jar, but it was too tight.",
+          "vi": "Tôi cố mở lọ nhưng chặt quá.",
+          "why": "Cố gắng → try + to V."
+        },
+        {
+          "en": "If you can't sleep, [[try drinking]] warm milk.",
+          "vi": "Nếu không ngủ được, thử uống sữa ấm xem.",
+          "why": "Thử một cách → try + V-ing."
+        },
+        {
+          "en": "I [[regret buying]] this phone.",
+          "vi": "Tôi hối hận vì đã mua cái điện thoại này.",
+          "why": "Tiếc việc đã làm → regret + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "The room is hot. Try ___ the window.",
+        "options": [
+          "opening",
+          "to open"
+        ],
+        "answer": 0,
+        "explain": "Thử một cách xem có đỡ nóng không → try + V-ing."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I stopped to smoke two years ago.",
+      "right": "I stopped smoking two years ago.",
+      "why": "Bỏ thuốc → stop + V-ing."
+    },
+    {
+      "wrong": "Remember locking the door when you leave.",
+      "right": "Remember to lock the door when you leave.",
+      "why": "Việc cần làm → remember + to V."
+    },
+    {
+      "wrong": "I forgot sending the email, so I sent it now.",
+      "right": "I forgot to send the email, so I sent it now.",
+      "why": "Quên việc cần làm → forget + to V."
+    },
+    {
+      "wrong": "I remember to meet him in 2019.",
+      "right": "I remember meeting him in 2019.",
+      "why": "Nhớ việc đã xảy ra → remember + V-ing."
+    },
+    {
+      "wrong": "I regret to tell her my secret yesterday.",
+      "right": "I regret telling her my secret yesterday.",
+      "why": "Tiếc việc đã làm → regret + V-ing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "My dad stopped ___ coffee because of his heart.",
+      "options": [
+        "drinking",
+        "to drink",
+        "drink"
+      ],
+      "answer": 0,
+      "explain": "Bỏ uống → stop + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Did you remember ___ the bills?",
+      "options": [
+        "to pay",
+        "paying",
+        "pay"
+      ],
+      "answer": 0,
+      "explain": "Việc cần làm → remember + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'll never forget ___ the sea for the first time.",
+      "options": [
+        "seeing",
+        "to see",
+        "see"
+      ],
+      "answer": 0,
+      "explain": "Trải nghiệm đã qua → forget + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là dừng xe để chụp ảnh?",
+      "options": [
+        "We stopped taking photos.",
+        "We stopped to take photos."
+      ],
+      "answer": 1,
+      "explain": "Stop + to V = dừng lại để."
+    },
+    {
+      "type": "fill",
+      "prompt": "I tried ___ the box, but it was too heavy.",
+      "hint": "lift",
+      "answers": [
+        "to lift"
+      ],
+      "explain": "Cố gắng → try + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "I remember ___ this film when I was a kid.",
+      "hint": "watch",
+      "answers": [
+        "watching"
+      ],
+      "explain": "Việc đã làm → remember + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Please don't forget ___ the windows before you go out.",
+      "hint": "close",
+      "answers": [
+        "to close"
+      ],
+      "explain": "Việc cần làm → forget + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "If your laptop is slow, try ___ it.",
+      "hint": "restart",
+      "answers": [
+        "restarting"
+      ],
+      "explain": "Thử một cách → try + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "She regrets ___ her job.",
+      "hint": "leave",
+      "answers": [
+        "leaving"
+      ],
+      "explain": "Tiếc việc đã làm → regret + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Nhớ gọi cho mẹ tối nay nhé.",
+      "words": [
+        "Remember",
+        "to",
+        "call",
+        "your",
+        "mother",
+        "tonight."
+      ],
+      "explain": "Remember + to V."
+    },
+    {
+      "type": "order",
+      "vi": "Anh ấy đã bỏ ăn đồ ngọt.",
+      "words": [
+        "He",
+        "has",
+        "stopped",
+        "eating",
+        "sweets."
+      ],
+      "explain": "Stop + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "I forgot to buy bread yesterday, and I forgot buying milk too.",
+      "answers": [
+        "I forgot to buy bread yesterday, and I forgot to buy milk too."
+      ],
+      "explain": "Quên việc cần làm → forget + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "Try to drink some tea with honey for your cough.",
+      "answers": [
+        "Try drinking some tea with honey for your cough."
+      ],
+      "explain": "Gợi ý thử một cách → try + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "We stopped to talk when the teacher came in.",
+      "answers": [
+        "We stopped talking when the teacher came in."
+      ],
+      "explain": "Thôi nói chuyện → stop + V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi nhớ đã khóa cửa rồi.",
+      "answers": [
+        "I remember locking the door.",
+        "I remember that I locked the door."
+      ],
+      "explain": "Việc đã làm → remember + V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Đừng quên mang ô nhé.",
+      "answers": [
+        "Don't forget to bring an umbrella.",
+        "Don't forget to bring your umbrella.",
+        "Don't forget to take an umbrella.",
+        "Don't forget to take your umbrella.",
+        "Don't forget your umbrella."
+      ],
+      "explain": "Việc cần làm → forget + to V."
+    }
+  ]
+}
