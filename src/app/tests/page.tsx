@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeading } from "@/components/empty-state";
+import { ReviewSwitch } from "@/components/review-switch";
 import { TestsOverview } from "@/components/tests/tests-overview";
 import { GRAMMAR_LEVELS } from "@/content/grammar/syllabus";
 import { TEST_LEVELS } from "@/lib/tests/build-bank";
@@ -16,6 +17,7 @@ export default async function TestsPage() {
   }));
   return (
     <>
+      <ReviewSwitch current="tests" />
       <PageHeading
         title="Kiểm tra"
         intro="Đề rút ngẫu nhiên từ kho câu hỏi của từng cấp, mỗi lần một đề mới. Làm xong biết ngay mình yếu phần nào."

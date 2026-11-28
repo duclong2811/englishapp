@@ -21,7 +21,7 @@ export default async function SpeakingPage() {
         title="Luyện nói"
         intro="Mỗi chủ đề từ vựng có một bài nói: luyện theo kịch bản dùng gần hết từ của chủ đề, rồi nhập vai với AI. Muốn nói gì thì vào Nói tự do."
       />
-      <div className="lg:grid lg:grid-cols-[minmax(0,40rem)_minmax(16rem,22rem)] lg:gap-12">
+      <div className="lg:grid lg:grid-cols-[minmax(0,2fr)_minmax(16rem,1fr)] lg:gap-10">
         <div>
           <Link
             href="/speaking/free"
