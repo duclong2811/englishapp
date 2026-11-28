@@ -1,0 +1,332 @@
+{
+  "id": "unless-in-case",
+  "level": "B1",
+  "title": "Unless, as long as, in case",
+  "summary": "Nối điều kiện bằng unless (trừ khi), as long as (miễn là), in case (phòng khi) và provided that.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Can I borrow your motorbike tomorrow?",
+      "vi": "Mai mình mượn xe máy của bạn được không?"
+    },
+    {
+      "who": "B",
+      "en": "Sure, [[as long as]] you bring it back by six.",
+      "vi": "Được, miễn là bạn trả trước sáu giờ."
+    },
+    {
+      "who": "A",
+      "en": "Of course. Should I bring a raincoat?",
+      "vi": "Tất nhiên. Mình có nên mang áo mưa không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, take one [[in case]] it rains.",
+      "vi": "Có, mang theo phòng khi trời mưa."
+    },
+    {
+      "who": "A",
+      "en": "And the helmet?",
+      "vi": "Còn mũ bảo hiểm?"
+    },
+    {
+      "who": "B",
+      "en": "It's under the seat. Don't ride [[unless]] you wear it!",
+      "vi": "Ở dưới yên xe. Đừng chạy nếu không đội nhé!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Unless",
+      "heading": "Unless = if… not",
+      "rule": "**unless** = **if… not** (trừ khi, nếu không). Sau unless dùng câu **khẳng định**.",
+      "body": [
+        "Bạn đã gặp unless ở A2 với câu điều kiện loại 1. Ở B1, unless còn dùng với các thì khác và trong lời cảnh báo."
+      ],
+      "examples": [
+        {
+          "en": "I won't call you [[unless]] there's a problem.",
+          "vi": "Tôi sẽ không gọi bạn trừ khi có chuyện.",
+          "why": "Unless there's = if there isn't."
+        },
+        {
+          "en": "[[Unless]] you hurry, you'll be late.",
+          "vi": "Không nhanh lên thì bạn sẽ muộn.",
+          "why": "Lời cảnh báo với unless."
+        },
+        {
+          "en": "We usually eat at home [[unless]] we're too tired to cook.",
+          "vi": "Chúng tôi thường ăn ở nhà, trừ khi mệt quá không nấu nổi.",
+          "why": "Unless với thói quen (hiện tại đơn)."
+        }
+      ],
+      "check": {
+        "prompt": "Don't call me ___ it's urgent.",
+        "options": [
+          "unless",
+          "if",
+          "in case"
+        ],
+        "answer": 0,
+        "explain": "Đừng gọi trừ khi có việc gấp → unless."
+      }
+    },
+    {
+      "part": "As long as",
+      "heading": "As long as, provided that: miễn là",
+      "rule": "**as long as / provided (that)** = **miễn là, với điều kiện là**: đặt ra điều kiện bắt buộc.",
+      "body": [],
+      "examples": [
+        {
+          "en": "You can go out [[as long as]] you finish your homework.",
+          "vi": "Con được đi chơi miễn là làm xong bài tập.",
+          "why": "Điều kiện bắt buộc: làm xong bài."
+        },
+        {
+          "en": "[[Provided that]] the weather is good, the flight will leave on time.",
+          "vi": "Với điều kiện thời tiết tốt, chuyến bay sẽ cất cánh đúng giờ.",
+          "why": "Provided that trang trọng hơn as long as."
+        }
+      ],
+      "check": {
+        "prompt": "You can use my laptop ___ you're careful with it.",
+        "options": [
+          "as long as",
+          "in case",
+          "unless"
+        ],
+        "answer": 0,
+        "explain": "Miễn là cẩn thận → as long as."
+      }
+    },
+    {
+      "part": "In case",
+      "heading": "In case: phòng khi",
+      "rule": "**in case** = **phòng khi**: làm gì đó **trước** để chuẩn bị cho một việc **có thể** xảy ra. Khác với **if**.",
+      "body": [
+        "*Take an umbrella if it rains* = mưa thì mang ô (chờ mưa rồi mới mang). *Take an umbrella in case it rains* = mang ô theo **ngay bây giờ**, phòng khi mưa.",
+        "Sau in case không dùng will: *in case it rains*, không nói *in case it will rain*."
+      ],
+      "examples": [
+        {
+          "en": "Take some cash [[in case]] the card machine doesn't work.",
+          "vi": "Mang ít tiền mặt phòng khi máy quẹt thẻ hỏng.",
+          "why": "Chuẩn bị trước cho việc có thể xảy ra."
+        },
+        {
+          "en": "I wrote down her address [[in case]] I forgot it.",
+          "vi": "Tôi ghi lại địa chỉ của cô ấy phòng khi quên.",
+          "why": "In case với quá khứ."
+        }
+      ],
+      "check": {
+        "prompt": "Save your work ___ the computer crashes.",
+        "options": [
+          "in case",
+          "unless",
+          "as long as"
+        ],
+        "answer": 0,
+        "explain": "Phòng khi máy hỏng → in case."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Unless you don't study, you'll fail.",
+      "right": "Unless you study, you'll fail.",
+      "why": "Unless đã mang nghĩa phủ định."
+    },
+    {
+      "wrong": "Take a jacket in case it will be cold.",
+      "right": "Take a jacket in case it is cold.",
+      "why": "Sau in case → hiện tại đơn."
+    },
+    {
+      "wrong": "I'll lend you money as long as you will pay me back.",
+      "right": "I'll lend you money as long as you pay me back.",
+      "why": "Sau as long as → hiện tại đơn."
+    },
+    {
+      "wrong": "Bring water if you get thirsty on the way.",
+      "right": "Bring water in case you get thirsty on the way.",
+      "why": "Chuẩn bị trước → in case."
+    },
+    {
+      "wrong": "You can stay unless you are quiet.",
+      "right": "You can stay as long as you are quiet.",
+      "why": "Miễn là → as long as."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I'll come to the party ___ I have to work late.",
+      "options": [
+        "unless",
+        "as long as",
+        "in case"
+      ],
+      "answer": 0,
+      "explain": "Trừ khi phải làm muộn → unless."
+    },
+    {
+      "type": "choice",
+      "prompt": "Take your phone ___ you get lost.",
+      "options": [
+        "in case",
+        "unless",
+        "as long as"
+      ],
+      "answer": 0,
+      "explain": "Phòng khi lạc → in case."
+    },
+    {
+      "type": "choice",
+      "prompt": "You can borrow my car ___ you drive carefully.",
+      "options": [
+        "as long as",
+        "unless",
+        "in case"
+      ],
+      "answer": 0,
+      "explain": "Miễn là → as long as."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là mang ô theo ngay bây giờ?",
+      "options": [
+        "Take an umbrella if it rains.",
+        "Take an umbrella in case it rains."
+      ],
+      "answer": 1,
+      "explain": "In case = chuẩn bị trước."
+    },
+    {
+      "type": "fill",
+      "prompt": "We'll miss the train ___ we leave now.",
+      "hint": "trừ khi",
+      "answers": [
+        "unless"
+      ],
+      "explain": "Unless = if not."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'll give you my number in case you ___ help.",
+      "hint": "need",
+      "answers": [
+        "need"
+      ],
+      "explain": "Sau in case → hiện tại đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "The children can play outside ___ long as they stay in the garden.",
+      "hint": "miễn là",
+      "answers": [
+        "as"
+      ],
+      "explain": "As long as."
+    },
+    {
+      "type": "fill",
+      "prompt": "Unless it ___, we'll have the party in the garden.",
+      "hint": "rain",
+      "answers": [
+        "rains"
+      ],
+      "explain": "Sau unless → hiện tại đơn, it → rains."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ that you pay by Friday, the room is yours.",
+      "hint": "với điều kiện",
+      "answers": [
+        "Provided"
+      ],
+      "explain": "Provided that = miễn là."
+    },
+    {
+      "type": "order",
+      "vi": "Mang áo khoác theo phòng khi trời lạnh.",
+      "words": [
+        "Take",
+        "a",
+        "jacket",
+        "in",
+        "case",
+        "it",
+        "gets",
+        "cold."
+      ],
+      "explain": "In case + hiện tại đơn."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi sẽ không đi trừ khi bạn đi cùng.",
+      "words": [
+        "I",
+        "will",
+        "not",
+        "go",
+        "unless",
+        "you",
+        "come",
+        "with",
+        "me."
+      ],
+      "explain": "Unless + khẳng định."
+    },
+    {
+      "type": "fix",
+      "sentence": "Unless you don't hurry, we'll miss the bus.",
+      "answers": [
+        "Unless you hurry, we'll miss the bus."
+      ],
+      "explain": "Bỏ don't sau unless."
+    },
+    {
+      "type": "fix",
+      "sentence": "Bring snacks in case the kids will get hungry.",
+      "answers": [
+        "Bring snacks in case the kids get hungry."
+      ],
+      "explain": "Sau in case → hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "You can watch TV unless you finish your homework first.",
+      "answers": [
+        "You can watch TV as long as you finish your homework first."
+      ],
+      "explain": "Điều kiện bắt buộc → as long as."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn có thể dùng phòng này miễn là giữ yên lặng.",
+      "answers": [
+        "You can use this room as long as you keep quiet.",
+        "You can use this room as long as you are quiet.",
+        "You can use this room as long as you're quiet.",
+        "You can use this room provided that you keep quiet.",
+        "You can use this room provided you keep quiet.",
+        "You can use this room as long as you stay quiet."
+      ],
+      "explain": "As long as / provided that."
+    },
+    {
+      "type": "translate",
+      "vi": "Mang theo ít tiền mặt phòng khi cần.",
+      "answers": [
+        "Take some cash in case you need it.",
+        "Bring some cash in case you need it.",
+        "Take a little cash in case you need it.",
+        "Bring a little cash in case you need it.",
+        "Take some cash just in case.",
+        "Bring some cash just in case."
+      ],
+      "explain": "In case + hiện tại đơn."
+    }
+  ]
+}

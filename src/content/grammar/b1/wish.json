@@ -1,0 +1,364 @@
+{
+  "id": "wish",
+  "level": "B1",
+  "title": "Wish và if only",
+  "summary": "Nói mong ước trái với thực tế ở hiện tại (wish + quá khứ đơn) và tiếc nuối về quá khứ (wish + had V3).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "It's so hot. I [[wish]] I [[lived]] near the beach.",
+      "vi": "Nóng quá. Ước gì mình sống gần biển."
+    },
+    {
+      "who": "B",
+      "en": "Me too. And I [[wish]] I [[didn't have]] to work today.",
+      "vi": "Mình cũng vậy. Ước gì hôm nay mình không phải đi làm."
+    },
+    {
+      "who": "A",
+      "en": "Did you go to the concert last night?",
+      "vi": "Tối qua bạn có đi xem ca nhạc không?"
+    },
+    {
+      "who": "B",
+      "en": "No. I [[wish]] I [[had bought]] a ticket earlier.",
+      "vi": "Không. Ước gì mình mua vé sớm hơn."
+    },
+    {
+      "who": "A",
+      "en": "[[If only]] it [[were]] the weekend!",
+      "vi": "Giá mà bây giờ là cuối tuần!"
+    },
+    {
+      "who": "B",
+      "en": "Just two more days.",
+      "vi": "Còn hai ngày nữa thôi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Hiện tại",
+      "heading": "Wish + quá khứ đơn: ước điều trái với hiện tại",
+      "rule": "Ước điều **trái với thực tế bây giờ**: **wish + quá khứ đơn** (với be thường dùng **were**).",
+      "formula": [
+        {
+          "text": "S + [wish] + S + V2 / were"
+        }
+      ],
+      "body": [
+        "Giống câu điều kiện loại 2: quá khứ báo hiệu *không có thật*. *I wish I had a car* = thực tế bây giờ tôi không có ô tô."
+      ],
+      "examples": [
+        {
+          "en": "I [[wish]] I [[had]] more free time.",
+          "vi": "Ước gì tôi có nhiều thời gian rảnh hơn.",
+          "why": "Thực tế: không có nhiều thời gian → wish + had."
+        },
+        {
+          "en": "She [[wishes]] she [[could]] speak French.",
+          "vi": "Cô ấy ước mình nói được tiếng Pháp.",
+          "why": "Can → could sau wish."
+        },
+        {
+          "en": "I [[wish]] it [[weren't]] so cold today.",
+          "vi": "Ước gì hôm nay không lạnh thế.",
+          "why": "Be → were / weren't."
+        }
+      ],
+      "check": {
+        "prompt": "I wish I ___ taller.",
+        "options": [
+          "were",
+          "am",
+          "will be"
+        ],
+        "answer": 0,
+        "explain": "Wish + were (trái với hiện tại)."
+      }
+    },
+    {
+      "part": "Quá khứ",
+      "heading": "Wish + had V3: tiếc chuyện đã qua",
+      "rule": "Tiếc nuối **chuyện đã qua**: **wish + had + V3**.",
+      "formula": [
+        {
+          "text": "S + [wish] + S + [had + V3]"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[wish]] I [[had studied]] harder at school.",
+          "vi": "Giá mà hồi đi học tôi chăm hơn.",
+          "why": "Tiếc chuyện đã qua → had studied."
+        },
+        {
+          "en": "He [[wishes]] he [[hadn't said]] that.",
+          "vi": "Anh ấy hối hận vì đã nói câu đó.",
+          "why": "Phủ định: hadn't + V3."
+        }
+      ],
+      "check": {
+        "prompt": "I wish I ___ to the party last night. It was fun!",
+        "options": [
+          "had gone",
+          "went",
+          "go"
+        ],
+        "answer": 0,
+        "explain": "Tiếc quá khứ → had gone."
+      }
+    },
+    {
+      "part": "If only",
+      "heading": "If only: mạnh hơn wish",
+      "rule": "**If only** dùng giống **wish** nhưng cảm xúc **mạnh hơn**: *Giá mà…!*",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[If only]] I [[knew]] her number!",
+          "vi": "Giá mà tôi biết số của cô ấy!",
+          "why": "Hiện tại không biết → If only + quá khứ."
+        },
+        {
+          "en": "[[If only]] we [[had left]] earlier!",
+          "vi": "Giá mà chúng ta đi sớm hơn!",
+          "why": "Tiếc quá khứ → If only + had V3."
+        }
+      ],
+      "check": {
+        "prompt": "If only I ___ so much yesterday! My stomach hurts.",
+        "options": [
+          "hadn't eaten",
+          "didn't eat",
+          "don't eat"
+        ],
+        "answer": 0,
+        "explain": "Tiếc quá khứ → hadn't eaten."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Wish hay hope?",
+      "rule": "**hope** cho điều **có thể xảy ra** (+ hiện tại / will). **wish** cho điều **không có thật** hoặc **đã qua**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[hope]] you pass the exam.",
+          "vi": "Mong bạn thi đỗ.",
+          "why": "Có thể xảy ra → hope + hiện tại."
+        },
+        {
+          "en": "I [[wish]] I [[had]] passed the exam.",
+          "vi": "Ước gì tôi đã thi đỗ.",
+          "why": "Chuyện đã qua, trái thực tế → wish + had + V3."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ you have a nice trip!",
+        "options": [
+          "hope",
+          "wish"
+        ],
+        "answer": 0,
+        "explain": "Lời chúc, điều có thể xảy ra → hope."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I wish I have a car.",
+      "right": "I wish I had a car.",
+      "why": "Trái với hiện tại → wish + quá khứ đơn."
+    },
+    {
+      "wrong": "I wish I can swim.",
+      "right": "I wish I could swim.",
+      "why": "Can → could sau wish."
+    },
+    {
+      "wrong": "I wish I didn't eat so much last night.",
+      "right": "I wish I hadn't eaten so much last night.",
+      "why": "Tiếc quá khứ → hadn't + V3."
+    },
+    {
+      "wrong": "I wish you pass the test.",
+      "right": "I hope you pass the test.",
+      "why": "Chúc điều có thể xảy ra → hope."
+    },
+    {
+      "wrong": "I wish it is sunny today.",
+      "right": "I wish it were sunny today.",
+      "why": "Trái với hiện tại → were."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I wish I ___ how to cook.",
+      "options": [
+        "knew",
+        "know",
+        "will know"
+      ],
+      "answer": 0,
+      "explain": "Wish + quá khứ đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "She wishes she ___ that dress. It was a waste of money.",
+      "options": [
+        "hadn't bought",
+        "didn't buy",
+        "doesn't buy"
+      ],
+      "answer": 0,
+      "explain": "Tiếc quá khứ → hadn't bought."
+    },
+    {
+      "type": "choice",
+      "prompt": "I ___ you feel better soon.",
+      "options": [
+        "hope",
+        "wish",
+        "want"
+      ],
+      "answer": 0,
+      "explain": "Lời chúc → hope."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào tiếc về quá khứ?",
+      "options": [
+        "I wish I lived in Hanoi.",
+        "I wish I had lived in Hanoi."
+      ],
+      "answer": 1,
+      "explain": "Had + V3 → quá khứ."
+    },
+    {
+      "type": "fill",
+      "prompt": "I wish I ___ more money.",
+      "hint": "have",
+      "answers": [
+        "had"
+      ],
+      "explain": "Wish + quá khứ đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "He wishes he ___ play the guitar.",
+      "hint": "can",
+      "answers": [
+        "could"
+      ],
+      "explain": "Can → could."
+    },
+    {
+      "type": "fill",
+      "prompt": "I wish I ___ listened to my mother.",
+      "hint": "trợ động từ",
+      "answers": [
+        "had"
+      ],
+      "explain": "Tiếc quá khứ: had + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "If only it ___ raining!",
+      "hint": "stop",
+      "answers": [
+        "would stop",
+        "stopped"
+      ],
+      "explain": "If only + would / quá khứ: mong điều thay đổi."
+    },
+    {
+      "type": "fill",
+      "prompt": "I wish it ___ so expensive.",
+      "hint": "be, phủ định",
+      "answers": [
+        "weren't",
+        "were not",
+        "wasn't",
+        "was not"
+      ],
+      "explain": "Wish + weren't."
+    },
+    {
+      "type": "order",
+      "vi": "Ước gì tôi nói được tiếng Anh trôi chảy.",
+      "words": [
+        "I",
+        "wish",
+        "I",
+        "could",
+        "speak",
+        "English",
+        "fluently."
+      ],
+      "explain": "Wish + could."
+    },
+    {
+      "type": "order",
+      "vi": "Giá mà tôi không nói điều đó.",
+      "words": [
+        "If",
+        "only",
+        "I",
+        "had",
+        "not",
+        "said",
+        "that."
+      ],
+      "explain": "If only + had not + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "I wish I am on holiday now.",
+      "answers": [
+        "I wish I were on holiday now."
+      ],
+      "explain": "Trái với hiện tại → were."
+    },
+    {
+      "type": "fix",
+      "sentence": "I wish I studied harder last year.",
+      "answers": [
+        "I wish I had studied harder last year."
+      ],
+      "explain": "Tiếc quá khứ → had studied."
+    },
+    {
+      "type": "fix",
+      "sentence": "I wish you have a great birthday.",
+      "answers": [
+        "I hope you have a great birthday."
+      ],
+      "explain": "Lời chúc → hope."
+    },
+    {
+      "type": "translate",
+      "vi": "Ước gì tôi có nhiều thời gian hơn.",
+      "answers": [
+        "I wish I had more time.",
+        "If only I had more time."
+      ],
+      "explain": "Wish + had."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi ước mình đã học tiếng Anh sớm hơn.",
+      "answers": [
+        "I wish I had learned English earlier.",
+        "I wish I had studied English earlier.",
+        "I wish I'd learned English earlier.",
+        "I wish I'd studied English earlier.",
+        "I wish I had learnt English earlier.",
+        "I wish I had started learning English earlier.",
+        "I wish I'd started learning English earlier."
+      ],
+      "explain": "Tiếc quá khứ → had + V3."
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": "second-conditional",
+  "level": "B1",
+  "title": "Câu điều kiện loại 2: If I had more time…",
+  "summary": "Nói điều không có thật hoặc khó xảy ra ở hiện tại và kết quả tưởng tượng: if + quá khứ đơn, would + V.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What [[would]] you [[do]] if you [[won]] the lottery?",
+      "vi": "Nếu trúng xổ số bạn sẽ làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'd buy]] a house for my parents.",
+      "vi": "Mình sẽ mua nhà cho bố mẹ."
+    },
+    {
+      "who": "A",
+      "en": "Nice. I [[would]] travel around the world.",
+      "vi": "Hay đấy. Còn mình thì sẽ đi du lịch vòng quanh thế giới."
+    },
+    {
+      "who": "B",
+      "en": "[[If]] I [[had]] more free time, I'd travel too.",
+      "vi": "Nếu có nhiều thời gian rảnh hơn thì mình cũng đi."
+    },
+    {
+      "who": "A",
+      "en": "[[If]] I [[were]] you, I'd take a holiday this year.",
+      "vi": "Nếu mình là bạn, mình sẽ nghỉ phép năm nay."
+    },
+    {
+      "who": "B",
+      "en": "Maybe you're right.",
+      "vi": "Có lẽ bạn nói đúng."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "If + quá khứ đơn, would + V",
+      "rule": "Loại 2: **If + quá khứ đơn, would + V**. Dù dùng quá khứ, câu nói về **hiện tại hoặc tương lai**.",
+      "formula": [
+        {
+          "text": "[If] + S + V2 / were, S + [would] + V"
+        },
+        {
+          "text": "S + [would] + V + [if] + S + V2"
+        }
+      ],
+      "body": [
+        "Thì quá khứ ở đây không chỉ thời gian. Nó báo hiệu **điều không có thật**, xa thực tế. Tiếng Việt dùng *giá mà, nếu… thì* với động từ không đổi.",
+        "Có thể dùng **could** (có thể) hoặc **might** (có lẽ) thay cho would."
+      ],
+      "examples": [
+        {
+          "en": "[[If]] I [[had]] a car, I [[would]] drive to work.",
+          "vi": "Nếu có ô tô, tôi sẽ lái xe đi làm.",
+          "why": "Thực tế: tôi không có ô tô → if + had."
+        },
+        {
+          "en": "She [[would]] be happier [[if]] she [[lived]] near the sea.",
+          "vi": "Cô ấy sẽ vui hơn nếu sống gần biển.",
+          "why": "Thực tế cô ấy không sống gần biển."
+        },
+        {
+          "en": "[[If]] we [[left]] now, we [[could]] catch the last bus.",
+          "vi": "Nếu đi ngay bây giờ, chúng ta có thể kịp chuyến xe cuối.",
+          "why": "Could thay would: có khả năng làm được."
+        }
+      ],
+      "check": {
+        "prompt": "If I ___ the answer, I would tell you.",
+        "options": [
+          "knew",
+          "know",
+          "would know"
+        ],
+        "answer": 0,
+        "explain": "Loại 2: if + quá khứ đơn (knew)."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Loại 1 hay loại 2?",
+      "rule": "Có thể xảy ra thật → **loại 1** (if + hiện tại, will). Không thật, khó xảy ra, tưởng tượng → **loại 2** (if + quá khứ, would).",
+      "body": [
+        "Cùng một tình huống, người nói chọn loại 2 khi nghĩ việc đó **khó xảy ra**: *If I see him, I'll tell him* (chắc sẽ gặp) và *If I saw him, I'd tell him* (chắc không gặp)."
+      ],
+      "table": {
+        "head": [
+          "Loại 1 (có thể xảy ra)",
+          "Loại 2 (khó xảy ra, không thật)"
+        ],
+        "rows": [
+          [
+            "If it rains tomorrow, I'll stay home.",
+            "If I were a bird, I'd fly home."
+          ],
+          [
+            "If I get the job, I'll move to Hanoi.",
+            "If I won a million dollars, I'd stop working."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[If]] I [[spoke]] Japanese, I [[would]] work in Tokyo.",
+          "vi": "Nếu biết tiếng Nhật, tôi sẽ làm việc ở Tokyo.",
+          "why": "Thực tế không biết tiếng Nhật → loại 2."
+        },
+        {
+          "en": "[[If]] I pass the test, [[I'll]] celebrate.",
+          "vi": "Nếu đỗ, tôi sẽ ăn mừng.",
+          "why": "Có thể đỗ thật → loại 1."
+        }
+      ],
+      "check": {
+        "prompt": "If I ___ a famous singer, I'd give free concerts.",
+        "options": [
+          "were",
+          "am",
+          "will be"
+        ],
+        "answer": 0,
+        "explain": "Không có thật → loại 2: were."
+      }
+    },
+    {
+      "part": "Lời khuyên",
+      "heading": "If I were you: lời khuyên",
+      "rule": "**If I were you, I'd…** là cách khuyên lịch sự. Sau **I / he / she / it** dùng **were** trong câu điều kiện loại 2.",
+      "body": [
+        "Khi nói thường ngày, người ta cũng nói *If I was…*, nhưng trong bài thi và khi viết nên dùng **were**, nhất là với *If I were you*."
+      ],
+      "examples": [
+        {
+          "en": "[[If I were you]], I'd call her today.",
+          "vi": "Nếu tôi là bạn, tôi sẽ gọi cho cô ấy hôm nay.",
+          "why": "Lời khuyên lịch sự."
+        },
+        {
+          "en": "[[If]] he [[were]] taller, he could play basketball.",
+          "vi": "Nếu cao hơn, anh ấy có thể chơi bóng rổ.",
+          "why": "He + were trong loại 2."
+        }
+      ],
+      "check": {
+        "prompt": "If I ___ you, I wouldn't buy that phone.",
+        "options": [
+          "were",
+          "am",
+          "be"
+        ],
+        "answer": 0,
+        "explain": "If I were you."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If I would have money, I would buy a car.",
+      "right": "If I had money, I would buy a car.",
+      "why": "Không dùng would trong mệnh đề if."
+    },
+    {
+      "wrong": "If I have more time, I would learn French.",
+      "right": "If I had more time, I would learn French.",
+      "why": "Loại 2: if + quá khứ đơn."
+    },
+    {
+      "wrong": "If I am you, I'd accept the offer.",
+      "right": "If I were you, I'd accept the offer.",
+      "why": "Lời khuyên: If I were you."
+    },
+    {
+      "wrong": "If she lived here, she will visit us.",
+      "right": "If she lived here, she would visit us.",
+      "why": "Loại 2: would, không dùng will."
+    },
+    {
+      "wrong": "I would go if I can.",
+      "right": "I would go if I could.",
+      "why": "Loại 2: could (quá khứ của can)."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "If I ___ rich, I would buy a big house.",
+      "options": [
+        "were",
+        "am",
+        "will be"
+      ],
+      "answer": 0,
+      "explain": "Không có thật → were."
+    },
+    {
+      "type": "choice",
+      "prompt": "What would you do if you ___ a snake in your room?",
+      "options": [
+        "saw",
+        "see",
+        "would see"
+      ],
+      "answer": 0,
+      "explain": "If + quá khứ đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "If she studied harder, she ___ the exam.",
+      "options": [
+        "would pass",
+        "will pass",
+        "passes"
+      ],
+      "answer": 0,
+      "explain": "Loại 2: would + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói về điều khó xảy ra?",
+      "options": [
+        "If I meet the president, I'll ask him a question.",
+        "If I met the president, I'd ask him a question."
+      ],
+      "answer": 1,
+      "explain": "Loại 2 cho điều khó xảy ra."
+    },
+    {
+      "type": "fill",
+      "prompt": "If I ___ a dog, I would walk it every day.",
+      "hint": "have",
+      "answers": [
+        "had"
+      ],
+      "explain": "If + quá khứ đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ more if we lived closer.",
+      "hint": "visit",
+      "answers": [
+        "would visit",
+        "'d visit"
+      ],
+      "explain": "Loại 2: would + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "If I ___ you, I'd see a doctor.",
+      "hint": "be",
+      "answers": [
+        "were"
+      ],
+      "explain": "If I were you."
+    },
+    {
+      "type": "fill",
+      "prompt": "If they ___ English, they could talk to the tourists.",
+      "hint": "speak",
+      "answers": [
+        "spoke"
+      ],
+      "explain": "If + quá khứ đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ worry so much if she had a job.",
+      "hint": "phủ định",
+      "answers": [
+        "wouldn't",
+        "would not"
+      ],
+      "explain": "Phủ định loại 2: wouldn't."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu có thời gian, tôi sẽ học vẽ.",
+      "words": [
+        "If",
+        "I",
+        "had",
+        "time",
+        "I",
+        "would",
+        "learn",
+        "to",
+        "draw."
+      ],
+      "alternatives": [
+        "I would learn to draw if I had time."
+      ],
+      "explain": "If + had, would + learn."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn sẽ làm gì nếu bạn là sếp?",
+      "words": [
+        "What",
+        "would",
+        "you",
+        "do",
+        "if",
+        "you",
+        "were",
+        "the",
+        "boss?"
+      ],
+      "explain": "What would you do + if + were."
+    },
+    {
+      "type": "fix",
+      "sentence": "If I would know her number, I would call her.",
+      "answers": [
+        "If I knew her number, I would call her."
+      ],
+      "explain": "Không dùng would sau if."
+    },
+    {
+      "type": "fix",
+      "sentence": "If I am taller, I would play volleyball.",
+      "answers": [
+        "If I were taller, I would play volleyball."
+      ],
+      "explain": "Loại 2: were."
+    },
+    {
+      "type": "fix",
+      "sentence": "If he had a car, he will drive us.",
+      "answers": [
+        "If he had a car, he would drive us."
+      ],
+      "explain": "Loại 2: would."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu tôi là bạn, tôi sẽ không mua chiếc xe đó.",
+      "answers": [
+        "If I were you, I wouldn't buy that car.",
+        "If I were you, I would not buy that car.",
+        "If I was you, I wouldn't buy that car.",
+        "I wouldn't buy that car if I were you.",
+        "I would not buy that car if I were you."
+      ],
+      "explain": "If I were you, I wouldn't…"
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu có nhiều tiền, tôi sẽ đi du lịch khắp thế giới.",
+      "answers": [
+        "If I had a lot of money, I would travel around the world.",
+        "If I had a lot of money, I'd travel around the world.",
+        "If I had lots of money, I would travel around the world.",
+        "If I had lots of money, I'd travel around the world.",
+        "If I had a lot of money, I would travel all over the world.",
+        "If I had a lot of money, I'd travel all over the world.",
+        "If I had more money, I would travel around the world.",
+        "If I had more money, I'd travel around the world.",
+        "If I were rich, I would travel around the world.",
+        "If I were rich, I'd travel around the world."
+      ],
+      "explain": "If + had, would + V."
+    }
+  ]
+}

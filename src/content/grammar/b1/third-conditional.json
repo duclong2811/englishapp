@@ -1,0 +1,362 @@
+{
+  "id": "third-conditional",
+  "level": "B1",
+  "title": "Câu điều kiện loại 3: If I had known…",
+  "summary": "Nói về quá khứ không có thật, tiếc nuối và trách móc: if + had V3, would have + V3.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Why didn't you come to the party?",
+      "vi": "Sao bạn không đến tiệc?"
+    },
+    {
+      "who": "B",
+      "en": "Nobody told me. [[If]] I [[had known]], I [[would have come]].",
+      "vi": "Có ai báo mình đâu. Nếu biết thì mình đã đến."
+    },
+    {
+      "who": "A",
+      "en": "Oh no! I sent the message to your old number.",
+      "vi": "Thôi chết! Mình gửi tin vào số cũ của bạn."
+    },
+    {
+      "who": "B",
+      "en": "[[If]] you [[had called]] me, I [[would have answered]].",
+      "vi": "Nếu bạn gọi thì mình đã nghe máy rồi."
+    },
+    {
+      "who": "A",
+      "en": "Sorry. [[If]] I [[hadn't been]] so busy, I [[would have checked]].",
+      "vi": "Xin lỗi. Nếu không bận quá thì mình đã kiểm tra lại."
+    },
+    {
+      "who": "B",
+      "en": "Never mind. Next time!",
+      "vi": "Không sao. Lần sau nhé!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "If + had V3, would have + V3",
+      "rule": "Loại 3: **If + had + V3, would have + V3**. Nói về **quá khứ**: điều đã không xảy ra.",
+      "formula": [
+        {
+          "text": "[If] + S + [had + V3], S + [would have + V3]"
+        },
+        {
+          "text": "S + [would have + V3] + [if] + S + [had + V3]"
+        }
+      ],
+      "body": [
+        "Khi nói thường rút gọn: *I'd have*, *would've* (đọc /ˈwʊdəv/). Viết *would of* là sai.",
+        "Có thể dùng **could have** (đã có thể) hoặc **might have** (có lẽ đã) thay cho would have."
+      ],
+      "examples": [
+        {
+          "en": "[[If]] I [[had left]] earlier, I [[would have caught]] the train.",
+          "vi": "Nếu đi sớm hơn thì tôi đã kịp tàu.",
+          "why": "Thực tế: đi muộn, lỡ tàu."
+        },
+        {
+          "en": "She [[would have passed]] [[if]] she [[had studied]].",
+          "vi": "Cô ấy đã đỗ nếu chịu học.",
+          "why": "Thực tế: không học, trượt."
+        },
+        {
+          "en": "[[If]] it [[hadn't rained]], we [[could have gone]] to the beach.",
+          "vi": "Nếu trời không mưa thì chúng tôi đã có thể ra biển.",
+          "why": "Could have: khả năng đã có thể."
+        }
+      ],
+      "check": {
+        "prompt": "If I had seen you, I ___ hello.",
+        "options": [
+          "would have said",
+          "would say",
+          "will say"
+        ],
+        "answer": 0,
+        "explain": "Loại 3: would have + V3."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Tiếc nuối và trách móc",
+      "rule": "Loại 3 dùng để **tiếc nuối** (*giá mà…*) hoặc **trách** nhẹ về chuyện đã qua, không thay đổi được.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[If]] I [[had saved]] money, I [[wouldn't have]] this problem now.",
+          "vi": "Giá mà tôi tiết kiệm thì giờ đâu có rắc rối này.",
+          "why": "Kết hợp: quá khứ (loại 3) dẫn đến hiện tại (would + V)."
+        },
+        {
+          "en": "[[If]] you [[had listened]] to me, this [[wouldn't have happened]].",
+          "vi": "Nếu bạn nghe tôi thì chuyện này đã không xảy ra.",
+          "why": "Trách nhẹ về quá khứ."
+        }
+      ],
+      "check": {
+        "prompt": "If you ___ me, I would have helped you.",
+        "options": [
+          "had asked",
+          "asked",
+          "would ask"
+        ],
+        "answer": 0,
+        "explain": "Loại 3: if + had + V3."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Loại 2 hay loại 3?",
+      "rule": "Loại 2: **hiện tại** không thật (*If I had a car…*). Loại 3: **quá khứ** không thật (*If I had had a car…*).",
+      "body": [],
+      "table": {
+        "head": [
+          "Loại",
+          "Thời gian",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Loại 2",
+            "bây giờ, không thật",
+            "If I knew, I would tell you."
+          ],
+          [
+            "Loại 3",
+            "quá khứ, không thật",
+            "If I had known, I would have told you."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[If]] I [[had]] time, I [[would]] help you.",
+          "vi": "Nếu có thời gian, tôi sẽ giúp bạn.",
+          "why": "Bây giờ không có thời gian → loại 2."
+        },
+        {
+          "en": "[[If]] I [[had had]] time yesterday, I [[would have helped]] you.",
+          "vi": "Nếu hôm qua có thời gian thì tôi đã giúp bạn.",
+          "why": "Hôm qua đã qua → loại 3: had had."
+        }
+      ],
+      "check": {
+        "prompt": "If I ___ about the meeting yesterday, I would have come.",
+        "options": [
+          "had known",
+          "knew"
+        ],
+        "answer": 0,
+        "explain": "Quá khứ (yesterday) → loại 3: had known."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If I would have known, I would have come.",
+      "right": "If I had known, I would have come.",
+      "why": "Không dùng would trong mệnh đề if."
+    },
+    {
+      "wrong": "If I had knew, I would have told you.",
+      "right": "If I had known, I would have told you.",
+      "why": "Sau had → V3: known."
+    },
+    {
+      "wrong": "If she had studied, she would pass.",
+      "right": "If she had studied, she would have passed.",
+      "why": "Kết quả trong quá khứ → would have + V3."
+    },
+    {
+      "wrong": "I would of called you.",
+      "right": "I would have called you.",
+      "why": "Viết would have (would've), không viết would of."
+    },
+    {
+      "wrong": "If we left earlier yesterday, we would have arrived on time.",
+      "right": "If we had left earlier yesterday, we would have arrived on time.",
+      "why": "Quá khứ không thật → had + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "If he had driven more carefully, he ___ the accident.",
+      "options": [
+        "wouldn't have had",
+        "wouldn't have",
+        "won't have"
+      ],
+      "answer": 0,
+      "explain": "Loại 3: would have + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "If I ___ the alarm, I wouldn't have been late.",
+      "options": [
+        "had heard",
+        "heard",
+        "would hear"
+      ],
+      "answer": 0,
+      "explain": "Loại 3: if + had + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "We could have won if we ___ harder.",
+      "options": [
+        "had tried",
+        "tried",
+        "would try"
+      ],
+      "answer": 0,
+      "explain": "Loại 3: had + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói về quá khứ?",
+      "options": [
+        "If I had money, I'd buy it.",
+        "If I'd had money, I'd have bought it."
+      ],
+      "answer": 1,
+      "explain": "Had had + would have bought → loại 3."
+    },
+    {
+      "type": "fill",
+      "prompt": "If you had told me, I ___ you.",
+      "hint": "help",
+      "answers": [
+        "would have helped",
+        "'d have helped"
+      ],
+      "explain": "Loại 3: would have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "If she ___ the bus, she would have been on time.",
+      "hint": "not miss",
+      "answers": [
+        "hadn't missed",
+        "had not missed"
+      ],
+      "explain": "If + hadn't + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "They would have enjoyed the trip if the weather ___ better.",
+      "hint": "be",
+      "answers": [
+        "had been"
+      ],
+      "explain": "If + had been."
+    },
+    {
+      "type": "fill",
+      "prompt": "If I had known you were sick, I ___ visited you.",
+      "hint": "trợ động từ",
+      "answers": [
+        "would have",
+        "'d have"
+      ],
+      "explain": "Would have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "If we had booked earlier, we ___ have got a cheaper ticket.",
+      "hint": "có thể",
+      "answers": [
+        "could",
+        "would"
+      ],
+      "explain": "Could have / would have + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu biết thì tôi đã giúp bạn.",
+      "words": [
+        "If",
+        "I",
+        "had",
+        "known",
+        "I",
+        "would",
+        "have",
+        "helped",
+        "you."
+      ],
+      "alternatives": [
+        "I would have helped you if I had known."
+      ],
+      "explain": "If + had known, would have helped."
+    },
+    {
+      "type": "order",
+      "vi": "Giá mà hôm qua bạn gọi cho tôi.",
+      "words": [
+        "If",
+        "only",
+        "you",
+        "had",
+        "called",
+        "me",
+        "yesterday."
+      ],
+      "explain": "If only + had + V3: tiếc nuối."
+    },
+    {
+      "type": "fix",
+      "sentence": "If I had studied, I would pass the exam last year.",
+      "answers": [
+        "If I had studied, I would have passed the exam last year."
+      ],
+      "explain": "Quá khứ → would have passed."
+    },
+    {
+      "type": "fix",
+      "sentence": "If she would have asked, I would have said yes.",
+      "answers": [
+        "If she had asked, I would have said yes."
+      ],
+      "explain": "Mệnh đề if: had + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "If they had came, they would have met him.",
+      "answers": [
+        "If they had come, they would have met him."
+      ],
+      "explain": "V3 của come là come."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu trời không mưa thì chúng tôi đã đi dã ngoại.",
+      "answers": [
+        "If it hadn't rained, we would have gone on a picnic.",
+        "If it had not rained, we would have gone on a picnic.",
+        "If it hadn't rained, we'd have gone on a picnic.",
+        "If it hadn't rained, we would have had a picnic.",
+        "If it had not rained, we would have had a picnic.",
+        "We would have gone on a picnic if it hadn't rained.",
+        "We would have had a picnic if it hadn't rained."
+      ],
+      "explain": "If + hadn't + V3, would have + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu tôi biết thì tôi đã nói với bạn rồi.",
+      "answers": [
+        "If I had known, I would have told you.",
+        "If I'd known, I would have told you.",
+        "If I had known, I'd have told you.",
+        "If I'd known, I'd have told you.",
+        "I would have told you if I had known."
+      ],
+      "explain": "If + had known, would have told."
+    }
+  ]
+}

@@ -5,6 +5,10 @@ import passiveBasics from "./passive-basics.json";
 import passiveMore from "./passive-more.json";
 import pastPerfect from "./past-perfect.json";
 import presentPerfectContinuous from "./present-perfect-continuous.json";
+import secondConditional from "./second-conditional.json";
+import thirdConditional from "./third-conditional.json";
+import unlessInCase from "./unless-in-case.json";
+import wish from "./wish.json";
 import wouldUsedTo from "./would-used-to.json";
 
-export const grammarFiles: unknown[] = [pastPerfect, presentPerfectContinuous, wouldUsedTo, futureContinuous, passiveBasics, passiveMore, haveSomethingDone];
+export const grammarFiles: unknown[] = [pastPerfect, presentPerfectContinuous, wouldUsedTo, futureContinuous, passiveBasics, passiveMore, haveSomethingDone, secondConditional, thirdConditional, wish, unlessInCase];
