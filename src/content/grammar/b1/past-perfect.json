@@ -1,0 +1,405 @@
+{
+  "id": "past-perfect",
+  "level": "B1",
+  "title": "Quá khứ hoàn thành: I had already left",
+  "summary": "Nói việc đã xảy ra trước một việc khác trong quá khứ: had + V3, by the time, already, before.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Did you see the start of the film?",
+      "vi": "Bạn có xem đoạn đầu phim không?"
+    },
+    {
+      "who": "B",
+      "en": "No. When I got to the cinema, it [[had]] already [[started]].",
+      "vi": "Không. Lúc mình đến rạp thì phim đã chiếu rồi."
+    },
+    {
+      "who": "A",
+      "en": "Why were you late?",
+      "vi": "Sao bạn đến muộn?"
+    },
+    {
+      "who": "B",
+      "en": "I [[had left]] my wallet at home, so I went back.",
+      "vi": "Mình để quên ví ở nhà nên phải quay về lấy."
+    },
+    {
+      "who": "A",
+      "en": "Had you bought the tickets online?",
+      "vi": "Bạn đã mua vé trên mạng trước chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, luckily. I [[hadn't been]] to that cinema before.",
+      "vi": "Rồi, may quá. Trước đó mình chưa đến rạp ấy bao giờ."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Had + V3",
+      "rule": "Quá khứ hoàn thành = **had + V3**, giống nhau cho **mọi chủ ngữ**. Phủ định: **hadn't + V3**.",
+      "formula": [
+        {
+          "text": "S + [had] + V3"
+        },
+        {
+          "text": "S + [hadn't] + V3"
+        },
+        {
+          "text": "[Had] + S + V3…?"
+        }
+      ],
+      "body": [
+        "Khi nói thường rút gọn: *I'd, she'd, they'd*. Cẩn thận: *I'd* cũng có thể là *I would*, nhìn động từ phía sau để phân biệt (*I'd left* = had; *I'd leave* = would)."
+      ],
+      "examples": [
+        {
+          "en": "She [[had finished]] the report.",
+          "vi": "Cô ấy đã làm xong báo cáo.",
+          "why": "Had + V3 (finished), không đổi theo chủ ngữ."
+        },
+        {
+          "en": "We [[hadn't eaten]] all day.",
+          "vi": "Cả ngày chúng tôi chưa ăn gì.",
+          "why": "Phủ định: hadn't + V3 (eaten)."
+        },
+        {
+          "en": "[[Had]] you [[met]] him before the party?",
+          "vi": "Trước bữa tiệc bạn đã gặp anh ấy chưa?",
+          "why": "Câu hỏi: Had + you + V3."
+        }
+      ],
+      "check": {
+        "prompt": "They ___ already left when we arrived.",
+        "options": [
+          "had",
+          "have",
+          "were"
+        ],
+        "answer": 0,
+        "explain": "Quá khứ hoàn thành: had + V3."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Việc xảy ra trước một mốc quá khứ",
+      "rule": "Hai việc trong quá khứ: việc **xảy ra trước** → **had + V3**; việc **xảy ra sau** → **quá khứ đơn**.",
+      "signals": [
+        "by the time",
+        "before",
+        "after",
+        "already",
+        "when"
+      ],
+      "body": [
+        "Hãy hình dung trục thời gian: quá khứ đơn là một mốc, quá khứ hoàn thành là việc nằm **trước** mốc đó. Tiếng Việt dùng *đã… rồi, trước đó*; tiếng Anh đổi thì.",
+        "Nếu kể các việc theo đúng thứ tự xảy ra thì chỉ cần quá khứ đơn: *I locked the door and left.*"
+      ],
+      "examples": [
+        {
+          "en": "When I arrived, the train [[had left]].",
+          "vi": "Lúc tôi đến thì tàu đã đi rồi.",
+          "why": "Tàu đi trước, tôi đến sau → tàu đi dùng had left."
+        },
+        {
+          "en": "By the time we got home, the rain [[had stopped]].",
+          "vi": "Lúc chúng tôi về đến nhà thì mưa đã tạnh.",
+          "why": "By the time + quá khứ đơn; việc xảy ra trước → had stopped."
+        },
+        {
+          "en": "I realized I [[had forgotten]] my phone.",
+          "vi": "Tôi nhận ra mình đã quên điện thoại.",
+          "why": "Quên xảy ra trước lúc nhận ra."
+        }
+      ],
+      "check": {
+        "prompt": "When I opened the fridge, someone ___ my cake.",
+        "options": [
+          "had eaten",
+          "ate"
+        ],
+        "answer": 0,
+        "explain": "Ăn bánh xảy ra trước lúc mở tủ lạnh → had eaten."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Đã xảy ra hay đang xảy ra lúc đó?",
+      "rule": "**When I arrived, she left** (tôi đến rồi cô ấy mới đi). **When I arrived, she had left** (cô ấy đi trước khi tôi đến).",
+      "body": [],
+      "table": {
+        "head": [
+          "Câu",
+          "Thứ tự"
+        ],
+        "rows": [
+          [
+            "When I arrived, she left.",
+            "Tôi đến → cô ấy đi"
+          ],
+          [
+            "When I arrived, she had left.",
+            "Cô ấy đi → tôi đến (không gặp)"
+          ],
+          [
+            "When I arrived, she was leaving.",
+            "Tôi đến đúng lúc cô ấy đang đi"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "When the police came, the thief [[had escaped]].",
+          "vi": "Khi cảnh sát đến thì tên trộm đã trốn thoát.",
+          "why": "Trốn trước → had escaped; cảnh sát không bắt được."
+        },
+        {
+          "en": "When the police came, the thief [[ran]] away.",
+          "vi": "Khi cảnh sát đến thì tên trộm bỏ chạy.",
+          "why": "Cảnh sát đến rồi tên trộm mới chạy → quá khứ đơn."
+        }
+      ],
+      "check": {
+        "prompt": "I didn't recognize him. I ___ him before.",
+        "options": [
+          "had never seen",
+          "never see"
+        ],
+        "answer": 0,
+        "explain": "Chưa từng gặp trước thời điểm đó → had never seen."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Before và after: không bắt buộc dùng had",
+      "rule": "Khi đã có **before / after** chỉ rõ thứ tự, dùng quá khứ đơn cũng đúng; dùng **had** để nhấn mạnh việc đã **xong**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "After she [[had finished]] work, she went to the gym.",
+          "vi": "Làm xong việc, cô ấy đi tập gym.",
+          "why": "After đã rõ thứ tự; had finished nhấn mạnh việc đã xong."
+        },
+        {
+          "en": "After she finished work, she went to the gym.",
+          "vi": "Làm xong việc, cô ấy đi tập gym.",
+          "why": "Cũng đúng: after cho biết thứ tự rồi."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "Before I came here, I had worked in a bank.",
+          "Before I came here, I have worked in a bank."
+        ],
+        "answer": 0,
+        "explain": "Không dùng have + V3 khi kể quá khứ trước một mốc quá khứ."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "When I arrived, the film has started.",
+      "right": "When I arrived, the film had started.",
+      "why": "Kể quá khứ → had, không dùng has."
+    },
+    {
+      "wrong": "She had went home.",
+      "right": "She had gone home.",
+      "why": "Sau had dùng V3 (gone), không dùng V2 (went)."
+    },
+    {
+      "wrong": "I had seen him yesterday.",
+      "right": "I saw him yesterday.",
+      "why": "Chỉ có một việc, có thời điểm cụ thể → quá khứ đơn."
+    },
+    {
+      "wrong": "By the time I got there, everyone left.",
+      "right": "By the time I got there, everyone had left.",
+      "why": "Mọi người đi trước lúc tôi đến → had left."
+    },
+    {
+      "wrong": "I didn't know her because I never met her.",
+      "right": "I didn't know her because I had never met her.",
+      "why": "Chưa từng gặp trước thời điểm đó → had never met."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "When I got to the station, the bus ___.",
+      "options": [
+        "had left",
+        "has left",
+        "leaves"
+      ],
+      "answer": 0,
+      "explain": "Xe đi trước khi tôi đến → had left."
+    },
+    {
+      "type": "choice",
+      "prompt": "She was tired because she ___ well.",
+      "options": [
+        "hadn't slept",
+        "didn't slept",
+        "hasn't slept"
+      ],
+      "answer": 0,
+      "explain": "Không ngủ được xảy ra trước lúc mệt → hadn't slept."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you ever been abroad before that trip?",
+      "options": [
+        "Had",
+        "Have",
+        "Did"
+      ],
+      "answer": 0,
+      "explain": "Trước một mốc quá khứ → Had you ever been."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là anh ấy đi trước khi tôi đến?",
+      "options": [
+        "When I came, he left.",
+        "When I came, he had left."
+      ],
+      "answer": 1,
+      "explain": "Had left = đã đi trước rồi."
+    },
+    {
+      "type": "fill",
+      "prompt": "By the time the doctor arrived, the patient ___ better.",
+      "hint": "feel",
+      "answers": [
+        "had felt",
+        "'d felt"
+      ],
+      "explain": "Việc xảy ra trước mốc quá khứ → had + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "I couldn't pay because I ___ my card at home.",
+      "hint": "leave",
+      "answers": [
+        "had left",
+        "'d left"
+      ],
+      "explain": "Để quên thẻ trước lúc trả tiền → had left."
+    },
+    {
+      "type": "fill",
+      "prompt": "They ___ the house before the storm started.",
+      "hint": "not finish",
+      "answers": [
+        "hadn't finished",
+        "had not finished"
+      ],
+      "explain": "Phủ định quá khứ hoàn thành: hadn't + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "Lan was nervous. She ___ never given a speech before.",
+      "hint": "trợ động từ",
+      "answers": [
+        "had"
+      ],
+      "explain": "Had + never + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "After we ___ dinner, we watched a film.",
+      "hint": "eat",
+      "answers": [
+        "had eaten",
+        "ate"
+      ],
+      "explain": "After rõ thứ tự: had eaten hoặc ate đều đúng."
+    },
+    {
+      "type": "order",
+      "vi": "Lúc tôi gọi thì cô ấy đã đi ngủ rồi.",
+      "words": [
+        "When",
+        "I",
+        "called",
+        "she",
+        "had",
+        "gone",
+        "to",
+        "bed."
+      ],
+      "alternatives": [
+        "She had gone to bed when I called."
+      ],
+      "explain": "Đi ngủ trước lúc gọi → had gone."
+    },
+    {
+      "type": "order",
+      "vi": "Trước đó tôi chưa bao giờ ăn sầu riêng.",
+      "words": [
+        "I",
+        "had",
+        "never",
+        "eaten",
+        "durian",
+        "before."
+      ],
+      "explain": "Had + never + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "When we arrived, the meeting has finished.",
+      "answers": [
+        "When we arrived, the meeting had finished."
+      ],
+      "explain": "Kể quá khứ → had finished."
+    },
+    {
+      "type": "fix",
+      "sentence": "He had broke his leg before the match.",
+      "answers": [
+        "He had broken his leg before the match."
+      ],
+      "explain": "Sau had → V3: broken."
+    },
+    {
+      "type": "fix",
+      "sentence": "I was hungry because I didn't eat anything since morning.",
+      "answers": [
+        "I was hungry because I hadn't eaten anything since morning."
+      ],
+      "explain": "Kéo dài đến một mốc quá khứ → hadn't eaten."
+    },
+    {
+      "type": "translate",
+      "vi": "Khi chúng tôi đến, bữa tiệc đã kết thúc.",
+      "answers": [
+        "When we arrived, the party had ended.",
+        "When we arrived, the party had finished.",
+        "When we got there, the party had ended.",
+        "When we got there, the party had finished.",
+        "The party had ended when we arrived.",
+        "The party had finished when we arrived.",
+        "When we arrived, the party was over.",
+        "When we got there, the party was over."
+      ],
+      "explain": "Kết thúc trước lúc đến → had ended."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy nhận ra mình đã quên chìa khóa.",
+      "answers": [
+        "She realized she had forgotten her keys.",
+        "She realized that she had forgotten her keys.",
+        "She realised she had forgotten her keys.",
+        "She realized she had forgotten her key.",
+        "She realized that she had forgotten her key."
+      ],
+      "explain": "Quên trước lúc nhận ra → had forgotten."
+    }
+  ]
+}

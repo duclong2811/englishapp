@@ -1,5 +1,6 @@
 import { grammarFiles as a1Files } from "@/content/grammar/a1";
 import { grammarFiles as a2Files } from "@/content/grammar/a2";
+import { grammarFiles as b1Files } from "@/content/grammar/b1";
 import { GRAMMAR_LEVELS, type GrammarLevel } from "@/content/grammar/syllabus";
 import { grammarLessonSchema, type GrammarLesson } from "./schema";
 
@@ -9,7 +10,7 @@ let cache: GrammarLesson[] | null = null;
 
 /** Every written lesson, all levels, in syllabus order. */
 export function getGrammarLessons(): GrammarLesson[] {
-  cache ??= [...a1Files, ...a2Files].map((f) => grammarLessonSchema.parse(f));
+  cache ??= [...a1Files, ...a2Files, ...b1Files].map((f) => grammarLessonSchema.parse(f));
   return cache;
 }
 

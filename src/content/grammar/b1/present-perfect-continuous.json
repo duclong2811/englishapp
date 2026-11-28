@@ -1,0 +1,406 @@
+{
+  "id": "present-perfect-continuous",
+  "level": "B1",
+  "title": "Hiện tại hoàn thành tiếp diễn: I've been waiting",
+  "summary": "Nói việc bắt đầu trong quá khứ, kéo dài đến bây giờ, nhấn mạnh quá trình: have been + V-ing, for, since.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "You look tired. What [[have]] you [[been doing]]?",
+      "vi": "Trông bạn mệt thế. Bạn vừa làm gì vậy?"
+    },
+    {
+      "who": "B",
+      "en": "[[I've been cleaning]] the house all morning.",
+      "vi": "Mình dọn nhà cả buổi sáng."
+    },
+    {
+      "who": "A",
+      "en": "And how long [[have]] you [[been learning]] Japanese?",
+      "vi": "Còn bạn học tiếng Nhật bao lâu rồi?"
+    },
+    {
+      "who": "B",
+      "en": "[[I've been studying]] it for two years.",
+      "vi": "Mình học được hai năm rồi."
+    },
+    {
+      "who": "A",
+      "en": "Wow. I've read three Japanese books this year.",
+      "vi": "Ồ. Năm nay mình đọc được ba cuốn sách tiếng Nhật rồi."
+    },
+    {
+      "who": "B",
+      "en": "Impressive! [[I've been reading]] the same one since June.",
+      "vi": "Giỏi thế! Mình đọc mãi một cuốn từ tháng Sáu."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Have / has been + V-ing",
+      "rule": "**have / has been + V-ing**. He, she, it → **has been**; còn lại → **have been**.",
+      "formula": [
+        {
+          "text": "I / You / We / They + [have been] + V-ing"
+        },
+        {
+          "text": "He / She / It + [has been] + V-ing"
+        },
+        {
+          "text": "How long + [have / has] + S + [been] + V-ing?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I've been waiting]] for twenty minutes.",
+          "vi": "Tôi chờ hai mươi phút rồi.",
+          "why": "I've = I have + been + waiting."
+        },
+        {
+          "en": "It [[has been raining]] since Monday.",
+          "vi": "Trời mưa từ thứ Hai đến giờ.",
+          "why": "It → has been + raining."
+        },
+        {
+          "en": "How long [[have]] you [[been living]] here?",
+          "vi": "Bạn sống ở đây bao lâu rồi?",
+          "why": "Câu hỏi: How long + have + you + been + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "She ___ working here since 2021.",
+        "options": [
+          "has been",
+          "have been",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "She → has been + V-ing."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Kéo dài đến bây giờ, nhấn mạnh quá trình",
+      "rule": "Việc bắt đầu trong quá khứ, **vẫn đang tiếp diễn** (hoặc vừa dừng), muốn nhấn mạnh **kéo dài bao lâu** → **have been + V-ing**.",
+      "signals": [
+        "for",
+        "since",
+        "How long…?",
+        "all day",
+        "lately"
+      ],
+      "body": [
+        "Rất giống hiện tại hoàn thành với for/since ở A2, nhưng dạng V-ing nhấn mạnh **quá trình** và thường tự nhiên hơn với động từ chỉ hoạt động (work, wait, study, live, rain)."
+      ],
+      "examples": [
+        {
+          "en": "We [[have been working]] on this project for months.",
+          "vi": "Chúng tôi làm dự án này mấy tháng rồi.",
+          "why": "Kéo dài, vẫn đang làm → have been working."
+        },
+        {
+          "en": "She [[has been learning]] to drive since May.",
+          "vi": "Cô ấy học lái xe từ tháng Năm.",
+          "why": "Since + mốc; vẫn đang học."
+        },
+        {
+          "en": "How long [[have]] you [[been waiting]]?",
+          "vi": "Bạn đợi bao lâu rồi?",
+          "why": "Hỏi độ dài của việc đang diễn ra."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ for the bus for half an hour.",
+        "options": [
+          "have been waiting",
+          "am waiting"
+        ],
+        "answer": 0,
+        "explain": "Kéo dài đến nay + for → have been waiting."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Giải thích dấu vết bây giờ",
+      "rule": "Thấy **dấu vết, kết quả** ở hiện tại của một việc vừa diễn ra một lúc → **have been + V-ing**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Your eyes are red. [[Have]] you [[been crying]]?",
+          "vi": "Mắt bạn đỏ hoe. Bạn vừa khóc à?",
+          "why": "Dấu vết (mắt đỏ) của việc vừa diễn ra."
+        },
+        {
+          "en": "The ground is wet. It [[has been raining]].",
+          "vi": "Đất ướt. Trời vừa mưa.",
+          "why": "Đất ướt là dấu vết của mưa."
+        }
+      ],
+      "check": {
+        "prompt": "I'm out of breath because I ___.",
+        "options": [
+          "have been running",
+          "ran yesterday"
+        ],
+        "answer": 0,
+        "explain": "Dấu vết bây giờ (thở hổn hển) → have been running."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Have been doing hay have done?",
+      "rule": "**have been + V-ing**: nhấn mạnh **quá trình**, có thể chưa xong. **have + V3**: nhấn mạnh **kết quả, số lượng**, đã xong.",
+      "body": [
+        "Có **số lượng** (*three books, ten emails*) → dùng **have + V3**, không dùng V-ing.",
+        "Động từ chỉ trạng thái (know, like, have = sở hữu, believe) không dùng dạng V-ing: *I've known her for years.*"
+      ],
+      "table": {
+        "head": [
+          "have been + V-ing",
+          "have + V3"
+        ],
+        "rows": [
+          [
+            "I've been reading this book. (chưa xong)",
+            "I've read this book. (đã đọc xong)"
+          ],
+          [
+            "She's been writing emails all day.",
+            "She's written ten emails."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[I've been painting]] the kitchen.",
+          "vi": "Tôi đang sơn dở căn bếp.",
+          "why": "Nhấn mạnh quá trình, có thể chưa xong."
+        },
+        {
+          "en": "[[I've painted]] two rooms today.",
+          "vi": "Hôm nay tôi sơn xong hai phòng.",
+          "why": "Có số lượng → have + V3."
+        },
+        {
+          "en": "[[I've known]] Minh since school.",
+          "vi": "Tôi quen Minh từ hồi đi học.",
+          "why": "Know là động từ trạng thái → không dùng been knowing."
+        }
+      ],
+      "check": {
+        "prompt": "She ___ three emails this morning.",
+        "options": [
+          "has written",
+          "has been writing"
+        ],
+        "answer": 0,
+        "explain": "Có số lượng (three emails) → has written."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I am waiting here for an hour.",
+      "right": "I have been waiting here for an hour.",
+      "why": "Kéo dài đến nay + for → have been waiting."
+    },
+    {
+      "wrong": "She has been knowing him for years.",
+      "right": "She has known him for years.",
+      "why": "Know là động từ trạng thái → has known."
+    },
+    {
+      "wrong": "I've been reading five books this year.",
+      "right": "I've read five books this year.",
+      "why": "Có số lượng → have + V3."
+    },
+    {
+      "wrong": "He have been working all day.",
+      "right": "He has been working all day.",
+      "why": "He → has been."
+    },
+    {
+      "wrong": "How long are you learning English?",
+      "right": "How long have you been learning English?",
+      "why": "Hỏi bao lâu đến nay → have been + V-ing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "It ___ all afternoon. The streets are wet.",
+      "options": [
+        "has been raining",
+        "is raining",
+        "rained"
+      ],
+      "answer": 0,
+      "explain": "Kéo dài, để lại dấu vết → has been raining."
+    },
+    {
+      "type": "choice",
+      "prompt": "How long ___ you been working here?",
+      "options": [
+        "have",
+        "are",
+        "did"
+      ],
+      "answer": 0,
+      "explain": "How long + have + you + been + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "I ___ my best friend since primary school.",
+      "options": [
+        "have known",
+        "have been knowing",
+        "know"
+      ],
+      "answer": 0,
+      "explain": "Know là động từ trạng thái → have known."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nhấn mạnh việc chưa xong?",
+      "options": [
+        "I've been cleaning the house.",
+        "I've cleaned the house."
+      ],
+      "answer": 0,
+      "explain": "Been + V-ing nhấn mạnh quá trình, có thể chưa xong."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ for a taxi for twenty minutes.",
+      "hint": "wait",
+      "answers": [
+        "have been waiting",
+        "'ve been waiting"
+      ],
+      "explain": "For + kéo dài đến nay → have been waiting."
+    },
+    {
+      "type": "fill",
+      "prompt": "My brother ___ English since last year.",
+      "hint": "study",
+      "answers": [
+        "has been studying",
+        "'s been studying"
+      ],
+      "explain": "Brother = he → has been studying."
+    },
+    {
+      "type": "fill",
+      "prompt": "You look hot. ___ you been running?",
+      "hint": "trợ động từ",
+      "answers": [
+        "Have"
+      ],
+      "explain": "Câu hỏi: Have + you + been + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ four job applications this week.",
+      "hint": "send",
+      "answers": [
+        "has sent",
+        "'s sent"
+      ],
+      "explain": "Có số lượng → has sent."
+    },
+    {
+      "type": "fill",
+      "prompt": "They ___ in Da Nang since 2019.",
+      "hint": "live",
+      "answers": [
+        "have been living",
+        "'ve been living",
+        "have lived",
+        "'ve lived"
+      ],
+      "explain": "Live đi được với cả hai dạng."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi học tiếng Anh được ba năm rồi.",
+      "words": [
+        "I",
+        "have",
+        "been",
+        "learning",
+        "English",
+        "for",
+        "three",
+        "years."
+      ],
+      "explain": "Have been + V-ing + for."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn đợi tôi bao lâu rồi?",
+      "words": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "been",
+        "waiting",
+        "for",
+        "me?"
+      ],
+      "explain": "How long + have + you + been + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'm living here since 2020.",
+      "answers": [
+        "I've been living here since 2020."
+      ],
+      "explain": "Since + mốc, kéo dài đến nay → have been living."
+    },
+    {
+      "type": "fix",
+      "sentence": "She has been writing three letters today.",
+      "answers": [
+        "She has written three letters today."
+      ],
+      "explain": "Có số lượng → has written."
+    },
+    {
+      "type": "fix",
+      "sentence": "They has been playing football all morning.",
+      "answers": [
+        "They have been playing football all morning."
+      ],
+      "explain": "They → have been."
+    },
+    {
+      "type": "translate",
+      "vi": "Trời mưa từ sáng đến giờ.",
+      "answers": [
+        "It has been raining since this morning.",
+        "It's been raining since this morning.",
+        "It has been raining since morning.",
+        "It's been raining since morning."
+      ],
+      "explain": "Since + mốc → has been raining."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy làm ở công ty này năm năm rồi.",
+      "answers": [
+        "She has been working at this company for five years.",
+        "She's been working at this company for five years.",
+        "She has been working for this company for five years.",
+        "She's been working for this company for five years.",
+        "She has worked at this company for five years.",
+        "She has worked for this company for five years.",
+        "She's worked at this company for five years.",
+        "She's worked for this company for five years."
+      ],
+      "explain": "For + kéo dài → has been working (hoặc has worked)."
+    }
+  ]
+}

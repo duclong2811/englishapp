@@ -79,9 +79,9 @@ describe("lesson screens", () => {
   });
 });
 
-describe("A2 lesson quality", () => {
+describe("A2 and B1 lesson quality", () => {
   const words = (s: string) => s.replace(/\[\[|\]\]/g, "").split(/\s+/).filter(Boolean).length;
-  const a2 = getGrammarLessons().filter((l) => l.level === "A2");
+  const a2 = getGrammarLessons().filter((l) => l.level !== "A1");
 
   it.each(a2.map((l) => [l.id, l] as const))("%s follows the A2 brief", (_, l) => {
     expect(l.summary.length, "summary").toBeGreaterThanOrEqual(40);

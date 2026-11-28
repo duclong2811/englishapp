@@ -1,0 +1,357 @@
+{
+  "id": "future-continuous",
+  "level": "B1",
+  "title": "Tương lai tiếp diễn: I'll be working",
+  "summary": "Nói việc sẽ đang diễn ra tại một thời điểm trong tương lai, và hỏi kế hoạch người khác một cách lịch sự.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Can I call you at nine tomorrow morning?",
+      "vi": "Mai chín giờ sáng mình gọi bạn được không?"
+    },
+    {
+      "who": "B",
+      "en": "Sorry, [[I'll be driving]] to work then.",
+      "vi": "Xin lỗi, lúc đó mình đang lái xe đi làm."
+    },
+    {
+      "who": "A",
+      "en": "What about this time next week?",
+      "vi": "Thế giờ này tuần sau?"
+    },
+    {
+      "who": "B",
+      "en": "[[I'll be lying]] on a beach in Phu Quoc!",
+      "vi": "Lúc đó mình đang nằm dài trên bãi biển Phú Quốc rồi!"
+    },
+    {
+      "who": "A",
+      "en": "Lucky you. [[Will]] you [[be using]] your laptop there?",
+      "vi": "Sướng thế. Ở đó bạn có dùng laptop không?"
+    },
+    {
+      "who": "B",
+      "en": "No. I [[won't be checking]] emails at all.",
+      "vi": "Không. Mình sẽ không đọc email gì hết."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Will be + V-ing",
+      "rule": "Tương lai tiếp diễn = **will be + V-ing**, giống nhau cho mọi chủ ngữ. Phủ định: **won't be + V-ing**.",
+      "formula": [
+        {
+          "text": "S + [will be] + V-ing"
+        },
+        {
+          "text": "S + [won't be] + V-ing"
+        },
+        {
+          "text": "[Will] + S + [be] + V-ing…?"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "She [[will be working]] late tonight.",
+          "vi": "Tối nay cô ấy sẽ làm việc muộn.",
+          "why": "Will be + working, không đổi theo chủ ngữ."
+        },
+        {
+          "en": "We [[won't be staying]] long.",
+          "vi": "Chúng tôi sẽ không ở lâu đâu.",
+          "why": "Phủ định: won't be + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "This time tomorrow, I ___ on the plane.",
+        "options": [
+          "will be sitting",
+          "will sitting",
+          "will be sit"
+        ],
+        "answer": 0,
+        "explain": "Will be + V-ing."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Đang diễn ra tại một thời điểm tương lai",
+      "rule": "Việc **sẽ đang diễn ra** tại **một thời điểm cụ thể** trong tương lai → **will be + V-ing**.",
+      "signals": [
+        "this time tomorrow",
+        "at 8 p.m. tonight",
+        "this time next week",
+        "when you arrive"
+      ],
+      "body": [
+        "Giống quá khứ tiếp diễn (*At 8 yesterday I was working*), chỉ chuyển sang tương lai: *At 8 tomorrow I will be working.* Hãy hình dung một bức ảnh chụp trong tương lai."
+      ],
+      "examples": [
+        {
+          "en": "At 10 a.m. tomorrow, [[I'll be having]] an interview.",
+          "vi": "Mười giờ sáng mai tôi đang phỏng vấn.",
+          "why": "Thời điểm cụ thể trong tương lai, việc đang diễn ra."
+        },
+        {
+          "en": "Don't call at seven. We[['ll be eating]] dinner.",
+          "vi": "Đừng gọi lúc bảy giờ. Lúc đó nhà tôi đang ăn tối.",
+          "why": "Đang ăn tối đúng lúc đó."
+        },
+        {
+          "en": "When you arrive, [[I'll be waiting]] at the gate.",
+          "vi": "Khi bạn đến, tôi sẽ đang đợi ở cổng.",
+          "why": "When + hiện tại đơn; việc đang diễn ra → will be waiting."
+        }
+      ],
+      "check": {
+        "prompt": "Don't visit at 3. The baby ___.",
+        "options": [
+          "will be sleeping",
+          "sleeps"
+        ],
+        "answer": 0,
+        "explain": "Đang ngủ đúng lúc 3 giờ → will be sleeping."
+      }
+    },
+    {
+      "part": "Hỏi lịch sự",
+      "heading": "Will you be + V-ing? hỏi kế hoạch lịch sự",
+      "rule": "**Will you be + V-ing…?** hỏi kế hoạch người khác **nhẹ nhàng, lịch sự** hơn, thường trước khi nhờ.",
+      "body": [
+        "*Will you come to the meeting?* nghe như đề nghị, yêu cầu. *Will you be coming to the meeting?* chỉ hỏi kế hoạch, không gây áp lực."
+      ],
+      "examples": [
+        {
+          "en": "[[Will]] you [[be using]] the car tonight?",
+          "vi": "Tối nay anh có dùng xe không?",
+          "why": "Hỏi kế hoạch trước khi xin mượn xe."
+        },
+        {
+          "en": "[[Will]] you [[be joining]] us for lunch?",
+          "vi": "Anh có ăn trưa cùng chúng tôi không?",
+          "why": "Hỏi lịch sự, không ép."
+        }
+      ],
+      "check": {
+        "prompt": "___ you be going to the supermarket later? Can you buy milk?",
+        "options": [
+          "Will",
+          "Are"
+        ],
+        "answer": 0,
+        "explain": "Hỏi kế hoạch lịch sự trước khi nhờ → Will you be going."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "This time tomorrow I will lie on the beach.",
+      "right": "This time tomorrow I will be lying on the beach.",
+      "why": "Đang diễn ra tại thời điểm tương lai → will be + V-ing."
+    },
+    {
+      "wrong": "I will be work at 9.",
+      "right": "I will be working at 9.",
+      "why": "Will be + V-ing."
+    },
+    {
+      "wrong": "When you will arrive, I'll be waiting.",
+      "right": "When you arrive, I'll be waiting.",
+      "why": "Sau when nói tương lai → hiện tại đơn."
+    },
+    {
+      "wrong": "She will being studying tonight.",
+      "right": "She will be studying tonight.",
+      "why": "Will + be (nguyên mẫu), không phải being."
+    },
+    {
+      "wrong": "Will you using the printer?",
+      "right": "Will you be using the printer?",
+      "why": "Thiếu be."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "At midnight tonight, we ___ the New Year fireworks.",
+      "options": [
+        "will be watching",
+        "watch",
+        "are watched"
+      ],
+      "answer": 0,
+      "explain": "Đang diễn ra lúc nửa đêm → will be watching."
+    },
+    {
+      "type": "choice",
+      "prompt": "Call me after six. I ___ in the morning.",
+      "options": [
+        "will be working",
+        "will working",
+        "be working"
+      ],
+      "answer": 0,
+      "explain": "Will be + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you be using your laptop this afternoon?",
+      "options": [
+        "Will",
+        "Do",
+        "Are"
+      ],
+      "answer": 0,
+      "explain": "Hỏi kế hoạch lịch sự → Will you be using."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói việc đang diễn ra lúc 8 giờ tối mai?",
+      "options": [
+        "At 8 tomorrow, I'll be cooking.",
+        "At 8 tomorrow, I'll cook."
+      ],
+      "answer": 0,
+      "explain": "Đang diễn ra tại thời điểm đó → will be cooking."
+    },
+    {
+      "type": "fill",
+      "prompt": "This time next month, they ___ in Japan.",
+      "hint": "travel",
+      "answers": [
+        "will be traveling",
+        "'ll be traveling",
+        "will be travelling",
+        "'ll be travelling"
+      ],
+      "explain": "Thời điểm tương lai, đang diễn ra → will be + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Don't wake me up early. I ___ after the night shift.",
+      "hint": "sleep",
+      "answers": [
+        "will be sleeping",
+        "'ll be sleeping"
+      ],
+      "explain": "Đang ngủ lúc đó → will be sleeping."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ be staying at the hotel tonight. We're going home.",
+      "hint": "phủ định",
+      "answers": [
+        "won't",
+        "will not"
+      ],
+      "explain": "Phủ định: won't be + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "When you get home, I ___ dinner.",
+      "hint": "cook",
+      "answers": [
+        "will be cooking",
+        "'ll be cooking"
+      ],
+      "explain": "Việc đang diễn ra khi bạn về → will be cooking."
+    },
+    {
+      "type": "fill",
+      "prompt": "Will you ___ coming to the party on Friday?",
+      "hint": "be",
+      "answers": [
+        "be"
+      ],
+      "explain": "Will you be + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Giờ này tuần sau tôi đang ở Hà Nội.",
+      "words": [
+        "This",
+        "time",
+        "next",
+        "week",
+        "I",
+        "will",
+        "be",
+        "staying",
+        "in",
+        "Hanoi."
+      ],
+      "alternatives": [
+        "I will be staying in Hanoi this time next week."
+      ],
+      "explain": "Will be + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn có dùng máy tính tối nay không?",
+      "words": [
+        "Will",
+        "you",
+        "be",
+        "using",
+        "the",
+        "computer",
+        "tonight?"
+      ],
+      "explain": "Hỏi kế hoạch lịch sự."
+    },
+    {
+      "type": "fix",
+      "sentence": "At 9 tomorrow, I will have a meeting with my boss and I can't talk.",
+      "answers": [
+        "At 9 tomorrow, I will be having a meeting with my boss and I can't talk."
+      ],
+      "explain": "Đang diễn ra tại thời điểm đó → will be having."
+    },
+    {
+      "type": "fix",
+      "sentence": "She will be study at the library tonight.",
+      "answers": [
+        "She will be studying at the library tonight."
+      ],
+      "explain": "Will be + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "When you will call, I'll be driving.",
+      "answers": [
+        "When you call, I'll be driving."
+      ],
+      "explain": "Sau when → hiện tại đơn."
+    },
+    {
+      "type": "translate",
+      "vi": "Mười giờ tối mai tôi đang bay sang Seoul.",
+      "answers": [
+        "At ten tomorrow night I'll be flying to Seoul.",
+        "At ten tomorrow night I will be flying to Seoul.",
+        "At 10 tomorrow night I'll be flying to Seoul.",
+        "At 10 tomorrow night I will be flying to Seoul.",
+        "At 10 p.m. tomorrow I'll be flying to Seoul.",
+        "At 10 p.m. tomorrow I will be flying to Seoul.",
+        "I'll be flying to Seoul at ten tomorrow night.",
+        "I will be flying to Seoul at ten tomorrow night."
+      ],
+      "explain": "Đang diễn ra tại thời điểm tương lai → will be flying."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh có về nhà vào Tết này không?",
+      "answers": [
+        "Will you be going home for Tet this year?",
+        "Will you be coming home for Tet this year?",
+        "Will you be going home this Tet?",
+        "Will you be coming home this Tet?",
+        "Will you be going home for Tet?",
+        "Will you be coming home for Tet?"
+      ],
+      "explain": "Hỏi kế hoạch lịch sự → Will you be + V-ing."
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "id": "would-used-to",
+  "level": "B1",
+  "title": "Would, used to và be used to",
+  "summary": "Kể thói quen ngày trước với would và used to, và phân biệt với be used to, get used to (đã quen, dần quen).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What was your childhood like in Hue?",
+      "vi": "Tuổi thơ của bạn ở Huế thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "Every summer, we [[would]] swim in the river.",
+      "vi": "Hè nào bọn mình cũng ra sông tắm."
+    },
+    {
+      "who": "A",
+      "en": "Did you live near the river?",
+      "vi": "Nhà bạn ở gần sông à?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, we [[used to]] live in a small house there.",
+      "vi": "Ừ, hồi đó nhà mình ở một căn nhà nhỏ ở đó."
+    },
+    {
+      "who": "A",
+      "en": "And now you live in Saigon. Is it hard?",
+      "vi": "Giờ bạn sống ở Sài Gòn. Có khó không?"
+    },
+    {
+      "who": "B",
+      "en": "Not anymore. [[I'm used to]] the noise now. [[I got used to]] it quickly.",
+      "vi": "Không còn nữa. Giờ mình quen tiếng ồn rồi. Mình quen nhanh lắm."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Would",
+      "heading": "Would: việc hay làm ngày trước",
+      "rule": "**would + V** kể **hành động lặp lại** ngày trước, thường khi kể chuyện xưa. Không dùng would cho **trạng thái**.",
+      "body": [
+        "Would và used to đều kể thói quen cũ. Nhưng với **trạng thái** (be, live, have, like, know) chỉ dùng **used to**: *I used to live in Hue* (không nói *I would live in Hue*).",
+        "Would thường xuất hiện sau khi câu chuyện đã mở bằng used to hoặc một mốc thời gian."
+      ],
+      "examples": [
+        {
+          "en": "On Sundays, my grandmother [[would]] cook pho for everyone.",
+          "vi": "Chủ nhật nào bà tôi cũng nấu phở cho cả nhà.",
+          "why": "Hành động lặp lại ngày trước → would cook."
+        },
+        {
+          "en": "After school, we [[would]] play football until dark.",
+          "vi": "Tan học, bọn tôi hay đá bóng đến tối mịt.",
+          "why": "Thói quen cũ là hành động → would."
+        },
+        {
+          "en": "I [[used to]] have long hair.",
+          "vi": "Ngày trước tôi để tóc dài.",
+          "why": "Have tóc dài là trạng thái → chỉ dùng used to."
+        }
+      ],
+      "check": {
+        "prompt": "When I was a child, I ___ a dog called Lucky.",
+        "options": [
+          "used to have",
+          "would have"
+        ],
+        "answer": 0,
+        "explain": "Có (sở hữu) là trạng thái → used to have."
+      }
+    },
+    {
+      "part": "Be used to",
+      "heading": "Be used to + V-ing: đã quen với",
+      "rule": "**be used to + danh từ / V-ing** = **đã quen** với việc gì. Khác hẳn **used to + V** (ngày trước hay).",
+      "formula": [
+        {
+          "text": "S + [am / is / are] + [used to] + V-ing / danh từ"
+        },
+        {
+          "text": "S + [used to] + V (nguyên mẫu)"
+        }
+      ],
+      "body": [
+        "Hãy nhìn từ phía trước: có **be** (am, is, are, was) → nghĩa là *quen với*, theo sau là **V-ing**. Không có be → nghĩa là *ngày trước hay*, theo sau là **V nguyên mẫu**."
+      ],
+      "examples": [
+        {
+          "en": "[[I'm used to]] getting up early.",
+          "vi": "Tôi quen dậy sớm rồi.",
+          "why": "Be used to + V-ing = đã quen."
+        },
+        {
+          "en": "She [[isn't used to]] spicy food.",
+          "vi": "Cô ấy chưa quen ăn cay.",
+          "why": "Phủ định: isn't used to + danh từ."
+        },
+        {
+          "en": "I [[used to]] get up late.",
+          "vi": "Ngày trước tôi hay dậy muộn.",
+          "why": "Không có be → thói quen cũ, + V nguyên mẫu."
+        }
+      ],
+      "check": {
+        "prompt": "I'm used to ___ on the left.",
+        "options": [
+          "driving",
+          "drive"
+        ],
+        "answer": 0,
+        "explain": "Be used to + V-ing."
+      }
+    },
+    {
+      "part": "Get used to",
+      "heading": "Get used to: dần quen",
+      "rule": "**get used to + danh từ / V-ing** = **dần quen**, quá trình thay đổi từ chưa quen sang quen.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[You'll get used to]] the weather.",
+          "vi": "Bạn sẽ quen với thời tiết thôi.",
+          "why": "Quá trình dần quen trong tương lai."
+        },
+        {
+          "en": "It took me months to [[get used to]] working at night.",
+          "vi": "Tôi mất mấy tháng mới quen làm đêm.",
+          "why": "Get used to + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "Don't worry. You'll soon get used to ___ the metro.",
+        "options": [
+          "taking",
+          "take"
+        ],
+        "answer": 0,
+        "explain": "Get used to + V-ing."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I would live in Hanoi when I was young.",
+      "right": "I used to live in Hanoi when I was young.",
+      "why": "Live là trạng thái → used to."
+    },
+    {
+      "wrong": "I'm used to get up early.",
+      "right": "I'm used to getting up early.",
+      "why": "Be used to + V-ing."
+    },
+    {
+      "wrong": "I used to getting up late.",
+      "right": "I used to get up late.",
+      "why": "Used to (thói quen cũ) + V nguyên mẫu."
+    },
+    {
+      "wrong": "She is used to work at night now.",
+      "right": "She is used to working at night now.",
+      "why": "Be used to + V-ing."
+    },
+    {
+      "wrong": "I can't get used to live here.",
+      "right": "I can't get used to living here.",
+      "why": "Get used to + V-ing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "My dad ___ read me a story every night.",
+      "options": [
+        "would",
+        "was used to",
+        "is used to"
+      ],
+      "answer": 0,
+      "explain": "Hành động lặp lại ngày trước → would."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'm not used to ___ so much coffee.",
+      "options": [
+        "drinking",
+        "drink",
+        "drank"
+      ],
+      "answer": 0,
+      "explain": "Be used to + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "There ___ be a market here, but now it's a mall.",
+      "options": [
+        "used to",
+        "would",
+        "is used to"
+      ],
+      "answer": 0,
+      "explain": "Trạng thái ngày trước → used to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là bây giờ tôi đã quen?",
+      "options": [
+        "I used to live alone.",
+        "I'm used to living alone."
+      ],
+      "answer": 1,
+      "explain": "Be used to + V-ing = đã quen."
+    },
+    {
+      "type": "fill",
+      "prompt": "It took her a long time to get used to ___ in the city.",
+      "hint": "live",
+      "answers": [
+        "living"
+      ],
+      "explain": "Get used to + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ to go fishing every weekend.",
+      "hint": "thói quen cũ",
+      "answers": [
+        "used"
+      ],
+      "explain": "Used to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ used to the cold yet.",
+      "hint": "be, phủ định",
+      "answers": [
+        "isn't",
+        "is not"
+      ],
+      "explain": "Phủ định: isn't used to."
+    },
+    {
+      "type": "fill",
+      "prompt": "Every evening, my grandfather ___ sit outside and tell stories.",
+      "hint": "hành động cũ",
+      "answers": [
+        "would",
+        "used to"
+      ],
+      "explain": "Hành động lặp lại ngày trước → would / used to."
+    },
+    {
+      "type": "fill",
+      "prompt": "Are you used to ___ English at work?",
+      "hint": "speak",
+      "answers": [
+        "speaking"
+      ],
+      "explain": "Be used to + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đã quen làm việc ở nhà.",
+      "words": [
+        "I",
+        "am",
+        "used",
+        "to",
+        "working",
+        "from",
+        "home."
+      ],
+      "explain": "Be used to + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn sẽ dần quen với giao thông thôi.",
+      "words": [
+        "You",
+        "will",
+        "get",
+        "used",
+        "to",
+        "the",
+        "traffic."
+      ],
+      "explain": "Get used to + danh từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'm used to wake up at 5.",
+      "answers": [
+        "I'm used to waking up at 5."
+      ],
+      "explain": "Be used to + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "When I was ten, I would have a bike.",
+      "answers": [
+        "When I was ten, I used to have a bike."
+      ],
+      "explain": "Have (sở hữu) là trạng thái → used to."
+    },
+    {
+      "type": "fix",
+      "sentence": "She used to driving a scooter.",
+      "answers": [
+        "She used to drive a scooter."
+      ],
+      "explain": "Used to (thói quen cũ) + V nguyên mẫu."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi chưa quen ăn đồ cay.",
+      "answers": [
+        "I'm not used to spicy food.",
+        "I am not used to spicy food.",
+        "I'm not used to eating spicy food.",
+        "I am not used to eating spicy food."
+      ],
+      "explain": "Be used to + danh từ / V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Hồi nhỏ, chiều nào chúng tôi cũng thả diều.",
+      "answers": [
+        "When we were kids, we would fly kites every afternoon.",
+        "When we were kids, we used to fly kites every afternoon.",
+        "When we were children, we would fly kites every afternoon.",
+        "When we were children, we used to fly kites every afternoon.",
+        "As kids, we used to fly kites every afternoon.",
+        "As children, we used to fly kites every afternoon."
+      ],
+      "explain": "Hành động lặp lại ngày trước → would / used to."
+    }
+  ]
+}
