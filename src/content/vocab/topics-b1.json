@@ -43,7 +43,7 @@
       "description": "Cảm xúc thường gặp và những thay đổi trong tâm trạng.",
       "words": [
         "stun", "unlucky", "disappoint", "bore", "fascinate", "thankful", "excitement", "excitedly",
-        "delight", "overjoyed", "uplifted", "amazed", "shocked", "shocking", "insane", "horrify",
+        "delight", "ecstasy", "overjoyed", "uplifted", "amazed", "shocked", "shocking", "insane", "horrify",
         "scare", "scared", "terrified", "fright", "scary", "awkward", "embarrassed", "ashamed",
         "embarrassment", "laughter", "giggle", "blush", "chuckle", "sigh", "guilt", "mourn",
         "depression", "misery", "miserable", "despair", "sorrow", "sadness", "disappointment", "hopeless",
@@ -113,7 +113,7 @@
       "title": "Dụng cụ và sửa chữa",
       "description": "Dụng cụ cầm tay, thao tác và cách sửa đồ.",
       "words": [
-        "needle", "handy", "attach", "hang", "stuck", "opening", "tightly", "firmly",
+        "needle", "handy", "attach", "hang", "stuck", "bust", "opening", "tightly", "firmly",
         "tighten", "bent", "fold", "wrapping", "wrap", "sticky", "stick", "sticker",
         "wire", "razor", "hammer", "scratch", "nail", "pin", "arrow", "barrel",
         "brass", "fasten"
@@ -564,9 +564,9 @@
       "title": "Luật pháp và an ninh",
       "description": "Quy định, hành vi phạm pháp và xử lý trước tòa.",
       "words": [
-        "proof", "seize", "bullet", "sword", "weapon", "notorious", "bust", "outlaw",
+        "proof", "seize", "bullet", "sword", "weapon", "notorious", "outlaw",
         "killing", "legal", "legally", "illegally", "prohibition", "judgment", "appeal", "justice",
-        "innocent", "guilty", "victim", "ecstasy", "drunk", "burglar", "suspect", "detective",
+        "innocent", "guilty", "victim", "drunk", "burglar", "suspect", "detective",
         "criminal", "terrorism", "murderer", "arrest", "protection", "theft", "prisoner", "prison",
         "jail", "punishment", "punish", "investigation", "witness", "capture", "charge", "mischief"
       ]
