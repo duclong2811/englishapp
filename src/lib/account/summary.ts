@@ -2,7 +2,17 @@
 // progress and weak spots. Used by the learner's page and the admin profile.
 
 export type LearningCatalog = {
-  levels: { level: string; topics: { id: string; title: string; ids: string[] }[]; lessons: { id: string; title: string }[] }[];
+  levels: {
+    level: string;
+    /** Vocabulary topics in learning order; sets are the ~10-word study sets. */
+    topics: { id: string; title: string; sets: string[][] }[];
+    /** Written grammar lessons in syllabus order. */
+    lessons: { id: string; title: string }[];
+    /** Grammar chapters (lesson ids, written or not). */
+    units: { id: string; title: string; lessons: string[] }[];
+  }[];
+  /** Vocabulary topics that have a speaking lesson. */
+  speaking: { topic: string; title: string }[];
 };
 
 type Card = { lapses?: number; state?: number; due?: string };
@@ -46,7 +56,7 @@ export type WeakTopic = { id: string; title: string; level: string; forgotten: n
 
 export function summarize(catalog: LearningCatalog, state: ProgressState, now = new Date()) {
   const levels: LevelSummary[] = catalog.levels.map((l) => {
-    const ids = l.topics.flatMap((t) => t.ids);
+    const ids = l.topics.flatMap((t) => t.sets.flat());
     return {
       level: l.level,
       words: { learned: ids.filter((id) => state.cards[id]).length, total: ids.length },
@@ -66,7 +76,7 @@ export function summarize(catalog: LearningCatalog, state: ProgressState, now = 
       l.topics.map((t) => {
         let forgotten = 0;
         let due = 0;
-        for (const id of t.ids) {
+        for (const id of t.sets.flat()) {
           const c = state.cards[id];
           if (!c) continue;
           if ((c.lapses ?? 0) > 0) forgotten++;

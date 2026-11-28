@@ -23,4 +23,11 @@ describe("progress merge", () => {
     expect(m).toEqual({ A1: ["a", "b", "c"], A2: ["d"] });
     expect(mergeValues("tests:scores:v1", "not json", null)).toBe("{}");
   });
+
+  it("keeps the settings saved last", () => {
+    const old = JSON.stringify({ level: "A1", at: "2026-01-01" });
+    const recent = JSON.stringify({ level: "A2", at: "2026-02-01" });
+    expect(JSON.parse(mergeValues("prefs:v1", recent, old)).level).toBe("A2");
+    expect(JSON.parse(mergeValues("prefs:v1", old, recent)).level).toBe("A2");
+  });
 });

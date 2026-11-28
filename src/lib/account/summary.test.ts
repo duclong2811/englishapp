@@ -3,9 +3,10 @@ import { readProgress, summarize, totals } from "./summary";
 
 const catalog = {
   levels: [
-    { level: "A1", topics: [{ id: "food", title: "Đồ ăn", ids: ["a", "b", "c"] }], lessons: [{ id: "be", title: "To be" }, { id: "have", title: "Have" }] },
-    { level: "A2", topics: [{ id: "work", title: "Công việc", ids: ["d", "e"] }], lessons: [{ id: "past", title: "Past" }] },
+    { level: "A1", topics: [{ id: "food", title: "Đồ ăn", sets: [["a", "b"], ["c"]] }], lessons: [{ id: "be", title: "To be" }, { id: "have", title: "Have" }], units: [] },
+    { level: "A2", topics: [{ id: "work", title: "Công việc", sets: [["d", "e"]] }], lessons: [{ id: "past", title: "Past" }], units: [] },
   ],
+  speaking: [],
 };
 
 describe("progress summary", () => {

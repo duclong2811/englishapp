@@ -2,7 +2,7 @@
 // by the server, so a sync never loses what either side learned.
 
 /** localStorage keys that follow the learner's account. */
-export const SYNC_KEYS = ["vocab:srs:v1", "grammar:a1:v1", "speak:lessons:v1", "tests:scores:v1", "tests:seen:v1"] as const;
+export const SYNC_KEYS = ["vocab:srs:v1", "grammar:a1:v1", "speak:lessons:v1", "tests:scores:v1", "tests:seen:v1", "prefs:v1"] as const;
 export type SyncKey = (typeof SYNC_KEYS)[number];
 
 export function isSyncKey(key: string): key is SyncKey {
@@ -69,10 +69,22 @@ function mergeSeen(a: Obj, b: Obj) {
   return out;
 }
 
+/** Settings: the one saved last wins. */
+function latest(a: Obj, b: Obj) {
+  return String(b.at ?? "") > String(a.at ?? "") ? b : a;
+}
+
 /** Combines two stored values (JSON strings) of one key. */
 export function mergeValues(key: SyncKey, a: string | null | undefined, b: string | null | undefined): string {
   const pa = parse(a);
   const pb = parse(b);
-  const merged = key === "vocab:srs:v1" ? mergeSrs(pa, pb) : key === "tests:seen:v1" ? mergeSeen(pa, pb) : mergeScores(pa, pb);
+  const merged =
+    key === "vocab:srs:v1"
+      ? mergeSrs(pa, pb)
+      : key === "tests:seen:v1"
+        ? mergeSeen(pa, pb)
+        : key === "prefs:v1"
+          ? latest(pa, pb)
+          : mergeScores(pa, pb);
   return JSON.stringify(merged);
 }

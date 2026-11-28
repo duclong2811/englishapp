@@ -41,3 +41,7 @@ Limits: 10 failed sign-ins per email per hour; 5 sign-ups per IP per hour; passw
 
 Cost is estimated from each call's token counts and `MODEL_PRICES` in `src/lib/ai/policy.ts` (update it when prices change). Speech recognition and the natural voice run on Workers AI and are not included.
 Per-user totals for the list (`user_stats`) are refreshed on each progress sync; progress summaries are computed by `src/lib/account/summary.ts`.
+
+## Today page
+
+`/` shows a daily plan built by `src/lib/today/plan.ts` from the learner's goal, level and daily minutes (asked on first visit, stored as `prefs:v1` and synced like progress), a Monday–Sunday study strip, an estimate of minutes studied today, and the roadmap of the chosen level (chapters, % done, level test).
