@@ -1,0 +1,333 @@
+{
+  "id": "perfect-infinitive",
+  "level": "C1",
+  "title": "To have done, having done",
+  "summary": "Dạng hoàn thành không chia: to have + V3 (sau seem, appear, would like, be said) và having + V3 (sau giới từ, deny, regret) cho việc xảy ra trước.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "The new manager [[seems to have made]] a good start.",
+      "vi": "Quản lý mới có vẻ đã khởi đầu tốt."
+    },
+    {
+      "who": "B",
+      "en": "Yes. She's said [[to have worked]] in Singapore for years.",
+      "vi": "Ừ. Nghe nói chị ấy từng làm ở Singapore nhiều năm."
+    },
+    {
+      "who": "A",
+      "en": "I'd like [[to have met]] her before she started.",
+      "vi": "Giá mà mình gặp chị ấy trước khi chị ấy bắt đầu."
+    },
+    {
+      "who": "B",
+      "en": "She doesn't regret [[having left]] her old job, she says.",
+      "vi": "Chị ấy bảo không hối tiếc vì đã bỏ việc cũ."
+    },
+    {
+      "who": "A",
+      "en": "[[Having seen]] her plans, I'm impressed.",
+      "vi": "Xem kế hoạch của chị ấy rồi, mình thấy ấn tượng."
+    },
+    {
+      "who": "B",
+      "en": "Me too. She [[appears to have thought]] of everything.",
+      "vi": "Mình cũng vậy. Chị ấy có vẻ đã tính hết mọi thứ."
+    }
+  ],
+  "sections": [
+    {
+      "part": "To have done",
+      "heading": "Seem / appear / be said + to have + V3",
+      "rule": "**to have + V3** nói việc **đã xảy ra trước** thời điểm của động từ chính: seem, appear, be said, be thought, be believed.",
+      "formula": [
+        {
+          "text": "S + seem / appear + [to have] + V3"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "He [[seems to have forgotten]] the meeting.",
+          "vi": "Có vẻ anh ấy đã quên cuộc họp.",
+          "why": "Quên xảy ra trước 'seems' (bây giờ)."
+        },
+        {
+          "en": "The fire [[is thought to have started]] at night.",
+          "vi": "Người ta cho rằng lửa bắt đầu từ ban đêm.",
+          "why": "Bị động tường thuật + to have V3."
+        },
+        {
+          "en": "She [[appears to have left]] early.",
+          "vi": "Có vẻ cô ấy đã về sớm.",
+          "why": "Appear + to have V3."
+        }
+      ],
+      "check": {
+        "prompt": "The thieves seem ___ through the window.",
+        "options": [
+          "to have entered",
+          "to enter",
+          "entering"
+        ],
+        "answer": 0,
+        "explain": "Việc đã xảy ra trước → to have entered."
+      }
+    },
+    {
+      "part": "Tiếc nuối",
+      "heading": "Would like / would love + to have + V3",
+      "rule": "**would like / would love / would hate + to have + V3** = ước gì đã (nhưng không được).",
+      "body": [],
+      "examples": [
+        {
+          "en": "I'd [[like to have seen]] the show.",
+          "vi": "Giá mà tôi được xem buổi diễn.",
+          "why": "Ước điều không xảy ra."
+        },
+        {
+          "en": "She would [[love to have studied]] abroad.",
+          "vi": "Cô ấy rất muốn được du học (nhưng không thể).",
+          "why": "Would love + to have V3."
+        }
+      ],
+      "check": {
+        "prompt": "I'd love ___ your face when you heard the news!",
+        "options": [
+          "to have seen",
+          "to see",
+          "seeing"
+        ],
+        "answer": 0,
+        "explain": "Tiếc điều đã qua → to have seen."
+      }
+    },
+    {
+      "part": "Having done",
+      "heading": "Having + V3 sau giới từ và deny, regret, admit",
+      "rule": "**having + V3** nhấn việc **đã xong trước**, dùng sau giới từ và các động từ + V-ing như deny, regret, admit, remember.",
+      "body": [],
+      "examples": [
+        {
+          "en": "He denied [[having taken]] the money.",
+          "vi": "Anh ấy chối đã lấy tiền.",
+          "why": "Deny + having V3."
+        },
+        {
+          "en": "She was praised for [[having finished]] early.",
+          "vi": "Cô ấy được khen vì đã làm xong sớm.",
+          "why": "Sau giới từ for."
+        },
+        {
+          "en": "I regret [[having said]] that.",
+          "vi": "Tôi hối hận vì đã nói vậy.",
+          "why": "Regret + having V3."
+        }
+      ],
+      "check": {
+        "prompt": "He admitted ___ the car without asking.",
+        "options": [
+          "having borrowed",
+          "to have borrowed",
+          "borrow"
+        ],
+        "answer": 0,
+        "explain": "Admit + having V3."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He seems to forget the meeting yesterday.",
+      "right": "He seems to have forgotten the meeting yesterday.",
+      "why": "Việc trong quá khứ → to have + V3."
+    },
+    {
+      "wrong": "She is said to have went abroad.",
+      "right": "She is said to have gone abroad.",
+      "why": "To have + V3."
+    },
+    {
+      "wrong": "I'd like to have see that film.",
+      "right": "I'd like to have seen that film.",
+      "why": "Sau have dùng V3."
+    },
+    {
+      "wrong": "He denied to have stolen it.",
+      "right": "He denied having stolen it.",
+      "why": "Deny + V-ing → having stolen."
+    },
+    {
+      "wrong": "Having finish the work, we left.",
+      "right": "Having finished the work, we left.",
+      "why": "Having + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The museum is believed ___ in the 1920s.",
+      "options": [
+        "to have been built",
+        "to build",
+        "building"
+      ],
+      "answer": 0,
+      "explain": "Bị động, việc quá khứ → to have been built."
+    },
+    {
+      "type": "choice",
+      "prompt": "You seem ___ a lot of weight.",
+      "options": [
+        "to have lost",
+        "to lose",
+        "losing"
+      ],
+      "answer": 0,
+      "explain": "Việc đã xảy ra → to have lost."
+    },
+    {
+      "type": "choice",
+      "prompt": "She regrets ___ so rude.",
+      "options": [
+        "having been",
+        "to have been",
+        "be"
+      ],
+      "answer": 0,
+      "explain": "Regret + having V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'd like ___ to the party, but I was ill.",
+      "options": [
+        "to have gone",
+        "going",
+        "to go"
+      ],
+      "answer": 0,
+      "explain": "Tiếc điều đã qua → to have gone."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói việc ĐÃ xảy ra?",
+      "options": [
+        "He seems to know the answer.",
+        "He seems to have known the answer."
+      ],
+      "answer": 1,
+      "explain": "To have known: trước thời điểm nói."
+    },
+    {
+      "type": "fill",
+      "prompt": "The suspect is thought ___ the country.",
+      "hint": "leave",
+      "answers": [
+        "to have left"
+      ],
+      "explain": "Việc đã xảy ra → to have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "He apologized for ___ late.",
+      "hint": "be",
+      "answers": [
+        "having been",
+        "being"
+      ],
+      "explain": "Sau giới từ: having been / being."
+    },
+    {
+      "type": "fill",
+      "prompt": "I would love ___ your grandmother.",
+      "hint": "meet",
+      "answers": [
+        "to have met"
+      ],
+      "explain": "Tiếc điều không xảy ra."
+    },
+    {
+      "type": "fill",
+      "prompt": "She doesn't remember ___ the door.",
+      "hint": "lock",
+      "answers": [
+        "having locked",
+        "locking"
+      ],
+      "explain": "Remember + having V3."
+    },
+    {
+      "type": "order",
+      "vi": "Có vẻ anh ấy đã quên.",
+      "words": [
+        "He",
+        "seems",
+        "to",
+        "have",
+        "forgotten."
+      ],
+      "explain": "Seem + to have V3."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy chối đã nói dối.",
+      "words": [
+        "She",
+        "denied",
+        "having",
+        "lied."
+      ],
+      "explain": "Deny + having V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "The plane is believed to crash into the sea.",
+      "answers": [
+        "The plane is believed to have crashed into the sea."
+      ],
+      "explain": "Việc đã xảy ra → to have crashed."
+    },
+    {
+      "type": "fix",
+      "sentence": "She denied to have broken the vase.",
+      "answers": [
+        "She denied having broken the vase."
+      ],
+      "explain": "Deny + having V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'd love to have went with you.",
+      "answers": [
+        "I'd love to have gone with you."
+      ],
+      "explain": "To have + V3: gone."
+    },
+    {
+      "type": "translate",
+      "vi": "Có vẻ họ đã cãi nhau.",
+      "answers": [
+        "They seem to have argued.",
+        "They seem to have had an argument.",
+        "They seem to have quarreled.",
+        "They appear to have argued.",
+        "They appear to have had an argument.",
+        "It seems that they have argued."
+      ],
+      "explain": "Seem + to have V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi hối hận vì đã không học tiếng Anh sớm hơn.",
+      "answers": [
+        "I regret not having learned English earlier.",
+        "I regret not having studied English earlier.",
+        "I regret not learning English earlier.",
+        "I regret not studying English earlier.",
+        "I regret not having learnt English earlier.",
+        "I regret that I didn't learn English earlier."
+      ],
+      "explain": "Regret + not having V3."
+    }
+  ]
+}

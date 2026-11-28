@@ -4,7 +4,7 @@
  */
 export type OpenTask = {
   id: string;
-  level: "A1" | "A2" | "B1" | "B2";
+  level: "A1" | "A2" | "B1" | "B2" | "C1";
   mode: "write" | "speak";
   /** What to do, in Vietnamese. */
   task: string;
@@ -14,7 +14,7 @@ export type OpenTask = {
   focus: string;
 };
 
-const t = (level: "A1" | "A2" | "B1" | "B2", mode: "write" | "speak", id: string, focus: string, minWords: number, task: string, hint: string): OpenTask => ({
+const t = (level: "A1" | "A2" | "B1" | "B2" | "C1", mode: "write" | "speak", id: string, focus: string, minWords: number, task: string, hint: string): OpenTask => ({
   id: `${level.toLowerCase()}-${mode}-${id}`,
   level,
   mode,
@@ -129,4 +129,30 @@ export const OPEN_TASKS: OpenTask[] = [
   t("B2", "speak", "values", "whatever-however", 35, "Nói về những nguyên tắc bạn luôn giữ, dù hoàn cảnh thế nào.", "Whatever happens, I … However busy I am, I … No matter what …"),
   t("B2", "speak", "comparison", "linking-contrast", 40, "So sánh cuộc sống của ông bà bạn ngày trước với cuộc sống của bạn bây giờ.", "My grandparents …, whereas I … Even though … Nevertheless, …"),
   t("B2", "speak", "habits", "verb-patterns-advanced", 35, "Có thói quen nào bạn muốn bỏ? Điều gì ngăn bạn thay đổi?", "Nothing can stop me from … I insist on … I look forward to …"),
+  // C1 writing (graded by the standard model with the B2 rules, see docs/ai-policy.md)
+  t("C1", "write", "announcement", "formal-future", 80, "Viết thông báo chính thức của công ty về một thay đổi sắp tới (giờ làm, văn phòng mới, chính sách mới).", "Dear all, The office is to move … Staff are to … The new policy is set to …"),
+  t("C1", "write", "request", "distancing", 80, "Viết email rất lịch sự xin sếp cho bạn làm việc từ xa hai ngày mỗi tuần.", "Dear …, I was wondering if … I had hoped to … Would it be possible …"),
+  t("C1", "write", "proposal", "subjunctive", 90, "Viết đề xuất gửi ban giám đốc về cách cải thiện môi trường làm việc.", "I recommend that the company … It is essential that every employee … I suggest that …"),
+  t("C1", "write", "gratitude", "were-it-not-for", 80, "Viết thư cảm ơn một người đã thay đổi cuộc đời bạn.", "Had it not been for you, I would never have … If it weren't for your advice, I …"),
+  t("C1", "write", "turning-points", "inversion-advanced", 90, "Kể về một khoảnh khắc bạn chợt nhận ra điều quan trọng trong cuộc sống. Dùng câu nhấn mạnh.", "Not until … did I realize … Only when … did I … So … was … that …"),
+  t("C1", "write", "report", "nominalisation", 100, "Viết đoạn báo cáo ngắn về xu hướng mua sắm trực tuyến ở Việt Nam, văn phong trang trọng.", "There has been a sharp rise in … The introduction of … has led to a significant increase in …"),
+  t("C1", "write", "essay", "hedging", 120, "Trí tuệ nhân tạo sẽ lấy mất việc làm của con người? Viết đoạn luận văn thận trọng, có lập luận hai chiều.", "It could be argued that … AI tends to … To some extent, … This may well …"),
+  t("C1", "write", "review", "emphasis-devices", 90, "Viết bài đánh giá một quyển sách hoặc bộ phim bạn rất thích, có nhấn mạnh cảm xúc.", "This is by far the best … I did enjoy … The very first scene …"),
+  t("C1", "write", "argument", "discourse-markers", 110, "Có nên cấm xe máy ở trung tâm thành phố? Viết đoạn văn có lập luận rõ ràng.", "Admittedly, … That said, … To be fair, … All in all, …"),
+  t("C1", "write", "profile", "participle-advanced", 90, "Viết đoạn giới thiệu một người nổi tiếng hoặc người thân bạn ngưỡng mộ.", "Born in …, she … Having been told …, she … With … , she …"),
+  t("C1", "write", "advice", "modals-advanced", 80, "Một người bạn không biết nên ở lại công ty cũ hay chuyển việc. Viết lời khuyên cho họ.", "You may well … You might as well … I'd sooner … than …"),
+  t("C1", "write", "comparison", "comparison-advanced", 100, "So sánh cuộc sống ở Việt Nam bây giờ với 20 năm trước.", "Life is considerably … Prices are three times as … The more …, the more … It's nowhere near as …"),
+  // C1 speaking
+  t("C1", "speak", "news", "formal-future", 50, "Bạn là phát thanh viên. Đọc một bản tin ngắn về một sự kiện sắp diễn ra ở thành phố bạn.", "The festival is to open on … Organizers are set to … Thousands are expected to …"),
+  t("C1", "speak", "favor", "distancing", 45, "Nhờ một đồng nghiệp làm thay bạn một việc quan trọng, thật lịch sự.", "I was wondering if you could … I was hoping you might … Would you mind …"),
+  t("C1", "speak", "imagine", "as-if", 50, "Giả sử bạn có thể sống ở bất kỳ thời đại nào trong lịch sử. Bạn chọn thời nào và cuộc sống ra sao?", "Suppose I lived in … Imagine … I'd feel as if …"),
+  t("C1", "speak", "regrets", "perfect-infinitive", 45, "Kể về một điều bạn rất muốn đã làm khi còn trẻ.", "I'd love to have … I regret not having … I seem to have …"),
+  t("C1", "speak", "debate", "hedging", 50, "Học online có tốt bằng học trên lớp không? Nêu ý kiến thận trọng, có cân nhắc.", "It could be argued that … Students tend to … To some extent …"),
+  t("C1", "speak", "opinion", "noun-clauses", 45, "Theo bạn, điều gì quan trọng nhất để có một cuộc sống hạnh phúc?", "What matters most is … The fact that … Whether … depends on …"),
+  t("C1", "speak", "contrast", "fronting", 45, "Kể về một nơi hoặc một người bạn yêu quý dù có nhiều điểm không hoàn hảo.", "Much as I love …, … Strange as it may seem, … Gone are the days when …"),
+  t("C1", "speak", "story", "participle-advanced", 50, "Kể một câu chuyện bất ngờ xảy ra khi bạn đang đi du lịch.", "Having arrived …, we … Not knowing …, I … With everyone …"),
+  t("C1", "speak", "feelings", "verb-complement", 45, "Bạn ghét và trân trọng điều gì nhất khi làm việc nhóm?", "I resent being … I really appreciate people … I find it …"),
+  t("C1", "speak", "decision", "modals-advanced", 40, "Trời mưa to và bạn đã lỡ chuyến xe. Bạn sẽ làm gì? Nói cả cảm xúc lúc đó.", "I might as well … It may well … I could have done with …"),
+  t("C1", "speak", "precautions", "purpose-advanced", 40, "Kể những thói quen bạn làm để tránh rắc rối khi đi xa.", "I always … in case … I … so as not to … for fear of …"),
+  t("C1", "speak", "change", "comparison-advanced", 45, "Thành phố bạn sống đã thay đổi thế nào trong mười năm qua?", "It's considerably … Traffic is twice as … The more …, the … It's all the more …"),
 ];

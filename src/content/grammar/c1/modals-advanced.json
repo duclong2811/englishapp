@@ -1,0 +1,324 @@
+{
+  "id": "modals-advanced",
+  "level": "C1",
+  "title": "May well, might as well, would sooner",
+  "summary": "Modal nâng cao: may/might well (khá có khả năng), might as well (thì cứ… đi), would sooner/would rather, could have done with (giá mà có).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "The next bus is in forty minutes.",
+      "vi": "Chuyến xe buýt tiếp theo còn bốn mươi phút nữa."
+    },
+    {
+      "who": "B",
+      "en": "We [[might as well]] walk, then.",
+      "vi": "Vậy mình đi bộ luôn cho rồi."
+    },
+    {
+      "who": "A",
+      "en": "It [[may well]] rain, though. Look at the sky.",
+      "vi": "Nhưng khá có khả năng trời mưa đấy. Nhìn trời kìa."
+    },
+    {
+      "who": "B",
+      "en": "I'[[d sooner]] get wet than wait here.",
+      "vi": "Mình thà ướt còn hơn đứng chờ ở đây."
+    },
+    {
+      "who": "A",
+      "en": "I [[could have done with]] an umbrella!",
+      "vi": "Giá mà có cái ô thì tốt!"
+    },
+    {
+      "who": "B",
+      "en": "You [[might have]] told me earlier!",
+      "vi": "Lẽ ra bạn nên nói sớm hơn chứ!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Khả năng",
+      "heading": "May well / might well / could well",
+      "rule": "**may / might / could + well + V** = **khá có khả năng** (mạnh hơn may đơn thuần).",
+      "body": [],
+      "examples": [
+        {
+          "en": "Prices [[may well]] rise again.",
+          "vi": "Giá rất có thể sẽ tăng nữa.",
+          "why": "May well: khá chắc."
+        },
+        {
+          "en": "You [[could well]] be right.",
+          "vi": "Rất có thể bạn đúng.",
+          "why": "Could well + be."
+        }
+      ],
+      "check": {
+        "prompt": "The meeting ___ well finish late. Don't wait for me.",
+        "options": [
+          "may",
+          "must",
+          "should"
+        ],
+        "answer": 0,
+        "explain": "May well = khá có khả năng."
+      }
+    },
+    {
+      "part": "Might as well",
+      "heading": "Might as well / may as well",
+      "rule": "**might / may as well + V** = **thì cứ… luôn đi** (vì không có lựa chọn nào tốt hơn).",
+      "body": [],
+      "examples": [
+        {
+          "en": "There's nothing on TV. We [[might as well]] go to bed.",
+          "vi": "Tivi chẳng có gì. Đi ngủ luôn cho rồi.",
+          "why": "Không có gì tốt hơn → might as well."
+        },
+        {
+          "en": "It's free, so you [[may as well]] take one.",
+          "vi": "Miễn phí mà, lấy một cái đi.",
+          "why": "May as well."
+        }
+      ],
+      "check": {
+        "prompt": "The shop is closed, so we ___ as well go home.",
+        "options": [
+          "might",
+          "would",
+          "should"
+        ],
+        "answer": 0,
+        "explain": "Might as well."
+      }
+    },
+    {
+      "part": "Thích hơn, giá mà",
+      "heading": "Would sooner, could have done with, might have",
+      "rule": "**would sooner / would rather + V** = thà… hơn. **could have done with + danh từ** = giá mà có (thì tốt). **might have + V3** = lẽ ra nên (trách nhẹ).",
+      "body": [],
+      "examples": [
+        {
+          "en": "I'[[d sooner]] stay home than go out in this rain.",
+          "vi": "Tôi thà ở nhà còn hơn ra ngoài trời mưa thế này.",
+          "why": "Would sooner … than."
+        },
+        {
+          "en": "I [[could have done with]] more time.",
+          "vi": "Giá mà tôi có thêm thời gian.",
+          "why": "Could have done with + danh từ."
+        },
+        {
+          "en": "You [[might have]] warned me!",
+          "vi": "Lẽ ra bạn nên báo trước cho tôi chứ!",
+          "why": "Might have + V3: trách nhẹ."
+        }
+      ],
+      "check": {
+        "prompt": "That exam was hard. I could have done ___ another week to study.",
+        "options": [
+          "with",
+          "for",
+          "by"
+        ],
+        "answer": 0,
+        "explain": "Could have done with."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "We might as well to walk.",
+      "right": "We might as well walk.",
+      "why": "Might as well + V nguyên mẫu."
+    },
+    {
+      "wrong": "I'd sooner to stay at home.",
+      "right": "I'd sooner stay at home.",
+      "why": "Would sooner + V nguyên mẫu."
+    },
+    {
+      "wrong": "It may well to rain later.",
+      "right": "It may well rain later.",
+      "why": "May well + V nguyên mẫu."
+    },
+    {
+      "wrong": "I could have done without a coffee; I was so tired.",
+      "right": "I could have done with a coffee; I was so tired.",
+      "why": "Giá mà có → done with."
+    },
+    {
+      "wrong": "You might have tell me!",
+      "right": "You might have told me!",
+      "why": "Might have + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The train is late again. We ___ as well get a coffee.",
+      "options": [
+        "might",
+        "must",
+        "would"
+      ],
+      "answer": 0,
+      "explain": "Might as well."
+    },
+    {
+      "type": "choice",
+      "prompt": "He ___ well be the best player in the team.",
+      "options": [
+        "may",
+        "must",
+        "ought"
+      ],
+      "answer": 0,
+      "explain": "May well."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'd sooner walk ___ take that crowded bus.",
+      "options": [
+        "than",
+        "then",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "Would sooner … than."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'm exhausted. I could have done ___ a longer holiday.",
+      "options": [
+        "with",
+        "without",
+        "for"
+      ],
+      "answer": 0,
+      "explain": "Giá mà có → done with."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào là lời trách nhẹ?",
+      "options": [
+        "You might have called me!",
+        "You may well call me."
+      ],
+      "answer": 0,
+      "explain": "Might have + V3: trách nhẹ."
+    },
+    {
+      "type": "fill",
+      "prompt": "Nobody else wants it, so you ___ as well take it.",
+      "hint": "trợ động từ",
+      "answers": [
+        "might",
+        "may"
+      ],
+      "explain": "Might/may as well."
+    },
+    {
+      "type": "fill",
+      "prompt": "It could ___ snow tonight.",
+      "hint": "well",
+      "answers": [
+        "well"
+      ],
+      "explain": "Could well."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'd ___ stay here than go to that party.",
+      "hint": "thà",
+      "answers": [
+        "sooner",
+        "rather"
+      ],
+      "explain": "Would sooner/rather."
+    },
+    {
+      "type": "fill",
+      "prompt": "You might have ___ me you were coming!",
+      "hint": "tell",
+      "answers": [
+        "told"
+      ],
+      "explain": "Might have + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Vậy mình đi bộ luôn cho rồi.",
+      "words": [
+        "We",
+        "might",
+        "as",
+        "well",
+        "walk."
+      ],
+      "explain": "Might as well."
+    },
+    {
+      "type": "order",
+      "vi": "Giá mà tôi có thêm thời gian.",
+      "words": [
+        "I",
+        "could",
+        "have",
+        "done",
+        "with",
+        "more",
+        "time."
+      ],
+      "explain": "Could have done with."
+    },
+    {
+      "type": "fix",
+      "sentence": "We may as well to leave now.",
+      "answers": [
+        "We may as well leave now."
+      ],
+      "explain": "Bỏ to."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'd sooner die than to apologize.",
+      "answers": [
+        "I'd sooner die than apologize."
+      ],
+      "explain": "Than + V nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "You might have ask first!",
+      "answers": [
+        "You might have asked first!"
+      ],
+      "explain": "Might have + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Rất có thể anh ấy đã quên.",
+      "answers": [
+        "He may well have forgotten.",
+        "He might well have forgotten.",
+        "He could well have forgotten.",
+        "It's quite possible that he has forgotten.",
+        "He may well have forgotten about it."
+      ],
+      "explain": "May well + have V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi thà đi bộ còn hơn chờ xe buýt.",
+      "answers": [
+        "I'd sooner walk than wait for the bus.",
+        "I would sooner walk than wait for the bus.",
+        "I'd rather walk than wait for the bus.",
+        "I would rather walk than wait for the bus.",
+        "I'd sooner walk than wait for a bus."
+      ],
+      "explain": "Would sooner … than."
+    }
+  ]
+}

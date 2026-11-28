@@ -1,0 +1,325 @@
+{
+  "id": "emphasis-devices",
+  "level": "C1",
+  "title": "Nhấn mạnh: do/did, the very, by far, at all",
+  "summary": "Các cách nhấn mạnh trong nói và viết: do/did + V, the very + danh từ, by far + so sánh nhất, at all, whatsoever, on earth.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "You never listen to me!",
+      "vi": "Bạn chẳng bao giờ nghe mình cả!"
+    },
+    {
+      "who": "B",
+      "en": "I [[do]] listen. I just forget sometimes.",
+      "vi": "Mình CÓ nghe mà. Chỉ là đôi khi quên."
+    },
+    {
+      "who": "A",
+      "en": "You forgot my birthday, [[the very]] day I needed you.",
+      "vi": "Bạn quên sinh nhật mình, đúng ngày mình cần bạn nhất."
+    },
+    {
+      "who": "B",
+      "en": "I'm sorry. It was [[by far]] my worst mistake this year.",
+      "vi": "Xin lỗi. Đó là lỗi tệ nhất năm nay của mình, không gì sánh bằng."
+    },
+    {
+      "who": "A",
+      "en": "Why [[on earth]] didn't you call?",
+      "vi": "Sao trời ơi bạn lại không gọi?"
+    },
+    {
+      "who": "B",
+      "en": "I had no excuse [[whatsoever]]. I [[did]] buy you a gift, though!",
+      "vi": "Mình không có lý do gì hết. Nhưng mình CÓ mua quà cho bạn đấy!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Do / did",
+      "heading": "Do / does / did + V: nhấn mạnh khẳng định",
+      "rule": "Thêm **do / does / did** trước động từ nguyên mẫu để **nhấn mạnh** (thường để phản bác hoặc tương phản). Khi nói, nhấn giọng vào do/did.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[do]] like your new haircut.",
+          "vi": "Tôi thật sự thích kiểu tóc mới của bạn.",
+          "why": "Nhấn mạnh: do like."
+        },
+        {
+          "en": "She [[did]] call, but you were out.",
+          "vi": "Cô ấy CÓ gọi, nhưng bạn đi vắng.",
+          "why": "Phản bác: did call."
+        },
+        {
+          "en": "He [[does]] work hard, to be fair.",
+          "vi": "Công bằng mà nói, anh ấy làm việc chăm thật.",
+          "why": "Does + V nguyên mẫu."
+        }
+      ],
+      "check": {
+        "prompt": "I know you think I forgot, but I ___ send the email.",
+        "options": [
+          "did",
+          "was",
+          "have"
+        ],
+        "answer": 0,
+        "explain": "Nhấn mạnh quá khứ: did + V."
+      }
+    },
+    {
+      "part": "The very, by far",
+      "heading": "The very + danh từ, by far + so sánh nhất",
+      "rule": "**the very + danh từ** = chính, đúng (the very first, the very end, the very person). **by far + so sánh nhất** = hơn hẳn.",
+      "body": [],
+      "examples": [
+        {
+          "en": "He was [[the very]] first to arrive.",
+          "vi": "Anh ấy là người đến đầu tiên.",
+          "why": "The very first: nhấn mạnh."
+        },
+        {
+          "en": "This is [[by far]] the best café in town.",
+          "vi": "Đây là quán cà phê ngon nhất thị trấn, hơn hẳn.",
+          "why": "By far + so sánh nhất."
+        }
+      ],
+      "check": {
+        "prompt": "That was ___ the hardest exam I've ever taken.",
+        "options": [
+          "by far",
+          "very",
+          "so much"
+        ],
+        "answer": 0,
+        "explain": "By far + so sánh nhất."
+      }
+    },
+    {
+      "part": "Phủ định, câu hỏi",
+      "heading": "At all, whatsoever, on earth, ever",
+      "rule": "**not … at all / whatsoever** nhấn phủ định; **What / Why / How on earth…?** nhấn câu hỏi ngạc nhiên hoặc bực.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I have no idea [[whatsoever]].",
+          "vi": "Tôi hoàn toàn không biết.",
+          "why": "No + danh từ + whatsoever."
+        },
+        {
+          "en": "She didn't sleep [[at all]].",
+          "vi": "Cô ấy không ngủ chút nào.",
+          "why": "Not … at all."
+        },
+        {
+          "en": "What [[on earth]] are you doing?",
+          "vi": "Bạn đang làm cái quái gì vậy?",
+          "why": "On earth: ngạc nhiên, bực."
+        }
+      ],
+      "check": {
+        "prompt": "There is no evidence ___ that he was there.",
+        "options": [
+          "whatsoever",
+          "whatever",
+          "at all of"
+        ],
+        "answer": 0,
+        "explain": "No + danh từ + whatsoever."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I did called you yesterday.",
+      "right": "I did call you yesterday.",
+      "why": "Did + V nguyên mẫu."
+    },
+    {
+      "wrong": "She does likes you.",
+      "right": "She does like you.",
+      "why": "Does + V nguyên mẫu."
+    },
+    {
+      "wrong": "It was very the best day.",
+      "right": "It was by far the best day.",
+      "why": "By far + so sánh nhất."
+    },
+    {
+      "wrong": "I have no idea whatever.",
+      "right": "I have no idea whatsoever.",
+      "why": "Nhấn phủ định: whatsoever."
+    },
+    {
+      "wrong": "Why in earth did you do that?",
+      "right": "Why on earth did you do that?",
+      "why": "On earth."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "You may not believe me, but I ___ love you.",
+      "options": [
+        "do",
+        "am",
+        "did to"
+      ],
+      "answer": 0,
+      "explain": "Nhấn mạnh hiện tại: do + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "This is ___ the most expensive hotel here.",
+      "options": [
+        "by far",
+        "very",
+        "too"
+      ],
+      "answer": 0,
+      "explain": "By far + so sánh nhất."
+    },
+    {
+      "type": "choice",
+      "prompt": "They left at the ___ last minute.",
+      "options": [
+        "very",
+        "by far",
+        "much"
+      ],
+      "answer": 0,
+      "explain": "The very last."
+    },
+    {
+      "type": "choice",
+      "prompt": "What ___ earth happened to your car?",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "On earth."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nhấn mạnh?",
+      "options": [
+        "I did enjoy the trip.",
+        "I enjoyed the trip."
+      ],
+      "answer": 0,
+      "explain": "Did + V: nhấn mạnh."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ apologize, but she didn't hear.",
+      "hint": "nhấn mạnh quá khứ",
+      "answers": [
+        "did"
+      ],
+      "explain": "Did + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "I don't like horror films ___ all.",
+      "hint": "giới từ",
+      "answers": [
+        "at"
+      ],
+      "explain": "Not … at all."
+    },
+    {
+      "type": "fill",
+      "prompt": "That was ___ far the funniest show.",
+      "hint": "giới từ",
+      "answers": [
+        "by"
+      ],
+      "explain": "By far."
+    },
+    {
+      "type": "fill",
+      "prompt": "She is the ___ person I wanted to see.",
+      "hint": "nhấn mạnh",
+      "answers": [
+        "very"
+      ],
+      "explain": "The very + danh từ."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thật sự thích món này.",
+      "words": [
+        "I",
+        "do",
+        "like",
+        "this",
+        "dish."
+      ],
+      "explain": "Do + V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi hoàn toàn không biết.",
+      "words": [
+        "I",
+        "have",
+        "no",
+        "idea",
+        "whatsoever."
+      ],
+      "explain": "Whatsoever."
+    },
+    {
+      "type": "fix",
+      "sentence": "She did told me about it.",
+      "answers": [
+        "She did tell me about it."
+      ],
+      "explain": "Did + V nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "It is very the best place to eat.",
+      "answers": [
+        "It is by far the best place to eat."
+      ],
+      "explain": "By far + so sánh nhất."
+    },
+    {
+      "type": "fix",
+      "sentence": "How in earth did you find me?",
+      "answers": [
+        "How on earth did you find me?"
+      ],
+      "explain": "On earth."
+    },
+    {
+      "type": "translate",
+      "vi": "Đây là bộ phim hay nhất tôi từng xem, hơn hẳn.",
+      "answers": [
+        "This is by far the best film I have ever seen.",
+        "This is by far the best film I've ever seen.",
+        "This is by far the best movie I have ever seen.",
+        "This is by far the best movie I've ever seen.",
+        "This is easily the best film I've ever seen."
+      ],
+      "explain": "By far + so sánh nhất."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi CÓ khóa cửa mà!",
+      "answers": [
+        "I did lock the door!",
+        "I did lock the door.",
+        "But I did lock the door!",
+        "I definitely locked the door!",
+        "I did lock the door, I promise!"
+      ],
+      "explain": "Did + V: nhấn mạnh."
+    }
+  ]
+}

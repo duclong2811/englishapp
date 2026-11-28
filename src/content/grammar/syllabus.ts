@@ -159,11 +159,44 @@ export const B2_UNITS: { id: string; title: string; lessons: string[] }[] = [
   { id: "b2-linking", title: "Liên kết và mẫu câu", lessons: ["linking-contrast", "linking-cause", "verb-patterns-advanced", "causative-advanced", "quantifiers-advanced"] },
 ];
 
-export type GrammarLevel = "A1" | "A2" | "B1" | "B2";
+export const C1_SYLLABUS: { id: string; title: string }[] = [
+  { id: "formal-future", title: "Be to, be on the point of: tương lai trang trọng" },
+  { id: "distancing", title: "I was wondering if…: lùi thì để lịch sự" },
+  { id: "perfect-infinitive", title: "To have done, having done" },
+  { id: "subjunctive", title: "Giả định cách: I suggest he be, it is vital that" },
+  { id: "as-if", title: "As if, as though, suppose, imagine" },
+  { id: "inversion-advanced", title: "Not until, Only when, So … that: đảo ngữ nâng cao" },
+  { id: "were-it-not-for", title: "If it weren't for, but for, were it not for" },
+  { id: "nominalisation", title: "Danh từ hóa: the decision to, the failure of" },
+  { id: "noun-clauses", title: "What matters is, the fact that, whether" },
+  { id: "complex-relative", title: "The extent to which, by which time" },
+  { id: "fronting", title: "Strange as it seems, much as I like" },
+  { id: "hedging", title: "Nói rào đón: tend to, appear to, it could be argued" },
+  { id: "emphasis-devices", title: "Nhấn mạnh: do/did, the very, by far, at all" },
+  { id: "ellipsis-substitution", title: "Lược bỏ và thay thế: so, not, do so, one" },
+  { id: "discourse-markers", title: "Admittedly, that said, to be fair" },
+  { id: "participle-advanced", title: "Having been told, not knowing, with … V-ing" },
+  { id: "verb-complement", title: "Consider him to be, resent being asked" },
+  { id: "modals-advanced", title: "May well, might as well, would sooner" },
+  { id: "purpose-advanced", title: "So as not to, for fear of, lest" },
+  { id: "comparison-advanced", title: "Nowhere near, twice as, all the more" },
+];
+
+/** C1 chapters in teaching order. */
+export const C1_UNITS: { id: string; title: string; lessons: string[] }[] = [
+  { id: "c1-verbs", title: "Thì và cách nói trang trọng", lessons: ["formal-future", "distancing", "perfect-infinitive", "subjunctive"] },
+  { id: "c1-hypothetical", title: "Giả định và đảo ngữ", lessons: ["as-if", "inversion-advanced", "were-it-not-for"] },
+  { id: "c1-nouns", title: "Danh từ hóa và câu phức", lessons: ["nominalisation", "noun-clauses", "complex-relative", "fronting"] },
+  { id: "c1-discourse", title: "Văn phong và lập luận", lessons: ["hedging", "emphasis-devices", "ellipsis-substitution", "discourse-markers"] },
+  { id: "c1-patterns", title: "Mẫu câu nâng cao", lessons: ["participle-advanced", "verb-complement", "modals-advanced", "purpose-advanced", "comparison-advanced"] },
+];
+
+export type GrammarLevel = "A1" | "A2" | "B1" | "B2" | "C1";
 
 export const GRAMMAR_LEVELS: Record<GrammarLevel, { syllabus: { id: string; title: string }[]; units: { id: string; title: string; lessons: string[] }[] }> = {
   A1: { syllabus: A1_SYLLABUS, units: A1_UNITS },
   A2: { syllabus: A2_SYLLABUS, units: A2_UNITS },
   B1: { syllabus: B1_SYLLABUS, units: B1_UNITS },
   B2: { syllabus: B2_SYLLABUS, units: B2_UNITS },
+  C1: { syllabus: C1_SYLLABUS, units: C1_UNITS },
 };

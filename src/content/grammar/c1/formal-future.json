@@ -1,0 +1,343 @@
+{
+  "id": "formal-future",
+  "level": "C1",
+  "title": "Be to, be on the point of: tương lai trang trọng",
+  "summary": "Cách nói tương lai trong văn trang trọng và tin tức: be to + V (kế hoạch chính thức), be on the point of, be set to, be poised to.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Have you read the news about the new metro line?",
+      "vi": "Bạn đọc tin về tuyến metro mới chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. It [[is to open]] in December, according to the city.",
+      "vi": "Rồi. Theo thành phố thì tháng Mười Hai sẽ khai trương."
+    },
+    {
+      "who": "A",
+      "en": "And ticket prices [[are set to]] rise next year.",
+      "vi": "Và giá vé sắp tăng vào năm sau."
+    },
+    {
+      "who": "B",
+      "en": "I heard the company [[is on the point of]] signing a new contract.",
+      "vi": "Mình nghe nói công ty sắp ký hợp đồng mới."
+    },
+    {
+      "who": "A",
+      "en": "All staff [[are to attend]] a meeting on Monday.",
+      "vi": "Toàn bộ nhân viên phải dự cuộc họp hôm thứ Hai."
+    },
+    {
+      "who": "B",
+      "en": "Then the deal [[is poised to]] go ahead.",
+      "vi": "Vậy là thương vụ sắp được tiến hành."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Be to",
+      "heading": "Be to + V: kế hoạch, mệnh lệnh chính thức",
+      "rule": "**be to + V** = theo kế hoạch / quy định chính thức sẽ…, hoặc **phải** (mệnh lệnh). Rất hay gặp trong tin tức và thông báo.",
+      "formula": [
+        {
+          "text": "S + [am / is / are to] + V"
+        },
+        {
+          "text": "S + [was / were to] + V"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "The president [[is to visit]] Hanoi next week.",
+          "vi": "Tổng thống sẽ thăm Hà Nội tuần tới.",
+          "why": "Lịch chính thức → is to visit."
+        },
+        {
+          "en": "You [[are to report]] to the manager at nine.",
+          "vi": "Anh phải báo cáo với quản lý lúc chín giờ.",
+          "why": "Mệnh lệnh trang trọng."
+        },
+        {
+          "en": "Passengers [[are not to leave]] their bags unattended.",
+          "vi": "Hành khách không được để hành lý không người trông.",
+          "why": "Phủ định: lệnh cấm."
+        }
+      ],
+      "check": {
+        "prompt": "The new hospital ___ open next spring.",
+        "options": [
+          "is to",
+          "is going",
+          "will to"
+        ],
+        "answer": 0,
+        "explain": "Kế hoạch chính thức → is to + V."
+      }
+    },
+    {
+      "part": "Sắp xảy ra",
+      "heading": "Be on the point of, be about to, be on the verge of",
+      "rule": "**be on the point of / on the verge of + V-ing** = sắp sửa, ngay sát lúc. Nhấn mạnh hơn **be about to + V**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "She [[was on the point of]] leaving when he called.",
+          "vi": "Cô ấy sắp đi thì anh ấy gọi.",
+          "why": "On the point of + V-ing."
+        },
+        {
+          "en": "The company [[is on the verge of]] collapse.",
+          "vi": "Công ty đang trên bờ vực sụp đổ.",
+          "why": "On the verge of + danh từ."
+        }
+      ],
+      "check": {
+        "prompt": "They were on the point of ___ up when help arrived.",
+        "options": [
+          "giving",
+          "give",
+          "to give"
+        ],
+        "answer": 0,
+        "explain": "On the point of + V-ing."
+      }
+    },
+    {
+      "part": "Báo chí",
+      "heading": "Be set to, be poised to, be due to",
+      "rule": "**be set to / be poised to + V** = sắp, dự kiến sẽ (rất hay gặp trong tiêu đề và bản tin). **be due to** = theo lịch.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Prices [[are set to]] rise again.",
+          "vi": "Giá dự kiến sẽ tăng nữa.",
+          "why": "Set to: dự báo trong tin tức."
+        },
+        {
+          "en": "The team [[is poised to]] win the title.",
+          "vi": "Đội sắp giành chức vô địch.",
+          "why": "Poised to: sẵn sàng, sắp đạt."
+        },
+        {
+          "en": "The report [[is due to]] be published in May.",
+          "vi": "Báo cáo dự kiến công bố tháng Năm.",
+          "why": "Due to: theo lịch."
+        }
+      ],
+      "check": {
+        "prompt": "Experts say the economy ___ to grow by 6%.",
+        "options": [
+          "is set",
+          "is setting",
+          "sets"
+        ],
+        "answer": 0,
+        "explain": "Dự báo → is set to."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The minister is to visiting the school.",
+      "right": "The minister is to visit the school.",
+      "why": "Be to + V nguyên mẫu."
+    },
+    {
+      "wrong": "She was on the point to leave.",
+      "right": "She was on the point of leaving.",
+      "why": "On the point of + V-ing."
+    },
+    {
+      "wrong": "Prices are set rising.",
+      "right": "Prices are set to rise.",
+      "why": "Be set to + V."
+    },
+    {
+      "wrong": "You are to not use your phone.",
+      "right": "You are not to use your phone.",
+      "why": "Phủ định: are not to + V."
+    },
+    {
+      "wrong": "The firm is on the verge to close.",
+      "right": "The firm is on the verge of closing.",
+      "why": "On the verge of + V-ing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The two leaders ___ meet in Geneva next month.",
+      "options": [
+        "are to",
+        "are going",
+        "are about"
+      ],
+      "answer": 0,
+      "explain": "Kế hoạch chính thức → are to."
+    },
+    {
+      "type": "choice",
+      "prompt": "I was on the point of ___ the job when they raised my salary.",
+      "options": [
+        "quitting",
+        "quit",
+        "to quit"
+      ],
+      "answer": 0,
+      "explain": "On the point of + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Visitors ___ to take photos inside the museum.",
+      "options": [
+        "are not",
+        "do not",
+        "will not"
+      ],
+      "answer": 0,
+      "explain": "Lệnh cấm trang trọng: are not to."
+    },
+    {
+      "type": "choice",
+      "prompt": "The new airport is ___ to open in 2028.",
+      "options": [
+        "due",
+        "about",
+        "point"
+      ],
+      "answer": 0,
+      "explain": "Theo lịch → due to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào giống văn tin tức?",
+      "options": [
+        "The bank is set to cut interest rates.",
+        "The bank will maybe cut interest rates."
+      ],
+      "answer": 0,
+      "explain": "Be set to: cách nói của báo chí."
+    },
+    {
+      "type": "fill",
+      "prompt": "All students ___ wear uniforms.",
+      "hint": "phải (trang trọng)",
+      "answers": [
+        "are to"
+      ],
+      "explain": "Mệnh lệnh trang trọng: are to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "The species is on the verge of ___.",
+      "hint": "extinct",
+      "answers": [
+        "extinction"
+      ],
+      "explain": "On the verge of + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "Fuel prices are ___ to rise next month.",
+      "hint": "dự kiến",
+      "answers": [
+        "set",
+        "expected",
+        "due"
+      ],
+      "explain": "Be set to / expected to."
+    },
+    {
+      "type": "fill",
+      "prompt": "We were on the point ___ giving up.",
+      "hint": "giới từ",
+      "answers": [
+        "of"
+      ],
+      "explain": "On the point of + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Thủ tướng sẽ thăm Đà Nẵng vào thứ Sáu.",
+      "words": [
+        "The",
+        "prime",
+        "minister",
+        "is",
+        "to",
+        "visit",
+        "Da",
+        "Nang",
+        "on",
+        "Friday."
+      ],
+      "explain": "Be to + V: lịch chính thức."
+    },
+    {
+      "type": "order",
+      "vi": "Công ty sắp sụp đổ.",
+      "words": [
+        "The",
+        "company",
+        "is",
+        "on",
+        "the",
+        "verge",
+        "of",
+        "collapse."
+      ],
+      "explain": "On the verge of + danh từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "The workers are to receiving a bonus.",
+      "answers": [
+        "The workers are to receive a bonus."
+      ],
+      "explain": "Be to + V nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "He was on the point to cry.",
+      "answers": [
+        "He was on the point of crying."
+      ],
+      "explain": "On the point of + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "The team is poised winning the cup.",
+      "answers": [
+        "The team is poised to win the cup."
+      ],
+      "explain": "Poised to + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Hội nghị sẽ được tổ chức ở Huế.",
+      "answers": [
+        "The conference is to be held in Hue.",
+        "The conference will be held in Hue.",
+        "The conference is to take place in Hue.",
+        "The conference is due to be held in Hue.",
+        "The conference is set to be held in Hue."
+      ],
+      "explain": "Be to + be + V3 (bị động)."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi sắp bỏ cuộc thì cô ấy giúp tôi.",
+      "answers": [
+        "I was on the point of giving up when she helped me.",
+        "I was about to give up when she helped me.",
+        "I was on the verge of giving up when she helped me.",
+        "I was on the point of giving up when she came to help me.",
+        "I was about to give up when she came to help me."
+      ],
+      "explain": "On the point of + V-ing."
+    }
+  ]
+}

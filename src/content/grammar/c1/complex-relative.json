@@ -1,0 +1,328 @@
+{
+  "id": "complex-relative",
+  "level": "C1",
+  "title": "The extent to which, by which time",
+  "summary": "Mệnh đề quan hệ trang trọng: the extent to which, the way in which, by which time, at which point, the reason for which, whereby.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Did you read the report on online learning?",
+      "vi": "Bạn đọc báo cáo về học trực tuyến chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. It studies [[the extent to which]] students benefit.",
+      "vi": "Rồi. Nó nghiên cứu học sinh được lợi đến mức nào."
+    },
+    {
+      "who": "A",
+      "en": "And [[the way in which]] teachers adapt?",
+      "vi": "Còn cách giáo viên thích ứng?"
+    },
+    {
+      "who": "B",
+      "en": "That too. The study ran until 2024, [[by which time]] most schools had reopened.",
+      "vi": "Cũng có. Nghiên cứu chạy đến 2024, lúc đó hầu hết trường đã mở lại."
+    },
+    {
+      "who": "A",
+      "en": "Did they suggest a new system?",
+      "vi": "Họ có đề xuất hệ thống mới không?"
+    },
+    {
+      "who": "B",
+      "en": "A system [[whereby]] students choose their own pace.",
+      "vi": "Một hệ thống mà học sinh tự chọn tốc độ học."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Giới từ + which",
+      "heading": "The extent to which, the way in which",
+      "rule": "Văn trang trọng đặt **giới từ trước which**: **the extent to which** (mức độ mà), **the way in which** (cách mà), **the reason for which**, **the degree to which**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "We studied [[the extent to which]] prices affect sales.",
+          "vi": "Chúng tôi nghiên cứu giá ảnh hưởng doanh số đến mức nào.",
+          "why": "The extent to which + mệnh đề."
+        },
+        {
+          "en": "I like [[the way in which]] she explains things.",
+          "vi": "Tôi thích cách cô ấy giải thích.",
+          "why": "The way in which = the way."
+        }
+      ],
+      "check": {
+        "prompt": "The report looks at the degree ___ which people trust the news.",
+        "options": [
+          "to",
+          "in",
+          "of"
+        ],
+        "answer": 0,
+        "explain": "The degree to which."
+      }
+    },
+    {
+      "part": "Mệnh đề thời gian",
+      "heading": "By which time, at which point, in which case",
+      "rule": "Sau dấu phẩy, **giới từ + which + danh từ** nối thêm thông tin: **by which time** (đến lúc đó), **at which point** (vào lúc đó), **in which case** (trong trường hợp đó).",
+      "body": [],
+      "examples": [
+        {
+          "en": "We arrived at ten, [[by which time]] the show had ended.",
+          "vi": "Chúng tôi đến lúc mười giờ, đến lúc đó buổi diễn đã kết thúc.",
+          "why": "By which time: đến lúc đó."
+        },
+        {
+          "en": "He started shouting, [[at which point]] I left.",
+          "vi": "Anh ấy bắt đầu la hét, lúc đó tôi bỏ đi.",
+          "why": "At which point: ngay lúc đó."
+        },
+        {
+          "en": "It may rain, [[in which case]] we'll stay inside.",
+          "vi": "Có thể trời mưa, khi đó chúng ta sẽ ở trong nhà.",
+          "why": "In which case: nếu vậy."
+        }
+      ],
+      "check": {
+        "prompt": "The bus may be late, in ___ case we'll take a taxi.",
+        "options": [
+          "which",
+          "what",
+          "that"
+        ],
+        "answer": 0,
+        "explain": "In which case."
+      }
+    },
+    {
+      "part": "Whereby",
+      "heading": "Whereby: theo đó, nhờ đó",
+      "rule": "**whereby** = theo đó / nhờ đó (một hệ thống, thỏa thuận, cách làm). Rất trang trọng, hay gặp trong văn bản chính thức.",
+      "body": [],
+      "examples": [
+        {
+          "en": "They signed an agreement [[whereby]] both sides share profits.",
+          "vi": "Họ ký thỏa thuận theo đó hai bên chia lợi nhuận.",
+          "why": "Whereby = by which."
+        },
+        {
+          "en": "a system [[whereby]] users pay monthly",
+          "vi": "một hệ thống theo đó người dùng trả hàng tháng",
+          "why": "Mô tả cơ chế."
+        }
+      ],
+      "check": {
+        "prompt": "They created a scheme ___ workers can buy shares.",
+        "options": [
+          "whereby",
+          "where",
+          "which"
+        ],
+        "answer": 0,
+        "explain": "Cơ chế theo đó → whereby."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "We measured the extent which it helped.",
+      "right": "We measured the extent to which it helped.",
+      "why": "The extent to which."
+    },
+    {
+      "wrong": "The way how she talks is funny.",
+      "right": "The way she talks is funny.",
+      "why": "Không dùng the way how."
+    },
+    {
+      "wrong": "We got there at nine, by that time it was dark.",
+      "right": "We got there at nine, by which time it was dark.",
+      "why": "Nối mệnh đề → by which time."
+    },
+    {
+      "wrong": "It may snow, in that case we'll cancel.",
+      "right": "It may snow, in which case we'll cancel.",
+      "why": "Nối mệnh đề → in which case."
+    },
+    {
+      "wrong": "The degree in which people agree varies.",
+      "right": "The degree to which people agree varies.",
+      "why": "The degree to which."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The study examines the extent ___ which diet affects sleep.",
+      "options": [
+        "to",
+        "of",
+        "in"
+      ],
+      "answer": 0,
+      "explain": "The extent to which."
+    },
+    {
+      "type": "choice",
+      "prompt": "The meeting lasted until six, ___ which time everyone was exhausted.",
+      "options": [
+        "by",
+        "in",
+        "on"
+      ],
+      "answer": 0,
+      "explain": "By which time."
+    },
+    {
+      "type": "choice",
+      "prompt": "She told a joke, at ___ point everyone laughed.",
+      "options": [
+        "which",
+        "that",
+        "what"
+      ],
+      "answer": 0,
+      "explain": "At which point."
+    },
+    {
+      "type": "choice",
+      "prompt": "They agreed on a plan ___ each team gets equal funding.",
+      "options": [
+        "whereby",
+        "whereas",
+        "wherever"
+      ],
+      "answer": 0,
+      "explain": "Whereby = theo đó."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I don't like the way how he speaks.",
+        "I don't like the way in which he speaks."
+      ],
+      "answer": 1,
+      "explain": "The way in which (không dùng the way how)."
+    },
+    {
+      "type": "fill",
+      "prompt": "We may be late, in ___ case please start without us.",
+      "hint": "đại từ",
+      "answers": [
+        "which"
+      ],
+      "explain": "In which case."
+    },
+    {
+      "type": "fill",
+      "prompt": "The report shows the degree ___ which the river is polluted.",
+      "hint": "giới từ",
+      "answers": [
+        "to"
+      ],
+      "explain": "The degree to which."
+    },
+    {
+      "type": "fill",
+      "prompt": "We left at eight, by which ___ the roads were empty.",
+      "hint": "danh từ",
+      "answers": [
+        "time"
+      ],
+      "explain": "By which time."
+    },
+    {
+      "type": "fill",
+      "prompt": "It was a system ___ staff could work from home.",
+      "hint": "theo đó",
+      "answers": [
+        "whereby"
+      ],
+      "explain": "Whereby."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thích cách cô ấy dạy.",
+      "words": [
+        "I",
+        "like",
+        "the",
+        "way",
+        "in",
+        "which",
+        "she",
+        "teaches."
+      ],
+      "explain": "The way in which."
+    },
+    {
+      "type": "order",
+      "vi": "Có thể trời mưa, khi đó chúng ta ở nhà.",
+      "words": [
+        "It",
+        "may",
+        "rain",
+        "in",
+        "which",
+        "case",
+        "we",
+        "will",
+        "stay",
+        "home."
+      ],
+      "explain": "In which case."
+    },
+    {
+      "type": "fix",
+      "sentence": "We studied the extent which people use apps.",
+      "answers": [
+        "We studied the extent to which people use apps."
+      ],
+      "explain": "Thiếu to."
+    },
+    {
+      "type": "fix",
+      "sentence": "He arrived at noon, by that time we had left.",
+      "answers": [
+        "He arrived at noon, by which time we had left."
+      ],
+      "explain": "By which time."
+    },
+    {
+      "type": "fix",
+      "sentence": "Look at the way how they work together.",
+      "answers": [
+        "Look at the way they work together."
+      ],
+      "explain": "Bỏ how."
+    },
+    {
+      "type": "translate",
+      "vi": "Nghiên cứu xem xét mạng xã hội ảnh hưởng đến giới trẻ đến mức nào.",
+      "answers": [
+        "The study examines the extent to which social media affects young people.",
+        "The study looks at the extent to which social media affects young people.",
+        "The research examines the extent to which social media affects young people.",
+        "The study examines the extent to which social media influences young people.",
+        "The study examines how much social media affects young people."
+      ],
+      "explain": "The extent to which."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi đến lúc chín giờ, lúc đó mọi người đã về hết.",
+      "answers": [
+        "We arrived at nine, by which time everyone had left.",
+        "We arrived at nine, by which time everyone had gone home.",
+        "We got there at nine, by which time everyone had left.",
+        "We got there at nine, by which time everyone had gone home.",
+        "We arrived at nine o'clock, by which time everyone had left."
+      ],
+      "explain": "By which time."
+    }
+  ]
+}

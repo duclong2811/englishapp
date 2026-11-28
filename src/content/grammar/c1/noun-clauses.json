@@ -1,0 +1,322 @@
+{
+  "id": "noun-clauses",
+  "level": "C1",
+  "title": "What matters is, the fact that, whether",
+  "summary": "Dùng mệnh đề làm chủ ngữ hoặc tân ngữ: What matters is…, The fact that…, Whether… is unclear, It is unclear whether…",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Do you think the plan will work?",
+      "vi": "Bạn nghĩ kế hoạch sẽ thành công không?"
+    },
+    {
+      "who": "B",
+      "en": "[[Whether it works]] depends on the budget.",
+      "vi": "Có thành công hay không còn tùy ngân sách."
+    },
+    {
+      "who": "A",
+      "en": "[[The fact that]] we have no money worries me.",
+      "vi": "Việc chúng ta không có tiền làm tôi lo."
+    },
+    {
+      "who": "B",
+      "en": "[[What matters]] is that the team believes in it.",
+      "vi": "Điều quan trọng là cả nhóm tin vào nó."
+    },
+    {
+      "who": "A",
+      "en": "[[It's unclear whether]] the boss will agree.",
+      "vi": "Chưa rõ sếp có đồng ý không."
+    },
+    {
+      "who": "B",
+      "en": "[[How we present it]] will make the difference.",
+      "vi": "Cách chúng ta trình bày sẽ tạo nên khác biệt."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Làm chủ ngữ",
+      "heading": "What / Whether / How… + V (số ít)",
+      "rule": "Một **mệnh đề** có thể làm **chủ ngữ** cả câu: **What + S + V**, **Whether + S + V**, **How / Why + S + V**. Động từ chính chia **số ít**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[What he said]] was true.",
+          "vi": "Điều anh ấy nói là thật.",
+          "why": "Mệnh đề What làm chủ ngữ."
+        },
+        {
+          "en": "[[Whether we go]] depends on the weather.",
+          "vi": "Có đi hay không tùy thời tiết.",
+          "why": "Whether + mệnh đề làm chủ ngữ."
+        },
+        {
+          "en": "[[Why she left]] is still a mystery.",
+          "vi": "Vì sao cô ấy bỏ đi vẫn là bí ẩn.",
+          "why": "Why + S + V (không đảo)."
+        }
+      ],
+      "check": {
+        "prompt": "___ he will come is not certain.",
+        "options": [
+          "Whether",
+          "If",
+          "That if"
+        ],
+        "answer": 0,
+        "explain": "Đầu câu làm chủ ngữ → Whether (không dùng If)."
+      }
+    },
+    {
+      "part": "The fact that",
+      "heading": "The fact that + mệnh đề",
+      "rule": "**The fact that + mệnh đề** biến cả một sự việc thành danh từ, dùng làm chủ ngữ hoặc sau giới từ (despite, due to).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[The fact that]] he lied upset me.",
+          "vi": "Việc anh ấy nói dối làm tôi buồn.",
+          "why": "The fact that làm chủ ngữ."
+        },
+        {
+          "en": "Despite [[the fact that]] it rained, we went out.",
+          "vi": "Dù trời mưa, chúng tôi vẫn ra ngoài.",
+          "why": "Sau giới từ despite."
+        }
+      ],
+      "check": {
+        "prompt": "Due to the fact ___ the road was closed, we were late.",
+        "options": [
+          "that",
+          "which",
+          "what"
+        ],
+        "answer": 0,
+        "explain": "The fact that + mệnh đề."
+      }
+    },
+    {
+      "part": "It … whether",
+      "heading": "It is unclear / doubtful whether…",
+      "rule": "Đặt **It** làm chủ ngữ giả, đưa mệnh đề dài ra sau: **It is unclear / uncertain / doubtful + whether / how / why…**",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[It is unclear whether]] the plan will work.",
+          "vi": "Chưa rõ kế hoạch có hiệu quả không.",
+          "why": "= Whether the plan will work is unclear."
+        },
+        {
+          "en": "[[It doesn't matter what]] you wear.",
+          "vi": "Bạn mặc gì cũng không sao.",
+          "why": "It doesn't matter + what."
+        }
+      ],
+      "check": {
+        "prompt": "It is doubtful ___ they will finish on time.",
+        "options": [
+          "whether",
+          "what",
+          "which"
+        ],
+        "answer": 0,
+        "explain": "Doubtful whether."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If he will come is not clear.",
+      "right": "Whether he will come is not clear.",
+      "why": "Đầu câu làm chủ ngữ → Whether."
+    },
+    {
+      "wrong": "What he said were true.",
+      "right": "What he said was true.",
+      "why": "Mệnh đề làm chủ ngữ → số ít."
+    },
+    {
+      "wrong": "Why did she leave is a mystery.",
+      "right": "Why she left is a mystery.",
+      "why": "Không đảo trong mệnh đề danh từ."
+    },
+    {
+      "wrong": "Despite he was tired, he continued.",
+      "right": "Despite the fact that he was tired, he continued.",
+      "why": "Despite + the fact that + mệnh đề."
+    },
+    {
+      "wrong": "The fact he lied it upset me.",
+      "right": "The fact that he lied upset me.",
+      "why": "Bỏ it thừa; thêm that."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ you do now will affect your future.",
+      "options": [
+        "What",
+        "That",
+        "Which"
+      ],
+      "answer": 0,
+      "explain": "What + S + V làm chủ ngữ."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ she will accept the offer is uncertain.",
+      "options": [
+        "Whether",
+        "If",
+        "That"
+      ],
+      "answer": 0,
+      "explain": "Đầu câu → Whether."
+    },
+    {
+      "type": "choice",
+      "prompt": "The fact that he ___ the truth surprised us.",
+      "options": [
+        "told",
+        "telling",
+        "tell"
+      ],
+      "answer": 0,
+      "explain": "The fact that + mệnh đề đầy đủ."
+    },
+    {
+      "type": "choice",
+      "prompt": "How they ___ the money is not known.",
+      "options": [
+        "spent",
+        "did spend",
+        "did they spend"
+      ],
+      "answer": 0,
+      "explain": "Không đảo trong mệnh đề danh từ."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "It is unclear whether he knows.",
+        "It is unclear does he know."
+      ],
+      "answer": 0,
+      "explain": "It is unclear whether + S + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ matters most is your health.",
+      "hint": "từ để hỏi",
+      "answers": [
+        "What"
+      ],
+      "explain": "What + V làm chủ ngữ."
+    },
+    {
+      "type": "fill",
+      "prompt": "The ___ that she is young does not matter.",
+      "hint": "danh từ",
+      "answers": [
+        "fact"
+      ],
+      "explain": "The fact that."
+    },
+    {
+      "type": "fill",
+      "prompt": "It doesn't matter ___ you arrive, just come.",
+      "hint": "khi nào",
+      "answers": [
+        "when"
+      ],
+      "explain": "It doesn't matter + when."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ he left so early nobody knows.",
+      "hint": "vì sao",
+      "answers": [
+        "Why"
+      ],
+      "explain": "Why + S + V."
+    },
+    {
+      "type": "order",
+      "vi": "Điều anh ấy nói là đúng.",
+      "words": [
+        "What",
+        "he",
+        "said",
+        "was",
+        "true."
+      ],
+      "explain": "What + S + V làm chủ ngữ."
+    },
+    {
+      "type": "order",
+      "vi": "Chưa rõ họ có đến không.",
+      "words": [
+        "It",
+        "is",
+        "unclear",
+        "whether",
+        "they",
+        "will",
+        "come."
+      ],
+      "explain": "It is unclear whether."
+    },
+    {
+      "type": "fix",
+      "sentence": "Where does he live is a secret.",
+      "answers": [
+        "Where he lives is a secret."
+      ],
+      "explain": "Không đảo trong mệnh đề danh từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "What they need are more time.",
+      "answers": [
+        "What they need is more time."
+      ],
+      "explain": "Động từ số ít."
+    },
+    {
+      "type": "fix",
+      "sentence": "If the shop is open is not clear.",
+      "answers": [
+        "Whether the shop is open is not clear."
+      ],
+      "explain": "Đầu câu → Whether."
+    },
+    {
+      "type": "translate",
+      "vi": "Việc anh ấy đi muộn không phải là vấn đề.",
+      "answers": [
+        "The fact that he was late is not a problem.",
+        "The fact that he was late isn't a problem.",
+        "The fact that he came late is not a problem.",
+        "The fact that he arrived late is not a problem.",
+        "That he was late is not a problem."
+      ],
+      "explain": "The fact that + mệnh đề."
+    },
+    {
+      "type": "translate",
+      "vi": "Điều quan trọng là bạn đã cố gắng.",
+      "answers": [
+        "What matters is that you tried.",
+        "What matters is that you have tried.",
+        "What is important is that you tried.",
+        "What's important is that you tried.",
+        "The important thing is that you tried."
+      ],
+      "explain": "What matters is that."
+    }
+  ]
+}

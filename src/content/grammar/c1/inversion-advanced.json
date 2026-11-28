@@ -1,0 +1,334 @@
+{
+  "id": "inversion-advanced",
+  "level": "C1",
+  "title": "Not until, Only when, So … that: đảo ngữ nâng cao",
+  "summary": "Đảo ngữ sau Not until, Only when/after/by, Under no circumstances, So + tính từ, Such + be; dùng trong văn viết trang trọng.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How did the negotiations go?",
+      "vi": "Đàm phán thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "[[Not until]] midnight [[did they]] reach an agreement.",
+      "vi": "Mãi đến nửa đêm họ mới đạt được thỏa thuận."
+    },
+    {
+      "who": "A",
+      "en": "Wow. Was it difficult?",
+      "vi": "Trời. Khó lắm à?"
+    },
+    {
+      "who": "B",
+      "en": "[[So tense was]] the meeting [[that]] nobody spoke for an hour.",
+      "vi": "Cuộc họp căng đến mức cả tiếng không ai nói gì."
+    },
+    {
+      "who": "A",
+      "en": "[[Only when]] the CEO arrived [[did]] things improve, I guess?",
+      "vi": "Chắc chỉ khi giám đốc đến mọi việc mới khá hơn?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. And [[under no circumstances are]] we to discuss it publicly.",
+      "vi": "Đúng. Và tuyệt đối không được bàn chuyện này công khai."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Not until, only",
+      "heading": "Not until / Only when / Only after / Only by",
+      "rule": "Khi **Not until…** hoặc **Only + cụm thời gian / cách thức** đứng đầu, **đảo ngữ ở mệnh đề chính** (sau dấu phẩy hoặc sau cụm đó).",
+      "formula": [
+        {
+          "text": "[Not until] + mốc / mệnh đề + [trợ động từ] + S + V"
+        },
+        {
+          "text": "[Only when / after / by] + … + [trợ động từ] + S + V"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Not until]] I got home [[did I]] realize my mistake.",
+          "vi": "Mãi đến khi về nhà tôi mới nhận ra lỗi của mình.",
+          "why": "Đảo ở mệnh đề chính: did I realize."
+        },
+        {
+          "en": "[[Only by]] working together [[can we]] solve this.",
+          "vi": "Chỉ bằng cách hợp tác chúng ta mới giải quyết được.",
+          "why": "Only by + V-ing → can we."
+        },
+        {
+          "en": "[[Only after]] the test [[did she]] relax.",
+          "vi": "Chỉ sau bài kiểm tra cô ấy mới thư giãn.",
+          "why": "Only after + danh từ → did she."
+        }
+      ],
+      "check": {
+        "prompt": "Not until the end of the film ___ who the killer was.",
+        "options": [
+          "did we learn",
+          "we learned",
+          "we did learn"
+        ],
+        "answer": 0,
+        "explain": "Đảo ở mệnh đề chính."
+      }
+    },
+    {
+      "part": "So, such",
+      "heading": "So + tính từ + be… that / Such + be… that",
+      "rule": "**So + tính từ / trạng từ + trợ động từ + S + that…** và **Such + be + danh từ + that…** = đến mức… Nhấn mạnh trong văn viết.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[So strong was]] the wind [[that]] trees fell.",
+          "vi": "Gió mạnh đến mức cây đổ.",
+          "why": "So + tính từ + was + S."
+        },
+        {
+          "en": "[[Such was]] his anger [[that]] he left.",
+          "vi": "Anh ấy giận đến mức bỏ đi.",
+          "why": "Such + be + danh từ."
+        }
+      ],
+      "check": {
+        "prompt": "So difficult ___ that nobody passed.",
+        "options": [
+          "was the exam",
+          "the exam was",
+          "the exam is"
+        ],
+        "answer": 0,
+        "explain": "So + tính từ + was + S."
+      }
+    },
+    {
+      "part": "Phủ định mạnh",
+      "heading": "Under no circumstances, On no account, In no way",
+      "rule": "Cụm phủ định mạnh ở đầu câu + **đảo ngữ**: **Under no circumstances / On no account / In no way / At no time**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Under no circumstances should you]] open this door.",
+          "vi": "Trong bất kỳ trường hợp nào bạn cũng không được mở cửa này.",
+          "why": "Lệnh cấm tuyệt đối."
+        },
+        {
+          "en": "[[At no time was]] the public in danger.",
+          "vi": "Chưa lúc nào người dân gặp nguy hiểm.",
+          "why": "At no time + was + S."
+        }
+      ],
+      "check": {
+        "prompt": "On no account ___ leave your bag here.",
+        "options": [
+          "should you",
+          "you should",
+          "you"
+        ],
+        "answer": 0,
+        "explain": "Cụm phủ định đầu câu → should you."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Not until I saw her I knew the truth.",
+      "right": "Not until I saw her did I know the truth.",
+      "why": "Đảo ở mệnh đề chính."
+    },
+    {
+      "wrong": "Only when he left I relaxed.",
+      "right": "Only when he left did I relax.",
+      "why": "Only when… → đảo: did I relax."
+    },
+    {
+      "wrong": "So hot the weather was that we stayed in.",
+      "right": "So hot was the weather that we stayed in.",
+      "why": "So + tính từ + was + S."
+    },
+    {
+      "wrong": "Under no circumstances you should touch it.",
+      "right": "Under no circumstances should you touch it.",
+      "why": "Đảo: should you."
+    },
+    {
+      "wrong": "Not until did I get home I realized it.",
+      "right": "Not until I got home did I realize it.",
+      "why": "Mệnh đề sau Not until giữ trật tự thường."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Only when the rain stopped ___ outside.",
+      "options": [
+        "did we go",
+        "we went",
+        "went we"
+      ],
+      "answer": 0,
+      "explain": "Only when… → đảo ở mệnh đề chính."
+    },
+    {
+      "type": "choice",
+      "prompt": "Not until 2010 ___ the bridge finished.",
+      "options": [
+        "was",
+        "it was",
+        "did"
+      ],
+      "answer": 0,
+      "explain": "Đảo: was the bridge finished."
+    },
+    {
+      "type": "choice",
+      "prompt": "Such ___ the noise that I couldn't sleep.",
+      "options": [
+        "was",
+        "is being",
+        "were"
+      ],
+      "answer": 0,
+      "explain": "Such + was + danh từ."
+    },
+    {
+      "type": "choice",
+      "prompt": "At no time ___ that the plan would fail.",
+      "options": [
+        "did I think",
+        "I thought",
+        "I did think"
+      ],
+      "answer": 0,
+      "explain": "At no time → did I think."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Only by practicing daily you can improve.",
+        "Only by practicing daily can you improve."
+      ],
+      "answer": 1,
+      "explain": "Đảo: can you."
+    },
+    {
+      "type": "fill",
+      "prompt": "Not until he apologized ___ she forgive him.",
+      "hint": "trợ động từ",
+      "answers": [
+        "did"
+      ],
+      "explain": "Đảo: did she forgive."
+    },
+    {
+      "type": "fill",
+      "prompt": "So tired ___ we that we fell asleep at once.",
+      "hint": "be",
+      "answers": [
+        "were"
+      ],
+      "explain": "So + tính từ + were + S."
+    },
+    {
+      "type": "fill",
+      "prompt": "Under no circumstances ___ staff accept gifts.",
+      "hint": "trợ động từ",
+      "answers": [
+        "should",
+        "may",
+        "can"
+      ],
+      "explain": "Cụm phủ định → should staff."
+    },
+    {
+      "type": "fill",
+      "prompt": "Only after the meeting ___ I understand the plan.",
+      "hint": "trợ động từ",
+      "answers": [
+        "did"
+      ],
+      "explain": "Đảo: did I understand."
+    },
+    {
+      "type": "order",
+      "vi": "Mãi đến lúc đó tôi mới hiểu.",
+      "words": [
+        "Not",
+        "until",
+        "then",
+        "did",
+        "I",
+        "understand."
+      ],
+      "explain": "Not until + đảo."
+    },
+    {
+      "type": "order",
+      "vi": "Gió mạnh đến mức cây đổ.",
+      "words": [
+        "So",
+        "strong",
+        "was",
+        "the",
+        "wind",
+        "that",
+        "trees",
+        "fell."
+      ],
+      "explain": "So + tính từ + was + S."
+    },
+    {
+      "type": "fix",
+      "sentence": "Only after the storm we went out.",
+      "answers": [
+        "Only after the storm did we go out."
+      ],
+      "explain": "Đảo: did we go."
+    },
+    {
+      "type": "fix",
+      "sentence": "Such the demand was that tickets sold out.",
+      "answers": [
+        "Such was the demand that tickets sold out."
+      ],
+      "explain": "Such + was + danh từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "On no account you must tell anyone.",
+      "answers": [
+        "On no account must you tell anyone."
+      ],
+      "explain": "Đảo: must you."
+    },
+    {
+      "type": "translate",
+      "vi": "Chỉ khi mất sức khỏe chúng ta mới thấy nó quý giá.",
+      "answers": [
+        "Only when we lose our health do we realize how precious it is.",
+        "Only when we lose our health do we see how precious it is.",
+        "Only when we lose our health do we understand how precious it is.",
+        "Only when we lose our health do we realize its value.",
+        "Not until we lose our health do we realize how precious it is."
+      ],
+      "explain": "Only when + đảo."
+    },
+    {
+      "type": "translate",
+      "vi": "Trong bất kỳ trường hợp nào cũng không được để trẻ em một mình.",
+      "answers": [
+        "Under no circumstances should children be left alone.",
+        "Under no circumstances should you leave children alone.",
+        "On no account should children be left alone.",
+        "Under no circumstances should children be left on their own.",
+        "On no account should you leave children alone."
+      ],
+      "explain": "Under no circumstances + đảo."
+    }
+  ]
+}

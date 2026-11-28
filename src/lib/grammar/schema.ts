@@ -86,7 +86,7 @@ const exercise = z.discriminatedUnion("type", [
 
 export const grammarLessonSchema = z.object({
   id: z.string(),
-  level: z.enum(["A1", "A2", "B1", "B2"]),
+  level: z.enum(["A1", "A2", "B1", "B2", "C1"]),
   title: z.string(),
   summary: z.string(),
   dialogue: z.array(line).min(4),

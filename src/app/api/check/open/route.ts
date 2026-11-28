@@ -3,7 +3,7 @@ import { supportsFallbacks } from "@/lib/speaking/conversation";
 import { OPEN_TASKS } from "@/content/tests/open-tasks";
 import { findLessonTitle } from "@/lib/tests/lesson-titles";
 import { gradeSchema, openAnswerBody } from "@/lib/tests/grading";
-import { MAX_ANSWER_CHARS, planFor } from "@/lib/ai/policy";
+import { MAX_ANSWER_CHARS, planFor, policyLevel } from "@/lib/ai/policy";
 import { aiGate } from "@/lib/server/quota";
 import { anthropic, fromOtherSite, jsonError, speakEnv } from "@/lib/speaking/server";
 
@@ -31,13 +31,15 @@ export async function POST(request: Request) {
   const task = OPEN_TASKS.find((t) => t.id === parsed.data.taskId);
   if (!task) return jsonError(404, "Không tìm thấy đề.");
 
-  if (parsed.data.answer.length > MAX_ANSWER_CHARS[task.level]) return jsonError(400, "Bài quá dài so với đề.");
+  // C1 tasks follow the B2 rules (see docs/ai-policy.md).
+  const level = policyLevel(task.level);
+  if (parsed.data.answer.length > MAX_ANSWER_CHARS[level]) return jsonError(400, "Bài quá dài so với đề.");
 
   const feature = task.mode === "write" ? "write-check" : "talk-check";
   const env = speakEnv();
-  const plan = planFor(feature, task.level, env);
+  const plan = planFor(feature, level, env);
   if (!plan) return jsonError(400, "Bài ở cấp này được chấm bằng đáp án mẫu, không cần AI.");
-  const gate = await aiGate(feature, task.level);
+  const gate = await aiGate(feature, level);
   if (!gate.ok) return jsonError(gate.status, gate.error);
   const client = anthropic(env);
   if (!client) return jsonError(501, "App chưa có khóa API nên chưa chấm được.");

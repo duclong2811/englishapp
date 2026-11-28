@@ -1,0 +1,332 @@
+{
+  "id": "fronting",
+  "level": "C1",
+  "title": "Strange as it seems, much as I like",
+  "summary": "Đưa một phần câu lên đầu để nhấn mạnh hoặc nhượng bộ: Strange as it seems…, Much as I like…, Try as I might…, Gone are the days…",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Are you moving back to your hometown?",
+      "vi": "Bạn chuyển về quê à?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. [[Much as I love]] Saigon, it's too expensive.",
+      "vi": "Ừ. Dù rất yêu Sài Gòn nhưng ở đó đắt quá."
+    },
+    {
+      "who": "A",
+      "en": "[[Strange as it may seem]], I'd like to move here!",
+      "vi": "Nghe lạ nhưng mình lại muốn chuyển vào đây!"
+    },
+    {
+      "who": "B",
+      "en": "Really? [[Try as I might]], I couldn't save any money.",
+      "vi": "Thật à? Cố mấy mình cũng không tiết kiệm được đồng nào."
+    },
+    {
+      "who": "A",
+      "en": "[[Gone are the days]] when rent was cheap.",
+      "vi": "Thời giá thuê nhà rẻ qua rồi."
+    },
+    {
+      "who": "B",
+      "en": "Exactly. [[Tired as I am]] of the city, I'll miss it.",
+      "vi": "Đúng vậy. Dù chán thành phố, mình vẫn sẽ nhớ nó."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Nhượng bộ",
+      "heading": "Tính từ / trạng từ + as + S + V",
+      "rule": "**Tính từ / trạng từ + as / though + S + V** = **dù… đến đâu** (nhượng bộ, nhấn mạnh). Trang trọng hơn although.",
+      "formula": [
+        {
+          "text": "[Adj / Adv] + [as] + S + V, …"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Strange as it seems]], he never learned to swim.",
+          "vi": "Nghe lạ nhưng anh ấy chưa bao giờ học bơi.",
+          "why": "= Although it seems strange."
+        },
+        {
+          "en": "[[Tired as she was]], she kept working.",
+          "vi": "Dù mệt, cô ấy vẫn làm tiếp.",
+          "why": "Adj + as + S + V."
+        },
+        {
+          "en": "[[Hard as I tried]], I couldn't open it.",
+          "vi": "Cố mấy tôi cũng không mở được.",
+          "why": "Adv + as + S + V."
+        }
+      ],
+      "check": {
+        "prompt": "___ as it sounds, the plan might work.",
+        "options": [
+          "Crazy",
+          "Crazily",
+          "Craziness"
+        ],
+        "answer": 0,
+        "explain": "Adj + as + S + V."
+      }
+    },
+    {
+      "part": "Much as, try as",
+      "heading": "Much as I like…, Try as I might…",
+      "rule": "**Much as + S + V** = dù rất… (thích, muốn); **Try as + S + might / may** = cố mấy cũng.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Much as I like]] him, I can't lend him money.",
+          "vi": "Dù rất quý anh ấy, tôi không thể cho anh ấy vay tiền.",
+          "why": "Much as = although I really."
+        },
+        {
+          "en": "[[Try as I might]], I couldn't remember her name.",
+          "vi": "Cố mấy tôi cũng không nhớ tên cô ấy.",
+          "why": "Try as + S + might."
+        }
+      ],
+      "check": {
+        "prompt": "Much as I ___ to help, I don't have time.",
+        "options": [
+          "would like",
+          "liking",
+          "to like"
+        ],
+        "answer": 0,
+        "explain": "Much as + S + V."
+      }
+    },
+    {
+      "part": "Đảo ngữ địa điểm",
+      "heading": "Gone are the days, Here comes, On the wall hung…",
+      "rule": "Đưa **trạng ngữ nơi chốn / tính từ** lên đầu và **đảo động từ chính** lên trước chủ ngữ (văn kể chuyện, nhấn mạnh): **Gone are the days…, Here comes the bus.**",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Gone are the days]] when we wrote letters.",
+          "vi": "Thời viết thư tay đã qua rồi.",
+          "why": "Gone + are + chủ ngữ."
+        },
+        {
+          "en": "[[On the wall hung]] a large painting.",
+          "vi": "Trên tường treo một bức tranh lớn.",
+          "why": "Nơi chốn + V + S."
+        }
+      ],
+      "check": {
+        "prompt": "Gone ___ the days when phones had buttons.",
+        "options": [
+          "are",
+          "is",
+          "were they"
+        ],
+        "answer": 0,
+        "explain": "Gone are the days."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Strangely as it seems, he agreed.",
+      "right": "Strange as it seems, he agreed.",
+      "why": "Dùng tính từ: strange."
+    },
+    {
+      "wrong": "Tired as was she, she continued.",
+      "right": "Tired as she was, she continued.",
+      "why": "Adj + as + S + V (không đảo)."
+    },
+    {
+      "wrong": "Much as I like him, but I won't marry him.",
+      "right": "Much as I like him, I won't marry him.",
+      "why": "Không thêm but."
+    },
+    {
+      "wrong": "Try as I might, but I failed.",
+      "right": "Try as I might, I failed.",
+      "why": "Không thêm but."
+    },
+    {
+      "wrong": "Gone is the days of cheap rent.",
+      "right": "Gone are the days of cheap rent.",
+      "why": "Days số nhiều → are."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ as she was, she smiled.",
+      "options": [
+        "Sad",
+        "Sadly",
+        "Sadness"
+      ],
+      "answer": 0,
+      "explain": "Adj + as + S + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Much as I ___ the city, I need a quieter life.",
+      "options": [
+        "love",
+        "loving",
+        "to love"
+      ],
+      "answer": 0,
+      "explain": "Much as + S + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Try as he ___, he couldn't win.",
+      "options": [
+        "might",
+        "can",
+        "tried"
+      ],
+      "answer": 0,
+      "explain": "Try as + S + might."
+    },
+    {
+      "type": "choice",
+      "prompt": "Gone ___ the days of free parking.",
+      "options": [
+        "are",
+        "is",
+        "were it"
+      ],
+      "answer": 0,
+      "explain": "Gone are the days."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Hard as I tried, I failed.",
+        "Hard as I tried, but I failed."
+      ],
+      "answer": 0,
+      "explain": "Không thêm but."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ as it may seem, I've never seen snow.",
+      "hint": "strange",
+      "answers": [
+        "Strange"
+      ],
+      "explain": "Adj + as + S + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "Much as I ___ to stay, I must go.",
+      "hint": "want",
+      "answers": [
+        "want",
+        "would like"
+      ],
+      "explain": "Much as + S + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "Try as she ___, she couldn't stop laughing.",
+      "hint": "trợ động từ",
+      "answers": [
+        "might",
+        "may"
+      ],
+      "explain": "Try as + S + might."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ are the days when everyone smoked indoors.",
+      "hint": "go",
+      "answers": [
+        "Gone"
+      ],
+      "explain": "Gone are the days."
+    },
+    {
+      "type": "order",
+      "vi": "Dù mệt, anh ấy vẫn chạy tiếp.",
+      "words": [
+        "Tired",
+        "as",
+        "he",
+        "was",
+        "he",
+        "kept",
+        "running."
+      ],
+      "explain": "Adj + as + S + V."
+    },
+    {
+      "type": "order",
+      "vi": "Thời giá xăng rẻ đã qua rồi.",
+      "words": [
+        "Gone",
+        "are",
+        "the",
+        "days",
+        "of",
+        "cheap",
+        "petrol."
+      ],
+      "explain": "Gone are the days."
+    },
+    {
+      "type": "fix",
+      "sentence": "Strangely as it sounds, I like rain.",
+      "answers": [
+        "Strange as it sounds, I like rain."
+      ],
+      "explain": "Tính từ: strange."
+    },
+    {
+      "type": "fix",
+      "sentence": "Much as I respect him, but I disagree.",
+      "answers": [
+        "Much as I respect him, I disagree."
+      ],
+      "explain": "Bỏ but."
+    },
+    {
+      "type": "fix",
+      "sentence": "Cold as was it, we went swimming.",
+      "answers": [
+        "Cold as it was, we went swimming."
+      ],
+      "explain": "Adj + as + S + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Dù rất thích công việc này, tôi phải nghỉ.",
+      "answers": [
+        "Much as I like this job, I have to quit.",
+        "Much as I love this job, I have to quit.",
+        "Much as I like this job, I have to leave.",
+        "Much as I enjoy this job, I have to quit.",
+        "Although I really like this job, I have to quit."
+      ],
+      "explain": "Much as + S + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Cố mấy tôi cũng không ngủ được.",
+      "answers": [
+        "Try as I might, I couldn't sleep.",
+        "Try as I might, I could not sleep.",
+        "However hard I tried, I couldn't sleep.",
+        "Hard as I tried, I couldn't sleep.",
+        "Try as I may, I can't sleep.",
+        "Try as I might, I can't sleep."
+      ],
+      "explain": "Try as + S + might."
+    }
+  ]
+}

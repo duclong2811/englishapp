@@ -1,0 +1,327 @@
+{
+  "id": "purpose-advanced",
+  "level": "C1",
+  "title": "So as not to, for fear of, lest",
+  "summary": "Nói mục đích và tránh điều gì: so as (not) to, in order (not) to, for fear of/that, in case, lest (rất trang trọng).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Why are you whispering?",
+      "vi": "Sao bạn nói thì thầm vậy?"
+    },
+    {
+      "who": "B",
+      "en": "[[So as not to]] wake the baby.",
+      "vi": "Để không làm em bé thức giấc."
+    },
+    {
+      "who": "A",
+      "en": "And why did you take the stairs?",
+      "vi": "Thế sao bạn đi cầu thang bộ?"
+    },
+    {
+      "who": "B",
+      "en": "[[For fear of]] getting stuck in the lift again.",
+      "vi": "Vì sợ lại bị kẹt trong thang máy."
+    },
+    {
+      "who": "A",
+      "en": "I always carry a torch [[in case]] the power goes out.",
+      "vi": "Mình luôn mang đèn pin phòng khi mất điện."
+    },
+    {
+      "who": "B",
+      "en": "Good idea. I'll write it down [[lest]] I forget.",
+      "vi": "Ý hay. Mình ghi lại kẻo quên."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Mục đích",
+      "heading": "So as (not) to, in order (not) to",
+      "rule": "**so as to / in order to + V** = để (trang trọng hơn to). Phủ định: **so as not to / in order not to** (không dùng *not to* đơn thuần ở đầu câu).",
+      "body": [],
+      "examples": [
+        {
+          "en": "We left early [[so as to]] avoid traffic.",
+          "vi": "Chúng tôi đi sớm để tránh kẹt xe.",
+          "why": "So as to + V."
+        },
+        {
+          "en": "He spoke quietly [[so as not to]] disturb anyone.",
+          "vi": "Anh ấy nói khẽ để không làm phiền ai.",
+          "why": "So as not to + V."
+        },
+        {
+          "en": "[[In order not to]] miss the bus, she ran.",
+          "vi": "Để không lỡ xe buýt, cô ấy chạy.",
+          "why": "In order not to + V."
+        }
+      ],
+      "check": {
+        "prompt": "I set two alarms ___ oversleep.",
+        "options": [
+          "so as not to",
+          "so not to",
+          "not so as to"
+        ],
+        "answer": 0,
+        "explain": "Phủ định: so as not to."
+      }
+    },
+    {
+      "part": "Vì sợ",
+      "heading": "For fear of + V-ing / for fear that + mệnh đề",
+      "rule": "**for fear of + V-ing / danh từ** và **for fear (that) + S + might/would** = vì sợ (điều xấu xảy ra).",
+      "body": [],
+      "examples": [
+        {
+          "en": "She didn't speak [[for fear of]] making mistakes.",
+          "vi": "Cô ấy không nói vì sợ mắc lỗi.",
+          "why": "For fear of + V-ing."
+        },
+        {
+          "en": "He hid the letter [[for fear that]] his wife might read it.",
+          "vi": "Anh ấy giấu lá thư vì sợ vợ đọc được.",
+          "why": "For fear that + might."
+        }
+      ],
+      "check": {
+        "prompt": "They stayed inside for fear ___ catching a cold.",
+        "options": [
+          "of",
+          "that",
+          "to"
+        ],
+        "answer": 0,
+        "explain": "For fear of + V-ing."
+      }
+    },
+    {
+      "part": "Phòng khi",
+      "heading": "In case + hiện tại, lest + V nguyên mẫu",
+      "rule": "**in case + hiện tại đơn** = phòng khi. **lest + S + (should) + V** = kẻo, để khỏi (rất trang trọng, văn viết).",
+      "body": [],
+      "examples": [
+        {
+          "en": "Take a coat [[in case]] it gets cold.",
+          "vi": "Mang áo khoác phòng khi trời lạnh.",
+          "why": "In case + hiện tại đơn."
+        },
+        {
+          "en": "We must act now [[lest]] it be too late.",
+          "vi": "Chúng ta phải hành động ngay kẻo quá muộn.",
+          "why": "Lest + V nguyên mẫu."
+        }
+      ],
+      "check": {
+        "prompt": "Bring some cash in case the card machine ___.",
+        "options": [
+          "doesn't work",
+          "won't work",
+          "not work"
+        ],
+        "answer": 0,
+        "explain": "In case + hiện tại đơn."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I whispered so as to not wake him.",
+      "right": "I whispered so as not to wake him.",
+      "why": "So as not to."
+    },
+    {
+      "wrong": "He didn't call for fear to disturb her.",
+      "right": "He didn't call for fear of disturbing her.",
+      "why": "For fear of + V-ing."
+    },
+    {
+      "wrong": "Take an umbrella in case it will rain.",
+      "right": "Take an umbrella in case it rains.",
+      "why": "In case + hiện tại đơn."
+    },
+    {
+      "wrong": "We left early in order to not miss the train.",
+      "right": "We left early in order not to miss the train.",
+      "why": "In order not to."
+    },
+    {
+      "wrong": "Speak softly lest you would wake the baby.",
+      "right": "Speak softly lest you wake the baby.",
+      "why": "Lest + V nguyên mẫu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "We took a taxi so as ___ late.",
+      "options": [
+        "not to be",
+        "to not be",
+        "not be"
+      ],
+      "answer": 0,
+      "explain": "So as not to."
+    },
+    {
+      "type": "choice",
+      "prompt": "She kept quiet for fear ___ looking stupid.",
+      "options": [
+        "of",
+        "that",
+        "for"
+      ],
+      "answer": 0,
+      "explain": "For fear of + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Write it down in case you ___.",
+      "options": [
+        "forget",
+        "will forget",
+        "forgot"
+      ],
+      "answer": 0,
+      "explain": "In case + hiện tại đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "He saved money in order ___ to borrow.",
+      "options": [
+        "not to have",
+        "to not have",
+        "not having"
+      ],
+      "answer": 0,
+      "explain": "In order not to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào trang trọng nhất?",
+      "options": [
+        "Hurry or we'll be late.",
+        "We must hurry lest we be late."
+      ],
+      "answer": 1,
+      "explain": "Lest: rất trang trọng."
+    },
+    {
+      "type": "fill",
+      "prompt": "I turned off my phone so as not ___ disturbed.",
+      "hint": "be",
+      "answers": [
+        "to be"
+      ],
+      "explain": "So as not to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "He didn't complain for fear ___ losing his job.",
+      "hint": "giới từ",
+      "answers": [
+        "of"
+      ],
+      "explain": "For fear of + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Keep this number in ___ you get lost.",
+      "hint": "case",
+      "answers": [
+        "case"
+      ],
+      "explain": "In case."
+    },
+    {
+      "type": "fill",
+      "prompt": "They worked in order ___ to finish late.",
+      "hint": "phủ định",
+      "answers": [
+        "not"
+      ],
+      "explain": "In order not to."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đi sớm để tránh kẹt xe.",
+      "words": [
+        "I",
+        "left",
+        "early",
+        "so",
+        "as",
+        "to",
+        "avoid",
+        "traffic."
+      ],
+      "explain": "So as to + V."
+    },
+    {
+      "type": "order",
+      "vi": "Mang theo nước phòng khi khát.",
+      "words": [
+        "Bring",
+        "some",
+        "water",
+        "in",
+        "case",
+        "you",
+        "get",
+        "thirsty."
+      ],
+      "explain": "In case + hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "She left early so as to not miss the bus.",
+      "answers": [
+        "She left early so as not to miss the bus."
+      ],
+      "explain": "So as not to."
+    },
+    {
+      "type": "fix",
+      "sentence": "He didn't speak for fear to make a mistake.",
+      "answers": [
+        "He didn't speak for fear of making a mistake."
+      ],
+      "explain": "For fear of + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "Take a map in case you will get lost.",
+      "answers": [
+        "Take a map in case you get lost."
+      ],
+      "explain": "In case + hiện tại đơn."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy nói khẽ để không đánh thức em bé.",
+      "answers": [
+        "She spoke quietly so as not to wake the baby.",
+        "She spoke softly so as not to wake the baby.",
+        "She spoke quietly in order not to wake the baby.",
+        "She spoke softly in order not to wake the baby.",
+        "She spoke quietly so that she wouldn't wake the baby.",
+        "She spoke quietly so as not to wake up the baby."
+      ],
+      "explain": "So as not to."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy không dám nói vì sợ bị cười.",
+      "answers": [
+        "He didn't dare to speak for fear of being laughed at.",
+        "He didn't dare speak for fear of being laughed at.",
+        "He didn't speak for fear of being laughed at.",
+        "He was afraid to speak for fear of being laughed at.",
+        "He didn't dare to say anything for fear of being laughed at."
+      ],
+      "explain": "For fear of + V-ing."
+    }
+  ]
+}

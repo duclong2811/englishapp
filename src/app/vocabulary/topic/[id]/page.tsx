@@ -53,7 +53,7 @@ export default async function TopicPage({ params }: PageProps<"/vocabulary/topic
         </span>
         <span aria-hidden="true" className="text-accent">→</span>
       </Link>
-      {["A1", "A2", "B1", "B2"].includes(topic.level) ? (
+      {["A1", "A2", "B1", "B2", "C1"].includes(topic.level) ? (
         <Link
           href={`/tests/${topic.level.toLowerCase()}/topic/${topic.id}`}
           className="mt-3 flex min-h-14 max-w-[42rem] items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"

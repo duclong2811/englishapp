@@ -1,0 +1,348 @@
+{
+  "id": "distancing",
+  "level": "C1",
+  "title": "I was wondering if…: lùi thì để lịch sự",
+  "summary": "Dùng quá khứ và tiếp diễn để nói nhẹ nhàng, lịch sự hơn: I was wondering, I was hoping, I'd hoped, I wanted to ask.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Hi, Ms. Lan. Do you have a minute?",
+      "vi": "Chào chị Lan. Chị có rảnh một chút không?"
+    },
+    {
+      "who": "B",
+      "en": "Sure. What is it?",
+      "vi": "Được. Có chuyện gì thế?"
+    },
+    {
+      "who": "A",
+      "en": "[[I was wondering if]] I could leave early on Friday.",
+      "vi": "Em đang tự hỏi liệu thứ Sáu em có thể về sớm không."
+    },
+    {
+      "who": "B",
+      "en": "Hmm. [[I was hoping]] you'd finish the report first.",
+      "vi": "Ừm. Chị cũng mong em làm xong báo cáo trước."
+    },
+    {
+      "who": "A",
+      "en": "[[I'd hoped]] to finish it on Thursday, actually.",
+      "vi": "Thật ra em đã định xong vào thứ Năm."
+    },
+    {
+      "who": "B",
+      "en": "OK. [[I was going to]] suggest that anyway.",
+      "vi": "Được. Chị cũng định đề nghị vậy."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Lùi thì",
+      "heading": "Quá khứ cho hiện tại: nhẹ nhàng hơn",
+      "rule": "Dùng **quá khứ** (và **quá khứ tiếp diễn**) để nói về **hiện tại** một cách **lịch sự, ít áp đặt**: I wanted, I was wondering, I was hoping.",
+      "body": [],
+      "table": {
+        "head": [
+          "Trực tiếp",
+          "Lịch sự hơn"
+        ],
+        "rows": [
+          [
+            "I want to ask you something.",
+            "I wanted to ask you something."
+          ],
+          [
+            "I wonder if you can help.",
+            "I was wondering if you could help."
+          ],
+          [
+            "I hope you can come.",
+            "I was hoping you could come."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[I was wondering if]] you could help me.",
+          "vi": "Không biết bạn có thể giúp tôi không.",
+          "why": "Quá khứ tiếp diễn: rất lịch sự."
+        },
+        {
+          "en": "[[I wanted to]] ask about the job.",
+          "vi": "Tôi muốn hỏi về công việc.",
+          "why": "Quá khứ nhưng nói về bây giờ."
+        },
+        {
+          "en": "[[Did you want]] some coffee?",
+          "vi": "Anh có muốn uống cà phê không?",
+          "why": "Lời mời mềm mỏng hơn Do you want."
+        }
+      ],
+      "check": {
+        "prompt": "Lịch sự nhất:",
+        "options": [
+          "I was wondering if you could call me.",
+          "Call me.",
+          "You must call me."
+        ],
+        "answer": 0,
+        "explain": "Was wondering + could: nhẹ nhàng nhất."
+      }
+    },
+    {
+      "part": "Kỳ vọng chưa thành",
+      "heading": "I'd hoped, I'd planned, I was going to",
+      "rule": "**had hoped / had planned / was going to** = đã mong / đã định, **nhưng có lẽ không thành**. Dùng để nói khéo khi thất vọng hoặc từ chối.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I'd hoped]] to see you at the party.",
+          "vi": "Tôi đã mong gặp bạn ở bữa tiệc.",
+          "why": "Had hoped: mong mà không thành."
+        },
+        {
+          "en": "[[We had planned]] to launch in May, but…",
+          "vi": "Chúng tôi đã định ra mắt tháng Năm, nhưng…",
+          "why": "Kế hoạch có thể thay đổi."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ to finish today, but the system crashed.",
+        "options": [
+          "had hoped",
+          "hope",
+          "will hope"
+        ],
+        "answer": 0,
+        "explain": "Mong mà không thành → had hoped."
+      }
+    },
+    {
+      "part": "Làm mềm",
+      "heading": "Would, could, might trong lời đề nghị",
+      "rule": "**Would you mind…?, Could you possibly…?, It might be better to…** làm lời nhờ và góp ý **mềm** hơn. Thêm **just, possibly, perhaps** càng lịch sự.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Could you possibly]] send it today?",
+          "vi": "Anh có thể gửi nó hôm nay được không ạ?",
+          "why": "Possibly làm lời nhờ mềm hơn."
+        },
+        {
+          "en": "[[It might be better to]] wait a few days.",
+          "vi": "Có lẽ nên đợi vài ngày.",
+          "why": "Góp ý khéo thay cho You should wait."
+        }
+      ],
+      "check": {
+        "prompt": "Góp ý khéo nhất:",
+        "options": [
+          "It might be better to ask first.",
+          "Ask first.",
+          "You have to ask first."
+        ],
+        "answer": 0,
+        "explain": "It might be better to…: lời khuyên mềm."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I am wondering if you can lend me your car.",
+      "right": "I was wondering if you could lend me your car.",
+      "why": "Lùi thì để lịch sự: was wondering + could."
+    },
+    {
+      "wrong": "I was hoping you can help.",
+      "right": "I was hoping you could help.",
+      "why": "Đi cùng was hoping → could."
+    },
+    {
+      "wrong": "I hoped to see you, but you weren't there.",
+      "right": "I had hoped to see you, but you weren't there.",
+      "why": "Mong trước đó, không thành → had hoped."
+    },
+    {
+      "wrong": "Could you possible send me the file?",
+      "right": "Could you possibly send me the file?",
+      "why": "Trạng từ: possibly."
+    },
+    {
+      "wrong": "Do you mind to wait a moment?",
+      "right": "Would you mind waiting a moment?",
+      "why": "Mind + V-ing; would lịch sự hơn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ if you had time for a quick chat.",
+      "options": [
+        "was wondering",
+        "wonder",
+        "am wondering"
+      ],
+      "answer": 0,
+      "explain": "Lịch sự: was wondering."
+    },
+    {
+      "type": "choice",
+      "prompt": "We ___ to move house this year, but prices went up.",
+      "options": [
+        "had planned",
+        "plan",
+        "are planning"
+      ],
+      "answer": 0,
+      "explain": "Kế hoạch không thành → had planned."
+    },
+    {
+      "type": "choice",
+      "prompt": "Would you mind ___ the window?",
+      "options": [
+        "opening",
+        "to open",
+        "open"
+      ],
+      "answer": 0,
+      "explain": "Would you mind + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "I was hoping you ___ join us for dinner.",
+      "options": [
+        "could",
+        "can",
+        "will"
+      ],
+      "answer": 0,
+      "explain": "Was hoping + could."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào mềm mỏng hơn?",
+      "options": [
+        "You should change the title.",
+        "Perhaps you might change the title."
+      ],
+      "answer": 1,
+      "explain": "Perhaps + might: góp ý khéo."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ to ask you a favor.",
+      "hint": "want (lịch sự)",
+      "answers": [
+        "wanted"
+      ],
+      "explain": "Lùi thì: wanted."
+    },
+    {
+      "type": "fill",
+      "prompt": "We'd ___ to finish by noon, but there were problems.",
+      "hint": "hope",
+      "answers": [
+        "hoped"
+      ],
+      "explain": "Had hoped: mong mà không thành."
+    },
+    {
+      "type": "fill",
+      "prompt": "Could you ___ check this for me?",
+      "hint": "possible",
+      "answers": [
+        "possibly",
+        "just"
+      ],
+      "explain": "Làm mềm lời nhờ."
+    },
+    {
+      "type": "fill",
+      "prompt": "I was wondering ___ you were free on Sunday.",
+      "hint": "liên từ",
+      "answers": [
+        "if",
+        "whether"
+      ],
+      "explain": "Was wondering if."
+    },
+    {
+      "type": "order",
+      "vi": "Không biết bạn có thể giúp tôi không.",
+      "words": [
+        "I",
+        "was",
+        "wondering",
+        "if",
+        "you",
+        "could",
+        "help",
+        "me."
+      ],
+      "explain": "Lùi thì để lịch sự."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đã mong được gặp anh ấy.",
+      "words": [
+        "I",
+        "had",
+        "hoped",
+        "to",
+        "meet",
+        "him."
+      ],
+      "explain": "Had hoped."
+    },
+    {
+      "type": "fix",
+      "sentence": "I am wondering if you can call me back.",
+      "answers": [
+        "I was wondering if you could call me back."
+      ],
+      "explain": "Lịch sự: was wondering + could."
+    },
+    {
+      "type": "fix",
+      "sentence": "Would you mind to close the door?",
+      "answers": [
+        "Would you mind closing the door?"
+      ],
+      "explain": "Mind + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "I was hoping you will come.",
+      "answers": [
+        "I was hoping you would come."
+      ],
+      "explain": "Đi với was hoping → would."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi muốn hỏi liệu tôi có thể nghỉ thứ Hai không.",
+      "answers": [
+        "I was wondering if I could take Monday off.",
+        "I was wondering whether I could take Monday off.",
+        "I wanted to ask if I could take Monday off.",
+        "I wanted to ask whether I could take Monday off.",
+        "I was wondering if I could have Monday off.",
+        "I was wondering if I could take a day off on Monday."
+      ],
+      "explain": "Lùi thì để lịch sự."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi đã định đi Sa Pa nhưng trời mưa.",
+      "answers": [
+        "We had planned to go to Sa Pa, but it rained.",
+        "We'd planned to go to Sa Pa, but it rained.",
+        "We had planned to go to Sapa, but it rained.",
+        "We were going to go to Sa Pa, but it rained.",
+        "We had planned to visit Sa Pa, but it rained.",
+        "We were going to go to Sapa, but it rained."
+      ],
+      "explain": "Kế hoạch không thành → had planned."
+    }
+  ]
+}

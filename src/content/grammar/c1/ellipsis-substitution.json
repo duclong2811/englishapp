@@ -1,0 +1,341 @@
+{
+  "id": "ellipsis-substitution",
+  "level": "C1",
+  "title": "Lược bỏ và thay thế: so, not, do so, one",
+  "summary": "Tránh lặp từ: I think so / I hope not, so do I / neither do I, do so, one/ones, và lược phần đã rõ (I'd love to, if necessary).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Will the meeting run late?",
+      "vi": "Cuộc họp có kéo dài không?"
+    },
+    {
+      "who": "B",
+      "en": "[[I hope not]]. I've got a dinner.",
+      "vi": "Mong là không. Mình có hẹn ăn tối."
+    },
+    {
+      "who": "A",
+      "en": "[[So have I]]. Is it the Italian place?",
+      "vi": "Mình cũng vậy. Có phải quán Ý không?"
+    },
+    {
+      "who": "B",
+      "en": "No, the new [[one]] near the river. Want to come?",
+      "vi": "Không, quán mới gần sông. Muốn đi không?"
+    },
+    {
+      "who": "A",
+      "en": "[[I'd love to]], but I promised my sister.",
+      "vi": "Muốn lắm nhưng mình đã hứa với em gái."
+    },
+    {
+      "who": "B",
+      "en": "Bring her if you want. I'm sure she'd enjoy [[doing so]].",
+      "vi": "Dẫn em theo nếu muốn. Chắc em ấy thích lắm."
+    }
+  ],
+  "sections": [
+    {
+      "part": "So / not",
+      "heading": "I think so, I hope not, I'm afraid so",
+      "rule": "**so** thay cho mệnh đề khẳng định, **not** thay cho mệnh đề phủ định sau **think, hope, believe, suppose, be afraid, guess**.",
+      "body": [],
+      "table": {
+        "head": [
+          "Khẳng định",
+          "Phủ định"
+        ],
+        "rows": [
+          [
+            "I think so.",
+            "I don't think so."
+          ],
+          [
+            "I hope so.",
+            "I hope not."
+          ],
+          [
+            "I'm afraid so.",
+            "I'm afraid not."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Is it going to rain? [[I hope not]].",
+          "vi": "Trời sắp mưa à? Mong là không.",
+          "why": "= I hope it won't rain."
+        },
+        {
+          "en": "Did you pass? [[I think so]].",
+          "vi": "Bạn đỗ không? Mình nghĩ là có.",
+          "why": "So = that I passed."
+        }
+      ],
+      "check": {
+        "prompt": "Will we be late? I hope ___.",
+        "options": [
+          "not",
+          "no",
+          "don't"
+        ],
+        "answer": 0,
+        "explain": "Phủ định → I hope not."
+      }
+    },
+    {
+      "part": "So do I",
+      "heading": "So do I, neither do I, do so",
+      "rule": "**So + trợ động từ + S** = cũng vậy; **Neither / Nor + trợ động từ + S** = cũng không. **do so** thay cho cả cụm động từ (trang trọng).",
+      "body": [],
+      "examples": [
+        {
+          "en": "I love jazz. [[So does]] my wife.",
+          "vi": "Tôi thích jazz. Vợ tôi cũng vậy.",
+          "why": "So + does + S."
+        },
+        {
+          "en": "He can't swim. [[Neither can]] I.",
+          "vi": "Anh ấy không biết bơi. Tôi cũng không.",
+          "why": "Neither + can + S."
+        },
+        {
+          "en": "Staff may leave early if they wish to [[do so]].",
+          "vi": "Nhân viên có thể về sớm nếu muốn.",
+          "why": "Do so = leave early."
+        }
+      ],
+      "check": {
+        "prompt": "She hasn't finished, and neither ___ I.",
+        "options": [
+          "have",
+          "do",
+          "am"
+        ],
+        "answer": 0,
+        "explain": "Neither + have + I (theo hasn't)."
+      }
+    },
+    {
+      "part": "One và lược bỏ",
+      "heading": "One / ones, to, if necessary",
+      "rule": "**one / ones** thay danh từ đếm được đã nói. Có thể **bỏ động từ sau to** (I'd love to) và rút gọn **if necessary / if possible / when ready**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I don't like this shirt. I prefer the blue [[one]].",
+          "vi": "Tôi không thích áo này. Tôi thích cái màu xanh hơn.",
+          "why": "One = shirt."
+        },
+        {
+          "en": "Do you want to come? I'd love [[to]].",
+          "vi": "Bạn muốn đến không? Rất muốn.",
+          "why": "Lược: to come."
+        },
+        {
+          "en": "Call me [[if necessary]].",
+          "vi": "Gọi tôi nếu cần.",
+          "why": "= if it is necessary."
+        }
+      ],
+      "check": {
+        "prompt": "These shoes are too small. Do you have bigger ___?",
+        "options": [
+          "ones",
+          "one",
+          "it"
+        ],
+        "answer": 0,
+        "explain": "Danh từ số nhiều → ones."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Will it rain? I hope no.",
+      "right": "Will it rain? I hope not.",
+      "why": "Phủ định: I hope not."
+    },
+    {
+      "wrong": "I don't think it.",
+      "right": "I don't think so.",
+      "why": "Thay mệnh đề → so."
+    },
+    {
+      "wrong": "I like tea. So I do.",
+      "right": "I like tea. So do I.",
+      "why": "So + trợ động từ + S."
+    },
+    {
+      "wrong": "I can't drive. Neither I can.",
+      "right": "I can't drive. Neither can I.",
+      "why": "Neither + trợ động từ + S."
+    },
+    {
+      "wrong": "I'd love to go, but I can't to.",
+      "right": "I'd love to, but I can't.",
+      "why": "Lược động từ sau to; can't không có to."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Is the shop open today? I think ___.",
+      "options": [
+        "so",
+        "it",
+        "yes"
+      ],
+      "answer": 0,
+      "explain": "Thay mệnh đề → so."
+    },
+    {
+      "type": "choice",
+      "prompt": "I've never been to Japan. ___ have I.",
+      "options": [
+        "Neither",
+        "So",
+        "Either"
+      ],
+      "answer": 0,
+      "explain": "Phủ định → Neither have I."
+    },
+    {
+      "type": "choice",
+      "prompt": "I like the red car, but my wife prefers the white ___.",
+      "options": [
+        "one",
+        "ones",
+        "it"
+      ],
+      "answer": 0,
+      "explain": "Thay danh từ số ít → one."
+    },
+    {
+      "type": "choice",
+      "prompt": "Visitors may take photos if they wish to ___.",
+      "options": [
+        "do so",
+        "so do",
+        "do it so"
+      ],
+      "answer": 0,
+      "explain": "Thay cụm động từ → do so."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I'm afraid not.",
+        "I'm afraid no."
+      ],
+      "answer": 0,
+      "explain": "I'm afraid not."
+    },
+    {
+      "type": "fill",
+      "prompt": "She speaks French, and so ___ her brother.",
+      "hint": "trợ động từ",
+      "answers": [
+        "does"
+      ],
+      "explain": "So + does + S."
+    },
+    {
+      "type": "fill",
+      "prompt": "Are you coming? I'd love ___, but I'm busy.",
+      "hint": "lược",
+      "answers": [
+        "to"
+      ],
+      "explain": "I'd love to."
+    },
+    {
+      "type": "fill",
+      "prompt": "Is he angry? I don't think ___.",
+      "hint": "thay thế",
+      "answers": [
+        "so"
+      ],
+      "explain": "I don't think so."
+    },
+    {
+      "type": "fill",
+      "prompt": "Bring your old books and your new ___.",
+      "hint": "thay thế",
+      "answers": [
+        "ones"
+      ],
+      "explain": "Ones = books."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi cũng không biết bơi.",
+      "words": [
+        "Neither",
+        "can",
+        "I."
+      ],
+      "explain": "Neither + can + I."
+    },
+    {
+      "type": "order",
+      "vi": "Mong là không.",
+      "words": [
+        "I",
+        "hope",
+        "not."
+      ],
+      "explain": "Hope not."
+    },
+    {
+      "type": "fix",
+      "sentence": "Will he come? I think yes.",
+      "answers": [
+        "Will he come? I think so."
+      ],
+      "explain": "Thay mệnh đề → so."
+    },
+    {
+      "type": "fix",
+      "sentence": "I don't eat meat. So do I.",
+      "answers": [
+        "I don't eat meat. Neither do I."
+      ],
+      "explain": "Phủ định → Neither do I."
+    },
+    {
+      "type": "fix",
+      "sentence": "These apples are better than that ones.",
+      "answers": [
+        "These apples are better than those ones."
+      ],
+      "explain": "Số nhiều: those ones."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn có đến không? Mình nghĩ là có.",
+      "answers": [
+        "Are you coming? I think so.",
+        "Will you come? I think so.",
+        "Are you going to come? I think so.",
+        "Are you coming? I think I will.",
+        "Are you coming? I guess so."
+      ],
+      "explain": "I think so."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi đã xem phim đó rồi, vợ tôi cũng vậy.",
+      "answers": [
+        "I've seen that film, and so has my wife.",
+        "I have seen that film, and so has my wife.",
+        "I've seen that movie, and so has my wife.",
+        "I have seen that movie, and so has my wife.",
+        "I've already seen that film, and so has my wife."
+      ],
+      "explain": "So + has + S."
+    }
+  ]
+}

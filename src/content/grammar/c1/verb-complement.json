@@ -1,0 +1,332 @@
+{
+  "id": "verb-complement",
+  "level": "C1",
+  "title": "Consider him to be, resent being asked",
+  "summary": "Mẫu động từ nâng cao: consider/believe/find + O + (to be) + tính từ, resent/appreciate/risk + V-ing, và bị động V-ing: resent being told.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Why did Minh refuse the promotion?",
+      "vi": "Sao Minh từ chối thăng chức?"
+    },
+    {
+      "who": "B",
+      "en": "He [[considers it to be]] too stressful.",
+      "vi": "Cậu ấy cho rằng nó quá căng thẳng."
+    },
+    {
+      "who": "A",
+      "en": "Really? Most people would [[appreciate being offered]] that.",
+      "vi": "Thật à? Hầu hết mọi người sẽ cảm kích khi được đề nghị như vậy."
+    },
+    {
+      "who": "B",
+      "en": "He also [[resents being told]] what to do.",
+      "vi": "Cậu ấy còn bực khi bị bảo phải làm gì."
+    },
+    {
+      "who": "A",
+      "en": "I [[find that]] strange. He'd earn much more.",
+      "vi": "Mình thấy lạ. Cậu ấy sẽ kiếm được nhiều hơn mà."
+    },
+    {
+      "who": "B",
+      "en": "He didn't want to [[risk losing]] his free time.",
+      "vi": "Cậu ấy không muốn liều mất thời gian rảnh."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cho rằng",
+      "heading": "Consider / believe / find + O + (to be) + tính từ",
+      "rule": "**consider, believe, find, think, judge + tân ngữ + (to be) + tính từ / danh từ** = cho rằng ai/cái gì… Văn trang trọng: **consider him to be**; thường ngày bỏ **to be**.",
+      "formula": [
+        {
+          "text": "S + consider + [O] + (to be) + adj / noun"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[consider him]] a close friend.",
+          "vi": "Tôi coi anh ấy là bạn thân.",
+          "why": "Consider + O + danh từ."
+        },
+        {
+          "en": "They [[believe her to be]] innocent.",
+          "vi": "Họ tin cô ấy vô tội.",
+          "why": "Believe + O + to be (trang trọng)."
+        },
+        {
+          "en": "I [[find it]] hard to concentrate.",
+          "vi": "Tôi thấy khó tập trung.",
+          "why": "Find + it + adj + to V."
+        }
+      ],
+      "check": {
+        "prompt": "Experts consider the bridge ___ unsafe.",
+        "options": [
+          "to be",
+          "being",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "Consider + O + to be."
+      }
+    },
+    {
+      "part": "+ V-ing",
+      "heading": "Resent, appreciate, risk, involve + V-ing",
+      "rule": "**resent, appreciate, risk, involve, mind, can't help, look forward to** + **V-ing**. Có tân ngữ: **appreciate you helping** hoặc **your helping** (trang trọng).",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[appreciate you helping]] me.",
+          "vi": "Tôi cảm kích việc bạn giúp tôi.",
+          "why": "Appreciate + O + V-ing."
+        },
+        {
+          "en": "The job [[involves traveling]] a lot.",
+          "vi": "Công việc đòi hỏi đi lại nhiều.",
+          "why": "Involve + V-ing."
+        },
+        {
+          "en": "Don't [[risk losing]] everything.",
+          "vi": "Đừng liều mà mất tất cả.",
+          "why": "Risk + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "This job involves ___ with customers every day.",
+        "options": [
+          "dealing",
+          "to deal",
+          "deal"
+        ],
+        "answer": 0,
+        "explain": "Involve + V-ing."
+      }
+    },
+    {
+      "part": "Bị động",
+      "heading": "Resent being told, appreciate being asked",
+      "rule": "Bị động sau các động từ + V-ing: **being + V3**: resent being told, hate being interrupted, appreciate being asked.",
+      "body": [],
+      "examples": [
+        {
+          "en": "She [[resents being treated]] like a child.",
+          "vi": "Cô ấy bực khi bị đối xử như trẻ con.",
+          "why": "Resent + being + V3."
+        },
+        {
+          "en": "I'd [[appreciate being kept]] informed.",
+          "vi": "Tôi mong được cập nhật thông tin.",
+          "why": "Appreciate + being + V3."
+        }
+      ],
+      "check": {
+        "prompt": "He hates ___ in meetings.",
+        "options": [
+          "being interrupted",
+          "to interrupt",
+          "interrupted"
+        ],
+        "answer": 0,
+        "explain": "Hate + being + V3."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I consider him is a good leader.",
+      "right": "I consider him to be a good leader.",
+      "why": "Consider + O + to be."
+    },
+    {
+      "wrong": "I appreciate you to help me.",
+      "right": "I appreciate you helping me.",
+      "why": "Appreciate + O + V-ing."
+    },
+    {
+      "wrong": "The job involves to work at night.",
+      "right": "The job involves working at night.",
+      "why": "Involve + V-ing."
+    },
+    {
+      "wrong": "She resents to be told what to do.",
+      "right": "She resents being told what to do.",
+      "why": "Resent + being + V3."
+    },
+    {
+      "wrong": "I find hard to sleep.",
+      "right": "I find it hard to sleep.",
+      "why": "Find + it + adj + to V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Many people consider her ___ the best singer.",
+      "options": [
+        "to be",
+        "being",
+        "is"
+      ],
+      "answer": 0,
+      "explain": "Consider + O + to be."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'd appreciate ___ a reply soon.",
+      "options": [
+        "receiving",
+        "to receive",
+        "receive"
+      ],
+      "answer": 0,
+      "explain": "Appreciate + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "He resents ___ for help.",
+      "options": [
+        "being asked",
+        "to be asked",
+        "asked"
+      ],
+      "answer": 0,
+      "explain": "Resent + being + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "I find ___ difficult to wake up early.",
+      "options": [
+        "it",
+        "that",
+        "this to"
+      ],
+      "answer": 0,
+      "explain": "Find + it + adj + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "We can't risk missing the flight.",
+        "We can't risk to miss the flight."
+      ],
+      "answer": 0,
+      "explain": "Risk + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "The police believe the man ___ dangerous.",
+      "hint": "be",
+      "answers": [
+        "to be"
+      ],
+      "explain": "Believe + O + to be."
+    },
+    {
+      "type": "fill",
+      "prompt": "Learning a language involves ___ mistakes.",
+      "hint": "make",
+      "answers": [
+        "making"
+      ],
+      "explain": "Involve + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "I really appreciate you ___ so patient.",
+      "hint": "be",
+      "answers": [
+        "being"
+      ],
+      "explain": "Appreciate + O + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "She hates ___ what to do.",
+      "hint": "tell (bị động)",
+      "answers": [
+        "being told"
+      ],
+      "explain": "Hate + being + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thấy khó tập trung.",
+      "words": [
+        "I",
+        "find",
+        "it",
+        "hard",
+        "to",
+        "concentrate."
+      ],
+      "explain": "Find + it + adj + to V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi cảm kích sự giúp đỡ của bạn.",
+      "words": [
+        "I",
+        "appreciate",
+        "you",
+        "helping",
+        "me."
+      ],
+      "explain": "Appreciate + O + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "They consider the plan is too risky.",
+      "answers": [
+        "They consider the plan to be too risky."
+      ],
+      "explain": "Consider + O + to be."
+    },
+    {
+      "type": "fix",
+      "sentence": "He doesn't want to risk to lose his job.",
+      "answers": [
+        "He doesn't want to risk losing his job."
+      ],
+      "explain": "Risk + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "I resent to be treated unfairly.",
+      "answers": [
+        "I resent being treated unfairly."
+      ],
+      "explain": "Resent + being + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Họ coi anh ấy là người lãnh đạo giỏi nhất.",
+      "answers": [
+        "They consider him the best leader.",
+        "They consider him to be the best leader.",
+        "They regard him as the best leader.",
+        "They see him as the best leader.",
+        "They think of him as the best leader."
+      ],
+      "explain": "Consider + O + (to be)."
+    },
+    {
+      "type": "translate",
+      "vi": "Công việc này đòi hỏi làm việc cuối tuần.",
+      "answers": [
+        "This job involves working at weekends.",
+        "This job involves working on weekends.",
+        "The job involves working at weekends.",
+        "The job involves working on weekends.",
+        "This job requires working on weekends.",
+        "This job requires working at weekends."
+      ],
+      "explain": "Involve + V-ing."
+    }
+  ]
+}

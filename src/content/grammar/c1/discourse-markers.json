@@ -1,0 +1,326 @@
+{
+  "id": "discourse-markers",
+  "level": "C1",
+  "title": "Admittedly, that said, to be fair",
+  "summary": "Từ dẫn dắt để lập luận tự nhiên: admittedly, that said, to be fair, mind you, all in all, as it happens, by the way.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What did you think of the new restaurant?",
+      "vi": "Bạn thấy nhà hàng mới thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "[[Admittedly]], the service was slow.",
+      "vi": "Phải công nhận là phục vụ chậm."
+    },
+    {
+      "who": "A",
+      "en": "And the prices were high.",
+      "vi": "Mà giá còn cao nữa."
+    },
+    {
+      "who": "B",
+      "en": "[[That said]], the food was excellent.",
+      "vi": "Dù vậy, đồ ăn rất tuyệt."
+    },
+    {
+      "who": "A",
+      "en": "[[To be fair]], it was their first week.",
+      "vi": "Công bằng mà nói, đó là tuần đầu tiên của họ."
+    },
+    {
+      "who": "B",
+      "en": "[[All in all]], I'd go back. [[As it happens]], I've booked a table for Friday!",
+      "vi": "Nói chung mình sẽ quay lại. Mà tình cờ mình đã đặt bàn tối thứ Sáu rồi!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Thừa nhận",
+      "heading": "Admittedly, granted, to be fair",
+      "rule": "**Admittedly / Granted** = phải thừa nhận (một điểm yếu trong lập luận của mình). **To be fair** = công bằng mà nói (bênh vực người khác).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Admittedly]], I should have called earlier.",
+          "vi": "Phải thừa nhận là tôi nên gọi sớm hơn.",
+          "why": "Thừa nhận lỗi của mình."
+        },
+        {
+          "en": "[[To be fair]], he did try his best.",
+          "vi": "Công bằng mà nói, anh ấy đã cố hết sức.",
+          "why": "Bênh vực người khác."
+        }
+      ],
+      "check": {
+        "prompt": "The plan has problems. ___, it is cheap.",
+        "options": [
+          "Admittedly",
+          "Moreover",
+          "Therefore"
+        ],
+        "answer": 0,
+        "explain": "Thừa nhận một mặt → Admittedly."
+      }
+    },
+    {
+      "part": "Chuyển ý",
+      "heading": "That said, mind you, even so",
+      "rule": "**That said / Having said that / Even so** = dù vậy (sau khi nêu một ý, đưa ra ý ngược lại). **Mind you** (văn nói) = nhưng mà cũng phải nói là.",
+      "body": [],
+      "examples": [
+        {
+          "en": "It's expensive. [[That said]], it's worth it.",
+          "vi": "Nó đắt. Dù vậy, đáng tiền.",
+          "why": "That said: dù vậy."
+        },
+        {
+          "en": "He's lazy. [[Mind you]], he's very clever.",
+          "vi": "Anh ấy lười. Nhưng mà cũng phải nói là rất thông minh.",
+          "why": "Mind you: văn nói."
+        }
+      ],
+      "check": {
+        "prompt": "The hotel was old. ___, the staff were lovely.",
+        "options": [
+          "That said",
+          "As a result",
+          "For instance"
+        ],
+        "answer": 0,
+        "explain": "Ý ngược lại → That said."
+      }
+    },
+    {
+      "part": "Kết luận, tình cờ",
+      "heading": "All in all, as it happens, by the way",
+      "rule": "**All in all / On the whole** = nhìn chung (kết luận). **As it happens** = tình cờ là. **By the way / Incidentally** = nhân tiện (chuyển chủ đề phụ).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[All in all]], it was a good trip.",
+          "vi": "Nhìn chung, đó là chuyến đi tốt.",
+          "why": "Kết luận."
+        },
+        {
+          "en": "[[As it happens]], I know the manager.",
+          "vi": "Tình cờ là tôi quen quản lý.",
+          "why": "Thông tin tình cờ có ích."
+        },
+        {
+          "en": "[[By the way]], did you get my email?",
+          "vi": "Nhân tiện, bạn nhận được email của tôi chưa?",
+          "why": "Chuyển sang chủ đề phụ."
+        }
+      ],
+      "check": {
+        "prompt": "There were a few problems, but ___, the event was a success.",
+        "options": [
+          "all in all",
+          "by the way",
+          "admittedly"
+        ],
+        "answer": 0,
+        "explain": "Kết luận → all in all."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Admitted, I was wrong.",
+      "right": "Admittedly, I was wrong.",
+      "why": "Trạng từ: admittedly."
+    },
+    {
+      "wrong": "That saying, it was fun.",
+      "right": "That said, it was fun.",
+      "why": "That said."
+    },
+    {
+      "wrong": "All and all, I enjoyed it.",
+      "right": "All in all, I enjoyed it.",
+      "why": "All in all."
+    },
+    {
+      "wrong": "As it happened I know him, he helped.",
+      "right": "As it happens, I know him, so he helped.",
+      "why": "As it happens + dấu phẩy."
+    },
+    {
+      "wrong": "To be fairly, she tried.",
+      "right": "To be fair, she tried.",
+      "why": "To be fair."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___, the film was too long, but I enjoyed it.",
+      "options": [
+        "Admittedly",
+        "Therefore",
+        "Moreover"
+      ],
+      "answer": 0,
+      "explain": "Thừa nhận → Admittedly."
+    },
+    {
+      "type": "choice",
+      "prompt": "It's a small flat. ___, it's in a great location.",
+      "options": [
+        "That said",
+        "As a result",
+        "In addition"
+      ],
+      "answer": 0,
+      "explain": "Ý ngược lại → That said."
+    },
+    {
+      "type": "choice",
+      "prompt": "___, we had a wonderful holiday.",
+      "options": [
+        "All in all",
+        "By the way",
+        "To be fair"
+      ],
+      "answer": 0,
+      "explain": "Kết luận → All in all."
+    },
+    {
+      "type": "choice",
+      "prompt": "I need a lawyer. ___, my cousin is one!",
+      "options": [
+        "As it happens",
+        "In contrast",
+        "Admittedly"
+      ],
+      "answer": 0,
+      "explain": "Tình cờ → As it happens."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào dùng để bênh vực người khác?",
+      "options": [
+        "To be fair, she was very busy.",
+        "By the way, she was very busy."
+      ],
+      "answer": 0,
+      "explain": "To be fair."
+    },
+    {
+      "type": "fill",
+      "prompt": "___, I didn't read the instructions.",
+      "hint": "phải thừa nhận",
+      "answers": [
+        "Admittedly",
+        "Granted"
+      ],
+      "explain": "Thừa nhận lỗi."
+    },
+    {
+      "type": "fill",
+      "prompt": "It's cheap. That ___, the quality is poor.",
+      "hint": "say",
+      "answers": [
+        "said"
+      ],
+      "explain": "That said."
+    },
+    {
+      "type": "fill",
+      "prompt": "By the ___, have you seen my keys?",
+      "hint": "way",
+      "answers": [
+        "way"
+      ],
+      "explain": "By the way."
+    },
+    {
+      "type": "fill",
+      "prompt": "To be ___, he did apologize.",
+      "hint": "fair",
+      "answers": [
+        "fair"
+      ],
+      "explain": "To be fair."
+    },
+    {
+      "type": "order",
+      "vi": "Nhìn chung, đó là một ngày tốt.",
+      "words": [
+        "All",
+        "in",
+        "all",
+        "it",
+        "was",
+        "a",
+        "good",
+        "day."
+      ],
+      "explain": "All in all."
+    },
+    {
+      "type": "order",
+      "vi": "Công bằng mà nói, anh ấy đã cố gắng.",
+      "words": [
+        "To",
+        "be",
+        "fair",
+        "he",
+        "did",
+        "try."
+      ],
+      "explain": "To be fair."
+    },
+    {
+      "type": "fix",
+      "sentence": "Admitted, the room was small.",
+      "answers": [
+        "Admittedly, the room was small."
+      ],
+      "explain": "Admittedly."
+    },
+    {
+      "type": "fix",
+      "sentence": "All and all, it was worth it.",
+      "answers": [
+        "All in all, it was worth it."
+      ],
+      "explain": "All in all."
+    },
+    {
+      "type": "fix",
+      "sentence": "That saying, I still like him.",
+      "answers": [
+        "That said, I still like him."
+      ],
+      "explain": "That said."
+    },
+    {
+      "type": "translate",
+      "vi": "Phải thừa nhận là tôi đã sai.",
+      "answers": [
+        "Admittedly, I was wrong.",
+        "Admittedly, I made a mistake.",
+        "I admit that I was wrong.",
+        "Admittedly, I was mistaken.",
+        "Granted, I was wrong."
+      ],
+      "explain": "Admittedly."
+    },
+    {
+      "type": "translate",
+      "vi": "Nó hơi đắt. Dù vậy, chất lượng rất tốt.",
+      "answers": [
+        "It's a bit expensive. That said, the quality is very good.",
+        "It is a bit expensive. That said, the quality is very good.",
+        "It's a little expensive. That said, the quality is very good.",
+        "It's a bit expensive. Having said that, the quality is very good.",
+        "It's a bit expensive. Even so, the quality is very good.",
+        "It's a bit pricey. That said, the quality is very good."
+      ],
+      "explain": "That said."
+    }
+  ]
+}

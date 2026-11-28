@@ -1,0 +1,330 @@
+{
+  "id": "subjunctive",
+  "level": "C1",
+  "title": "Giả định cách: I suggest he be, it is vital that",
+  "summary": "Sau suggest, insist, recommend, demand và it is vital/essential that, dùng V nguyên mẫu cho mọi chủ ngữ: I suggest he leave now.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "The client wants the design changed again.",
+      "vi": "Khách hàng lại muốn sửa thiết kế."
+    },
+    {
+      "who": "B",
+      "en": "Then [[I suggest]] we [[meet]] them tomorrow.",
+      "vi": "Vậy tôi đề nghị ngày mai chúng ta gặp họ."
+    },
+    {
+      "who": "A",
+      "en": "They [[insist that]] the logo [[be]] bigger.",
+      "vi": "Họ nhất quyết logo phải to hơn."
+    },
+    {
+      "who": "B",
+      "en": "[[It is essential that]] everyone [[agree]] before we start.",
+      "vi": "Điều cốt yếu là mọi người phải đồng ý trước khi bắt đầu."
+    },
+    {
+      "who": "A",
+      "en": "I'll [[recommend that]] Minh [[lead]] the meeting.",
+      "vi": "Tôi sẽ đề xuất Minh chủ trì cuộc họp."
+    },
+    {
+      "who": "B",
+      "en": "Good idea. And [[it's important that]] he [[not be]] late!",
+      "vi": "Ý hay. Và quan trọng là cậu ấy đừng đến muộn!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "V nguyên mẫu cho mọi chủ ngữ",
+      "rule": "Sau **suggest, recommend, insist, demand, request, propose + that**, động từ ở **nguyên mẫu**, không thêm -s, không chia quá khứ: *he go, she be*.",
+      "formula": [
+        {
+          "text": "S + suggest / insist + (that) + S2 + [V nguyên mẫu]"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I suggest that he [[take]] a break.",
+          "vi": "Tôi đề nghị anh ấy nghỉ một chút.",
+          "why": "He take (không phải takes)."
+        },
+        {
+          "en": "She insisted that we [[be]] on time.",
+          "vi": "Cô ấy nhất quyết chúng tôi phải đúng giờ.",
+          "why": "Be cho mọi chủ ngữ, kể cả quá khứ."
+        },
+        {
+          "en": "They demanded that the manager [[apologize]].",
+          "vi": "Họ yêu cầu quản lý xin lỗi.",
+          "why": "Apologize, không thêm -s."
+        }
+      ],
+      "check": {
+        "prompt": "The doctor recommended that she ___ more water.",
+        "options": [
+          "drink",
+          "drinks",
+          "drank"
+        ],
+        "answer": 0,
+        "explain": "Sau recommend that → V nguyên mẫu."
+      }
+    },
+    {
+      "part": "It is … that",
+      "heading": "It is vital / essential / important that + V nguyên mẫu",
+      "rule": "**It is vital / essential / crucial / important / necessary that + S + V nguyên mẫu**. Phủ định: **not + V** (không dùng don't).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[It is vital that]] every child [[have]] a place at school.",
+          "vi": "Điều thiết yếu là mọi trẻ em đều có chỗ học.",
+          "why": "Have, không phải has."
+        },
+        {
+          "en": "[[It is important that]] he [[not miss]] the deadline.",
+          "vi": "Quan trọng là anh ấy đừng lỡ hạn chót.",
+          "why": "Phủ định: not + V."
+        }
+      ],
+      "check": {
+        "prompt": "It is essential that the report ___ checked twice.",
+        "options": [
+          "be",
+          "is",
+          "was"
+        ],
+        "answer": 0,
+        "explain": "Giả định cách bị động → be + V3."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Should + V và văn nói",
+      "rule": "Tiếng Anh-Anh hay dùng **should + V** thay thế: *I suggest that he should go*. Văn nói cũng gặp *suggest + V-ing*: *I suggest leaving now*. Tiếng Anh-Mỹ trang trọng ưa V nguyên mẫu.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I suggest that he [[should see]] a doctor.",
+          "vi": "Tôi đề nghị anh ấy nên đi khám.",
+          "why": "Cách Anh-Anh: should + V."
+        },
+        {
+          "en": "I suggest [[leaving]] before the rain.",
+          "vi": "Tôi đề nghị đi trước khi mưa.",
+          "why": "Không nêu chủ ngữ → V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu SAI:",
+        "options": [
+          "I suggest he goes home.",
+          "I suggest he go home.",
+          "I suggest that he should go home."
+        ],
+        "answer": 0,
+        "explain": "Văn chuẩn: he go hoặc he should go."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I suggest that she goes to the doctor.",
+      "right": "I suggest that she go to the doctor.",
+      "why": "Giả định cách: V nguyên mẫu."
+    },
+    {
+      "wrong": "It is vital that he is here at eight.",
+      "right": "It is vital that he be here at eight.",
+      "why": "Be cho mọi chủ ngữ."
+    },
+    {
+      "wrong": "They insisted that we paid in cash.",
+      "right": "They insisted that we pay in cash.",
+      "why": "Không chia quá khứ."
+    },
+    {
+      "wrong": "It's important that she doesn't forget.",
+      "right": "It's important that she not forget.",
+      "why": "Phủ định: not + V."
+    },
+    {
+      "wrong": "I suggest you to rest.",
+      "right": "I suggest that you rest.",
+      "why": "Không dùng suggest sb to V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The board demanded that the CEO ___.",
+      "options": [
+        "resign",
+        "resigns",
+        "resigned"
+      ],
+      "answer": 0,
+      "explain": "Demand that + V nguyên mẫu."
+    },
+    {
+      "type": "choice",
+      "prompt": "It is crucial that the patient ___ kept warm.",
+      "options": [
+        "be",
+        "is",
+        "was"
+      ],
+      "answer": 0,
+      "explain": "Bị động giả định cách: be + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "I recommend that he ___ the course again.",
+      "options": [
+        "take",
+        "takes",
+        "took"
+      ],
+      "answer": 0,
+      "explain": "Recommend that + V nguyên mẫu."
+    },
+    {
+      "type": "choice",
+      "prompt": "It is important that you ___ late tomorrow.",
+      "options": [
+        "not be",
+        "don't be",
+        "aren't"
+      ],
+      "answer": 0,
+      "explain": "Phủ định: not + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng chuẩn Anh-Mỹ trang trọng?",
+      "options": [
+        "She insisted that he stays.",
+        "She insisted that he stay."
+      ],
+      "answer": 1,
+      "explain": "Insist that + V nguyên mẫu."
+    },
+    {
+      "type": "fill",
+      "prompt": "We suggest that the company ___ more staff.",
+      "hint": "hire",
+      "answers": [
+        "hire"
+      ],
+      "explain": "V nguyên mẫu."
+    },
+    {
+      "type": "fill",
+      "prompt": "It is essential that every guest ___ a ticket.",
+      "hint": "have",
+      "answers": [
+        "have"
+      ],
+      "explain": "Have cho mọi chủ ngữ."
+    },
+    {
+      "type": "fill",
+      "prompt": "The teacher insisted that we ___ quiet.",
+      "hint": "be",
+      "answers": [
+        "be"
+      ],
+      "explain": "Be cho mọi chủ ngữ."
+    },
+    {
+      "type": "fill",
+      "prompt": "It is vital that he ___ forget his passport.",
+      "hint": "not",
+      "answers": [
+        "not"
+      ],
+      "explain": "Phủ định: not + V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đề nghị anh ấy nghỉ ngơi.",
+      "words": [
+        "I",
+        "suggest",
+        "that",
+        "he",
+        "rest."
+      ],
+      "explain": "Suggest that + V nguyên mẫu."
+    },
+    {
+      "type": "order",
+      "vi": "Điều quan trọng là cô ấy phải đến đúng giờ.",
+      "words": [
+        "It",
+        "is",
+        "important",
+        "that",
+        "she",
+        "be",
+        "on",
+        "time."
+      ],
+      "explain": "It is important that + be."
+    },
+    {
+      "type": "fix",
+      "sentence": "The doctor recommended that he takes a holiday.",
+      "answers": [
+        "The doctor recommended that he take a holiday."
+      ],
+      "explain": "V nguyên mẫu, không thêm -s."
+    },
+    {
+      "type": "fix",
+      "sentence": "It is necessary that every student brings a pen.",
+      "answers": [
+        "It is necessary that every student bring a pen."
+      ],
+      "explain": "V nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "She demanded that he gave her the money back.",
+      "answers": [
+        "She demanded that he give her the money back."
+      ],
+      "explain": "Không chia quá khứ."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi đề nghị chúng ta hoãn cuộc họp.",
+      "answers": [
+        "I suggest that we postpone the meeting.",
+        "I suggest we postpone the meeting.",
+        "I suggest postponing the meeting.",
+        "I propose that we postpone the meeting.",
+        "I suggest that we delay the meeting.",
+        "I suggest that we should postpone the meeting."
+      ],
+      "explain": "Suggest that + V nguyên mẫu."
+    },
+    {
+      "type": "translate",
+      "vi": "Điều thiết yếu là mọi người phải được thông báo.",
+      "answers": [
+        "It is essential that everyone be informed.",
+        "It's essential that everyone be informed.",
+        "It is essential that everyone be told.",
+        "It is vital that everyone be informed.",
+        "It is essential that everyone should be informed.",
+        "It is essential that everybody be informed."
+      ],
+      "explain": "It is essential that + be + V3."
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": "as-if",
+  "level": "C1",
+  "title": "As if, as though, suppose, imagine",
+  "summary": "So sánh với điều không có thật: as if/as though + quá khứ (lùi thì), suppose/imagine/what if để đặt giả thiết.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Why is Nam acting [[as if]] he [[were]] the boss?",
+      "vi": "Sao Nam cư xử như thể cậu ấy là sếp vậy?"
+    },
+    {
+      "who": "B",
+      "en": "He talks [[as though]] he [[had built]] the company himself!",
+      "vi": "Cậu ấy nói như thể tự tay xây dựng công ty!"
+    },
+    {
+      "who": "A",
+      "en": "[[Suppose]] he really [[became]] manager. What then?",
+      "vi": "Giả sử cậu ấy thành quản lý thật. Lúc đó thì sao?"
+    },
+    {
+      "who": "B",
+      "en": "[[Imagine]] working for him every day!",
+      "vi": "Thử tưởng tượng ngày nào cũng làm cho cậu ấy xem!"
+    },
+    {
+      "who": "A",
+      "en": "It looks [[as if]] it's going to happen, though.",
+      "vi": "Nhưng có vẻ chuyện đó sắp xảy ra thật."
+    },
+    {
+      "who": "B",
+      "en": "Then it's high time I [[updated]] my CV.",
+      "vi": "Vậy đến lúc mình cập nhật CV rồi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Không có thật",
+      "heading": "As if / as though + quá khứ",
+      "rule": "Khi so sánh với điều **không có thật**, sau **as if / as though** lùi thì: hiện tại → **quá khứ (were)**, quá khứ → **had + V3**.",
+      "formula": [
+        {
+          "text": "S + V + [as if] + S2 + V2 / were"
+        },
+        {
+          "text": "S + V + [as if] + S2 + [had] + V3"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "He talks [[as if]] he [[knew]] everything.",
+          "vi": "Anh ấy nói như thể biết hết mọi thứ.",
+          "why": "Không biết hết → knew."
+        },
+        {
+          "en": "She looked at me [[as though]] I [[were]] crazy.",
+          "vi": "Cô ấy nhìn tôi như thể tôi bị điên.",
+          "why": "Không điên → were."
+        },
+        {
+          "en": "He acts [[as if]] nothing [[had happened]].",
+          "vi": "Anh ấy cư xử như thể chưa có chuyện gì.",
+          "why": "Chuyện đã xảy ra → had happened."
+        }
+      ],
+      "check": {
+        "prompt": "She spends money as if she ___ a millionaire.",
+        "options": [
+          "were",
+          "is",
+          "will be"
+        ],
+        "answer": 0,
+        "explain": "Không có thật → were."
+      }
+    },
+    {
+      "part": "Có thể thật",
+      "heading": "Looks / sounds as if + thì bình thường",
+      "rule": "Khi điều đó **có thể đúng** (có dấu hiệu), sau **look / sound / seem as if** dùng **thì bình thường**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "It looks [[as if]] it's going to rain.",
+          "vi": "Có vẻ trời sắp mưa.",
+          "why": "Có dấu hiệu thật → thì bình thường."
+        },
+        {
+          "en": "You sound [[as if]] you have a cold.",
+          "vi": "Nghe giọng bạn như bị cảm.",
+          "why": "Có thể đúng → have."
+        }
+      ],
+      "check": {
+        "prompt": "Look at those clouds. It looks as if it ___ to snow.",
+        "options": [
+          "is going",
+          "were going",
+          "had gone"
+        ],
+        "answer": 0,
+        "explain": "Có dấu hiệu thật → is going."
+      }
+    },
+    {
+      "part": "Giả thiết",
+      "heading": "Suppose, supposing, imagine, what if",
+      "rule": "**Suppose / Supposing / Imagine / What if + quá khứ** = giả sử (khó xảy ra). Với **hiện tại** = khả năng thật.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Suppose]] you [[lost]] your job. What would you do?",
+          "vi": "Giả sử bạn mất việc, bạn sẽ làm gì?",
+          "why": "Khó xảy ra → lost."
+        },
+        {
+          "en": "[[What if]] it rains tomorrow?",
+          "vi": "Lỡ mai trời mưa thì sao?",
+          "why": "Có thể thật → rains."
+        },
+        {
+          "en": "[[Imagine]] living on a boat!",
+          "vi": "Thử tưởng tượng sống trên thuyền xem!",
+          "why": "Imagine + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "Supposing you ___ a million dollars, what would you buy?",
+        "options": [
+          "won",
+          "win",
+          "will win"
+        ],
+        "answer": 0,
+        "explain": "Giả sử khó xảy ra → won."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He talks as if he is the owner, but he isn't.",
+      "right": "He talks as if he were the owner, but he isn't.",
+      "why": "Không có thật → were."
+    },
+    {
+      "wrong": "She looked as though she has seen a ghost.",
+      "right": "She looked as though she had seen a ghost.",
+      "why": "Quá khứ không thật → had seen."
+    },
+    {
+      "wrong": "Suppose you will meet the president.",
+      "right": "Suppose you met the president.",
+      "why": "Giả sử → quá khứ."
+    },
+    {
+      "wrong": "Imagine to live in Paris!",
+      "right": "Imagine living in Paris!",
+      "why": "Imagine + V-ing."
+    },
+    {
+      "wrong": "It looks as if it were raining soon.",
+      "right": "It looks as if it's going to rain soon.",
+      "why": "Có dấu hiệu thật → thì bình thường."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "He behaves as if he ___ my father.",
+      "options": [
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 0,
+      "explain": "Không có thật → were."
+    },
+    {
+      "type": "choice",
+      "prompt": "She talked as though she ___ there herself, but she hadn't.",
+      "options": [
+        "had been",
+        "was",
+        "has been"
+      ],
+      "answer": 0,
+      "explain": "Quá khứ không thật → had been."
+    },
+    {
+      "type": "choice",
+      "prompt": "Supposing the train ___ late, what would we do?",
+      "options": [
+        "were",
+        "is being",
+        "will be"
+      ],
+      "answer": 0,
+      "explain": "Giả thiết khó xảy ra → were."
+    },
+    {
+      "type": "choice",
+      "prompt": "It sounds as if they ___ a great time. You can hear them laughing.",
+      "options": [
+        "are having",
+        "had had",
+        "would have"
+      ],
+      "answer": 0,
+      "explain": "Có dấu hiệu thật → thì bình thường."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói điều KHÔNG có thật?",
+      "options": [
+        "He looks as if he is tired.",
+        "He talks as if he were a doctor."
+      ],
+      "answer": 1,
+      "explain": "Were: không có thật."
+    },
+    {
+      "type": "fill",
+      "prompt": "Don't treat me as if I ___ a child.",
+      "hint": "be",
+      "answers": [
+        "were"
+      ],
+      "explain": "Không có thật → were."
+    },
+    {
+      "type": "fill",
+      "prompt": "He looked as if he ___ for days.",
+      "hint": "not sleep",
+      "answers": [
+        "hadn't slept",
+        "had not slept"
+      ],
+      "explain": "Quá khứ không thật → had + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "What ___ we miss the last bus?",
+      "hint": "giả sử",
+      "answers": [
+        "if"
+      ],
+      "explain": "What if + hiện tại."
+    },
+    {
+      "type": "fill",
+      "prompt": "Imagine ___ on the moon!",
+      "hint": "walk",
+      "answers": [
+        "walking"
+      ],
+      "explain": "Imagine + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Anh ấy nói như thể anh ấy biết hết.",
+      "words": [
+        "He",
+        "talks",
+        "as",
+        "if",
+        "he",
+        "knew",
+        "everything."
+      ],
+      "explain": "As if + quá khứ."
+    },
+    {
+      "type": "order",
+      "vi": "Giả sử bạn mất ví thì sao?",
+      "words": [
+        "What",
+        "if",
+        "you",
+        "lost",
+        "your",
+        "wallet?"
+      ],
+      "explain": "What if + quá khứ."
+    },
+    {
+      "type": "fix",
+      "sentence": "She acts as if she is the queen.",
+      "answers": [
+        "She acts as if she were the queen."
+      ],
+      "explain": "Không có thật → were."
+    },
+    {
+      "type": "fix",
+      "sentence": "He spoke as though he has won the lottery.",
+      "answers": [
+        "He spoke as though he had won the lottery."
+      ],
+      "explain": "Quá khứ không thật → had won."
+    },
+    {
+      "type": "fix",
+      "sentence": "Imagine to have no internet!",
+      "answers": [
+        "Imagine having no internet!"
+      ],
+      "explain": "Imagine + V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy nhìn tôi như thể tôi là người lạ.",
+      "answers": [
+        "She looked at me as if I were a stranger.",
+        "She looked at me as though I were a stranger.",
+        "She looked at me as if I was a stranger.",
+        "She looked at me as though I was a stranger.",
+        "She looked at me like I was a stranger."
+      ],
+      "explain": "As if + were."
+    },
+    {
+      "type": "translate",
+      "vi": "Giả sử bạn được chọn bất kỳ công việc nào, bạn sẽ chọn gì?",
+      "answers": [
+        "Suppose you could choose any job, what would you choose?",
+        "Supposing you could choose any job, what would you choose?",
+        "Suppose you could choose any job, which would you choose?",
+        "Imagine you could choose any job. What would you choose?",
+        "If you could choose any job, what would you choose?"
+      ],
+      "explain": "Suppose + quá khứ."
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "id": "were-it-not-for",
+  "level": "C1",
+  "title": "If it weren't for, but for, were it not for",
+  "summary": "Nói nếu không có ai/cái gì thì kết quả đã khác: if it weren't for (hiện tại), if it hadn't been for (quá khứ), but for, were it not for, had it not been for.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Congratulations on the award!",
+      "vi": "Chúc mừng bạn nhận giải!"
+    },
+    {
+      "who": "B",
+      "en": "Thanks. [[If it hadn't been for]] my team, I [[wouldn't have won]].",
+      "vi": "Cảm ơn. Nếu không có nhóm mình thì mình đã không thắng."
+    },
+    {
+      "who": "A",
+      "en": "You're too modest.",
+      "vi": "Bạn khiêm tốn quá."
+    },
+    {
+      "who": "B",
+      "en": "Really. [[If it weren't for]] Lan, the project [[would be]] a mess now.",
+      "vi": "Thật mà. Nếu không có Lan thì giờ dự án đã rối tung."
+    },
+    {
+      "who": "A",
+      "en": "[[But for]] your ideas, there [[would be]] no project at all!",
+      "vi": "Nếu không có ý tưởng của bạn thì làm gì có dự án!"
+    },
+    {
+      "who": "B",
+      "en": "[[Were it not for]] luck, we'd still be waiting for funding.",
+      "vi": "Nếu không nhờ may mắn, giờ bọn mình vẫn đang chờ vốn."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Hiện tại",
+      "heading": "If it weren't for + danh từ, would + V",
+      "rule": "**If it weren't / wasn't for + danh từ** = nếu không có… (hiện tại) → **would + V**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[If it weren't for]] the map, we [[would be]] lost.",
+          "vi": "Nếu không có bản đồ, chúng tôi đã lạc.",
+          "why": "Hiện tại: would be."
+        },
+        {
+          "en": "[[If it wasn't for]] her, I'd quit.",
+          "vi": "Nếu không vì cô ấy, tôi đã nghỉ việc rồi.",
+          "why": "Văn nói: wasn't."
+        }
+      ],
+      "check": {
+        "prompt": "If it ___ for my parents, I couldn't afford school.",
+        "options": [
+          "weren't",
+          "hadn't been",
+          "isn't"
+        ],
+        "answer": 0,
+        "explain": "Hiện tại → weren't."
+      }
+    },
+    {
+      "part": "Quá khứ",
+      "heading": "If it hadn't been for + danh từ, would have + V3",
+      "rule": "**If it hadn't been for + danh từ** = nếu không có… (quá khứ) → **would have + V3**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[If it hadn't been for]] the rain, we [[would have won]].",
+          "vi": "Nếu không vì mưa, chúng tôi đã thắng.",
+          "why": "Quá khứ: would have won."
+        },
+        {
+          "en": "[[If it hadn't been for]] the doctor, he [[would have died]].",
+          "vi": "Nếu không có bác sĩ, ông ấy đã chết.",
+          "why": "Kết quả quá khứ."
+        }
+      ],
+      "check": {
+        "prompt": "If it ___ for the traffic, I would have arrived on time.",
+        "options": [
+          "hadn't been",
+          "weren't",
+          "wasn't"
+        ],
+        "answer": 0,
+        "explain": "Quá khứ → hadn't been."
+      }
+    },
+    {
+      "part": "Trang trọng",
+      "heading": "But for, Were it not for, Had it not been for",
+      "rule": "**But for + danh từ** dùng cho cả hai thì. Đảo ngữ trang trọng: **Were it not for** (hiện tại), **Had it not been for** (quá khứ).",
+      "body": [],
+      "table": {
+        "head": [
+          "Thường",
+          "Trang trọng"
+        ],
+        "rows": [
+          [
+            "If it weren't for you, …",
+            "Were it not for you, …"
+          ],
+          [
+            "If it hadn't been for you, …",
+            "Had it not been for you, …"
+          ],
+          [
+            "Cả hai",
+            "But for you, …"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[But for]] your help, I would have failed.",
+          "vi": "Nếu không có bạn giúp, tôi đã thất bại.",
+          "why": "But for + danh từ."
+        },
+        {
+          "en": "[[Had it not been for]] the warning, many would have died.",
+          "vi": "Nếu không có cảnh báo, nhiều người đã chết.",
+          "why": "Đảo ngữ quá khứ."
+        }
+      ],
+      "check": {
+        "prompt": "___ it not for his support, the company would close.",
+        "options": [
+          "Were",
+          "Had",
+          "If"
+        ],
+        "answer": 0,
+        "explain": "Hiện tại trang trọng: Were it not for."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If it wasn't for the rain, we would have won yesterday.",
+      "right": "If it hadn't been for the rain, we would have won yesterday.",
+      "why": "Quá khứ → hadn't been."
+    },
+    {
+      "wrong": "But for you helped me, I would fail.",
+      "right": "But for your help, I would fail.",
+      "why": "But for + danh từ."
+    },
+    {
+      "wrong": "Had it not for the map, we would have got lost.",
+      "right": "Had it not been for the map, we would have got lost.",
+      "why": "Had it not been for."
+    },
+    {
+      "wrong": "If it weren't for you, I will be sad.",
+      "right": "If it weren't for you, I would be sad.",
+      "why": "Kết quả → would."
+    },
+    {
+      "wrong": "Were not it for her, we would be late.",
+      "right": "Were it not for her, we would be late.",
+      "why": "Trật tự: Were it not for."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "If it weren't for the internet, my job ___ impossible.",
+      "options": [
+        "would be",
+        "will be",
+        "would have been"
+      ],
+      "answer": 0,
+      "explain": "Hiện tại → would be."
+    },
+    {
+      "type": "choice",
+      "prompt": "If it hadn't been for the seatbelt, she ___ badly hurt.",
+      "options": [
+        "would have been",
+        "would be",
+        "will be"
+      ],
+      "answer": 0,
+      "explain": "Quá khứ → would have been."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ your advice, I would have made a big mistake.",
+      "options": [
+        "But for",
+        "Except",
+        "Unless"
+      ],
+      "answer": 0,
+      "explain": "But for + danh từ."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ it not been for the fog, the plane would have landed.",
+      "options": [
+        "Had",
+        "Were",
+        "If"
+      ],
+      "answer": 0,
+      "explain": "Quá khứ trang trọng: Had it not been for."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói về HIỆN TẠI?",
+      "options": [
+        "If it hadn't been for you, I would have left.",
+        "If it weren't for you, I would leave."
+      ],
+      "answer": 1,
+      "explain": "Weren't + would leave: hiện tại."
+    },
+    {
+      "type": "fill",
+      "prompt": "If it ___ for the guide, we would have got lost.",
+      "hint": "not be",
+      "answers": [
+        "hadn't been",
+        "had not been"
+      ],
+      "explain": "Quá khứ → hadn't been."
+    },
+    {
+      "type": "fill",
+      "prompt": "If it ___ for my job, I would move to Da Lat.",
+      "hint": "not be",
+      "answers": [
+        "weren't",
+        "wasn't",
+        "were not"
+      ],
+      "explain": "Hiện tại → weren't."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ for the music, the party would be boring.",
+      "hint": "nếu không có",
+      "answers": [
+        "But"
+      ],
+      "explain": "But for + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "Were it ___ for her, nobody would know.",
+      "hint": "phủ định",
+      "answers": [
+        "not"
+      ],
+      "explain": "Were it not for."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu không có bạn, tôi đã thất bại.",
+      "words": [
+        "But",
+        "for",
+        "you",
+        "I",
+        "would",
+        "have",
+        "failed."
+      ],
+      "explain": "But for + danh từ."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu không vì cơn mưa, chúng tôi đã đi biển.",
+      "words": [
+        "If",
+        "it",
+        "hadn't",
+        "been",
+        "for",
+        "the",
+        "rain",
+        "we",
+        "would",
+        "have",
+        "gone",
+        "to",
+        "the",
+        "beach."
+      ],
+      "explain": "If it hadn't been for."
+    },
+    {
+      "type": "fix",
+      "sentence": "If it wasn't for the traffic yesterday, I would have been on time.",
+      "answers": [
+        "If it hadn't been for the traffic yesterday, I would have been on time."
+      ],
+      "explain": "Quá khứ → hadn't been."
+    },
+    {
+      "type": "fix",
+      "sentence": "Had not it been for the police, he would have escaped.",
+      "answers": [
+        "Had it not been for the police, he would have escaped."
+      ],
+      "explain": "Trật tự: Had it not been for."
+    },
+    {
+      "type": "fix",
+      "sentence": "But for she warned us, we would have lost.",
+      "answers": [
+        "But for her warning, we would have lost."
+      ],
+      "explain": "But for + danh từ."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu không có bố mẹ giúp, tôi đã không mua được nhà.",
+      "answers": [
+        "If it hadn't been for my parents' help, I wouldn't have been able to buy a house.",
+        "If it hadn't been for my parents, I couldn't have bought a house.",
+        "But for my parents' help, I couldn't have bought a house.",
+        "Without my parents' help, I couldn't have bought a house.",
+        "If it hadn't been for my parents' help, I couldn't have bought a house.",
+        "If it hadn't been for my parents, I wouldn't have been able to buy a house."
+      ],
+      "explain": "If it hadn't been for / but for."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu không có điện thoại, cuộc sống sẽ khó khăn hơn.",
+      "answers": [
+        "If it weren't for phones, life would be harder.",
+        "If it weren't for phones, life would be more difficult.",
+        "If it wasn't for phones, life would be harder.",
+        "Without phones, life would be harder.",
+        "Were it not for phones, life would be harder.",
+        "But for phones, life would be harder."
+      ],
+      "explain": "If it weren't for + would."
+    }
+  ]
+}

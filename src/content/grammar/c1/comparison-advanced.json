@@ -1,0 +1,334 @@
+{
+  "id": "comparison-advanced",
+  "level": "C1",
+  "title": "Nowhere near, twice as, all the more",
+  "summary": "So sánh nâng cao: nowhere near/nothing like as, twice/three times as … as, all the more, the + so sánh hơn, considerably/marginally.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How's the new apartment?",
+      "vi": "Căn hộ mới thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "It's [[twice as big as]] the old one.",
+      "vi": "Rộng gấp đôi căn cũ."
+    },
+    {
+      "who": "A",
+      "en": "Is it expensive?",
+      "vi": "Có đắt không?"
+    },
+    {
+      "who": "B",
+      "en": "It's [[nowhere near as expensive as]] I expected.",
+      "vi": "Rẻ hơn nhiều so với mình tưởng."
+    },
+    {
+      "who": "A",
+      "en": "And the commute?",
+      "vi": "Còn đi làm thì sao?"
+    },
+    {
+      "who": "B",
+      "en": "[[Considerably shorter]]. That makes it [[all the more]] attractive.",
+      "vi": "Ngắn hơn đáng kể. Vì thế nó càng hấp dẫn hơn."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Bội số",
+      "heading": "Twice / three times as … as",
+      "rule": "**twice / three times / half + as + tính từ + as** = gấp hai / ba / một nửa. Cũng nói **three times + so sánh hơn + than**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "This room is [[twice as big as]] mine.",
+          "vi": "Phòng này rộng gấp đôi phòng tôi.",
+          "why": "Twice as + adj + as."
+        },
+        {
+          "en": "Rent here is [[three times higher than]] in my town.",
+          "vi": "Tiền thuê ở đây cao gấp ba ở quê tôi.",
+          "why": "Three times + so sánh hơn + than."
+        },
+        {
+          "en": "It costs [[half as much as]] the new model.",
+          "vi": "Nó rẻ bằng một nửa mẫu mới.",
+          "why": "Half as much as."
+        }
+      ],
+      "check": {
+        "prompt": "This phone is ___ as expensive as that one.",
+        "options": [
+          "twice",
+          "two times more",
+          "double than"
+        ],
+        "answer": 0,
+        "explain": "Twice as … as."
+      }
+    },
+    {
+      "part": "Mức độ",
+      "heading": "Nowhere near, nothing like, considerably, marginally",
+      "rule": "**nowhere near / nothing like as … as** = kém xa. **considerably / significantly** (hơn nhiều), **marginally / slightly** (hơn chút) đứng trước so sánh hơn.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The film was [[nowhere near as good as]] the book.",
+          "vi": "Phim kém xa cuốn sách.",
+          "why": "Nowhere near as … as."
+        },
+        {
+          "en": "Prices are [[considerably higher]] this year.",
+          "vi": "Năm nay giá cao hơn đáng kể.",
+          "why": "Considerably + so sánh hơn."
+        },
+        {
+          "en": "She is [[marginally faster]] than me.",
+          "vi": "Cô ấy nhanh hơn tôi một chút.",
+          "why": "Marginally: hơn rất ít."
+        }
+      ],
+      "check": {
+        "prompt": "The test was ___ near as hard as I feared.",
+        "options": [
+          "nowhere",
+          "nothing",
+          "not"
+        ],
+        "answer": 0,
+        "explain": "Nowhere near as … as."
+      }
+    },
+    {
+      "part": "Càng",
+      "heading": "All the more, the + so sánh hơn",
+      "rule": "**all the more + so sánh hơn / tính từ** = **càng thêm** (vì một lý do). **The + so sánh hơn…, the + so sánh hơn** = càng… càng.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Her success is [[all the more]] impressive because she is so young.",
+          "vi": "Thành công của cô ấy càng ấn tượng vì cô ấy còn rất trẻ.",
+          "why": "All the more + adj + because."
+        },
+        {
+          "en": "[[The longer]] you wait, [[the harder]] it gets.",
+          "vi": "Càng chờ lâu càng khó.",
+          "why": "The + so sánh hơn, the + so sánh hơn."
+        }
+      ],
+      "check": {
+        "prompt": "The sooner we start, ___ we'll finish.",
+        "options": [
+          "the sooner",
+          "sooner",
+          "the soon"
+        ],
+        "answer": 0,
+        "explain": "The + so sánh hơn, the + so sánh hơn."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "This house is two times bigger as that one.",
+      "right": "This house is twice as big as that one.",
+      "why": "Twice as … as."
+    },
+    {
+      "wrong": "It is nowhere near so good than the first film.",
+      "right": "It is nowhere near as good as the first film.",
+      "why": "Nowhere near as … as."
+    },
+    {
+      "wrong": "The more you practice, the better you get it.",
+      "right": "The more you practice, the better you get.",
+      "why": "Không thêm it."
+    },
+    {
+      "wrong": "Prices are considerable higher now.",
+      "right": "Prices are considerably higher now.",
+      "why": "Trạng từ: considerably."
+    },
+    {
+      "wrong": "It's all more impressive.",
+      "right": "It's all the more impressive.",
+      "why": "All the more."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "My new laptop is ___ as fast as the old one.",
+      "options": [
+        "three times",
+        "three time",
+        "third times"
+      ],
+      "answer": 0,
+      "explain": "Three times as … as."
+    },
+    {
+      "type": "choice",
+      "prompt": "The sequel was ___ like as good as the original.",
+      "options": [
+        "nothing",
+        "nowhere",
+        "not"
+      ],
+      "answer": 0,
+      "explain": "Nothing like as … as."
+    },
+    {
+      "type": "choice",
+      "prompt": "Sales were ___ higher than last year.",
+      "options": [
+        "significantly",
+        "significant",
+        "significance"
+      ],
+      "answer": 0,
+      "explain": "Trạng từ + so sánh hơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "The more I learn, ___ I realize I don't know.",
+      "options": [
+        "the more",
+        "more",
+        "the most"
+      ],
+      "answer": 0,
+      "explain": "The more…, the more."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là 'kém xa'?",
+      "options": [
+        "It's nowhere near as big as ours.",
+        "It's almost as big as ours."
+      ],
+      "answer": 0,
+      "explain": "Nowhere near = kém xa."
+    },
+    {
+      "type": "fill",
+      "prompt": "This bag costs ___ as much as that one.",
+      "hint": "một nửa",
+      "answers": [
+        "half"
+      ],
+      "explain": "Half as much as."
+    },
+    {
+      "type": "fill",
+      "prompt": "The news made the victory ___ the more special.",
+      "hint": "tất cả",
+      "answers": [
+        "all"
+      ],
+      "explain": "All the more."
+    },
+    {
+      "type": "fill",
+      "prompt": "The ___ you leave, the earlier you'll arrive.",
+      "hint": "soon",
+      "answers": [
+        "sooner"
+      ],
+      "explain": "The + so sánh hơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "She is ___ taller than her sister.",
+      "hint": "hơn chút",
+      "answers": [
+        "slightly",
+        "marginally",
+        "a little"
+      ],
+      "explain": "Mức nhỏ + so sánh hơn."
+    },
+    {
+      "type": "order",
+      "vi": "Nhà này rộng gấp đôi nhà tôi.",
+      "words": [
+        "This",
+        "house",
+        "is",
+        "twice",
+        "as",
+        "big",
+        "as",
+        "mine."
+      ],
+      "explain": "Twice as … as."
+    },
+    {
+      "type": "order",
+      "vi": "Càng chờ lâu càng khó.",
+      "words": [
+        "The",
+        "longer",
+        "you",
+        "wait",
+        "the",
+        "harder",
+        "it",
+        "gets."
+      ],
+      "explain": "The + so sánh hơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "The new bridge is two times longer as the old one.",
+      "answers": [
+        "The new bridge is twice as long as the old one."
+      ],
+      "explain": "Twice as … as."
+    },
+    {
+      "type": "fix",
+      "sentence": "It is nowhere near as cheap than I thought.",
+      "answers": [
+        "It is nowhere near as cheap as I thought."
+      ],
+      "explain": "As … as."
+    },
+    {
+      "type": "fix",
+      "sentence": "Her story is all more moving because it is true.",
+      "answers": [
+        "Her story is all the more moving because it is true."
+      ],
+      "explain": "All the more."
+    },
+    {
+      "type": "translate",
+      "vi": "Thành phố này đắt gấp ba quê tôi.",
+      "answers": [
+        "This city is three times as expensive as my hometown.",
+        "This city is three times more expensive than my hometown.",
+        "This city is three times as expensive as my home town.",
+        "Living in this city is three times as expensive as in my hometown.",
+        "This city is three times as expensive as where I come from."
+      ],
+      "explain": "Three times as … as."
+    },
+    {
+      "type": "translate",
+      "vi": "Phim kém xa cuốn sách.",
+      "answers": [
+        "The film is nowhere near as good as the book.",
+        "The movie is nowhere near as good as the book.",
+        "The film is nothing like as good as the book.",
+        "The movie is nothing like as good as the book.",
+        "The film was nowhere near as good as the book.",
+        "The movie was nowhere near as good as the book."
+      ],
+      "explain": "Nowhere near as … as."
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "nominalisation",
+  "level": "C1",
+  "title": "Danh từ hóa: the decision to, the failure of",
+  "summary": "Chuyển động từ, tính từ thành danh từ để viết trang trọng, gọn hơn: they decided → their decision to, it failed → the failure of.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Can you check my report? It sounds too casual.",
+      "vi": "Bạn xem giúp báo cáo của mình? Nghe xuồng xã quá."
+    },
+    {
+      "who": "B",
+      "en": "Sure. Instead of 'prices rose quickly', write '[[the rapid rise]] in prices'.",
+      "vi": "Được. Thay vì 'prices rose quickly', viết '[[the rapid rise]] in prices'."
+    },
+    {
+      "who": "A",
+      "en": "And 'the company decided to close'?",
+      "vi": "Còn 'the company decided to close' thì sao?"
+    },
+    {
+      "who": "B",
+      "en": "Try '[[the company's decision to close]]'.",
+      "vi": "Thử '[[the company's decision to close]]'."
+    },
+    {
+      "who": "A",
+      "en": "Got it. '[[The failure of]] the project' sounds better too.",
+      "vi": "Hiểu rồi. '[[The failure of]] the project' cũng hay hơn."
+    },
+    {
+      "who": "B",
+      "en": "Exactly. [[The introduction of]] new rules caused [[a reduction in]] costs.",
+      "vi": "Đúng. Việc ban hành quy định mới đã làm giảm chi phí."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Động từ → danh từ",
+      "heading": "They decided → their decision",
+      "rule": "Văn viết trang trọng thường biến **động từ thành danh từ**: decide → decision, fail → failure, introduce → introduction, reduce → reduction.",
+      "body": [],
+      "table": {
+        "head": [
+          "Động từ",
+          "Danh từ"
+        ],
+        "rows": [
+          [
+            "decide to",
+            "the decision to"
+          ],
+          [
+            "fail",
+            "the failure of / to"
+          ],
+          [
+            "increase in",
+            "an increase in"
+          ],
+          [
+            "arrive",
+            "the arrival of"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[The decision to close]] the factory surprised everyone.",
+          "vi": "Quyết định đóng cửa nhà máy làm mọi người bất ngờ.",
+          "why": "= They decided to close the factory."
+        },
+        {
+          "en": "[[The arrival of]] the new manager changed everything.",
+          "vi": "Sự xuất hiện của quản lý mới làm thay đổi mọi thứ.",
+          "why": "= The new manager arrived."
+        },
+        {
+          "en": "There was [[an increase in]] sales.",
+          "vi": "Doanh số đã tăng.",
+          "why": "= Sales increased."
+        }
+      ],
+      "check": {
+        "prompt": "The government decided to raise taxes. → The government's ___ to raise taxes.",
+        "options": [
+          "decision",
+          "deciding",
+          "decide"
+        ],
+        "answer": 0,
+        "explain": "Decide → decision to."
+      }
+    },
+    {
+      "part": "Trạng từ → tính từ",
+      "heading": "Rose quickly → a rapid rise",
+      "rule": "Khi danh từ hóa, **trạng từ** đổi thành **tính từ** đứng trước danh từ: rose sharply → a sharp rise; changed slightly → a slight change.",
+      "body": [],
+      "examples": [
+        {
+          "en": "There was [[a sharp fall]] in profits.",
+          "vi": "Lợi nhuận giảm mạnh.",
+          "why": "Fell sharply → a sharp fall."
+        },
+        {
+          "en": "We saw [[a gradual improvement]] in results.",
+          "vi": "Kết quả cải thiện dần dần.",
+          "why": "Improved gradually → a gradual improvement."
+        }
+      ],
+      "check": {
+        "prompt": "Prices rose dramatically. → There was a ___ rise in prices.",
+        "options": [
+          "dramatic",
+          "dramatically",
+          "drama"
+        ],
+        "answer": 0,
+        "explain": "Trạng từ → tính từ: dramatic."
+      }
+    },
+    {
+      "part": "Giới từ",
+      "heading": "Danh từ + giới từ đi kèm",
+      "rule": "Danh từ hóa đi kèm giới từ cố định: **an increase / a rise / a fall in**, **the cause of**, **the effect on**, **a demand for**, **access to**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[The effect of]] stress [[on]] health is serious.",
+          "vi": "Ảnh hưởng của căng thẳng đến sức khỏe rất nghiêm trọng.",
+          "why": "Effect of… on…."
+        },
+        {
+          "en": "There is a growing [[demand for]] electric cars.",
+          "vi": "Nhu cầu xe điện ngày càng tăng.",
+          "why": "Demand for."
+        }
+      ],
+      "check": {
+        "prompt": "There has been a sharp increase ___ the number of tourists.",
+        "options": [
+          "in",
+          "of",
+          "on"
+        ],
+        "answer": 0,
+        "explain": "An increase in."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "There was a quickly rise in prices.",
+      "right": "There was a quick rise in prices.",
+      "why": "Trước danh từ dùng tính từ."
+    },
+    {
+      "wrong": "The decide to cancel was a mistake.",
+      "right": "The decision to cancel was a mistake.",
+      "why": "Danh từ: decision."
+    },
+    {
+      "wrong": "There was an increase of unemployment.",
+      "right": "There was an increase in unemployment.",
+      "why": "An increase in."
+    },
+    {
+      "wrong": "The effect of pollution to health is clear.",
+      "right": "The effect of pollution on health is clear.",
+      "why": "Effect on."
+    },
+    {
+      "wrong": "The demand of housing is high.",
+      "right": "The demand for housing is high.",
+      "why": "Demand for."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The government's ___ to raise taxes was unpopular.",
+      "options": [
+        "decision",
+        "decide",
+        "deciding"
+      ],
+      "answer": 0,
+      "explain": "Danh từ hóa: the decision to."
+    },
+    {
+      "type": "choice",
+      "prompt": "There was a ___ decline in sales last year.",
+      "options": [
+        "slight",
+        "slightly",
+        "slighter"
+      ],
+      "answer": 0,
+      "explain": "Trước danh từ → tính từ."
+    },
+    {
+      "type": "choice",
+      "prompt": "The ___ of the new law was delayed.",
+      "options": [
+        "introduction",
+        "introduce",
+        "introducing"
+      ],
+      "answer": 0,
+      "explain": "Danh từ: introduction."
+    },
+    {
+      "type": "choice",
+      "prompt": "There is a growing demand ___ clean energy.",
+      "options": [
+        "for",
+        "of",
+        "in"
+      ],
+      "answer": 0,
+      "explain": "Demand for."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào trang trọng hơn?",
+      "options": [
+        "Because the flight was delayed, we missed the meeting.",
+        "The delay of the flight caused us to miss the meeting."
+      ],
+      "answer": 1,
+      "explain": "Danh từ hóa: the delay of."
+    },
+    {
+      "type": "fill",
+      "prompt": "The ___ of the president was announced.",
+      "hint": "arrive",
+      "answers": [
+        "arrival"
+      ],
+      "explain": "Arrive → arrival."
+    },
+    {
+      "type": "fill",
+      "prompt": "There was a significant ___ in crime.",
+      "hint": "reduce",
+      "answers": [
+        "reduction"
+      ],
+      "explain": "Reduce → reduction."
+    },
+    {
+      "type": "fill",
+      "prompt": "The ___ of the project was a shock.",
+      "hint": "fail",
+      "answers": [
+        "failure"
+      ],
+      "explain": "Fail → failure."
+    },
+    {
+      "type": "fill",
+      "prompt": "We noticed a ___ improvement in his work.",
+      "hint": "gradually",
+      "answers": [
+        "gradual"
+      ],
+      "explain": "Trạng từ → tính từ."
+    },
+    {
+      "type": "order",
+      "vi": "Lợi nhuận giảm mạnh.",
+      "words": [
+        "There",
+        "was",
+        "a",
+        "sharp",
+        "fall",
+        "in",
+        "profits."
+      ],
+      "explain": "A sharp fall in."
+    },
+    {
+      "type": "order",
+      "vi": "Quyết định của họ làm mọi người ngạc nhiên.",
+      "words": [
+        "Their",
+        "decision",
+        "surprised",
+        "everyone."
+      ],
+      "explain": "Decide → decision."
+    },
+    {
+      "type": "fix",
+      "sentence": "There was a steadily growth in exports.",
+      "answers": [
+        "There was a steady growth in exports."
+      ],
+      "explain": "Tính từ: steady."
+    },
+    {
+      "type": "fix",
+      "sentence": "The effect of social media to children is worrying.",
+      "answers": [
+        "The effect of social media on children is worrying."
+      ],
+      "explain": "Effect on."
+    },
+    {
+      "type": "fix",
+      "sentence": "The introduce of the new system took months.",
+      "answers": [
+        "The introduction of the new system took months."
+      ],
+      "explain": "Danh từ: introduction."
+    },
+    {
+      "type": "translate",
+      "vi": "Giá nhà tăng mạnh.",
+      "answers": [
+        "There was a sharp rise in house prices.",
+        "There was a sharp increase in house prices.",
+        "There has been a sharp rise in house prices.",
+        "There has been a sharp increase in house prices.",
+        "House prices rose sharply.",
+        "There was a dramatic rise in house prices."
+      ],
+      "explain": "A sharp rise in."
+    },
+    {
+      "type": "translate",
+      "vi": "Việc đóng cửa nhà máy ảnh hưởng đến nhiều gia đình.",
+      "answers": [
+        "The closure of the factory affected many families.",
+        "The closure of the factory has affected many families.",
+        "The factory closure affected many families.",
+        "The closing of the factory affected many families.",
+        "The closure of the plant affected many families."
+      ],
+      "explain": "Close → closure."
+    }
+  ]
+}

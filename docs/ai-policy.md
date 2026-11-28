@@ -138,3 +138,5 @@ AI không viết lời giải thích dài. App ghép giải thích theo mã lỗ
 ## Who may use AI
 
 Guests cannot use AI, members get the daily limits above, administrators have no limit. Every AI route must call `aiGate()` from `src/lib/server/quota.ts` first. See `docs/accounts.md`.
+
+C1 (and later C2) open tasks use the B2 rules: `policyLevel()` maps levels above B2 to B2, so they share the B2 model, limits and answer length.

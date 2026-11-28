@@ -1,0 +1,332 @@
+{
+  "id": "hedging",
+  "level": "C1",
+  "title": "Nói rào đón: tend to, appear to, it could be argued",
+  "summary": "Nói thận trọng, tránh khẳng định tuyệt đối trong văn học thuật: tend to, appear to, it could be argued that, to some extent, may well.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Is it true that young people don't read anymore?",
+      "vi": "Có đúng là giới trẻ không đọc sách nữa không?"
+    },
+    {
+      "who": "B",
+      "en": "Well, they [[tend to]] read more online than in print.",
+      "vi": "À, họ có xu hướng đọc trên mạng nhiều hơn sách in."
+    },
+    {
+      "who": "A",
+      "en": "So reading habits have changed?",
+      "vi": "Vậy thói quen đọc đã thay đổi?"
+    },
+    {
+      "who": "B",
+      "en": "[[It appears that]] they have, [[to some extent]].",
+      "vi": "Có vẻ là vậy, ở một mức độ nào đó."
+    },
+    {
+      "who": "A",
+      "en": "Is that bad?",
+      "vi": "Như vậy có xấu không?"
+    },
+    {
+      "who": "B",
+      "en": "[[It could be argued that]] it's simply different.",
+      "vi": "Có thể lập luận rằng nó chỉ khác thôi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Động từ",
+      "heading": "Tend to, appear to, seem to, suggest",
+      "rule": "Thay vì khẳng định chắc chắn, dùng **tend to / appear to / seem to + V** hoặc **the data suggest that…** để nói **thận trọng** như trong văn học thuật.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Older drivers [[tend to]] drive more slowly.",
+          "vi": "Người lái lớn tuổi thường lái chậm hơn.",
+          "why": "Tend to: nói xu hướng chung, không tuyệt đối."
+        },
+        {
+          "en": "The results [[appear to]] support the theory.",
+          "vi": "Kết quả có vẻ ủng hộ giả thuyết.",
+          "why": "Appear to: thận trọng."
+        },
+        {
+          "en": "The data [[suggest that]] prices will fall.",
+          "vi": "Số liệu cho thấy giá có thể sẽ giảm.",
+          "why": "Suggest: không khẳng định chắc."
+        }
+      ],
+      "check": {
+        "prompt": "Câu nào thận trọng hơn?",
+        "options": [
+          "Students who sleep well tend to get better grades.",
+          "Students who sleep well always get better grades."
+        ],
+        "answer": 0,
+        "explain": "Tend to: rào đón."
+      }
+    },
+    {
+      "part": "Cụm rào đón",
+      "heading": "It could be argued that, to some extent, arguably",
+      "rule": "**It could be argued / It is often said that…**, **to some extent / to a certain degree**, **arguably**, **in most cases** làm lập luận mềm và khách quan hơn.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[It could be argued that]] the policy failed.",
+          "vi": "Có thể lập luận rằng chính sách đã thất bại.",
+          "why": "Đưa ý kiến mà không quá chắc."
+        },
+        {
+          "en": "I agree [[to some extent]].",
+          "vi": "Tôi đồng ý ở một mức độ nào đó.",
+          "why": "Hạn chế mức độ đồng ý."
+        },
+        {
+          "en": "This is [[arguably]] the best film of the year.",
+          "vi": "Đây có lẽ là phim hay nhất năm.",
+          "why": "Arguably: có thể nói là."
+        }
+      ],
+      "check": {
+        "prompt": "___, the city has become more crowded.",
+        "options": [
+          "Arguably",
+          "Arguing",
+          "Argue"
+        ],
+        "answer": 0,
+        "explain": "Trạng từ rào đón: arguably."
+      }
+    },
+    {
+      "part": "Modal",
+      "heading": "May well, might, could + tính từ mềm",
+      "rule": "**may well / might / could** và các tính từ **likely, possible, probable** giảm mức chắc chắn: *This may well be true*.",
+      "body": [],
+      "examples": [
+        {
+          "en": "This [[may well]] be the reason.",
+          "vi": "Đây rất có thể là lý do.",
+          "why": "May well: khá có khả năng."
+        },
+        {
+          "en": "[[It is likely that]] costs will rise.",
+          "vi": "Có khả năng chi phí sẽ tăng.",
+          "why": "It is likely that: thận trọng."
+        }
+      ],
+      "check": {
+        "prompt": "The new drug ___ help some patients.",
+        "options": [
+          "may",
+          "must",
+          "will certainly"
+        ],
+        "answer": 0,
+        "explain": "Thận trọng → may."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "All teenagers are addicted to phones.",
+      "right": "Many teenagers tend to be addicted to phones.",
+      "why": "Tránh khái quát tuyệt đối."
+    },
+    {
+      "wrong": "It could argue that the plan failed.",
+      "right": "It could be argued that the plan failed.",
+      "why": "Bị động: could be argued."
+    },
+    {
+      "wrong": "The results appear supporting the idea.",
+      "right": "The results appear to support the idea.",
+      "why": "Appear + to V."
+    },
+    {
+      "wrong": "People tend spending more online.",
+      "right": "People tend to spend more online.",
+      "why": "Tend + to V."
+    },
+    {
+      "wrong": "This may well is the answer.",
+      "right": "This may well be the answer.",
+      "why": "May well + V nguyên mẫu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Young people ___ use social media every day.",
+      "options": [
+        "tend to",
+        "tend",
+        "are tend to"
+      ],
+      "answer": 0,
+      "explain": "Tend + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "It ___ that the experiment was successful.",
+      "options": [
+        "appears",
+        "is appearing",
+        "appear"
+      ],
+      "answer": 0,
+      "explain": "It appears that."
+    },
+    {
+      "type": "choice",
+      "prompt": "It could ___ that the reform came too late.",
+      "options": [
+        "be argued",
+        "argue",
+        "argued"
+      ],
+      "answer": 0,
+      "explain": "It could be argued."
+    },
+    {
+      "type": "choice",
+      "prompt": "The evidence ___ that the drug is safe.",
+      "options": [
+        "suggests",
+        "proves certainly",
+        "is suggesting to"
+      ],
+      "answer": 0,
+      "explain": "Suggests: thận trọng."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào giống văn học thuật?",
+      "options": [
+        "Coffee is bad for you.",
+        "Too much coffee may be harmful to health."
+      ],
+      "answer": 1,
+      "explain": "May + rào đón."
+    },
+    {
+      "type": "fill",
+      "prompt": "Women ___ to live longer than men.",
+      "hint": "tend",
+      "answers": [
+        "tend"
+      ],
+      "explain": "Tend to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "The figures ___ to show a decline.",
+      "hint": "appear",
+      "answers": [
+        "appear",
+        "seem"
+      ],
+      "explain": "Appear / seem to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "I agree with you to some ___.",
+      "hint": "mức độ",
+      "answers": [
+        "extent",
+        "degree"
+      ],
+      "explain": "To some extent / degree."
+    },
+    {
+      "type": "fill",
+      "prompt": "This may ___ be the best solution.",
+      "hint": "well",
+      "answers": [
+        "well"
+      ],
+      "explain": "May well + V."
+    },
+    {
+      "type": "order",
+      "vi": "Người lớn tuổi thường ngủ ít hơn.",
+      "words": [
+        "Older",
+        "people",
+        "tend",
+        "to",
+        "sleep",
+        "less."
+      ],
+      "explain": "Tend to + V."
+    },
+    {
+      "type": "order",
+      "vi": "Có thể lập luận rằng nó quá đắt.",
+      "words": [
+        "It",
+        "could",
+        "be",
+        "argued",
+        "that",
+        "it",
+        "is",
+        "too",
+        "expensive."
+      ],
+      "explain": "It could be argued that."
+    },
+    {
+      "type": "fix",
+      "sentence": "The results seem proving the theory.",
+      "answers": [
+        "The results seem to prove the theory."
+      ],
+      "explain": "Seem + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "It could argue that prices are too high.",
+      "answers": [
+        "It could be argued that prices are too high."
+      ],
+      "explain": "Bị động: could be argued."
+    },
+    {
+      "type": "fix",
+      "sentence": "Children tend learning faster than adults.",
+      "answers": [
+        "Children tend to learn faster than adults."
+      ],
+      "explain": "Tend + to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Có vẻ giá nhà sẽ tiếp tục tăng.",
+      "answers": [
+        "It appears that house prices will continue to rise.",
+        "It seems that house prices will continue to rise.",
+        "House prices appear likely to continue rising.",
+        "It is likely that house prices will continue to rise.",
+        "House prices seem likely to keep rising.",
+        "It appears that house prices will keep rising."
+      ],
+      "explain": "Appear / seem: thận trọng."
+    },
+    {
+      "type": "translate",
+      "vi": "Ở một mức độ nào đó, tôi đồng ý với bạn.",
+      "answers": [
+        "To some extent, I agree with you.",
+        "I agree with you to some extent.",
+        "To a certain extent, I agree with you.",
+        "I agree with you to a certain extent.",
+        "To some degree, I agree with you."
+      ],
+      "explain": "To some extent."
+    }
+  ]
+}

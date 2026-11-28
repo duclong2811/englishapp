@@ -1,0 +1,327 @@
+{
+  "id": "participle-advanced",
+  "level": "C1",
+  "title": "Having been told, not knowing, with … V-ing",
+  "summary": "Mệnh đề phân từ nâng cao: having been + V3 (bị động trước), not + V-ing, with + danh từ + V-ing/V3, và phân từ sau liên từ (when asked, once finished).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How did the interview go?",
+      "vi": "Phỏng vấn thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "[[Having been told]] it was informal, I wore jeans.",
+      "vi": "Được bảo là không trang trọng nên mình mặc quần jeans."
+    },
+    {
+      "who": "A",
+      "en": "And it wasn't?",
+      "vi": "Thế mà không phải à?"
+    },
+    {
+      "who": "B",
+      "en": "No! [[Not knowing]] what to do, I just smiled.",
+      "vi": "Không! Không biết làm gì, mình chỉ cười."
+    },
+    {
+      "who": "A",
+      "en": "[[When asked]] about your experience, what did you say?",
+      "vi": "Khi được hỏi về kinh nghiệm, bạn nói gì?"
+    },
+    {
+      "who": "B",
+      "en": "I talked for ten minutes, [[with everyone staring]] at my jeans!",
+      "vi": "Mình nói mười phút, trong khi ai cũng nhìn chằm chằm vào quần mình!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Bị động trước",
+      "heading": "Having been + V3",
+      "rule": "**Having been + V3** = **đã được / bị** làm gì **trước** việc chính (bị động + hoàn thành).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Having been warned]], we took umbrellas.",
+          "vi": "Đã được cảnh báo nên chúng tôi mang ô.",
+          "why": "Bị cảnh báo trước."
+        },
+        {
+          "en": "[[Having been rejected]] twice, she gave up.",
+          "vi": "Bị từ chối hai lần, cô ấy bỏ cuộc.",
+          "why": "Having been + V3."
+        }
+      ],
+      "check": {
+        "prompt": "___ the job, he moved to Hanoi.",
+        "options": [
+          "Having been offered",
+          "Having offered",
+          "Offering"
+        ],
+        "answer": 0,
+        "explain": "Được mời trước (bị động) → having been offered."
+      }
+    },
+    {
+      "part": "Phủ định",
+      "heading": "Not + V-ing, not having + V3",
+      "rule": "Phủ định mệnh đề phân từ: đặt **not** lên **trước** phân từ: **Not knowing…, Not having seen…**",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Not knowing]] the way, we asked a local.",
+          "vi": "Không biết đường, chúng tôi hỏi người địa phương.",
+          "why": "Not + V-ing."
+        },
+        {
+          "en": "[[Not having eaten]] all day, he was starving.",
+          "vi": "Cả ngày chưa ăn gì, anh ấy đói lả.",
+          "why": "Not having + V3."
+        }
+      ],
+      "check": {
+        "prompt": "___ what to say, she stayed silent.",
+        "options": [
+          "Not knowing",
+          "Knowing not",
+          "Don't knowing"
+        ],
+        "answer": 0,
+        "explain": "Not đứng trước phân từ."
+      }
+    },
+    {
+      "part": "With, liên từ",
+      "heading": "With + danh từ + V-ing / V3, when asked, once finished",
+      "rule": "**with + danh từ + V-ing / V3** nêu hoàn cảnh đi kèm. Có thể giữ **liên từ + phân từ**: **when asked, once finished, if heated, while waiting**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "She sat there [[with her eyes closed]].",
+          "vi": "Cô ấy ngồi đó, mắt nhắm lại.",
+          "why": "With + danh từ + V3."
+        },
+        {
+          "en": "[[With prices rising]], many people save more.",
+          "vi": "Khi giá cả tăng, nhiều người tiết kiệm hơn.",
+          "why": "With + danh từ + V-ing."
+        },
+        {
+          "en": "[[Once finished]], send it to me.",
+          "vi": "Xong rồi thì gửi cho tôi.",
+          "why": "Liên từ + V3."
+        }
+      ],
+      "check": {
+        "prompt": "With the deadline ___, we worked all night.",
+        "options": [
+          "approaching",
+          "approached",
+          "approach"
+        ],
+        "answer": 0,
+        "explain": "With + danh từ + V-ing (chủ động)."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Having rejected twice, she stopped applying.",
+      "right": "Having been rejected twice, she stopped applying.",
+      "why": "Bị từ chối (bị động) → having been rejected."
+    },
+    {
+      "wrong": "Knowing not the answer, I guessed.",
+      "right": "Not knowing the answer, I guessed.",
+      "why": "Not đứng trước."
+    },
+    {
+      "wrong": "With her eyes closing tightly, she prayed.",
+      "right": "With her eyes closed tightly, she prayed.",
+      "why": "Mắt được nhắm (trạng thái) → closed."
+    },
+    {
+      "wrong": "When asking about it, he refused to answer.",
+      "right": "When asked about it, he refused to answer.",
+      "why": "Bị hỏi → when asked."
+    },
+    {
+      "wrong": "Not having eat, I felt weak.",
+      "right": "Not having eaten, I felt weak.",
+      "why": "Having + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ by the noise, she couldn't sleep.",
+      "options": [
+        "Disturbed",
+        "Disturbing",
+        "Disturb"
+      ],
+      "answer": 0,
+      "explain": "Bị làm phiền → V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ twice before, I didn't want to go again.",
+      "options": [
+        "Having been robbed",
+        "Having robbed",
+        "Robbing"
+      ],
+      "answer": 0,
+      "explain": "Bị cướp trước → having been robbed."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ the answer, he kept quiet.",
+      "options": [
+        "Not knowing",
+        "Knowing not",
+        "No knowing"
+      ],
+      "answer": 0,
+      "explain": "Not + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "He walked in with his hands ___ in his pockets.",
+      "options": [
+        "hidden",
+        "hiding",
+        "hide"
+      ],
+      "answer": 0,
+      "explain": "Trạng thái bị động → hidden."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "When questioned, the man said nothing.",
+        "When questioning, the man said nothing."
+      ],
+      "answer": 0,
+      "explain": "Bị hỏi → when questioned."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ been invited, we couldn't refuse.",
+      "hint": "having",
+      "answers": [
+        "Having"
+      ],
+      "explain": "Having been + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "Not ___ slept well, I was tired.",
+      "hint": "have",
+      "answers": [
+        "having"
+      ],
+      "explain": "Not having + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "With costs ___, the company cut jobs.",
+      "hint": "rise",
+      "answers": [
+        "rising"
+      ],
+      "explain": "With + danh từ + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Once ___, the cake should be kept cold.",
+      "hint": "bake",
+      "answers": [
+        "baked"
+      ],
+      "explain": "Liên từ + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Không biết làm gì, tôi gọi cho mẹ.",
+      "words": [
+        "Not",
+        "knowing",
+        "what",
+        "to",
+        "do",
+        "I",
+        "called",
+        "my",
+        "mother."
+      ],
+      "explain": "Not + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy ngồi đó với đôi mắt nhắm lại.",
+      "words": [
+        "She",
+        "sat",
+        "there",
+        "with",
+        "her",
+        "eyes",
+        "closed."
+      ],
+      "explain": "With + danh từ + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "Having invited to the wedding, we bought a gift.",
+      "answers": [
+        "Having been invited to the wedding, we bought a gift."
+      ],
+      "explain": "Bị động → having been invited."
+    },
+    {
+      "type": "fix",
+      "sentence": "Knowing not what to say, he left.",
+      "answers": [
+        "Not knowing what to say, he left."
+      ],
+      "explain": "Not đứng trước."
+    },
+    {
+      "type": "fix",
+      "sentence": "When asking, she said she was fine.",
+      "answers": [
+        "When asked, she said she was fine."
+      ],
+      "explain": "Bị hỏi → when asked."
+    },
+    {
+      "type": "translate",
+      "vi": "Được cảnh báo về cơn bão, họ ở nhà.",
+      "answers": [
+        "Having been warned about the storm, they stayed at home.",
+        "Having been warned about the storm, they stayed home.",
+        "Warned about the storm, they stayed at home.",
+        "Warned about the storm, they stayed home.",
+        "Having been warned of the storm, they stayed at home."
+      ],
+      "explain": "Having been + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Với giá xăng tăng, nhiều người đi xe buýt.",
+      "answers": [
+        "With petrol prices rising, many people take the bus.",
+        "With gas prices rising, many people take the bus.",
+        "With fuel prices rising, many people take the bus.",
+        "With gas prices going up, many people take the bus.",
+        "With petrol prices rising, many people are taking the bus.",
+        "With gas prices rising, many people are taking the bus."
+      ],
+      "explain": "With + danh từ + V-ing."
+    }
+  ]
+}
