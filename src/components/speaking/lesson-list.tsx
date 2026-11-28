@@ -17,7 +17,7 @@ export function LessonList({ items }: { items: Item[] }) {
       <p className="mt-1 text-ink-soft tabular-nums">
         {ready.length}/{items.length} bài đã có.
       </p>
-      <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+      <ul className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
         {items.map((it) => {
           const best = progress?.[it.topic]?.best;
           const body = (

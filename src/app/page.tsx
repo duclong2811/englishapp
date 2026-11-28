@@ -31,7 +31,7 @@ export default function TodayPage() {
   const fullSentence = sentence.before + sentence.word + sentence.after;
 
   return (
-    <div className="lg:grid lg:grid-cols-[minmax(0,40rem)_minmax(16rem,22rem)] lg:gap-12">
+    <div className="lg:grid lg:grid-cols-[minmax(0,2fr)_minmax(16rem,1fr)] lg:gap-10">
       <div>
         <h1 className="mb-6 text-3xl font-semibold tracking-tight sm:text-4xl">Hôm nay</h1>
 

@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 export function PageHeading({ title, intro }: { title: string; intro: string }) {
   return (
-    <header className="mb-8 max-w-[42rem]">
+    <header className="mb-8 max-w-3xl">
       <h1 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
         {title}
       </h1>

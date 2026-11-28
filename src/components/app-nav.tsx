@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
 
-type NavItem = { href: string; label: string; icon: ReactNode };
+type NavItem = { href: string; label: string; icon: ReactNode; /** Other paths that belong to this item. */ also?: string[] };
 
 const iconProps = {
   width: 24,
@@ -51,6 +51,18 @@ export const NAV_ITEMS: NavItem[] = [
     ),
   },
   {
+    href: "/flashcards",
+    label: "Ôn tập",
+    also: ["/tests"],
+    icon: (
+      <svg {...iconProps}>
+        <rect x="3" y="6" width="14" height="14" rx="2" />
+        <path d="M7 3h12a2 2 0 0 1 2 2v12" />
+        <path d="M7 13l2 2 4-4" />
+      </svg>
+    ),
+  },
+  {
     href: "/speaking",
     label: "Luyện nói",
     icon: (
@@ -62,8 +74,9 @@ export const NAV_ITEMS: NavItem[] = [
   },
 ];
 
-function isActive(pathname: string, href: string) {
-  return href === "/" ? pathname === "/" : pathname.startsWith(href);
+function isActive(pathname: string, item: NavItem) {
+  if (item.href === "/") return pathname === "/";
+  return [item.href, ...(item.also ?? [])].some((p) => pathname.startsWith(p));
 }
 
 export function AppNav() {
@@ -82,7 +95,7 @@ export function AppNav() {
         <nav aria-label="Điều hướng chính">
           <ul className="flex flex-col gap-1">
             {NAV_ITEMS.map((item) => {
-              const active = isActive(pathname, item.href);
+              const active = isActive(pathname, item);
               return (
                 <li key={item.href}>
                   <Link
@@ -116,9 +129,9 @@ export function AppNav() {
         aria-label="Điều hướng chính"
         className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-sheet/95 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden"
       >
-        <ul className="mx-auto grid max-w-md grid-cols-4">
+        <ul className="mx-auto grid max-w-md grid-cols-5">
           {NAV_ITEMS.map((item) => {
-            const active = isActive(pathname, item.href);
+            const active = isActive(pathname, item);
             return (
               <li key={item.href}>
                 <Link

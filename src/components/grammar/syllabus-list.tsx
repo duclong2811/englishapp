@@ -12,8 +12,12 @@ type Unit = { id: string; title: string; items: Item[] };
 type LevelUnits = { level: Level; units: Unit[] };
 
 const passingScore = 80;
-const primary = "inline-flex min-h-12 touch-manipulation items-center justify-center rounded-full bg-accent px-6 font-semibold text-accent-ink hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
-const card = "flex h-full min-h-11 flex-col rounded-xl border border-line bg-sheet p-4 text-left";
+const primary =
+  "inline-flex min-h-12 touch-manipulation items-center justify-center rounded-full bg-accent px-6 font-semibold text-accent-ink hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
+const tile =
+  "flex min-h-14 items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
+const smallLink =
+  "inline-flex min-h-11 items-center rounded-md px-1 text-sm font-medium text-accent hover:underline focus-visible:outline-2 focus-visible:outline-accent";
 
 export function SyllabusList({ levels }: { levels: LevelUnits[] }) {
   const available = levels.map((l) => l.level);
@@ -27,155 +31,146 @@ export function SyllabusList({ levels }: { levels: LevelUnits[] }) {
   const completed = ready.filter(passed).length;
   const next = ready.find((item) => !passed(item));
   const lowest = !next
-    ? ready.reduce<Item | undefined>((previous, item) => (
-        !previous || (scores?.[item.id]?.best ?? 0) < (scores?.[previous.id]?.best ?? 0) ? item : previous
-      ), undefined)
+    ? ready.reduce<Item | undefined>(
+        (previous, item) => (!previous || (scores?.[item.id]?.best ?? 0) < (scores?.[previous.id]?.best ?? 0) ? item : previous),
+        undefined,
+      )
     : undefined;
+  const lv = current.toLowerCase();
 
   return (
-    <div className="lg:grid lg:grid-cols-[minmax(0,40rem)_minmax(16rem,22rem)] lg:gap-12">
-      <div className="min-w-0">
+    <div>
+      <div className="max-w-3xl">
         <LevelPicker current={current} available={available} onSelect={select} />
-        <p className="mb-4 text-sm text-ink-soft tabular-nums lg:hidden">
-          Tiến độ {current}: {completed}/{items.length} bài xong
-        </p>
+      </div>
 
-        <section aria-labelledby="lesson-next" className="oli rounded-2xl border border-line p-6 sm:p-8">
-          <h2 id="lesson-next" className="text-sm font-medium text-ink-soft">Học tiếp</h2>
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
+        <section aria-labelledby="lesson-next" className="oli rounded-2xl border border-line p-6 sm:p-7">
+          <h2 id="lesson-next" className="text-sm font-medium text-ink-soft">
+            Học tiếp
+          </h2>
           {next ? (
             <>
               <div className="mt-3 flex items-start gap-3 sm:gap-4">
                 <Illustration id={next.id} size={56} />
                 <div className="min-w-0">
-                  <p className="text-sm font-medium text-accent">Bài {next.number} · Chương {next.unitNumber}</p>
+                  <p className="text-sm font-medium text-accent">
+                    Bài {next.number} · Chương {next.unitNumber}
+                  </p>
                   <p className="mt-1 text-2xl font-semibold tracking-tight text-balance sm:text-3xl">{next.title}</p>
+                  {next.summary ? <p className="mt-2 line-clamp-2 text-ink-soft">{next.summary}</p> : null}
                 </div>
               </div>
-              <p className="mt-2 line-clamp-1 text-ink-soft">{next.summary}</p>
-              <Link href={`/lessons/${next.id}`} className={`mt-5 ${primary}`}>Vào bài</Link>
+              <Link href={`/lessons/${next.id}`} className={`mt-5 ${primary}`}>
+                Vào bài
+              </Link>
             </>
           ) : lowest ? (
             <>
               <p className="mt-3 text-xl font-semibold text-balance">
                 {pending > 0 ? "Bạn đã học hết các bài hiện có" : `Bạn đã học hết ngữ pháp ${current}`}
               </p>
-              <Link href={`/lessons/${lowest.id}`} className={`mt-5 ${primary}`}>Ôn lại bài điểm thấp nhất</Link>
+              <Link href={`/lessons/${lowest.id}`} className={`mt-5 ${primary}`}>
+                Ôn lại bài điểm thấp nhất
+              </Link>
             </>
           ) : (
             <p className="mt-3 text-ink-soft">Các bài học đang được soạn.</p>
           )}
         </section>
 
-        <Link
-          href={`/tests/${current.toLowerCase()}`}
-          className="mt-4 flex min-h-14 items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-        >
-          <span>
-            Kiểm tra cấp độ {current}
-            <span className="block text-sm font-normal text-ink-soft">Đề ngẫu nhiên từ kho câu hỏi, có cả từ vựng và nghe</span>
-          </span>
-          <span aria-hidden="true" className="text-accent">→</span>
-        </Link>
-        <Link
-          href={`/tests/${current.toLowerCase()}/skills`}
-          className="mt-3 flex min-h-14 items-center justify-between gap-3 rounded-xl border border-line bg-sheet px-4 py-3 font-medium transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-        >
-          <span>
-            Luyện viết và nói {current}
-            <span className="block text-sm font-normal text-ink-soft">Viết câu, đọc to, trả lời bằng giọng nói. AI chấm và sửa bài</span>
-          </span>
-          <span aria-hidden="true" className="text-accent">→</span>
-        </Link>
-
-        {units.map((unit, index) => (
-          <section key={unit.id} id={`unit-${unit.id}`} aria-labelledby={`title-${unit.id}`} className="mt-9 scroll-mt-20 lg:scroll-mt-8">
-            <header className="mb-3 flex items-baseline justify-between gap-3">
-              <h2 id={`title-${unit.id}`} className="min-w-0 text-lg font-semibold text-balance">
-                Chương {index + 1} · {unit.title}
-              </h2>
-              <span className="shrink-0 text-sm text-ink-soft tabular-nums">
-                {unit.items.filter(passed).length}/{unit.items.length}
+        <div className="flex flex-col gap-3">
+          <div className="rounded-xl border border-line bg-sheet px-4 py-3">
+            <p className="flex items-baseline justify-between text-sm">
+              <span className="font-semibold">Tiến độ {current}</span>
+              <span className="text-ink-soft tabular-nums">
+                {completed}/{items.length} bài
               </span>
-            </header>
-            <ul className="grid gap-3 sm:grid-cols-2">
-              {unit.items.map((item) => {
-                const best = scores?.[item.id]?.best;
-                const done = passed(item);
-                const content = (
-                  <>
-                    <span className="flex items-start gap-3">
-                      <Illustration id={item.id} size={48} />
-                      <span className="min-w-0">
-                        <span className="block text-sm font-medium text-ink-soft tabular-nums">Bài {item.number}</span>
-                        <span className="mt-1 block font-semibold text-balance">{item.title}</span>
-                        {item.summary && <span className="mt-1 line-clamp-2 text-sm text-ink-soft">{item.summary}</span>}
-                      </span>
-                    </span>
-                    <span className={`mt-auto pt-3 text-sm font-medium tabular-nums ${done ? "text-correct" : "text-ink-soft"}`}>
-                      {!item.ready ? "Sắp có" : best === undefined ? "Chưa học" : (
-                        <>{done && <span aria-hidden="true">✓ </span>}Điểm cao nhất {best}%</>
-                      )}
-                    </span>
-                  </>
-                );
-                return (
-                  <li key={item.id}>
-                    {item.ready ? (
-                      <Link href={`/lessons/${item.id}`} className={`${card} touch-manipulation hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent`}>
-                        {content}
-                      </Link>
-                    ) : <div className={card}>{content}</div>}
-                  </li>
-                );
-              })}
-            </ul>
-            <div className="mt-3 flex flex-wrap gap-x-5">
-              <Link
-                href={`/tests/${current.toLowerCase()}/unit/${unit.id}`}
-                className="inline-flex min-h-11 items-center gap-2 rounded-full px-1 text-sm font-medium text-accent hover:underline focus-visible:outline-2 focus-visible:outline-accent"
-              >
-                Kiểm tra nhanh chương {index + 1} <span aria-hidden="true">→</span>
-              </Link>
-              <Link
-                href={`/lessons/chapter/${unit.id}`}
-                className="inline-flex min-h-11 items-center gap-2 rounded-full px-1 text-sm font-medium text-accent hover:underline focus-visible:outline-2 focus-visible:outline-accent"
-              >
-                Thẻ ghi nhớ chương {index + 1} <span aria-hidden="true">→</span>
-              </Link>
-            </div>
-          </section>
-        ))}
-        {pending > 0 && <p className="mt-5 text-sm text-ink-soft">Còn {pending} bài đang soạn.</p>}
+            </p>
+            <span
+              className="mt-2 block h-1.5 overflow-hidden rounded-full bg-line"
+              role="progressbar"
+              aria-valuemin={0}
+              aria-valuemax={items.length}
+              aria-valuenow={completed}
+              aria-label={`Tiến độ ${current}: ${completed}/${items.length} bài`}
+            >
+              <span className="block h-full rounded-full bg-accent" style={{ width: `${items.length ? (completed / items.length) * 100 : 0}%` }} />
+            </span>
+          </div>
+          <Link href={`/tests/${lv}`} className={tile}>
+            <span>Kiểm tra cấp độ {current}</span>
+            <span aria-hidden="true" className="text-accent">→</span>
+          </Link>
+          <Link href={`/tests/${lv}/skills`} className={tile}>
+            <span>Luyện viết và nói</span>
+            <span aria-hidden="true" className="text-accent">→</span>
+          </Link>
+          <Link href={`/flashcards?level=${lv}&tab=grammar`} className={tile}>
+            <span>Thẻ ghi nhớ ngữ pháp</span>
+            <span aria-hidden="true" className="text-accent">→</span>
+          </Link>
+        </div>
       </div>
 
-      <aside aria-labelledby="lesson-progress" className="hidden self-start rounded-xl border border-line bg-sheet p-5 lg:block">
-        <h2 id="lesson-progress" className="text-lg font-semibold">Tiến độ {current}</h2>
-        <p className="mt-1 text-sm text-ink-soft tabular-nums">{completed}/{items.length} bài xong</p>
-        <progress
-          aria-label={`Tiến độ ${current}`}
-          max={items.length || 1}
-          value={completed}
-          className="mt-3 block h-1.5 w-full appearance-none overflow-hidden rounded-full bg-line [&::-moz-progress-bar]:bg-accent [&::-webkit-progress-bar]:bg-line [&::-webkit-progress-value]:bg-accent"
-        />
-        <ul className="mt-4 divide-y divide-line">
-          {units.map((unit, index) => {
-            const done = unit.items.filter(passed).length;
-            return (
-              <li key={unit.id}>
-                <a
-                  href={`#unit-${unit.id}`}
-                  className="flex min-h-11 touch-manipulation items-center justify-between gap-3 rounded-md px-1 py-2 text-sm hover:text-accent focus-visible:outline-2 focus-visible:outline-accent"
-                >
-                  <span>Chương {index + 1} · {unit.title}</span>
-                  <span className={`shrink-0 tabular-nums ${done === unit.items.length ? "text-correct" : "text-ink-soft"}`}>
-                    {done === unit.items.length && <span aria-hidden="true">✓ </span>}{done}/{unit.items.length}
-                  </span>
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-      </aside>
+      <h2 className="mt-10 text-lg font-semibold">Các chương</h2>
+      <ol className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {units.map((unit, index) => {
+          const done = unit.items.filter(passed).length;
+          return (
+            <li key={unit.id} id={`unit-${unit.id}`} className="flex scroll-mt-20 flex-col rounded-2xl border border-line bg-sheet">
+              <header className="flex items-baseline justify-between gap-3 border-b border-line px-4 py-3">
+                <h3 className="min-w-0 font-semibold text-balance">
+                  <span className="text-ink-soft">Chương {index + 1} · </span>
+                  {unit.title}
+                </h3>
+                <span className={`shrink-0 text-sm tabular-nums ${done === unit.items.length ? "text-correct" : "text-ink-soft"}`}>
+                  {done === unit.items.length ? <span aria-hidden="true">✓ </span> : null}
+                  {done}/{unit.items.length}
+                </span>
+              </header>
+              <ul className="flex-1 py-1">
+                {unit.items.map((item) => {
+                  const best = scores?.[item.id]?.best;
+                  const ok = passed(item);
+                  const inner = (
+                    <>
+                      <span className="w-6 shrink-0 text-right text-sm text-ink-soft tabular-nums">{item.number}</span>
+                      <span className="min-w-0 flex-1 text-pretty">{item.title}</span>
+                      <span className={`shrink-0 text-sm tabular-nums ${ok ? "text-correct" : "text-ink-soft"}`}>
+                        {!item.ready ? "Sắp có" : best === undefined ? "" : ok ? `✓ ${best}%` : `${best}%`}
+                      </span>
+                    </>
+                  );
+                  return (
+                    <li key={item.id}>
+                      {item.ready ? (
+                        <Link
+                          href={`/lessons/${item.id}`}
+                          className="flex min-h-12 items-center gap-3 px-4 py-2 transition-colors hover:bg-line/40 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent"
+                        >
+                          {inner}
+                        </Link>
+                      ) : (
+                        <div className="flex min-h-12 items-center gap-3 px-4 py-2 text-ink-soft">{inner}</div>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+              <footer className="flex flex-wrap gap-x-4 border-t border-line px-3 py-1">
+                <Link href={`/tests/${lv}/unit/${unit.id}`} className={smallLink}>
+                  Kiểm tra nhanh
+                </Link>
+                <Link href={`/lessons/chapter/${unit.id}`} className={smallLink}>
+                  Thẻ ghi nhớ
+                </Link>
+              </footer>
+            </li>
+          );
+        })}
+      </ol>
+      {pending > 0 ? <p className="mt-5 text-sm text-ink-soft">Còn {pending} bài đang soạn.</p> : null}
     </div>
   );
 }

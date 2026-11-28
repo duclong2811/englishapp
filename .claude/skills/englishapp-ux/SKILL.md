@@ -51,8 +51,10 @@ This split is information: the learner can tell at a glance what is English to s
 
 ## Layout
 
-- **Mobile (< 1024px):** compact top bar, single column, bottom tab bar with 4 items (Hôm nay, Bài học, Từ vựng, Luyện nói). Tab bar respects `env(safe-area-inset-bottom)`; page content gets matching bottom padding.
-- **Desktop (≥ 1024px):** left sidebar (240px) with the same 4 items, content column centered, max `42rem` for reading screens. On ≥ 1280px a right rail may show progress, never essential actions.
+- **Mobile (< 1024px):** compact top bar, single column, bottom tab bar with 5 items (Hôm nay, Bài học, Từ vựng, Ôn tập, Luyện nói). Tab bar respects `env(safe-area-inset-bottom)`; page content gets matching bottom padding.
+- **Desktop (≥ 1024px):** left sidebar (240px) with the same items; the content area is centered, max `72rem` (`max-w-6xl`).
+  - **List pages** (Bài học, Từ vựng, Ôn tập, Kiểm tra, Luyện nói) use the full content width: a hero (2/3) with a side column (1/3) of progress and shortcuts, then compact grids (chapters 3 per row, topic tiles 3–4 per row; 2 per row on phones). No long single-column lists.
+  - **Single-task screens** (lesson, practice, review, test, flashcards) keep a `max-w-[42rem]` column; globals.css centers it and lines up the back link on desktop.
 - Primary actions sit in the thumb zone on mobile (bottom of the screen or end of content), at the end of the content on desktop.
 
 ## Interaction rules for a learning app

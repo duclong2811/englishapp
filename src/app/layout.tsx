@@ -50,7 +50,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </Suspense>
           <main
             id="main"
-            className="pb-safe-tabbar mx-auto w-full max-w-6xl px-4 lg:mx-0 lg:max-w-7xl xl:px-16 pt-6 sm:px-6 lg:px-10 lg:pb-12 lg:pt-12"
+            className="pb-safe-tabbar mx-auto w-full max-w-6xl px-4 pt-6 sm:px-6 lg:px-10 lg:pb-12 lg:pt-12"
           >
             {children}
           </main>

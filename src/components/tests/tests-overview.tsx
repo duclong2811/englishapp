@@ -14,7 +14,7 @@ type LevelTests = {
 };
 
 const row =
-  "flex min-h-14 items-center gap-3 px-4 py-3 transition-colors hover:bg-line/40 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-accent";
+  "flex h-full min-h-14 items-center gap-3 rounded-xl border border-line bg-sheet px-3 py-3 transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
 
 export function TestsOverview({ levels }: { levels: LevelTests[] }) {
   const available = levels.map((l) => l.level);
@@ -25,8 +25,12 @@ export function TestsOverview({ levels }: { levels: LevelTests[] }) {
   const skills = SKILLS_BLUEPRINT;
 
   return (
-    <div className="max-w-[42rem]">
-      <LevelPicker current={data.level} available={available} onSelect={select} />
+    <div>
+      <div className="max-w-3xl">
+        <LevelPicker current={data.level} available={available} onSelect={select} />
+      </div>
+
+      <div className="grid gap-4 lg:grid-cols-2">
 
       <section aria-labelledby="skills-test" className="oli rounded-2xl border border-line p-6 sm:p-8">
         <h2 id="skills-test" className="text-sm font-medium text-ink-soft">
@@ -50,7 +54,7 @@ export function TestsOverview({ levels }: { levels: LevelTests[] }) {
         </Link>
       </section>
 
-      <section aria-labelledby="level-test" className="mt-4 rounded-2xl border border-line bg-sheet p-6 sm:p-8">
+      <section aria-labelledby="level-test" className="rounded-2xl border border-line bg-sheet p-6 sm:p-8">
         <h2 id="level-test" className="text-sm font-medium text-ink-soft">
           Kiểm tra cấp độ
         </h2>
@@ -69,12 +73,14 @@ export function TestsOverview({ levels }: { levels: LevelTests[] }) {
         </Link>
       </section>
 
+      </div>
+
       <section aria-labelledby="unit-tests" className="mt-10">
         <h2 id="unit-tests" className="text-lg font-semibold">
           Kiểm tra nhanh: ngữ pháp
         </h2>
         <p className="mt-1 text-ink-soft">Mỗi chương 12 câu, khoảng 7 phút.</p>
-        <ol className="mt-4 divide-y divide-line overflow-hidden rounded-xl border border-line bg-sheet">
+        <ol className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {data.units.map((u, i) => (
             <li key={u.id}>
               <Link href={`/tests/${data.level.toLowerCase()}/unit/${u.id}`} className={row}>
@@ -93,13 +99,15 @@ export function TestsOverview({ levels }: { levels: LevelTests[] }) {
           Kiểm tra nhanh: từ vựng
         </h2>
         <p className="mt-1 text-ink-soft">Mỗi chủ đề 12 câu: nghĩa, điền từ, nghe.</p>
-        <ul className="mt-4 divide-y divide-line overflow-hidden rounded-xl border border-line bg-sheet">
+        <ul className="mt-4 grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-3 xl:grid-cols-4">
           {data.topics.map((t) => (
             <li key={t.id}>
               <Link href={`/tests/${data.level.toLowerCase()}/topic/${t.id}`} className={row}>
                 <Illustration id={t.id} size={40} />
-                <span className="min-w-0 flex-1 font-medium text-pretty">{t.title}</span>
-                <BestScore testKey={`topic:${t.id}`} />
+                <span className="min-w-0 flex-1">
+                  <span className="block text-sm font-medium leading-snug text-pretty sm:text-base">{t.title}</span>
+                  <BestScore testKey={`topic:${t.id}`} />
+                </span>
               </Link>
             </li>
           ))}

@@ -188,3 +188,17 @@ mark.word {
     transform: none;
   }
 }
+
+/*
+ * Desktop: list pages use the full content width; single-task screens
+ * (lesson, practice, review…) keep a 42rem reading column, centered in the
+ * content area, with their back link lined up on the column's left edge.
+ */
+@media (min-width: 64rem) {
+  main .max-w-\[42rem\] {
+    margin-inline: auto;
+  }
+  main > .back-link {
+    margin-left: max(0px, calc((100% - 42rem) / 2));
+  }
+}
