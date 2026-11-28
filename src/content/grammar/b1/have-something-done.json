@@ -1,0 +1,336 @@
+{
+  "id": "have-something-done",
+  "level": "B1",
+  "title": "Have something done: nhờ người khác làm",
+  "summary": "Nói việc mình nhờ hoặc trả tiền cho người khác làm: have / get + vật + V3, như cắt tóc, sửa xe.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Your hair looks great!",
+      "vi": "Tóc bạn đẹp quá!"
+    },
+    {
+      "who": "B",
+      "en": "Thanks. I [[had]] it [[cut]] yesterday.",
+      "vi": "Cảm ơn. Hôm qua mình đi cắt đấy."
+    },
+    {
+      "who": "A",
+      "en": "Where? I need to [[get]] my hair [[done]] too.",
+      "vi": "Ở đâu vậy? Mình cũng cần đi làm tóc."
+    },
+    {
+      "who": "B",
+      "en": "At a small salon near the market.",
+      "vi": "Ở một tiệm nhỏ gần chợ."
+    },
+    {
+      "who": "A",
+      "en": "And I have to [[have]] my motorbike [[repaired]] this week.",
+      "vi": "Tuần này mình còn phải mang xe máy đi sửa nữa."
+    },
+    {
+      "who": "B",
+      "en": "My cousin can do it. He [[had]] his own garage [[built]] last year.",
+      "vi": "Anh họ mình sửa được. Năm ngoái anh ấy mới xây xưởng riêng."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Have + vật + V3",
+      "rule": "**have + vật + V3** = nhờ hoặc thuê **người khác** làm việc đó cho mình. **have** chia theo thì.",
+      "formula": [
+        {
+          "text": "S + [have] + vật + [V3]"
+        },
+        {
+          "text": "S + [get] + vật + [V3]"
+        }
+      ],
+      "body": [
+        "So sánh: *I cut my hair* (tôi tự cắt tóc). *I had my hair cut* (tôi đi cắt tóc, thợ cắt cho). Người Việt hay nói *Tôi cắt tóc* cho cả hai nghĩa, nhưng tiếng Anh phân biệt rõ."
+      ],
+      "examples": [
+        {
+          "en": "I [[had]] my car [[washed]].",
+          "vi": "Tôi mang xe đi rửa.",
+          "why": "Người khác rửa xe cho tôi → had + car + washed."
+        },
+        {
+          "en": "She [[is having]] her house [[painted]].",
+          "vi": "Cô ấy đang thuê người sơn nhà.",
+          "why": "Have chia ở tiếp diễn: is having."
+        },
+        {
+          "en": "We [[will have]] the documents [[translated]].",
+          "vi": "Chúng tôi sẽ nhờ dịch tài liệu.",
+          "why": "Tương lai: will have + vật + V3."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ my eyes tested last week.",
+        "options": [
+          "had",
+          "was",
+          "did"
+        ],
+        "answer": 0,
+        "explain": "Đi khám mắt (người khác kiểm tra) → had + eyes + tested."
+      }
+    },
+    {
+      "part": "Get",
+      "heading": "Get something done: thân mật hơn",
+      "rule": "**get + vật + V3** cùng nghĩa, dùng nhiều khi nói chuyện thân mật.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I need to [[get]] my phone [[fixed]].",
+          "vi": "Tôi cần mang điện thoại đi sửa.",
+          "why": "Get + vật + V3, văn nói."
+        },
+        {
+          "en": "Where did you [[get]] your nails [[done]]?",
+          "vi": "Bạn làm móng ở đâu thế?",
+          "why": "Câu hỏi với get."
+        }
+      ],
+      "check": {
+        "prompt": "Where do you usually get your hair ___?",
+        "options": [
+          "cut",
+          "cutting",
+          "to cut"
+        ],
+        "answer": 0,
+        "explain": "Get + vật + V3: cut."
+      }
+    },
+    {
+      "part": "Chuyện không may",
+      "heading": "Have something stolen: chuyện xảy ra với mình",
+      "rule": "Cấu trúc này còn dùng cho **việc không may xảy ra** với mình: *I had my bag stolen* = tôi bị lấy cắp túi.",
+      "body": [],
+      "examples": [
+        {
+          "en": "He [[had]] his wallet [[stolen]] on the bus.",
+          "vi": "Anh ấy bị móc ví trên xe buýt.",
+          "why": "Không phải nhờ, mà là chuyện xảy ra với anh ấy."
+        },
+        {
+          "en": "She [[had]] her flight [[cancelled]] twice.",
+          "vi": "Cô ấy bị hủy chuyến bay hai lần.",
+          "why": "Việc không may xảy ra với cô ấy."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ my bike stolen outside the supermarket.",
+        "options": [
+          "had",
+          "did"
+        ],
+        "answer": 0,
+        "explain": "Chuyện xảy ra với mình → had + vật + V3."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I cut my hair yesterday at the salon.",
+      "right": "I had my hair cut yesterday at the salon.",
+      "why": "Thợ cắt cho → had my hair cut."
+    },
+    {
+      "wrong": "I had repaired my car at the garage.",
+      "right": "I had my car repaired at the garage.",
+      "why": "Thứ tự: have + vật + V3."
+    },
+    {
+      "wrong": "She is having her nails do.",
+      "right": "She is having her nails done.",
+      "why": "Sau vật dùng V3: done."
+    },
+    {
+      "wrong": "I need to get fixed my laptop.",
+      "right": "I need to get my laptop fixed.",
+      "why": "Get + vật + V3."
+    },
+    {
+      "wrong": "I had stolen my phone.",
+      "right": "I had my phone stolen.",
+      "why": "Có nghĩa là bị lấy cắp: had + phone + stolen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "We're having our kitchen ___ next month.",
+      "options": [
+        "redone",
+        "redo",
+        "redoing"
+      ],
+      "answer": 0,
+      "explain": "Have + vật + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "I need to ___ my glasses fixed.",
+      "options": [
+        "get",
+        "make",
+        "do"
+      ],
+      "answer": 0,
+      "explain": "Get + vật + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "She had her car ___ last night.",
+      "options": [
+        "broken into",
+        "break into",
+        "breaking into"
+      ],
+      "answer": 0,
+      "explain": "Chuyện không may: had + car + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là người khác sơn nhà cho họ?",
+      "options": [
+        "They painted their house.",
+        "They had their house painted."
+      ],
+      "answer": 1,
+      "explain": "Had + house + painted = thuê người sơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'm going to have my teeth ___ tomorrow.",
+      "hint": "check",
+      "answers": [
+        "checked"
+      ],
+      "explain": "Have + vật + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "Where did you ___ your photos printed?",
+      "hint": "get / have",
+      "answers": [
+        "get",
+        "have"
+      ],
+      "explain": "Get / have + vật + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "He had his passport ___ at the airport.",
+      "hint": "steal",
+      "answers": [
+        "stolen"
+      ],
+      "explain": "Chuyện không may: had + passport + stolen."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ the air conditioner cleaned every year.",
+      "hint": "thuê người",
+      "answers": [
+        "have",
+        "get"
+      ],
+      "explain": "Have / get + vật + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "She is having a new dress ___ for the wedding.",
+      "hint": "make",
+      "answers": [
+        "made"
+      ],
+      "explain": "Have + vật + V3: made."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đi cắt tóc hôm thứ Bảy.",
+      "words": [
+        "I",
+        "had",
+        "my",
+        "hair",
+        "cut",
+        "on",
+        "Saturday."
+      ],
+      "explain": "Had + hair + cut."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi cần mang laptop đi sửa.",
+      "words": [
+        "I",
+        "need",
+        "to",
+        "get",
+        "my",
+        "laptop",
+        "repaired."
+      ],
+      "explain": "Get + vật + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "I cut my hair at the hairdresser's.",
+      "answers": [
+        "I had my hair cut at the hairdresser's."
+      ],
+      "explain": "Thợ cắt cho → had my hair cut."
+    },
+    {
+      "type": "fix",
+      "sentence": "She had cleaned her carpets by a company.",
+      "answers": [
+        "She had her carpets cleaned by a company."
+      ],
+      "explain": "Have + vật + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "I got my phone fix yesterday.",
+      "answers": [
+        "I got my phone fixed yesterday."
+      ],
+      "explain": "Get + vật + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi bị lấy cắp ví ở chợ.",
+      "answers": [
+        "I had my wallet stolen at the market.",
+        "I had my wallet stolen in the market.",
+        "I got my wallet stolen at the market.",
+        "My wallet was stolen at the market.",
+        "My wallet got stolen at the market."
+      ],
+      "explain": "Had + wallet + stolen (hoặc bị động)."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi sẽ thuê người sơn lại nhà vào tháng sau.",
+      "answers": [
+        "We'll have our house painted next month.",
+        "We will have our house painted next month.",
+        "We're going to have our house painted next month.",
+        "We are going to have our house painted next month.",
+        "We'll get our house painted next month.",
+        "We will get our house painted next month.",
+        "We'll have our house repainted next month.",
+        "We will have our house repainted next month."
+      ],
+      "explain": "Have + house + painted."
+    }
+  ]
+}

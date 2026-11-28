@@ -1,0 +1,383 @@
+{
+  "id": "passive-basics",
+  "level": "B1",
+  "title": "Câu bị động: is made, was built",
+  "summary": "Nói điều gì được làm, khi người làm không quan trọng: am, is, are, was, were + V3, và by + người làm.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "This bridge is beautiful. When [[was]] it [[built]]?",
+      "vi": "Cây cầu này đẹp quá. Nó được xây khi nào vậy?"
+    },
+    {
+      "who": "B",
+      "en": "It [[was built]] in 1899 by the French.",
+      "vi": "Nó được người Pháp xây năm 1899."
+    },
+    {
+      "who": "A",
+      "en": "And these lanterns? Where [[are]] they [[made]]?",
+      "vi": "Còn những chiếc đèn lồng này? Chúng được làm ở đâu?"
+    },
+    {
+      "who": "B",
+      "en": "They [[are made]] by hand in Hoi An.",
+      "vi": "Chúng được làm thủ công ở Hội An."
+    },
+    {
+      "who": "A",
+      "en": "Can I take one home?",
+      "vi": "Mình mang một cái về được không?"
+    },
+    {
+      "who": "B",
+      "en": "Sure. But photos [[aren't allowed]] inside the shop.",
+      "vi": "Được chứ. Nhưng trong cửa hàng không được chụp ảnh."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Be + V3",
+      "rule": "Bị động = **be + V3**. Hiện tại: **am / is / are + V3**. Quá khứ: **was / were + V3**.",
+      "formula": [
+        {
+          "text": "Chủ động: S + V + [tân ngữ]"
+        },
+        {
+          "text": "Bị động: [tân ngữ] + be + V3 (+ by + S)"
+        }
+      ],
+      "body": [
+        "Tân ngữ của câu chủ động lên làm chủ ngữ. Động từ **be** chia theo chủ ngữ mới và theo thì của câu gốc."
+      ],
+      "table": {
+        "head": [
+          "Chủ động",
+          "Bị động"
+        ],
+        "rows": [
+          [
+            "They make cars here.",
+            "Cars are made here."
+          ],
+          [
+            "Someone stole my bike.",
+            "My bike was stolen."
+          ],
+          [
+            "Millions of people use this app.",
+            "This app is used by millions of people."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "English [[is spoken]] in many countries.",
+          "vi": "Tiếng Anh được nói ở nhiều nước.",
+          "why": "English là số ít, hiện tại → is spoken."
+        },
+        {
+          "en": "These photos [[were taken]] in Sa Pa.",
+          "vi": "Những bức ảnh này được chụp ở Sa Pa.",
+          "why": "Photos số nhiều, quá khứ → were taken."
+        },
+        {
+          "en": "My phone [[was stolen]] last night.",
+          "vi": "Điện thoại tôi bị lấy cắp tối qua.",
+          "why": "Phone số ít, quá khứ → was stolen."
+        }
+      ],
+      "check": {
+        "prompt": "Rice ___ in many parts of Vietnam.",
+        "options": [
+          "is grown",
+          "grows",
+          "is grow"
+        ],
+        "answer": 0,
+        "explain": "Bị động hiện tại: is + V3 (grown)."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Khi nào dùng bị động?",
+      "rule": "Dùng bị động khi **người làm không quan trọng, không biết, hoặc ai cũng biết**; điều quan trọng là **việc được làm**.",
+      "body": [
+        "Tiếng Việt hay nói *được* (tốt) hoặc *bị* (xấu). Tiếng Anh chỉ có một dạng **be + V3** cho cả hai.",
+        "Bị động rất hay gặp trong tin tức, hướng dẫn, quy định và văn viết trang trọng."
+      ],
+      "examples": [
+        {
+          "en": "The museum [[is closed]] on Mondays.",
+          "vi": "Bảo tàng đóng cửa vào thứ Hai.",
+          "why": "Ai đóng cửa không quan trọng."
+        },
+        {
+          "en": "Three people [[were injured]] in the accident.",
+          "vi": "Ba người bị thương trong vụ tai nạn.",
+          "why": "Tin tức: chú ý vào nạn nhân."
+        },
+        {
+          "en": "Smoking [[is not allowed]] here.",
+          "vi": "Không được hút thuốc ở đây.",
+          "why": "Quy định: người cấm không cần nhắc."
+        }
+      ],
+      "check": {
+        "prompt": "My car ___ yesterday. I don't know who did it.",
+        "options": [
+          "was damaged",
+          "damaged"
+        ],
+        "answer": 0,
+        "explain": "Không biết người làm → bị động: was damaged."
+      }
+    },
+    {
+      "part": "By",
+      "heading": "By + người làm",
+      "rule": "Chỉ thêm **by + người làm** khi thông tin đó **quan trọng hoặc mới**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "This song [[was written]] by my brother.",
+          "vi": "Bài hát này do anh trai tôi viết.",
+          "why": "Người viết là thông tin đáng nói → thêm by."
+        },
+        {
+          "en": "The road [[was repaired]] last week.",
+          "vi": "Con đường được sửa tuần trước.",
+          "why": "Ai sửa không quan trọng → không cần by."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu tự nhiên hơn:",
+        "options": [
+          "The window was broken by someone.",
+          "The window was broken."
+        ],
+        "answer": 1,
+        "explain": "By someone không thêm thông tin gì → bỏ đi."
+      }
+    },
+    {
+      "part": "Phủ định, câu hỏi",
+      "heading": "Isn't + V3, Was it + V3?",
+      "rule": "Phủ định: **isn't / aren't / wasn't / weren't + V3**. Câu hỏi: đảo **be** lên trước chủ ngữ.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The letter [[wasn't sent]] on time.",
+          "vi": "Lá thư không được gửi đúng hạn.",
+          "why": "Phủ định quá khứ: wasn't + V3."
+        },
+        {
+          "en": "Where [[were]] these shoes [[made]]?",
+          "vi": "Đôi giày này được sản xuất ở đâu?",
+          "why": "Câu hỏi: Where + were + chủ ngữ + V3."
+        }
+      ],
+      "check": {
+        "prompt": "___ the tickets included in the price?",
+        "options": [
+          "Are",
+          "Do",
+          "Is"
+        ],
+        "answer": 0,
+        "explain": "Tickets số nhiều, câu hỏi bị động → Are."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "This house built in 1990.",
+      "right": "This house was built in 1990.",
+      "why": "Bị động cần be: was built."
+    },
+    {
+      "wrong": "The cake was make by my mom.",
+      "right": "The cake was made by my mom.",
+      "why": "Sau be dùng V3: made."
+    },
+    {
+      "wrong": "English is speak in Singapore.",
+      "right": "English is spoken in Singapore.",
+      "why": "V3 của speak là spoken."
+    },
+    {
+      "wrong": "My bike stole last night.",
+      "right": "My bike was stolen last night.",
+      "why": "Xe đạp không tự lấy cắp → bị động: was stolen."
+    },
+    {
+      "wrong": "The letters was sent yesterday.",
+      "right": "The letters were sent yesterday.",
+      "why": "Letters số nhiều → were."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Coffee ___ in the Central Highlands.",
+      "options": [
+        "is grown",
+        "grows up",
+        "is growing"
+      ],
+      "answer": 0,
+      "explain": "Bị động hiện tại: is grown."
+    },
+    {
+      "type": "choice",
+      "prompt": "The first iPhone ___ in 2007.",
+      "options": [
+        "was released",
+        "released",
+        "is released"
+      ],
+      "answer": 0,
+      "explain": "Quá khứ, bị động → was released."
+    },
+    {
+      "type": "choice",
+      "prompt": "These dishes ___ by my grandmother.",
+      "options": [
+        "were cooked",
+        "was cooked",
+        "cooked"
+      ],
+      "answer": 0,
+      "explain": "Dishes số nhiều → were cooked."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào là bị động?",
+      "options": [
+        "They clean the office every day.",
+        "The office is cleaned every day."
+      ],
+      "answer": 1,
+      "explain": "Be + V3 → bị động."
+    },
+    {
+      "type": "fill",
+      "prompt": "The report ___ by the manager yesterday.",
+      "hint": "check",
+      "answers": [
+        "was checked"
+      ],
+      "explain": "Quá khứ, bị động → was checked."
+    },
+    {
+      "type": "fill",
+      "prompt": "Many languages ___ in India.",
+      "hint": "speak",
+      "answers": [
+        "are spoken"
+      ],
+      "explain": "Languages số nhiều, hiện tại → are spoken."
+    },
+    {
+      "type": "fill",
+      "prompt": "The windows ___ cleaned last week.",
+      "hint": "phủ định",
+      "answers": [
+        "weren't",
+        "were not"
+      ],
+      "explain": "Phủ định bị động quá khứ: weren't + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "When ___ this temple built?",
+      "hint": "be",
+      "answers": [
+        "was"
+      ],
+      "explain": "Câu hỏi bị động quá khứ: When + was + S + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "My wallet ___ on the bus.",
+      "hint": "steal",
+      "answers": [
+        "was stolen"
+      ],
+      "explain": "Bị động quá khứ của steal: was stolen."
+    },
+    {
+      "type": "order",
+      "vi": "Ngôi nhà này được xây năm 1920.",
+      "words": [
+        "This",
+        "house",
+        "was",
+        "built",
+        "in",
+        "1920."
+      ],
+      "explain": "Was + built."
+    },
+    {
+      "type": "order",
+      "vi": "Bức tranh này do một sinh viên vẽ.",
+      "words": [
+        "This",
+        "picture",
+        "was",
+        "painted",
+        "by",
+        "a",
+        "student."
+      ],
+      "explain": "Was + painted + by + người làm."
+    },
+    {
+      "type": "fix",
+      "sentence": "The bridge was build in 2005.",
+      "answers": [
+        "The bridge was built in 2005."
+      ],
+      "explain": "Sau was dùng V3: built."
+    },
+    {
+      "type": "fix",
+      "sentence": "Many people was hurt in the storm.",
+      "answers": [
+        "Many people were hurt in the storm."
+      ],
+      "explain": "People số nhiều → were."
+    },
+    {
+      "type": "fix",
+      "sentence": "Photos don't allowed in the museum.",
+      "answers": [
+        "Photos aren't allowed in the museum."
+      ],
+      "explain": "Bị động: aren't + allowed."
+    },
+    {
+      "type": "translate",
+      "vi": "Tiếng Anh được dạy ở mọi trường học.",
+      "answers": [
+        "English is taught in every school.",
+        "English is taught in all schools.",
+        "English is taught at every school.",
+        "English is taught at all schools."
+      ],
+      "explain": "Bị động hiện tại: is taught."
+    },
+    {
+      "type": "translate",
+      "vi": "Chiếc xe máy của tôi bị lấy cắp tuần trước.",
+      "answers": [
+        "My motorbike was stolen last week.",
+        "My motorcycle was stolen last week.",
+        "My scooter was stolen last week."
+      ],
+      "explain": "Bị động quá khứ: was stolen."
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "id": "passive-more",
+  "level": "B1",
+  "title": "Bị động với will, can, have been",
+  "summary": "Dùng bị động với các thì và động từ khuyết thiếu khác: will be done, has been sold, can be used, is being repaired.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "[[Has]] the new office [[been finished]] yet?",
+      "vi": "Văn phòng mới đã xong chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Not yet. It's still [[being painted]].",
+      "vi": "Chưa. Vẫn đang được sơn."
+    },
+    {
+      "who": "A",
+      "en": "When [[will]] it [[be ready]]?",
+      "vi": "Khi nào thì xong?"
+    },
+    {
+      "who": "B",
+      "en": "The keys [[will be given]] to us next Monday.",
+      "vi": "Thứ Hai tuần sau chúng ta sẽ được giao chìa khóa."
+    },
+    {
+      "who": "A",
+      "en": "Great. [[Can]] the meeting room [[be booked]] online?",
+      "vi": "Tuyệt. Phòng họp có đặt online được không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, it [[can be booked]] through the app.",
+      "vi": "Có, đặt qua ứng dụng được."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Mỗi thì một dạng be",
+      "rule": "Bị động luôn là **be (chia theo thì) + V3**. Chỉ cần đổi **be** cho đúng thì.",
+      "body": [],
+      "table": {
+        "head": [
+          "Thì",
+          "Bị động",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Hiện tại tiếp diễn",
+            "am / is / are being + V3",
+            "It is being repaired."
+          ],
+          [
+            "Hiện tại hoàn thành",
+            "have / has been + V3",
+            "It has been sold."
+          ],
+          [
+            "Tương lai",
+            "will be + V3",
+            "It will be delivered."
+          ],
+          [
+            "Động từ khuyết thiếu",
+            "can / must / should be + V3",
+            "It can be used."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The road [[is being repaired]].",
+          "vi": "Con đường đang được sửa.",
+          "why": "Đang diễn ra → is being + V3."
+        },
+        {
+          "en": "All the tickets [[have been sold]].",
+          "vi": "Tất cả vé đã được bán hết.",
+          "why": "Hiện tại hoàn thành → have been + V3."
+        },
+        {
+          "en": "Your order [[will be delivered]] tomorrow.",
+          "vi": "Đơn hàng của bạn sẽ được giao vào ngày mai.",
+          "why": "Tương lai → will be + V3."
+        }
+      ],
+      "check": {
+        "prompt": "The new hospital ___ next year.",
+        "options": [
+          "will be opened",
+          "will open by",
+          "will opened"
+        ],
+        "answer": 0,
+        "explain": "Tương lai bị động: will be + V3."
+      }
+    },
+    {
+      "part": "Động từ khuyết thiếu",
+      "heading": "Can, must, should be + V3",
+      "rule": "Sau **can, could, must, should, might** dùng **be + V3** (không chia be).",
+      "body": [
+        "Dạng này rất hay gặp trong hướng dẫn và quy định: *Must be paid*, *Can be used*, *Should be kept*."
+      ],
+      "examples": [
+        {
+          "en": "This medicine [[must be kept]] in the fridge.",
+          "vi": "Thuốc này phải được bảo quản trong tủ lạnh.",
+          "why": "Must + be + V3."
+        },
+        {
+          "en": "The form [[can be downloaded]] from the website.",
+          "vi": "Có thể tải biểu mẫu từ trang web.",
+          "why": "Can + be + V3."
+        },
+        {
+          "en": "Phones [[should be turned]] off during the exam.",
+          "vi": "Điện thoại nên tắt trong giờ thi.",
+          "why": "Should + be + V3."
+        }
+      ],
+      "check": {
+        "prompt": "Tickets must ___ at the door.",
+        "options": [
+          "be shown",
+          "show",
+          "be show"
+        ],
+        "answer": 0,
+        "explain": "Must + be + V3."
+      }
+    },
+    {
+      "part": "Đang diễn ra, đã xong",
+      "heading": "Is being done và has been done",
+      "rule": "**is being + V3**: việc **đang được làm**. **has been + V3**: việc **đã được làm xong**, kết quả có ở hiện tại.",
+      "body": [],
+      "examples": [
+        {
+          "en": "My car [[is being fixed]], so I'm taking the bus.",
+          "vi": "Xe tôi đang được sửa nên tôi đi xe buýt.",
+          "why": "Đang sửa → is being fixed."
+        },
+        {
+          "en": "My car [[has been fixed]]. I can drive again.",
+          "vi": "Xe tôi đã sửa xong. Tôi lại lái được rồi.",
+          "why": "Đã xong, kết quả bây giờ → has been fixed."
+        }
+      ],
+      "check": {
+        "prompt": "Sorry, you can't use this room. It ___.",
+        "options": [
+          "is being cleaned",
+          "is cleaning"
+        ],
+        "answer": 0,
+        "explain": "Phòng không tự dọn → bị động: is being cleaned."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The room is cleaning now.",
+      "right": "The room is being cleaned now.",
+      "why": "Phòng được dọn → is being cleaned."
+    },
+    {
+      "wrong": "It will be deliver tomorrow.",
+      "right": "It will be delivered tomorrow.",
+      "why": "Will be + V3."
+    },
+    {
+      "wrong": "This must keep cold.",
+      "right": "This must be kept cold.",
+      "why": "Must + be + V3."
+    },
+    {
+      "wrong": "The tickets have sold out been.",
+      "right": "The tickets have been sold.",
+      "why": "Have been + V3."
+    },
+    {
+      "wrong": "The problem has solved.",
+      "right": "The problem has been solved.",
+      "why": "Bị động hoàn thành: has been + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The museum ___ at the moment.",
+      "options": [
+        "is being repaired",
+        "is repairing",
+        "repairs"
+      ],
+      "answer": 0,
+      "explain": "Đang được sửa → is being repaired."
+    },
+    {
+      "type": "choice",
+      "prompt": "The results ___ next week.",
+      "options": [
+        "will be announced",
+        "will announce",
+        "are announce"
+      ],
+      "answer": 0,
+      "explain": "Tương lai bị động → will be announced."
+    },
+    {
+      "type": "choice",
+      "prompt": "This book ___ into 20 languages.",
+      "options": [
+        "has been translated",
+        "has translated",
+        "is translate"
+      ],
+      "answer": 0,
+      "explain": "Đã được dịch → has been translated."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Seatbelts must be worn.",
+        "Seatbelts must wear.",
+        "Seatbelts must be wear."
+      ],
+      "answer": 0,
+      "explain": "Must + be + V3 (worn)."
+    },
+    {
+      "type": "fill",
+      "prompt": "Your room ___ ready by 2 p.m.",
+      "hint": "will, be",
+      "answers": [
+        "will be"
+      ],
+      "explain": "Tương lai: will be."
+    },
+    {
+      "type": "fill",
+      "prompt": "The keys can ___ at reception.",
+      "hint": "collect",
+      "answers": [
+        "be collected"
+      ],
+      "explain": "Can + be + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "The windows ___ painted right now.",
+      "hint": "be, đang",
+      "answers": [
+        "are being"
+      ],
+      "explain": "Đang diễn ra, bị động: are being + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "All the cakes ___ eaten!",
+      "hint": "have",
+      "answers": [
+        "have been"
+      ],
+      "explain": "Đã xong: have been + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "The car should ___ every year.",
+      "hint": "check",
+      "answers": [
+        "be checked"
+      ],
+      "explain": "Should + be + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Đơn hàng của bạn sẽ được giao vào thứ Sáu.",
+      "words": [
+        "Your",
+        "order",
+        "will",
+        "be",
+        "delivered",
+        "on",
+        "Friday."
+      ],
+      "explain": "Will + be + delivered."
+    },
+    {
+      "type": "order",
+      "vi": "Căn phòng đang được dọn.",
+      "words": [
+        "The",
+        "room",
+        "is",
+        "being",
+        "cleaned."
+      ],
+      "explain": "Is + being + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "The bridge is building now.",
+      "answers": [
+        "The bridge is being built now."
+      ],
+      "explain": "Cây cầu được xây → is being built."
+    },
+    {
+      "type": "fix",
+      "sentence": "This form must sign by your parents.",
+      "answers": [
+        "This form must be signed by your parents."
+      ],
+      "explain": "Must + be + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "Your car has repaired.",
+      "answers": [
+        "Your car has been repaired."
+      ],
+      "explain": "Bị động: has been + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Vé có thể mua trên mạng.",
+      "answers": [
+        "Tickets can be bought online.",
+        "Tickets can be purchased online.",
+        "The tickets can be bought online.",
+        "The tickets can be purchased online.",
+        "Tickets can be booked online."
+      ],
+      "explain": "Can + be + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Vấn đề đã được giải quyết.",
+      "answers": [
+        "The problem has been solved.",
+        "The issue has been solved.",
+        "The problem has been fixed.",
+        "The issue has been fixed.",
+        "The issue has been resolved.",
+        "The problem has been resolved."
+      ],
+      "explain": "Has been + V3."
+    }
+  ]
+}
