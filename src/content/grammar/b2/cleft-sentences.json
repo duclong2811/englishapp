@@ -1,0 +1,339 @@
+{
+  "id": "cleft-sentences",
+  "level": "B2",
+  "title": "Câu chẻ: What I need is…, It was … that",
+  "summary": "Nhấn mạnh một phần câu: It was Lan who/that…, What I need is…, All I want is…, The reason why… is that…",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Did Minh break the printer?",
+      "vi": "Minh làm hỏng máy in à?"
+    },
+    {
+      "who": "B",
+      "en": "No, [[it was]] the new intern [[who]] broke it.",
+      "vi": "Không, chính bạn thực tập mới làm hỏng."
+    },
+    {
+      "who": "A",
+      "en": "Oh. I'm so tired today.",
+      "vi": "Ồ. Hôm nay mình mệt quá."
+    },
+    {
+      "who": "B",
+      "en": "[[What]] you need [[is]] a long weekend.",
+      "vi": "Cái bạn cần là một kỳ nghỉ cuối tuần dài."
+    },
+    {
+      "who": "A",
+      "en": "[[All]] I want [[is]] to sleep for ten hours!",
+      "vi": "Mình chỉ muốn ngủ mười tiếng thôi!"
+    },
+    {
+      "who": "B",
+      "en": "[[The reason why]] you're tired [[is that]] you work too much.",
+      "vi": "Lý do bạn mệt là bạn làm việc quá nhiều."
+    }
+  ],
+  "sections": [
+    {
+      "part": "It is … that",
+      "heading": "It is/was + phần nhấn + who/that",
+      "rule": "**It is / was + phần muốn nhấn + that (who cho người) + phần còn lại**. Dùng để sửa thông tin sai hoặc nhấn mạnh.",
+      "formula": [
+        {
+          "text": "[It was] + X + [that / who] + …"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[It was]] my sister [[who]] called you.",
+          "vi": "Chính chị tôi đã gọi cho bạn.",
+          "why": "Nhấn người → who."
+        },
+        {
+          "en": "[[It was]] in Hue [[that]] they met.",
+          "vi": "Chính ở Huế họ đã gặp nhau.",
+          "why": "Nhấn nơi chốn → that."
+        },
+        {
+          "en": "[[It's]] the price [[that]] worries me.",
+          "vi": "Chính giá cả làm tôi lo.",
+          "why": "Hiện tại → It's."
+        }
+      ],
+      "check": {
+        "prompt": "It was John ___ found the wallet.",
+        "options": [
+          "who",
+          "which",
+          "what"
+        ],
+        "answer": 0,
+        "explain": "Nhấn người → who/that."
+      }
+    },
+    {
+      "part": "What … is",
+      "heading": "What + S + V + is…",
+      "rule": "**What + mệnh đề + is/was + phần nhấn** = Cái mà… là… Nhấn điều mình cần, muốn, thích.",
+      "formula": [
+        {
+          "text": "[What] + S + V + [is] + X"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[What]] I need [[is]] a cup of coffee.",
+          "vi": "Cái tôi cần là một ly cà phê.",
+          "why": "Nhấn điều cần."
+        },
+        {
+          "en": "[[What]] surprised me [[was]] his age.",
+          "vi": "Điều làm tôi bất ngờ là tuổi của anh ấy.",
+          "why": "What làm chủ ngữ."
+        },
+        {
+          "en": "[[What]] we did [[was]] call the police.",
+          "vi": "Việc chúng tôi làm là gọi cảnh sát.",
+          "why": "What + do + was + V nguyên mẫu."
+        }
+      ],
+      "check": {
+        "prompt": "___ I like about Hanoi is the food.",
+        "options": [
+          "What",
+          "That",
+          "Which"
+        ],
+        "answer": 0,
+        "explain": "Mẫu: What + S + V + is."
+      }
+    },
+    {
+      "part": "All, the reason",
+      "heading": "All I want is…, The reason why… is that…",
+      "rule": "**All + S + V + is** = tất cả những gì… chỉ là. **The reason (why) + S + V + is that…** = lý do… là.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[All]] I want [[is]] some peace and quiet.",
+          "vi": "Tôi chỉ muốn chút yên tĩnh.",
+          "why": "All = chỉ, không gì hơn."
+        },
+        {
+          "en": "[[The reason why]] I left [[is that]] I was bored.",
+          "vi": "Lý do tôi bỏ đi là tôi chán.",
+          "why": "The reason why… is that…"
+        }
+      ],
+      "check": {
+        "prompt": "The reason he is late ___ that his car broke down.",
+        "options": [
+          "is",
+          "because",
+          "why"
+        ],
+        "answer": 0,
+        "explain": "The reason … is that (không dùng is because)."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "It was my brother which called you.",
+      "right": "It was my brother who called you.",
+      "why": "Nhấn người → who/that."
+    },
+    {
+      "wrong": "What I need it is a holiday.",
+      "right": "What I need is a holiday.",
+      "why": "Không thêm it."
+    },
+    {
+      "wrong": "The reason why I'm late is because the traffic.",
+      "right": "The reason why I'm late is that the traffic was bad.",
+      "why": "Dùng is that + mệnh đề."
+    },
+    {
+      "wrong": "All I want are a quiet room.",
+      "right": "All I want is a quiet room.",
+      "why": "All … is."
+    },
+    {
+      "wrong": "It is in Da Nang where we met.",
+      "right": "It was in Da Nang that we met.",
+      "why": "Câu chẻ nơi chốn dùng that; kể quá khứ → was."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "It was Mai ___ won the prize.",
+      "options": [
+        "who",
+        "which",
+        "what"
+      ],
+      "answer": 0,
+      "explain": "Nhấn người → who."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ I really want is a new job.",
+      "options": [
+        "What",
+        "That",
+        "It"
+      ],
+      "answer": 0,
+      "explain": "What + S + V + is."
+    },
+    {
+      "type": "choice",
+      "prompt": "It was in 2010 ___ we moved here.",
+      "options": [
+        "that",
+        "when it",
+        "which"
+      ],
+      "answer": 0,
+      "explain": "Nhấn thời gian → that."
+    },
+    {
+      "type": "choice",
+      "prompt": "All you need ___ a good pair of shoes.",
+      "options": [
+        "is",
+        "are",
+        "it is"
+      ],
+      "answer": 0,
+      "explain": "All … is."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nhấn mạnh 'tối qua'?",
+      "options": [
+        "It was last night that I saw him.",
+        "I saw him last night."
+      ],
+      "answer": 0,
+      "explain": "It was + X + that."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ was the noise that woke me up.",
+      "hint": "đại từ",
+      "answers": [
+        "It"
+      ],
+      "explain": "Câu chẻ: It was … that."
+    },
+    {
+      "type": "fill",
+      "prompt": "What she said ___ that she was leaving.",
+      "hint": "be",
+      "answers": [
+        "was"
+      ],
+      "explain": "What … was."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ I want to do now is sleep.",
+      "hint": "từ để hỏi",
+      "answers": [
+        "What",
+        "All"
+      ],
+      "explain": "What/All + S + V + is."
+    },
+    {
+      "type": "fill",
+      "prompt": "It was my teacher ___ helped me most.",
+      "hint": "đại từ quan hệ",
+      "answers": [
+        "who",
+        "that"
+      ],
+      "explain": "Nhấn người → who/that."
+    },
+    {
+      "type": "order",
+      "vi": "Cái tôi cần là thời gian.",
+      "words": [
+        "What",
+        "I",
+        "need",
+        "is",
+        "time."
+      ],
+      "explain": "What + S + V + is."
+    },
+    {
+      "type": "order",
+      "vi": "Chính Lan đã gọi cho bạn.",
+      "words": [
+        "It",
+        "was",
+        "Lan",
+        "who",
+        "called",
+        "you."
+      ],
+      "explain": "It was + X + who."
+    },
+    {
+      "type": "fix",
+      "sentence": "What I want it is a quiet life.",
+      "answers": [
+        "What I want is a quiet life."
+      ],
+      "explain": "Bỏ it."
+    },
+    {
+      "type": "fix",
+      "sentence": "It was my mother which taught me to cook.",
+      "answers": [
+        "It was my mother who taught me to cook."
+      ],
+      "explain": "Nhấn người → who."
+    },
+    {
+      "type": "fix",
+      "sentence": "The reason I left is because I was tired.",
+      "answers": [
+        "The reason I left is that I was tired."
+      ],
+      "explain": "The reason … is that."
+    },
+    {
+      "type": "translate",
+      "vi": "Chính giá cả làm tôi lo lắng.",
+      "answers": [
+        "It's the price that worries me.",
+        "It is the price that worries me.",
+        "It's the price that makes me worried.",
+        "It is the price that makes me worried.",
+        "It's the price which worries me."
+      ],
+      "explain": "It is + X + that."
+    },
+    {
+      "type": "translate",
+      "vi": "Cái bạn cần là nghỉ ngơi.",
+      "answers": [
+        "What you need is rest.",
+        "What you need is some rest.",
+        "What you need is a rest.",
+        "What you need is to rest.",
+        "All you need is rest.",
+        "All you need is some rest."
+      ],
+      "explain": "What + S + V + is."
+    }
+  ]
+}

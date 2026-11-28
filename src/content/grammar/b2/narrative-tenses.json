@@ -1,0 +1,361 @@
+{
+  "id": "narrative-tenses",
+  "level": "B2",
+  "title": "Kể chuyện: had been doing và các thì quá khứ",
+  "summary": "Kể chuyện mạch lạc bằng quá khứ đơn, quá khứ tiếp diễn, quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Why were you so wet when you came in?",
+      "vi": "Sao lúc vào bạn ướt thế?"
+    },
+    {
+      "who": "B",
+      "en": "I [[had been waiting]] for a bus for half an hour.",
+      "vi": "Mình đã đứng chờ xe buýt nửa tiếng rồi."
+    },
+    {
+      "who": "A",
+      "en": "In the rain?",
+      "vi": "Dưới mưa à?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. It [[was raining]] hard and I [[had forgotten]] my umbrella.",
+      "vi": "Ừ. Trời đang mưa to mà mình lại quên ô."
+    },
+    {
+      "who": "A",
+      "en": "Did the bus come in the end?",
+      "vi": "Cuối cùng xe có đến không?"
+    },
+    {
+      "who": "B",
+      "en": "No. It [[had broken]] down, so I [[walked]] here.",
+      "vi": "Không. Xe bị hỏng nên mình đi bộ đến đây."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Bốn thì kể chuyện",
+      "heading": "Mỗi thì một việc",
+      "rule": "**Quá khứ đơn**: các sự việc chính. **Quá khứ tiếp diễn**: bối cảnh đang diễn ra. **Quá khứ hoàn thành**: việc xảy ra trước. **Quá khứ hoàn thành tiếp diễn**: việc kéo dài đến trước đó.",
+      "body": [],
+      "table": {
+        "head": [
+          "Thì",
+          "Dùng để"
+        ],
+        "rows": [
+          [
+            "I walked home.",
+            "sự việc chính, theo thứ tự"
+          ],
+          [
+            "It was raining.",
+            "bối cảnh, đang diễn ra"
+          ],
+          [
+            "I had lost my keys.",
+            "việc xảy ra trước"
+          ],
+          [
+            "I had been waiting for an hour.",
+            "việc kéo dài đến trước"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The sun [[was shining]] when we [[arrived]].",
+          "vi": "Khi chúng tôi đến thì trời đang nắng.",
+          "why": "Bối cảnh (was shining) + sự việc chính (arrived)."
+        },
+        {
+          "en": "She [[had lost]] her keys, so she [[called]] me.",
+          "vi": "Cô ấy làm mất chìa khóa nên gọi cho tôi.",
+          "why": "Mất chìa xảy ra trước → had lost."
+        }
+      ],
+      "check": {
+        "prompt": "We ___ dinner when the lights went out.",
+        "options": [
+          "were having",
+          "had",
+          "have had"
+        ],
+        "answer": 0,
+        "explain": "Việc đang diễn ra thì bị cắt ngang → quá khứ tiếp diễn."
+      }
+    },
+    {
+      "part": "Had been doing",
+      "heading": "Quá khứ hoàn thành tiếp diễn",
+      "rule": "**had been + V-ing**: một việc **kéo dài** trước một mốc quá khứ, thường để giải thích **kết quả nhìn thấy** lúc đó.",
+      "formula": [
+        {
+          "text": "S + [had been] + V-ing"
+        }
+      ],
+      "body": [
+        "So sánh: *I had read the book* (đọc xong) và *I had been reading for hours* (đọc kéo dài, nhấn quá trình)."
+      ],
+      "examples": [
+        {
+          "en": "His eyes were red. He [[had been crying]].",
+          "vi": "Mắt cậu ấy đỏ. Cậu ấy đã khóc.",
+          "why": "Kết quả nhìn thấy (mắt đỏ) ← việc kéo dài trước đó."
+        },
+        {
+          "en": "We [[had been driving]] for hours when the car stopped.",
+          "vi": "Chúng tôi lái xe hàng giờ thì xe chết máy.",
+          "why": "Kéo dài đến mốc xe dừng."
+        },
+        {
+          "en": "She was tired because she [[had been working]] all day.",
+          "vi": "Cô ấy mệt vì đã làm việc cả ngày.",
+          "why": "Giải thích nguyên nhân bằng quá trình kéo dài."
+        }
+      ],
+      "check": {
+        "prompt": "The ground was wet. It ___ all night.",
+        "options": [
+          "had been raining",
+          "was raining",
+          "rained"
+        ],
+        "answer": 0,
+        "explain": "Kết quả lúc đó (đất ướt) ← mưa kéo dài trước → had been raining."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Had done hay had been doing?",
+      "rule": "**had done** nhấn việc **đã xong** hoặc **số lượng**; **had been doing** nhấn **quá trình, thời lượng**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[had written]] three emails by ten.",
+          "vi": "Đến mười giờ tôi đã viết xong ba email.",
+          "why": "Có số lượng (three emails) → had written."
+        },
+        {
+          "en": "I [[had been writing]] emails all morning.",
+          "vi": "Tôi đã viết email cả buổi sáng.",
+          "why": "Nhấn thời lượng → had been writing."
+        }
+      ],
+      "check": {
+        "prompt": "By lunchtime, she ___ five reports.",
+        "options": [
+          "had written",
+          "had been writing"
+        ],
+        "answer": 0,
+        "explain": "Có số lượng (five reports) → had written."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I was tired because I was working all day.",
+      "right": "I was tired because I had been working all day.",
+      "why": "Việc kéo dài trước mốc quá khứ → had been working."
+    },
+    {
+      "wrong": "When I arrived, she cooked, so the kitchen smelled great.",
+      "right": "When I arrived, she was cooking, so the kitchen smelled great.",
+      "why": "Đang diễn ra lúc tôi đến → was cooking."
+    },
+    {
+      "wrong": "He had been writing four books by 2010.",
+      "right": "He had written four books by 2010.",
+      "why": "Có số lượng → had written, không dùng dạng tiếp diễn."
+    },
+    {
+      "wrong": "We had been waited for an hour.",
+      "right": "We had been waiting for an hour.",
+      "why": "Had been + V-ing."
+    },
+    {
+      "wrong": "It rained, so the roads were wet when we left.",
+      "right": "It had been raining, so the roads were wet when we left.",
+      "why": "Mưa kéo dài trước, để lại kết quả → had been raining."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "She was out of breath because she ___.",
+      "options": [
+        "had been running",
+        "ran",
+        "runs"
+      ],
+      "answer": 0,
+      "explain": "Kết quả lúc đó ← việc kéo dài trước → had been running."
+    },
+    {
+      "type": "choice",
+      "prompt": "While I ___ TV, someone knocked on the door.",
+      "options": [
+        "was watching",
+        "had watched",
+        "watched"
+      ],
+      "answer": 0,
+      "explain": "Bối cảnh đang diễn ra → was watching."
+    },
+    {
+      "type": "choice",
+      "prompt": "By the time the police came, the thieves ___.",
+      "options": [
+        "had escaped",
+        "were escaping",
+        "escape"
+      ],
+      "answer": 0,
+      "explain": "Việc xong trước mốc → had escaped."
+    },
+    {
+      "type": "choice",
+      "prompt": "How long ___ you been waiting when the train came?",
+      "options": [
+        "had",
+        "have",
+        "were"
+      ],
+      "answer": 0,
+      "explain": "Thời lượng đến mốc quá khứ → had been waiting."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nhấn quá trình kéo dài?",
+      "options": [
+        "I had cleaned the house.",
+        "I had been cleaning the house."
+      ],
+      "answer": 1,
+      "explain": "Had been cleaning nhấn quá trình."
+    },
+    {
+      "type": "fill",
+      "prompt": "Her hands were dirty. She ___ in the garden.",
+      "hint": "work",
+      "answers": [
+        "had been working",
+        "'d been working"
+      ],
+      "explain": "Kết quả nhìn thấy ← việc kéo dài → had been working."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ along the beach when it started to rain.",
+      "hint": "walk",
+      "answers": [
+        "were walking"
+      ],
+      "explain": "Đang diễn ra thì bị cắt ngang → were walking."
+    },
+    {
+      "type": "fill",
+      "prompt": "I couldn't get in because I ___ my keys.",
+      "hint": "lose",
+      "answers": [
+        "had lost",
+        "'d lost"
+      ],
+      "explain": "Mất chìa trước → had lost."
+    },
+    {
+      "type": "fill",
+      "prompt": "They had been ___ for two hours before they found the hotel.",
+      "hint": "drive",
+      "answers": [
+        "driving"
+      ],
+      "explain": "Had been + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy mệt vì đã học cả đêm.",
+      "words": [
+        "She",
+        "was",
+        "tired",
+        "because",
+        "she",
+        "had",
+        "been",
+        "studying",
+        "all",
+        "night."
+      ],
+      "explain": "Had been studying giải thích nguyên nhân."
+    },
+    {
+      "type": "order",
+      "vi": "Khi tôi đến thì họ đang ăn tối.",
+      "words": [
+        "They",
+        "were",
+        "having",
+        "dinner",
+        "when",
+        "I",
+        "arrived."
+      ],
+      "alternatives": [
+        "When I arrived they were having dinner."
+      ],
+      "explain": "Bối cảnh → quá khứ tiếp diễn."
+    },
+    {
+      "type": "fix",
+      "sentence": "He was angry because he waited for two hours.",
+      "answers": [
+        "He was angry because he had been waiting for two hours."
+      ],
+      "explain": "Kéo dài trước mốc → had been waiting."
+    },
+    {
+      "type": "fix",
+      "sentence": "When I got home, my brother had been eating all the cake.",
+      "answers": [
+        "When I got home, my brother had eaten all the cake."
+      ],
+      "explain": "Ăn hết (kết quả trọn vẹn) → had eaten."
+    },
+    {
+      "type": "fix",
+      "sentence": "While she cooked, the phone rang.",
+      "answers": [
+        "While she was cooking, the phone rang."
+      ],
+      "explain": "Bối cảnh đang diễn ra → was cooking."
+    },
+    {
+      "type": "translate",
+      "vi": "Mắt anh ấy đỏ vì anh ấy đã khóc.",
+      "answers": [
+        "His eyes were red because he had been crying.",
+        "His eyes were red because he'd been crying.",
+        "His eyes were red because he had cried."
+      ],
+      "explain": "Kết quả lúc đó ← việc kéo dài → had been crying."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi đã chờ một tiếng thì xe buýt đến.",
+      "answers": [
+        "We had been waiting for an hour when the bus came.",
+        "We had been waiting for an hour when the bus arrived.",
+        "We'd been waiting for an hour when the bus came.",
+        "We'd been waiting for an hour when the bus arrived.",
+        "We had waited for an hour when the bus came.",
+        "We had waited for an hour when the bus arrived."
+      ],
+      "explain": "Thời lượng đến mốc → had been waiting."
+    }
+  ]
+}

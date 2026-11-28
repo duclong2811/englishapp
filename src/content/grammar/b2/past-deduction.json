@@ -1,0 +1,336 @@
+{
+  "id": "past-deduction",
+  "level": "B2",
+  "title": "Must have been, can't have, might have",
+  "summary": "Đoán về quá khứ: must have + V3 (chắc chắn), can't have + V3 (chắc chắn không), might/could have + V3 (có thể).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "The office is empty. Where is everyone?",
+      "vi": "Văn phòng trống trơn. Mọi người đâu hết rồi?"
+    },
+    {
+      "who": "B",
+      "en": "They [[must have gone]] to lunch.",
+      "vi": "Chắc họ đi ăn trưa rồi."
+    },
+    {
+      "who": "A",
+      "en": "But it's only eleven.",
+      "vi": "Nhưng mới mười một giờ mà."
+    },
+    {
+      "who": "B",
+      "en": "Then they [[might have gone]] to the meeting downstairs.",
+      "vi": "Vậy có thể họ xuống họp ở tầng dưới."
+    },
+    {
+      "who": "A",
+      "en": "Minh [[can't have gone]]. He's on holiday.",
+      "vi": "Minh thì không thể đi được. Cậu ấy nghỉ phép mà."
+    },
+    {
+      "who": "B",
+      "en": "Right. He [[must have been]] in Da Lat since Monday.",
+      "vi": "Đúng. Chắc cậu ấy ở Đà Lạt từ thứ Hai rồi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Chắc chắn",
+      "heading": "Must have + V3 / can't have + V3",
+      "rule": "**must have + V3** = chắc chắn đã (có bằng chứng). **can't / couldn't have + V3** = chắc chắn không thể đã.",
+      "formula": [
+        {
+          "text": "S + [must have] + V3"
+        },
+        {
+          "text": "S + [can't have] + V3"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "The streets are wet. It [[must have rained]].",
+          "vi": "Đường ướt. Chắc trời đã mưa.",
+          "why": "Có bằng chứng → must have."
+        },
+        {
+          "en": "She [[can't have seen]] me. She didn't say hello.",
+          "vi": "Chắc cô ấy không thấy tôi. Cô ấy không chào.",
+          "why": "Chắc chắn không → can't have."
+        },
+        {
+          "en": "You [[must have been]] tired after the trip.",
+          "vi": "Chắc bạn mệt lắm sau chuyến đi.",
+          "why": "Must have been + tính từ."
+        }
+      ],
+      "check": {
+        "prompt": "He's not answering. He ___ his phone at home.",
+        "options": [
+          "must have left",
+          "must leave",
+          "can't have left"
+        ],
+        "answer": 0,
+        "explain": "Đoán chắc về quá khứ → must have left."
+      }
+    },
+    {
+      "part": "Có thể",
+      "heading": "Might / may / could have + V3",
+      "rule": "**might / may / could have + V3** = có thể đã (không chắc). Phủ định **might not have** = có thể đã không.",
+      "body": [],
+      "examples": [
+        {
+          "en": "She [[might have missed]] the bus.",
+          "vi": "Có thể cô ấy lỡ xe buýt.",
+          "why": "Không chắc → might have."
+        },
+        {
+          "en": "They [[could have taken]] a different road.",
+          "vi": "Có thể họ đi đường khác.",
+          "why": "Could have = có thể đã."
+        },
+        {
+          "en": "He [[may not have received]] my email.",
+          "vi": "Có thể anh ấy chưa nhận được email của tôi.",
+          "why": "May not have = có thể đã không."
+        }
+      ],
+      "check": {
+        "prompt": "I'm not sure where my keys are. I ___ them in the car.",
+        "options": [
+          "might have left",
+          "must have left",
+          "can't have left"
+        ],
+        "answer": 0,
+        "explain": "Không chắc → might have left."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Could have: hai nghĩa",
+      "rule": "**could have + V3** vừa là **đoán** (có thể đã), vừa là **khả năng không thực hiện** (lẽ ra đã có thể). Nhìn ngữ cảnh.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Where's Lan? She [[could have gone]] home.",
+          "vi": "Lan đâu? Có thể cô ấy về rồi.",
+          "why": "Đoán."
+        },
+        {
+          "en": "You [[could have told]] me! I waited for an hour.",
+          "vi": "Lẽ ra bạn có thể báo tôi chứ! Tôi chờ cả tiếng.",
+          "why": "Trách: có khả năng mà không làm."
+        }
+      ],
+      "check": {
+        "prompt": "You ___ hurt! Why did you climb up there?",
+        "options": [
+          "could have been",
+          "must be",
+          "can't have been"
+        ],
+        "answer": 0,
+        "explain": "Nguy hiểm đã có thể xảy ra → could have been."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He must has forgotten.",
+      "right": "He must have forgotten.",
+      "why": "Must + have (không chia has)."
+    },
+    {
+      "wrong": "She mustn't have seen me.",
+      "right": "She can't have seen me.",
+      "why": "Đoán chắc không → can't have, không dùng mustn't have."
+    },
+    {
+      "wrong": "They might have went home.",
+      "right": "They might have gone home.",
+      "why": "Sau have dùng V3."
+    },
+    {
+      "wrong": "It must rain last night.",
+      "right": "It must have rained last night.",
+      "why": "Đoán về quá khứ → must have + V3."
+    },
+    {
+      "wrong": "You must be tired yesterday.",
+      "right": "You must have been tired yesterday.",
+      "why": "Quá khứ (yesterday) → must have been."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The window is broken. Someone ___ it.",
+      "options": [
+        "must have broken",
+        "can't have broken",
+        "must break"
+      ],
+      "answer": 0,
+      "explain": "Có bằng chứng → must have broken."
+    },
+    {
+      "type": "choice",
+      "prompt": "He ___ the exam. He never studies!",
+      "options": [
+        "can't have passed",
+        "must have passed",
+        "might passed"
+      ],
+      "answer": 0,
+      "explain": "Chắc chắn không → can't have passed."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'm not sure, but she ___ to the gym.",
+      "options": [
+        "may have gone",
+        "must go",
+        "can't have gone"
+      ],
+      "answer": 0,
+      "explain": "Không chắc → may have gone."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào là lời trách?",
+      "options": [
+        "She could have gone home already.",
+        "You could have called me!"
+      ],
+      "answer": 1,
+      "explain": "Could have trách việc có thể làm mà không làm."
+    },
+    {
+      "type": "choice",
+      "prompt": "The food is gone. The children ___ it.",
+      "options": [
+        "must have eaten",
+        "can't have eaten",
+        "must eat"
+      ],
+      "answer": 0,
+      "explain": "Bằng chứng → must have eaten."
+    },
+    {
+      "type": "fill",
+      "prompt": "You ___ very happy when you heard the news.",
+      "hint": "must / be",
+      "answers": [
+        "must have been"
+      ],
+      "explain": "Đoán chắc về quá khứ → must have been."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ my message. She hasn't replied.",
+      "hint": "might / not see",
+      "answers": [
+        "might not have seen"
+      ],
+      "explain": "Có thể đã không → might not have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "They ___ lost. They have a map and GPS.",
+      "hint": "can't / get",
+      "answers": [
+        "can't have got",
+        "can't have gotten",
+        "couldn't have got",
+        "couldn't have gotten"
+      ],
+      "explain": "Chắc chắn không → can't have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ the wrong bus. He's never late.",
+      "hint": "may / take",
+      "answers": [
+        "may have taken"
+      ],
+      "explain": "Có thể đã → may have + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Chắc anh ấy quên rồi.",
+      "words": [
+        "He",
+        "must",
+        "have",
+        "forgotten."
+      ],
+      "explain": "Must have + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Có thể họ đã đi đường khác.",
+      "words": [
+        "They",
+        "might",
+        "have",
+        "taken",
+        "another",
+        "road."
+      ],
+      "explain": "Might have + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "She must had left early.",
+      "answers": [
+        "She must have left early."
+      ],
+      "explain": "Must have + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "He mustn't have heard the bell.",
+      "answers": [
+        "He can't have heard the bell."
+      ],
+      "explain": "Đoán chắc không → can't have."
+    },
+    {
+      "type": "fix",
+      "sentence": "They might have took a taxi.",
+      "answers": [
+        "They might have taken a taxi."
+      ],
+      "explain": "Sau have → V3: taken."
+    },
+    {
+      "type": "translate",
+      "vi": "Chắc cô ấy đã rất buồn.",
+      "answers": [
+        "She must have been very sad.",
+        "She must have been really sad.",
+        "She must have been very upset.",
+        "She must have felt very sad.",
+        "She must have been so sad."
+      ],
+      "explain": "Must have been."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy không thể nói như vậy được.",
+      "answers": [
+        "He can't have said that.",
+        "He couldn't have said that.",
+        "He can't have said something like that.",
+        "He couldn't have said something like that.",
+        "He can't have said so."
+      ],
+      "explain": "Can't have + V3."
+    }
+  ]
+}

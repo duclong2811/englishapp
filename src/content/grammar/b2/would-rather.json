@@ -1,0 +1,356 @@
+{
+  "id": "would-rather",
+  "level": "B2",
+  "title": "Would rather, it's time, wish … would",
+  "summary": "Nói mong muốn và sự khó chịu: would rather + V hoặc + S + V2, it's time + S + V2, wish + S + would.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Shall we eat out tonight?",
+      "vi": "Tối nay mình ăn ngoài nhé?"
+    },
+    {
+      "who": "B",
+      "en": "I'[[d rather stay]] at home, actually.",
+      "vi": "Thật ra mình thích ở nhà hơn."
+    },
+    {
+      "who": "A",
+      "en": "OK. But I'[[d rather you didn't]] cook fish again.",
+      "vi": "Được. Nhưng mình mong bạn đừng nấu cá nữa."
+    },
+    {
+      "who": "B",
+      "en": "Fine. And [[it's time]] we [[cleaned]] the kitchen.",
+      "vi": "Được. Mà đến lúc mình dọn bếp rồi đấy."
+    },
+    {
+      "who": "A",
+      "en": "I know. I [[wish]] the neighbors [[would turn]] down their music.",
+      "vi": "Biết rồi. Ước gì hàng xóm vặn nhỏ nhạc lại."
+    },
+    {
+      "who": "B",
+      "en": "Me too. It's so loud!",
+      "vi": "Mình cũng vậy. Ồn quá!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Would rather",
+      "heading": "Would rather + V / + S + V2",
+      "rule": "**would rather + V** (nguyên mẫu) = thích làm gì hơn. Muốn **người khác** làm gì: **would rather + S + V2** (nghĩa hiện tại).",
+      "formula": [
+        {
+          "text": "S + ['d rather] + V (than V)"
+        },
+        {
+          "text": "S + ['d rather] + S2 + V2"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I'[[d rather walk]] than take the bus.",
+          "vi": "Tôi thích đi bộ hơn đi xe buýt.",
+          "why": "Would rather + V + than + V."
+        },
+        {
+          "en": "I'[[d rather you stayed]] here.",
+          "vi": "Tôi muốn bạn ở lại đây hơn.",
+          "why": "Người khác → S + V2 (stayed)."
+        },
+        {
+          "en": "She'[[d rather not talk]] about it.",
+          "vi": "Cô ấy không muốn nói về chuyện đó.",
+          "why": "Phủ định: would rather not + V."
+        }
+      ],
+      "check": {
+        "prompt": "I'd rather you ___ smoke in the car.",
+        "options": [
+          "didn't",
+          "don't",
+          "not"
+        ],
+        "answer": 0,
+        "explain": "Would rather + S + V2 → didn't."
+      }
+    },
+    {
+      "part": "It's time",
+      "heading": "It's time + S + V2",
+      "rule": "**It's (high) time + S + V2** = đã đến lúc (lẽ ra phải làm rồi). Cũng nói **It's time to + V** cho việc chung.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[It's time]] we [[went]] home.",
+          "vi": "Đến lúc chúng ta về rồi.",
+          "why": "It's time + S + V2 (went), nghĩa hiện tại."
+        },
+        {
+          "en": "[[It's high time]] you [[found]] a job.",
+          "vi": "Đã đến lúc con phải tìm việc rồi.",
+          "why": "High time: nhấn đã muộn."
+        },
+        {
+          "en": "[[It's time to]] go.",
+          "vi": "Đến giờ đi rồi.",
+          "why": "It's time to + V: không nêu người."
+        }
+      ],
+      "check": {
+        "prompt": "It's time the children ___ to bed.",
+        "options": [
+          "went",
+          "go",
+          "going"
+        ],
+        "answer": 0,
+        "explain": "It's time + S + V2."
+      }
+    },
+    {
+      "part": "Wish … would",
+      "heading": "Wish + S + would: than phiền",
+      "rule": "**wish + S + would + V** = ước **người khác** thay đổi hành vi (thường là than phiền). Không dùng *I wish I would*.",
+      "body": [],
+      "table": {
+        "head": [
+          "Mẫu",
+          "Nghĩa"
+        ],
+        "rows": [
+          [
+            "I wish I had a car.",
+            "ước điều hiện tại khác đi"
+          ],
+          [
+            "I wish I had gone.",
+            "tiếc điều quá khứ"
+          ],
+          [
+            "I wish you would stop.",
+            "muốn người khác thay đổi"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[wish]] you [[would listen]] to me.",
+          "vi": "Ước gì bạn chịu nghe tôi.",
+          "why": "Than phiền về hành vi của người khác."
+        },
+        {
+          "en": "I [[wish]] it [[would stop]] raining.",
+          "vi": "Ước gì trời tạnh mưa.",
+          "why": "Wish + would cho điều mình muốn thay đổi."
+        }
+      ],
+      "check": {
+        "prompt": "I wish my brother ___ borrowing my clothes.",
+        "options": [
+          "would stop",
+          "stops",
+          "will stop"
+        ],
+        "answer": 0,
+        "explain": "Muốn người khác thay đổi → would stop."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I'd rather to stay at home.",
+      "right": "I'd rather stay at home.",
+      "why": "Would rather + V nguyên mẫu, không có to."
+    },
+    {
+      "wrong": "I'd rather you don't tell anyone.",
+      "right": "I'd rather you didn't tell anyone.",
+      "why": "Would rather + S + V2."
+    },
+    {
+      "wrong": "It's time we go home.",
+      "right": "It's time we went home.",
+      "why": "It's time + S + V2."
+    },
+    {
+      "wrong": "I wish I would be taller.",
+      "right": "I wish I were taller.",
+      "why": "Không dùng I wish I would."
+    },
+    {
+      "wrong": "I'd rather walk than taking a taxi.",
+      "right": "I'd rather walk than take a taxi.",
+      "why": "Than + V nguyên mẫu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I'd rather ___ at home tonight.",
+      "options": [
+        "stay",
+        "to stay",
+        "staying"
+      ],
+      "answer": 0,
+      "explain": "Would rather + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'd rather you ___ me the truth.",
+      "options": [
+        "told",
+        "tell",
+        "will tell"
+      ],
+      "answer": 0,
+      "explain": "Would rather + S + V2."
+    },
+    {
+      "type": "choice",
+      "prompt": "It's high time you ___ your room.",
+      "options": [
+        "cleaned",
+        "clean",
+        "will clean"
+      ],
+      "answer": 0,
+      "explain": "It's high time + S + V2."
+    },
+    {
+      "type": "choice",
+      "prompt": "I wish you ___ so much noise.",
+      "options": [
+        "wouldn't make",
+        "don't make",
+        "won't make"
+      ],
+      "answer": 0,
+      "explain": "Than phiền → wish + would."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I wish I would have more time.",
+        "I wish I had more time."
+      ],
+      "answer": 1,
+      "explain": "Không dùng I wish I would."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'd rather ___ tea than coffee.",
+      "hint": "drink",
+      "answers": [
+        "drink"
+      ],
+      "explain": "Would rather + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "It's time we ___ the house.",
+      "hint": "leave",
+      "answers": [
+        "left"
+      ],
+      "explain": "It's time + S + V2."
+    },
+    {
+      "type": "fill",
+      "prompt": "She'd rather we ___ late.",
+      "hint": "not arrive",
+      "answers": [
+        "didn't arrive",
+        "did not arrive"
+      ],
+      "explain": "Would rather + S + V2 (phủ định)."
+    },
+    {
+      "type": "fill",
+      "prompt": "I wish he ___ calling me at night.",
+      "hint": "stop",
+      "answers": [
+        "would stop",
+        "'d stop"
+      ],
+      "explain": "Wish + S + would + V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi thích đi bộ hơn.",
+      "words": [
+        "I",
+        "would",
+        "rather",
+        "walk."
+      ],
+      "explain": "Would rather + V."
+    },
+    {
+      "type": "order",
+      "vi": "Đến lúc chúng ta đi ngủ rồi.",
+      "words": [
+        "It",
+        "is",
+        "time",
+        "we",
+        "went",
+        "to",
+        "bed."
+      ],
+      "explain": "It's time + S + V2."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'd rather to watch a film.",
+      "answers": [
+        "I'd rather watch a film."
+      ],
+      "explain": "Bỏ to."
+    },
+    {
+      "type": "fix",
+      "sentence": "It's time you start working.",
+      "answers": [
+        "It's time you started working."
+      ],
+      "explain": "It's time + S + V2."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'd rather you don't call me so late.",
+      "answers": [
+        "I'd rather you didn't call me so late."
+      ],
+      "explain": "Would rather + S + V2."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi muốn bạn đừng nói với ai.",
+      "answers": [
+        "I'd rather you didn't tell anyone.",
+        "I would rather you didn't tell anyone.",
+        "I would rather you did not tell anyone.",
+        "I'd rather you didn't tell anybody.",
+        "I would rather you didn't tell anybody."
+      ],
+      "explain": "Would rather + S + V2."
+    },
+    {
+      "type": "translate",
+      "vi": "Ước gì anh ấy thôi phàn nàn.",
+      "answers": [
+        "I wish he would stop complaining.",
+        "I wish he'd stop complaining.",
+        "I wish he would stop complaining so much.",
+        "I wish he'd stop complaining so much.",
+        "I wish he would stop moaning."
+      ],
+      "explain": "Wish + S + would + V."
+    }
+  ]
+}

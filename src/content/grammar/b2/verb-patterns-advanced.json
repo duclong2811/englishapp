@@ -1,0 +1,349 @@
+{
+  "id": "verb-patterns-advanced",
+  "level": "B2",
+  "title": "Prevent from, accuse of, insist on",
+  "summary": "Động từ + tân ngữ + giới từ + V-ing: prevent/stop sb from, accuse sb of, blame sb for, thank sb for; insist on, object to.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Why are you upset?",
+      "vi": "Sao bạn buồn thế?"
+    },
+    {
+      "who": "B",
+      "en": "My boss [[accused me of]] [[losing]] the file.",
+      "vi": "Sếp buộc tội mình làm mất tài liệu."
+    },
+    {
+      "who": "A",
+      "en": "Did you lose it?",
+      "vi": "Bạn có làm mất không?"
+    },
+    {
+      "who": "B",
+      "en": "No! Then she [[blamed me for]] [[missing]] the deadline.",
+      "vi": "Không! Rồi chị ấy còn trách mình trễ hạn."
+    },
+    {
+      "who": "A",
+      "en": "That's unfair. You should [[insist on]] [[talking]] to her.",
+      "vi": "Bất công quá. Bạn nên đòi nói chuyện với chị ấy."
+    },
+    {
+      "who": "B",
+      "en": "You're right. I won't let it [[stop me from]] [[doing]] my job.",
+      "vi": "Đúng. Mình sẽ không để chuyện này cản mình làm việc."
+    }
+  ],
+  "sections": [
+    {
+      "part": "V + sb + giới từ",
+      "heading": "Prevent from, accuse of, blame for, thank for",
+      "rule": "Các động từ này có mẫu **V + người + giới từ + V-ing**. Học thuộc giới từ đi kèm.",
+      "body": [],
+      "table": {
+        "head": [
+          "Động từ",
+          "Mẫu"
+        ],
+        "rows": [
+          [
+            "prevent / stop",
+            "sb from V-ing"
+          ],
+          [
+            "accuse",
+            "sb of V-ing"
+          ],
+          [
+            "blame / thank / forgive",
+            "sb for V-ing"
+          ],
+          [
+            "congratulate",
+            "sb on V-ing"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The rain [[prevented us from]] going out.",
+          "vi": "Mưa ngăn chúng tôi ra ngoài.",
+          "why": "Prevent + sb + from + V-ing."
+        },
+        {
+          "en": "They [[accused him of]] stealing.",
+          "vi": "Họ buộc tội anh ấy ăn cắp.",
+          "why": "Accuse + sb + of + V-ing."
+        },
+        {
+          "en": "[[Thank you for]] helping me.",
+          "vi": "Cảm ơn bạn đã giúp tôi.",
+          "why": "Thank + sb + for + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "She congratulated me ___ passing the exam.",
+        "options": [
+          "on",
+          "for",
+          "of"
+        ],
+        "answer": 0,
+        "explain": "Congratulate sb on."
+      }
+    },
+    {
+      "part": "V + giới từ",
+      "heading": "Insist on, object to, apologize for",
+      "rule": "**insist on, object to, apologize for, succeed in, look forward to + V-ing**. Chú ý **to** ở đây là giới từ → V-ing.",
+      "body": [],
+      "examples": [
+        {
+          "en": "He [[insisted on]] paying for dinner.",
+          "vi": "Anh ấy nhất định đòi trả tiền bữa tối.",
+          "why": "Insist on + V-ing."
+        },
+        {
+          "en": "I [[object to]] working on Sundays.",
+          "vi": "Tôi phản đối việc làm vào Chủ nhật.",
+          "why": "Object to + V-ing (to là giới từ)."
+        },
+        {
+          "en": "She [[apologized for]] being late.",
+          "vi": "Cô ấy xin lỗi vì đến muộn.",
+          "why": "Apologize for + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "We look forward to ___ you soon.",
+        "options": [
+          "seeing",
+          "see",
+          "seen"
+        ],
+        "answer": 0,
+        "explain": "Look forward to + V-ing."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "To là giới từ hay to V?",
+      "rule": "Sau **look forward to, object to, be used to, get used to, when it comes to** dùng **V-ing**. Thử thay bằng danh từ: nếu được thì to là giới từ.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I'm [[used to]] getting up early.",
+          "vi": "Tôi quen dậy sớm rồi.",
+          "why": "Be used to + V-ing."
+        },
+        {
+          "en": "[[When it comes to]] cooking, she is the best.",
+          "vi": "Nói về nấu ăn thì cô ấy giỏi nhất.",
+          "why": "When it comes to + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "I'm not used to ___ on the right.",
+        "options": [
+          "driving",
+          "drive",
+          "drove"
+        ],
+        "answer": 0,
+        "explain": "Be used to + V-ing."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "They accused him for stealing.",
+      "right": "They accused him of stealing.",
+      "why": "Accuse sb of."
+    },
+    {
+      "wrong": "The noise prevented me to sleep.",
+      "right": "The noise prevented me from sleeping.",
+      "why": "Prevent sb from + V-ing."
+    },
+    {
+      "wrong": "I look forward to meet you.",
+      "right": "I look forward to meeting you.",
+      "why": "Look forward to + V-ing."
+    },
+    {
+      "wrong": "He insisted to pay.",
+      "right": "He insisted on paying.",
+      "why": "Insist on + V-ing."
+    },
+    {
+      "wrong": "She apologized for be late.",
+      "right": "She apologized for being late.",
+      "why": "Sau giới từ → V-ing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The police accused her ___ lying.",
+      "options": [
+        "of",
+        "for",
+        "from"
+      ],
+      "answer": 0,
+      "explain": "Accuse sb of."
+    },
+    {
+      "type": "choice",
+      "prompt": "Nothing can stop him ___ trying.",
+      "options": [
+        "from",
+        "of",
+        "to"
+      ],
+      "answer": 0,
+      "explain": "Stop sb from + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "They blamed the driver ___ the accident.",
+      "options": [
+        "for",
+        "of",
+        "on"
+      ],
+      "answer": 0,
+      "explain": "Blame sb for."
+    },
+    {
+      "type": "choice",
+      "prompt": "She insisted ___ seeing the manager.",
+      "options": [
+        "on",
+        "to",
+        "for"
+      ],
+      "answer": 0,
+      "explain": "Insist on."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I object to work late.",
+        "I object to working late."
+      ],
+      "answer": 1,
+      "explain": "Object to + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Thank you for ___ me.",
+      "hint": "invite",
+      "answers": [
+        "inviting"
+      ],
+      "explain": "Thank sb for + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "The fence prevents dogs from ___ in.",
+      "hint": "get",
+      "answers": [
+        "getting"
+      ],
+      "explain": "Prevent from + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "We congratulated them ___ their wedding.",
+      "hint": "giới từ",
+      "answers": [
+        "on"
+      ],
+      "explain": "Congratulate sb on."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'm looking forward to ___ on holiday.",
+      "hint": "go",
+      "answers": [
+        "going"
+      ],
+      "explain": "Look forward to + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy xin lỗi vì đến muộn.",
+      "words": [
+        "She",
+        "apologized",
+        "for",
+        "being",
+        "late."
+      ],
+      "explain": "Apologize for + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Họ buộc tội anh ấy nói dối.",
+      "words": [
+        "They",
+        "accused",
+        "him",
+        "of",
+        "lying."
+      ],
+      "explain": "Accuse sb of + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "He thanked me for help him.",
+      "answers": [
+        "He thanked me for helping him."
+      ],
+      "explain": "For + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "The rain stopped us to play football.",
+      "answers": [
+        "The rain stopped us from playing football."
+      ],
+      "explain": "Stop sb from + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'm used to wake up at five.",
+      "answers": [
+        "I'm used to waking up at five."
+      ],
+      "explain": "Be used to + V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Mẹ tôi nhất định đòi trả tiền.",
+      "answers": [
+        "My mother insisted on paying.",
+        "My mom insisted on paying.",
+        "My mother insisted on paying the bill.",
+        "My mom insisted on paying the bill.",
+        "My mother insisted that she pay."
+      ],
+      "explain": "Insist on + V-ing."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi mong được gặp bạn.",
+      "answers": [
+        "I look forward to seeing you.",
+        "I'm looking forward to seeing you.",
+        "I am looking forward to seeing you.",
+        "I look forward to meeting you.",
+        "I'm looking forward to meeting you."
+      ],
+      "explain": "Look forward to + V-ing."
+    }
+  ]
+}

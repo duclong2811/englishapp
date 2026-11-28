@@ -1,0 +1,361 @@
+{
+  "id": "passive-reporting",
+  "level": "B2",
+  "title": "It is said that, he is believed to",
+  "summary": "Đưa tin không nêu nguồn: It is said/believed that… và S + is said/believed + to V. Hay gặp trong tin tức, báo cáo.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Did you read about the new airport?",
+      "vi": "Bạn đọc tin về sân bay mới chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. [[It is said that]] it will open next year.",
+      "vi": "Rồi. Người ta nói năm sau sẽ khai trương."
+    },
+    {
+      "who": "A",
+      "en": "Really? It [[is expected to]] cost a lot.",
+      "vi": "Thật à? Người ta dự kiến tốn nhiều tiền lắm."
+    },
+    {
+      "who": "B",
+      "en": "The project [[is believed to be]] behind schedule.",
+      "vi": "Dự án được cho là đang chậm tiến độ."
+    },
+    {
+      "who": "A",
+      "en": "And the old airport?",
+      "vi": "Còn sân bay cũ thì sao?"
+    },
+    {
+      "who": "B",
+      "en": "[[It is reported that]] it will become a park.",
+      "vi": "Có tin là nó sẽ thành công viên."
+    }
+  ],
+  "sections": [
+    {
+      "part": "It is said that",
+      "heading": "It + bị động + that + mệnh đề",
+      "rule": "**It is said / believed / thought / reported / expected that + mệnh đề** = người ta nói / tin / cho rằng… Không cần nêu ai nói.",
+      "formula": [
+        {
+          "text": "[It is] + V3 + [that] + S + V…"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[It is said that]] the hotel is haunted.",
+          "vi": "Người ta nói khách sạn đó có ma.",
+          "why": "It is said that + mệnh đề."
+        },
+        {
+          "en": "[[It is expected that]] prices will rise.",
+          "vi": "Người ta dự kiến giá sẽ tăng.",
+          "why": "Expected that: dự đoán chung."
+        },
+        {
+          "en": "[[It was reported that]] two people were hurt.",
+          "vi": "Có tin là hai người bị thương.",
+          "why": "Kể quá khứ → It was reported."
+        }
+      ],
+      "check": {
+        "prompt": "___ that the company will close two shops.",
+        "options": [
+          "It is said",
+          "They is said",
+          "It says"
+        ],
+        "answer": 0,
+        "explain": "Mẫu: It is said that + mệnh đề."
+      }
+    },
+    {
+      "part": "Is said to",
+      "heading": "Chủ ngữ + is said + to V",
+      "rule": "Đưa chủ ngữ thật lên đầu: **S + is said / believed / thought + to V**. Việc ở **quá khứ** → **to have + V3**.",
+      "formula": [
+        {
+          "text": "S + [is said to] + V"
+        },
+        {
+          "text": "S + [is said to have] + V3"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "She [[is said to be]] the best doctor in town.",
+          "vi": "Người ta nói cô ấy là bác sĩ giỏi nhất thị trấn.",
+          "why": "Hiện tại → is said to be."
+        },
+        {
+          "en": "The thief [[is believed to have left]] the country.",
+          "vi": "Tên trộm được cho là đã rời khỏi đất nước.",
+          "why": "Việc đã xảy ra → to have + V3."
+        },
+        {
+          "en": "The bridge [[is expected to open]] in May.",
+          "vi": "Cây cầu dự kiến thông xe vào tháng Năm.",
+          "why": "Tương lai → is expected to + V."
+        }
+      ],
+      "check": {
+        "prompt": "He is thought ___ the money last week.",
+        "options": [
+          "to have stolen",
+          "to steal",
+          "stealing"
+        ],
+        "answer": 0,
+        "explain": "Việc đã xảy ra (last week) → to have + V3."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Hai cách nói cùng một ý",
+      "rule": "**It is said that he is rich** = **He is said to be rich**. Cách thứ hai ngắn hơn, hay dùng trong báo chí.",
+      "body": [],
+      "table": {
+        "head": [
+          "It … that",
+          "S … to V"
+        ],
+        "rows": [
+          [
+            "It is believed that she lives abroad.",
+            "She is believed to live abroad."
+          ],
+          [
+            "It is said that he won the lottery.",
+            "He is said to have won the lottery."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[It is thought that]] the fire started in the kitchen.",
+          "vi": "Người ta cho rằng lửa bắt đầu từ bếp.",
+          "why": "Cách 1: It is thought that."
+        },
+        {
+          "en": "The fire [[is thought to have started]] in the kitchen.",
+          "vi": "Lửa được cho là bắt đầu từ bếp.",
+          "why": "Cách 2: việc quá khứ → to have started."
+        }
+      ],
+      "check": {
+        "prompt": "It is said that he speaks five languages. = He is said ___ five languages.",
+        "options": [
+          "to speak",
+          "speaking",
+          "that speaks"
+        ],
+        "answer": 0,
+        "explain": "S + is said + to V."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "It is said the hotel is haunted that.",
+      "right": "It is said that the hotel is haunted.",
+      "why": "That đứng ngay sau said."
+    },
+    {
+      "wrong": "He is said that he is rich.",
+      "right": "He is said to be rich.",
+      "why": "Chủ ngữ là người → is said to + V."
+    },
+    {
+      "wrong": "She is believed to leave last year.",
+      "right": "She is believed to have left last year.",
+      "why": "Việc quá khứ → to have + V3."
+    },
+    {
+      "wrong": "It says that prices will rise.",
+      "right": "It is said that prices will rise.",
+      "why": "Không nêu nguồn → bị động: It is said."
+    },
+    {
+      "wrong": "The museum is expected open in June.",
+      "right": "The museum is expected to open in June.",
+      "why": "Thiếu to: is expected to + V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "It ___ that the storm will hit the coast tonight.",
+      "options": [
+        "is expected",
+        "expects",
+        "is expecting"
+      ],
+      "answer": 0,
+      "explain": "It is expected that + mệnh đề."
+    },
+    {
+      "type": "choice",
+      "prompt": "The singer is said ___ very shy.",
+      "options": [
+        "to be",
+        "being",
+        "be"
+      ],
+      "answer": 0,
+      "explain": "S + is said + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "The painting is believed ___ in 1890.",
+      "options": [
+        "to have been painted",
+        "to paint",
+        "painting"
+      ],
+      "answer": 0,
+      "explain": "Bị động, việc quá khứ → to have been painted."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "He is thought to be in Hanoi.",
+        "He is thought that he is in Hanoi."
+      ],
+      "answer": 0,
+      "explain": "S + is thought + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "It ___ reported that the road was closed.",
+      "options": [
+        "was",
+        "is being",
+        "has"
+      ],
+      "answer": 0,
+      "explain": "Kể quá khứ → It was reported."
+    },
+    {
+      "type": "fill",
+      "prompt": "It ___ that the new law will help small shops.",
+      "hint": "believe",
+      "answers": [
+        "is believed"
+      ],
+      "explain": "It is believed that + mệnh đề."
+    },
+    {
+      "type": "fill",
+      "prompt": "The company is expected ___ 200 people next year.",
+      "hint": "hire",
+      "answers": [
+        "to hire"
+      ],
+      "explain": "Is expected to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "The man is thought ___ the money yesterday.",
+      "hint": "take",
+      "answers": [
+        "to have taken"
+      ],
+      "explain": "Việc quá khứ → to have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "The castle ___ to be 800 years old.",
+      "hint": "say",
+      "answers": [
+        "is said"
+      ],
+      "explain": "S + is said + to be."
+    },
+    {
+      "type": "order",
+      "vi": "Người ta nói cô ấy rất giàu.",
+      "words": [
+        "She",
+        "is",
+        "said",
+        "to",
+        "be",
+        "very",
+        "rich."
+      ],
+      "explain": "S + is said + to be."
+    },
+    {
+      "type": "order",
+      "vi": "Người ta tin rằng giá sẽ giảm.",
+      "words": [
+        "It",
+        "is",
+        "believed",
+        "that",
+        "prices",
+        "will",
+        "fall."
+      ],
+      "explain": "It is believed that + mệnh đề."
+    },
+    {
+      "type": "fix",
+      "sentence": "He is believed that he lives in Da Nang.",
+      "answers": [
+        "He is believed to live in Da Nang."
+      ],
+      "explain": "Chủ ngữ người → is believed to + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "The robbers are thought to escape last night.",
+      "answers": [
+        "The robbers are thought to have escaped last night."
+      ],
+      "explain": "Việc quá khứ → to have escaped."
+    },
+    {
+      "type": "fix",
+      "sentence": "It is said the factory that will close.",
+      "answers": [
+        "It is said that the factory will close."
+      ],
+      "explain": "That đứng ngay sau said."
+    },
+    {
+      "type": "translate",
+      "vi": "Người ta nói nhà hàng đó rất ngon.",
+      "answers": [
+        "It is said that the restaurant is very good.",
+        "The restaurant is said to be very good.",
+        "It's said that the restaurant is very good.",
+        "It is said that that restaurant is very good.",
+        "That restaurant is said to be very good.",
+        "The restaurant is said to be really good.",
+        "It is said that the restaurant is really good."
+      ],
+      "explain": "It is said that… hoặc S is said to be…"
+    },
+    {
+      "type": "translate",
+      "vi": "Ông ấy được cho là đã sống ở Pháp nhiều năm.",
+      "answers": [
+        "He is believed to have lived in France for many years.",
+        "He is thought to have lived in France for many years.",
+        "He is said to have lived in France for many years.",
+        "It is believed that he lived in France for many years.",
+        "It is thought that he lived in France for many years.",
+        "It is said that he lived in France for many years."
+      ],
+      "explain": "Việc quá khứ → to have + V3."
+    }
+  ]
+}

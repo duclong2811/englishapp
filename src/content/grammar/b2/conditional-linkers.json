@@ -1,0 +1,344 @@
+{
+  "id": "conditional-linkers",
+  "level": "B2",
+  "title": "Provided that, otherwise, but for",
+  "summary": "Thay if bằng các từ nối điều kiện: provided/as long as, on condition that, supposing, otherwise, but for, even if.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Can I borrow your motorbike tomorrow?",
+      "vi": "Mai mình mượn xe máy bạn được không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, [[provided that]] you bring it back by six.",
+      "vi": "Được, miễn là bạn trả trước sáu giờ."
+    },
+    {
+      "who": "A",
+      "en": "Of course. I'll fill up the tank too.",
+      "vi": "Tất nhiên. Mình đổ xăng đầy luôn."
+    },
+    {
+      "who": "B",
+      "en": "Great. Leave early, [[otherwise]] you'll hit traffic.",
+      "vi": "Tuyệt. Đi sớm nhé, không thì kẹt xe đấy."
+    },
+    {
+      "who": "A",
+      "en": "[[Supposing]] it rains, can I take a taxi instead?",
+      "vi": "Giả sử trời mưa, mình đi taxi được không?"
+    },
+    {
+      "who": "B",
+      "en": "Sure. [[But for]] the rain, I'd come with you!",
+      "vi": "Được. Nếu không mưa thì mình đi cùng rồi!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Miễn là",
+      "heading": "Provided (that), as long as, on condition that",
+      "rule": "**provided (that) / providing / as long as / on condition that** = **miễn là, với điều kiện là**. Sau chúng dùng **hiện tại đơn** khi nói tương lai.",
+      "body": [],
+      "examples": [
+        {
+          "en": "You can go out [[as long as]] you finish your homework.",
+          "vi": "Con được đi chơi miễn là làm xong bài.",
+          "why": "As long as + hiện tại đơn."
+        },
+        {
+          "en": "I'll lend you the money [[provided that]] you pay me back.",
+          "vi": "Tôi cho mượn tiền với điều kiện bạn trả lại.",
+          "why": "Provided that: trang trọng hơn as long as."
+        },
+        {
+          "en": "He got the job [[on condition that]] he moved to Hanoi.",
+          "vi": "Anh ấy được nhận với điều kiện chuyển ra Hà Nội.",
+          "why": "On condition that: điều kiện chính thức."
+        }
+      ],
+      "check": {
+        "prompt": "You can use my laptop as long as you ___ careful.",
+        "options": [
+          "are",
+          "will be",
+          "would be"
+        ],
+        "answer": 0,
+        "explain": "Sau as long as dùng hiện tại đơn."
+      }
+    },
+    {
+      "part": "Giả sử",
+      "heading": "Supposing, what if, even if",
+      "rule": "**Supposing / what if** = giả sử; **even if** = **ngay cả khi** (kết quả không đổi).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Supposing]] you lost your job, what would you do?",
+          "vi": "Giả sử mất việc, bạn sẽ làm gì?",
+          "why": "Supposing + V2 cho tình huống giả định."
+        },
+        {
+          "en": "[[What if]] the shop is closed?",
+          "vi": "Lỡ cửa hàng đóng cửa thì sao?",
+          "why": "What if + hiện tại: lo lắng điều có thể xảy ra."
+        },
+        {
+          "en": "I'll go [[even if]] it rains.",
+          "vi": "Kể cả trời mưa tôi vẫn đi.",
+          "why": "Even if: kết quả không đổi."
+        }
+      ],
+      "check": {
+        "prompt": "I wouldn't eat it ___ you paid me.",
+        "options": [
+          "even if",
+          "as long as",
+          "provided"
+        ],
+        "answer": 0,
+        "explain": "Ngay cả khi → even if."
+      }
+    },
+    {
+      "part": "Không thì",
+      "heading": "Otherwise, or else, but for",
+      "rule": "**otherwise / or else** = **nếu không thì** (đứng ở mệnh đề sau). **But for + danh từ** = nếu không có… (trang trọng).",
+      "body": [],
+      "examples": [
+        {
+          "en": "Hurry up, [[otherwise]] we'll miss the train.",
+          "vi": "Nhanh lên, không thì lỡ tàu.",
+          "why": "Otherwise = if not."
+        },
+        {
+          "en": "Take a coat, [[or else]] you'll get cold.",
+          "vi": "Mang áo khoác đi, không thì lạnh đấy.",
+          "why": "Or else: thân mật hơn."
+        },
+        {
+          "en": "[[But for]] your help, I would have failed.",
+          "vi": "Nếu không có bạn giúp, tôi đã trượt rồi.",
+          "why": "But for + danh từ = if it hadn't been for."
+        }
+      ],
+      "check": {
+        "prompt": "Write it down, ___ you'll forget it.",
+        "options": [
+          "otherwise",
+          "unless",
+          "provided"
+        ],
+        "answer": 0,
+        "explain": "Nếu không thì → otherwise."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "You can stay as long as you will be quiet.",
+      "right": "You can stay as long as you are quiet.",
+      "why": "Sau as long as: hiện tại đơn."
+    },
+    {
+      "wrong": "I'll come even it rains.",
+      "right": "I'll come even if it rains.",
+      "why": "Even if, không phải even."
+    },
+    {
+      "wrong": "Hurry, unless we'll be late.",
+      "right": "Hurry, otherwise we'll be late.",
+      "why": "Nếu không thì → otherwise."
+    },
+    {
+      "wrong": "But for you helped me, I would have failed.",
+      "right": "But for your help, I would have failed.",
+      "why": "But for + danh từ."
+    },
+    {
+      "wrong": "Provided that you will pay, you can take it.",
+      "right": "Provided that you pay, you can take it.",
+      "why": "Sau provided that: hiện tại đơn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I'll help you ___ you help me later.",
+      "options": [
+        "as long as",
+        "otherwise",
+        "even"
+      ],
+      "answer": 0,
+      "explain": "Miễn là → as long as."
+    },
+    {
+      "type": "choice",
+      "prompt": "Leave now, ___ you'll be late.",
+      "options": [
+        "otherwise",
+        "provided",
+        "supposing"
+      ],
+      "answer": 0,
+      "explain": "Nếu không thì → otherwise."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you won the lottery, what would you buy?",
+      "options": [
+        "Supposing",
+        "Otherwise",
+        "Provided"
+      ],
+      "answer": 0,
+      "explain": "Giả sử → Supposing."
+    },
+    {
+      "type": "choice",
+      "prompt": "She'll finish it ___ she has to work all night.",
+      "options": [
+        "even if",
+        "as long as",
+        "otherwise"
+      ],
+      "answer": 0,
+      "explain": "Kể cả khi → even if."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ the bad weather, we would have arrived on time.",
+      "options": [
+        "But for",
+        "Even if",
+        "Unless"
+      ],
+      "answer": 0,
+      "explain": "But for + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "You can borrow my car ___ you drive carefully.",
+      "hint": "as long",
+      "answers": [
+        "as long as"
+      ],
+      "explain": "As long as + hiện tại đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "Turn off the gas, ___ it could be dangerous.",
+      "hint": "không thì",
+      "answers": [
+        "otherwise",
+        "or else"
+      ],
+      "explain": "Nếu không thì."
+    },
+    {
+      "type": "fill",
+      "prompt": "I won't tell him, even ___ he asks me.",
+      "hint": "if",
+      "answers": [
+        "if"
+      ],
+      "explain": "Even if: kể cả khi."
+    },
+    {
+      "type": "fill",
+      "prompt": "Provided that the weather ___ good, we'll have a picnic.",
+      "hint": "be",
+      "answers": [
+        "is"
+      ],
+      "explain": "Sau provided that: hiện tại đơn."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn có thể đi miễn là về trước mười giờ.",
+      "words": [
+        "You",
+        "can",
+        "go",
+        "as",
+        "long",
+        "as",
+        "you",
+        "are",
+        "back",
+        "before",
+        "ten."
+      ],
+      "explain": "As long as + hiện tại đơn."
+    },
+    {
+      "type": "order",
+      "vi": "Mặc áo mưa vào không thì ướt đấy.",
+      "words": [
+        "Wear",
+        "a",
+        "raincoat",
+        "otherwise",
+        "you",
+        "will",
+        "get",
+        "wet."
+      ],
+      "explain": "Otherwise = nếu không thì."
+    },
+    {
+      "type": "fix",
+      "sentence": "I'll buy it as long as it will be cheap.",
+      "answers": [
+        "I'll buy it as long as it is cheap."
+      ],
+      "explain": "Sau as long as: hiện tại đơn."
+    },
+    {
+      "type": "fix",
+      "sentence": "Study hard, unless you will fail.",
+      "answers": [
+        "Study hard, otherwise you will fail."
+      ],
+      "explain": "Nếu không thì → otherwise."
+    },
+    {
+      "type": "fix",
+      "sentence": "Even it is expensive, I'll buy it.",
+      "answers": [
+        "Even if it is expensive, I'll buy it."
+      ],
+      "explain": "Even if."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi sẽ đi cùng miễn là bạn lái xe.",
+      "answers": [
+        "I'll come as long as you drive.",
+        "I will come as long as you drive.",
+        "I'll go with you as long as you drive.",
+        "I will go with you as long as you drive.",
+        "I'll come provided that you drive.",
+        "I'll come with you as long as you drive.",
+        "I will come with you as long as you drive."
+      ],
+      "explain": "As long as / provided that + hiện tại đơn."
+    },
+    {
+      "type": "translate",
+      "vi": "Gọi cho tôi nhé, không thì tôi lo đấy.",
+      "answers": [
+        "Call me, otherwise I'll worry.",
+        "Call me, otherwise I will worry.",
+        "Call me, or else I'll worry.",
+        "Call me, or else I will worry.",
+        "Call me, otherwise I'll be worried.",
+        "Call me or I'll worry."
+      ],
+      "explain": "Otherwise / or else."
+    }
+  ]
+}

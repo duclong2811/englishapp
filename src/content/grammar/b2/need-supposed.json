@@ -1,0 +1,343 @@
+{
+  "id": "need-supposed",
+  "level": "B2",
+  "title": "Needn't have, didn't need to, be supposed to",
+  "summary": "Phân biệt needn't have done (làm rồi mới biết không cần) và didn't need to (không cần nên không làm); be supposed to = lẽ ra phải.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "I brought sandwiches for everyone.",
+      "vi": "Mình mang bánh mì cho mọi người này."
+    },
+    {
+      "who": "B",
+      "en": "Oh, you [[needn't have brought]] food. Lunch is free today.",
+      "vi": "Ồ, bạn không cần mang đâu. Hôm nay bữa trưa miễn phí."
+    },
+    {
+      "who": "A",
+      "en": "Really? Nobody told me.",
+      "vi": "Thật à? Có ai nói mình đâu."
+    },
+    {
+      "who": "B",
+      "en": "Lan [[was supposed to]] send an email about it.",
+      "vi": "Lan lẽ ra phải gửi email báo rồi."
+    },
+    {
+      "who": "A",
+      "en": "Well, I [[didn't need to]] buy drinks, at least.",
+      "vi": "Thôi, ít ra mình đã không phải mua nước."
+    },
+    {
+      "who": "B",
+      "en": "Good. And we [['re supposed to]] start at one.",
+      "vi": "Tốt. Mà mình phải bắt đầu lúc một giờ đấy."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Needn't have",
+      "heading": "Needn't have + V3: làm rồi, hóa ra thừa",
+      "rule": "**needn't have + V3** = **đã làm**, nhưng hóa ra **không cần**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "You [[needn't have cooked]]. We already ate.",
+          "vi": "Bạn không cần nấu đâu. Chúng tôi ăn rồi.",
+          "why": "Đã nấu, nhưng thừa."
+        },
+        {
+          "en": "I [[needn't have worried]]. The test was easy.",
+          "vi": "Lẽ ra tôi không cần lo. Bài kiểm tra dễ.",
+          "why": "Đã lo, hóa ra không cần."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ an umbrella. It didn't rain at all.",
+        "options": [
+          "needn't have taken",
+          "didn't need taking",
+          "mustn't take"
+        ],
+        "answer": 0,
+        "explain": "Đã mang, hóa ra thừa → needn't have taken."
+      }
+    },
+    {
+      "part": "Didn't need to",
+      "heading": "Didn't need to + V: không cần (nên thường không làm)",
+      "rule": "**didn't need to + V** = **không cần** làm (thường hiểu là đã **không làm**).",
+      "body": [],
+      "table": {
+        "head": [
+          "Câu",
+          "Có làm không?"
+        ],
+        "rows": [
+          [
+            "I didn't need to wait.",
+            "Không cần chờ (nên không chờ)"
+          ],
+          [
+            "I needn't have waited.",
+            "Đã chờ, hóa ra thừa"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "We [[didn't need to]] book. The restaurant was empty.",
+          "vi": "Chúng tôi không cần đặt bàn. Nhà hàng vắng.",
+          "why": "Không cần → không đặt."
+        },
+        {
+          "en": "She [[didn't need to]] take a taxi; her friend drove her.",
+          "vi": "Cô ấy không cần đi taxi; bạn chở cô ấy.",
+          "why": "Không cần nên không làm."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ get up early, so I slept until nine.",
+        "options": [
+          "didn't need to",
+          "needn't have",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explain": "Không cần nên không làm → didn't need to."
+      }
+    },
+    {
+      "part": "Be supposed to",
+      "heading": "Be supposed to: quy định, kỳ vọng",
+      "rule": "**be supposed to + V** = **phải, được cho là phải** (theo quy định, kế hoạch). Quá khứ **was supposed to** = lẽ ra phải (nhưng không làm).",
+      "body": [],
+      "examples": [
+        {
+          "en": "You [['re supposed to]] wear a helmet.",
+          "vi": "Bạn phải đội mũ bảo hiểm.",
+          "why": "Theo quy định."
+        },
+        {
+          "en": "The train [[was supposed to]] arrive at six.",
+          "vi": "Tàu lẽ ra đến lúc sáu giờ.",
+          "why": "Kế hoạch không thành."
+        },
+        {
+          "en": "You [[aren't supposed to]] park here.",
+          "vi": "Bạn không được đỗ xe ở đây.",
+          "why": "Phủ định: không được phép."
+        }
+      ],
+      "check": {
+        "prompt": "He ___ call me yesterday, but he forgot.",
+        "options": [
+          "was supposed to",
+          "is supposed to",
+          "supposed"
+        ],
+        "answer": 0,
+        "explain": "Lẽ ra phải (quá khứ) → was supposed to."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I needn't have went to the bank.",
+      "right": "I needn't have gone to the bank.",
+      "why": "Needn't have + V3."
+    },
+    {
+      "wrong": "You didn't need to buying milk.",
+      "right": "You didn't need to buy milk.",
+      "why": "Didn't need to + V."
+    },
+    {
+      "wrong": "We supposed to finish today.",
+      "right": "We are supposed to finish today.",
+      "why": "Thiếu be: be supposed to."
+    },
+    {
+      "wrong": "I didn't need to bring a coat, but I brought one and it was hot.",
+      "right": "I needn't have brought a coat; it was hot.",
+      "why": "Đã mang mà thừa → needn't have brought."
+    },
+    {
+      "wrong": "She is supposed to arrived yesterday.",
+      "right": "She was supposed to arrive yesterday.",
+      "why": "Quá khứ → was supposed to + V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "You ___ come. We canceled the meeting.",
+      "options": [
+        "needn't have",
+        "didn't need",
+        "mustn't"
+      ],
+      "answer": 0,
+      "explain": "Đã đến mà thừa → needn't have come."
+    },
+    {
+      "type": "choice",
+      "prompt": "The hotel had towels, so we ___ bring any.",
+      "options": [
+        "didn't need to",
+        "needn't have",
+        "weren't supposed"
+      ],
+      "answer": 0,
+      "explain": "Không cần nên không mang."
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ to smoke in here.",
+      "options": [
+        "aren't supposed",
+        "don't need",
+        "needn't"
+      ],
+      "answer": 0,
+      "explain": "Không được phép → aren't supposed to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là ĐÃ mua?",
+      "options": [
+        "I didn't need to buy bread.",
+        "I needn't have bought bread."
+      ],
+      "answer": 1,
+      "explain": "Needn't have bought: đã mua, hóa ra thừa."
+    },
+    {
+      "type": "choice",
+      "prompt": "The bus ___ to come at eight. Where is it?",
+      "options": [
+        "was supposed",
+        "supposed",
+        "is supposing"
+      ],
+      "answer": 0,
+      "explain": "Lẽ ra phải → was supposed to."
+    },
+    {
+      "type": "fill",
+      "prompt": "You ___ so much food. Only four people came.",
+      "hint": "not need / cook",
+      "answers": [
+        "needn't have cooked",
+        "need not have cooked"
+      ],
+      "explain": "Đã nấu, hóa ra thừa."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ to pay. It was free.",
+      "hint": "not need",
+      "answers": [
+        "didn't need",
+        "did not need"
+      ],
+      "explain": "Không cần nên không trả."
+    },
+    {
+      "type": "fill",
+      "prompt": "You ___ to check in two hours before the flight.",
+      "hint": "suppose",
+      "answers": [
+        "are supposed",
+        "'re supposed"
+      ],
+      "explain": "Theo quy định → are supposed to."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ to call her, but I forgot.",
+      "hint": "suppose",
+      "answers": [
+        "was supposed"
+      ],
+      "explain": "Lẽ ra phải → was supposed to."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn không cần đợi tôi đâu.",
+      "words": [
+        "You",
+        "needn't",
+        "have",
+        "waited",
+        "for",
+        "me."
+      ],
+      "explain": "Needn't have + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Chúng tôi lẽ ra phải đến lúc tám giờ.",
+      "words": [
+        "We",
+        "were",
+        "supposed",
+        "to",
+        "arrive",
+        "at",
+        "eight."
+      ],
+      "explain": "Was supposed to."
+    },
+    {
+      "type": "fix",
+      "sentence": "She needn't have came so early.",
+      "answers": [
+        "She needn't have come so early."
+      ],
+      "explain": "Needn't have + V3: come."
+    },
+    {
+      "type": "fix",
+      "sentence": "You are not suppose to eat here.",
+      "answers": [
+        "You are not supposed to eat here."
+      ],
+      "explain": "Supposed có -d."
+    },
+    {
+      "type": "fix",
+      "sentence": "We didn't need to hurried.",
+      "answers": [
+        "We didn't need to hurry."
+      ],
+      "explain": "Didn't need to + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Lẽ ra tôi không cần mang theo áo khoác.",
+      "answers": [
+        "I needn't have brought a jacket.",
+        "I needn't have taken a jacket.",
+        "I need not have brought a jacket.",
+        "I needn't have brought a coat.",
+        "I needn't have taken a coat.",
+        "I didn't need to bring a jacket."
+      ],
+      "explain": "Needn't have + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn phải đeo khẩu trang ở đây.",
+      "answers": [
+        "You're supposed to wear a mask here.",
+        "You are supposed to wear a mask here.",
+        "You have to wear a mask here.",
+        "You must wear a mask here.",
+        "You need to wear a mask here."
+      ],
+      "explain": "Be supposed to + V."
+    }
+  ]
+}

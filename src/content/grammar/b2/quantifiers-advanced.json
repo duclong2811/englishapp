@@ -1,0 +1,353 @@
+{
+  "id": "quantifiers-advanced",
+  "level": "B2",
+  "title": "Few, a few, hardly any, neither of",
+  "summary": "Lượng từ dễ nhầm: few/little (ít, gần như không) và a few/a little (một ít); hardly any; each/every; neither/either/none of.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Did many people come to the workshop?",
+      "vi": "Hội thảo có đông người không?"
+    },
+    {
+      "who": "B",
+      "en": "No, [[very few]] people came. [[Hardly anyone]] knew about it.",
+      "vi": "Không, rất ít người đến. Gần như chẳng ai biết."
+    },
+    {
+      "who": "A",
+      "en": "That's a shame. Did you have [[any]] time to prepare?",
+      "vi": "Tiếc thật. Bạn có thời gian chuẩn bị không?"
+    },
+    {
+      "who": "B",
+      "en": "[[Very little]]. But [[a few]] students asked good questions.",
+      "vi": "Rất ít. Nhưng có vài sinh viên hỏi hay."
+    },
+    {
+      "who": "A",
+      "en": "Were the two speakers good?",
+      "vi": "Hai diễn giả có hay không?"
+    },
+    {
+      "who": "B",
+      "en": "[[Neither of]] them was very prepared, to be honest.",
+      "vi": "Nói thật thì cả hai đều không chuẩn bị kỹ."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Few, a few",
+      "heading": "Few / little và a few / a little",
+      "rule": "**a few** (đếm được) / **a little** (không đếm được) = **một ít, đủ dùng** (tích cực). **few / little** = **rất ít, gần như không** (tiêu cực).",
+      "body": [],
+      "table": {
+        "head": [
+          "Tích cực",
+          "Tiêu cực"
+        ],
+        "rows": [
+          [
+            "I have a few friends. (có vài người bạn)",
+            "I have few friends. (hầu như không có bạn)"
+          ],
+          [
+            "We have a little time. (còn chút thời gian)",
+            "We have little time. (gần như hết giờ)"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "She has [[a few]] good ideas.",
+          "vi": "Cô ấy có vài ý tưởng hay.",
+          "why": "A few: tích cực."
+        },
+        {
+          "en": "There is [[little]] hope now.",
+          "vi": "Giờ gần như hết hy vọng.",
+          "why": "Little: tiêu cực."
+        },
+        {
+          "en": "[[Few]] people understood the speech.",
+          "vi": "Rất ít người hiểu bài phát biểu.",
+          "why": "Few: gần như không ai."
+        }
+      ],
+      "check": {
+        "prompt": "Don't worry, we still have ___ time.",
+        "options": [
+          "a little",
+          "little",
+          "few"
+        ],
+        "answer": 0,
+        "explain": "Còn một ít (tích cực), không đếm được → a little."
+      }
+    },
+    {
+      "part": "Hardly any",
+      "heading": "Hardly any, hardly anyone, hardly ever",
+      "rule": "**hardly any / hardly anyone / hardly ever** = **hầu như không**. Không dùng thêm *not*.",
+      "body": [],
+      "examples": [
+        {
+          "en": "There's [[hardly any]] milk left.",
+          "vi": "Gần như hết sữa rồi.",
+          "why": "Hardly any + danh từ."
+        },
+        {
+          "en": "[[Hardly anyone]] came to the party.",
+          "vi": "Gần như không ai đến bữa tiệc.",
+          "why": "Hardly anyone làm chủ ngữ."
+        },
+        {
+          "en": "I [[hardly ever]] eat meat.",
+          "vi": "Tôi hầu như không ăn thịt.",
+          "why": "Hardly ever = gần như không bao giờ."
+        }
+      ],
+      "check": {
+        "prompt": "She ___ ever calls me now.",
+        "options": [
+          "hardly",
+          "doesn't hardly",
+          "few"
+        ],
+        "answer": 0,
+        "explain": "Hardly ever, không thêm not."
+      }
+    },
+    {
+      "part": "Neither, either, each",
+      "heading": "Neither of, either of, none of, each",
+      "rule": "**either of** = một trong hai; **neither of** = không ai trong hai; **none of** = không ai (ba trở lên). **each** = từng cái (riêng lẻ), **every** = mọi (cả nhóm).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Neither of]] my parents speaks English.",
+          "vi": "Cả bố lẫn mẹ tôi đều không nói tiếng Anh.",
+          "why": "Hai người, phủ định → neither of."
+        },
+        {
+          "en": "You can take [[either of]] the two rooms.",
+          "vi": "Bạn lấy phòng nào trong hai phòng cũng được.",
+          "why": "Either = một trong hai."
+        },
+        {
+          "en": "[[None of]] the students was late.",
+          "vi": "Không sinh viên nào đến muộn.",
+          "why": "Ba người trở lên → none of."
+        },
+        {
+          "en": "[[Each]] student gets a book.",
+          "vi": "Mỗi sinh viên nhận một cuốn sách.",
+          "why": "Each: từng người riêng lẻ."
+        }
+      ],
+      "check": {
+        "prompt": "I have two brothers. ___ of them lives in Hue.",
+        "options": [
+          "Neither",
+          "None",
+          "Each"
+        ],
+        "answer": 0,
+        "explain": "Hai người, phủ định → Neither."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I have a few money.",
+      "right": "I have a little money.",
+      "why": "Money không đếm được → a little."
+    },
+    {
+      "wrong": "There isn't hardly any food.",
+      "right": "There is hardly any food.",
+      "why": "Hardly đã mang nghĩa phủ định."
+    },
+    {
+      "wrong": "None of my two sisters is married.",
+      "right": "Neither of my two sisters is married.",
+      "why": "Hai người → neither."
+    },
+    {
+      "wrong": "Every of the students has a laptop.",
+      "right": "Each of the students has a laptop.",
+      "why": "Every không đi với of."
+    },
+    {
+      "wrong": "Few people came, so the room was full.",
+      "right": "A few people came, so the room wasn't empty.",
+      "why": "Few là tiêu cực (gần như không ai)."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I know ___ people in this city, so I'm lonely.",
+      "options": [
+        "few",
+        "a few",
+        "a little"
+      ],
+      "answer": 0,
+      "explain": "Tiêu cực, đếm được → few."
+    },
+    {
+      "type": "choice",
+      "prompt": "Can I have ___ sugar in my tea?",
+      "options": [
+        "a little",
+        "a few",
+        "few"
+      ],
+      "answer": 0,
+      "explain": "Một ít, không đếm được → a little."
+    },
+    {
+      "type": "choice",
+      "prompt": "There were ___ any tickets left.",
+      "options": [
+        "hardly",
+        "not",
+        "few"
+      ],
+      "answer": 0,
+      "explain": "Hardly any."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ of the two answers is correct. Try again.",
+      "options": [
+        "Neither",
+        "None",
+        "Either"
+      ],
+      "answer": 0,
+      "explain": "Hai đáp án, phủ định → Neither."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Each of the rooms has a TV.",
+        "Every of the rooms has a TV."
+      ],
+      "answer": 0,
+      "explain": "Each of, không dùng every of."
+    },
+    {
+      "type": "fill",
+      "prompt": "We have ___ time, so let's have a coffee.",
+      "hint": "một ít",
+      "answers": [
+        "a little"
+      ],
+      "explain": "Tích cực, không đếm được."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ anyone knows his real name.",
+      "hint": "hầu như không",
+      "answers": [
+        "Hardly"
+      ],
+      "explain": "Hardly anyone."
+    },
+    {
+      "type": "fill",
+      "prompt": "You can use ___ of the two computers.",
+      "hint": "một trong hai",
+      "answers": [
+        "either"
+      ],
+      "explain": "Either of."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ of the ten guests arrived on time.",
+      "hint": "không ai",
+      "answers": [
+        "None"
+      ],
+      "explain": "Ba người trở lên → None of."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi có vài người bạn ở Đà Nẵng.",
+      "words": [
+        "I",
+        "have",
+        "a",
+        "few",
+        "friends",
+        "in",
+        "Da",
+        "Nang."
+      ],
+      "explain": "A few: tích cực."
+    },
+    {
+      "type": "order",
+      "vi": "Gần như không ai đến.",
+      "words": [
+        "Hardly",
+        "anyone",
+        "came."
+      ],
+      "explain": "Hardly anyone."
+    },
+    {
+      "type": "fix",
+      "sentence": "I have a little friends here.",
+      "answers": [
+        "I have a few friends here."
+      ],
+      "explain": "Friends đếm được → a few."
+    },
+    {
+      "type": "fix",
+      "sentence": "She doesn't hardly eat anything.",
+      "answers": [
+        "She hardly eats anything."
+      ],
+      "explain": "Hardly không đi với not."
+    },
+    {
+      "type": "fix",
+      "sentence": "None of my two cars works.",
+      "answers": [
+        "Neither of my two cars works."
+      ],
+      "explain": "Hai cái → neither."
+    },
+    {
+      "type": "translate",
+      "vi": "Còn rất ít thời gian.",
+      "answers": [
+        "There is very little time left.",
+        "There's very little time left.",
+        "There is little time left.",
+        "There's little time left.",
+        "We have very little time left.",
+        "We have little time left."
+      ],
+      "explain": "Little: tiêu cực."
+    },
+    {
+      "type": "translate",
+      "vi": "Cả hai anh em đều không thích cá.",
+      "answers": [
+        "Neither of the brothers likes fish.",
+        "Neither brother likes fish.",
+        "Neither of the brothers like fish.",
+        "Neither of them likes fish.",
+        "Neither of the two brothers likes fish."
+      ],
+      "explain": "Neither of."
+    }
+  ]
+}

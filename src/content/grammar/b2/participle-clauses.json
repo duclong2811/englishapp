@@ -1,0 +1,352 @@
+{
+  "id": "participle-clauses",
+  "level": "B2",
+  "title": "Mệnh đề phân từ: Walking home, I saw…",
+  "summary": "Rút gọn mệnh đề bằng V-ing, V3 hoặc having V3 khi hai vế cùng chủ ngữ: Walking home, I saw… Built in 1900, the house…",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How did you find this café?",
+      "vi": "Sao bạn tìm ra quán cà phê này?"
+    },
+    {
+      "who": "B",
+      "en": "[[Walking]] home last week, I saw the sign.",
+      "vi": "Tuần trước đi bộ về nhà, mình thấy biển hiệu."
+    },
+    {
+      "who": "A",
+      "en": "The building looks very old.",
+      "vi": "Tòa nhà trông cổ quá."
+    },
+    {
+      "who": "B",
+      "en": "Yes. [[Built]] in 1920, it was a French bank.",
+      "vi": "Ừ. Xây năm 1920, nó từng là ngân hàng Pháp."
+    },
+    {
+      "who": "A",
+      "en": "[[Having heard]] that, I want to look around.",
+      "vi": "Nghe vậy, mình muốn đi xem một vòng."
+    },
+    {
+      "who": "B",
+      "en": "Sure. Let's order first, [[feeling]] hungry as we are!",
+      "vi": "Được. Gọi món trước đã, đang đói thế này!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "V-ing",
+      "heading": "V-ing: chủ động, cùng lúc",
+      "rule": "Khi hai vế **cùng chủ ngữ**, bỏ chủ ngữ và dùng **V-ing** cho hành động **chủ động** xảy ra cùng lúc hoặc là nguyên nhân.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Walking]] to work, I met an old friend.",
+          "vi": "Trên đường đi làm, tôi gặp một người bạn cũ.",
+          "why": "= While I was walking (cùng chủ ngữ I)."
+        },
+        {
+          "en": "[[Feeling]] tired, she went to bed early.",
+          "vi": "Thấy mệt, cô ấy đi ngủ sớm.",
+          "why": "= Because she felt tired."
+        },
+        {
+          "en": "He sat by the window, [[reading]] a book.",
+          "vi": "Anh ấy ngồi cạnh cửa sổ, đọc sách.",
+          "why": "Hai việc cùng lúc."
+        }
+      ],
+      "check": {
+        "prompt": "___ the street, be careful of motorbikes.",
+        "options": [
+          "When crossing",
+          "Crossed",
+          "Cross"
+        ],
+        "answer": 0,
+        "explain": "Chủ động (bạn băng qua) → V-ing."
+      }
+    },
+    {
+      "part": "V3",
+      "heading": "V3: bị động",
+      "rule": "Dùng **V3** khi chủ ngữ **bị / được** làm gì (nghĩa bị động).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Built]] in 1900, the bridge is still strong.",
+          "vi": "Được xây năm 1900, cây cầu vẫn chắc.",
+          "why": "Cầu được xây → V3."
+        },
+        {
+          "en": "[[Shocked]] by the news, he couldn't speak.",
+          "vi": "Bị sốc vì tin đó, anh ấy không nói nên lời.",
+          "why": "Anh ấy bị sốc → V3."
+        }
+      ],
+      "check": {
+        "prompt": "___ by thousands of tourists, the beach is very dirty.",
+        "options": [
+          "Visited",
+          "Visiting",
+          "Visit"
+        ],
+        "answer": 0,
+        "explain": "Bãi biển được thăm → V3."
+      }
+    },
+    {
+      "part": "Having V3",
+      "heading": "Having + V3: việc xảy ra trước",
+      "rule": "**Having + V3** = một việc **đã xong trước** việc chính. Bị động: **having been + V3**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Having finished]] the report, she went home.",
+          "vi": "Làm xong báo cáo, cô ấy về nhà.",
+          "why": "Xong báo cáo trước → having finished."
+        },
+        {
+          "en": "[[Having lived]] in Hue, he knows the food well.",
+          "vi": "Từng sống ở Huế nên anh ấy rành đồ ăn.",
+          "why": "Việc trước, làm nguyên nhân."
+        }
+      ],
+      "check": {
+        "prompt": "___ the film before, I knew the ending.",
+        "options": [
+          "Having seen",
+          "Seeing",
+          "Seen"
+        ],
+        "answer": 0,
+        "explain": "Đã xem trước → having seen."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Cùng chủ ngữ!",
+      "rule": "Chủ ngữ ngầm của mệnh đề phân từ **phải là** chủ ngữ của vế chính. Sai: *Walking home, the rain started* (mưa không đi bộ).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Walking]] home, I got caught in the rain.",
+          "vi": "Đang đi bộ về thì tôi gặp mưa.",
+          "why": "Chủ ngữ I cho cả hai vế."
+        },
+        {
+          "en": "While I was walking home, the rain started.",
+          "vi": "Lúc tôi đang đi bộ về thì trời mưa.",
+          "why": "Khác chủ ngữ → giữ mệnh đề đầy đủ."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "Opening the door, I saw a cat.",
+          "Opening the door, a cat ran in."
+        ],
+        "answer": 0,
+        "explain": "Chủ ngữ của opening phải là người mở cửa (I)."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Walking home, the rain started.",
+      "right": "While I was walking home, the rain started.",
+      "why": "Khác chủ ngữ → không rút gọn được."
+    },
+    {
+      "wrong": "Writing in 1950, the book is still popular.",
+      "right": "Written in 1950, the book is still popular.",
+      "why": "Sách được viết → V3."
+    },
+    {
+      "wrong": "Having finish work, he left.",
+      "right": "Having finished work, he left.",
+      "why": "Having + V3."
+    },
+    {
+      "wrong": "Felt tired, I went to bed.",
+      "right": "Feeling tired, I went to bed.",
+      "why": "Chủ động → V-ing."
+    },
+    {
+      "wrong": "Being built in 1900, the bridge is still strong.",
+      "right": "Built in 1900, the bridge is still strong.",
+      "why": "Việc đã xong, bị động → V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ the news, she started to cry.",
+      "options": [
+        "Hearing",
+        "Heard",
+        "Hear"
+      ],
+      "answer": 0,
+      "explain": "Chủ động → V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ in Japan, this car is very reliable.",
+      "options": [
+        "Made",
+        "Making",
+        "Make"
+      ],
+      "answer": 0,
+      "explain": "Xe được làm → V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ all his money, he had to walk home.",
+      "options": [
+        "Having spent",
+        "Spent",
+        "Spend"
+      ],
+      "answer": 0,
+      "explain": "Tiêu hết trước → having spent."
+    },
+    {
+      "type": "choice",
+      "prompt": "She left the room, ___ the door behind her.",
+      "options": [
+        "closing",
+        "closed",
+        "close"
+      ],
+      "answer": 0,
+      "explain": "Hai việc liền nhau, chủ động → V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Arriving late, the teacher was angry with me.",
+        "Arriving late, I said sorry to the teacher."
+      ],
+      "answer": 1,
+      "explain": "Chủ ngữ của arriving phải là I."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ by her friends, Mai felt happy.",
+      "hint": "surround",
+      "answers": [
+        "Surrounded"
+      ],
+      "explain": "Được bao quanh → V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ the instructions, he started the machine.",
+      "hint": "read",
+      "answers": [
+        "Having read",
+        "Reading"
+      ],
+      "explain": "Đọc trước rồi mới bật."
+    },
+    {
+      "type": "fill",
+      "prompt": "Not ___ what to say, I stayed quiet.",
+      "hint": "know",
+      "answers": [
+        "knowing"
+      ],
+      "explain": "Phủ định: not + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ in the 18th century, the temple is a famous site.",
+      "hint": "build",
+      "answers": [
+        "Built"
+      ],
+      "explain": "Đền được xây → V3."
+    },
+    {
+      "type": "order",
+      "vi": "Thấy mệt, tôi về nhà sớm.",
+      "words": [
+        "Feeling",
+        "tired",
+        "I",
+        "went",
+        "home",
+        "early."
+      ],
+      "explain": "V-ing chỉ nguyên nhân."
+    },
+    {
+      "type": "order",
+      "vi": "Làm xong bài tập, cô ấy đi ngủ.",
+      "words": [
+        "Having",
+        "finished",
+        "her",
+        "homework",
+        "she",
+        "went",
+        "to",
+        "bed."
+      ],
+      "explain": "Having + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "Having saw the film, I didn't want to see it again.",
+      "answers": [
+        "Having seen the film, I didn't want to see it again."
+      ],
+      "explain": "Having + V3: seen."
+    },
+    {
+      "type": "fix",
+      "sentence": "Wrote by a student, the essay won a prize.",
+      "answers": [
+        "Written by a student, the essay won a prize."
+      ],
+      "explain": "Bị động → V3: written."
+    },
+    {
+      "type": "fix",
+      "sentence": "Walking into the room, the lights went off.",
+      "answers": [
+        "Walking into the room, I saw the lights go off."
+      ],
+      "explain": "Chủ ngữ của walking phải là người."
+    },
+    {
+      "type": "translate",
+      "vi": "Đi dạo trong công viên, tôi gặp cô giáo cũ.",
+      "answers": [
+        "Walking in the park, I met my old teacher.",
+        "While walking in the park, I met my old teacher.",
+        "Walking in the park, I met my former teacher.",
+        "Walking through the park, I met my old teacher.",
+        "While I was walking in the park, I met my old teacher."
+      ],
+      "explain": "V-ing, cùng chủ ngữ I."
+    },
+    {
+      "type": "translate",
+      "vi": "Được xây năm 1890, ngôi nhà vẫn rất đẹp.",
+      "answers": [
+        "Built in 1890, the house is still very beautiful.",
+        "Built in 1890, the house is still beautiful.",
+        "Built in 1890, the house still looks very beautiful.",
+        "Built in 1890, the house still looks beautiful.",
+        "Built in 1890, the house is still very nice."
+      ],
+      "explain": "Bị động → V3."
+    }
+  ]
+}

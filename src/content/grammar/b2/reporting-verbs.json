@@ -1,0 +1,338 @@
+{
+  "id": "reporting-verbs",
+  "level": "B2",
+  "title": "Suggest, warn, admit, deny: động từ tường thuật",
+  "summary": "Kể lại lời nói bằng động từ thay cho say: suggest + V-ing, warn sb not to, admit/deny + V-ing, offer/refuse to V.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What happened at the meeting?",
+      "vi": "Cuộc họp thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "Minh [[admitted making]] a mistake in the report.",
+      "vi": "Minh thừa nhận đã làm sai trong báo cáo."
+    },
+    {
+      "who": "A",
+      "en": "Did the boss get angry?",
+      "vi": "Sếp có giận không?"
+    },
+    {
+      "who": "B",
+      "en": "No, she [[offered to help]] him fix it.",
+      "vi": "Không, chị ấy đề nghị giúp cậu ấy sửa."
+    },
+    {
+      "who": "A",
+      "en": "That's kind. What about the deadline?",
+      "vi": "Tốt thế. Còn hạn chót thì sao?"
+    },
+    {
+      "who": "B",
+      "en": "She [[suggested moving]] it to Friday.",
+      "vi": "Chị ấy đề xuất dời sang thứ Sáu."
+    }
+  ],
+  "sections": [
+    {
+      "part": "+ to V",
+      "heading": "Offer, refuse, promise, agree + to V",
+      "rule": "Các động từ này đi với **to V**: offer, refuse, promise, agree, threaten, decide.",
+      "body": [],
+      "examples": [
+        {
+          "en": "He [[offered to drive]] me home.",
+          "vi": "Anh ấy đề nghị chở tôi về.",
+          "why": "Offer + to V."
+        },
+        {
+          "en": "She [[refused to answer]] the question.",
+          "vi": "Cô ấy từ chối trả lời câu hỏi.",
+          "why": "Refuse + to V."
+        },
+        {
+          "en": "They [[promised to call]] back.",
+          "vi": "Họ hứa sẽ gọi lại.",
+          "why": "Promise + to V."
+        }
+      ],
+      "check": {
+        "prompt": "He ___ to lend me his car.",
+        "options": [
+          "agreed",
+          "suggested",
+          "denied"
+        ],
+        "answer": 0,
+        "explain": "Agree + to V."
+      }
+    },
+    {
+      "part": "+ sb + to V",
+      "heading": "Warn, advise, remind, urge + sb + to V",
+      "rule": "Các động từ này cần **tân ngữ chỉ người** rồi **to V**. Phủ định: **sb + not to V**.",
+      "formula": [
+        {
+          "text": "warn / advise / remind + [sb] + (not) to V"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "The doctor [[advised me to rest]].",
+          "vi": "Bác sĩ khuyên tôi nghỉ ngơi.",
+          "why": "Advise + sb + to V."
+        },
+        {
+          "en": "She [[warned us not to swim]] there.",
+          "vi": "Cô ấy cảnh báo chúng tôi đừng bơi ở đó.",
+          "why": "Phủ định: not to V."
+        },
+        {
+          "en": "[[Remind me to buy]] milk.",
+          "vi": "Nhắc tôi mua sữa nhé.",
+          "why": "Remind + sb + to V."
+        }
+      ],
+      "check": {
+        "prompt": "My mother reminded me ___ the door.",
+        "options": [
+          "to lock",
+          "locking",
+          "lock"
+        ],
+        "answer": 0,
+        "explain": "Remind + sb + to V."
+      }
+    },
+    {
+      "part": "+ V-ing",
+      "heading": "Suggest, admit, deny, recommend + V-ing",
+      "rule": "Các động từ này đi với **V-ing**: suggest, admit, deny, recommend, regret. **Không** dùng *suggest sb to V*.",
+      "body": [
+        "Muốn nêu người: *suggest that we leave* / *suggest that he (should) see a doctor*."
+      ],
+      "examples": [
+        {
+          "en": "He [[admitted taking]] the money.",
+          "vi": "Anh ấy thừa nhận đã lấy tiền.",
+          "why": "Admit + V-ing."
+        },
+        {
+          "en": "She [[denied breaking]] the window.",
+          "vi": "Cô ấy chối là không làm vỡ cửa kính.",
+          "why": "Deny + V-ing."
+        },
+        {
+          "en": "I [[suggested taking]] a taxi.",
+          "vi": "Tôi gợi ý đi taxi.",
+          "why": "Suggest + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "Lan suggested ___ to the beach.",
+        "options": [
+          "going",
+          "to go",
+          "we to go"
+        ],
+        "answer": 0,
+        "explain": "Suggest + V-ing."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He suggested me to see a doctor.",
+      "right": "He suggested that I see a doctor.",
+      "why": "Không dùng suggest sb to V."
+    },
+    {
+      "wrong": "She denied to take the money.",
+      "right": "She denied taking the money.",
+      "why": "Deny + V-ing."
+    },
+    {
+      "wrong": "He warned me don't go there.",
+      "right": "He warned me not to go there.",
+      "why": "Warn + sb + not to V."
+    },
+    {
+      "wrong": "They offered helping us.",
+      "right": "They offered to help us.",
+      "why": "Offer + to V."
+    },
+    {
+      "wrong": "He admitted to lie.",
+      "right": "He admitted lying.",
+      "why": "Admit + V-ing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The teacher advised us ___ more.",
+      "options": [
+        "to read",
+        "reading",
+        "read"
+      ],
+      "answer": 0,
+      "explain": "Advise + sb + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "He denied ___ the email.",
+      "options": [
+        "sending",
+        "to send",
+        "send"
+      ],
+      "answer": 0,
+      "explain": "Deny + V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "She refused ___ the contract.",
+      "options": [
+        "to sign",
+        "signing",
+        "sign"
+      ],
+      "answer": 0,
+      "explain": "Refuse + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I suggest that we leave early.",
+        "I suggest us to leave early."
+      ],
+      "answer": 0,
+      "explain": "Suggest that + mệnh đề."
+    },
+    {
+      "type": "choice",
+      "prompt": "The guide warned us ___ touch the animals.",
+      "options": [
+        "not to",
+        "to not",
+        "don't"
+      ],
+      "answer": 0,
+      "explain": "Warn + sb + not to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "He finally admitted ___ the car.",
+      "hint": "damage",
+      "answers": [
+        "damaging",
+        "having damaged"
+      ],
+      "explain": "Admit + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "My friend offered ___ me with the move.",
+      "hint": "help",
+      "answers": [
+        "to help"
+      ],
+      "explain": "Offer + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "The doctor recommended ___ less sugar.",
+      "hint": "eat",
+      "answers": [
+        "eating"
+      ],
+      "explain": "Recommend + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Please remind him ___ the tickets.",
+      "hint": "bring",
+      "answers": [
+        "to bring"
+      ],
+      "explain": "Remind + sb + to V."
+    },
+    {
+      "type": "order",
+      "vi": "Cô ấy hứa sẽ đến sớm.",
+      "words": [
+        "She",
+        "promised",
+        "to",
+        "come",
+        "early."
+      ],
+      "explain": "Promise + to V."
+    },
+    {
+      "type": "order",
+      "vi": "Anh ấy chối đã nói dối.",
+      "words": [
+        "He",
+        "denied",
+        "telling",
+        "a",
+        "lie."
+      ],
+      "explain": "Deny + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "She suggested us to stay at home.",
+      "answers": [
+        "She suggested staying at home."
+      ],
+      "explain": "Suggest + V-ing."
+    },
+    {
+      "type": "fix",
+      "sentence": "He refused paying the bill.",
+      "answers": [
+        "He refused to pay the bill."
+      ],
+      "explain": "Refuse + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "They warned us to not be late.",
+      "answers": [
+        "They warned us not to be late."
+      ],
+      "explain": "Warn + sb + not to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Bác sĩ khuyên tôi tập thể dục nhiều hơn.",
+      "answers": [
+        "The doctor advised me to exercise more.",
+        "The doctor advised me to do more exercise.",
+        "My doctor advised me to exercise more.",
+        "My doctor advised me to do more exercise.",
+        "The doctor advised me to get more exercise."
+      ],
+      "explain": "Advise + sb + to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Cậu ấy thừa nhận đã quên bài tập.",
+      "answers": [
+        "He admitted forgetting his homework.",
+        "He admitted forgetting the homework.",
+        "He admitted that he had forgotten his homework.",
+        "He admitted having forgotten his homework.",
+        "He admitted that he forgot his homework."
+      ],
+      "explain": "Admit + V-ing."
+    }
+  ]
+}

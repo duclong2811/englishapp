@@ -1,0 +1,349 @@
+{
+  "id": "causative-advanced",
+  "level": "B2",
+  "title": "Get someone to do, have something done",
+  "summary": "Nhờ, khiến người khác làm: have sb do, get sb to do; nhờ làm cho mình: have/get sth done; và make/let ở bị động.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Your hair looks great!",
+      "vi": "Tóc bạn đẹp quá!"
+    },
+    {
+      "who": "B",
+      "en": "Thanks. I [[had it cut]] yesterday.",
+      "vi": "Cảm ơn. Hôm qua mình đi cắt."
+    },
+    {
+      "who": "A",
+      "en": "Did you fix your laptop?",
+      "vi": "Bạn sửa laptop chưa?"
+    },
+    {
+      "who": "B",
+      "en": "I [[got my brother to fix]] it. He's good with computers.",
+      "vi": "Mình nhờ anh trai sửa. Anh ấy rành máy tính."
+    },
+    {
+      "who": "A",
+      "en": "Lucky you. My boss [[had me work]] late again.",
+      "vi": "Sướng thế. Sếp lại bắt mình làm muộn."
+    },
+    {
+      "who": "B",
+      "en": "Again? You [[were made to]] stay late last week too.",
+      "vi": "Lại nữa à? Tuần trước bạn cũng bị bắt ở lại muộn."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Nhờ người làm",
+      "heading": "Have sb do / get sb to do",
+      "rule": "**have + sb + V** và **get + sb + to V** = nhờ, bảo ai làm gì. **Get** thường hàm ý phải thuyết phục.",
+      "formula": [
+        {
+          "text": "[have] + sb + V"
+        },
+        {
+          "text": "[get] + sb + [to] V"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I'll [[have the waiter bring]] the bill.",
+          "vi": "Tôi sẽ bảo bồi bàn mang hóa đơn.",
+          "why": "Have + sb + V (không có to)."
+        },
+        {
+          "en": "She [[got her son to clean]] his room.",
+          "vi": "Cô ấy bắt được con trai dọn phòng.",
+          "why": "Get + sb + to V: phải thuyết phục."
+        }
+      ],
+      "check": {
+        "prompt": "I got my friend ___ me move house.",
+        "options": [
+          "to help",
+          "help",
+          "helping"
+        ],
+        "answer": 0,
+        "explain": "Get + sb + to V."
+      }
+    },
+    {
+      "part": "Nhờ làm cho mình",
+      "heading": "Have / get something done",
+      "rule": "**have / get + vật + V3** = nhờ người khác làm việc đó cho mình (cắt tóc, sửa xe…). Cũng dùng cho việc **không mong muốn**: *I had my phone stolen*.",
+      "body": [],
+      "examples": [
+        {
+          "en": "We [[had the house painted]].",
+          "vi": "Chúng tôi thuê người sơn nhà.",
+          "why": "Have + vật + V3."
+        },
+        {
+          "en": "I need to [[get my eyes tested]].",
+          "vi": "Tôi cần đi kiểm tra mắt.",
+          "why": "Get + vật + V3."
+        },
+        {
+          "en": "He [[had his bike stolen]].",
+          "vi": "Anh ấy bị mất trộm xe đạp.",
+          "why": "Việc không mong muốn."
+        }
+      ],
+      "check": {
+        "prompt": "I'm going to have my car ___ tomorrow.",
+        "options": [
+          "repaired",
+          "repair",
+          "to repair"
+        ],
+        "answer": 0,
+        "explain": "Have + vật + V3."
+      }
+    },
+    {
+      "part": "Bị động",
+      "heading": "Be made to do, be allowed to do",
+      "rule": "Chủ động **make sb do** (không to) → bị động **be made to do** (có to). **Let** không dùng bị động → **be allowed to**.",
+      "body": [],
+      "table": {
+        "head": [
+          "Chủ động",
+          "Bị động"
+        ],
+        "rows": [
+          [
+            "They made me wait.",
+            "I was made to wait."
+          ],
+          [
+            "They let me leave.",
+            "I was allowed to leave."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "We [[were made to]] wear uniforms.",
+          "vi": "Chúng tôi bị bắt mặc đồng phục.",
+          "why": "Bị động của make: be made to V."
+        },
+        {
+          "en": "She [[was allowed to]] go home early.",
+          "vi": "Cô ấy được phép về sớm.",
+          "why": "Bị động của let: be allowed to."
+        }
+      ],
+      "check": {
+        "prompt": "The children were made ___ their homework again.",
+        "options": [
+          "to do",
+          "do",
+          "doing"
+        ],
+        "answer": 0,
+        "explain": "Be made + to V."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I had my hair cutting.",
+      "right": "I had my hair cut.",
+      "why": "Have + vật + V3."
+    },
+    {
+      "wrong": "She got her brother fix the car.",
+      "right": "She got her brother to fix the car.",
+      "why": "Get + sb + to V."
+    },
+    {
+      "wrong": "I'll have him to call you.",
+      "right": "I'll have him call you.",
+      "why": "Have + sb + V (không có to)."
+    },
+    {
+      "wrong": "He was made clean the room.",
+      "right": "He was made to clean the room.",
+      "why": "Bị động: be made to V."
+    },
+    {
+      "wrong": "We were let to leave early.",
+      "right": "We were allowed to leave early.",
+      "why": "Let không dùng bị động."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I had the mechanic ___ the tires.",
+      "options": [
+        "check",
+        "to check",
+        "checked"
+      ],
+      "answer": 0,
+      "explain": "Have + sb + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Where did you get your dress ___?",
+      "options": [
+        "made",
+        "make",
+        "to make"
+      ],
+      "answer": 0,
+      "explain": "Get + vật + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "My parents got me ___ the dishes.",
+      "options": [
+        "to wash",
+        "wash",
+        "washed"
+      ],
+      "answer": 0,
+      "explain": "Get + sb + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "He was made ___ for an hour.",
+      "options": [
+        "to wait",
+        "wait",
+        "waiting"
+      ],
+      "answer": 0,
+      "explain": "Be made + to V."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là người khác cắt tóc cho cô ấy?",
+      "options": [
+        "She cut her hair.",
+        "She had her hair cut."
+      ],
+      "answer": 1,
+      "explain": "Have + vật + V3: nhờ người làm."
+    },
+    {
+      "type": "fill",
+      "prompt": "I need to get my phone ___.",
+      "hint": "fix",
+      "answers": [
+        "fixed"
+      ],
+      "explain": "Get + vật + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "The teacher had us ___ the poem.",
+      "hint": "learn",
+      "answers": [
+        "learn"
+      ],
+      "explain": "Have + sb + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "We weren't ___ to use our phones in class.",
+      "hint": "cho phép",
+      "answers": [
+        "allowed"
+      ],
+      "explain": "Bị động của let → be allowed to."
+    },
+    {
+      "type": "fill",
+      "prompt": "She got the shop ___ her money back.",
+      "hint": "give",
+      "answers": [
+        "to give"
+      ],
+      "explain": "Get + sb + to V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi đi cắt tóc hôm qua.",
+      "words": [
+        "I",
+        "had",
+        "my",
+        "hair",
+        "cut",
+        "yesterday."
+      ],
+      "explain": "Have + vật + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi nhờ bạn sửa máy tính.",
+      "words": [
+        "I",
+        "got",
+        "my",
+        "friend",
+        "to",
+        "fix",
+        "my",
+        "computer."
+      ],
+      "explain": "Get + sb + to V."
+    },
+    {
+      "type": "fix",
+      "sentence": "We had our roof repair last month.",
+      "answers": [
+        "We had our roof repaired last month."
+      ],
+      "explain": "Have + vật + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "She had her son to carry the bags.",
+      "answers": [
+        "She had her son carry the bags."
+      ],
+      "explain": "Have + sb + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "I was made work on Sunday.",
+      "answers": [
+        "I was made to work on Sunday."
+      ],
+      "explain": "Be made + to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi thuê người sơn lại phòng khách.",
+      "answers": [
+        "We had the living room painted.",
+        "We had our living room painted.",
+        "We got the living room painted.",
+        "We got our living room painted.",
+        "We had the living room repainted.",
+        "We had our living room repainted."
+      ],
+      "explain": "Have + vật + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi bị bắt đợi hai tiếng.",
+      "answers": [
+        "I was made to wait for two hours.",
+        "I was made to wait two hours.",
+        "They made me wait for two hours.",
+        "They made me wait two hours.",
+        "I was forced to wait for two hours."
+      ],
+      "explain": "Be made + to V."
+    }
+  ]
+}

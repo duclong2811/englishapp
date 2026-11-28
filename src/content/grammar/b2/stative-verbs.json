@@ -1,0 +1,369 @@
+{
+  "id": "stative-verbs",
+  "level": "B2",
+  "title": "Động từ trạng thái: I think hay I'm thinking",
+  "summary": "Động từ chỉ trạng thái (know, own, seem) thường không dùng dạng tiếp diễn; một số động từ đổi nghĩa khi tiếp diễn.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "What are you doing?",
+      "vi": "Bạn đang làm gì đấy?"
+    },
+    {
+      "who": "B",
+      "en": "I'[[m thinking]] about the new job offer.",
+      "vi": "Mình đang suy nghĩ về lời mời làm việc mới."
+    },
+    {
+      "who": "A",
+      "en": "Do you like it?",
+      "vi": "Bạn có thích không?"
+    },
+    {
+      "who": "B",
+      "en": "I [[think]] it's a good chance, but I [[don't know]] the boss.",
+      "vi": "Mình nghĩ đó là cơ hội tốt, nhưng mình không biết sếp."
+    },
+    {
+      "who": "A",
+      "en": "The office [[looks]] nice in the photos.",
+      "vi": "Văn phòng trông đẹp trong ảnh đấy."
+    },
+    {
+      "who": "B",
+      "en": "Yes, and I'[[m seeing]] the manager tomorrow.",
+      "vi": "Ừ, và mai mình gặp quản lý."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Trạng thái",
+      "heading": "Động từ không dùng tiếp diễn",
+      "rule": "Động từ chỉ **suy nghĩ, cảm xúc, sở hữu, giác quan, trạng thái** thường **không** dùng dạng V-ing: know, believe, like, want, own, belong, seem, need.",
+      "body": [],
+      "table": {
+        "head": [
+          "Nhóm",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Suy nghĩ",
+            "know, believe, understand, remember"
+          ],
+          [
+            "Cảm xúc",
+            "like, love, hate, want, prefer"
+          ],
+          [
+            "Sở hữu",
+            "have (có), own, belong"
+          ],
+          [
+            "Trạng thái",
+            "seem, need, cost, contain"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I [[know]] the answer.",
+          "vi": "Tôi biết câu trả lời.",
+          "why": "Know là trạng thái → không dùng am knowing."
+        },
+        {
+          "en": "This bag [[belongs]] to my sister.",
+          "vi": "Cái túi này của chị tôi.",
+          "why": "Belong chỉ sở hữu → hiện tại đơn."
+        },
+        {
+          "en": "She [[seems]] tired today.",
+          "vi": "Hôm nay cô ấy có vẻ mệt.",
+          "why": "Seem là trạng thái, kể cả khi nói về hôm nay."
+        }
+      ],
+      "check": {
+        "prompt": "I ___ what you mean.",
+        "options": [
+          "understand",
+          "am understanding"
+        ],
+        "answer": 0,
+        "explain": "Understand là động từ trạng thái."
+      }
+    },
+    {
+      "part": "Đổi nghĩa",
+      "heading": "Think, have, see, taste: hai nghĩa",
+      "rule": "Một số động từ có **nghĩa hành động** thì **được** dùng tiếp diễn, nghĩa trạng thái thì không.",
+      "body": [],
+      "table": {
+        "head": [
+          "Trạng thái",
+          "Hành động"
+        ],
+        "rows": [
+          [
+            "I think it's good. (cho rằng)",
+            "I'm thinking about it. (đang cân nhắc)"
+          ],
+          [
+            "She has a car. (có)",
+            "She's having lunch. (đang ăn)"
+          ],
+          [
+            "I see what you mean. (hiểu)",
+            "I'm seeing a doctor. (gặp, khám)"
+          ],
+          [
+            "The soup tastes good. (có vị)",
+            "He's tasting the soup. (nếm)"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "We [[are having]] a party tonight.",
+          "vi": "Tối nay chúng tôi tổ chức tiệc.",
+          "why": "Have = tổ chức (hành động) → được tiếp diễn."
+        },
+        {
+          "en": "I [[think]] you're right.",
+          "vi": "Tôi nghĩ bạn đúng.",
+          "why": "Think = cho rằng (ý kiến) → hiện tại đơn."
+        },
+        {
+          "en": "She'[[s thinking]] of moving to Hanoi.",
+          "vi": "Cô ấy đang tính chuyển ra Hà Nội.",
+          "why": "Think of = cân nhắc → tiếp diễn được."
+        }
+      ],
+      "check": {
+        "prompt": "Quiet, please. I ___ about my answer.",
+        "options": [
+          "am thinking",
+          "think"
+        ],
+        "answer": 0,
+        "explain": "Đang cân nhắc (hành động) → am thinking."
+      }
+    },
+    {
+      "part": "Lưu ý",
+      "heading": "Love it! và I'm loving it",
+      "rule": "Trong văn nói thân mật đôi khi gặp *I'm loving this weather* để nhấn cảm xúc **lúc này**. Khi viết và trong bài kiểm tra, dùng dạng đơn.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[love]] this song.",
+          "vi": "Tôi thích bài hát này lắm.",
+          "why": "Dạng chuẩn: hiện tại đơn."
+        },
+        {
+          "en": "I'[[m loving]] this weather!",
+          "vi": "Tôi đang mê thời tiết này!",
+          "why": "Văn nói thân mật, nhấn cảm xúc lúc này."
+        }
+      ],
+      "check": {
+        "prompt": "Trong bài viết trang trọng, chọn câu đúng:",
+        "options": [
+          "I want a quiet room.",
+          "I'm wanting a quiet room."
+        ],
+        "answer": 0,
+        "explain": "Want là trạng thái → dạng đơn."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I am knowing her for years.",
+      "right": "I have known her for years.",
+      "why": "Know không dùng tiếp diễn; kéo dài đến nay → have known."
+    },
+    {
+      "wrong": "This book is belonging to me.",
+      "right": "This book belongs to me.",
+      "why": "Belong là trạng thái."
+    },
+    {
+      "wrong": "I am needing your help.",
+      "right": "I need your help.",
+      "why": "Need là trạng thái."
+    },
+    {
+      "wrong": "Are you understanding me?",
+      "right": "Do you understand me?",
+      "why": "Understand không dùng tiếp diễn."
+    },
+    {
+      "wrong": "She is having a new phone.",
+      "right": "She has a new phone.",
+      "why": "Have = có (sở hữu) → hiện tại đơn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "This coffee ___ too sweet.",
+      "options": [
+        "tastes",
+        "is tasting"
+      ],
+      "answer": 0,
+      "explain": "Taste = có vị (trạng thái) → tastes."
+    },
+    {
+      "type": "choice",
+      "prompt": "Sorry, I can't talk now. I ___ dinner.",
+      "options": [
+        "am having",
+        "have"
+      ],
+      "answer": 0,
+      "explain": "Have = ăn (hành động) → am having."
+    },
+    {
+      "type": "choice",
+      "prompt": "He ___ a big house near the river.",
+      "options": [
+        "owns",
+        "is owning"
+      ],
+      "answer": 0,
+      "explain": "Own chỉ sở hữu → owns."
+    },
+    {
+      "type": "choice",
+      "prompt": "What ___ about? You look worried.",
+      "options": [
+        "are you thinking",
+        "do you think"
+      ],
+      "answer": 0,
+      "explain": "Đang suy nghĩ (hành động) → are you thinking."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I'm seeing the dentist at four.",
+        "I'm seeing what you mean."
+      ],
+      "answer": 0,
+      "explain": "See = gặp (lịch hẹn) dùng tiếp diễn; see = hiểu thì không."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ that he is right.",
+      "hint": "believe",
+      "answers": [
+        "believe"
+      ],
+      "explain": "Believe là trạng thái → hiện tại đơn."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ a shower right now.",
+      "hint": "have",
+      "answers": [
+        "is having",
+        "'s having"
+      ],
+      "explain": "Have a shower = hành động → tiếp diễn."
+    },
+    {
+      "type": "fill",
+      "prompt": "This box ___ old letters.",
+      "hint": "contain",
+      "answers": [
+        "contains"
+      ],
+      "explain": "Contain là trạng thái."
+    },
+    {
+      "type": "fill",
+      "prompt": "Shh! The chef ___ the sauce.",
+      "hint": "taste",
+      "answers": [
+        "is tasting",
+        "'s tasting"
+      ],
+      "explain": "Nếm (hành động) → is tasting."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi nghĩ bạn đúng.",
+      "words": [
+        "I",
+        "think",
+        "you",
+        "are",
+        "right."
+      ],
+      "explain": "Think = cho rằng → hiện tại đơn."
+    },
+    {
+      "type": "order",
+      "vi": "Chúng tôi đang cân nhắc mua nhà.",
+      "words": [
+        "We",
+        "are",
+        "thinking",
+        "of",
+        "buying",
+        "a",
+        "house."
+      ],
+      "explain": "Think of/about + V-ing = cân nhắc."
+    },
+    {
+      "type": "fix",
+      "sentence": "I am wanting a new laptop.",
+      "answers": [
+        "I want a new laptop."
+      ],
+      "explain": "Want là trạng thái."
+    },
+    {
+      "type": "fix",
+      "sentence": "Do you have a good time at the party now?",
+      "answers": [
+        "Are you having a good time at the party now?"
+      ],
+      "explain": "Have a good time = trải nghiệm → tiếp diễn."
+    },
+    {
+      "type": "fix",
+      "sentence": "It is seeming strange to me.",
+      "answers": [
+        "It seems strange to me."
+      ],
+      "explain": "Seem là trạng thái."
+    },
+    {
+      "type": "translate",
+      "vi": "Cái điện thoại này là của ai?",
+      "answers": [
+        "Who does this phone belong to?",
+        "Whose phone is this?",
+        "Who owns this phone?",
+        "Whose is this phone?"
+      ],
+      "explain": "Belong/own là trạng thái → does … belong."
+    },
+    {
+      "type": "translate",
+      "vi": "Tối nay chúng tôi ăn tối với bạn bè.",
+      "answers": [
+        "We are having dinner with friends tonight.",
+        "We're having dinner with friends tonight.",
+        "We are having dinner with our friends tonight.",
+        "We're having dinner with our friends tonight.",
+        "Tonight we are having dinner with friends."
+      ],
+      "explain": "Have dinner = hành động, kế hoạch → tiếp diễn."
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "id": "relative-advanced",
+  "level": "B2",
+  "title": "Mệnh đề quan hệ rút gọn, all of whom, which",
+  "summary": "Rút gọn mệnh đề quan hệ bằng V-ing/V3, dùng giới từ + whom/which, some of which, và which thay cả câu.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Who is the man [[standing]] by the door?",
+      "vi": "Người đàn ông đứng cạnh cửa là ai?"
+    },
+    {
+      "who": "B",
+      "en": "That's Mr. Hai, the manager [[to whom]] I sent my CV.",
+      "vi": "Đó là anh Hải, quản lý mà mình gửi CV."
+    },
+    {
+      "who": "A",
+      "en": "He interviewed five people, [[all of whom]] were nervous.",
+      "vi": "Anh ấy phỏng vấn năm người, ai cũng run."
+    },
+    {
+      "who": "B",
+      "en": "I got the job, [[which]] surprised everyone.",
+      "vi": "Mình được nhận, điều đó làm mọi người bất ngờ."
+    },
+    {
+      "who": "A",
+      "en": "Congratulations! Is it the company [[founded]] by his father?",
+      "vi": "Chúc mừng! Có phải công ty do bố anh ấy lập không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, that's the one.",
+      "vi": "Ừ, đúng nó đấy."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Rút gọn",
+      "heading": "Bỏ who/which + be: V-ing và V3",
+      "rule": "**who/which + is/are + V-ing** → **V-ing**; **who/which + is/was + V3** → **V3**. Cũng rút gọn **who + V** chủ động thành **V-ing**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The girl [[sitting]] next to me is my cousin.",
+          "vi": "Cô gái ngồi cạnh tôi là em họ tôi.",
+          "why": "= who is sitting."
+        },
+        {
+          "en": "The cars [[made]] in this factory are cheap.",
+          "vi": "Ô tô làm ở nhà máy này rẻ.",
+          "why": "= which are made (bị động)."
+        },
+        {
+          "en": "People [[living]] near the river worry about floods.",
+          "vi": "Người sống gần sông lo lũ lụt.",
+          "why": "= who live."
+        }
+      ],
+      "check": {
+        "prompt": "The woman ___ the red dress is my boss.",
+        "options": [
+          "wearing",
+          "worn",
+          "wears"
+        ],
+        "answer": 0,
+        "explain": "Chủ động → V-ing (= who is wearing)."
+      }
+    },
+    {
+      "part": "Giới từ + whom/which",
+      "heading": "The person to whom…, the house in which…",
+      "rule": "Văn trang trọng đưa **giới từ lên trước whom / which**. Văn nói để giới từ ở cuối: *the person I spoke to*.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The man [[to whom]] I spoke was very kind.",
+          "vi": "Người đàn ông mà tôi nói chuyện rất tốt bụng.",
+          "why": "Trang trọng: to whom."
+        },
+        {
+          "en": "This is the house [[in which]] I grew up.",
+          "vi": "Đây là ngôi nhà nơi tôi lớn lên.",
+          "why": "In which = where."
+        },
+        {
+          "en": "The man I spoke [[to]] was very kind.",
+          "vi": "Người tôi nói chuyện rất tốt bụng.",
+          "why": "Văn nói: giới từ ở cuối."
+        }
+      ],
+      "check": {
+        "prompt": "The company for ___ she works is in Hanoi.",
+        "options": [
+          "which",
+          "that",
+          "who"
+        ],
+        "answer": 0,
+        "explain": "Sau giới từ dùng which (không dùng that)."
+      }
+    },
+    {
+      "part": "Some of which",
+      "heading": "All of whom, some of which, which (cả câu)",
+      "rule": "**all / some / many / none of + whom / which** nói một phần nhóm. **, which** có thể chỉ **cả mệnh đề trước**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "I have two brothers, [[both of whom]] live abroad.",
+          "vi": "Tôi có hai anh trai, cả hai đều sống ở nước ngoài.",
+          "why": "Both of whom (người)."
+        },
+        {
+          "en": "She bought ten books, [[some of which]] were old.",
+          "vi": "Cô ấy mua mười cuốn sách, vài cuốn cũ.",
+          "why": "Some of which (vật)."
+        },
+        {
+          "en": "He passed the exam, [[which]] surprised us.",
+          "vi": "Cậu ấy đỗ, điều đó làm chúng tôi bất ngờ.",
+          "why": "Which = việc cậu ấy đỗ."
+        }
+      ],
+      "check": {
+        "prompt": "There were 30 students, most of ___ were from Hanoi.",
+        "options": [
+          "whom",
+          "them",
+          "who"
+        ],
+        "answer": 0,
+        "explain": "Most of whom (người, sau giới từ)."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The man who sitting there is my uncle.",
+      "right": "The man sitting there is my uncle.",
+      "why": "Rút gọn: bỏ who + is."
+    },
+    {
+      "wrong": "The house in that I live is old.",
+      "right": "The house in which I live is old.",
+      "why": "Sau giới từ không dùng that."
+    },
+    {
+      "wrong": "I have two sisters, both of them live in Hue.",
+      "right": "I have two sisters, both of whom live in Hue.",
+      "why": "Nối hai mệnh đề → both of whom."
+    },
+    {
+      "wrong": "He failed the test, that made him sad.",
+      "right": "He failed the test, which made him sad.",
+      "why": "Chỉ cả câu → which, không dùng that."
+    },
+    {
+      "wrong": "The products making here are sold abroad.",
+      "right": "The products made here are sold abroad.",
+      "why": "Bị động → V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The boy ___ football over there is my son.",
+      "options": [
+        "playing",
+        "played",
+        "plays"
+      ],
+      "answer": 0,
+      "explain": "Chủ động → V-ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "The letters ___ by her grandfather are in a box.",
+      "options": [
+        "written",
+        "writing",
+        "wrote"
+      ],
+      "answer": 0,
+      "explain": "Bị động → V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "This is the friend about ___ I told you.",
+      "options": [
+        "whom",
+        "that",
+        "who"
+      ],
+      "answer": 0,
+      "explain": "Sau giới từ → whom."
+    },
+    {
+      "type": "choice",
+      "prompt": "She has three cats, all of ___ are black.",
+      "options": [
+        "which",
+        "them",
+        "that"
+      ],
+      "answer": 0,
+      "explain": "All of which (vật)."
+    },
+    {
+      "type": "choice",
+      "prompt": "He arrived two hours late, ___ annoyed everyone.",
+      "options": [
+        "which",
+        "that",
+        "what"
+      ],
+      "answer": 0,
+      "explain": "Which chỉ cả mệnh đề."
+    },
+    {
+      "type": "fill",
+      "prompt": "Anyone ___ to join the club should call Nam.",
+      "hint": "want",
+      "answers": [
+        "wanting"
+      ],
+      "explain": "Rút gọn: = who wants."
+    },
+    {
+      "type": "fill",
+      "prompt": "The rice ___ in this region is famous.",
+      "hint": "grow",
+      "answers": [
+        "grown"
+      ],
+      "explain": "Bị động → V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "I met many people, some of ___ became good friends.",
+      "hint": "đại từ quan hệ",
+      "answers": [
+        "whom"
+      ],
+      "explain": "Some of whom (người)."
+    },
+    {
+      "type": "fill",
+      "prompt": "The town in ___ he was born is very small.",
+      "hint": "đại từ quan hệ",
+      "answers": [
+        "which"
+      ],
+      "explain": "In which = nơi."
+    },
+    {
+      "type": "order",
+      "vi": "Người phụ nữ đứng ở cửa là cô giáo tôi.",
+      "words": [
+        "The",
+        "woman",
+        "standing",
+        "at",
+        "the",
+        "door",
+        "is",
+        "my",
+        "teacher."
+      ],
+      "explain": "Rút gọn bằng V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi có hai con, cả hai đều đi học.",
+      "words": [
+        "I",
+        "have",
+        "two",
+        "children",
+        "both",
+        "of",
+        "whom",
+        "go",
+        "to",
+        "school."
+      ],
+      "explain": "Both of whom."
+    },
+    {
+      "type": "fix",
+      "sentence": "The man who wearing a hat is my father.",
+      "answers": [
+        "The man wearing a hat is my father."
+      ],
+      "explain": "Bỏ who khi rút gọn."
+    },
+    {
+      "type": "fix",
+      "sentence": "The city in that she lives is very big.",
+      "answers": [
+        "The city in which she lives is very big."
+      ],
+      "explain": "Sau giới từ → which."
+    },
+    {
+      "type": "fix",
+      "sentence": "She invited 20 people, most of them came.",
+      "answers": [
+        "She invited 20 people, most of whom came."
+      ],
+      "explain": "Nối mệnh đề → most of whom."
+    },
+    {
+      "type": "translate",
+      "vi": "Những ngôi nhà xây năm ngoái đã bị bán hết.",
+      "answers": [
+        "The houses built last year have all been sold.",
+        "The houses built last year have been sold.",
+        "All the houses built last year have been sold.",
+        "The houses built last year were all sold.",
+        "The houses that were built last year have all been sold."
+      ],
+      "explain": "Bị động rút gọn → V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy quên sinh nhật tôi, điều đó làm tôi buồn.",
+      "answers": [
+        "He forgot my birthday, which made me sad.",
+        "He forgot my birthday, which made me upset.",
+        "He forgot my birthday, which upset me.",
+        "He forgot about my birthday, which made me sad.",
+        "He forgot my birthday, which made me unhappy."
+      ],
+      "explain": "Which chỉ cả mệnh đề."
+    }
+  ]
+}

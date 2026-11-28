@@ -1,0 +1,337 @@
+{
+  "id": "linking-cause",
+  "level": "B2",
+  "title": "Due to, owing to, consequently",
+  "summary": "Nói nguyên nhân và kết quả: due to/owing to/because of + danh từ, since/as + mệnh đề, therefore/consequently/as a result.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Why was the flight delayed?",
+      "vi": "Sao chuyến bay bị hoãn?"
+    },
+    {
+      "who": "B",
+      "en": "It was [[due to]] bad weather in Hanoi.",
+      "vi": "Do thời tiết xấu ở Hà Nội."
+    },
+    {
+      "who": "A",
+      "en": "How long did you wait?",
+      "vi": "Bạn chờ bao lâu?"
+    },
+    {
+      "who": "B",
+      "en": "Three hours. [[As a result]], I missed my meeting.",
+      "vi": "Ba tiếng. Kết quả là mình lỡ cuộc họp."
+    },
+    {
+      "who": "A",
+      "en": "[[Since]] you're tired, let's eat at home tonight.",
+      "vi": "Vì bạn mệt, tối nay mình ăn ở nhà nhé."
+    },
+    {
+      "who": "B",
+      "en": "Good idea. The flight was full; [[consequently]], I didn't sleep.",
+      "vi": "Ý hay. Máy bay kín chỗ, nên mình không ngủ được."
+    }
+  ],
+  "sections": [
+    {
+      "part": "+ danh từ",
+      "heading": "Due to, owing to, because of + danh từ",
+      "rule": "**due to / owing to / because of + danh từ (hoặc V-ing)** = do, vì. **Due to** hay đứng sau **be**: *The delay was due to…*",
+      "body": [],
+      "examples": [
+        {
+          "en": "The game was canceled [[due to]] the rain.",
+          "vi": "Trận đấu bị hủy do mưa.",
+          "why": "Due to + danh từ."
+        },
+        {
+          "en": "[[Owing to]] a lack of money, the project stopped.",
+          "vi": "Do thiếu tiền, dự án dừng lại.",
+          "why": "Owing to: trang trọng."
+        },
+        {
+          "en": "The delay was [[due to]] a technical problem.",
+          "vi": "Sự chậm trễ là do sự cố kỹ thuật.",
+          "why": "Be + due to."
+        }
+      ],
+      "check": {
+        "prompt": "The shop closed ___ the storm.",
+        "options": [
+          "due to",
+          "because",
+          "since"
+        ],
+        "answer": 0,
+        "explain": "+ danh từ → due to."
+      }
+    },
+    {
+      "part": "+ mệnh đề",
+      "heading": "Since, as, because + mệnh đề",
+      "rule": "**since / as / because + mệnh đề** = vì. **Since / as** thường đứng đầu câu cho lý do người nghe đã biết.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Since]] it's late, let's go home.",
+          "vi": "Vì muộn rồi, về nhà thôi.",
+          "why": "Since + mệnh đề, lý do rõ ràng."
+        },
+        {
+          "en": "[[As]] she was ill, she stayed in bed.",
+          "vi": "Vì ốm, cô ấy nằm trên giường.",
+          "why": "As = because."
+        }
+      ],
+      "check": {
+        "prompt": "___ you're here, can you help me?",
+        "options": [
+          "Since",
+          "Due to",
+          "Owing to"
+        ],
+        "answer": 0,
+        "explain": "+ mệnh đề → since."
+      }
+    },
+    {
+      "part": "Kết quả",
+      "heading": "Therefore, consequently, as a result",
+      "rule": "**therefore / consequently / as a result** = vì vậy, kết quả là. Đứng đầu câu mới (sau dấu chấm, chấm phẩy), có dấu phẩy. **So** dùng trong cùng câu, thân mật.",
+      "body": [],
+      "examples": [
+        {
+          "en": "He didn't study. [[Consequently]], he failed.",
+          "vi": "Cậu ấy không học. Kết quả là trượt.",
+          "why": "Câu mới, trang trọng."
+        },
+        {
+          "en": "Prices went up; [[therefore]], sales fell.",
+          "vi": "Giá tăng; vì vậy doanh số giảm.",
+          "why": "Sau dấu chấm phẩy."
+        },
+        {
+          "en": "It was late, [[so]] we took a taxi.",
+          "vi": "Muộn rồi nên chúng tôi đi taxi.",
+          "why": "So: cùng câu, thân mật."
+        }
+      ],
+      "check": {
+        "prompt": "The road was closed. ___, we were late.",
+        "options": [
+          "As a result",
+          "Due to",
+          "Because"
+        ],
+        "answer": 0,
+        "explain": "Kết quả, câu mới → As a result."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The match was canceled due to it rained.",
+      "right": "The match was canceled due to the rain.",
+      "why": "Due to + danh từ."
+    },
+    {
+      "wrong": "Because of he was late, he missed the bus.",
+      "right": "Because he was late, he missed the bus.",
+      "why": "Because + mệnh đề; because of + danh từ."
+    },
+    {
+      "wrong": "He was tired, therefore he went to bed.",
+      "right": "He was tired. Therefore, he went to bed.",
+      "why": "Therefore mở câu mới."
+    },
+    {
+      "wrong": "Owing to the traffic was heavy, I was late.",
+      "right": "Owing to the heavy traffic, I was late.",
+      "why": "Owing to + danh từ."
+    },
+    {
+      "wrong": "Since of the rain, we stayed home.",
+      "right": "Because of the rain, we stayed home.",
+      "why": "Since + mệnh đề, không có since of."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "The train was late ___ a problem with the engine.",
+      "options": [
+        "due to",
+        "because",
+        "therefore"
+      ],
+      "answer": 0,
+      "explain": "+ danh từ → due to."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ it was raining, we stayed inside.",
+      "options": [
+        "As",
+        "Owing to",
+        "Due to"
+      ],
+      "answer": 0,
+      "explain": "+ mệnh đề → as."
+    },
+    {
+      "type": "choice",
+      "prompt": "She missed the bus. ___, she was late for work.",
+      "options": [
+        "Consequently",
+        "Because",
+        "Due to"
+      ],
+      "answer": 0,
+      "explain": "Kết quả → Consequently."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ the bad weather, the flight was delayed.",
+      "options": [
+        "Owing to",
+        "Since",
+        "Therefore"
+      ],
+      "answer": 0,
+      "explain": "+ danh từ → Owing to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Because of the noise, I couldn't sleep.",
+        "Because the noise, I couldn't sleep."
+      ],
+      "answer": 0,
+      "explain": "Because of + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "The event was canceled ___ to the storm.",
+      "hint": "due",
+      "answers": [
+        "due"
+      ],
+      "explain": "Due to + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ he had no money, he walked home.",
+      "hint": "vì",
+      "answers": [
+        "Since",
+        "As",
+        "Because"
+      ],
+      "explain": "+ mệnh đề."
+    },
+    {
+      "type": "fill",
+      "prompt": "Costs have risen. ___, we must raise prices.",
+      "hint": "vì vậy",
+      "answers": [
+        "Therefore",
+        "Consequently",
+        "As a result"
+      ],
+      "explain": "Kết quả, câu mới."
+    },
+    {
+      "type": "fill",
+      "prompt": "The delay was ___ to a strike.",
+      "hint": "due",
+      "answers": [
+        "due"
+      ],
+      "explain": "Be + due to."
+    },
+    {
+      "type": "order",
+      "vi": "Trận đấu bị hủy do mưa.",
+      "words": [
+        "The",
+        "match",
+        "was",
+        "canceled",
+        "due",
+        "to",
+        "the",
+        "rain."
+      ],
+      "explain": "Due to + danh từ."
+    },
+    {
+      "type": "order",
+      "vi": "Vì muộn rồi chúng ta về thôi.",
+      "words": [
+        "Since",
+        "it",
+        "is",
+        "late",
+        "let",
+        "us",
+        "go",
+        "home."
+      ],
+      "explain": "Since + mệnh đề."
+    },
+    {
+      "type": "fix",
+      "sentence": "Due to he was sick, he didn't come.",
+      "answers": [
+        "Because he was sick, he didn't come."
+      ],
+      "explain": "Mệnh đề → because."
+    },
+    {
+      "type": "fix",
+      "sentence": "We were late because of the traffic was bad.",
+      "answers": [
+        "We were late because the traffic was bad."
+      ],
+      "explain": "Because + mệnh đề."
+    },
+    {
+      "type": "fix",
+      "sentence": "Owing the storm, the school was closed.",
+      "answers": [
+        "Owing to the storm, the school was closed."
+      ],
+      "explain": "Owing to + danh từ."
+    },
+    {
+      "type": "translate",
+      "vi": "Chuyến bay bị hoãn do sương mù.",
+      "answers": [
+        "The flight was delayed due to fog.",
+        "The flight was delayed due to the fog.",
+        "The flight was delayed because of fog.",
+        "The flight was delayed because of the fog.",
+        "The flight was delayed owing to fog.",
+        "The flight was delayed owing to the fog."
+      ],
+      "explain": "Due to / because of + danh từ."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy không ôn bài. Kết quả là anh ấy trượt.",
+      "answers": [
+        "He didn't study. As a result, he failed.",
+        "He didn't revise. As a result, he failed.",
+        "He didn't study. Consequently, he failed.",
+        "He didn't study. Therefore, he failed.",
+        "He did not study. As a result, he failed.",
+        "He didn't study, so he failed."
+      ],
+      "explain": "As a result / consequently."
+    }
+  ]
+}

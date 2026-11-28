@@ -1,0 +1,332 @@
+{
+  "id": "inversion-emphasis",
+  "level": "B2",
+  "title": "Đảo ngữ nhấn mạnh: Never have I, Not only",
+  "summary": "Đưa trạng từ phủ định lên đầu và đảo trợ động từ: Never have I…, Not only… but also, Hardly… when, Only then…",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was the concert last night?",
+      "vi": "Buổi hòa nhạc tối qua thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "Amazing! [[Never have I]] heard such a beautiful voice.",
+      "vi": "Tuyệt vời! Chưa bao giờ mình nghe giọng hát hay như vậy."
+    },
+    {
+      "who": "A",
+      "en": "Was the stadium full?",
+      "vi": "Sân vận động có kín không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. [[Not only was it]] full, [[but]] people were also standing outside.",
+      "vi": "Có. Không chỉ kín mà còn có người đứng bên ngoài."
+    },
+    {
+      "who": "A",
+      "en": "Did you get home late?",
+      "vi": "Bạn về muộn không?"
+    },
+    {
+      "who": "B",
+      "en": "Very late. [[Hardly had I]] got home [[when]] it started to rain.",
+      "vi": "Rất muộn. Mình vừa về đến nhà thì trời mưa."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Never, rarely",
+      "heading": "Never / Rarely / Seldom + trợ động từ + S",
+      "rule": "Đưa **never, rarely, seldom, little** lên đầu câu → **đảo trợ động từ lên trước chủ ngữ** như câu hỏi. Văn trang trọng, kể chuyện.",
+      "formula": [
+        {
+          "text": "[Never] + [have / do / did] + S + V…"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Never have I]] seen such a mess.",
+          "vi": "Chưa bao giờ tôi thấy bừa bộn như vậy.",
+          "why": "= I have never seen such a mess."
+        },
+        {
+          "en": "[[Rarely does]] she complain.",
+          "vi": "Hiếm khi cô ấy phàn nàn.",
+          "why": "Hiện tại đơn → does + S + V."
+        },
+        {
+          "en": "[[Little did he]] know about the plan.",
+          "vi": "Anh ấy chẳng hề biết về kế hoạch.",
+          "why": "Quá khứ đơn → did + S + V."
+        }
+      ],
+      "check": {
+        "prompt": "Never ___ such a delicious meal.",
+        "options": [
+          "have I eaten",
+          "I have eaten",
+          "I ate"
+        ],
+        "answer": 0,
+        "explain": "Never đầu câu → đảo: have I eaten."
+      }
+    },
+    {
+      "part": "Not only",
+      "heading": "Not only + trợ động từ + S…, but… also",
+      "rule": "**Not only** đầu câu → đảo ở vế đầu; vế sau dùng **but (S) also** bình thường.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Not only is]] he smart, [[but]] he is also kind.",
+          "vi": "Anh ấy không chỉ thông minh mà còn tốt bụng.",
+          "why": "Đảo: is he."
+        },
+        {
+          "en": "[[Not only did]] they win, [[but]] they also broke the record.",
+          "vi": "Họ không chỉ thắng mà còn phá kỷ lục.",
+          "why": "Quá khứ → did they win."
+        }
+      ],
+      "check": {
+        "prompt": "Not only ___ late, but she also forgot the tickets.",
+        "options": [
+          "was she",
+          "she was",
+          "she is"
+        ],
+        "answer": 0,
+        "explain": "Not only đầu câu → đảo: was she."
+      }
+    },
+    {
+      "part": "Hardly, only",
+      "heading": "Hardly… when, No sooner… than, Only then",
+      "rule": "**Hardly / Scarcely had + S + V3 + when…** và **No sooner had + S + V3 + than…** = vừa… thì… **Only then / Only after… + đảo**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Hardly had]] we sat down [[when]] the phone rang.",
+          "vi": "Chúng tôi vừa ngồi xuống thì điện thoại reo.",
+          "why": "Hardly had + S + V3 + when."
+        },
+        {
+          "en": "[[No sooner had]] she left [[than]] he arrived.",
+          "vi": "Cô ấy vừa đi thì anh ấy đến.",
+          "why": "No sooner … than."
+        },
+        {
+          "en": "[[Only then did]] I understand the problem.",
+          "vi": "Chỉ lúc đó tôi mới hiểu vấn đề.",
+          "why": "Only then + did + S + V."
+        }
+      ],
+      "check": {
+        "prompt": "No sooner had I arrived ___ it started to snow.",
+        "options": [
+          "than",
+          "when",
+          "then"
+        ],
+        "answer": 0,
+        "explain": "No sooner … than."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Never I have seen such a view.",
+      "right": "Never have I seen such a view.",
+      "why": "Đảo: have I."
+    },
+    {
+      "wrong": "Rarely she goes out at night.",
+      "right": "Rarely does she go out at night.",
+      "why": "Đảo với does + V nguyên mẫu."
+    },
+    {
+      "wrong": "Not only he is rich, but he is also famous.",
+      "right": "Not only is he rich, but he is also famous.",
+      "why": "Not only đầu câu → đảo."
+    },
+    {
+      "wrong": "No sooner had we left when it rained.",
+      "right": "No sooner had we left than it rained.",
+      "why": "No sooner … than."
+    },
+    {
+      "wrong": "Hardly I had arrived when he called.",
+      "right": "Hardly had I arrived when he called.",
+      "why": "Đảo: had I."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Rarely ___ such good service.",
+      "options": [
+        "do you find",
+        "you find",
+        "you do find"
+      ],
+      "answer": 0,
+      "explain": "Rarely đầu câu → do you find."
+    },
+    {
+      "type": "choice",
+      "prompt": "Not only ___ the exam, but he also got the top score.",
+      "options": [
+        "did he pass",
+        "he passed",
+        "he did pass"
+      ],
+      "answer": 0,
+      "explain": "Đảo: did he pass."
+    },
+    {
+      "type": "choice",
+      "prompt": "Hardly had the film started ___ the lights went off.",
+      "options": [
+        "when",
+        "than",
+        "then"
+      ],
+      "answer": 0,
+      "explain": "Hardly … when."
+    },
+    {
+      "type": "choice",
+      "prompt": "Only after the meeting ___ the truth.",
+      "options": [
+        "did I learn",
+        "I learned",
+        "I did learn"
+      ],
+      "answer": 0,
+      "explain": "Only after… → đảo: did I learn."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Never have I been so happy.",
+        "Never I have been so happy."
+      ],
+      "answer": 0,
+      "explain": "Đảo: have I."
+    },
+    {
+      "type": "fill",
+      "prompt": "Never ___ I seen such a big fish.",
+      "hint": "trợ động từ",
+      "answers": [
+        "have"
+      ],
+      "explain": "Never + have + S + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "Seldom ___ he eat breakfast.",
+      "hint": "trợ động từ",
+      "answers": [
+        "does"
+      ],
+      "explain": "Seldom + does + S + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "No sooner had I sat down ___ the bus left.",
+      "hint": "từ nối",
+      "answers": [
+        "than"
+      ],
+      "explain": "No sooner … than."
+    },
+    {
+      "type": "fill",
+      "prompt": "Not only ___ she sing, but she also dances.",
+      "hint": "trợ động từ",
+      "answers": [
+        "does"
+      ],
+      "explain": "Not only + does + S + V."
+    },
+    {
+      "type": "order",
+      "vi": "Chưa bao giờ tôi mệt như vậy.",
+      "words": [
+        "Never",
+        "have",
+        "I",
+        "been",
+        "so",
+        "tired."
+      ],
+      "explain": "Never + have + S."
+    },
+    {
+      "type": "order",
+      "vi": "Hiếm khi anh ấy đến muộn.",
+      "words": [
+        "Rarely",
+        "does",
+        "he",
+        "arrive",
+        "late."
+      ],
+      "explain": "Rarely + does + S + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "Never I have heard that story.",
+      "answers": [
+        "Never have I heard that story."
+      ],
+      "explain": "Đảo: have I."
+    },
+    {
+      "type": "fix",
+      "sentence": "Not only she is beautiful, but also clever.",
+      "answers": [
+        "Not only is she beautiful, but she is also clever."
+      ],
+      "explain": "Đảo ở vế đầu; vế sau đủ chủ ngữ."
+    },
+    {
+      "type": "fix",
+      "sentence": "Hardly had I closed my eyes than the baby cried.",
+      "answers": [
+        "Hardly had I closed my eyes when the baby cried."
+      ],
+      "explain": "Hardly … when."
+    },
+    {
+      "type": "translate",
+      "vi": "Chưa bao giờ tôi thấy cảnh đẹp như vậy.",
+      "answers": [
+        "Never have I seen such a beautiful view.",
+        "Never have I seen such beautiful scenery.",
+        "Never have I seen such a beautiful sight.",
+        "I have never seen such a beautiful view.",
+        "Never have I seen a view so beautiful."
+      ],
+      "explain": "Never + have + S + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Chúng tôi vừa đến thì trời mưa.",
+      "answers": [
+        "Hardly had we arrived when it started to rain.",
+        "Hardly had we arrived when it began to rain.",
+        "No sooner had we arrived than it started to rain.",
+        "No sooner had we arrived than it began to rain.",
+        "Hardly had we arrived when it rained.",
+        "We had hardly arrived when it started to rain."
+      ],
+      "explain": "Hardly … when / No sooner … than."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "future-in-past",
+  "level": "B2",
+  "title": "Was going to, was about to: dự định trong quá khứ",
+  "summary": "Nói dự định, việc sắp xảy ra trong quá khứ: was going to, was about to, would; thường để kể kế hoạch không thành.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Did you go to the beach last weekend?",
+      "vi": "Cuối tuần trước bạn đi biển không?"
+    },
+    {
+      "who": "B",
+      "en": "We [[were going to]] go, but it rained.",
+      "vi": "Bọn mình định đi nhưng trời mưa."
+    },
+    {
+      "who": "A",
+      "en": "That's a shame. What did you do instead?",
+      "vi": "Tiếc thế. Thế bạn làm gì?"
+    },
+    {
+      "who": "B",
+      "en": "I [[was about to]] call you, actually.",
+      "vi": "Thật ra lúc đó mình suýt gọi cho bạn."
+    },
+    {
+      "who": "A",
+      "en": "Really? Why didn't you?",
+      "vi": "Thật à? Sao bạn không gọi?"
+    },
+    {
+      "who": "B",
+      "en": "I thought you [[would]] be busy.",
+      "vi": "Mình nghĩ bạn sẽ bận."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Dự định",
+      "heading": "Was / were going to",
+      "rule": "**was/were going to + V** = **đã định** làm gì trong quá khứ. Thường dùng khi kế hoạch **không thành**.",
+      "formula": [
+        {
+          "text": "S + [was / were going to] + V"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[was going to]] call you, but I forgot.",
+          "vi": "Tôi định gọi cho bạn nhưng quên mất.",
+          "why": "Dự định trong quá khứ, không thành."
+        },
+        {
+          "en": "They [[were going to]] buy a car, but prices went up.",
+          "vi": "Họ định mua xe nhưng giá tăng.",
+          "why": "Were going to + V."
+        }
+      ],
+      "check": {
+        "prompt": "We ___ go out, but it started raining.",
+        "options": [
+          "were going to",
+          "are going to",
+          "will"
+        ],
+        "answer": 0,
+        "explain": "Dự định trong quá khứ → were going to."
+      }
+    },
+    {
+      "part": "Sắp xảy ra",
+      "heading": "Was about to",
+      "rule": "**was/were about to + V** = **sắp sửa** làm gì ngay lúc đó (thì có chuyện xảy ra).",
+      "body": [],
+      "examples": [
+        {
+          "en": "I [[was about to]] leave when the phone rang.",
+          "vi": "Tôi vừa định đi thì điện thoại reo.",
+          "why": "Sắp làm ngay lúc đó → was about to."
+        },
+        {
+          "en": "The film [[was about to]] start, so we hurried.",
+          "vi": "Phim sắp chiếu nên chúng tôi vội vàng.",
+          "why": "Was about to + V."
+        }
+      ],
+      "check": {
+        "prompt": "She ___ to cry when he finally said sorry.",
+        "options": [
+          "was about",
+          "is about",
+          "was going"
+        ],
+        "answer": 0,
+        "explain": "Sắp sửa ngay lúc đó → was about to."
+      }
+    },
+    {
+      "part": "Would",
+      "heading": "Would: tương lai nhìn từ quá khứ",
+      "rule": "Trong câu kể hoặc câu gián tiếp, **will** đổi thành **would**: điều được dự đoán từ một thời điểm quá khứ.",
+      "body": [
+        "*I knew she would win* = lúc đó tôi đã biết cô ấy sẽ thắng."
+      ],
+      "examples": [
+        {
+          "en": "I knew you [[would]] like this place.",
+          "vi": "Tôi biết bạn sẽ thích chỗ này mà.",
+          "why": "Dự đoán nhìn từ quá khứ → would."
+        },
+        {
+          "en": "He promised he [[would]] help me.",
+          "vi": "Anh ấy hứa sẽ giúp tôi.",
+          "why": "Lời hứa kể lại → would."
+        }
+      ],
+      "check": {
+        "prompt": "She said she ___ call me later.",
+        "options": [
+          "would",
+          "will",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "Kể lại từ quá khứ → would."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I was going to called you.",
+      "right": "I was going to call you.",
+      "why": "Sau going to dùng V nguyên mẫu."
+    },
+    {
+      "wrong": "I am going to go yesterday, but I was ill.",
+      "right": "I was going to go yesterday, but I was ill.",
+      "why": "Dự định trong quá khứ → was going to."
+    },
+    {
+      "wrong": "I was about leaving when you came.",
+      "right": "I was about to leave when you came.",
+      "why": "Was about to + V."
+    },
+    {
+      "wrong": "I knew she will be angry.",
+      "right": "I knew she would be angry.",
+      "why": "Nhìn từ quá khứ → would."
+    },
+    {
+      "wrong": "They were going buy a house.",
+      "right": "They were going to buy a house.",
+      "why": "Thiếu to: were going to + V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I ___ email you, but my laptop broke.",
+      "options": [
+        "was going to",
+        "am going to",
+        "will"
+      ],
+      "answer": 0,
+      "explain": "Dự định trong quá khứ không thành."
+    },
+    {
+      "type": "choice",
+      "prompt": "We were about ___ dinner when the guests arrived.",
+      "options": [
+        "to start",
+        "starting",
+        "start"
+      ],
+      "answer": 0,
+      "explain": "Was about to + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "I thought the test ___ be easy.",
+      "options": [
+        "would",
+        "will",
+        "is"
+      ],
+      "answer": 0,
+      "explain": "Ý nghĩ trong quá khứ → would."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là kế hoạch KHÔNG thành?",
+      "options": [
+        "We went to Hue.",
+        "We were going to go to Hue."
+      ],
+      "answer": 1,
+      "explain": "Was going to thường nói kế hoạch không thành."
+    },
+    {
+      "type": "choice",
+      "prompt": "He ___ about to give up when he found the answer.",
+      "options": [
+        "was",
+        "is",
+        "had"
+      ],
+      "answer": 0,
+      "explain": "Was about to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ to buy that dress, but it was sold out.",
+      "hint": "go",
+      "answers": [
+        "was going"
+      ],
+      "explain": "Was going to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "They were ___ to close the shop when we came in.",
+      "hint": "about",
+      "answers": [
+        "about"
+      ],
+      "explain": "Were about to + V: sắp đóng cửa."
+    },
+    {
+      "type": "fill",
+      "prompt": "She told me she ___ be late.",
+      "hint": "will",
+      "answers": [
+        "would"
+      ],
+      "explain": "Kể lại từ quá khứ: will → would."
+    },
+    {
+      "type": "fill",
+      "prompt": "We were going to ___ a taxi, but we walked.",
+      "hint": "take",
+      "answers": [
+        "take"
+      ],
+      "explain": "Sau going to: V nguyên mẫu."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi định gọi cho bạn.",
+      "words": [
+        "I",
+        "was",
+        "going",
+        "to",
+        "call",
+        "you."
+      ],
+      "explain": "Was going to + V."
+    },
+    {
+      "type": "order",
+      "vi": "Phim sắp chiếu thì chúng tôi đến.",
+      "words": [
+        "The",
+        "film",
+        "was",
+        "about",
+        "to",
+        "start",
+        "when",
+        "we",
+        "arrived."
+      ],
+      "alternatives": [
+        "When we arrived the film was about to start."
+      ],
+      "explain": "Was about to + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "I was going to visited my aunt.",
+      "answers": [
+        "I was going to visit my aunt."
+      ],
+      "explain": "Sau going to: V nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "I thought you will come.",
+      "answers": [
+        "I thought you would come."
+      ],
+      "explain": "Nhìn từ quá khứ → would."
+    },
+    {
+      "type": "fix",
+      "sentence": "We are about to leave when it started to snow.",
+      "answers": [
+        "We were about to leave when it started to snow."
+      ],
+      "explain": "Kể quá khứ → were about to."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi định đi Đà Lạt nhưng không có thời gian.",
+      "answers": [
+        "I was going to go to Da Lat, but I didn't have time.",
+        "I was going to go to Da Lat but I didn't have time.",
+        "I was going to go to Da Lat, but I had no time.",
+        "I was going to visit Da Lat, but I didn't have time.",
+        "I was going to travel to Da Lat, but I didn't have time."
+      ],
+      "explain": "Dự định không thành → was going to."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi vừa định ra ngoài thì trời mưa.",
+      "answers": [
+        "I was about to go out when it rained.",
+        "I was about to go out when it started to rain.",
+        "I was about to go out when it started raining.",
+        "I was about to leave when it rained.",
+        "I was about to leave when it started to rain.",
+        "I was about to go out when it began to rain."
+      ],
+      "explain": "Sắp làm thì bị cắt ngang → was about to."
+    }
+  ]
+}

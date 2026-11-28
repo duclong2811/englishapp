@@ -1,0 +1,344 @@
+{
+  "id": "passive-forms",
+  "level": "B2",
+  "title": "Bị động với V-ing, to V và get",
+  "summary": "Bị động sau động từ và giới từ: being done, to be done; và get + V3 trong văn nói (get hired, get stuck).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was the job interview?",
+      "vi": "Phỏng vấn xin việc thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "I hope [[to be called]] back this week.",
+      "vi": "Mình hy vọng tuần này được gọi lại."
+    },
+    {
+      "who": "A",
+      "en": "Were you nervous?",
+      "vi": "Bạn có run không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. I don't like [[being asked]] about my weaknesses.",
+      "vi": "Có. Mình không thích bị hỏi về điểm yếu."
+    },
+    {
+      "who": "A",
+      "en": "How did you get there?",
+      "vi": "Bạn đến đó bằng gì?"
+    },
+    {
+      "who": "B",
+      "en": "By motorbike, but I [[got stuck]] in traffic for an hour.",
+      "vi": "Xe máy, nhưng mình bị kẹt xe cả tiếng."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Being done",
+      "heading": "Bị động dạng V-ing",
+      "rule": "Sau động từ hoặc giới từ cần **V-ing**, bị động là **being + V3**: like, hate, avoid, remember, without, after…",
+      "formula": [
+        {
+          "text": "V / giới từ + [being] + V3"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "She hates [[being told]] what to do.",
+          "vi": "Cô ấy ghét bị bảo phải làm gì.",
+          "why": "Hate + V-ing → being told."
+        },
+        {
+          "en": "He left without [[being seen]].",
+          "vi": "Anh ấy rời đi mà không bị ai thấy.",
+          "why": "Sau giới từ without → being seen."
+        },
+        {
+          "en": "I remember [[being taken]] to the zoo as a child.",
+          "vi": "Tôi nhớ hồi nhỏ được đưa đi sở thú.",
+          "why": "Remember + V-ing → being taken."
+        }
+      ],
+      "check": {
+        "prompt": "Nobody likes ___ at in public.",
+        "options": [
+          "being laughed",
+          "be laughed",
+          "laughing"
+        ],
+        "answer": 0,
+        "explain": "Like + V-ing, bị động → being laughed."
+      }
+    },
+    {
+      "part": "To be done",
+      "heading": "Bị động dạng to V",
+      "rule": "Sau động từ cần **to V** (want, hope, expect, need, would like), bị động là **to be + V3**.",
+      "formula": [
+        {
+          "text": "V + [to be] + V3"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "I want [[to be invited]] to the party.",
+          "vi": "Tôi muốn được mời đến bữa tiệc.",
+          "why": "Want + to V → to be invited."
+        },
+        {
+          "en": "The report needs [[to be finished]] today.",
+          "vi": "Báo cáo cần được làm xong hôm nay.",
+          "why": "Need + to be + V3."
+        },
+        {
+          "en": "This form has [[to be signed]] by your manager.",
+          "vi": "Mẫu này phải được quản lý của bạn ký.",
+          "why": "Have to + be + V3."
+        }
+      ],
+      "check": {
+        "prompt": "The windows need ___ before the guests arrive.",
+        "options": [
+          "to be cleaned",
+          "to clean them be",
+          "being clean"
+        ],
+        "answer": 0,
+        "explain": "Need + to be + V3."
+      }
+    },
+    {
+      "part": "Get",
+      "heading": "Get + V3 trong văn nói",
+      "rule": "**get + V3** thay cho **be + V3** khi nói về việc **xảy ra bất ngờ, thường là không mong muốn** (hoặc thay đổi): get hurt, get fired, get lost, get married.",
+      "body": [
+        "Get bị động thân mật hơn, ít dùng trong văn viết trang trọng."
+      ],
+      "examples": [
+        {
+          "en": "He [[got fired]] last month.",
+          "vi": "Tháng trước anh ấy bị đuổi việc.",
+          "why": "Get fired: chuyện không mong muốn."
+        },
+        {
+          "en": "Be careful or you'll [[get hurt]].",
+          "vi": "Cẩn thận kẻo bị thương.",
+          "why": "Get hurt = bị thương."
+        },
+        {
+          "en": "They [[got married]] in Hue.",
+          "vi": "Họ cưới nhau ở Huế.",
+          "why": "Get married: thay đổi trạng thái."
+        }
+      ],
+      "check": {
+        "prompt": "My phone ___ stolen on the bus.",
+        "options": [
+          "got",
+          "get",
+          "getting"
+        ],
+        "answer": 0,
+        "explain": "Get + V3, quá khứ → got stolen."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I hate be told what to do.",
+      "right": "I hate being told what to do.",
+      "why": "Hate + V-ing → being told."
+    },
+    {
+      "wrong": "She wants to invited.",
+      "right": "She wants to be invited.",
+      "why": "Bị động to V: to be + V3."
+    },
+    {
+      "wrong": "He left without seen.",
+      "right": "He left without being seen.",
+      "why": "Sau giới từ: being + V3."
+    },
+    {
+      "wrong": "My bag got steal.",
+      "right": "My bag got stolen.",
+      "why": "Get + V3: stolen."
+    },
+    {
+      "wrong": "The car needs to repaired.",
+      "right": "The car needs to be repaired.",
+      "why": "Need + to be + V3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I don't mind ___ to wait a few minutes.",
+      "options": [
+        "being asked",
+        "to be asked",
+        "be asked"
+      ],
+      "answer": 0,
+      "explain": "Mind + V-ing → being asked."
+    },
+    {
+      "type": "choice",
+      "prompt": "She expects ___ soon.",
+      "options": [
+        "to be promoted",
+        "being promoted",
+        "promote"
+      ],
+      "answer": 0,
+      "explain": "Expect + to V → to be promoted."
+    },
+    {
+      "type": "choice",
+      "prompt": "We ___ lost in the old town.",
+      "options": [
+        "got",
+        "were getting",
+        "get"
+      ],
+      "answer": 0,
+      "explain": "Get lost, quá khứ → got lost."
+    },
+    {
+      "type": "choice",
+      "prompt": "After ___ by the doctor, he went home.",
+      "options": [
+        "being checked",
+        "checked",
+        "be checked"
+      ],
+      "answer": 0,
+      "explain": "Sau giới từ after → being checked."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào thân mật, văn nói?",
+      "options": [
+        "He was injured in the accident.",
+        "He got hurt in the accident."
+      ],
+      "answer": 1,
+      "explain": "Get hurt là văn nói."
+    },
+    {
+      "type": "fill",
+      "prompt": "I hate ___ in the morning.",
+      "hint": "wake up",
+      "answers": [
+        "being woken up"
+      ],
+      "explain": "Hate + V-ing, bị động → being woken up."
+    },
+    {
+      "type": "fill",
+      "prompt": "This medicine has to ___ after meals.",
+      "hint": "take",
+      "answers": [
+        "be taken"
+      ],
+      "explain": "Has to + be + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "She would like ___ to the meeting.",
+      "hint": "invite",
+      "answers": [
+        "to be invited"
+      ],
+      "explain": "Would like + to be + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "Our flight got ___ because of the storm.",
+      "hint": "cancel",
+      "answers": [
+        "canceled",
+        "cancelled"
+      ],
+      "explain": "Get + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi không thích bị làm phiền.",
+      "words": [
+        "I",
+        "don't",
+        "like",
+        "being",
+        "disturbed."
+      ],
+      "explain": "Like + being + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Cửa sổ cần được sửa.",
+      "words": [
+        "The",
+        "window",
+        "needs",
+        "to",
+        "be",
+        "repaired."
+      ],
+      "explain": "Need + to be + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "He doesn't like to being criticized.",
+      "answers": [
+        "He doesn't like being criticized."
+      ],
+      "explain": "Like + being + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "The documents need to signed today.",
+      "answers": [
+        "The documents need to be signed today."
+      ],
+      "explain": "Thiếu be: to be signed."
+    },
+    {
+      "type": "fix",
+      "sentence": "I got lose in the market.",
+      "answers": [
+        "I got lost in the market."
+      ],
+      "explain": "Get + V3: lost."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy hy vọng được chọn vào đội.",
+      "answers": [
+        "She hopes to be chosen for the team.",
+        "She hopes to be selected for the team.",
+        "She hopes to be picked for the team.",
+        "She is hoping to be chosen for the team.",
+        "She hopes she will be chosen for the team."
+      ],
+      "explain": "Hope + to be + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy bị đuổi việc năm ngoái.",
+      "answers": [
+        "He got fired last year.",
+        "He was fired last year.",
+        "He got sacked last year.",
+        "He was dismissed last year.",
+        "He lost his job last year."
+      ],
+      "explain": "Get fired / was fired."
+    }
+  ]
+}

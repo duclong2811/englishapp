@@ -1,0 +1,366 @@
+{
+  "id": "mixed-conditionals",
+  "level": "B2",
+  "title": "Câu điều kiện hỗn hợp",
+  "summary": "Trộn loại 2 và loại 3: quá khứ ảnh hưởng hiện tại (If I had…, I would be…) hoặc tính cách hiện tại ảnh hưởng quá khứ.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "You look tired today.",
+      "vi": "Hôm nay trông bạn mệt thế."
+    },
+    {
+      "who": "B",
+      "en": "[[If I had gone]] to bed earlier, I [[wouldn't be]] so tired now.",
+      "vi": "Nếu tối qua ngủ sớm hơn thì giờ mình không mệt thế này."
+    },
+    {
+      "who": "A",
+      "en": "Why did you stay up?",
+      "vi": "Sao bạn thức khuya?"
+    },
+    {
+      "who": "B",
+      "en": "I was studying. [[If I were]] smarter, I [[would have finished]] sooner.",
+      "vi": "Mình học bài. Nếu mình thông minh hơn thì đã xong sớm hơn."
+    },
+    {
+      "who": "A",
+      "en": "Don't say that! You passed the last test.",
+      "vi": "Đừng nói thế! Bạn qua bài kiểm tra trước mà."
+    },
+    {
+      "who": "B",
+      "en": "True. [[If I hadn't passed]] it, I [[would be]] in trouble now.",
+      "vi": "Đúng. Nếu không qua thì giờ mình gặp rắc rối rồi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Quá khứ → hiện tại",
+      "heading": "If + had V3, would + V",
+      "rule": "Một việc **trong quá khứ** (không có thật) gây **kết quả ở hiện tại**: **If + had + V3, S + would + V**.",
+      "formula": [
+        {
+          "text": "If + S + [had] + V3, S + [would] + V (now)"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[If I had taken]] the job, I [[would live]] in Hanoi now.",
+          "vi": "Nếu hồi đó nhận việc thì giờ tôi đang sống ở Hà Nội.",
+          "why": "Quá khứ (had taken) → hiện tại (would live now)."
+        },
+        {
+          "en": "[[If she hadn't missed]] the bus, she [[would be]] here.",
+          "vi": "Nếu cô ấy không lỡ xe buýt thì giờ đã ở đây.",
+          "why": "Lỡ xe (quá khứ) → không ở đây (hiện tại)."
+        },
+        {
+          "en": "We [[would have]] more money [[if we hadn't bought]] that car.",
+          "vi": "Nếu không mua chiếc xe đó thì giờ chúng tôi có nhiều tiền hơn.",
+          "why": "Mệnh đề if đứng sau cũng được."
+        }
+      ],
+      "check": {
+        "prompt": "If I had studied medicine, I ___ a doctor now.",
+        "options": [
+          "would be",
+          "would have been",
+          "will be"
+        ],
+        "answer": 0,
+        "explain": "Kết quả ở hiện tại (now) → would be."
+      }
+    },
+    {
+      "part": "Hiện tại → quá khứ",
+      "heading": "If + V2, would have + V3",
+      "rule": "Một **sự thật lâu dài ở hiện tại** (tính cách, khả năng) giải thích **việc trong quá khứ**: **If + V2/were, S + would have + V3**.",
+      "formula": [
+        {
+          "text": "If + S + V2 / [were], S + [would have] + V3"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "[[If I were]] braver, I [[would have spoken]] to her.",
+          "vi": "Nếu tôi dạn dĩ hơn thì đã bắt chuyện với cô ấy rồi.",
+          "why": "Tính cách hiện tại → việc quá khứ."
+        },
+        {
+          "en": "[[If he spoke]] English, he [[would have got]] the job.",
+          "vi": "Nếu anh ấy biết tiếng Anh thì đã được nhận việc.",
+          "why": "Khả năng hiện tại → kết quả quá khứ."
+        }
+      ],
+      "check": {
+        "prompt": "If she ___ so shy, she would have joined the club.",
+        "options": [
+          "weren't",
+          "hadn't been",
+          "isn't"
+        ],
+        "answer": 0,
+        "explain": "Tính cách hiện tại → If + weren't."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Chọn đúng loại",
+      "rule": "Hỏi hai câu: **điều kiện** thuộc lúc nào (quá khứ / luôn đúng)? **kết quả** thuộc lúc nào (bây giờ / quá khứ)?",
+      "body": [],
+      "table": {
+        "head": [
+          "Điều kiện → Kết quả",
+          "Mẫu"
+        ],
+        "rows": [
+          [
+            "quá khứ → quá khứ",
+            "If I had left, I would have caught it."
+          ],
+          [
+            "quá khứ → bây giờ",
+            "If I had left, I would be there now."
+          ],
+          [
+            "luôn đúng → quá khứ",
+            "If I were rich, I would have bought it."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "[[If I had saved]] money, I [[would have bought]] a car last year.",
+          "vi": "Nếu tôi tiết kiệm thì năm ngoái đã mua xe rồi.",
+          "why": "Quá khứ → quá khứ: loại 3."
+        },
+        {
+          "en": "[[If I had saved]] money, I [[would have]] a car now.",
+          "vi": "Nếu tôi tiết kiệm thì giờ đã có xe.",
+          "why": "Quá khứ → bây giờ: hỗn hợp."
+        }
+      ],
+      "check": {
+        "prompt": "If I hadn't eaten so much, I ___ sick now.",
+        "options": [
+          "wouldn't feel",
+          "wouldn't have felt",
+          "won't feel"
+        ],
+        "answer": 0,
+        "explain": "Kết quả 'now' → wouldn't feel."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "If I had took the train, I would be home now.",
+      "right": "If I had taken the train, I would be home now.",
+      "why": "Sau had dùng V3 (taken)."
+    },
+    {
+      "wrong": "If I would have taken the job, I would be rich now.",
+      "right": "If I had taken the job, I would be rich now.",
+      "why": "Không dùng would trong mệnh đề if."
+    },
+    {
+      "wrong": "If she had left earlier, she would have been here now.",
+      "right": "If she had left earlier, she would be here now.",
+      "why": "Có 'now' → would be."
+    },
+    {
+      "wrong": "If I was more patient, I would have waited for him.",
+      "right": "If I were more patient, I would have waited for him.",
+      "why": "Văn chuẩn: If I were."
+    },
+    {
+      "wrong": "If he hadn't lost his job, he will be happier now.",
+      "right": "If he hadn't lost his job, he would be happier now.",
+      "why": "Kết quả giả định → would, không dùng will."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "If I had listened to you, I ___ in this mess now.",
+      "options": [
+        "wouldn't be",
+        "won't be",
+        "hadn't been"
+      ],
+      "answer": 0,
+      "explain": "Quá khứ → hiện tại: wouldn't be."
+    },
+    {
+      "type": "choice",
+      "prompt": "If he ___ so lazy, he would have finished the work.",
+      "options": [
+        "weren't",
+        "hadn't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explain": "Tính cách hiện tại → If + weren't."
+    },
+    {
+      "type": "choice",
+      "prompt": "If we had booked earlier, we ___ better seats now.",
+      "options": [
+        "would have",
+        "would have had",
+        "will have"
+      ],
+      "answer": 0,
+      "explain": "Kết quả bây giờ → would have."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói kết quả ở HIỆN TẠI?",
+      "options": [
+        "If I had learned Chinese, I would have got that job.",
+        "If I had learned Chinese, I would work in Shanghai now."
+      ],
+      "answer": 1,
+      "explain": "Có 'now' → kết quả hiện tại."
+    },
+    {
+      "type": "choice",
+      "prompt": "If I ___ afraid of heights, I would have climbed the tower.",
+      "options": [
+        "weren't",
+        "hadn't been",
+        "wasn't been"
+      ],
+      "answer": 0,
+      "explain": "Tính cách lâu dài → If + weren't."
+    },
+    {
+      "type": "fill",
+      "prompt": "If she ___ the train, she would be here now.",
+      "hint": "not miss",
+      "answers": [
+        "hadn't missed",
+        "had not missed"
+      ],
+      "explain": "Quá khứ → hiện tại: If + hadn't + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "If I were more organized, I ___ my keys yesterday.",
+      "hint": "not lose",
+      "answers": [
+        "wouldn't have lost",
+        "would not have lost"
+      ],
+      "explain": "Tính cách hiện tại → would have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "If we had planted trees ten years ago, we ___ shade now.",
+      "hint": "have",
+      "answers": [
+        "would have"
+      ],
+      "explain": "Kết quả bây giờ → would + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "If he ___ French, he would have understood the film.",
+      "hint": "speak",
+      "answers": [
+        "spoke"
+      ],
+      "explain": "Khả năng hiện tại → If + V2."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu tôi nhận việc đó thì giờ tôi đang sống ở Đà Nẵng.",
+      "words": [
+        "If",
+        "I",
+        "had",
+        "taken",
+        "that",
+        "job",
+        "I",
+        "would",
+        "live",
+        "in",
+        "Da",
+        "Nang",
+        "now."
+      ],
+      "explain": "Quá khứ → hiện tại."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu cô ấy không nhút nhát thì đã nói chuyện với anh ấy rồi.",
+      "words": [
+        "If",
+        "she",
+        "weren't",
+        "shy",
+        "she",
+        "would",
+        "have",
+        "talked",
+        "to",
+        "him."
+      ],
+      "explain": "Tính cách hiện tại → việc quá khứ."
+    },
+    {
+      "type": "fix",
+      "sentence": "If I would have known, I would be there now.",
+      "answers": [
+        "If I had known, I would be there now."
+      ],
+      "explain": "Không dùng would trong mệnh đề if."
+    },
+    {
+      "type": "fix",
+      "sentence": "If he had saved money, he would have a house last year.",
+      "answers": [
+        "If he had saved money, he would have had a house last year."
+      ],
+      "explain": "Kết quả quá khứ (last year) → would have had."
+    },
+    {
+      "type": "fix",
+      "sentence": "If you hadn't helped me, I will still be lost now.",
+      "answers": [
+        "If you hadn't helped me, I would still be lost now."
+      ],
+      "explain": "Giả định → would."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu tôi không đi muộn thì giờ tôi đã ở văn phòng rồi.",
+      "answers": [
+        "If I hadn't been late, I would be at the office now.",
+        "If I hadn't left late, I would be at the office now.",
+        "If I had not been late, I would be in the office now.",
+        "If I hadn't been late, I would be in the office now.",
+        "If I hadn't left late, I would be in the office now.",
+        "If I had not been late, I would be at the office now."
+      ],
+      "explain": "Quá khứ → hiện tại."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu tôi giàu thì đã mua căn nhà đó rồi.",
+      "answers": [
+        "If I were rich, I would have bought that house.",
+        "If I was rich, I would have bought that house.",
+        "If I were rich, I'd have bought that house.",
+        "If I had been rich, I would have bought that house.",
+        "If I were rich, I would have bought the house."
+      ],
+      "explain": "Hiện tại → quá khứ (hoặc loại 3)."
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "conditional-inversion",
+  "level": "B2",
+  "title": "Had I known, should you need: đảo ngữ điều kiện",
+  "summary": "Bỏ if và đảo trợ động từ lên đầu: Should you need…, Were I you…, Had I known…; dùng trong văn trang trọng.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Thank you for staying at our hotel.",
+      "vi": "Cảm ơn quý khách đã ở khách sạn chúng tôi."
+    },
+    {
+      "who": "B",
+      "en": "It was lovely. [[Had I known]], I would have stayed longer.",
+      "vi": "Rất tuyệt. Biết vậy tôi đã ở lâu hơn."
+    },
+    {
+      "who": "A",
+      "en": "[[Should you need]] anything else, please call us.",
+      "vi": "Nếu quý khách cần gì thêm, xin cứ gọi."
+    },
+    {
+      "who": "B",
+      "en": "Thanks. Can I leave my bag here until three?",
+      "vi": "Cảm ơn. Tôi gửi túi ở đây đến ba giờ được không?"
+    },
+    {
+      "who": "A",
+      "en": "Of course. [[Were I]] you, I'd visit the old market.",
+      "vi": "Tất nhiên. Nếu là quý khách, tôi sẽ đi chợ cũ."
+    },
+    {
+      "who": "B",
+      "en": "Good idea. I'll go now.",
+      "vi": "Ý hay. Tôi đi ngay đây."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Loại 1",
+      "heading": "Should + S + V",
+      "rule": "**If + S + should + V** → bỏ if, đảo: **Should + S + V** = nếu (chẳng may). Rất hay gặp trong email, thông báo trang trọng.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Should you have]] any questions, please contact us.",
+          "vi": "Nếu có thắc mắc, xin liên hệ chúng tôi.",
+          "why": "= If you have any questions."
+        },
+        {
+          "en": "[[Should the flight be]] delayed, we will inform you.",
+          "vi": "Nếu chuyến bay bị hoãn, chúng tôi sẽ báo quý khách.",
+          "why": "Should + S + V nguyên mẫu (be)."
+        }
+      ],
+      "check": {
+        "prompt": "___ you need help, call this number.",
+        "options": [
+          "Should",
+          "Would",
+          "Had"
+        ],
+        "answer": 0,
+        "explain": "Đảo ngữ loại 1: Should + S + V."
+      }
+    },
+    {
+      "part": "Loại 2",
+      "heading": "Were + S + (to V)",
+      "rule": "**If + S + were** → **Were + S**. Với động từ khác: **Were + S + to V**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Were I]] you, I would accept the offer.",
+          "vi": "Nếu tôi là bạn, tôi sẽ nhận lời.",
+          "why": "= If I were you."
+        },
+        {
+          "en": "[[Were the company to close]], 500 people would lose their jobs.",
+          "vi": "Nếu công ty đóng cửa, 500 người sẽ mất việc.",
+          "why": "Were + S + to V."
+        }
+      ],
+      "check": {
+        "prompt": "___ I rich, I would travel the world.",
+        "options": [
+          "Were",
+          "Was",
+          "Had"
+        ],
+        "answer": 0,
+        "explain": "Đảo ngữ loại 2: Were + S."
+      }
+    },
+    {
+      "part": "Loại 3",
+      "heading": "Had + S + V3",
+      "rule": "**If + S + had + V3** → **Had + S + V3**. Phủ định: **Had + S + not + V3** (không rút gọn hadn't ở đầu câu).",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Had I known]], I would have called you.",
+          "vi": "Biết vậy tôi đã gọi bạn.",
+          "why": "= If I had known."
+        },
+        {
+          "en": "[[Had she not helped]] us, we would have failed.",
+          "vi": "Nếu cô ấy không giúp, chúng tôi đã thất bại.",
+          "why": "Phủ định: Had + S + not + V3."
+        },
+        {
+          "en": "[[Had we left]] earlier, we would have caught the train.",
+          "vi": "Nếu đi sớm hơn, chúng tôi đã kịp tàu.",
+          "why": "Had + S + V3."
+        }
+      ],
+      "check": {
+        "prompt": "___ he studied harder, he would have passed.",
+        "options": [
+          "Had",
+          "Should",
+          "Were"
+        ],
+        "answer": 0,
+        "explain": "Đảo ngữ loại 3: Had + S + V3."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Had I know, I would have come.",
+      "right": "Had I known, I would have come.",
+      "why": "Had + S + V3 (known)."
+    },
+    {
+      "wrong": "Hadn't she helped us, we would have failed.",
+      "right": "Had she not helped us, we would have failed.",
+      "why": "Phủ định: Had + S + not + V3."
+    },
+    {
+      "wrong": "Should you will need help, call me.",
+      "right": "Should you need help, call me.",
+      "why": "Should + S + V nguyên mẫu."
+    },
+    {
+      "wrong": "Was I you, I would go.",
+      "right": "Were I you, I would go.",
+      "why": "Đảo ngữ dùng were cho mọi chủ ngữ."
+    },
+    {
+      "wrong": "If had I known, I would have told you.",
+      "right": "Had I known, I would have told you.",
+      "why": "Đảo ngữ thì bỏ if."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ you require further information, please email us.",
+      "options": [
+        "Should",
+        "Would",
+        "Were"
+      ],
+      "answer": 0,
+      "explain": "Loại 1: Should + S + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ I in your position, I would say no.",
+      "options": [
+        "Were",
+        "Was",
+        "Had"
+      ],
+      "answer": 0,
+      "explain": "Loại 2: Were + S."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ they arrived on time, they would have seen the show.",
+      "options": [
+        "Had",
+        "Should",
+        "Were"
+      ],
+      "answer": 0,
+      "explain": "Loại 3: Had + S + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Had we not left early, we would have missed it.",
+        "Hadn't we left early, we would have missed it."
+      ],
+      "answer": 0,
+      "explain": "Phủ định đảo ngữ: Had + S + not."
+    },
+    {
+      "type": "choice",
+      "prompt": "Should you ___ your card, call the bank at once.",
+      "options": [
+        "lose",
+        "lost",
+        "losing"
+      ],
+      "answer": 0,
+      "explain": "Should + S + V nguyên mẫu."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ I known about the party, I would have come.",
+      "hint": "trợ động từ",
+      "answers": [
+        "Had"
+      ],
+      "explain": "Đảo ngữ loại 3."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you have any problems, let me know.",
+      "hint": "trợ động từ",
+      "answers": [
+        "Should"
+      ],
+      "explain": "Đảo ngữ loại 1."
+    },
+    {
+      "type": "fill",
+      "prompt": "Were the government ___ taxes, people would protest.",
+      "hint": "raise",
+      "answers": [
+        "to raise"
+      ],
+      "explain": "Were + S + to V."
+    },
+    {
+      "type": "fill",
+      "prompt": "Had she ___ the warning, she would have stayed home.",
+      "hint": "hear",
+      "answers": [
+        "heard"
+      ],
+      "explain": "Had + S + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Nếu tôi là bạn, tôi sẽ đi bác sĩ.",
+      "words": [
+        "Were",
+        "I",
+        "you",
+        "I",
+        "would",
+        "see",
+        "a",
+        "doctor."
+      ],
+      "explain": "Were + S."
+    },
+    {
+      "type": "order",
+      "vi": "Biết vậy tôi đã không đến.",
+      "words": [
+        "Had",
+        "I",
+        "known",
+        "I",
+        "would",
+        "not",
+        "have",
+        "come."
+      ],
+      "explain": "Had + S + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "Had I knew the answer, I would have told you.",
+      "answers": [
+        "Had I known the answer, I would have told you."
+      ],
+      "explain": "Had + S + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "Should you will have questions, ask the staff.",
+      "answers": [
+        "Should you have questions, ask the staff."
+      ],
+      "explain": "Should + S + V nguyên mẫu."
+    },
+    {
+      "type": "fix",
+      "sentence": "Was I rich, I would buy a boat.",
+      "answers": [
+        "Were I rich, I would buy a boat."
+      ],
+      "explain": "Đảo ngữ: Were."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu quý khách cần giúp đỡ, xin bấm chuông.",
+      "answers": [
+        "Should you need help, please ring the bell.",
+        "Should you need any help, please ring the bell.",
+        "Should you need assistance, please ring the bell.",
+        "If you need help, please ring the bell.",
+        "Should you need help, ring the bell."
+      ],
+      "explain": "Should + S + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Nếu chúng tôi biết, chúng tôi đã giúp bạn.",
+      "answers": [
+        "Had we known, we would have helped you.",
+        "If we had known, we would have helped you.",
+        "Had we known, we'd have helped you.",
+        "If we'd known, we would have helped you.",
+        "Had we known, we would have helped."
+      ],
+      "explain": "Had + S + V3."
+    }
+  ]
+}

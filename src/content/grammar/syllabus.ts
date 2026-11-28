@@ -122,10 +122,48 @@ export const B1_UNITS: { id: string; title: string; lessons: string[] }[] = [
   { id: "b1-patterns", title: "Mẫu câu và liên kết", lessons: ["gerund-infinitive-meaning", "verb-object-infinitive", "comparison-more", "contrast-purpose"] },
 ];
 
-export type GrammarLevel = "A1" | "A2" | "B1";
+export const B2_SYLLABUS: { id: string; title: string }[] = [
+  { id: "future-perfect", title: "Tương lai hoàn thành: will have done" },
+  { id: "narrative-tenses", title: "Kể chuyện: had been doing và các thì quá khứ" },
+  { id: "future-in-past", title: "Was going to, was about to: dự định trong quá khứ" },
+  { id: "stative-verbs", title: "Động từ trạng thái: I think hay I'm thinking" },
+  { id: "passive-reporting", title: "It is said that, he is believed to" },
+  { id: "passive-forms", title: "Bị động với V-ing, to V và get" },
+  { id: "reporting-verbs", title: "Suggest, warn, admit, deny: động từ tường thuật" },
+  { id: "mixed-conditionals", title: "Câu điều kiện hỗn hợp" },
+  { id: "conditional-linkers", title: "Provided that, otherwise, but for" },
+  { id: "would-rather", title: "Would rather, it's time, wish … would" },
+  { id: "conditional-inversion", title: "Had I known, should you need: đảo ngữ điều kiện" },
+  { id: "past-deduction", title: "Must have been, can't have, might have" },
+  { id: "need-supposed", title: "Needn't have, didn't need to, be supposed to" },
+  { id: "likelihood", title: "Be likely to, be bound to, be about to" },
+  { id: "participle-clauses", title: "Mệnh đề phân từ: Walking home, I saw…" },
+  { id: "relative-advanced", title: "Mệnh đề quan hệ rút gọn, all of whom, which" },
+  { id: "cleft-sentences", title: "Câu chẻ: What I need is…, It was … that" },
+  { id: "inversion-emphasis", title: "Đảo ngữ nhấn mạnh: Never have I, Not only" },
+  { id: "whatever-however", title: "Whatever, whoever, however: bất cứ" },
+  { id: "linking-contrast", title: "Whereas, even though, nevertheless" },
+  { id: "linking-cause", title: "Due to, owing to, consequently" },
+  { id: "verb-patterns-advanced", title: "Prevent from, accuse of, insist on" },
+  { id: "causative-advanced", title: "Get someone to do, have something done" },
+  { id: "quantifiers-advanced", title: "Few, a few, hardly any, neither of" },
+];
+
+/** B2 chapters in teaching order. */
+export const B2_UNITS: { id: string; title: string; lessons: string[] }[] = [
+  { id: "b2-tenses", title: "Thì nâng cao", lessons: ["future-perfect", "narrative-tenses", "future-in-past", "stative-verbs"] },
+  { id: "b2-reporting", title: "Bị động và tường thuật", lessons: ["passive-reporting", "passive-forms", "reporting-verbs"] },
+  { id: "b2-conditionals", title: "Điều kiện và giả định", lessons: ["mixed-conditionals", "conditional-linkers", "would-rather", "conditional-inversion"] },
+  { id: "b2-modals", title: "Suy đoán và khả năng", lessons: ["past-deduction", "need-supposed", "likelihood"] },
+  { id: "b2-clauses", title: "Mệnh đề và nhấn mạnh", lessons: ["participle-clauses", "relative-advanced", "cleft-sentences", "inversion-emphasis", "whatever-however"] },
+  { id: "b2-linking", title: "Liên kết và mẫu câu", lessons: ["linking-contrast", "linking-cause", "verb-patterns-advanced", "causative-advanced", "quantifiers-advanced"] },
+];
+
+export type GrammarLevel = "A1" | "A2" | "B1" | "B2";
 
 export const GRAMMAR_LEVELS: Record<GrammarLevel, { syllabus: { id: string; title: string }[]; units: { id: string; title: string; lessons: string[] }[] }> = {
   A1: { syllabus: A1_SYLLABUS, units: A1_UNITS },
   A2: { syllabus: A2_SYLLABUS, units: A2_UNITS },
   B1: { syllabus: B1_SYLLABUS, units: B1_UNITS },
+  B2: { syllabus: B2_SYLLABUS, units: B2_UNITS },
 };

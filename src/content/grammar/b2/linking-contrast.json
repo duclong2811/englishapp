@@ -1,0 +1,325 @@
+{
+  "id": "linking-contrast",
+  "level": "B2",
+  "title": "Whereas, even though, nevertheless",
+  "summary": "Nối ý tương phản: whereas/while (so sánh hai bên), even though (dù), nevertheless/nonetheless (tuy vậy), in spite of the fact that.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Do you and your sister look alike?",
+      "vi": "Bạn với chị gái có giống nhau không?"
+    },
+    {
+      "who": "B",
+      "en": "Not really. She's tall, [[whereas]] I'm quite short.",
+      "vi": "Không lắm. Chị ấy cao, còn mình khá thấp."
+    },
+    {
+      "who": "A",
+      "en": "Do you get on well?",
+      "vi": "Hai chị em có hợp nhau không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, [[even though]] we argue sometimes.",
+      "vi": "Có, dù đôi khi cãi nhau."
+    },
+    {
+      "who": "A",
+      "en": "She lives far away now, right?",
+      "vi": "Giờ chị ấy sống xa phải không?"
+    },
+    {
+      "who": "B",
+      "en": "Yes. [[Nevertheless]], we talk every day.",
+      "vi": "Ừ. Tuy vậy, ngày nào bọn mình cũng nói chuyện."
+    }
+  ],
+  "sections": [
+    {
+      "part": "So sánh hai bên",
+      "heading": "Whereas, while",
+      "rule": "**whereas / while** nối hai mệnh đề **trái ngược nhau** khi so sánh hai người, hai vật. Thường có dấu phẩy.",
+      "body": [],
+      "examples": [
+        {
+          "en": "My brother loves football, [[whereas]] I prefer tennis.",
+          "vi": "Anh tôi thích bóng đá, còn tôi thích quần vợt hơn.",
+          "why": "So sánh hai người."
+        },
+        {
+          "en": "[[While]] the city is noisy, the village is calm.",
+          "vi": "Thành phố ồn ào, trong khi làng quê yên tĩnh.",
+          "why": "While đứng đầu câu."
+        }
+      ],
+      "check": {
+        "prompt": "Hanoi has four seasons, ___ Saigon is hot all year.",
+        "options": [
+          "whereas",
+          "despite",
+          "however"
+        ],
+        "answer": 0,
+        "explain": "So sánh hai nơi → whereas."
+      }
+    },
+    {
+      "part": "Dù",
+      "heading": "Even though, in spite of the fact that",
+      "rule": "**even though** = dù (mạnh hơn although) + mệnh đề. **in spite of / despite + the fact that + mệnh đề**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[Even though]] it was raining, we went out.",
+          "vi": "Dù trời mưa chúng tôi vẫn ra ngoài.",
+          "why": "Even though + mệnh đề."
+        },
+        {
+          "en": "[[Despite the fact that]] he was ill, he came to work.",
+          "vi": "Mặc dù bị ốm anh ấy vẫn đi làm.",
+          "why": "Despite the fact that + mệnh đề."
+        }
+      ],
+      "check": {
+        "prompt": "In spite of the fact ___ she was tired, she kept working.",
+        "options": [
+          "that",
+          "of",
+          "which"
+        ],
+        "answer": 0,
+        "explain": "In spite of the fact that + mệnh đề."
+      }
+    },
+    {
+      "part": "Tuy vậy",
+      "heading": "Nevertheless, nonetheless, even so",
+      "rule": "**nevertheless / nonetheless / even so** = tuy vậy. Đứng **đầu câu mới**, sau dấu chấm hoặc chấm phẩy, có dấu phẩy theo sau. Trang trọng hơn however.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The task was hard. [[Nevertheless]], we finished on time.",
+          "vi": "Việc khó. Tuy vậy, chúng tôi vẫn xong đúng hạn.",
+          "why": "Đầu câu mới, sau đó dấu phẩy."
+        },
+        {
+          "en": "It was expensive; [[even so]], it was worth it.",
+          "vi": "Nó đắt; dù vậy vẫn đáng tiền.",
+          "why": "Sau dấu chấm phẩy."
+        }
+      ],
+      "check": {
+        "prompt": "The hotel was old. ___, it was very clean.",
+        "options": [
+          "Nevertheless",
+          "Whereas",
+          "Even though"
+        ],
+        "answer": 0,
+        "explain": "Câu mới, ý trái ngược → Nevertheless."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Even though the rain, we went out.",
+      "right": "Even though it was raining, we went out.",
+      "why": "Even though + mệnh đề."
+    },
+    {
+      "wrong": "Despite he was ill, he came.",
+      "right": "Despite being ill, he came.",
+      "why": "Despite + danh từ / V-ing."
+    },
+    {
+      "wrong": "It was cold, nevertheless we swam.",
+      "right": "It was cold. Nevertheless, we swam.",
+      "why": "Nevertheless mở câu mới."
+    },
+    {
+      "wrong": "She likes tea, whereas likes coffee he.",
+      "right": "She likes tea, whereas he likes coffee.",
+      "why": "Mệnh đề sau whereas giữ trật tự S + V."
+    },
+    {
+      "wrong": "In spite of the fact he was late, he got the job.",
+      "right": "In spite of the fact that he was late, he got the job.",
+      "why": "Thêm that."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I like the beach, ___ my wife prefers the mountains.",
+      "options": [
+        "whereas",
+        "despite",
+        "nevertheless"
+      ],
+      "answer": 0,
+      "explain": "So sánh hai người → whereas."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ he had no experience, he got the job.",
+      "options": [
+        "Even though",
+        "Despite",
+        "In spite of"
+      ],
+      "answer": 0,
+      "explain": "+ mệnh đề → even though."
+    },
+    {
+      "type": "choice",
+      "prompt": "The film was long. ___, I enjoyed it.",
+      "options": [
+        "Nevertheless",
+        "Whereas",
+        "Although"
+      ],
+      "answer": 0,
+      "explain": "Câu mới → Nevertheless."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ the fact that it was late, the shop was busy.",
+      "options": [
+        "Despite",
+        "Although",
+        "Whereas"
+      ],
+      "answer": 0,
+      "explain": "Despite the fact that."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "Even though tired, she kept going.",
+        "Even though she was tired, she kept going."
+      ],
+      "answer": 1,
+      "explain": "Even though + mệnh đề đầy đủ."
+    },
+    {
+      "type": "fill",
+      "prompt": "My sister is shy, ___ I am very talkative.",
+      "hint": "còn",
+      "answers": [
+        "whereas",
+        "while"
+      ],
+      "explain": "So sánh → whereas/while."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ though the food was cheap, it was delicious.",
+      "hint": "dù",
+      "answers": [
+        "Even"
+      ],
+      "explain": "Even though."
+    },
+    {
+      "type": "fill",
+      "prompt": "The road was icy. ___, he drove fast.",
+      "hint": "tuy vậy",
+      "answers": [
+        "Nevertheless",
+        "Nonetheless",
+        "Even so"
+      ],
+      "explain": "Câu mới, tương phản."
+    },
+    {
+      "type": "fill",
+      "prompt": "In spite of the fact ___ it was Sunday, she worked.",
+      "hint": "từ nối",
+      "answers": [
+        "that"
+      ],
+      "explain": "In spite of the fact that."
+    },
+    {
+      "type": "order",
+      "vi": "Dù mệt cô ấy vẫn làm tiếp.",
+      "words": [
+        "Even",
+        "though",
+        "she",
+        "was",
+        "tired",
+        "she",
+        "kept",
+        "working."
+      ],
+      "explain": "Even though + mệnh đề."
+    },
+    {
+      "type": "order",
+      "vi": "Anh tôi cao còn tôi thấp.",
+      "words": [
+        "My",
+        "brother",
+        "is",
+        "tall",
+        "whereas",
+        "I",
+        "am",
+        "short."
+      ],
+      "explain": "Whereas so sánh."
+    },
+    {
+      "type": "fix",
+      "sentence": "Even though the traffic, we arrived on time.",
+      "answers": [
+        "Even though the traffic was bad, we arrived on time."
+      ],
+      "explain": "Even though + mệnh đề."
+    },
+    {
+      "type": "fix",
+      "sentence": "In spite the rain, we went out.",
+      "answers": [
+        "In spite of the rain, we went out."
+      ],
+      "explain": "In spite of + danh từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "Despite he studied hard, he failed.",
+      "answers": [
+        "Although he studied hard, he failed."
+      ],
+      "explain": "Mệnh đề → although/even though."
+    },
+    {
+      "type": "translate",
+      "vi": "Dù đắt, tôi vẫn mua nó.",
+      "answers": [
+        "Even though it was expensive, I bought it.",
+        "Even though it was expensive, I still bought it.",
+        "Although it was expensive, I bought it.",
+        "Although it was expensive, I still bought it.",
+        "Despite the price, I bought it.",
+        "Even though it was expensive, I bought it anyway."
+      ],
+      "explain": "Even though + mệnh đề."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi thích trà, còn chồng tôi thích cà phê.",
+      "answers": [
+        "I like tea, whereas my husband likes coffee.",
+        "I like tea, while my husband likes coffee.",
+        "I like tea whereas my husband likes coffee.",
+        "I prefer tea, whereas my husband prefers coffee.",
+        "I like tea, but my husband likes coffee."
+      ],
+      "explain": "Whereas / while."
+    }
+  ]
+}

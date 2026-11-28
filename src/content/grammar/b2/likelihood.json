@@ -1,0 +1,331 @@
+{
+  "id": "likelihood",
+  "level": "B2",
+  "title": "Be likely to, be bound to, be about to",
+  "summary": "Nói khả năng xảy ra: be likely/unlikely to (có thể/khó), be bound to (chắc chắn), be about to (sắp), be due to (theo lịch).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Is the new café opening this week?",
+      "vi": "Quán cà phê mới tuần này khai trương à?"
+    },
+    {
+      "who": "B",
+      "en": "It [['s due to]] open on Friday.",
+      "vi": "Theo kế hoạch thứ Sáu khai trương."
+    },
+    {
+      "who": "A",
+      "en": "It [['s bound to]] be busy. Everyone's talking about it.",
+      "vi": "Chắc chắn sẽ đông. Ai cũng bàn về nó."
+    },
+    {
+      "who": "B",
+      "en": "Yes, there [['s likely to]] be a long queue.",
+      "vi": "Ừ, chắc sẽ phải xếp hàng dài."
+    },
+    {
+      "who": "A",
+      "en": "Let's go early, then. Oh, the rain [['s about to]] start.",
+      "vi": "Vậy đi sớm nhé. Ồ, trời sắp mưa rồi."
+    },
+    {
+      "who": "B",
+      "en": "Quick, let's go inside!",
+      "vi": "Nhanh, vào trong thôi!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Khả năng",
+      "heading": "Be likely / unlikely to + V",
+      "rule": "**be likely to + V** = có khả năng; **be unlikely to + V** = khó có khả năng. Cũng nói **It is likely that + mệnh đề**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Prices [[are likely to]] rise next year.",
+          "vi": "Giá có khả năng tăng năm tới.",
+          "why": "Be likely to + V."
+        },
+        {
+          "en": "He [['s unlikely to]] come before ten.",
+          "vi": "Khó mà anh ấy đến trước mười giờ.",
+          "why": "Unlikely = khó."
+        },
+        {
+          "en": "[[It is likely that]] the shop will close.",
+          "vi": "Có khả năng cửa hàng sẽ đóng cửa.",
+          "why": "It is likely that + mệnh đề."
+        }
+      ],
+      "check": {
+        "prompt": "It's very cloudy. It's ___ rain later.",
+        "options": [
+          "likely to",
+          "likely",
+          "likely that"
+        ],
+        "answer": 0,
+        "explain": "Be likely to + V."
+      }
+    },
+    {
+      "part": "Chắc chắn",
+      "heading": "Be bound to + V",
+      "rule": "**be bound to + V** = **chắc chắn sẽ** (người nói rất tin).",
+      "body": [],
+      "examples": [
+        {
+          "en": "You [['re bound to]] pass. You studied so hard.",
+          "vi": "Bạn chắc chắn đỗ. Bạn học chăm thế mà.",
+          "why": "Rất tin → bound to."
+        },
+        {
+          "en": "It [['s bound to]] be crowded on Saturday.",
+          "vi": "Thứ Bảy chắc chắn sẽ đông.",
+          "why": "Bound to + V."
+        }
+      ],
+      "check": {
+        "prompt": "Don't worry, she's ___ find a job soon.",
+        "options": [
+          "bound to",
+          "about to",
+          "likely"
+        ],
+        "answer": 0,
+        "explain": "Chắc chắn sẽ → bound to."
+      }
+    },
+    {
+      "part": "Sắp và theo lịch",
+      "heading": "Be about to, be due to",
+      "rule": "**be about to + V** = sắp (ngay bây giờ). **be due to + V** = theo lịch / kế hoạch sẽ.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Hurry! The bus [['s about to]] leave.",
+          "vi": "Nhanh lên! Xe buýt sắp chạy.",
+          "why": "Ngay bây giờ → about to."
+        },
+        {
+          "en": "The baby [['s due to]] arrive in March.",
+          "vi": "Em bé dự sinh vào tháng Ba.",
+          "why": "Theo lịch → due to."
+        },
+        {
+          "en": "The meeting [[was due to]] start at two.",
+          "vi": "Cuộc họp lẽ ra bắt đầu lúc hai giờ.",
+          "why": "Kế hoạch trong quá khứ."
+        }
+      ],
+      "check": {
+        "prompt": "The plane is ___ land in five minutes.",
+        "options": [
+          "about to",
+          "bound",
+          "likely that"
+        ],
+        "answer": 0,
+        "explain": "Sắp xảy ra ngay → about to."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "It's likely rain tomorrow.",
+      "right": "It's likely to rain tomorrow.",
+      "why": "Be likely to + V."
+    },
+    {
+      "wrong": "He is bound to winning.",
+      "right": "He is bound to win.",
+      "why": "Bound to + V."
+    },
+    {
+      "wrong": "The film is about start.",
+      "right": "The film is about to start.",
+      "why": "Be about to + V."
+    },
+    {
+      "wrong": "She is unlikely coming.",
+      "right": "She is unlikely to come.",
+      "why": "Unlikely to + V."
+    },
+    {
+      "wrong": "The train is due arrive at five.",
+      "right": "The train is due to arrive at five.",
+      "why": "Due to + V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Sales are ___ fall this month.",
+      "options": [
+        "likely to",
+        "likely",
+        "about"
+      ],
+      "answer": 0,
+      "explain": "Be likely to + V."
+    },
+    {
+      "type": "choice",
+      "prompt": "He always forgets. He's ___ forget again.",
+      "options": [
+        "bound to",
+        "due to",
+        "unlikely"
+      ],
+      "answer": 0,
+      "explain": "Chắc chắn → bound to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Sit down, the show is ___ begin.",
+      "options": [
+        "about to",
+        "likely",
+        "due"
+      ],
+      "answer": 0,
+      "explain": "Sắp ngay → about to."
+    },
+    {
+      "type": "choice",
+      "prompt": "The new bridge is ___ open next month.",
+      "options": [
+        "due to",
+        "about",
+        "bound"
+      ],
+      "answer": 0,
+      "explain": "Theo kế hoạch → due to."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nghĩa là KHÓ xảy ra?",
+      "options": [
+        "She is likely to win.",
+        "She is unlikely to win."
+      ],
+      "answer": 1,
+      "explain": "Unlikely = khó."
+    },
+    {
+      "type": "fill",
+      "prompt": "There ___ be a lot of traffic at five.",
+      "hint": "likely",
+      "answers": [
+        "is likely to",
+        "'s likely to"
+      ],
+      "explain": "Be likely to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "We were ___ leave when it started to rain.",
+      "hint": "about",
+      "answers": [
+        "about to"
+      ],
+      "explain": "Be about to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "The report ___ be finished by Monday.",
+      "hint": "due",
+      "answers": [
+        "is due to",
+        "'s due to"
+      ],
+      "explain": "Theo kế hoạch → be due to."
+    },
+    {
+      "type": "fill",
+      "prompt": "You're ___ to like this film. Everyone loves it.",
+      "hint": "bound",
+      "answers": [
+        "bound"
+      ],
+      "explain": "Be bound to + V."
+    },
+    {
+      "type": "order",
+      "vi": "Có khả năng ngày mai trời mưa.",
+      "words": [
+        "It",
+        "is",
+        "likely",
+        "to",
+        "rain",
+        "tomorrow."
+      ],
+      "explain": "Be likely to + V."
+    },
+    {
+      "type": "order",
+      "vi": "Tàu sắp chạy rồi.",
+      "words": [
+        "The",
+        "train",
+        "is",
+        "about",
+        "to",
+        "leave."
+      ],
+      "explain": "Be about to + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "It is bound to raining tonight.",
+      "answers": [
+        "It is bound to rain tonight."
+      ],
+      "explain": "Bound to + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "He is likely that he will be late.",
+      "answers": [
+        "He is likely to be late."
+      ],
+      "explain": "Chủ ngữ người → is likely to + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "The concert is due start at eight.",
+      "answers": [
+        "The concert is due to start at eight."
+      ],
+      "explain": "Due to + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh ấy khó mà đến đúng giờ.",
+      "answers": [
+        "He is unlikely to arrive on time.",
+        "He's unlikely to arrive on time.",
+        "He is unlikely to come on time.",
+        "He's unlikely to come on time.",
+        "He is unlikely to be on time.",
+        "He's unlikely to be on time."
+      ],
+      "explain": "Unlikely to + V."
+    },
+    {
+      "type": "translate",
+      "vi": "Chuyến bay dự kiến hạ cánh lúc 9 giờ.",
+      "answers": [
+        "The flight is due to land at 9.",
+        "The flight is due to land at nine.",
+        "The flight is due to arrive at 9.",
+        "The flight is due to arrive at nine.",
+        "The flight is expected to land at 9.",
+        "The flight is expected to land at nine."
+      ],
+      "explain": "Be due to + V."
+    }
+  ]
+}

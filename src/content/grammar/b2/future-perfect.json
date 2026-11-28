@@ -1,0 +1,367 @@
+{
+  "id": "future-perfect",
+  "level": "B2",
+  "title": "Tương lai hoàn thành: will have done",
+  "summary": "Nói việc sẽ xong trước một mốc tương lai: will have + V3, by then, by the time; và will have been doing cho thời lượng.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Can we meet at six to talk about the report?",
+      "vi": "Sáu giờ mình gặp nhau bàn về báo cáo được không?"
+    },
+    {
+      "who": "B",
+      "en": "Sure. By six, I [[will have finished]] the first draft.",
+      "vi": "Được. Trước sáu giờ mình sẽ viết xong bản nháp đầu."
+    },
+    {
+      "who": "A",
+      "en": "Great. Have you booked the flights for Da Nang?",
+      "vi": "Tuyệt. Bạn đặt vé máy bay đi Đà Nẵng chưa?"
+    },
+    {
+      "who": "B",
+      "en": "Not yet, but I [['ll have booked]] them by Friday.",
+      "vi": "Chưa, nhưng trước thứ Sáu mình sẽ đặt xong."
+    },
+    {
+      "who": "A",
+      "en": "You must be tired. You started work at seven.",
+      "vi": "Chắc bạn mệt lắm. Bạn làm từ bảy giờ sáng."
+    },
+    {
+      "who": "B",
+      "en": "Yes, by six I [['ll have been working]] for eleven hours!",
+      "vi": "Ừ, đến sáu giờ là mình làm việc được mười một tiếng rồi!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Will have + V3",
+      "rule": "Tương lai hoàn thành = **will have + V3**, giống nhau cho mọi chủ ngữ. Phủ định: **won't have + V3**.",
+      "formula": [
+        {
+          "text": "S + [will have] + V3"
+        },
+        {
+          "text": "S + [won't have] + V3"
+        },
+        {
+          "text": "[Will] + S + [have] + V3…?"
+        }
+      ],
+      "body": [
+        "Khi nói thường rút gọn: *I'll have, she'll have*. Câu hỏi hay dùng: *Will you have finished by…?*"
+      ],
+      "examples": [
+        {
+          "en": "She [[will have left]] by noon.",
+          "vi": "Trước trưa cô ấy sẽ đi rồi.",
+          "why": "Will have + V3 (left)."
+        },
+        {
+          "en": "We [[won't have finished]] the project by May.",
+          "vi": "Đến tháng Năm chúng tôi vẫn chưa xong dự án.",
+          "why": "Phủ định: won't have + V3."
+        },
+        {
+          "en": "[[Will]] you [[have read]] it by Monday?",
+          "vi": "Đến thứ Hai bạn đọc xong chưa?",
+          "why": "Câu hỏi: Will + S + have + V3."
+        }
+      ],
+      "check": {
+        "prompt": "By next year, they ___ the new bridge.",
+        "options": [
+          "will have built",
+          "will build",
+          "have built"
+        ],
+        "answer": 0,
+        "explain": "Xong trước một mốc tương lai → will have built."
+      }
+    },
+    {
+      "part": "Cách dùng",
+      "heading": "Xong trước một mốc tương lai",
+      "rule": "Dùng khi nhìn từ một **mốc tương lai** và nói việc **đã xong trước mốc đó**. Hay đi với **by + thời gian**, **by the time + hiện tại đơn**.",
+      "signals": [
+        "by Friday",
+        "by then",
+        "by the time",
+        "before",
+        "in two years"
+      ],
+      "body": [
+        "Sau **by the time** dùng **hiện tại đơn**, không dùng will: *By the time you arrive, I'll have cooked dinner.*",
+        "Tiếng Việt nói *sẽ… xong / sẽ… rồi*; tiếng Anh cần will have + V3."
+      ],
+      "examples": [
+        {
+          "en": "By the time you arrive, I [['ll have cooked]] dinner.",
+          "vi": "Lúc bạn tới thì tôi đã nấu xong bữa tối.",
+          "why": "By the time + hiện tại đơn (arrive); việc xong trước → will have cooked."
+        },
+        {
+          "en": "In two years, he [[will have graduated]].",
+          "vi": "Hai năm nữa anh ấy sẽ tốt nghiệp rồi.",
+          "why": "Nhìn từ mốc hai năm nữa, việc tốt nghiệp đã xong."
+        },
+        {
+          "en": "Call me at nine. I [['ll have landed]] by then.",
+          "vi": "Chín giờ gọi tôi nhé. Lúc đó tôi hạ cánh rồi.",
+          "why": "By then = trước mốc chín giờ."
+        }
+      ],
+      "check": {
+        "prompt": "By the time she ___, we'll have eaten.",
+        "options": [
+          "gets home",
+          "will get home",
+          "got home"
+        ],
+        "answer": 0,
+        "explain": "Sau by the time dùng hiện tại đơn."
+      }
+    },
+    {
+      "part": "Mở rộng",
+      "heading": "Will have been doing: nói thời lượng",
+      "rule": "**Will have been + V-ing** nói một việc **kéo dài bao lâu** tính đến một mốc tương lai.",
+      "formula": [
+        {
+          "text": "S + [will have been] + V-ing + for…"
+        }
+      ],
+      "body": [],
+      "examples": [
+        {
+          "en": "Next month, I [['ll have been living]] here for ten years.",
+          "vi": "Tháng sau là tôi sống ở đây được mười năm.",
+          "why": "Nhấn thời lượng tính đến mốc tương lai."
+        },
+        {
+          "en": "By five, they [[will have been driving]] for six hours.",
+          "vi": "Đến năm giờ, họ lái xe được sáu tiếng rồi.",
+          "why": "Will have been + V-ing + for."
+        }
+      ],
+      "check": {
+        "prompt": "In June, she ___ English for three years.",
+        "options": [
+          "will have been learning",
+          "will learn",
+          "is learning"
+        ],
+        "answer": 0,
+        "explain": "Thời lượng tính đến mốc tương lai → will have been learning."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "By Friday I will finish the report.",
+      "right": "By Friday I will have finished the report.",
+      "why": "Xong trước mốc tương lai → will have finished."
+    },
+    {
+      "wrong": "By the time you will arrive, I'll have left.",
+      "right": "By the time you arrive, I'll have left.",
+      "why": "Sau by the time dùng hiện tại đơn."
+    },
+    {
+      "wrong": "She will have went home by then.",
+      "right": "She will have gone home by then.",
+      "why": "Sau have dùng V3 (gone)."
+    },
+    {
+      "wrong": "They will has finished by noon.",
+      "right": "They will have finished by noon.",
+      "why": "Sau will luôn là have, không chia has."
+    },
+    {
+      "wrong": "Next year I will live here for five years.",
+      "right": "Next year I will have been living here for five years.",
+      "why": "Thời lượng đến mốc tương lai → will have been living."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "By the end of the day, I ___ 200 emails.",
+      "options": [
+        "will have answered",
+        "have answered",
+        "answer"
+      ],
+      "answer": 0,
+      "explain": "Mốc tương lai: by the end of the day → will have answered."
+    },
+    {
+      "type": "choice",
+      "prompt": "By the time the guests ___, the food will be ready.",
+      "options": [
+        "arrive",
+        "will arrive",
+        "arrived"
+      ],
+      "answer": 0,
+      "explain": "By the time + hiện tại đơn."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ you have finished the report by Monday?",
+      "options": [
+        "Will",
+        "Do",
+        "Have"
+      ],
+      "answer": 0,
+      "explain": "Câu hỏi: Will + S + have + V3."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào nói việc xong TRƯỚC 8 giờ?",
+      "options": [
+        "At eight, I'll make breakfast.",
+        "By eight, I'll have made breakfast."
+      ],
+      "answer": 1,
+      "explain": "By + mốc → will have made: đã xong trước 8 giờ."
+    },
+    {
+      "type": "choice",
+      "prompt": "In May, we ___ married for twenty years.",
+      "options": [
+        "will have been",
+        "will be",
+        "have been"
+      ],
+      "answer": 0,
+      "explain": "Thời lượng tính đến mốc tương lai: will have been married."
+    },
+    {
+      "type": "fill",
+      "prompt": "By 2030, the city ___ a new metro line.",
+      "hint": "build",
+      "answers": [
+        "will have built",
+        "'ll have built"
+      ],
+      "explain": "Xong trước mốc 2030 → will have built."
+    },
+    {
+      "type": "fill",
+      "prompt": "Don't call at seven. We ___ dinner yet.",
+      "hint": "not finish",
+      "answers": [
+        "won't have finished",
+        "will not have finished"
+      ],
+      "explain": "Phủ định: won't have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "By midnight, she ___ for ten hours.",
+      "hint": "study",
+      "answers": [
+        "will have been studying",
+        "'ll have been studying"
+      ],
+      "explain": "Thời lượng đến mốc → will have been studying."
+    },
+    {
+      "type": "fill",
+      "prompt": "By the time you ___ this, I'll be in Hue.",
+      "hint": "read",
+      "answers": [
+        "read"
+      ],
+      "explain": "Sau by the time dùng hiện tại đơn: read."
+    },
+    {
+      "type": "order",
+      "vi": "Đến thứ Sáu tôi sẽ làm xong việc.",
+      "words": [
+        "I",
+        "will",
+        "have",
+        "finished",
+        "the",
+        "work",
+        "by",
+        "Friday."
+      ],
+      "alternatives": [
+        "By Friday I will have finished the work."
+      ],
+      "explain": "Will have + V3 + by + mốc."
+    },
+    {
+      "type": "order",
+      "vi": "Lúc đó họ đã rời đi rồi.",
+      "words": [
+        "They",
+        "will",
+        "have",
+        "left",
+        "by",
+        "then."
+      ],
+      "alternatives": [
+        "By then they will have left."
+      ],
+      "explain": "By then = trước mốc đó."
+    },
+    {
+      "type": "fix",
+      "sentence": "By next week, I will finish this book.",
+      "answers": [
+        "By next week, I will have finished this book."
+      ],
+      "explain": "Xong trước mốc tương lai → will have finished."
+    },
+    {
+      "type": "fix",
+      "sentence": "By the time we will get there, the shop will have closed.",
+      "answers": [
+        "By the time we get there, the shop will have closed."
+      ],
+      "explain": "Sau by the time: hiện tại đơn (get)."
+    },
+    {
+      "type": "fix",
+      "sentence": "He will have spoke to the manager by then.",
+      "answers": [
+        "He will have spoken to the manager by then."
+      ],
+      "explain": "Sau have → V3: spoken."
+    },
+    {
+      "type": "translate",
+      "vi": "Đến cuối năm, tôi sẽ tiết kiệm được 20 triệu.",
+      "answers": [
+        "By the end of the year, I will have saved 20 million.",
+        "By the end of the year, I'll have saved 20 million.",
+        "By the end of the year, I will have saved twenty million.",
+        "I will have saved 20 million by the end of the year.",
+        "I'll have saved 20 million by the end of the year."
+      ],
+      "explain": "Xong trước mốc cuối năm → will have saved."
+    },
+    {
+      "type": "translate",
+      "vi": "Tháng sau là tôi làm ở công ty này được năm năm.",
+      "answers": [
+        "Next month, I will have been working at this company for five years.",
+        "Next month, I'll have been working at this company for five years.",
+        "Next month I will have worked at this company for five years.",
+        "Next month, I'll have worked at this company for five years.",
+        "Next month, I will have been working for this company for five years.",
+        "Next month, I'll have been working for this company for five years."
+      ],
+      "explain": "Thời lượng đến mốc → will have been working."
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "whatever-however",
+  "level": "B2",
+  "title": "Whatever, whoever, however: bất cứ",
+  "summary": "Whatever, whoever, wherever, whenever, however = bất cứ cái gì/ai/đâu/lúc nào/thế nào; no matter what/how.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Where should we go for dinner?",
+      "vi": "Tối nay mình đi ăn ở đâu?"
+    },
+    {
+      "who": "B",
+      "en": "[[Wherever]] you like. I'm not picky.",
+      "vi": "Đâu cũng được. Mình không kén."
+    },
+    {
+      "who": "A",
+      "en": "OK. And you can order [[whatever]] you want. My treat.",
+      "vi": "Được. Bạn gọi gì cũng được. Mình mời."
+    },
+    {
+      "who": "B",
+      "en": "Thanks! [[However]] busy you are, call your mom tonight.",
+      "vi": "Cảm ơn! Dù bận đến đâu, tối nay gọi cho mẹ nhé."
+    },
+    {
+      "who": "A",
+      "en": "I know. [[No matter what]] happens, I call her every Sunday.",
+      "vi": "Biết rồi. Dù có chuyện gì, chủ nhật nào mình cũng gọi."
+    },
+    {
+      "who": "B",
+      "en": "Good. Come [[whenever]] you're ready.",
+      "vi": "Tốt. Sẵn sàng lúc nào thì đi lúc đó."
+    }
+  ],
+  "sections": [
+    {
+      "part": "-ever",
+      "heading": "Whatever, whoever, wherever, whenever",
+      "rule": "**whatever** = bất cứ cái gì; **whoever** = bất cứ ai; **wherever** = bất cứ đâu; **whenever** = bất cứ lúc nào.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Take [[whatever]] you need.",
+          "vi": "Cần gì cứ lấy.",
+          "why": "Whatever = bất cứ cái gì."
+        },
+        {
+          "en": "[[Whoever]] finishes first wins a prize.",
+          "vi": "Ai xong trước sẽ được thưởng.",
+          "why": "Whoever làm chủ ngữ."
+        },
+        {
+          "en": "Call me [[whenever]] you're free.",
+          "vi": "Rảnh lúc nào thì gọi tôi.",
+          "why": "Whenever = bất cứ lúc nào."
+        },
+        {
+          "en": "I'll follow you [[wherever]] you go.",
+          "vi": "Bạn đi đâu tôi theo đó.",
+          "why": "Wherever = bất cứ đâu."
+        }
+      ],
+      "check": {
+        "prompt": "You can sit ___ you like.",
+        "options": [
+          "wherever",
+          "whatever",
+          "whoever"
+        ],
+        "answer": 0,
+        "explain": "Bất cứ đâu → wherever."
+      }
+    },
+    {
+      "part": "However + tính từ",
+      "heading": "However + tính từ/trạng từ = dù… đến đâu",
+      "rule": "**However + tính từ / trạng từ + S + V** = dù… đến mức nào. Cũng nói **No matter how**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[However]] hard I try, I can't sleep.",
+          "vi": "Dù cố thế nào tôi cũng không ngủ được.",
+          "why": "However + trạng từ."
+        },
+        {
+          "en": "[[No matter how]] tired she is, she cooks dinner.",
+          "vi": "Dù mệt đến đâu cô ấy vẫn nấu bữa tối.",
+          "why": "No matter how = however."
+        }
+      ],
+      "check": {
+        "prompt": "___ expensive it is, I'll buy it.",
+        "options": [
+          "However",
+          "Whatever",
+          "Whoever"
+        ],
+        "answer": 0,
+        "explain": "Dù… đến đâu + tính từ → However."
+      }
+    },
+    {
+      "part": "No matter",
+      "heading": "No matter what / who / where",
+      "rule": "**No matter + what / who / where / when** = dù… (cái gì, ai, đâu, lúc nào) = whatever / whoever…",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[No matter what]] you say, I won't change my mind.",
+          "vi": "Dù bạn nói gì tôi cũng không đổi ý.",
+          "why": "= Whatever you say."
+        },
+        {
+          "en": "[[No matter where]] he goes, he takes his camera.",
+          "vi": "Đi đâu anh ấy cũng mang máy ảnh.",
+          "why": "= Wherever he goes."
+        }
+      ],
+      "check": {
+        "prompt": "No matter ___ you call, she never answers.",
+        "options": [
+          "when",
+          "however",
+          "whatever"
+        ],
+        "answer": 0,
+        "explain": "Dù gọi lúc nào → no matter when."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Whatever you go, I'll go with you.",
+      "right": "Wherever you go, I'll go with you.",
+      "why": "Nơi chốn → wherever."
+    },
+    {
+      "wrong": "No matter how you say, I won't go.",
+      "right": "No matter what you say, I won't go.",
+      "why": "Nói gì → what."
+    },
+    {
+      "wrong": "However I am tired, I will finish.",
+      "right": "However tired I am, I will finish.",
+      "why": "However + tính từ đứng ngay sau."
+    },
+    {
+      "wrong": "Who ever comes first gets a seat.",
+      "right": "Whoever comes first gets a seat.",
+      "why": "Viết liền: whoever."
+    },
+    {
+      "wrong": "Call me whatever you need help.",
+      "right": "Call me whenever you need help.",
+      "why": "Thời gian → whenever."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "___ you do, don't tell him.",
+      "options": [
+        "Whatever",
+        "Whoever",
+        "Wherever"
+      ],
+      "answer": 0,
+      "explain": "Bất cứ điều gì → whatever."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ breaks the rules will be punished.",
+      "options": [
+        "Whoever",
+        "Whatever",
+        "However"
+      ],
+      "answer": 0,
+      "explain": "Bất cứ ai → whoever."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ hard the test is, I'll pass it.",
+      "options": [
+        "However",
+        "Whatever",
+        "No matter"
+      ],
+      "answer": 0,
+      "explain": "However + tính từ."
+    },
+    {
+      "type": "choice",
+      "prompt": "My dog follows me ___ I go.",
+      "options": [
+        "wherever",
+        "whatever",
+        "whenever"
+      ],
+      "answer": 0,
+      "explain": "Bất cứ đâu → wherever."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "No matter how much it costs, I want it.",
+        "No matter what much it costs, I want it."
+      ],
+      "answer": 0,
+      "explain": "No matter how + much."
+    },
+    {
+      "type": "fill",
+      "prompt": "You can visit us ___ you like.",
+      "hint": "bất cứ lúc nào",
+      "answers": [
+        "whenever"
+      ],
+      "explain": "Thời gian → whenever."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you choose, I'll be happy.",
+      "hint": "bất cứ cái gì",
+      "answers": [
+        "Whatever"
+      ],
+      "explain": "Bất cứ cái gì."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ fast he runs, he can't catch the bus.",
+      "hint": "dù… đến đâu",
+      "answers": [
+        "However"
+      ],
+      "explain": "However + trạng từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "No ___ who you are, you must follow the rules.",
+      "hint": "matter",
+      "answers": [
+        "matter"
+      ],
+      "explain": "No matter who."
+    },
+    {
+      "type": "order",
+      "vi": "Dù bạn nói gì tôi cũng đi.",
+      "words": [
+        "Whatever",
+        "you",
+        "say",
+        "I",
+        "will",
+        "go."
+      ],
+      "explain": "Whatever = bất cứ điều gì."
+    },
+    {
+      "type": "order",
+      "vi": "Gọi tôi bất cứ lúc nào.",
+      "words": [
+        "Call",
+        "me",
+        "whenever",
+        "you",
+        "want."
+      ],
+      "explain": "Whenever."
+    },
+    {
+      "type": "fix",
+      "sentence": "However she is busy, she always helps.",
+      "answers": [
+        "However busy she is, she always helps."
+      ],
+      "explain": "However + tính từ đứng ngay sau."
+    },
+    {
+      "type": "fix",
+      "sentence": "Whatever you go, take a map.",
+      "answers": [
+        "Wherever you go, take a map."
+      ],
+      "explain": "Nơi chốn → wherever."
+    },
+    {
+      "type": "fix",
+      "sentence": "No matter how you do, do it well.",
+      "answers": [
+        "No matter what you do, do it well."
+      ],
+      "explain": "Làm gì → what."
+    },
+    {
+      "type": "translate",
+      "vi": "Dù trời lạnh thế nào anh ấy cũng đi bơi.",
+      "answers": [
+        "However cold it is, he goes swimming.",
+        "No matter how cold it is, he goes swimming.",
+        "However cold it is, he still goes swimming.",
+        "No matter how cold it is, he still goes swimming.",
+        "However cold it gets, he goes swimming."
+      ],
+      "explain": "However + tính từ."
+    },
+    {
+      "type": "translate",
+      "vi": "Ai đến trước sẽ được chỗ tốt nhất.",
+      "answers": [
+        "Whoever comes first gets the best seat.",
+        "Whoever comes first will get the best seat.",
+        "Whoever arrives first gets the best seat.",
+        "Whoever arrives first will get the best seat.",
+        "Whoever comes first gets the best place."
+      ],
+      "explain": "Whoever = bất cứ ai."
+    }
+  ]
+}
