@@ -1,0 +1,346 @@
+{
+  "id": "modals-deduction",
+  "level": "B1",
+  "title": "Must, might, can't: đoán chắc chắn đến đâu",
+  "summary": "Đoán về hiện tại dựa vào dấu hiệu: must (chắc chắn đúng), might, may, could (có thể), can't (chắc chắn không).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Whose phone is this?",
+      "vi": "Điện thoại của ai đây?"
+    },
+    {
+      "who": "B",
+      "en": "It [[must be]] Nam's. He has the same case.",
+      "vi": "Chắc chắn là của Nam. Cậu ấy có cái ốp giống hệt."
+    },
+    {
+      "who": "A",
+      "en": "It [[can't be]] his. He's using his phone right now.",
+      "vi": "Không thể là của cậu ấy. Cậu ấy đang dùng điện thoại kia mà."
+    },
+    {
+      "who": "B",
+      "en": "Then it [[might be]] Lan's.",
+      "vi": "Thế thì có lẽ là của Lan."
+    },
+    {
+      "who": "A",
+      "en": "Maybe. She [[must be looking]] for it.",
+      "vi": "Có thể. Chắc cô ấy đang tìm nó."
+    },
+    {
+      "who": "B",
+      "en": "Let's call her.",
+      "vi": "Gọi cho cô ấy đi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Mức chắc chắn",
+      "heading": "Must, might, can't + V",
+      "rule": "Đoán về hiện tại: **must** = chắc chắn đúng; **might / may / could** = có thể; **can't** = chắc chắn không.",
+      "body": [
+        "Đây không phải *must* = phải (nghĩa vụ) bạn học ở A2. Ở đây **must** là *chắc hẳn*, dựa trên **dấu hiệu** mình thấy.",
+        "Đối nghĩa của must (chắc chắn) là **can't**, không phải *mustn't*. *Mustn't* nghĩa là *cấm*."
+      ],
+      "table": {
+        "head": [
+          "Mức",
+          "Từ",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "gần 100% đúng",
+            "must",
+            "He must be tired."
+          ],
+          [
+            "khoảng 50%",
+            "might / may / could",
+            "He might be tired."
+          ],
+          [
+            "gần 100% không",
+            "can't",
+            "He can't be tired."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "You've been working all day. You [[must be]] tired.",
+          "vi": "Bạn làm cả ngày rồi. Chắc bạn mệt lắm.",
+          "why": "Dấu hiệu rõ (làm cả ngày) → must."
+        },
+        {
+          "en": "That [[can't be]] Lan. She's in Japan this week.",
+          "vi": "Không thể là Lan được. Tuần này cô ấy ở Nhật.",
+          "why": "Chắc chắn không → can't."
+        },
+        {
+          "en": "Take an umbrella. It [[might rain]] later.",
+          "vi": "Mang ô đi. Lát nữa có thể mưa.",
+          "why": "Không chắc → might."
+        }
+      ],
+      "check": {
+        "prompt": "He's not answering. He ___ be asleep.",
+        "options": [
+          "might",
+          "must not",
+          "can"
+        ],
+        "answer": 0,
+        "explain": "Không chắc → might."
+      }
+    },
+    {
+      "part": "Đang diễn ra",
+      "heading": "Must be + V-ing: đoán việc đang diễn ra",
+      "rule": "Đoán việc **đang diễn ra** bây giờ: **must / might / can't + be + V-ing**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "The lights are on. They [[must be watching]] TV.",
+          "vi": "Đèn đang bật. Chắc họ đang xem TV.",
+          "why": "Đang diễn ra → must be + V-ing."
+        },
+        {
+          "en": "She [[can't be working]]. It's Sunday.",
+          "vi": "Cô ấy không thể đang làm việc được. Hôm nay Chủ nhật.",
+          "why": "Chắc chắn không → can't be + V-ing."
+        }
+      ],
+      "check": {
+        "prompt": "Listen! Someone ___ be playing the piano upstairs.",
+        "options": [
+          "must",
+          "can't"
+        ],
+        "answer": 0,
+        "explain": "Nghe thấy tiếng đàn → chắc chắn → must."
+      }
+    },
+    {
+      "part": "So sánh",
+      "heading": "Can't hay mustn't?",
+      "rule": "**can't** = chắc chắn không đúng (đoán). **mustn't** = không được làm (cấm). Hai nghĩa hoàn toàn khác nhau.",
+      "body": [],
+      "examples": [
+        {
+          "en": "He [[can't be]] the manager. He looks too young.",
+          "vi": "Anh ta không thể là quản lý. Trông trẻ quá.",
+          "why": "Đoán → can't."
+        },
+        {
+          "en": "You [[mustn't]] park here.",
+          "vi": "Bạn không được đỗ xe ở đây.",
+          "why": "Cấm → mustn't."
+        }
+      ],
+      "check": {
+        "prompt": "That ___ be true! I saw her five minutes ago.",
+        "options": [
+          "can't",
+          "mustn't"
+        ],
+        "answer": 0,
+        "explain": "Đoán chắc chắn không đúng → can't."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He mustn't be at home. The lights are off.",
+      "right": "He can't be at home. The lights are off.",
+      "why": "Đoán chắc chắn không → can't, không dùng mustn't."
+    },
+    {
+      "wrong": "She must to be tired.",
+      "right": "She must be tired.",
+      "why": "Must + V, không có to."
+    },
+    {
+      "wrong": "He can be at work now. I'm not sure.",
+      "right": "He might be at work now. I'm not sure.",
+      "why": "Không chắc → might / may / could."
+    },
+    {
+      "wrong": "They must watching TV.",
+      "right": "They must be watching TV.",
+      "why": "Đang diễn ra → must be + V-ing."
+    },
+    {
+      "wrong": "It mights be true.",
+      "right": "It might be true.",
+      "why": "Might không thêm -s."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "She has three jobs. She ___ be very busy.",
+      "options": [
+        "must",
+        "can't",
+        "mustn't"
+      ],
+      "answer": 0,
+      "explain": "Dấu hiệu rõ → must."
+    },
+    {
+      "type": "choice",
+      "prompt": "That ___ be our bus. Ours is number 34, not 43.",
+      "options": [
+        "can't",
+        "must",
+        "might"
+      ],
+      "answer": 0,
+      "explain": "Chắc chắn không → can't."
+    },
+    {
+      "type": "choice",
+      "prompt": "I'm not sure where Minh is. He ___ be at the gym.",
+      "options": [
+        "might",
+        "must",
+        "can't"
+      ],
+      "answer": 0,
+      "explain": "Không chắc → might."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào là lời đoán?",
+      "options": [
+        "You mustn't smoke here.",
+        "He can't be serious!"
+      ],
+      "answer": 1,
+      "explain": "Can't (đoán) khác mustn't (cấm)."
+    },
+    {
+      "type": "fill",
+      "prompt": "The phone is ringing. It ___ be my mum. She always calls at this time.",
+      "hint": "chắc chắn",
+      "answers": [
+        "must"
+      ],
+      "explain": "Dấu hiệu rõ → must."
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ be hungry. He has just had a big lunch.",
+      "hint": "chắc chắn không",
+      "answers": [
+        "can't",
+        "cannot"
+      ],
+      "explain": "Chắc chắn không → can't."
+    },
+    {
+      "type": "fill",
+      "prompt": "They aren't answering. They might ___ sleeping.",
+      "hint": "be",
+      "answers": [
+        "be"
+      ],
+      "explain": "Might + be + V-ing."
+    },
+    {
+      "type": "fill",
+      "prompt": "Ask Hoa. She ___ know the answer.",
+      "hint": "có thể",
+      "answers": [
+        "might",
+        "may",
+        "could"
+      ],
+      "explain": "Không chắc → might / may / could."
+    },
+    {
+      "type": "fill",
+      "prompt": "Her eyes are red. She must ___ crying.",
+      "hint": "have / be",
+      "answers": [
+        "be",
+        "have been"
+      ],
+      "explain": "Must be (have been) + V-ing."
+    },
+    {
+      "type": "order",
+      "vi": "Chắc bạn đói lắm rồi.",
+      "words": [
+        "You",
+        "must",
+        "be",
+        "very",
+        "hungry."
+      ],
+      "explain": "Must + be."
+    },
+    {
+      "type": "order",
+      "vi": "Đó không thể là câu trả lời đúng.",
+      "words": [
+        "That",
+        "can't",
+        "be",
+        "the",
+        "right",
+        "answer."
+      ],
+      "explain": "Can't + be."
+    },
+    {
+      "type": "fix",
+      "sentence": "It mustn't be easy to raise three kids alone, I think.",
+      "answers": [
+        "It can't be easy to raise three kids alone, I think."
+      ],
+      "explain": "Đoán → can't."
+    },
+    {
+      "type": "fix",
+      "sentence": "He must to be the new teacher.",
+      "answers": [
+        "He must be the new teacher."
+      ],
+      "explain": "Must + V."
+    },
+    {
+      "type": "fix",
+      "sentence": "They can be on holiday. Their shop is closed this week.",
+      "answers": [
+        "They must be on holiday. Their shop is closed this week."
+      ],
+      "explain": "Dấu hiệu rõ → must."
+    },
+    {
+      "type": "translate",
+      "vi": "Chắc chắn anh ấy đang ngủ.",
+      "answers": [
+        "He must be sleeping.",
+        "He must be asleep."
+      ],
+      "explain": "Must be + V-ing / must be asleep."
+    },
+    {
+      "type": "translate",
+      "vi": "Có lẽ cô ấy đang ở văn phòng.",
+      "answers": [
+        "She might be in the office.",
+        "She may be in the office.",
+        "She could be in the office.",
+        "She might be at the office.",
+        "She may be at the office.",
+        "She could be at the office."
+      ],
+      "explain": "Might / may / could + be."
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": "could-able-to",
+  "level": "B1",
+  "title": "Could, was able to, managed to",
+  "summary": "Nói về khả năng trong quá khứ và việc làm được trong một lần cụ thể: could, was able to, managed to, couldn't.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was the trip to Ha Giang?",
+      "vi": "Chuyến đi Hà Giang thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "Amazing! But the roads were very difficult.",
+      "vi": "Tuyệt lắm! Nhưng đường khó đi lắm."
+    },
+    {
+      "who": "A",
+      "en": "[[Were]] you [[able to]] drive the whole way?",
+      "vi": "Bạn có lái được hết đường không?"
+    },
+    {
+      "who": "B",
+      "en": "No. It rained, but we [[managed to]] reach Dong Van.",
+      "vi": "Không. Trời mưa, nhưng cuối cùng bọn mình cũng tới được Đồng Văn."
+    },
+    {
+      "who": "A",
+      "en": "I [[couldn't]] ride a motorbike when I was younger.",
+      "vi": "Hồi trẻ mình không biết đi xe máy."
+    },
+    {
+      "who": "B",
+      "en": "Really? I [[could]] ride when I was twelve.",
+      "vi": "Thật à? Mình biết đi từ năm mười hai tuổi."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Khả năng chung",
+      "heading": "Could: biết, có khả năng trong quá khứ",
+      "rule": "**could + V** = **biết, có khả năng** làm gì trong quá khứ nói chung (một khoảng thời gian).",
+      "body": [],
+      "examples": [
+        {
+          "en": "My grandfather [[could]] speak French.",
+          "vi": "Ông tôi biết nói tiếng Pháp.",
+          "why": "Khả năng chung trong quá khứ."
+        },
+        {
+          "en": "When I was five, I [[could]] swim.",
+          "vi": "Năm tuổi tôi đã biết bơi.",
+          "why": "Khả năng trong một giai đoạn."
+        }
+      ],
+      "check": {
+        "prompt": "When she was young, she ___ dance very well.",
+        "options": [
+          "could",
+          "managed to"
+        ],
+        "answer": 0,
+        "explain": "Khả năng chung → could."
+      }
+    },
+    {
+      "part": "Một lần cụ thể",
+      "heading": "Was able to, managed to: làm được trong một lần",
+      "rule": "**Một lần cụ thể** đã làm được (thường có khó khăn) → **was / were able to** hoặc **managed to**, **không** dùng could.",
+      "body": [
+        "*Managed to* nhấn mạnh **khó khăn** mà vẫn làm được. Tiếng Việt: *cuối cùng cũng…, xoay xở được*.",
+        "Ở **phủ định** thì dùng **couldn't** được cho cả hai trường hợp: *I couldn't open the door.*"
+      ],
+      "examples": [
+        {
+          "en": "The exam was hard, but I [[was able to]] finish it.",
+          "vi": "Bài thi khó nhưng tôi đã làm xong.",
+          "why": "Một lần cụ thể → was able to (không dùng could)."
+        },
+        {
+          "en": "After three hours, we [[managed to]] fix the car.",
+          "vi": "Sau ba tiếng, cuối cùng chúng tôi cũng sửa được xe.",
+          "why": "Khó khăn nhưng làm được → managed to."
+        },
+        {
+          "en": "I [[couldn't]] find my keys this morning.",
+          "vi": "Sáng nay tôi không tìm được chìa khóa.",
+          "why": "Phủ định → couldn't dùng được."
+        }
+      ],
+      "check": {
+        "prompt": "The fire was big, but everyone ___ escape.",
+        "options": [
+          "was able to",
+          "could"
+        ],
+        "answer": 0,
+        "explain": "Một lần cụ thể làm được → was able to."
+      }
+    },
+    {
+      "part": "Thì khác",
+      "heading": "Be able to ở các thì khác",
+      "rule": "**can** chỉ có hiện tại và **could**. Ở các thì khác dùng **be able to**: will be able to, have been able to.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I'll be able to]] help you tomorrow.",
+          "vi": "Mai tôi sẽ giúp bạn được.",
+          "why": "Tương lai → will be able to (không nói will can)."
+        },
+        {
+          "en": "I [[haven't been able to]] sleep well lately.",
+          "vi": "Dạo này tôi không ngủ ngon được.",
+          "why": "Hiện tại hoàn thành → have been able to."
+        }
+      ],
+      "check": {
+        "prompt": "Next year I ___ drive.",
+        "options": [
+          "will be able to",
+          "will can"
+        ],
+        "answer": 0,
+        "explain": "Tương lai → will be able to."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The test was hard but I could pass it.",
+      "right": "The test was hard but I was able to pass it.",
+      "why": "Một lần cụ thể làm được → was able to."
+    },
+    {
+      "wrong": "I will can come tomorrow.",
+      "right": "I will be able to come tomorrow.",
+      "why": "Không dùng will can → will be able to."
+    },
+    {
+      "wrong": "She managed finish the race.",
+      "right": "She managed to finish the race.",
+      "why": "Manage + to V."
+    },
+    {
+      "wrong": "I haven't could sleep.",
+      "right": "I haven't been able to sleep.",
+      "why": "Hiện tại hoàn thành → have been able to."
+    },
+    {
+      "wrong": "We were able open the door.",
+      "right": "We were able to open the door.",
+      "why": "Be able + to V."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "He ___ read when he was four.",
+      "options": [
+        "could",
+        "managed to",
+        "can"
+      ],
+      "answer": 0,
+      "explain": "Khả năng chung trong quá khứ → could."
+    },
+    {
+      "type": "choice",
+      "prompt": "It was hard, but we ___ get tickets for the concert.",
+      "options": [
+        "managed to",
+        "could",
+        "can"
+      ],
+      "answer": 0,
+      "explain": "Một lần cụ thể, khó khăn → managed to."
+    },
+    {
+      "type": "choice",
+      "prompt": "I ___ find a parking space, so I was late.",
+      "options": [
+        "couldn't",
+        "wasn't managed",
+        "can't"
+      ],
+      "answer": 0,
+      "explain": "Phủ định → couldn't."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I'll be able to come.",
+        "I'll can come.",
+        "I'll able to come."
+      ],
+      "answer": 0,
+      "explain": "Will be able to."
+    },
+    {
+      "type": "fill",
+      "prompt": "After many tries, she ___ to open the jar.",
+      "hint": "quản lý được",
+      "answers": [
+        "managed"
+      ],
+      "explain": "Managed to + V."
+    },
+    {
+      "type": "fill",
+      "prompt": "They ___ able to finish the project on time.",
+      "hint": "be, quá khứ",
+      "answers": [
+        "were"
+      ],
+      "explain": "Were able to."
+    },
+    {
+      "type": "fill",
+      "prompt": "I haven't ___ able to call her yet.",
+      "hint": "be",
+      "answers": [
+        "been"
+      ],
+      "explain": "Have been able to."
+    },
+    {
+      "type": "fill",
+      "prompt": "My father ___ play the guitar when he was young.",
+      "hint": "khả năng chung",
+      "answers": [
+        "could"
+      ],
+      "explain": "Khả năng chung → could."
+    },
+    {
+      "type": "fill",
+      "prompt": "Don't worry. You'll ___ able to do it.",
+      "hint": "be",
+      "answers": [
+        "be"
+      ],
+      "explain": "Will be able to."
+    },
+    {
+      "type": "order",
+      "vi": "Cuối cùng chúng tôi cũng tìm được khách sạn.",
+      "words": [
+        "We",
+        "managed",
+        "to",
+        "find",
+        "the",
+        "hotel",
+        "in",
+        "the",
+        "end."
+      ],
+      "alternatives": [
+        "In the end we managed to find the hotel."
+      ],
+      "explain": "Managed to + V."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi sẽ có thể giúp bạn vào ngày mai.",
+      "words": [
+        "I",
+        "will",
+        "be",
+        "able",
+        "to",
+        "help",
+        "you",
+        "tomorrow."
+      ],
+      "alternatives": [
+        "Tomorrow I will be able to help you."
+      ],
+      "explain": "Will be able to."
+    },
+    {
+      "type": "fix",
+      "sentence": "The road was flooded but we could get home in the end.",
+      "answers": [
+        "The road was flooded but we managed to get home in the end."
+      ],
+      "explain": "Một lần cụ thể → managed to."
+    },
+    {
+      "type": "fix",
+      "sentence": "She will can speak English soon.",
+      "answers": [
+        "She will be able to speak English soon."
+      ],
+      "explain": "Will be able to."
+    },
+    {
+      "type": "fix",
+      "sentence": "He managed passing the exam.",
+      "answers": [
+        "He managed to pass the exam."
+      ],
+      "explain": "Manage + to V."
+    },
+    {
+      "type": "translate",
+      "vi": "Hồi nhỏ tôi biết bơi.",
+      "answers": [
+        "I could swim when I was a child.",
+        "When I was a child, I could swim.",
+        "I could swim when I was young.",
+        "When I was young, I could swim.",
+        "I could swim when I was little.",
+        "When I was little, I could swim.",
+        "I was able to swim when I was a child."
+      ],
+      "explain": "Khả năng chung → could."
+    },
+    {
+      "type": "translate",
+      "vi": "Bài thi khó nhưng tôi vẫn làm xong.",
+      "answers": [
+        "The exam was hard, but I managed to finish it.",
+        "The exam was hard but I managed to finish it.",
+        "The test was hard, but I managed to finish it.",
+        "The exam was difficult, but I managed to finish it.",
+        "The exam was hard, but I was able to finish it.",
+        "The test was difficult, but I managed to finish it.",
+        "The test was hard, but I was able to finish it.",
+        "The exam was difficult, but I was able to finish it."
+      ],
+      "explain": "Một lần cụ thể → managed to / was able to."
+    }
+  ]
+}

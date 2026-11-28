@@ -1,0 +1,352 @@
+{
+  "id": "modals-past",
+  "level": "B1",
+  "title": "Should have, could have, must have",
+  "summary": "Nói về quá khứ: tiếc nuối (should have), khả năng đã không xảy ra (could have) và đoán chuyện đã qua (must have, can't have).",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "I failed the driving test again.",
+      "vi": "Mình lại trượt thi lái xe rồi."
+    },
+    {
+      "who": "B",
+      "en": "You [[should have practiced]] more.",
+      "vi": "Lẽ ra bạn nên tập nhiều hơn."
+    },
+    {
+      "who": "A",
+      "en": "I know. I [[could have booked]] more lessons.",
+      "vi": "Mình biết. Lẽ ra mình có thể đăng ký thêm buổi học."
+    },
+    {
+      "who": "B",
+      "en": "The examiner [[must have been]] strict.",
+      "vi": "Chắc người chấm khó tính lắm."
+    },
+    {
+      "who": "A",
+      "en": "Yes. But I [[shouldn't have driven]] so fast.",
+      "vi": "Ừ. Nhưng lẽ ra mình không nên lái nhanh vậy."
+    },
+    {
+      "who": "B",
+      "en": "Next time you'll pass.",
+      "vi": "Lần sau bạn sẽ đỗ."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Tiếc nuối",
+      "heading": "Should have + V3: lẽ ra nên",
+      "rule": "**should have + V3** = lẽ ra **nên** làm (nhưng đã không làm). **shouldn't have + V3** = lẽ ra **không nên** làm (nhưng đã làm).",
+      "formula": [
+        {
+          "text": "S + [should have] + V3"
+        },
+        {
+          "text": "S + [shouldn't have] + V3"
+        }
+      ],
+      "body": [
+        "Khi nói rút gọn: *should've* /ˈʃʊdəv/. Viết *should of* là sai."
+      ],
+      "examples": [
+        {
+          "en": "I [[should have left]] earlier. I missed the train.",
+          "vi": "Lẽ ra tôi nên đi sớm hơn. Tôi lỡ tàu rồi.",
+          "why": "Đã không đi sớm, giờ tiếc."
+        },
+        {
+          "en": "You [[shouldn't have eaten]] so much.",
+          "vi": "Lẽ ra bạn không nên ăn nhiều thế.",
+          "why": "Đã ăn nhiều → shouldn't have."
+        },
+        {
+          "en": "We [[should have booked]] a table.",
+          "vi": "Lẽ ra chúng ta nên đặt bàn trước.",
+          "why": "Tiếc vì đã không đặt."
+        }
+      ],
+      "check": {
+        "prompt": "I'm so tired. I ___ gone to bed earlier.",
+        "options": [
+          "should have",
+          "should",
+          "must have"
+        ],
+        "answer": 0,
+        "explain": "Tiếc chuyện đã qua → should have + V3."
+      }
+    },
+    {
+      "part": "Khả năng",
+      "heading": "Could have + V3: lẽ ra đã có thể",
+      "rule": "**could have + V3** = **đã có thể** làm (có khả năng) nhưng **đã không** làm, hoặc suýt xảy ra.",
+      "body": [],
+      "examples": [
+        {
+          "en": "You [[could have called]] me. I would have helped.",
+          "vi": "Bạn đã có thể gọi tôi mà. Tôi sẽ giúp.",
+          "why": "Có khả năng gọi nhưng đã không gọi."
+        },
+        {
+          "en": "Be careful! You [[could have fallen]].",
+          "vi": "Cẩn thận! Suýt nữa thì ngã rồi.",
+          "why": "Việc suýt xảy ra."
+        }
+      ],
+      "check": {
+        "prompt": "Why did you take a taxi? I ___ have driven you.",
+        "options": [
+          "could",
+          "must",
+          "should"
+        ],
+        "answer": 0,
+        "explain": "Đã có khả năng chở → could have."
+      }
+    },
+    {
+      "part": "Đoán quá khứ",
+      "heading": "Must have, might have, can't have + V3",
+      "rule": "Đoán về **quá khứ**: **must have** (chắc chắn đã), **might have** (có lẽ đã), **can't have** (chắc chắn đã không).",
+      "body": [],
+      "table": {
+        "head": [
+          "Hiện tại",
+          "Quá khứ"
+        ],
+        "rows": [
+          [
+            "He must be tired.",
+            "He must have been tired."
+          ],
+          [
+            "She might know.",
+            "She might have known."
+          ],
+          [
+            "It can't be true.",
+            "It can't have been true."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The streets are wet. It [[must have rained]] last night.",
+          "vi": "Đường ướt. Chắc đêm qua trời mưa.",
+          "why": "Dấu hiệu rõ → must have + V3."
+        },
+        {
+          "en": "She [[can't have seen]] me. She didn't say hello.",
+          "vi": "Chắc cô ấy không thấy tôi. Cô ấy không chào.",
+          "why": "Chắc chắn không → can't have."
+        },
+        {
+          "en": "I [[might have left]] my keys in the car.",
+          "vi": "Có lẽ tôi để quên chìa khóa trong xe.",
+          "why": "Không chắc → might have."
+        }
+      ],
+      "check": {
+        "prompt": "He passed easily. The test ___ been very hard.",
+        "options": [
+          "can't have",
+          "must have",
+          "should have"
+        ],
+        "answer": 0,
+        "explain": "Đỗ dễ → chắc chắn không khó → can't have."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "I should study harder last year.",
+      "right": "I should have studied harder last year.",
+      "why": "Quá khứ → should have + V3."
+    },
+    {
+      "wrong": "You should of told me.",
+      "right": "You should have told me.",
+      "why": "Viết should have, không viết should of."
+    },
+    {
+      "wrong": "He must have go home.",
+      "right": "He must have gone home.",
+      "why": "Sau have → V3: gone."
+    },
+    {
+      "wrong": "She mustn't have seen us.",
+      "right": "She can't have seen us.",
+      "why": "Đoán chắc chắn không → can't have."
+    },
+    {
+      "wrong": "I could have came earlier.",
+      "right": "I could have come earlier.",
+      "why": "V3 của come là come."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "You look sunburnt. You ___ worn a hat.",
+      "options": [
+        "should have",
+        "must have",
+        "can't have"
+      ],
+      "answer": 0,
+      "explain": "Lẽ ra nên đội mũ → should have."
+    },
+    {
+      "type": "choice",
+      "prompt": "The door was open. Someone ___ forgotten to lock it.",
+      "options": [
+        "must have",
+        "should have",
+        "can't have"
+      ],
+      "answer": 0,
+      "explain": "Dấu hiệu rõ → must have."
+    },
+    {
+      "type": "choice",
+      "prompt": "She ___ have been at the party. She was in Hanoi that night.",
+      "options": [
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explain": "Chắc chắn không → can't have."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào thể hiện tiếc nuối?",
+      "options": [
+        "I must have lost it.",
+        "I should have saved my work."
+      ],
+      "answer": 1,
+      "explain": "Should have = lẽ ra nên."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ have bought more food. Everyone is still hungry.",
+      "hint": "nên",
+      "answers": [
+        "should"
+      ],
+      "explain": "Should have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "He didn't call. He must have ___ busy.",
+      "hint": "be",
+      "answers": [
+        "been"
+      ],
+      "explain": "Must have + V3: been."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'm not sure where it is. I might ___ left it at work.",
+      "hint": "have",
+      "answers": [
+        "have"
+      ],
+      "explain": "Might have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "You ___ have driven so fast. It was dangerous.",
+      "hint": "không nên",
+      "answers": [
+        "shouldn't",
+        "should not"
+      ],
+      "explain": "Shouldn't have + V3."
+    },
+    {
+      "type": "fill",
+      "prompt": "Why didn't you ask me? I could have ___ you.",
+      "hint": "help",
+      "answers": [
+        "helped"
+      ],
+      "explain": "Could have + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Lẽ ra tôi nên nghe lời mẹ.",
+      "words": [
+        "I",
+        "should",
+        "have",
+        "listened",
+        "to",
+        "my",
+        "mother."
+      ],
+      "explain": "Should have + V3."
+    },
+    {
+      "type": "order",
+      "vi": "Chắc cô ấy đã quên cuộc hẹn.",
+      "words": [
+        "She",
+        "must",
+        "have",
+        "forgotten",
+        "the",
+        "appointment."
+      ],
+      "explain": "Must have + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "You should told me earlier.",
+      "answers": [
+        "You should have told me earlier."
+      ],
+      "explain": "Should have + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "It must have rain last night.",
+      "answers": [
+        "It must have rained last night."
+      ],
+      "explain": "Must have + V3."
+    },
+    {
+      "type": "fix",
+      "sentence": "He mustn't have heard the phone.",
+      "answers": [
+        "He can't have heard the phone."
+      ],
+      "explain": "Đoán chắc chắn không → can't have."
+    },
+    {
+      "type": "translate",
+      "vi": "Lẽ ra tôi không nên nói điều đó.",
+      "answers": [
+        "I shouldn't have said that.",
+        "I should not have said that."
+      ],
+      "explain": "Shouldn't have + V3."
+    },
+    {
+      "type": "translate",
+      "vi": "Chắc anh ấy đã bị lạc đường.",
+      "answers": [
+        "He must have got lost.",
+        "He must have gotten lost.",
+        "He must have lost his way."
+      ],
+      "explain": "Must have + V3."
+    }
+  ]
+}
