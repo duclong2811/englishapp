@@ -1,0 +1,353 @@
+{
+  "id": "relative-clauses-more",
+  "level": "B1",
+  "title": "Whose, where và mệnh đề quan hệ có dấu phẩy",
+  "summary": "Mở rộng mệnh đề quan hệ: whose (của người đó), where, when, và mệnh đề có dấu phẩy chỉ để thêm thông tin.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Who's that man?",
+      "vi": "Người đàn ông kia là ai vậy?"
+    },
+    {
+      "who": "B",
+      "en": "He's the neighbor [[whose]] dog barks every night.",
+      "vi": "Đó là ông hàng xóm có con chó sủa suốt đêm."
+    },
+    {
+      "who": "A",
+      "en": "Oh, I know him. He works at the café [[where]] we had lunch.",
+      "vi": "À, mình biết ông ấy. Ông ấy làm ở quán mình ăn trưa hôm trước."
+    },
+    {
+      "who": "B",
+      "en": "Right. His wife, [[who]] is a nurse, works nights.",
+      "vi": "Đúng rồi. Vợ ông ấy là y tá, làm ca đêm."
+    },
+    {
+      "who": "A",
+      "en": "I remember the day [[when]] they moved in.",
+      "vi": "Mình nhớ cái ngày họ chuyển đến."
+    },
+    {
+      "who": "B",
+      "en": "Me too. It was during Tet, [[which]] was crazy!",
+      "vi": "Mình cũng vậy. Đúng dịp Tết, loạn hết cả lên!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Whose",
+      "heading": "Whose: của người, vật đó",
+      "rule": "**whose + danh từ** = **của người (vật) đó**, thay cho his, her, their trong câu thứ hai.",
+      "formula": [
+        {
+          "text": "người + [whose] + danh từ + V…"
+        }
+      ],
+      "body": [
+        "Hai câu *I have a friend. **Her** father is a doctor.* → *I have a friend **whose** father is a doctor.* Whose thay cho her, và luôn có danh từ theo sau."
+      ],
+      "examples": [
+        {
+          "en": "That's the girl [[whose]] phone was stolen.",
+          "vi": "Đó là cô gái bị mất điện thoại.",
+          "why": "Whose phone = điện thoại của cô ấy."
+        },
+        {
+          "en": "I met a man [[whose]] son goes to my school.",
+          "vi": "Tôi gặp một người đàn ông có con trai học trường tôi.",
+          "why": "Whose + son."
+        },
+        {
+          "en": "We stayed in a hotel [[whose]] rooms were tiny.",
+          "vi": "Chúng tôi ở một khách sạn có phòng bé tí.",
+          "why": "Whose dùng được cho cả vật."
+        }
+      ],
+      "check": {
+        "prompt": "She's the writer ___ books are very popular.",
+        "options": [
+          "whose",
+          "who",
+          "which"
+        ],
+        "answer": 0,
+        "explain": "Sách của nhà văn ấy → whose + books."
+      }
+    },
+    {
+      "part": "Where, when",
+      "heading": "Where cho nơi chốn, when cho thời gian",
+      "rule": "**where** = nơi mà (sau đó là câu đầy đủ); **when** = khi mà, lúc mà, dùng sau từ chỉ thời gian.",
+      "body": [],
+      "examples": [
+        {
+          "en": "This is the restaurant [[where]] we met.",
+          "vi": "Đây là nhà hàng nơi chúng tôi gặp nhau.",
+          "why": "Nơi chốn + where + câu đầy đủ."
+        },
+        {
+          "en": "I'll never forget the day [[when]] my son was born.",
+          "vi": "Tôi sẽ không bao giờ quên ngày con trai tôi chào đời.",
+          "why": "Thời gian + when."
+        }
+      ],
+      "check": {
+        "prompt": "Do you remember the year ___ we first met?",
+        "options": [
+          "when",
+          "where",
+          "which"
+        ],
+        "answer": 0,
+        "explain": "Year là thời gian → when."
+      }
+    },
+    {
+      "part": "Dấu phẩy",
+      "heading": "Mệnh đề có dấu phẩy: chỉ thêm thông tin",
+      "rule": "Mệnh đề **giữa hai dấu phẩy** chỉ **thêm thông tin**, bỏ đi câu vẫn đủ nghĩa. Dùng **who / which**, **không dùng that**.",
+      "body": [
+        "Với tên riêng hoặc người, vật duy nhất (my mother, Hanoi), mệnh đề luôn có dấu phẩy.",
+        "**which** còn có thể chỉ **cả câu phía trước**: *He was late, which made me angry.*"
+      ],
+      "table": {
+        "head": [
+          "Không có dấu phẩy (xác định)",
+          "Có dấu phẩy (thêm thông tin)"
+        ],
+        "rows": [
+          [
+            "My sister who lives in Hue is a teacher. (tôi có nhiều chị)",
+            "My sister, who lives in Hue, is a teacher. (tôi chỉ có một chị)"
+          ],
+          [
+            "The phone that I bought is broken.",
+            "My phone, which I bought last year, is broken."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "My mother, [[who]] is 60, still works every day.",
+          "vi": "Mẹ tôi, năm nay 60 tuổi, vẫn đi làm hằng ngày.",
+          "why": "Chỉ có một mẹ → có dấu phẩy, dùng who."
+        },
+        {
+          "en": "Da Lat, [[which]] is in the mountains, is cool all year.",
+          "vi": "Đà Lạt, nằm trên núi, mát quanh năm.",
+          "why": "Tên riêng → có dấu phẩy, dùng which."
+        },
+        {
+          "en": "He forgot my birthday, [[which]] made me sad.",
+          "vi": "Anh ấy quên sinh nhật tôi, điều đó làm tôi buồn.",
+          "why": "Which chỉ cả việc quên sinh nhật."
+        }
+      ],
+      "check": {
+        "prompt": "Hanoi, ___ is the capital, has many lakes.",
+        "options": [
+          "which",
+          "that"
+        ],
+        "answer": 0,
+        "explain": "Có dấu phẩy → which, không dùng that."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "That's the man who his car was stolen.",
+      "right": "That's the man whose car was stolen.",
+      "why": "Của người đó → whose, không dùng who his."
+    },
+    {
+      "wrong": "My father, that is a doctor, works in Hue.",
+      "right": "My father, who is a doctor, works in Hue.",
+      "why": "Có dấu phẩy → who, không dùng that."
+    },
+    {
+      "wrong": "This is the house which I grew up.",
+      "right": "This is the house where I grew up.",
+      "why": "Nơi chốn + câu đầy đủ → where."
+    },
+    {
+      "wrong": "Hanoi which is the capital is very busy.",
+      "right": "Hanoi, which is the capital, is very busy.",
+      "why": "Tên riêng → cần dấu phẩy."
+    },
+    {
+      "wrong": "I failed the test, that made me sad.",
+      "right": "I failed the test, which made me sad.",
+      "why": "Chỉ cả câu trước → which."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "I have a friend ___ brother is a famous singer.",
+      "options": [
+        "whose",
+        "who",
+        "that"
+      ],
+      "answer": 0,
+      "explain": "Anh trai của bạn ấy → whose."
+    },
+    {
+      "type": "choice",
+      "prompt": "My laptop, ___ I bought last month, has stopped working.",
+      "options": [
+        "which",
+        "that",
+        "where"
+      ],
+      "answer": 0,
+      "explain": "Có dấu phẩy → which."
+    },
+    {
+      "type": "choice",
+      "prompt": "That's the hospital ___ I was born.",
+      "options": [
+        "where",
+        "which",
+        "when"
+      ],
+      "answer": 0,
+      "explain": "Nơi chốn + câu đầy đủ → where."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "My boss, who is very kind, gave me a day off.",
+        "My boss, that is very kind, gave me a day off."
+      ],
+      "answer": 0,
+      "explain": "Có dấu phẩy → who."
+    },
+    {
+      "type": "fill",
+      "prompt": "He missed the bus, ___ meant he was late for work.",
+      "hint": "chỉ cả câu",
+      "answers": [
+        "which"
+      ],
+      "explain": "Which chỉ cả việc trước đó."
+    },
+    {
+      "type": "fill",
+      "prompt": "The woman ___ bag I found called to thank me.",
+      "hint": "của",
+      "answers": [
+        "whose"
+      ],
+      "explain": "Whose + bag."
+    },
+    {
+      "type": "fill",
+      "prompt": "Summer is the season ___ most people go on holiday.",
+      "hint": "thời gian",
+      "answers": [
+        "when"
+      ],
+      "explain": "Season là thời gian → when."
+    },
+    {
+      "type": "fill",
+      "prompt": "My grandmother, ___ lives in the countryside, has a big garden.",
+      "hint": "người",
+      "answers": [
+        "who"
+      ],
+      "explain": "Có dấu phẩy, người → who."
+    },
+    {
+      "type": "fill",
+      "prompt": "We visited the village ___ my father grew up.",
+      "hint": "nơi chốn",
+      "answers": [
+        "where"
+      ],
+      "explain": "Where + câu đầy đủ."
+    },
+    {
+      "type": "order",
+      "vi": "Đây là người đàn ông có con gái học cùng lớp tôi.",
+      "words": [
+        "This",
+        "is",
+        "the",
+        "man",
+        "whose",
+        "daughter",
+        "is",
+        "in",
+        "my",
+        "class."
+      ],
+      "explain": "Whose + daughter."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi nhớ ngày chúng tôi gặp nhau.",
+      "words": [
+        "I",
+        "remember",
+        "the",
+        "day",
+        "when",
+        "we",
+        "met."
+      ],
+      "explain": "The day + when."
+    },
+    {
+      "type": "fix",
+      "sentence": "She's the teacher who her students love her.",
+      "answers": [
+        "She's the teacher whose students love her."
+      ],
+      "explain": "Whose + danh từ."
+    },
+    {
+      "type": "fix",
+      "sentence": "My brother, that works in Japan, is coming home.",
+      "answers": [
+        "My brother, who works in Japan, is coming home."
+      ],
+      "explain": "Có dấu phẩy → who."
+    },
+    {
+      "type": "fix",
+      "sentence": "It rained all day, that ruined our trip.",
+      "answers": [
+        "It rained all day, which ruined our trip."
+      ],
+      "explain": "Chỉ cả câu → which."
+    },
+    {
+      "type": "translate",
+      "vi": "Tôi có một người bạn có bố là bác sĩ.",
+      "answers": [
+        "I have a friend whose father is a doctor.",
+        "I have a friend whose dad is a doctor."
+      ],
+      "explain": "Whose + father."
+    },
+    {
+      "type": "translate",
+      "vi": "Hội An, nơi có nhiều đèn lồng, rất đẹp vào ban đêm.",
+      "answers": [
+        "Hoi An, which has many lanterns, is very beautiful at night.",
+        "Hoi An, which has lots of lanterns, is very beautiful at night.",
+        "Hoi An, which has a lot of lanterns, is very beautiful at night.",
+        "Hoi An, which has many lanterns, is beautiful at night.",
+        "Hoi An, where there are many lanterns, is very beautiful at night.",
+        "Hoi An, where there are many lanterns, is beautiful at night."
+      ],
+      "explain": "Tên riêng → có dấu phẩy, which / where."
+    }
+  ]
+}

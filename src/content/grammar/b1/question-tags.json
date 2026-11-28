@@ -1,0 +1,368 @@
+{
+  "id": "question-tags",
+  "level": "B1",
+  "title": "Câu hỏi đuôi: isn't it?, didn't you?",
+  "summary": "Thêm câu hỏi đuôi để xác nhận hoặc bắt chuyện: câu khẳng định đi với đuôi phủ định và ngược lại, giọng lên hay xuống.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "It's a lovely day, [[isn't it]]?",
+      "vi": "Hôm nay đẹp trời nhỉ?"
+    },
+    {
+      "who": "B",
+      "en": "Yes, it is. You're new here, [[aren't you]]?",
+      "vi": "Ừ, đẹp thật. Bạn mới đến đây phải không?"
+    },
+    {
+      "who": "A",
+      "en": "Yes. I started last week.",
+      "vi": "Vâng. Tôi mới bắt đầu tuần trước."
+    },
+    {
+      "who": "B",
+      "en": "You don't know many people yet, [[do you]]?",
+      "vi": "Chắc bạn chưa quen nhiều người nhỉ?"
+    },
+    {
+      "who": "A",
+      "en": "No, I don't. You can show me around, [[can't you]]?",
+      "vi": "Chưa ạ. Anh dẫn tôi đi một vòng được chứ?"
+    },
+    {
+      "who": "B",
+      "en": "Sure. Let's start with the coffee machine, [[shall we]]?",
+      "vi": "Được. Bắt đầu với máy pha cà phê nhé?"
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Khẳng định + đuôi phủ định, phủ định + đuôi khẳng định",
+      "rule": "Câu **khẳng định** → đuôi **phủ định**; câu **phủ định** → đuôi **khẳng định**. Đuôi dùng **trợ động từ** của câu + **đại từ**.",
+      "formula": [
+        {
+          "text": "Câu khẳng định, + [trợ động từ + n't] + đại từ?"
+        },
+        {
+          "text": "Câu phủ định, + [trợ động từ] + đại từ?"
+        }
+      ],
+      "body": [
+        "Câu không có trợ động từ (hiện tại đơn, quá khứ đơn) thì đuôi dùng **do / does / did**. Đuôi luôn dùng **đại từ**, không lặp lại tên: *Lan is here, isn't she?*"
+      ],
+      "table": {
+        "head": [
+          "Câu",
+          "Đuôi"
+        ],
+        "rows": [
+          [
+            "You are tired,",
+            "aren't you?"
+          ],
+          [
+            "She can swim,",
+            "can't she?"
+          ],
+          [
+            "They don't like it,",
+            "do they?"
+          ],
+          [
+            "He went home,",
+            "didn't he?"
+          ],
+          [
+            "You've been there,",
+            "haven't you?"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "She works in a bank, [[doesn't she]]?",
+          "vi": "Cô ấy làm ở ngân hàng, phải không?",
+          "why": "Hiện tại đơn, she → doesn't she."
+        },
+        {
+          "en": "You didn't call him, [[did you]]?",
+          "vi": "Bạn không gọi cho anh ấy à?",
+          "why": "Câu phủ định → đuôi khẳng định: did you."
+        },
+        {
+          "en": "Minh has finished, [[hasn't he]]?",
+          "vi": "Minh xong rồi, phải không?",
+          "why": "Has finished → hasn't he; Minh → he."
+        }
+      ],
+      "check": {
+        "prompt": "They live in Hue, ___?",
+        "options": [
+          "don't they",
+          "aren't they",
+          "do they"
+        ],
+        "answer": 0,
+        "explain": "Hiện tại đơn, khẳng định → don't they."
+      }
+    },
+    {
+      "part": "Đặc biệt",
+      "heading": "I am, let's, mệnh lệnh",
+      "rule": "**I am… → aren't I?**; **Let's… → shall we?**; mệnh lệnh nhờ vả → **will you? / could you?**",
+      "body": [],
+      "examples": [
+        {
+          "en": "I'm late, [[aren't I]]?",
+          "vi": "Tôi muộn rồi, đúng không?",
+          "why": "I am → aren't I (không nói amn't I)."
+        },
+        {
+          "en": "Let's order pizza, [[shall we]]?",
+          "vi": "Gọi pizza nhé?",
+          "why": "Let's → shall we."
+        },
+        {
+          "en": "Pass me the salt, [[will you]]?",
+          "vi": "Đưa giúp tôi lọ muối nhé?",
+          "why": "Mệnh lệnh nhờ vả → will you."
+        }
+      ],
+      "check": {
+        "prompt": "Let's go for a walk, ___?",
+        "options": [
+          "shall we",
+          "don't we",
+          "let we"
+        ],
+        "answer": 0,
+        "explain": "Let's → shall we."
+      }
+    },
+    {
+      "part": "Ngữ điệu",
+      "heading": "Giọng xuống hay giọng lên?",
+      "rule": "**Giọng xuống**: chắc chắn, chỉ cần người nghe đồng ý. **Giọng lên**: không chắc, thật sự muốn hỏi.",
+      "body": [
+        "Câu hỏi đuôi rất hay dùng để **bắt chuyện** (*Nice weather, isn't it?*) hoặc **nói nhẹ nhàng** hơn câu hỏi trực tiếp. Tiếng Việt tương tự: *…nhỉ?, …phải không?, …nhé?*"
+      ],
+      "examples": [
+        {
+          "en": "It's cold today, [[isn't it]]?",
+          "vi": "Hôm nay lạnh nhỉ.",
+          "why": "Giọng xuống: ai cũng thấy lạnh, chỉ bắt chuyện."
+        },
+        {
+          "en": "You're coming tomorrow, [[aren't you]]?",
+          "vi": "Mai bạn đến chứ?",
+          "why": "Giọng lên: không chắc, muốn biết."
+        }
+      ],
+      "check": {
+        "prompt": "Bạn thấy trời đang mưa to và muốn bắt chuyện. Giọng của đuôi isn't it? thường là:",
+        "options": [
+          "xuống",
+          "lên"
+        ],
+        "answer": 0,
+        "explain": "Chắc chắn, chỉ bắt chuyện → giọng xuống."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "You like coffee, isn't it?",
+      "right": "You like coffee, don't you?",
+      "why": "Đuôi dùng trợ động từ của câu: like → don't you."
+    },
+    {
+      "wrong": "She went home, wasn't she?",
+      "right": "She went home, didn't she?",
+      "why": "Quá khứ đơn → didn't."
+    },
+    {
+      "wrong": "I'm right, am not I?",
+      "right": "I'm right, aren't I?",
+      "why": "I am → aren't I."
+    },
+    {
+      "wrong": "Lan is here, isn't Lan?",
+      "right": "Lan is here, isn't she?",
+      "why": "Đuôi dùng đại từ."
+    },
+    {
+      "wrong": "You don't eat meat, don't you?",
+      "right": "You don't eat meat, do you?",
+      "why": "Câu phủ định → đuôi khẳng định."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "You speak Japanese, ___?",
+      "options": [
+        "don't you",
+        "aren't you",
+        "do you"
+      ],
+      "answer": 0,
+      "explain": "Hiện tại đơn, khẳng định → don't you."
+    },
+    {
+      "type": "choice",
+      "prompt": "He can't drive, ___?",
+      "options": [
+        "can he",
+        "can't he",
+        "does he"
+      ],
+      "answer": 0,
+      "explain": "Phủ định → đuôi khẳng định: can he."
+    },
+    {
+      "type": "choice",
+      "prompt": "They have been to Sa Pa, ___?",
+      "options": [
+        "haven't they",
+        "didn't they",
+        "don't they"
+      ],
+      "answer": 0,
+      "explain": "Have been → haven't they."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "I'm late, aren't I?",
+        "I'm late, am I not?",
+        "I'm late, isn't it?"
+      ],
+      "answer": 0,
+      "explain": "I am → aren't I."
+    },
+    {
+      "type": "fill",
+      "prompt": "She was at the meeting, ___ she?",
+      "hint": "trợ động từ",
+      "answers": [
+        "wasn't"
+      ],
+      "explain": "Was → wasn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "You didn't forget the tickets, ___ you?",
+      "hint": "trợ động từ",
+      "answers": [
+        "did"
+      ],
+      "explain": "Phủ định → did you."
+    },
+    {
+      "type": "fill",
+      "prompt": "Let's take a break, ___ we?",
+      "hint": "đặc biệt",
+      "answers": [
+        "shall"
+      ],
+      "explain": "Let's → shall we."
+    },
+    {
+      "type": "fill",
+      "prompt": "Your parents live in Hue, ___ they?",
+      "hint": "trợ động từ",
+      "answers": [
+        "don't"
+      ],
+      "explain": "Hiện tại đơn → don't they."
+    },
+    {
+      "type": "fill",
+      "prompt": "It will be sunny tomorrow, ___ it?",
+      "hint": "trợ động từ",
+      "answers": [
+        "won't"
+      ],
+      "explain": "Will → won't."
+    },
+    {
+      "type": "order",
+      "vi": "Bạn là bạn của Lan, phải không?",
+      "words": [
+        "You",
+        "are",
+        "Lan's",
+        "friend,",
+        "aren't",
+        "you?"
+      ],
+      "explain": "Are → aren't you."
+    },
+    {
+      "type": "order",
+      "vi": "Hôm qua bạn không đi làm à?",
+      "words": [
+        "You",
+        "didn't",
+        "go",
+        "to",
+        "work",
+        "yesterday,",
+        "did",
+        "you?"
+      ],
+      "explain": "Phủ định → did you."
+    },
+    {
+      "type": "fix",
+      "sentence": "She likes pho, isn't she?",
+      "answers": [
+        "She likes pho, doesn't she?"
+      ],
+      "explain": "Likes → doesn't she."
+    },
+    {
+      "type": "fix",
+      "sentence": "You've finished, didn't you?",
+      "answers": [
+        "You've finished, haven't you?"
+      ],
+      "explain": "Have finished → haven't you."
+    },
+    {
+      "type": "fix",
+      "sentence": "Nam can swim, can't Nam?",
+      "answers": [
+        "Nam can swim, can't he?"
+      ],
+      "explain": "Đuôi dùng đại từ: he."
+    },
+    {
+      "type": "translate",
+      "vi": "Trời đẹp nhỉ?",
+      "answers": [
+        "It's a beautiful day, isn't it?",
+        "It's a nice day, isn't it?",
+        "It's a lovely day, isn't it?",
+        "The weather is nice, isn't it?",
+        "The weather's nice, isn't it?",
+        "The weather is beautiful, isn't it?",
+        "Nice weather, isn't it?"
+      ],
+      "explain": "Khẳng định → isn't it."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn chưa ăn trưa à?",
+      "answers": [
+        "You haven't had lunch, have you?",
+        "You haven't eaten lunch, have you?",
+        "You didn't have lunch, did you?",
+        "You didn't eat lunch, did you?"
+      ],
+      "explain": "Phủ định → đuôi khẳng định."
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "id": "indirect-questions",
+  "level": "B1",
+  "title": "Hỏi lịch sự: Could you tell me where…?",
+  "summary": "Hỏi lịch sự với người lạ, nhân viên: Could you tell me, Do you know, I wonder + từ để hỏi / if + câu kể.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "Excuse me. [[Could you tell me where the post office is]]?",
+      "vi": "Xin lỗi. Anh chỉ giúp tôi bưu điện ở đâu được không?"
+    },
+    {
+      "who": "B",
+      "en": "Sure. It's next to the bank.",
+      "vi": "Được. Nó ở cạnh ngân hàng."
+    },
+    {
+      "who": "A",
+      "en": "Thanks. [[Do you know what time it closes]]?",
+      "vi": "Cảm ơn. Anh có biết mấy giờ nó đóng cửa không?"
+    },
+    {
+      "who": "B",
+      "en": "I think it closes at five.",
+      "vi": "Tôi nghĩ năm giờ đóng cửa."
+    },
+    {
+      "who": "A",
+      "en": "[[I wonder if]] they sell stamps there.",
+      "vi": "Không biết ở đó có bán tem không nhỉ."
+    },
+    {
+      "who": "B",
+      "en": "Yes, they do.",
+      "vi": "Có chứ."
+    }
+  ],
+  "sections": [
+    {
+      "part": "Cấu tạo",
+      "heading": "Mở đầu lịch sự + câu kể",
+      "rule": "**Could you tell me / Do you know + từ để hỏi + chủ ngữ + động từ** (trật tự câu kể, không dùng do/does/did).",
+      "formula": [
+        {
+          "text": "Where is the bank? → Could you tell me where [the bank is]?"
+        },
+        {
+          "text": "What time does it open? → Do you know what time [it opens]?"
+        }
+      ],
+      "body": [
+        "Giống câu hỏi gián tiếp đã học, nhưng **không lùi thì** vì đang hỏi ở hiện tại. Dấu hỏi vẫn giữ nếu cả câu là câu hỏi (*Could you tell me…?*)."
+      ],
+      "examples": [
+        {
+          "en": "Could you tell me [[where the station is]]?",
+          "vi": "Anh chỉ giúp tôi nhà ga ở đâu được không?",
+          "why": "Where + the station + is (không phải is the station)."
+        },
+        {
+          "en": "Do you know [[how much this costs]]?",
+          "vi": "Bạn có biết cái này giá bao nhiêu không?",
+          "why": "Bỏ does: how much + this + costs."
+        },
+        {
+          "en": "Can you tell me [[when the next bus leaves]]?",
+          "vi": "Bạn cho tôi biết chuyến xe tiếp theo khi nào chạy không?",
+          "why": "When + the next bus + leaves."
+        }
+      ],
+      "check": {
+        "prompt": "Could you tell me where ___?",
+        "options": [
+          "the toilet is",
+          "is the toilet"
+        ],
+        "answer": 0,
+        "explain": "Trật tự câu kể: the toilet is."
+      }
+    },
+    {
+      "part": "If / whether",
+      "heading": "Câu hỏi Yes/No: if hoặc whether",
+      "rule": "Câu hỏi **Yes/No** → **if / whether + chủ ngữ + động từ**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "Do you know [[if the shop is open]]?",
+          "vi": "Bạn có biết cửa hàng có mở cửa không?",
+          "why": "Is the shop open? → if the shop is open."
+        },
+        {
+          "en": "Could you tell me [[whether breakfast is included]]?",
+          "vi": "Anh cho tôi hỏi bữa sáng có bao gồm không?",
+          "why": "Is breakfast included? → whether breakfast is included."
+        }
+      ],
+      "check": {
+        "prompt": "Do you know ___ there is a pharmacy near here?",
+        "options": [
+          "if",
+          "that",
+          "is"
+        ],
+        "answer": 0,
+        "explain": "Câu Yes/No → if."
+      }
+    },
+    {
+      "part": "Cách khác",
+      "heading": "I wonder, I'd like to know",
+      "rule": "**I wonder… / I'd like to know…** cũng theo trật tự câu kể, kết thúc bằng **dấu chấm**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "[[I wonder why]] she didn't come.",
+          "vi": "Không biết sao cô ấy không đến.",
+          "why": "I wonder + why + câu kể; dấu chấm."
+        },
+        {
+          "en": "[[I'd like to know]] how long the trip takes.",
+          "vi": "Tôi muốn biết chuyến đi mất bao lâu.",
+          "why": "Câu kể, không có dấu hỏi."
+        }
+      ],
+      "check": {
+        "prompt": "Chọn câu đúng:",
+        "options": [
+          "I wonder where he is.",
+          "I wonder where is he?"
+        ],
+        "answer": 0,
+        "explain": "I wonder + câu kể, dấu chấm."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Could you tell me where is the bank?",
+      "right": "Could you tell me where the bank is?",
+      "why": "Trật tự câu kể: the bank is."
+    },
+    {
+      "wrong": "Do you know what time does the film start?",
+      "right": "Do you know what time the film starts?",
+      "why": "Bỏ does; film → starts."
+    },
+    {
+      "wrong": "Can you tell me is this seat free?",
+      "right": "Can you tell me if this seat is free?",
+      "why": "Câu Yes/No → if + câu kể."
+    },
+    {
+      "wrong": "I wonder what is her name.",
+      "right": "I wonder what her name is.",
+      "why": "Trật tự câu kể."
+    },
+    {
+      "wrong": "Do you know where did she go?",
+      "right": "Do you know where she went?",
+      "why": "Bỏ did; go → went."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Do you know where ___?",
+      "options": [
+        "Lan lives",
+        "does Lan live",
+        "lives Lan"
+      ],
+      "answer": 0,
+      "explain": "Trật tự câu kể: Lan lives."
+    },
+    {
+      "type": "choice",
+      "prompt": "Could you tell me ___ the museum opens?",
+      "options": [
+        "what time",
+        "what time does",
+        "when does"
+      ],
+      "answer": 0,
+      "explain": "What time + câu kể."
+    },
+    {
+      "type": "choice",
+      "prompt": "I wonder ___ he's still angry.",
+      "options": [
+        "if",
+        "that",
+        "does"
+      ],
+      "answer": 0,
+      "explain": "Yes/No → if."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào lịch sự và đúng?",
+      "options": [
+        "Where is the toilet?",
+        "Could you tell me where the toilet is?",
+        "Could you tell me where is the toilet?"
+      ],
+      "answer": 1,
+      "explain": "Mở đầu lịch sự + câu kể."
+    },
+    {
+      "type": "fill",
+      "prompt": "Can you tell me how much the ticket ___?",
+      "hint": "cost",
+      "answers": [
+        "costs"
+      ],
+      "explain": "The ticket → costs."
+    },
+    {
+      "type": "fill",
+      "prompt": "Do you know ___ the bank is open on Saturday?",
+      "hint": "if / whether",
+      "answers": [
+        "if",
+        "whether"
+      ],
+      "explain": "Câu Yes/No → if / whether."
+    },
+    {
+      "type": "fill",
+      "prompt": "Could you tell me where I ___ buy a SIM card?",
+      "hint": "có thể",
+      "answers": [
+        "can",
+        "could"
+      ],
+      "explain": "Where + I + can."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'd like to know why the flight ___ delayed.",
+      "hint": "be, quá khứ",
+      "answers": [
+        "was"
+      ],
+      "explain": "Câu kể: the flight was delayed."
+    },
+    {
+      "type": "fill",
+      "prompt": "Do you know what time the last train ___?",
+      "hint": "leave",
+      "answers": [
+        "leaves"
+      ],
+      "explain": "The last train → leaves."
+    },
+    {
+      "type": "order",
+      "vi": "Anh có biết nhà ga ở đâu không?",
+      "words": [
+        "Do",
+        "you",
+        "know",
+        "where",
+        "the",
+        "station",
+        "is?"
+      ],
+      "explain": "Do you know + where + câu kể."
+    },
+    {
+      "type": "order",
+      "vi": "Chị cho tôi hỏi bữa sáng mấy giờ?",
+      "words": [
+        "Could",
+        "you",
+        "tell",
+        "me",
+        "what",
+        "time",
+        "breakfast",
+        "is?"
+      ],
+      "explain": "Could you tell me + what time + câu kể."
+    },
+    {
+      "type": "fix",
+      "sentence": "Could you tell me what time does the shop close?",
+      "answers": [
+        "Could you tell me what time the shop closes?"
+      ],
+      "explain": "Bỏ does, câu kể."
+    },
+    {
+      "type": "fix",
+      "sentence": "Do you know where is the nearest ATM?",
+      "answers": [
+        "Do you know where the nearest ATM is?"
+      ],
+      "explain": "Trật tự câu kể."
+    },
+    {
+      "type": "fix",
+      "sentence": "I wonder why did he leave.",
+      "answers": [
+        "I wonder why he left."
+      ],
+      "explain": "Bỏ did; leave → left."
+    },
+    {
+      "type": "translate",
+      "vi": "Anh có biết cửa hàng này mấy giờ đóng cửa không?",
+      "answers": [
+        "Do you know what time this shop closes?",
+        "Do you know when this shop closes?",
+        "Do you know what time this store closes?",
+        "Do you know when this store closes?",
+        "Do you know what time the shop closes?",
+        "Do you know what time the store closes?"
+      ],
+      "explain": "Do you know + câu kể."
+    },
+    {
+      "type": "translate",
+      "vi": "Bạn chỉ giúp tôi đường đến bệnh viện được không?",
+      "answers": [
+        "Could you tell me how to get to the hospital?",
+        "Can you tell me how to get to the hospital?",
+        "Could you tell me the way to the hospital?",
+        "Can you tell me the way to the hospital?",
+        "Could you show me the way to the hospital?",
+        "Could you tell me how I can get to the hospital?"
+      ],
+      "explain": "Could you tell me + how to get / the way."
+    }
+  ]
+}

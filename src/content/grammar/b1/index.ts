@@ -2,19 +2,23 @@
 import couldAbleTo from "./could-able-to.json";
 import futureContinuous from "./future-continuous.json";
 import haveSomethingDone from "./have-something-done.json";
+import indirectQuestions from "./indirect-questions.json";
 import modalsDeduction from "./modals-deduction.json";
 import modalsPast from "./modals-past.json";
 import passiveBasics from "./passive-basics.json";
 import passiveMore from "./passive-more.json";
 import pastPerfect from "./past-perfect.json";
 import presentPerfectContinuous from "./present-perfect-continuous.json";
+import questionTags from "./question-tags.json";
+import relativeClausesMore from "./relative-clauses-more.json";
 import reportedQuestions from "./reported-questions.json";
 import reportedRequests from "./reported-requests.json";
 import reportedStatements from "./reported-statements.json";
 import secondConditional from "./second-conditional.json";
+import soSuch from "./so-such.json";
 import thirdConditional from "./third-conditional.json";
 import unlessInCase from "./unless-in-case.json";
 import wish from "./wish.json";
 import wouldUsedTo from "./would-used-to.json";
 
-export const grammarFiles: unknown[] = [pastPerfect, presentPerfectContinuous, wouldUsedTo, futureContinuous, passiveBasics, passiveMore, haveSomethingDone, secondConditional, thirdConditional, wish, unlessInCase, reportedStatements, reportedQuestions, reportedRequests, modalsDeduction, modalsPast, couldAbleTo];
+export const grammarFiles: unknown[] = [pastPerfect, presentPerfectContinuous, wouldUsedTo, futureContinuous, passiveBasics, passiveMore, haveSomethingDone, secondConditional, thirdConditional, wish, unlessInCase, reportedStatements, reportedQuestions, reportedRequests, modalsDeduction, modalsPast, couldAbleTo, relativeClausesMore, questionTags, indirectQuestions, soSuch];

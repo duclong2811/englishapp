@@ -1,0 +1,345 @@
+{
+  "id": "so-such",
+  "level": "B1",
+  "title": "So, such, so … that",
+  "summary": "Nhấn mạnh mức độ và nói kết quả: so + tính từ, such + (a) + tính từ + danh từ, so/such … that.",
+  "dialogue": [
+    {
+      "who": "A",
+      "en": "How was Sa Pa?",
+      "vi": "Sa Pa thế nào?"
+    },
+    {
+      "who": "B",
+      "en": "It was [[so]] beautiful! We had [[such]] a good time.",
+      "vi": "Đẹp lắm! Bọn mình chơi vui cực kỳ."
+    },
+    {
+      "who": "A",
+      "en": "Was it cold?",
+      "vi": "Có lạnh không?"
+    },
+    {
+      "who": "B",
+      "en": "It was [[so]] cold [[that]] we couldn't go out at night.",
+      "vi": "Lạnh đến nỗi tối không ra ngoài được."
+    },
+    {
+      "who": "A",
+      "en": "And the food?",
+      "vi": "Còn đồ ăn?"
+    },
+    {
+      "who": "B",
+      "en": "There were [[so many]] good dishes. It was [[such]] delicious food!",
+      "vi": "Nhiều món ngon lắm. Đồ ăn ngon tuyệt!"
+    }
+  ],
+  "sections": [
+    {
+      "part": "So, such",
+      "heading": "So + tính từ, such + danh từ",
+      "rule": "**so + tính từ / trạng từ** (so tired, so fast). **such + (a/an) + tính từ + danh từ** (such a nice day, such kind people).",
+      "formula": [
+        {
+          "text": "[so] + adj / adv"
+        },
+        {
+          "text": "[such a / an] + adj + danh từ số ít"
+        },
+        {
+          "text": "[such] + adj + danh từ số nhiều / không đếm được"
+        }
+      ],
+      "body": [
+        "Cả hai đều nghĩa là *rất, quá, đến thế*, nhưng mạnh và giàu cảm xúc hơn *very*.",
+        "Với số lượng: **so many** + danh từ đếm được, **so much** + danh từ không đếm được."
+      ],
+      "examples": [
+        {
+          "en": "The film was [[so]] boring.",
+          "vi": "Phim chán quá.",
+          "why": "So + tính từ (boring)."
+        },
+        {
+          "en": "It was [[such a]] boring film.",
+          "vi": "Đó là một bộ phim chán đến thế.",
+          "why": "Such a + tính từ + danh từ số ít."
+        },
+        {
+          "en": "They are [[such]] friendly people.",
+          "vi": "Họ là những người thân thiện quá.",
+          "why": "Danh từ số nhiều → such, không có a."
+        }
+      ],
+      "check": {
+        "prompt": "It was ___ hot day that we stayed inside.",
+        "options": [
+          "such a",
+          "so",
+          "so a"
+        ],
+        "answer": 0,
+        "explain": "Có danh từ (day) → such a."
+      }
+    },
+    {
+      "part": "Kết quả",
+      "heading": "So / such … that: đến nỗi mà",
+      "rule": "Nói **kết quả** của mức độ: **so + tính từ + that…** hoặc **such (a) + tính từ + danh từ + that…** (đến nỗi mà).",
+      "body": [],
+      "examples": [
+        {
+          "en": "I was [[so]] tired [[that]] I fell asleep on the bus.",
+          "vi": "Tôi mệt đến nỗi ngủ quên trên xe buýt.",
+          "why": "So + tired + that + kết quả."
+        },
+        {
+          "en": "It was [[such]] a good offer [[that]] I couldn't say no.",
+          "vi": "Lời mời hấp dẫn đến nỗi tôi không thể từ chối.",
+          "why": "Such a + adj + danh từ + that."
+        },
+        {
+          "en": "She spoke [[so]] quickly [[that]] nobody understood.",
+          "vi": "Cô ấy nói nhanh đến nỗi không ai hiểu.",
+          "why": "So + trạng từ + that."
+        }
+      ],
+      "check": {
+        "prompt": "The coffee was ___ strong that I couldn't sleep.",
+        "options": [
+          "so",
+          "such",
+          "such a"
+        ],
+        "answer": 0,
+        "explain": "Chỉ có tính từ (strong) → so."
+      }
+    },
+    {
+      "part": "So many, so much",
+      "heading": "So many, so much",
+      "rule": "**so many** + danh từ **đếm được** số nhiều; **so much** + danh từ **không đếm được**.",
+      "body": [],
+      "examples": [
+        {
+          "en": "There were [[so many]] people at the market.",
+          "vi": "Chợ đông người quá.",
+          "why": "People đếm được → so many."
+        },
+        {
+          "en": "I have [[so much]] work this week.",
+          "vi": "Tuần này tôi nhiều việc quá.",
+          "why": "Work không đếm được → so much."
+        }
+      ],
+      "check": {
+        "prompt": "I ate ___ food that I felt sick.",
+        "options": [
+          "so much",
+          "so many",
+          "such many"
+        ],
+        "answer": 0,
+        "explain": "Food không đếm được → so much."
+      }
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "It was so a beautiful day.",
+      "right": "It was such a beautiful day.",
+      "why": "Có danh từ (day) → such a."
+    },
+    {
+      "wrong": "She is such kind.",
+      "right": "She is so kind.",
+      "why": "Chỉ có tính từ → so."
+    },
+    {
+      "wrong": "They are such a nice people.",
+      "right": "They are such nice people.",
+      "why": "Số nhiều → bỏ a."
+    },
+    {
+      "wrong": "There were so much people.",
+      "right": "There were so many people.",
+      "why": "People đếm được → so many."
+    },
+    {
+      "wrong": "It was such cold that we stayed home.",
+      "right": "It was so cold that we stayed home.",
+      "why": "Chỉ có tính từ → so … that."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "He's ___ a funny person.",
+      "options": [
+        "such",
+        "so",
+        "very"
+      ],
+      "answer": 0,
+      "explain": "Có danh từ (person) → such a."
+    },
+    {
+      "type": "choice",
+      "prompt": "The test was ___ difficult that half the class failed.",
+      "options": [
+        "so",
+        "such",
+        "such a"
+      ],
+      "answer": 0,
+      "explain": "Chỉ có tính từ → so."
+    },
+    {
+      "type": "choice",
+      "prompt": "I've never seen ___ beautiful flowers.",
+      "options": [
+        "such",
+        "so",
+        "such a"
+      ],
+      "answer": 0,
+      "explain": "Số nhiều → such (không a)."
+    },
+    {
+      "type": "choice",
+      "prompt": "Câu nào đúng?",
+      "options": [
+        "It was such a long trip.",
+        "It was so a long trip.",
+        "It was such long trip."
+      ],
+      "answer": 0,
+      "explain": "Such a + adj + danh từ số ít."
+    },
+    {
+      "type": "fill",
+      "prompt": "We had ___ a great time in Hoi An.",
+      "hint": "so / such",
+      "answers": [
+        "such"
+      ],
+      "explain": "Such a + adj + danh từ."
+    },
+    {
+      "type": "fill",
+      "prompt": "The music was ___ loud that I couldn't hear you.",
+      "hint": "so / such",
+      "answers": [
+        "so"
+      ],
+      "explain": "So + tính từ + that."
+    },
+    {
+      "type": "fill",
+      "prompt": "There were ___ many cars that we couldn't move.",
+      "hint": "so / such",
+      "answers": [
+        "so"
+      ],
+      "explain": "So many."
+    },
+    {
+      "type": "fill",
+      "prompt": "It was such a sad film ___ I cried.",
+      "hint": "nối",
+      "answers": [
+        "that"
+      ],
+      "explain": "Such … that."
+    },
+    {
+      "type": "fill",
+      "prompt": "She has ___ much money that she doesn't need to work.",
+      "hint": "so / such",
+      "answers": [
+        "so"
+      ],
+      "explain": "So much + không đếm được."
+    },
+    {
+      "type": "order",
+      "vi": "Hôm nay là một ngày nóng quá.",
+      "words": [
+        "Today",
+        "is",
+        "such",
+        "a",
+        "hot",
+        "day."
+      ],
+      "explain": "Such a + adj + danh từ."
+    },
+    {
+      "type": "order",
+      "vi": "Tôi mệt đến nỗi không ăn được.",
+      "words": [
+        "I",
+        "was",
+        "so",
+        "tired",
+        "that",
+        "I",
+        "couldn't",
+        "eat."
+      ],
+      "explain": "So + adj + that."
+    },
+    {
+      "type": "fix",
+      "sentence": "It was so a good party.",
+      "answers": [
+        "It was such a good party."
+      ],
+      "explain": "Có danh từ → such a."
+    },
+    {
+      "type": "fix",
+      "sentence": "We had such fun that we didn't want to leave, and the food was such good.",
+      "answers": [
+        "We had such fun that we didn't want to leave, and the food was so good."
+      ],
+      "explain": "Chỉ có tính từ → so good."
+    },
+    {
+      "type": "fix",
+      "sentence": "There were so much tourists in Hoi An.",
+      "answers": [
+        "There were so many tourists in Hoi An."
+      ],
+      "explain": "Tourists đếm được → so many."
+    },
+    {
+      "type": "translate",
+      "vi": "Cô ấy là một người tốt bụng đến thế.",
+      "answers": [
+        "She is such a kind person.",
+        "She's such a kind person.",
+        "She is such a nice person.",
+        "She's such a nice person.",
+        "She is such a kind-hearted person."
+      ],
+      "explain": "Such a + adj + danh từ."
+    },
+    {
+      "type": "translate",
+      "vi": "Trời lạnh đến nỗi chúng tôi ở nhà.",
+      "answers": [
+        "It was so cold that we stayed home.",
+        "It was so cold that we stayed at home.",
+        "It was so cold we stayed home.",
+        "It was so cold we stayed at home.",
+        "It's so cold that we're staying home.",
+        "It's so cold that we're staying at home.",
+        "It is so cold that we are staying home.",
+        "It is so cold that we are staying at home."
+      ],
+      "explain": "So + adj + that."
+    }
+  ]
+}
